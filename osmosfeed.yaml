@@ -1,6 +1,10 @@
-# cacheUrl: https://GITHUB_USERNAME.github.io/REPO_NAME/cache.json
+cacheUrl: https://allceo.github.io/REPO_NAME/cache.json
 sources:
-  - href: https://github.com/osmoscraft/osmosfeed/releases.atom # Get new feature announcement via this feed
-  - href: https://css-tricks.com/feed/
-  - href: https://www.smashingmagazine.com/feed/
-  - href: https://www.freecodecamp.org/news/rss/
+  - href: http://feeds.appinn.com/appinns/
+  - href: http://www.woshipm.com/feed
+  - href: https://api.pmcaff.com/api/v0/select/rss
+  - href: http://feed.iplaysoft.com/
+  - href: http://www.dayanzai.me/feed
+  - href: http://www.portablesoft.org/feed/
+  - href: http://feeds.feedburner.com/pfc
+  - href: http://www.qiuquan.cc/feed
