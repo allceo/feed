@@ -2,10 +2,159 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://allceo.github.io/feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-03T01:13:58.399Z</updated>
+    <updated>2023-02-04T01:09:02.179Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://allceo.github.io/feed/index.html"/>
     <link rel="self" href="https://allceo.github.io/feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[《Linux就该这么学》— 非常适合linux技术学习的入门好书]]></title>
+        <id>http://www.dayanzai.me/?p=31988</id>
+        <link href="http://www.dayanzai.me/linux-book.html"/>
+        <updated>2023-02-03T18:28:33.000Z</updated>
+        <summary type="html"><![CDATA[推荐语：“刘遄老师的新书《Linux就该这么学》双十一当天预售出版上市，必读的Linux系统和红帽认证自学书籍 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[时间积木 TimeBlocks 5.3.0 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=1598</id>
+        <link href="http://www.dayanzai.me/timeblocks.html"/>
+        <updated>2023-02-03T16:58:15.000Z</updated>
+        <summary type="html"><![CDATA[时间积木TimeBlocks 中文版由大眼仔旭（www.dayanzai.me）发布。在一个应用程序中创建约会 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[送会员兑换码 – 简单好用的远控神器，国产向日葵轻松开启远程办公！]]></title>
+        <id>http://www.dayanzai.me/?p=47188</id>
+        <link href="http://www.dayanzai.me/sunloginclient.html"/>
+        <updated>2023-02-03T16:53:56.000Z</updated>
+        <summary type="html"><![CDATA[“站在风口，猪都会飞”。这是如今层出不穷创业公司梦寐以求的，而经历疫情洗礼之后的风口，远程办公毫无疑问算是一类 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[安卓免费文件资源管理器 MiXplorer Silver 6.59.1 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=4912</id>
+        <link href="http://www.dayanzai.me/mixplorer.html"/>
+        <updated>2023-02-03T16:20:50.000Z</updated>
+        <summary type="html"><![CDATA[安卓免费文件资源管理器 MiXplorer Silver 中文版由大眼仔旭（www.dayanzai.me）发 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[安卓电子书阅读器 FBReader 3.1.3 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=3026</id>
+        <link href="http://www.dayanzai.me/fbreader.html"/>
+        <updated>2023-02-03T16:09:05.000Z</updated>
+        <summary type="html"><![CDATA[FBReader 是一种快速且高度可定制的电子书阅读器，适用于运行 Android OS 的设备（支持 1.5 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] RSS Guard v4.3.2]]></title>
+        <id>2639+1675435350</id>
+        <link href="https://www.portablefreeware.com/?id=2639&amp;ts=1675435350"/>
+        <updated>2023-02-03T14:42:30.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] Rainlendar Lite v2.19.1]]></title>
+        <id>443+1675435271</id>
+        <link href="https://www.portablefreeware.com/?id=443&amp;ts=1675435271"/>
+        <updated>2023-02-03T14:41:11.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] LeoMoon HotKeyz V1.8.11]]></title>
+        <id>3041+1675432312</id>
+        <link href="https://www.portablefreeware.com/?id=3041&amp;ts=1675432312"/>
+        <updated>2023-02-03T13:51:52.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] NetworkTrafficView v2.43]]></title>
+        <id>2155+1675421270</id>
+        <link href="https://www.portablefreeware.com/?id=2155&amp;ts=1675421270"/>
+        <updated>2023-02-03T10:47:50.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] CPU-Z v2.04]]></title>
+        <id>437+1675421207</id>
+        <link href="https://www.portablefreeware.com/?id=437&amp;ts=1675421207"/>
+        <updated>2023-02-03T10:46:47.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] StressMyPC v5.25]]></title>
+        <id>2189+1675421150</id>
+        <link href="https://www.portablefreeware.com/?id=2189&amp;ts=1675421150"/>
+        <updated>2023-02-03T10:45:50.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[限时 5 折！XMind 出色的思维导图制作软件利器 (全平台)]]></title>
+        <id>https://www.iplaysoft.com/?post_type=news&amp;p=5841</id>
+        <link href="https://www.iplaysoft.com/news/5841"/>
+        <updated>2023-02-03T08:40:44.000Z</updated>
+        <summary type="html"><![CDATA[提起思维导图，很多人第一时间都会想到 XMind，作为思维导图工具中的极为出色的一员，他兼具生产力与美观的界面与配色、提供丰富的导图模板以及多种创意工具。
+
+无论你是职场办公的打工人、大学生、还是创意工作者，借助「思维导图」都能帮你打破思路局限，养成结构思维，整理混乱思绪，提…… 
+「 前往查看原文.... 」
+
+异次元正版数字商城  |  异次元首页  |  微信公众号  |  iPcFun  |  关注微博  |  软件精选]]></summary>
+        <author>
+            <name>X-Force</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Swish – Mac 触控板手势窗口管理工具[macOS]]]></title>
+        <id>https://www.appinn.com/?p=44552</id>
+        <link href="https://www.appinn.com/swish-for-macos/"/>
+        <updated>2023-02-03T07:46:28.000Z</updated>
+        <summary type="html"><![CDATA[Swish 是一款用触控板手势来管理 macOS 中已打开窗口的付费工具，用直观的滑动、捏合、点击和按住手势控制你的 Mac。可与 Magic Trackpad、鼠标和键盘快捷键配合使用。@Appin]]></summary>
+        <author>
+            <name>青小蛙</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[无限制下载器 – 能播放的视频，就能下载[油猴脚本]]]></title>
+        <id>https://www.appinn.com/?p=44544</id>
+        <link href="https://www.appinn.com/445751-unlimited-downloader/"/>
+        <updated>2023-02-03T06:54:50.000Z</updated>
+        <summary type="html"><![CDATA[无限制下载器 是一款简单易用的油猴脚本，开发者只说了一句话：「直接获取视频和音频二进制流，打破所有下载限制。（只要你可以播放，你就可以下载！）」@Appinn 感谢 #3001 群组的 @Untitl]]></summary>
+        <author>
+            <name>青小蛙</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数据恢复——R-Studio Technician 9.2 Build 191126 简体中文注册版（安装版 + 单文件）]]></title>
+        <id>http://bak.qiuquan.cc/?p=4212</id>
+        <link href="http://www.qiuquan.cc/recovery/r-studio.html"/>
+        <updated>2023-02-03T01:20:57.000Z</updated>
+        <summary type="html"><![CDATA[R-Studio Network是一款数据恢复、反删除工具，号称是损坏硬盘上资料的救星。该硬盘资料恢复软件同时支持Windows、Linux等多个系统平台，支持处理NTFS文件系统的加密与压缩状态，并将发生问题的文件复原。]]></summary>
+        <author>
+            <name>泉</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[我是如何通过用户体验五要素，设计医疗信息系统的？]]></title>
         <id>https://www.woshipm.com/?p=5738036</id>
@@ -58,6 +207,16 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Wise Care 365 Pro 4.9.1 Build 472 + 5.9.1 Build 583 + 6.4.4 Build 622 去广告专业版（安装版 + 便携版 + 单文件版）]]></title>
+        <id>http://bak.qiuquan.cc/?p=4208</id>
+        <link href="http://www.qiuquan.cc/systemtool/wise-care-365.html"/>
+        <updated>2023-02-03T00:30:01.000Z</updated>
+        <summary type="html"><![CDATA[清理注册表和磁盘垃圾文件，保护个人隐私记录，提高电脑使用安全。优化系统、提高Windows系统运行速度最好的选择！]]></summary>
+        <author>
+            <name>泉</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[产品周报236期 | 抖音超市正式上线，ChatGPT开发者发布反作弊工具]]></title>
         <id>https://www.woshipm.com/?p=5742108</id>
         <link href="https://www.woshipm.com/it/5742108.html"/>
@@ -91,6 +250,26 @@ ChatGPT的开发者OpenAI正试图通过发行一种新工具来遏制用户将�
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[开源电子书管理软件 Calibre 6.12.0 x64 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=33672</id>
+        <link href="http://www.dayanzai.me/calibre.html"/>
+        <updated>2023-02-02T16:36:41.000Z</updated>
+        <summary type="html"><![CDATA[开源电子书管理软件 Calibre 中文版由大眼仔旭（www.dayanzai.me）发布。Calibre 是 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[威睿工作站 VMware Workstation Pro 17.0.1 Build 21139696 中文免费版]]></title>
+        <id>http://www.dayanzai.me/?p=1921</id>
+        <link href="http://www.dayanzai.me/vmware-workstation.html"/>
+        <updated>2023-02-02T16:36:08.000Z</updated>
+        <summary type="html"><![CDATA[威睿工作站 VMware Workstation 17 中文版 今天小编（www.dayanzai.me）大眼 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[[UPDATE] QuickTextPaste v8.55]]></title>
         <id>2286+1675355682</id>
         <link href="https://www.portablefreeware.com/?id=2286&amp;ts=1675355682"/>
@@ -105,6 +284,16 @@ ChatGPT的开发者OpenAI正试图通过发行一种新工具来遏制用户将�
         <link href="http://www.dayanzai.me/visual-studio-code.html"/>
         <updated>2023-02-02T16:32:26.000Z</updated>
         <summary type="html"><![CDATA[微软开源免费代码编辑器 Visual Studio Code 中文版由大眼仔旭（www.dayanzai.me […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Enigma 文件打包系统 Enigma Virtual Box 10.20 Build 20230201 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=4426</id>
+        <link href="http://www.dayanzai.me/enigma-virtual-box.html"/>
+        <updated>2023-02-02T16:32:17.000Z</updated>
+        <summary type="html"><![CDATA[Enigma Virtual Box 中文版 Enigma 文件打包系统由大眼仔旭（www.dayanzai. […]]]></summary>
         <author>
             <name>大眼仔~旭</name>
         </author>
@@ -681,6 +870,16 @@ MyKeymap - 让键盘党狂喜的开源键盘增强工具！按键映射/系统�
         <summary type="html"><![CDATA[来自问题求助频道 & 微博的问题：https://meta.appinn.net/t/topic/40162 对于这个问题，在询问了原题主之后，首先限定了安卓手机，然后就是用来对微信语音通话录]]></summary>
         <author>
             <name>青小蛙</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[360压缩 4.0.0.1440 去广告精简版（支持压缩包内连续看图）]]></title>
+        <id>http://bak.qiuquan.cc/?p=4147</id>
+        <link href="http://www.qiuquan.cc/compress/360zip.html"/>
+        <updated>2023-01-31T07:35:46.000Z</updated>
+        <summary type="html"><![CDATA[360压缩是新一代的压缩软件，永久免费。360压缩相比传统压缩软件更快更轻巧，支持解压主流的rar、zip、7z、iso等多达42种压缩文件。360压缩内置云安全引擎，可以检测木马，更安全。大幅简化了传统软件的繁琐操作，还改进了超过20项的使用细节，拥有全新的界面。360压缩的主要特点是快速轻巧、兼容性好、更安全、更漂亮，而且是永久免费的。]]></summary>
+        <author>
+            <name>泉</name>
         </author>
     </entry>
     <entry>
@@ -1520,24 +1719,6 @@ Windows 11 22H2 最新官方正式版 ISO 镜像下载 (微软 MSDN 原版系统
         <id>1443+1672937979</id>
         <link href="https://www.portablefreeware.com/?id=1443&amp;ts=1672937979"/>
         <updated>2023-01-05T16:59:39.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] QuickWayToFolders v1.3.10]]></title>
-        <id>1630+1672896028</id>
-        <link href="https://www.portablefreeware.com/?id=1630&amp;ts=1672896028"/>
-        <updated>2023-01-05T05:20:28.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] Info-Base v12.3]]></title>
-        <id>2521+1672851851</id>
-        <link href="https://www.portablefreeware.com/?id=2521&amp;ts=1672851851"/>
-        <updated>2023-01-04T17:04:11.000Z</updated>
         <author>
             <name>The Portable Freeware Collection</name>
         </author>
