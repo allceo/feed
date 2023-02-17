@@ -2,10 +2,101 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://allceo.github.io/feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-16T01:14:01.658Z</updated>
+    <updated>2023-02-17T01:17:34.599Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://allceo.github.io/feed/index.html"/>
     <link rel="self" href="https://allceo.github.io/feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[什么是 AV1 视频编解码器，大眼仔带你快速了解它的用途是什么？]]></title>
+        <id>http://www.dayanzai.me/?p=65156</id>
+        <link href="http://www.dayanzai.me/what-is-av1-video-code.html"/>
+        <updated>2023-02-16T13:05:58.000Z</updated>
+        <summary type="html"><![CDATA[编解码器在互联网上的内容传输中起着关键作用。毕竟，正是由于这些编解码器，从你的相机里出来的数千兆字节的 RAW […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[爱奇艺 6.8.93.7066 + 7.12.126.2563 + 8.12.147.5525 + 9.12.171.6597 + 10.2.0.6681 去广告优化版]]></title>
+        <id>http://bak.qiuquan.cc/?p=4237</id>
+        <link href="http://www.qiuquan.cc/media/pps.html"/>
+        <updated>2023-02-16T11:10:58.000Z</updated>
+        <summary type="html"><![CDATA[爱奇艺PPS影音是全球第一家集P2P直播点播于一身的网络电视软件。爱奇艺PPS影音播放流畅、完全免费，是网民喜爱的装机必备软件。]]></summary>
+        <author>
+            <name>泉</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【万字总结】未来已来，ChatGPT可能从这12个方面彻底改变我们的工作和生活]]></title>
+        <id>https://coffee.pmcaff.com/article/6OBMrM1yk8</id>
+        <link href="https://coffee.pmcaff.com/article/6OBMrM1yk8"/>
+        <updated>2023-02-16T10:20:08.000Z</updated>
+        <summary type="html"><![CDATA[最近，全球互联网圈最热的产品无疑是OpenAI推出的ChatGPT。
+2022年11月30日，ChatGPT正式推出上线；
+2022月12月4日(上线5天)，用户数突破百万；
+2023年1月末(上线2个月)，活跃用户数达到1亿，创造了增速最快的应用记录（微信用户破亿用了433天）。
+2023年1月23日，媒体报道称，微软向OpenAI追加高达100亿美元的投资。
+马斯克认为“我们离强大到危险的AI不远了”、“（ChatGPT）厉害的吓人”。一直以来的AI领头羊Google慌了，甚至Gmail创始人Paul Buchheit（前谷歌第23位员工）在社交媒体上大胆预言，谷歌将在一两年内被ChatGPT等AI“彻底颠覆”。
+
+作者曾经在字节飞书团队做过AI应用产品经理，当时也参与过企业知识图谱，智能助理，搜索和重要消息挖掘相关产品设计，当时的很多设计还是受限于算法模型，基于规则模型做智能在很多场景会显得有些“智障”。在体验过ChatGPT后，并看到ChatGPT将被应用到Bing搜索和Office全家桶时，真的兴奋异常，感觉全新一代的办公工具真的要来了。
+本文会从几个方面展开叙述
+1、ChatGPT是什么？能做什么？存在哪些问题？
+本章内容源于与ChatGPT的对话+作者翻阅资料总结
+2、当前使用ChatGPT能干什么
+抛开炫技（写诗，写小说，闲聊，预测未来，对话游戏等），真实办公场景中，如何应用当前的ChatGPT提升效率
+3、让人兴奋无比的未来应用场景
+将结合自己的一些经验，预判一下当ChatGPT内嵌到office全家桶和开放API给开发者后，可能出现哪些颠覆式的高效办公体验。个人感觉这一轮创新可能影响到每一个职场人，如微软的Project Cortex真的成为企业的知识大脑，企业过往沉淀知识可以为决策提供支持；通过语音或文字控制excel自动处理数据；通过语音或文字创建日…]]></summary>
+        <author>
+            <name>PMCAFF互联网产品社区 - 产品经理人气组织</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ClickmonitorDDC – 最完美的亮度调节软件｜没人用，没人晓，毫无知名度，作者已跑路[Windows]]]></title>
+        <id>https://www.appinn.com/?p=44635</id>
+        <link href="https://www.appinn.com/clickmonitorddc/"/>
+        <updated>2023-02-16T07:57:50.000Z</updated>
+        <summary type="html"><![CDATA[ClickmonitorDDC 是一款 Windows 下的显示器亮度调节软件，可以通过任务栏图标、鼠标滚轮来调整显示器背光亮度和对比度。软件大小 615KB，内存占用 3M，被 @GhassanAr]]></summary>
+        <author>
+            <name>青小蛙</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[什么是 Wi-Fi 7：Wi-Fi 7 路由速度会更快更好吗？]]></title>
+        <id>http://www.dayanzai.me/?p=65151</id>
+        <link href="http://www.dayanzai.me/what-is-wifi-7.html"/>
+        <updated>2023-02-16T03:00:33.000Z</updated>
+        <summary type="html"><![CDATA[Wi-Fi 7 是 802.11 IEEE 无线网络标准的最新发展，它是 Wi-Fi 6 和 Wi-Fi 6E […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] ScreenToGif v2.37.2]]></title>
+        <id>2895+1676515292</id>
+        <link href="https://www.portablefreeware.com/?id=2895&amp;ts=1676515292"/>
+        <updated>2023-02-16T02:41:32.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] Telegram Desktop v4.6.2]]></title>
+        <id>2964+1676515208</id>
+        <link href="https://www.portablefreeware.com/?id=2964&amp;ts=1676515208"/>
+        <updated>2023-02-16T02:40:08.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] sPortable v8.93.0.408]]></title>
+        <id>503+1676515061</id>
+        <link href="https://www.portablefreeware.com/?id=503&amp;ts=1676515061"/>
+        <updated>2023-02-16T02:37:41.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[产品进化论：用方式价值重塑工具类产品]]></title>
         <id>https://www.woshipm.com/?p=5752235</id>
@@ -61,6 +152,56 @@ Pitch的产品理念在我看来应用了很多设计工具的方式去支持PPT
         <updated>2023-02-15T19:31:57.000Z</updated>
         <author>
             <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Photoshop 增强滤镜 DxO Nik Collection 5.5.0.0 x64 中文免费版]]></title>
+        <id>http://www.dayanzai.me/?p=520</id>
+        <link href="http://www.dayanzai.me/nik-collection.html"/>
+        <updated>2023-02-15T16:35:09.000Z</updated>
+        <summary type="html"><![CDATA[DxO Nik Collection 中文版由大眼仔旭（www.dayanzai.me）发布。今天小编（www […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[迷你版 Photoshop PhotoLine 23.52 + x64  中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=3906</id>
+        <link href="http://www.dayanzai.me/photoline.html"/>
+        <updated>2023-02-15T16:33:08.000Z</updated>
+        <summary type="html"><![CDATA[PhotoLine 22.00 中文版 迷你版 Photoshop 由大眼仔旭（www.dayanzai.me […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[优秀数据库工具 Database .NET Free 35.1.8447.1 x64 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=32165</id>
+        <link href="http://www.dayanzai.me/database-net.html"/>
+        <updated>2023-02-15T16:22:28.000Z</updated>
+        <summary type="html"><![CDATA[数据库工具 Database .NET 中文版由大眼仔旭（www.dayanzai.me）发布。经常搞网站开发 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[开源视频编码工具 NotEnoughAV1Encodes 2.1.2 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=6291</id>
+        <link href="http://www.dayanzai.me/notenoughav1encodes.html"/>
+        <updated>2023-02-15T16:20:32.000Z</updated>
+        <summary type="html"><![CDATA[开源视频编码工具 NotEnoughAV1Encodes 中文版 由大眼仔旭（www.dayanzai.me） […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[开源 Windows 桌面录像工具 Simple Screen Recorder 1.2.1 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=3939</id>
+        <link href="http://www.dayanzai.me/simple-screen-recorder.html"/>
+        <updated>2023-02-15T16:05:29.000Z</updated>
+        <summary type="html"><![CDATA[开源 Windows 桌面录像工具 Simple Screen Recorder 中文版由大眼仔旭（www.d […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
         </author>
     </entry>
     <entry>
@@ -7031,24 +7172,6 @@ Vim - 文本/代码编辑器之中最为优秀经典的上古神器！强大、�
         <id>885+1674054010</id>
         <link href="https://www.portablefreeware.com/?id=885&amp;ts=1674054010"/>
         <updated>2023-01-18T15:00:10.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] NewFileTime v6.88]]></title>
-        <id>1695+1674016218</id>
-        <link href="https://www.portablefreeware.com/?id=1695&amp;ts=1674016218"/>
-        <updated>2023-01-18T04:30:18.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] Google Chrome Portable v109.0.5414.75]]></title>
-        <id>2074+1674016170</id>
-        <link href="https://www.portablefreeware.com/?id=2074&amp;ts=1674016170"/>
-        <updated>2023-01-18T04:29:30.000Z</updated>
         <author>
             <name>The Portable Freeware Collection</name>
         </author>
