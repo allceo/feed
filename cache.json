@@ -6,6 +6,26 @@
       "siteUrl": "https://www.appinn.com",
       "articles": [
         {
+          "id": "https://www.appinn.com/?p=44723",
+          "author": "青小蛙",
+          "description": "Lively Wallpaper 是一款开源的 Windows 动态壁纸工具，近日新增音乐壁纸功能，桌面上会增加一个小电视，并实时显示当前播放的音乐信息，支持 SPotify、foobar2000、原",
+          "link": "https://www.appinn.com/lively-wallpaper-music/",
+          "publishedOn": "2023-02-27T10:07:44.000Z",
+          "wordCount": 2366,
+          "title": "Lively Wallpaper 音乐壁纸：用小电视，显示当前播放的音乐[Windows]",
+          "imageUrl": "https://www.appinn.com/wp-content/uploads/2023/02/lively-wallpaper-music.jpgo_.jpg"
+        },
+        {
+          "id": "https://www.appinn.com/?p=44717",
+          "author": "青小蛙",
+          "description": "傲梅轻松备份（AOMEI Backupper）是一款十分著名的 Windows 备份工具，由位于成都的开发商开发，其国际版本近日发布了 7.2 版本，新增 Microsoft Outlook 备份功能",
+          "link": "https://www.appinn.com/aomei-backupper-7-2/",
+          "publishedOn": "2023-02-27T05:01:30.000Z",
+          "wordCount": 2364,
+          "title": "傲梅轻松备份 7.2 版本发布，新增 Microsoft Outlook 备份",
+          "imageUrl": "https://www.appinn.com/wp-content/uploads/2023/02/aomei-backupper.jpgo_.jpg"
+        },
+        {
           "id": "https://www.appinn.com/?p=44708",
           "author": "青小蛙",
           "description": "Immich 是一个直接从 iPhone、Android 手机上备份照片与视频的开源解决方案，通过部署在自己的电脑、NAS、服务器中，使用 App 进行备份。界面酷似 Google Photos，支持",
@@ -3534,6 +3554,56 @@
       "siteUrl": "http://www.dayanzai.me",
       "articles": [
         {
+          "id": "http://www.dayanzai.me/?p=65354",
+          "author": "大眼仔~旭",
+          "description": "相信有不少人会遇到和大眼仔一样的问题，Windows 更新在下载或安装过程中可能会被卡住。当这种情况发生时，电 […]",
+          "link": "http://www.dayanzai.me/windows-update-stuck.html",
+          "publishedOn": "2023-02-27T03:20:01.000Z",
+          "wordCount": 866,
+          "title": "如何解决 Windows 更新升级时卡住的问题？",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=15775",
+          "author": "大眼仔~旭",
+          "description": "OpenOffice Final 中文版由大眼仔旭（www.dayanzai.me）发布。Apache Ope […]",
+          "link": "http://www.dayanzai.me/openoffice.html",
+          "publishedOn": "2023-02-26T16:39:02.000Z",
+          "wordCount": 1107,
+          "title": "开源免费 Office 办公软件 OpenOffice 4.1.14 中文多语免费版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=44803",
+          "author": "大眼仔~旭",
+          "description": "Winget 是一个很多人都非常熟悉的软件包管理器，但大多数休闲用户由于命令行界面而干脆放弃使用它，这可能看起 […]",
+          "link": "http://www.dayanzai.me/wingetui.html",
+          "publishedOn": "2023-02-26T16:36:55.000Z",
+          "wordCount": 1092,
+          "title": "开源软件包管理器 WingetUI 1.6.1 中文多语免费版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=25084",
+          "author": "大眼仔~旭",
+          "description": "扫描全能王 CamScanner Phone PDF Creator 中文版由大眼仔旭（www.dayanza […]",
+          "link": "http://www.dayanzai.me/camscanner.html",
+          "publishedOn": "2023-02-26T16:10:17.000Z",
+          "wordCount": 900,
+          "title": "扫描全能王 CamScanner Phone PDF Creator 6.35.0 中文免费版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=8053",
+          "author": "大眼仔~旭",
+          "description": "开源免费绘图工具 Pinta 中文版由大眼仔旭（www.dayanzai.me）发布。Pinta 是一个免费的 […]",
+          "link": "http://www.dayanzai.me/pinta.html",
+          "publishedOn": "2023-02-26T16:04:52.000Z",
+          "wordCount": 990,
+          "title": "开源免费绘图工具 Pinta 2.1.1 中文多语免费版",
+          "imageUrl": null
+        },
+        {
           "id": "http://www.dayanzai.me/?p=1850",
           "author": "大眼仔~旭",
           "description": "3D 纸模纸艺大师 Pepakura Designer 中文版今天小编（www.dayanzai.me）大眼仔 […]",
@@ -4902,6 +4972,36 @@
       "siteUrl": "https://www.portablefreeware.com/",
       "articles": [
         {
+          "id": "2777+1677534577",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=2777&ts=1677534577",
+          "publishedOn": "2023-02-27T21:49:37.000Z",
+          "wordCount": 579,
+          "title": "[UPDATE] Clibor v2.3.0E",
+          "imageUrl": null
+        },
+        {
+          "id": "1809+1677484113",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=1809&ts=1677484113",
+          "publishedOn": "2023-02-27T07:48:33.000Z",
+          "wordCount": 520,
+          "title": "[UPDATE] HeidiSQL v12.4",
+          "imageUrl": null
+        },
+        {
+          "id": "1048+1677484089",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=1048&ts=1677484089",
+          "publishedOn": "2023-02-27T07:48:09.000Z",
+          "wordCount": 1413,
+          "title": "[UPDATE] PeaZip v9.1.0",
+          "imageUrl": null
+        },
+        {
           "id": "2886+1677417218",
           "author": null,
           "description": "",
@@ -5840,86 +5940,6 @@
           "wordCount": 547,
           "title": "[UPDATE] QOwnNotes v23.1.4",
           "imageUrl": null
-        },
-        {
-          "id": "1424+1674987113",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=1424&ts=1674987113",
-          "publishedOn": "2023-01-29T10:11:53.000Z",
-          "wordCount": 1045,
-          "title": "[UPDATE] KiTTY v0.76.1.3",
-          "imageUrl": null
-        },
-        {
-          "id": "1703+1674986930",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=1703&ts=1674986930",
-          "publishedOn": "2023-01-29T10:08:50.000Z",
-          "wordCount": 1408,
-          "title": "[UPDATE] TeamViewer v15.38.3",
-          "imageUrl": null
-        },
-        {
-          "id": "2089+1674986853",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=2089&ts=1674986853",
-          "publishedOn": "2023-01-29T10:07:33.000Z",
-          "wordCount": 1072,
-          "title": "[UPDATE] SeaMonkey, Portable Edition v2.53.15",
-          "imageUrl": null
-        },
-        {
-          "id": "214+1674986690",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=214&ts=1674986690",
-          "publishedOn": "2023-01-29T10:04:50.000Z",
-          "wordCount": 919,
-          "title": "[UPDATE] WinSCP v5.21.7",
-          "imageUrl": null
-        },
-        {
-          "id": "503+1674985990",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=503&ts=1674985990",
-          "publishedOn": "2023-01-29T09:53:10.000Z",
-          "wordCount": 2104,
-          "title": "[UPDATE] sPortable v8.93.0.404",
-          "imageUrl": null
-        },
-        {
-          "id": "648+1674974008",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=648&ts=1674974008",
-          "publishedOn": "2023-01-29T06:33:28.000Z",
-          "wordCount": 1391,
-          "title": "[UPDATE] Audacity v3.2.4",
-          "imageUrl": null
-        },
-        {
-          "id": "2758+1674973912",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=2758&ts=1674973912",
-          "publishedOn": "2023-01-29T06:31:52.000Z",
-          "wordCount": 466,
-          "title": "[UPDATE] EMDB v5.17",
-          "imageUrl": null
-        },
-        {
-          "id": "1996+1674927722",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=1996&ts=1674927722",
-          "publishedOn": "2023-01-28T17:42:02.000Z",
-          "wordCount": 659,
-          "title": "[UPDATE] jPortable v8 Update 361",
-          "imageUrl": null
         }
       ]
     },
@@ -5928,6 +5948,16 @@
       "feedUrl": "http://www.qiuquan.cc/feed",
       "siteUrl": "http://www.qiuquan.cc",
       "articles": [
+        {
+          "id": "http://bak.qiuquan.cc/?p=4210",
+          "author": "泉",
+          "description": "Revo Uninstaller是一个免费的卸载工具。能够代替Windows系统中的“添加/删除程序”，除此之外，它还包括其它一些实用的功能。例如：能够帮助你清除系统中的垃圾文件，无用的Office临时文件，上网记录，系统启动项管理等。",
+          "link": "http://www.qiuquan.cc/systemtool/revo-uninstaller.html",
+          "publishedOn": "2023-02-27T09:00:09.000Z",
+          "wordCount": 677,
+          "title": "专业软件卸载工具——Revo Uninstaller Pro v5.1.0 破解版（32位｜64位｜32位+64位）",
+          "imageUrl": null
+        },
         {
           "id": "http://bak.qiuquan.cc/?p=4159",
           "author": "泉",

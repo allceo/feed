@@ -2,10 +2,77 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://allceo.github.io/feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-27T01:13:21.082Z</updated>
+    <updated>2023-02-28T01:14:20.350Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://allceo.github.io/feed/index.html"/>
     <link rel="self" href="https://allceo.github.io/feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] Clibor v2.3.0E]]></title>
+        <id>2777+1677534577</id>
+        <link href="https://www.portablefreeware.com/?id=2777&amp;ts=1677534577"/>
+        <updated>2023-02-27T21:49:37.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lively Wallpaper 音乐壁纸：用小电视，显示当前播放的音乐[Windows]]]></title>
+        <id>https://www.appinn.com/?p=44723</id>
+        <link href="https://www.appinn.com/lively-wallpaper-music/"/>
+        <updated>2023-02-27T10:07:44.000Z</updated>
+        <summary type="html"><![CDATA[Lively Wallpaper 是一款开源的 Windows 动态壁纸工具，近日新增音乐壁纸功能，桌面上会增加一个小电视，并实时显示当前播放的音乐信息，支持 SPotify、foobar2000、原]]></summary>
+        <author>
+            <name>青小蛙</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[专业软件卸载工具——Revo Uninstaller Pro v5.1.0 破解版（32位｜64位｜32位+64位）]]></title>
+        <id>http://bak.qiuquan.cc/?p=4210</id>
+        <link href="http://www.qiuquan.cc/systemtool/revo-uninstaller.html"/>
+        <updated>2023-02-27T09:00:09.000Z</updated>
+        <summary type="html"><![CDATA[Revo Uninstaller是一个免费的卸载工具。能够代替Windows系统中的“添加/删除程序”，除此之外，它还包括其它一些实用的功能。例如：能够帮助你清除系统中的垃圾文件，无用的Office临时文件，上网记录，系统启动项管理等。]]></summary>
+        <author>
+            <name>泉</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] HeidiSQL v12.4]]></title>
+        <id>1809+1677484113</id>
+        <link href="https://www.portablefreeware.com/?id=1809&amp;ts=1677484113"/>
+        <updated>2023-02-27T07:48:33.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] PeaZip v9.1.0]]></title>
+        <id>1048+1677484089</id>
+        <link href="https://www.portablefreeware.com/?id=1048&amp;ts=1677484089"/>
+        <updated>2023-02-27T07:48:09.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[傲梅轻松备份 7.2 版本发布，新增 Microsoft Outlook 备份]]></title>
+        <id>https://www.appinn.com/?p=44717</id>
+        <link href="https://www.appinn.com/aomei-backupper-7-2/"/>
+        <updated>2023-02-27T05:01:30.000Z</updated>
+        <summary type="html"><![CDATA[傲梅轻松备份（AOMEI Backupper）是一款十分著名的 Windows 备份工具，由位于成都的开发商开发，其国际版本近日发布了 7.2 版本，新增 Microsoft Outlook 备份功能]]></summary>
+        <author>
+            <name>青小蛙</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何解决 Windows 更新升级时卡住的问题？]]></title>
+        <id>http://www.dayanzai.me/?p=65354</id>
+        <link href="http://www.dayanzai.me/windows-update-stuck.html"/>
+        <updated>2023-02-27T03:20:01.000Z</updated>
+        <summary type="html"><![CDATA[相信有不少人会遇到和大眼仔一样的问题，Windows 更新在下载或安装过程中可能会被卡住。当这种情况发生时，电 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[看15秒广告换30分钟免费听歌，你愿意吗？]]></title>
         <id>https://www.woshipm.com/?p=5764579</id>
@@ -29,6 +96,46 @@ QQ音乐最近推出了一个新功能：看视频免费听会员歌曲。即用
 从这种背景下，靠打折会员费用推动消费就不可靠。比如订阅首月0元，或每月会员费用下降10%，毕竟用户付费意愿下降，…]]></summary>
         <author>
             <name>天天问</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[开源免费 Office 办公软件 OpenOffice 4.1.14 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=15775</id>
+        <link href="http://www.dayanzai.me/openoffice.html"/>
+        <updated>2023-02-26T16:39:02.000Z</updated>
+        <summary type="html"><![CDATA[OpenOffice Final 中文版由大眼仔旭（www.dayanzai.me）发布。Apache Ope […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[开源软件包管理器 WingetUI 1.6.1 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=44803</id>
+        <link href="http://www.dayanzai.me/wingetui.html"/>
+        <updated>2023-02-26T16:36:55.000Z</updated>
+        <summary type="html"><![CDATA[Winget 是一个很多人都非常熟悉的软件包管理器，但大多数休闲用户由于命令行界面而干脆放弃使用它，这可能看起 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[扫描全能王 CamScanner Phone PDF Creator 6.35.0 中文免费版]]></title>
+        <id>http://www.dayanzai.me/?p=25084</id>
+        <link href="http://www.dayanzai.me/camscanner.html"/>
+        <updated>2023-02-26T16:10:17.000Z</updated>
+        <summary type="html"><![CDATA[扫描全能王 CamScanner Phone PDF Creator 中文版由大眼仔旭（www.dayanza […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[开源免费绘图工具 Pinta 2.1.1 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=8053</id>
+        <link href="http://www.dayanzai.me/pinta.html"/>
+        <updated>2023-02-26T16:04:52.000Z</updated>
+        <summary type="html"><![CDATA[开源免费绘图工具 Pinta 中文版由大眼仔旭（www.dayanzai.me）发布。Pinta 是一个免费的 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
         </author>
     </entry>
     <entry>
@@ -10940,78 +11047,6 @@ Ubuntu 22.04 LTS 中文桌面版/服务器正式版ISO镜像下载 - 最流行�
         <id>2816+1675023033</id>
         <link href="https://www.portablefreeware.com/?id=2816&amp;ts=1675023033"/>
         <updated>2023-01-29T20:10:33.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] KiTTY v0.76.1.3]]></title>
-        <id>1424+1674987113</id>
-        <link href="https://www.portablefreeware.com/?id=1424&amp;ts=1674987113"/>
-        <updated>2023-01-29T10:11:53.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] TeamViewer v15.38.3]]></title>
-        <id>1703+1674986930</id>
-        <link href="https://www.portablefreeware.com/?id=1703&amp;ts=1674986930"/>
-        <updated>2023-01-29T10:08:50.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] SeaMonkey, Portable Edition v2.53.15]]></title>
-        <id>2089+1674986853</id>
-        <link href="https://www.portablefreeware.com/?id=2089&amp;ts=1674986853"/>
-        <updated>2023-01-29T10:07:33.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] WinSCP v5.21.7]]></title>
-        <id>214+1674986690</id>
-        <link href="https://www.portablefreeware.com/?id=214&amp;ts=1674986690"/>
-        <updated>2023-01-29T10:04:50.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] sPortable v8.93.0.404]]></title>
-        <id>503+1674985990</id>
-        <link href="https://www.portablefreeware.com/?id=503&amp;ts=1674985990"/>
-        <updated>2023-01-29T09:53:10.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] Audacity v3.2.4]]></title>
-        <id>648+1674974008</id>
-        <link href="https://www.portablefreeware.com/?id=648&amp;ts=1674974008"/>
-        <updated>2023-01-29T06:33:28.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] EMDB v5.17]]></title>
-        <id>2758+1674973912</id>
-        <link href="https://www.portablefreeware.com/?id=2758&amp;ts=1674973912"/>
-        <updated>2023-01-29T06:31:52.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] jPortable v8 Update 361]]></title>
-        <id>1996+1674927722</id>
-        <link href="https://www.portablefreeware.com/?id=1996&amp;ts=1674927722"/>
-        <updated>2023-01-28T17:42:02.000Z</updated>
         <author>
             <name>The Portable Freeware Collection</name>
         </author>
