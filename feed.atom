@@ -2,10 +2,96 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://allceo.github.io/feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-03-02T01:18:27.781Z</updated>
+    <updated>2023-03-03T03:10:51.397Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://allceo.github.io/feed/index.html"/>
     <link rel="self" href="https://allceo.github.io/feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] Audacity v3.2.5]]></title>
+        <id>648+1677785003</id>
+        <link href="https://www.portablefreeware.com/?id=648&amp;ts=1677785003"/>
+        <updated>2023-03-02T19:23:23.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] HWMonitor v1.50]]></title>
+        <id>1831+1677784787</id>
+        <link href="https://www.portablefreeware.com/?id=1831&amp;ts=1677784787"/>
+        <updated>2023-03-02T19:19:47.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] Data Crow v4.7]]></title>
+        <id>1865+1677784678</id>
+        <link href="https://www.portablefreeware.com/?id=1865&amp;ts=1677784678"/>
+        <updated>2023-03-02T19:17:58.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] QOwnNotes v23.3.0]]></title>
+        <id>2816+1677784613</id>
+        <link href="https://www.portablefreeware.com/?id=2816&amp;ts=1677784613"/>
+        <updated>2023-03-02T19:16:53.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[UPDF 编辑器-多平台全能型 PDF 工具|文末有福利]]></title>
+        <id>http://www.dayanzai.me/?p=64200</id>
+        <link href="http://www.dayanzai.me/updf.html"/>
+        <updated>2023-03-02T16:39:19.000Z</updated>
+        <summary type="html"><![CDATA[今天要分享的这款「UPDF」编辑器，是一个颜值与实力并存的神仙软件，小编感觉所有PDF编辑器中最好用的，可以说 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[网络封包分析工具 Wireshark 4.0.4 x64 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=19991</id>
+        <link href="http://www.dayanzai.me/wireshark.html"/>
+        <updated>2023-03-02T16:26:15.000Z</updated>
+        <summary type="html"><![CDATA[Wireshark 抓包分析工具由大眼仔旭（www.dayanzai.me）发布。Wireshark（前称 E […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[微软全新 Chromium 内核 Microsoft Edge 110.0.1587.63 + x64 中文企业版]]></title>
+        <id>http://www.dayanzai.me/?p=42612</id>
+        <link href="http://www.dayanzai.me/microsoft-edge.html"/>
+        <updated>2023-03-02T16:23:41.000Z</updated>
+        <summary type="html"><![CDATA[微软全新 Chromium 内核浏览器 Microsoft Edge 中文版由大眼仔旭（www.dayanza […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nextcloud 集成的纯文本 Markdown 笔记 QOwnNotes 23.3.0 Build 1016 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=41988</id>
+        <link href="http://www.dayanzai.me/qownnotes.html"/>
+        <updated>2023-03-02T16:23:27.000Z</updated>
+        <summary type="html"><![CDATA[QOwnNotes 中文版由大眼仔旭（www.dayanzai.me）整理发布。QOwnNotes 绿色版是一 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[免费开源的 Office 办公套件 LibreOffice 7.5.1 + x64 中文免费版]]></title>
+        <id>http://www.dayanzai.me/?p=5001</id>
+        <link href="http://www.dayanzai.me/librettooffice.html"/>
+        <updated>2023-03-02T16:20:11.000Z</updated>
+        <summary type="html"><![CDATA[LibreOffice 7 中文版由大眼仔旭（www.dayanzai.me）发布。LibreOffice 是 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[骂得越凶，优惠越狠！]]></title>
         <id>https://www.woshipm.com/?p=5769009</id>
@@ -11889,65 +11975,6 @@ MyKeymap - 让键盘党狂喜的开源键盘增强工具！按键映射/系统�
         <summary type="html"><![CDATA[PotPlayer 是 KMPlayer 的原制作者姜龙喜先生（韩国）进入 Daum 公司后的新一代作品。PotPlayer 的优势在于强大的内置解码器；而 KMPlayer 的优势在于强大的定制能力和个性化功能。PotPlayer 使用 VC++ 编写， KMPlayer 为 Delphi 编写。]]></summary>
         <author>
             <name>泉</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] Notepad++ v8.4.9]]></title>
-        <id>539+1675188970</id>
-        <link href="https://www.portablefreeware.com/?id=539&amp;ts=1675188970"/>
-        <updated>2023-01-31T18:16:10.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[文本转语音工具 Balabolka 2.15.0.834 中文绿色版]]></title>
-        <id>http://www.dayanzai.me/?p=7743</id>
-        <link href="http://www.dayanzai.me/balabolka.html"/>
-        <updated>2023-01-31T16:37:42.000Z</updated>
-        <summary type="html"><![CDATA[Balabolka 中文绿色版由大眼仔旭（www.dayanzai.me）发布。Balabolka 绿色中文版 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows 10 增强搜索工具栏 EverythingToolbar 1.0.1 中文免费版]]></title>
-        <id>http://www.dayanzai.me/?p=4645</id>
-        <link href="http://www.dayanzai.me/everythingtoolbar.html"/>
-        <updated>2023-01-31T16:29:39.000Z</updated>
-        <summary type="html"><![CDATA[Win10 任务栏搜索增强工具  EverythingToolbar 中文版由大眼仔旭（www.dayanza […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[开源批量视频转换工具 FFmpeg Batch AV Converter 2.8.5 x64 中文多语免费版]]></title>
-        <id>http://www.dayanzai.me/?p=2136</id>
-        <link href="http://www.dayanzai.me/ffmpeg-batch-av-converter.html"/>
-        <updated>2023-01-31T16:28:47.000Z</updated>
-        <summary type="html"><![CDATA[FFmpeg Batch AV Converter for Windows 是一个 ffmpeg 图形用户界面 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[开源 Windows 系统优化调整工具 SophiApp 1.0.0.94 中文多语免费版]]></title>
-        <id>http://www.dayanzai.me/?p=3284</id>
-        <link href="http://www.dayanzai.me/sophiapp.html"/>
-        <updated>2023-01-31T16:28:06.000Z</updated>
-        <summary type="html"><![CDATA[SophiApp 中文版由大眼仔旭（www.dayanzai.me）发布。Windows 允许最终用户进行大量 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[开源免费桌面笔记工具 DesktopNote 1.6.3 绿色中文版]]></title>
-        <id>http://www.dayanzai.me/?p=8084</id>
-        <link href="http://www.dayanzai.me/desktopnote.html"/>
-        <updated>2023-01-31T16:20:34.000Z</updated>
-        <summary type="html"><![CDATA[开源免费桌面笔记工具 DesktopNote 中文绿色版由大眼仔旭（www.dayanzai.me）发布。Wi […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
         </author>
     </entry>
 </feed>

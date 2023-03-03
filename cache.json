@@ -3864,6 +3864,56 @@
       "siteUrl": "http://www.dayanzai.me",
       "articles": [
         {
+          "id": "http://www.dayanzai.me/?p=64200",
+          "author": "大眼仔~旭",
+          "description": "今天要分享的这款「UPDF」编辑器，是一个颜值与实力并存的神仙软件，小编感觉所有PDF编辑器中最好用的，可以说 […]",
+          "link": "http://www.dayanzai.me/updf.html",
+          "publishedOn": "2023-03-02T16:39:19.000Z",
+          "wordCount": null,
+          "title": "UPDF 编辑器-多平台全能型 PDF 工具|文末有福利",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=19991",
+          "author": "大眼仔~旭",
+          "description": "Wireshark 抓包分析工具由大眼仔旭（www.dayanzai.me）发布。Wireshark（前称 E […]",
+          "link": "http://www.dayanzai.me/wireshark.html",
+          "publishedOn": "2023-03-02T16:26:15.000Z",
+          "wordCount": null,
+          "title": "网络封包分析工具 Wireshark 4.0.4 x64 中文多语免费版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=42612",
+          "author": "大眼仔~旭",
+          "description": "微软全新 Chromium 内核浏览器 Microsoft Edge 中文版由大眼仔旭（www.dayanza […]",
+          "link": "http://www.dayanzai.me/microsoft-edge.html",
+          "publishedOn": "2023-03-02T16:23:41.000Z",
+          "wordCount": null,
+          "title": "微软全新 Chromium 内核 Microsoft Edge 110.0.1587.63 + x64 中文企业版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=41988",
+          "author": "大眼仔~旭",
+          "description": "QOwnNotes 中文版由大眼仔旭（www.dayanzai.me）整理发布。QOwnNotes 绿色版是一 […]",
+          "link": "http://www.dayanzai.me/qownnotes.html",
+          "publishedOn": "2023-03-02T16:23:27.000Z",
+          "wordCount": 1072,
+          "title": "Nextcloud 集成的纯文本 Markdown 笔记 QOwnNotes 23.3.0 Build 1016 中文多语免费版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=5001",
+          "author": "大眼仔~旭",
+          "description": "LibreOffice 7 中文版由大眼仔旭（www.dayanzai.me）发布。LibreOffice 是 […]",
+          "link": "http://www.dayanzai.me/librettooffice.html",
+          "publishedOn": "2023-03-02T16:20:11.000Z",
+          "wordCount": null,
+          "title": "免费开源的 Office 办公套件 LibreOffice 7.5.1 + x64 中文免费版",
+          "imageUrl": null
+        },
+        {
           "id": "http://www.dayanzai.me/?p=53154",
           "author": "大眼仔~旭",
           "description": "大眼仔旭（www.dayanzai.me）给大家推荐分享正版 Wise Care 365 PRO。Wise C […]",
@@ -5317,56 +5367,6 @@
           "wordCount": 1630,
           "title": "开源 Office 协作办公应用 ONLYOFFICE 7.3.0.184 + x64 中文多语免费版",
           "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=7743",
-          "author": "大眼仔~旭",
-          "description": "Balabolka 中文绿色版由大眼仔旭（www.dayanzai.me）发布。Balabolka 绿色中文版 […]",
-          "link": "http://www.dayanzai.me/balabolka.html",
-          "publishedOn": "2023-01-31T16:37:42.000Z",
-          "wordCount": 926,
-          "title": "文本转语音工具 Balabolka 2.15.0.834 中文绿色版",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=4645",
-          "author": "大眼仔~旭",
-          "description": "Win10 任务栏搜索增强工具  EverythingToolbar 中文版由大眼仔旭（www.dayanza […]",
-          "link": "http://www.dayanzai.me/everythingtoolbar.html",
-          "publishedOn": "2023-01-31T16:29:39.000Z",
-          "wordCount": 967,
-          "title": "Windows 10 增强搜索工具栏 EverythingToolbar 1.0.1 中文免费版",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=2136",
-          "author": "大眼仔~旭",
-          "description": "FFmpeg Batch AV Converter for Windows 是一个 ffmpeg 图形用户界面 […]",
-          "link": "http://www.dayanzai.me/ffmpeg-batch-av-converter.html",
-          "publishedOn": "2023-01-31T16:28:47.000Z",
-          "wordCount": 1071,
-          "title": "开源批量视频转换工具 FFmpeg Batch AV Converter 2.8.5 x64 中文多语免费版",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=3284",
-          "author": "大眼仔~旭",
-          "description": "SophiApp 中文版由大眼仔旭（www.dayanzai.me）发布。Windows 允许最终用户进行大量 […]",
-          "link": "http://www.dayanzai.me/sophiapp.html",
-          "publishedOn": "2023-01-31T16:28:06.000Z",
-          "wordCount": 899,
-          "title": "开源 Windows 系统优化调整工具 SophiApp 1.0.0.94 中文多语免费版",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=8084",
-          "author": "大眼仔~旭",
-          "description": "开源免费桌面笔记工具 DesktopNote 中文绿色版由大眼仔旭（www.dayanzai.me）发布。Wi […]",
-          "link": "http://www.dayanzai.me/desktopnote.html",
-          "publishedOn": "2023-01-31T16:20:34.000Z",
-          "wordCount": 882,
-          "title": "开源免费桌面笔记工具 DesktopNote 1.6.3 绿色中文版",
-          "imageUrl": null
         }
       ]
     },
@@ -5381,6 +5381,46 @@
       "feedUrl": "http://feeds.feedburner.com/pfc",
       "siteUrl": "https://www.portablefreeware.com/",
       "articles": [
+        {
+          "id": "648+1677785003",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=648&ts=1677785003",
+          "publishedOn": "2023-03-02T19:23:23.000Z",
+          "wordCount": 1383,
+          "title": "[UPDATE] Audacity v3.2.5",
+          "imageUrl": null
+        },
+        {
+          "id": "1831+1677784787",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=1831&ts=1677784787",
+          "publishedOn": "2023-03-02T19:19:47.000Z",
+          "wordCount": 471,
+          "title": "[UPDATE] HWMonitor v1.50",
+          "imageUrl": null
+        },
+        {
+          "id": "1865+1677784678",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=1865&ts=1677784678",
+          "publishedOn": "2023-03-02T19:17:58.000Z",
+          "wordCount": 674,
+          "title": "[UPDATE] Data Crow v4.7",
+          "imageUrl": null
+        },
+        {
+          "id": "2816+1677784613",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=2816&ts=1677784613",
+          "publishedOn": "2023-03-02T19:16:53.000Z",
+          "wordCount": 538,
+          "title": "[UPDATE] QOwnNotes v23.3.0",
+          "imageUrl": null
+        },
         {
           "id": "2715+1677587247",
           "author": null,
@@ -6299,16 +6339,6 @@
           "publishedOn": "2023-02-01T16:23:00.000Z",
           "wordCount": 992,
           "title": "[UPDATE] Money Manager Ex v1.6.3",
-          "imageUrl": null
-        },
-        {
-          "id": "539+1675188970",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=539&ts=1675188970",
-          "publishedOn": "2023-01-31T18:16:10.000Z",
-          "wordCount": 5908,
-          "title": "[UPDATE] Notepad++ v8.4.9",
           "imageUrl": null
         }
       ]
