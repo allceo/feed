@@ -2,10 +2,160 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://allceo.github.io/feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-03-05T01:23:01.161Z</updated>
+    <updated>2023-03-06T01:14:07.421Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://allceo.github.io/feed/index.html"/>
     <link rel="self" href="https://allceo.github.io/feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[当人人都明白“免费的才是最贵的”时，运营疯了]]></title>
+        <id>https://www.woshipm.com/?p=5771740</id>
+        <link href="https://www.woshipm.com/operate/5771740.html"/>
+        <updated>2023-03-06T00:18:29.000Z</updated>
+        <summary type="html"><![CDATA[免费送用户一些礼品和服务，以此换取一个新用户或传播流量，是互联网运营的一个常见方式。但是近些年，这样的“免费送”活动越来越不吃香了。用户已经很难被打动，吸引来的也不是目标用户。“免费送”活动为什么失灵了？天天问小伙伴们对此提出了他们的看法，一起来看一下吧。
+
+有时候在外面会遇到一些人，他们说要免费送你小风扇、耳机等小礼品，等你接过手后下一秒就从兜里掏出手机要你加他的微信，把你沉淀成私域流量。
+吃饭的时候有些餐厅也会有发朋友圈可以免费菜品的活动；有时会接到推销电话，说到现场来参加活动免费送一些礼品，往往都是被当做骗子电话挂断。
+这些免费送你东西的，不一定全是骗子，还有可能是正在冲KPI的可怜运营人。
+现如今，“免费的才是最贵的”这个观点深入人心，以至于不管用什么东西相送，都鲜少会有用户愿意参与了，连街上领鸡蛋的大爷大妈都少了。
+为什么现在连“免费送”都吸引不了用户了？身为运营，我们该怎么做？
+我们在天天问展开了一场探讨，一起来看看小伙伴们是怎么说的吧~
+天天问每周精选第224期：为什么现在连“免费送”，都已经吸引不了用户？
+文章内容部分来源于@大鱼炖海棠 @木頭 ||楊智茗 @Jack 的精彩回答。
+
+一、用户真的不喜欢“免费的东西”吗？
+答案是否定的。
+天上掉馅饼的好事，有谁会不喜欢？只不过，大家因为各种各样的原因，不再相信了。
+1. 懒
+别不信，真的有免费礼品放在面前都懒得拿的人。
+不过，这个“懒”也体现在获取礼品的方式上。如果只是单纯地添加微信或者公众号，可能有50%的用户会参加；如果是发朋友圈，可能只有30%的用户参加；如果不仅要发朋友圈，还要多人点赞，可能参加的人不到10%。
+每个人的时间和精力都是有限的，在快节奏的都市生活中，人们更是不会为了与自己无关的事情多浪费一丝心力。
+领取礼品的方式越复杂，用户越不愿意参与。
+2. 礼品的价值＜个人隐私
+免费送东西，送的是什…]]></summary>
+        <author>
+            <name>天天问</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VC++运行库一键安装（x86+x64） Ver：2023.3.5]]></title>
+        <id>http://bak.qiuquan.cc/?p=4122</id>
+        <link href="http://www.qiuquan.cc/systemtool/redistributable.html"/>
+        <updated>2023-03-05T13:40:05.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft Visual C++ 运行库，保证采用Microsoft Visual Studio 20XX编写的软件能够正常运行。]]></summary>
+        <author>
+            <name>泉</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[当了用人方后，才明白自己当实习生时为啥总挨骂]]></title>
+        <id>https://www.woshipm.com/?p=5772078</id>
+        <link href="https://www.woshipm.com/zhichang/5772078.html"/>
+        <updated>2023-03-05T07:37:10.000Z</updated>
+        <summary type="html"><![CDATA[当你作为一名实习生时，也许不知道为什么领导为何不认可你的工作成果。但当你成为用人方时，就能够明白当初自己领导对自己的期许。作者从实习生和用人方视角，总结那些需要避过的坑，一起来看看吧。
+
+互联网行业两年工作经验，现在开始独立带项目，手下也有了几个实习生。
+今天在安排待办事项的时候被实习生气到，突然醒悟这不就是三年前的自己吗！
+当了用人方之后，才发现自己以前为啥总挨骂了。以前被骂还总是不服气，现在自己开始带项目的时候，突然理解我前领导当时的心情了。
+我当实习生的时候就是这样的，做事永远等别人安排，布置的任务从来都是用最省力的方法完成，做事也是【交付】而不是【负责】的心态。
+虽然现在大家都爱调侃【面试造火箭，工作螺丝钉】，但如果一直把自己当成一颗没有主观能动性的螺丝钉的话，就永远造不成火箭了。
+虽然现在职场上流行【躺平】【摸鱼】，不过我也想认真地总结和梳理一下三年来思维的转变，同时也给正在找工作的大家一些启发吧。
+一、永远寻求最简单的解法
+在我当实习生的时候，mentor交代下来一个活儿：在一天内做某个项目其中一个环节的文案模板。不仅得有固定的结构，还得有合适的内容。
+说说我在实习生时期的操作：先找前人有没有做过类似的模板，直接修改套用，每个结构填一些简单的内容上去就完了。
+最后被mentor骂得狗血淋头，说我做事全都是偷懒的做法，态度不端正。我当时很委屈，觉得我已经通宵赶ddl做了，为什么还骂我态度有问题？其实很多时候，领导口中的【态度】并不是指你工作不认真，可能指向的是你的思考路径出了问题。
+以我现在的眼光来看，我当时其实有一个惯性思维：永远寻求最简单的解法，而不是最优解。如果觉得做一件事太麻烦，我就会找其他简单快捷的方法去代替它。
+如果让现在的我去做这件工作，我同样也会从找模板开始，不过我会分析这些模板是如何排列结构的，每一个结构都有什么作用，如果改变顺序会不会改变观感。…]]></summary>
+        <author>
+            <name>汪仔7186</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[喜茶，强大的数字化运营能力拆解]]></title>
+        <id>https://www.woshipm.com/it/5772132.html</id>
+        <link href="https://www.woshipm.com/operate/5772132.html"/>
+        <updated>2023-03-05T06:34:44.000Z</updated>
+        <summary type="html"><![CDATA[作为茶饮界的佼佼者，灵感之茶的喜茶是如何俘获众多年轻人的芳心，闯出一条路来的？本文就喜茶的数字化运营进行拆解，希望对你有所启发。
+
+出其不意，就有灵感，灵感之茶的喜茶，这一口浓浓的芝士可是真腻！从奶盖到水果茶，喜茶可是捕获了多少年轻人的灵魂，整条命都是喜茶和空调给的！新茶赛道的玩家不少，奈雪の茶、沪上阿姨、茶颜悦色、伏见桃山、茶理宜世，可谓是层出不穷，把“水果兑水”这个操作玩的花里胡哨！城市地区差异、下沉区域差异、营销手段差异，把新茶行业的热度一度拉到高位。
+一、数字化运营能力建设，为喜茶打下稳固的基础盘
+2018年对于喜茶是一个至关重要的一年，我们根据*艾媒咨询报告显示，在2018年，整个中国现制饮品线下门店数已经超过45万家，新式茶饮的市场规模超过900亿，而喜茶在这一年的估值已经达到惊人的160亿元，线下门店400家以上。面对如此高热度的市场预期，以及不断扩张的门店。提升门店运营效率、提升数字化经营能力、优化供应链升级、优化品牌IP升级，是这一年喜茶的关键决策！
+也正是因为这个背景，喜茶GO小程序正式上线。我们拿到了一些喜茶官方的数据反馈，喜茶GO小程序上线后，消费者在门店使用小程序的点单人均等待时长，对比以往在门店排队等待时长整整缩短了1/3，复购率也实现了3倍的增长，门店超过80%的订单来自小程序。极大层面的推动了门店的运营效率和用户的线上化率。
+二、会员体系升级，用户运营进入零售新阶段
+喜茶的会员体系，是感受最深的用户数字化运营手段，我们在用户生命周期的成长角度来看，从新客引导期，到发展期，成熟期和衰退期的过程中，会员通常是高速发展期或成熟期的必经阶段，也是绝大部分承接用户付费的关键节点。
+相对比这些传统的会员衔接方式，喜茶的解决方案却刚好相反！用户通过在喜茶GO小程序上注册绑定手机号即可默认成为喜茶的会员，从第一步新人引入期就植入会员心智，很顺滑的把消费积分制…]]></summary>
+        <author>
+            <name>Leon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[野生产品经理（1/3）：从开发到产品，一场让我决定转行的技术面试]]></title>
+        <id>https://www.woshipm.com/?p=5765206</id>
+        <link href="https://www.woshipm.com/zhichang/5765206.html"/>
+        <updated>2023-03-05T04:06:06.000Z</updated>
+        <summary type="html"><![CDATA[许多人想转行，但却不知道如何准备面试时，应该怎么做？作者分享了自己从开发转产品的面试过程，希望能给你一些帮助，在这个求职季找到一些方向。
+
+故事时间：2019年3月
+ Part1-海投求职
+离职的时候，公司领导问我接下来是否是继续从事 iOS 行业，我略带羞涩地回答“接下来估计会找产品经理项目经理这样的职位，去从事工作中包含更多与人沟通内容的职业”。领导点点头，还给了我一些不错的建议。
+近两年，在业界周知的是移动端 iOS、Android 的开发每况愈下，这不单单是因为跨平台的开发越来越出色，更主要的原因是在于移动端的开发相对简单，不需要程序员动很多的脑子，只要搭建漂亮的界面，而所需的控件大部分都已经被官方写好了。
+在与老同事依依惜别之后，我终于来到了上海，投简历的时候依然是“iOS 开发工程师”，原因很简单，虽然我以前做过产品经理的活，但我主要还是个 iOS 开发，而直接去投产品经理的岗位估计会无人问津。
+但事实是，我在51、智联、猎聘上投了几家招聘 iOS 的公司，几天过去——无人问津。
+离职之前，我设想的是：第二家公司要么去大厂，可以学习到先进的技术和团队管理经验；要么去小的公司，可以担任更多的职责，从而磨炼自己的能力。我个人更倾向于后者。
+几天过去，我的简历除了被几个提供海外东南亚国家工作的猎头看上，其他公司的人事基本上都是看过之后就直接放进人才库。我因此非常焦虑，想着自己就要在上海当一个无业游民，整日无所事事了。无所事事令我焦虑，焦虑令我无法静下心来学点东西，无所学便无所进步，接着有一种人生开始变得灰暗了的感觉。
+后来我改变了策略，调整了简历内容，主要是让HR可以看到简历上的关键字与他们的招聘对应，接着一口气投了50家公司，没想到这下效果立竿见影，当天就收到面试邀请，隔天又收到两家面试邀请。
+我逐一去查了邀请面试的公司，都是初创公司和外包公司，看过他们的产品也差强…]]></summary>
+        <author>
+            <name>吴德馨</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ChatPDF – 让 ChatGPT 帮你读 PDF 文档。不，它说它就是一个 PDF 文件]]></title>
+        <id>https://www.appinn.com/?p=44775</id>
+        <link href="https://www.appinn.com/chatpdf/"/>
+        <updated>2023-03-05T03:56:57.000Z</updated>
+        <summary type="html"><![CDATA[ChatPDF 是一个能够从 PDF 文件中快速提取有用信息，并通过 ChatGPT 来解读这些信息的 AI 工具。当青小蛙上传了一个 PDF 文档之后，ChatPDF 说：它就是一个 PDF 文件&]]></summary>
+        <author>
+            <name>青小蛙</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[小红书“发布瞬间”功能体验及优化]]></title>
+        <id>https://www.woshipm.com/?p=5770022</id>
+        <link href="https://www.woshipm.com/evaluating/5770022.html"/>
+        <updated>2023-03-05T03:16:59.000Z</updated>
+        <summary type="html"><![CDATA[小红书的瞬间功能，是提供给用户便捷分享日常、打卡的渠道，发表后会在主页上出现“Ta的瞬间”“xx打卡”。本文作者结合自己体验，分析小红书瞬间功能设计存在的问题并给出优化方案，一起来看看吧！
+
+今天分享一下最近我在使用小红书瞬间功能时的一些个人体验与思考，文中会结合B站动态，签到打卡等相关功能的分析，针对小红书瞬间功能设计存在的问题给出解决方案。
+一、小红书“瞬间”使用体验
+1. 瞬间功能架构
+
+2. 瞬间信息架构
+
+3. 瞬间详细说明
+
+3.1 页面介绍及思考
+1、页面入口
+点击首页左上方黄色圆圈直接进入
+首次使用瞬间功能的用户，也可通过点击个人主页中头像右下角黄色加号圆圈直接进入
+2、瞬间编辑区
+从左上到右下：咻咻、语音、日签、打卡、文字、拍摄按钮。页面整体上划，按钮形状改变
+点击不同的按钮，可进入对应的瞬间编辑页面，在任意窗口左右滑动可更换内容形式
+非首次使用瞬间功能的用户，还可由个人主页“发布瞬间”进入瞬间编辑区
+3、语音瞬间展示区
+此处显示的是小红书用户发布的实时语音瞬间，所有声音瞬间呈三行横向分布，每条瞬间带有文字描述
+左右滑动，查看更多语音瞬间
+思考：全部瞬间展示区中，也有语音瞬间，所以将语音瞬间单独拎出来的目的是什么呢？结合小红书早期的语音聊天内测功能，笔者猜测这也是一种声音社交新形式。
+4、全部瞬间展示区
+从左到右，排列不同分类瞬间标签
+此处显示小红书用户发布的所有实时瞬间（包括语音瞬间），所有瞬间呈三栏纵向分布，每条瞬间带有首图，头像和昵称
+上下滑动，查看更多当前分类瞬间
+任意瞬间分类标签下，左右滑动可以查看其他分类瞬间
+思考：采用三栏纵向布局，单条瞬间的展示空间较小，能够在单位面积内展示更多信息；全部瞬间展示区中，只有首图、发布者头像和昵称，不做文字描述，减少用户的理解时间。不过单纯地追求用户浏览时的“爽感”，也会在某种层度上造成户浏览体验差的问题。
+3…]]></summary>
+        <author>
+            <name>木迟先生</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[[UPDATE] Mozilla Firefox, Portable Edition v110.0.1]]></title>
         <id>132+1677955701</id>
@@ -13,6 +163,56 @@
         <updated>2023-03-04T18:48:21.000Z</updated>
         <author>
             <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows 键盘快捷键管理器 Clavier+ 11.3.1 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=3065</id>
+        <link href="http://www.dayanzai.me/clavier-plus.html"/>
+        <updated>2023-03-04T16:30:49.000Z</updated>
+        <summary type="html"><![CDATA[Clavier+ 功能强大且非常易于理解，是一款专为经验丰富的计算机用户设计的软件应用程序，他们在计算机上快速 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[开源 VC++ 运行库集合 VisualCppRedist AIO 0.67.0 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=1830</id>
+        <link href="http://www.dayanzai.me/visualcppredist-aio.html"/>
+        <updated>2023-03-04T16:29:03.000Z</updated>
+        <summary type="html"><![CDATA[开源 VC++ 运行库集合 VisualCppRedist AIO 由大眼仔旭（www.dayanzai.me […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unicode 全功能文本和源编辑器 RJ TextEd 15.82 + x64 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=41458</id>
+        <link href="http://www.dayanzai.me/rj-texted.html"/>
+        <updated>2023-03-04T16:26:52.000Z</updated>
+        <summary type="html"><![CDATA[RJ TextEd 是一个支持 Unicode 的全功能文本和源编辑器。RJ TextEd 是使用 Embar […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows 右键菜单增强工具 FileMenu Tools 8.1.0.0 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=8260</id>
+        <link href="http://www.dayanzai.me/filemenu-tools.html"/>
+        <updated>2023-03-04T16:24:15.000Z</updated>
+        <summary type="html"><![CDATA[Windows 右键菜单增强工具 FileMenu Tools 中文版由大眼仔旭（www.dayanzai.m […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[开源免费 Windows 卸载工具 Bulk Crap Uninstaller 5.5 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=4970</id>
+        <link href="http://www.dayanzai.me/bulk-crap-uninstaller.html"/>
+        <updated>2023-03-04T16:03:52.000Z</updated>
+        <summary type="html"><![CDATA[开源免费 Windows 卸载工具 Bulk Crap Uninstaller 中文版由大眼仔旭（www.da […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
         </author>
     </entry>
     <entry>
@@ -11619,337 +11819,6 @@ CRM客户关系管理系统，是Customer Relationship Management的缩写，是
         <id>1197+1675534589</id>
         <link href="https://www.portablefreeware.com/?id=1197&amp;ts=1675534589"/>
         <updated>2023-02-04T18:16:29.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI时代下，设计行业的未来]]></title>
-        <id>https://www.woshipm.com/?p=5743371</id>
-        <link href="https://www.woshipm.com/ai/5743371.html"/>
-        <updated>2023-02-04T08:53:08.000Z</updated>
-        <summary type="html"><![CDATA[AI人工智能正在越来越多领域中被应用，那么除了AI绘画，在设计领域里，AI人工智能还能在哪些领域发挥功能？在本篇文章里，作者便发表了他的看法，对AI未来在设计领域可发挥的作用进行了总结，一起来看一看吧。
-
-一、前言
-近十年人工智能在语音识别、图文识别、视频识别等方面已经超越了人类，最近比较火的就是AI命题绘画，谷歌、OpenAI纷纷发布自己的AI绘画大师。目前AI绘画水平惊人，绘画效率和效果远超人类，除了绘画领域，畅想一下，AI还可以在其他哪些设计领域可以发挥作用？
-二、未来AI在其他设计领域的运用
-1. 3D建模
-VR/AR发展最迅猛，人们对于沉浸式体验的需求已越发强烈，各类产品不断涌现，如PC端体验口碑较佳的HTC VIVE及移动端具有较大用户规模的小米VR眼镜等。
-然而所有沉浸式360度的场景构建，都需要大量物体的高清3D模型，目前人工建模面临着耗时长、成本高、发展慢、产能低等诸多缺点。
-而人工智能的发展或将打破这一瓶颈，通过机器学习与算法的优化，尤其是伴随Intel等行业巨头在这一方面的投入，商品建模可交由机器/设备自动完成。
-当然，在第一阶段，人类还会参与到后期的优化过程中；区别于目前的手动建模，自动建模至少70%以上是由机器自动完成的。从长期发展来看，由实际需求促发的这一产业必然会越来越成熟。
-自动建模将有效提高商品3D建模的速度，降低成本。但目前，前期的开发成本较高。另外，针对部分物体，如透明、反光等材质的物体，许多自动建模方案仍不适用，门槛较高。
-2. 影视特效
-影视产业逐步走向工业化、规模化和产业化。数字特效制作高人力成本、低生产效率的问题使得越来越多的特效工作者和特效技术开发团队开始重视人工智能技术的应用。
-在不断研究与实践中发现，计算机图形图像技术的应用可对视听素材进行更高效率的剪辑、处理及合成。如工业光魔、Weta等世界顶级视觉特效公司及大型影视制作…]]></summary>
-        <author>
-            <name>WOWDesign</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ahk咏唱术 – 通过声音操纵电脑~]]></title>
-        <id>https://www.appinn.com/?p=44550</id>
-        <link href="https://www.appinn.com/ahk-yongchangshu/"/>
-        <updated>2023-02-04T08:42:20.000Z</updated>
-        <summary type="html"><![CDATA[来源：https://meta.appinn.net/t/topic/40193 作者：@dog 缘起 一直一来就想要通过语音来操纵电脑。现有的方案有这5个：盘点支持用语音控制PC的软件但是普遍中文识]]></summary>
-        <author>
-            <name>青小蛙</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PDF 代表什么以及是什么，有多少种 PDF 格式？]]></title>
-        <id>http://www.dayanzai.me/?p=65024</id>
-        <link href="http://www.dayanzai.me/what-is-pdf.html"/>
-        <updated>2023-02-04T08:21:05.000Z</updated>
-        <summary type="html"><![CDATA[PDF 是呈现和交换信息的最受欢迎的文件格式之一。如果你曾经从互联网上下载过一个可填写的表格，如所得税申报表， […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[需求评审做的好，产品人的自信就少不了！]]></title>
-        <id>https://www.woshipm.com/?p=5742982</id>
-        <link href="https://www.woshipm.com/pd/5742982.html"/>
-        <updated>2023-02-04T07:56:01.000Z</updated>
-        <summary type="html"><![CDATA[产品经理在推动产品设计落地的流程中，大多会经历需求评审这一环节，通过需求评审，产品经理可以尽快完善需求，同时加深其他成员对需求的理解。那么，产品经理要如何才能做好一场需求评审？过程中有哪些注意事项？本篇文章里，作者便进行了经验总结，一起来看一下。
-
-需求评审是每个产品人在产品设计环节都经历过的重要环节。产品经理需要通过需求评审使团队成员对需求理解达成共识，并且在这个过程中发现需求不合理的点，从而完善需求。通过评审后的需求才开始真正的推动落地，产品经理也才可以阶段性的松一口气。
-需求评审做的好，评审各方皆大欢喜，产品经理迈着自信的步伐走出会议室开始指点江山。做不好，评审各方怨声载道，产品经理唉声叹气的坐在位置上看着别人离开的背影开始陷入深深的自我怀疑。更有甚者感慨着“此处不懂爷自有懂爷处”打开了招聘软件。
-所以需求评审还是需要我们好好准备，认真对待打赢一场场需求评审会，通过每一次的需求评审会完善产品，并且在这个过程中提高产品经理做产品的信心。
-一、粮草先行
-自古以来就有“兵马未动，粮草先行”的重要战略指导。我们也一样，需求评审的战争在需求评审会之前就已经开始了。要在评审会前准备好从充足的粮草，也就是需求评审会需要用到的各种资料。
-1. 需求的介绍资料
-从需求提出的背景、所属业务的现状、目前暴露的问题和期望得到的结果四个方面准备介绍内容。
-除自己描述的内容外，争取根据业务属性准备一些与需求背景、场景相关的图片/视频材料，用户反馈，行业文章，政策性文件等材料辅助各方人员能够更容易理解需求内容。
-2. 需求的设计方案
-提供产品经理进行需求设计时的产出物，如流程图、脑图、原型、需求文档等。一般流程图、脑图、原型是会经常被翻阅和评审的，因为图的形式更易理解和传播。
-而需求文档则可以根据所属团队的工作习惯来判断此时提供的需求文档的颗粒度甚至是否提供。比如我所经历的团队，有的需要在评审前准…]]></summary>
-        <author>
-            <name>小游</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] AllDup v4.5.28]]></title>
-        <id>1791+1675497017</id>
-        <link href="https://www.portablefreeware.com/?id=1791&amp;ts=1675497017"/>
-        <updated>2023-02-04T07:50:17.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] calibre v6.12]]></title>
-        <id>2119+1675496989</id>
-        <link href="https://www.portablefreeware.com/?id=2119&amp;ts=1675496989"/>
-        <updated>2023-02-04T07:49:49.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] PortableApps.com Platform v24.0]]></title>
-        <id>1056+1675496946</id>
-        <link href="https://www.portablefreeware.com/?id=1056&amp;ts=1675496946"/>
-        <updated>2023-02-04T07:49:06.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] Notepad3 v6.23.203.2]]></title>
-        <id>2932+1675490176</id>
-        <link href="https://www.portablefreeware.com/?id=2932&amp;ts=1675490176"/>
-        <updated>2023-02-04T05:56:16.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[业务开发“银弹” ——低代码平台建设（低码精华篇）]]></title>
-        <id>https://www.woshipm.com/it/5738096.html</id>
-        <link href="https://www.woshipm.com/pd/5738096.html"/>
-        <updated>2023-02-04T05:43:14.000Z</updated>
-        <summary type="html"><![CDATA[在一些“业务逻辑复杂且非常易变，但单业务功能的逻辑复杂度不是很高”的场景下，低码平台是这类业务系统的提效利器，如审批流管理、营销活动搭建、常规H5建站工具等。本文站在活动工厂的角度，对低码建设进行了分析，一起来看一下吧。
-
-这两年低码的概念始终很火，看上去像是解决代码开发的银弹，但是低码并不是所有的场景都是适用的，在一些“业务逻辑复杂且非常易变，但单业务功能点的逻辑复杂度不是很高”的场景下，低码平台是这类业务系统提效的提效利器，比如说审批流管理、营销活动搭建、常规H5建站工具、报名签到功能等等，业界也有相当多的低码平台布局。
-
-先看一下低码的概念，通常是指一种可视化的开发方法，用较少的代码、较快的速度来交付应用程序，将程序员不想开发的代码做到自动化称之为低代码，相似的概念还有“无代码”，也是一种开发方法，通常是面向非技术性员工，不需要写任何一行代码来构建应用程序，所以两者的差异主要是面向人群的不同和对于代码忍受的力度。拿拖拽式H5建站平台来说，拖拽式H5建站平台本质上属于无码、而基于H5建站的DSL或者规则引擎进行编程则属于低码、H5建站平台本身的开发属于纯代码开发。
-这些概念的没必要区分的那么清楚，大家通常说的“低码” 大多是泛指“无码” + “低码”。
-本文主要站在活动工厂的角度来看低码建设，其中的低码平台的建设思路是互通的，都是大致类似的思想和架构方案，其他业务场景适当微调适配就可以啦，个人认为在大业务领域下的低码建设是最高效的，适用于所有业务并且纯粹的低码是不存在的（仅仅个人观点）。
-一、收益分析
-前面提到做低码平台多么多么有效，到底是如何提效的下面来看下：
-1. 平台定位分析
-我们做一个系统，通常来说参与方有四个：
-
-功能的直接使用方（用户、销售、运营、三方系统）；
-功能的运维方（负责功能的后台运营比如运营、产品）；
-功能的构建方（研发）；
-机器成本等基础资源运维…]]></summary>
-        <author>
-            <name>一个数据人的自留地</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[金融科技的迭代与银行转型]]></title>
-        <id>https://www.woshipm.com/it/5742177.html</id>
-        <link href="https://www.woshipm.com/it/5742177.html"/>
-        <updated>2023-02-04T03:42:55.000Z</updated>
-        <summary type="html"><![CDATA[作为一种新型金融业务模式，互联网金融经历了一定的快速发展阶段，之后逐渐走向稳定，而金融科技的创新也不止于互联网金融模式。那么，金融科技正在经历怎样的发展路径？一起来看看作者的解读与分析。
-
-金融科技的创新曾经风风火火，红火的时候为金融创新而生的科技公司也像雨后春笋般冒出来，不过也像秋风扫落叶一般悉数退场。
-讨论金融科技就离不开互联网金融，我们先看看互联网金融的定义：
-互联网金融是指传统金融机构与互联网企业利用互联网技术和信息通信技术实现资金融通、支付、投资和信息中介服务的新型金融业务模式。
-关于互联网金融在国内如何正式兴起并没有统一的说法，在2003年前后，淘宝网为解决交易双方的信任问题，就推出了支付宝担保交易。2007年，中国出现了第一家P2P网贷公司拍拍贷，2009年银监会发布了《消费金融公司管理试点管理办法》， 并相继成立了北银消费金融公司、四川锦程消费金融公司、中银消费金融公司、捷信消费金融有限公司，2011年，央行下发了第一张第三方支付牌照；直至2013年，被普遍称为“互联网金融元年”。
-从这几年的金融行业创新和发展来看，互联网金融公司就是一个伪创新，随着一系列的金融科技玩家的倒台，互联网金融式的金融科技的发展套路彻底走入到了发展的死胡同。包括BATJ这些互联网巨头早已经放弃了所谓的互联网金融，专心干起来金融科技。
-
-金融简单喊了很多年了，但真正从2013年宝宝类互联网理财产品开始火爆，全民都开始从互联网上了解、认识和使用相关产品，慢慢这个生态有了后来的消费金融、小微金融等行业。
-金融科技还衍生出来的数字金融、普惠金融、智能金融等概念，还是以BATJ为代表的互联网巨头对传统金融机构进行赋能，它们都是通过技术的力量来给金融行业带来本质性的改变，从而衍生出了一系列的新物种。这些新物种相对于传统金融形态来讲已经发生了翻天覆地的变化，而非仅仅只是将新技术与金融行业进行简单…]]></summary>
-        <author>
-            <name>汤向军</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[扫描仪增强工具——VueScan 9.7.98.0 简体中文专业版｜32&64位整合版]]></title>
-        <id>http://www.qiuquan.cc/?p=4791</id>
-        <link href="http://www.qiuquan.cc/image/vuescan.html"/>
-        <updated>2023-02-04T02:40:49.000Z</updated>
-        <summary type="html"><![CDATA[VueScan Pro是一款功能强大的扫描仪软件，支持市场可见绝大多数型号的底片扫描仪，可以更为灵活地控制扫描过程，更深入地发掘硬件潜力，获取色彩完美的高质量扫描结果。]]></summary>
-        <author>
-            <name>泉</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[用ChatGPT剽窃的罪，OpenAI要亲手洗刷]]></title>
-        <id>https://www.woshipm.com/it/5742647.html</id>
-        <link href="https://www.woshipm.com/ai/5742647.html"/>
-        <updated>2023-02-04T02:21:21.000Z</updated>
-        <summary type="html"><![CDATA[ChatGPT 的推出让我们对 AI 人工智能的能力有了进一步的认知，也有不少人动起了脑筋，想用 ChatGPT 来帮自己“作弊”。而现在，OpenAI 推出了 AI 文本检测器，用来辨别文本的实际编写主体。如何解读这一动作？一起来看作者的分析。
-
-聊天机器人ChatGPT的利用价值迅速被人类发掘：学生用它写作业、程序员让它帮忙写代码、新闻网站用它“水”文章……于是，学校不高兴了，公司不高兴了，创作者也不高兴了。
-如今，ChatGPT的“造物主”OpenAI亲自出马，要解决各方人士利用这个工具“作弊”的问题。
-2月1日，OpenAI宣布推出名为AI文本检测器（AI Text Classifier）的新工具，来辅助辨别文本到底是人类编写的，还是AI编写的。
-目前，该工具已经可以免费试用。提交文本后，分类器会生成评估结果，包括以下5种：非常不可能、不太可能、不确定、可能、非常可能（是AI生成的）。
-不过，这个AI文本分类器离成熟还很远。不仅只能识别1000字符以下的文本，而且可靠性还有待提高。
-一名AI研究员Sebastian Raschka用莎士比亚《麦克白》的第一章测试该工具，得到的评估结果是“非常可能”是AI创作的。Sebastian 在推特有14万粉丝，他贴出截图后评论区有人戏谑道：“电影灵感：ChatGPT是一个时空穿越者，实际上人类的创作语言从一开始就是由它影响。”
-
-OpenAI其实对该工具的“不完美”也开诚布公，在网页的说明部分明确写着，根据他们的测试，只有约26%的AI生成文本识别为“非常可能”，还有9%的人类创作会被误判。OpenAI表示：“它仍然存在一些局限性，因此它应该被作为确定文本来源的辅助工具，而非主要判定工具。”
-与其说“不完美”，不如说这个工具还很初级。但即便如此OpenAI也迫不及待地将之发布，一方面是需要各方反馈完善工具，另一方面也是对Cha…]]></summary>
-        <author>
-            <name>字母榜</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[年夜饭用预制菜，能行吗？]]></title>
-        <id>https://www.woshipm.com/it/5740238.html</id>
-        <link href="https://www.woshipm.com/marketing/5740238.html"/>
-        <updated>2023-02-04T01:06:34.000Z</updated>
-        <summary type="html"><![CDATA[每到除夕，年夜饭都成为了每家每户准备的重点。随着预制菜的发展，是否年夜饭也能够列入预制菜名单列表中？本文从年夜饭预制菜的可行性与其机会出发，分享了自己的思考，一起来看看吧。
-
-事情的起源是工作群里同事在提议我们明年可以做年夜饭预制菜：一个礼包解决整桌年夜饭，痛点是年味变弱、爸妈懒得做、年轻人不会做，打温情的情感沟通。
-这个产品可行吗？有市场吗？是真需求吗？
-品牌有能力进入吗？值得投入去做吗？
-我有一丝怀疑，所以产生了这篇思考，欢迎各位看官拍砖讨论~
-文章内容如下：
-分析品牌进入年夜饭预制菜赛道的可行性，主要从消费者洞察切入。
-回过头梳理2C预制菜行业的现状、增长原因及未来机会点。
-一、年夜饭预制菜的可行性分析
-1. 消费者端：需求是真需求吗？
-文化背景：年夜饭是中国传统节日里的团聚一餐，和西方的圣诞节一样，那么在这个前提下，我们来看看消费者的行为：
-留学生在国外会选择从馅料到饺子皮，不吝惜麻烦地去手作去准备这一餐；
-西方会大家一起烤火鸡；
-爸妈会提前很多天就开始准备菜单；
-年轻人会提前很久预订餐厅、各种年夜饭餐厅都爆火；
-除夕夜刷朋友圈一定是充斥着年夜饭的饭桌照片，连平时很少发朋友圈的朋友都会出来晒一晒。
-从这些行为里可以看出需求：
-年夜饭依然是大家非常看重，需要吃得好，吃得讲究，用心准备、有仪式感，是新年的纪念，甚至要在朋友圈秀一秀基于这个消费者需求的推演，可以再看看市场行为。
-昨天去逛盒马、陶陶居等，看见了很多品牌的预制菜礼盒，几乎都是餐厅品牌的衍生产品，而且都是诸如佛跳墙、花椒鸡这种工艺复杂、原料讲究、价值能够通过食材直接体现出来的菜品，虽然不知道销量如何，但从选品的逻辑倒推，盒马的采购一定做做过市场可行性分析从刚刚推演的消费者需求的角度分析，这种“大菜”很难自己上手做，又能满足在重要的年夜饭要吃好、吃出仪式感，又有餐饮大品牌背书；看到展示出的内核样子，铺满的鲍鱼、海…]]></summary>
-        <author>
-            <name>Vicky</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[《Linux就该这么学》— 非常适合linux技术学习的入门好书]]></title>
-        <id>http://www.dayanzai.me/?p=31988</id>
-        <link href="http://www.dayanzai.me/linux-book.html"/>
-        <updated>2023-02-03T18:28:33.000Z</updated>
-        <summary type="html"><![CDATA[推荐语：“刘遄老师的新书《Linux就该这么学》双十一当天预售出版上市，必读的Linux系统和红帽认证自学书籍 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[时间积木 TimeBlocks 5.3.0 中文多语免费版]]></title>
-        <id>http://www.dayanzai.me/?p=1598</id>
-        <link href="http://www.dayanzai.me/timeblocks.html"/>
-        <updated>2023-02-03T16:58:15.000Z</updated>
-        <summary type="html"><![CDATA[时间积木TimeBlocks 中文版由大眼仔旭（www.dayanzai.me）发布。在一个应用程序中创建约会 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[送会员兑换码 – 简单好用的远控神器，国产向日葵轻松开启远程办公！]]></title>
-        <id>http://www.dayanzai.me/?p=47188</id>
-        <link href="http://www.dayanzai.me/sunloginclient.html"/>
-        <updated>2023-02-03T16:53:56.000Z</updated>
-        <summary type="html"><![CDATA[“站在风口，猪都会飞”。这是如今层出不穷创业公司梦寐以求的，而经历疫情洗礼之后的风口，远程办公毫无疑问算是一类 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[开源免费在线直播工具 OBS Studio 29.0.1 + x64 中文多语免费版]]></title>
-        <id>http://www.dayanzai.me/?p=34222</id>
-        <link href="http://www.dayanzai.me/obs-studio.html"/>
-        <updated>2023-02-03T16:36:30.000Z</updated>
-        <summary type="html"><![CDATA[开源免费在线直播工具 OBS Studio 中文版由大眼仔旭（www.dayanzai.me）发布。什么是 O […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[开源免费酷呆桌面 Coodesker 1.0.3.8 + x64 中文多语免费版]]></title>
-        <id>http://www.dayanzai.me/?p=13115</id>
-        <link href="http://www.dayanzai.me/coodesker.html"/>
-        <updated>2023-02-03T16:31:54.000Z</updated>
-        <summary type="html"><![CDATA[开源免费酷呆桌面 Coodesker 绿色版由大眼仔旭（www.dayanzai.me）发布。Coodeske […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[经典优秀屏幕截图录像工具 FastStone Capture 9.9 官方中文版]]></title>
-        <id>http://www.dayanzai.me/?p=1486</id>
-        <link href="http://www.dayanzai.me/faststone-capture.html"/>
-        <updated>2023-02-03T16:30:42.000Z</updated>
-        <summary type="html"><![CDATA[FastStone Capture 9.9 绿色版 超好用的截图工具由大眼仔旭（www.dayanzai.me […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[免费开源截图共享工具 ShareX 15.0.0 官方中文免费版]]></title>
-        <id>http://www.dayanzai.me/?p=30042</id>
-        <link href="http://www.dayanzai.me/sharex.html"/>
-        <updated>2023-02-03T16:22:53.000Z</updated>
-        <summary type="html"><![CDATA[免费开源截图共享工具 ShareX 官方中文版由大眼仔旭（www.dayanzai.me）发布。ShareX  […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows 记事本替代工具 Notepad3 6.23.203.2 + x64 中文多语免费版]]></title>
-        <id>http://www.dayanzai.me/?p=41645</id>
-        <link href="http://www.dayanzai.me/notepad3.html"/>
-        <updated>2023-02-03T16:21:07.000Z</updated>
-        <summary type="html"><![CDATA[Notepad3 中文版由大眼仔旭（www.dayanzai.me）发布。虽然 Windows 操作系统在过去 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[安卓免费文件资源管理器 MiXplorer Silver 6.59.1 中文多语免费版]]></title>
-        <id>http://www.dayanzai.me/?p=4912</id>
-        <link href="http://www.dayanzai.me/mixplorer.html"/>
-        <updated>2023-02-03T16:20:50.000Z</updated>
-        <summary type="html"><![CDATA[安卓免费文件资源管理器 MiXplorer Silver 中文版由大眼仔旭（www.dayanzai.me）发 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[安卓电子书阅读器 FBReader 3.1.3 中文多语免费版]]></title>
-        <id>http://www.dayanzai.me/?p=3026</id>
-        <link href="http://www.dayanzai.me/fbreader.html"/>
-        <updated>2023-02-03T16:09:05.000Z</updated>
-        <summary type="html"><![CDATA[FBReader 是一种快速且高度可定制的电子书阅读器，适用于运行 Android OS 的设备（支持 1.5 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] RSS Guard v4.3.2]]></title>
-        <id>2639+1675435350</id>
-        <link href="https://www.portablefreeware.com/?id=2639&amp;ts=1675435350"/>
-        <updated>2023-02-03T14:42:30.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] Rainlendar Lite v2.19.1]]></title>
-        <id>443+1675435271</id>
-        <link href="https://www.portablefreeware.com/?id=443&amp;ts=1675435271"/>
-        <updated>2023-02-03T14:41:11.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] LeoMoon HotKeyz V1.8.11]]></title>
-        <id>3041+1675432312</id>
-        <link href="https://www.portablefreeware.com/?id=3041&amp;ts=1675432312"/>
-        <updated>2023-02-03T13:51:52.000Z</updated>
         <author>
             <name>The Portable Freeware Collection</name>
         </author>
