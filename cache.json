@@ -6,6 +6,26 @@
       "siteUrl": "https://www.appinn.com",
       "articles": [
         {
+          "id": "https://www.appinn.com/?p=45316",
+          "author": "青小蛙",
+          "description": "Ebook Translator 是一款由专注电子书的网站书伴开发的 Calibre 插件，它能以原文译文对照的方式，直接翻译整本电子书，支持 Google、ChatGPT、DeepL、有道、百度翻译",
+          "link": "https://www.appinn.com/ebook-translator/",
+          "publishedOn": "2023-05-01T13:08:41.000Z",
+          "wordCount": 2547,
+          "title": "Ebook Translator – 用 Google、ChatGPT 和 DeepL 翻译整本电子书[Calibre 插件]",
+          "imageUrl": "https://www.appinn.com/wp-content/uploads/2023/05/ebook-translator.jpgo_.jpg"
+        },
+        {
+          "id": "https://www.appinn.com/?p=45313",
+          "author": "青小蛙",
+          "description": "Upscayl 是一款跨平台的 AI 图像放大工具，免费、开源，下载后即开即用，不联网。几个小时以前发布了 v2.5 Linux 预览版。此版本仅针对 Linux 用户，新增无限的新AI模型，即现在可",
+          "link": "https://www.appinn.com/upscayl-v2-5-for-linux/",
+          "publishedOn": "2023-05-01T12:27:39.000Z",
+          "wordCount": 2556,
+          "title": "Upscayl v2.5 Linux 预览版发布，免费开源的 AI 图像放大工具，可自定义模型了。",
+          "imageUrl": "https://www.appinn.com/wp-content/uploads/2023/05/upscayl.jpgo_.jpg"
+        },
+        {
           "id": "https://www.appinn.com/?p=45308",
           "author": "青小蛙",
           "description": "cc caption automatic translator 是一个油猴脚本，用来自动翻译视频 CC 字幕，支持多语言互相翻译，需要百度翻译 API。@Appinn 来自发现频道，@NeverWin",
@@ -389,26 +409,6 @@
           "wordCount": 2299,
           "title": "新版 小白羊阿里云盘客户端 发布，支持多账号、在线播放、下载等功能",
           "imageUrl": "https://static1.appinn.com/stwww/wp-content/uploads/2023/04/xiaobaiyang.jpgo_.jpg"
-        },
-        {
-          "id": "https://www.appinn.com/?p=45039",
-          "author": "青小蛙",
-          "description": "OpenCat 是一款知名好用的第三方 ChatGPT 客户端，目前在 Mac、iOS 上使用起来非常不错。最近新功能有点多，包括团队版、支持 Siri，以及利用 Azure TTS 实现的朗读功能。",
-          "link": "https://www.appinn.com/opencat-for-team/",
-          "publishedOn": "2023-04-02T08:35:35.000Z",
-          "wordCount": 2755,
-          "title": "OpenCat 团队版：为团队成员提供 OpenAI API 服务",
-          "imageUrl": "https://static1.appinn.com/stwww/wp-content/uploads/2023/04/opencat-for-team.jpgo_.jpg"
-        },
-        {
-          "id": "https://www.appinn.com/?p=45040",
-          "author": "青小蛙",
-          "description": "Nearby Share Beta for Windows 是刚刚发布的，适配 Android 原生附近分享（Nearby Share）功能的 Windows 客户端，可以更方便的在 Android",
-          "link": "https://www.appinn.com/nearby-share-beta-for-windows/",
-          "publishedOn": "2023-04-02T07:50:18.000Z",
-          "wordCount": 2395,
-          "title": "Nearby Share Beta for Windows 发布，可以更方便的在 Android 与 Windows 间传输文件",
-          "imageUrl": "https://static1.appinn.com/stwww/wp-content/uploads/2023/04/nearby-share-beta-for-windows.jpgo_.jpg"
         }
       ]
     },
@@ -417,6 +417,26 @@
       "feedUrl": "http://www.woshipm.com/feed",
       "siteUrl": "https://www.woshipm.com",
       "articles": [
+        {
+          "id": "https://www.woshipm.com/?p=5817470",
+          "author": "一只鸡腿",
+          "description": "看板是一种常见的数据分析工具，通过数据采集、数据分析和数据可视化的方式，帮助企业了解任务进度以及生产资料损失进度，从而更好地制定生产计划和分配人力。本文以B端生鲜行业看板为例，对此进行分析，希望对你有帮助。\n\n随着科技的不断发展和商业模式的不断变革，看板作为一种生产管理工具，得到了生鲜行业企业的广泛应用。\n看板通过数据采集、数据分析和数据可视化的方式，帮助生鲜企业了解生产任务进度以及生产资料损失进度，从而更好地制定生产计划和分配人力。\n接下来从起源，发展场景分区，区别进行讲解。\n一、起源\n生鲜行业看板起源于传统的数据报表和统计分析工具。传统的数据报表和统计分析工具需要手动提取数据并进行分析，费时费力且易出错，难以快速响应经营变化。\n随着物联网、大数据和人工智能等技术的发展，生鲜行业看板也在不断升级和完善，逐步引入了数字化模式通过数据可视化的方式，直观地展示生产任务的进度以生产资产的损耗，提高决策效率和降低决策成本。\n二、发展\n1. 传统看板\n传统的生鲜行业看板主要是指黑板、白板等简单的展示方式，主要展示任务进度，人员配置等信息。这种看板方式虽然简单，由于要通过手动进行记录和修改，信息更新速度不及时，很难及时反应生产情况也无法全面展现生产情况。\n2. 数字化看板\n数字化看板是指利用数字化技术，实时更新数据和图表，使得管理层可以更好地了解生产状况，提高物流效率和降低成本。数字化看板通常包括实时报价、实时库存、实时销售等功能。\n数字化看板实时更新数据和图表，使得企业和农民可以更好地了解市场和供应链情况，提高决策效率和查看成本。由于数字化看板可以实时更新数据和图表，因此可以更好地了解生产环境与任务进度，提高决策效率和降低风险。\n3. 移动端看板\n移动端看板是指通过手机APP等移动端展示数据和图表的方式。由于移动端设备的普及，这种看板方式可以更好地适应现代人的生活方式，并且可以随时随…",
+          "link": "https://www.woshipm.com/it/5817470.html",
+          "publishedOn": "2023-05-01T02:59:20.000Z",
+          "wordCount": 335,
+          "title": "B端生鲜行业看板的前世今生未来",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.woshipm.com/?p=5793607",
+          "author": "PM瑟福",
+          "description": "电商作为零售的一种商业模式，互联网各平台为实现流量变现，通过自建线上商城，连接人货场。本文从零售三要素之一“场”的信息流切入点，阐述如何提高信息流的高效性与体验性，希望对你有帮助。\n\n一、背景\n2016年10月13日，在阿里巴巴云栖大会开幕式上，马云一句“未来没有电子商务，只有新零售”，让新零售的概念正式诞生，并且疯狂传播；零售的基本要素，都离不开“人”“货”“场”这三个字。\n电商作为零售的一种商业模式，互联网各平台为实现流量变现，通过自建线上商城，商城作为链接“人”（消费者）与“货”（商品）的“场”，而“场”的本质，是信息流、资金流和物流的组合。\n\n引用“刘润”《新零售：低价高效的数据赋能之路》，图2-1\n本文从零售三要素之一“场”的信息流切入点，阐述如何提高信息流的高效性与体验性。\n信息流的高效性：\n以提高信息流的高效性与体验性为目标，根据用户在电商平台的购物操作步骤：\n\n重点在于用户浏览页面信息流展示的高效性与体验性；因此，我们需要对用户浏览页面进行拆解，从底层元素进行信息流优化，以实现用户浏览页面的展示商品量与准确性的提升。\n二、页面元素拆解\n页面的构成元素：页面 = 组件 + 布局 + 交互，其中:\n组件：是页面的基本构成元素,如图片、按钮、输入框、导航菜单等。一个页面是由多个组件组合而成。\n布局：是组件在页面中的空间排列方式,通过布局可以自由组合各种组件,构成完整的页面结构。常用的布局方式有横向布局、纵向布局、网格布局等。\n交互：是用户与页面之间的动作反馈。通过为组件添加交互行为,可以实现用户操作与页面反应之间的配合,达到引导用户的目的。\n页面与组件的关系可以表述为:组件是页面的基本要素，通过选取不同的组件并运用布局进行搭配组合，可以构建出完整的页面结构。\n1. 拆解示例\n以电商平台呈现给用户的展示页面：\n\n对上述页面的元素进行标记如下图：\n\n说明：1个页面包含…",
+          "link": "https://www.woshipm.com/pd/5793607.html",
+          "publishedOn": "2023-05-01T02:43:38.000Z",
+          "wordCount": 349,
+          "title": "电商平台：商品营销之坑位管理",
+          "imageUrl": null
+        },
         {
           "id": "https://www.woshipm.com/it/5816248.html",
           "author": "老泡",
@@ -3806,46 +3826,6 @@
           "wordCount": 357,
           "title": "改了五版，你决定用回第一版，如何和设计沟通？",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.woshipm.com/it/5795734.html",
-          "author": "刘二哈",
-          "description": "在这个信息爆炸的时代，想要抓住用户的注意力，让他们对你的品牌产生兴趣和信任，就要做好内容营销。那么，如何制定有效的内容营销呢？本文作者对此进行了分析，一起来看一下吧。\n\n一、内容营销策略有哪些\n在当下这个信息爆炸的时代，如何抓住用户的注意力，让他们对你的品牌产生兴趣和信任？答案就是：内容营销。\n什么是内容营销？简单来说，就是通过创造和传播有价值、相关、吸引人的内容，来吸引和留住目标受众，从而实现品牌推广、销售转化、客户忠诚等目的的营销策略。\n那么，如何制定有效的内容营销策略呢？内容营销的策略可以根据不同的内容类型、目标受众、渠道平台、营销目的等因素进行制定和调整。本文介绍了三种常见且实用的内容营销策略，分别是：\n1）基础内容营销策略\n主要包括长青内容、内容把手、热点及节日内容、故事战略、用户创造内容（UGC）战略、品牌社区战略等。这些策略主要是利用自有媒体平台，发布一些能够体现企业深度价值、解决用户问题、引发情感共鸣、激励用户参与的内容，从而提高品牌知名度和影响力。\n2）进阶内容营销策略\n主要包括图片营销、信息图营销、效果导向视频营销、幽默战略、品牌导向的直播营销、创意营销、黑科技营销、声音营销、社交媒体品牌互动等。这些策略主要是利用各种有冲击力、有创意、有趣味的形式，吸引用户的注意力，增加用户的参与度和转化率。\n3）专业内容营销策略\n主要包括专业生产内容（PGC）战略和品牌生产内容（BGC）战略。这些策略主要是利用专业人士或品牌自身的资源，输出一些具有专业性、权威性、可信度的内容，从而提高品牌形象和美誉度，增强用户的信任感和忠诚度。\n下面将对这3种营销策略进一步细化说明。\n二、基础内容策略\n首先是基础内容营销策略，这些内容通常包括以下几种类型：\n长青内容：指那些不受时间限制，具有持久价值的内容，比如行业知识、产品教程、用户故事等。这类内容可以帮助品牌建立权威性和信任感，吸…",
-          "link": "https://www.woshipm.com/marketing/5795734.html",
-          "publishedOn": "2023-04-02T08:57:49.000Z",
-          "wordCount": 335,
-          "title": "内容营销全面解析：想让内容营销事半功倍？绝不能错过这三招！​",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.woshipm.com/?p=5795466",
-          "author": "狐狸爱胡扯",
-          "description": "商业的本质是需求，有市场需求，才会产生交易。从选择产品的维度，需求还可以拆分为“当下需求”和“未来需求”，本文作者对这两个需求维度进行了分析，一起来看一下吧。\n\n如果我问你：是什么促使客户产生购买行为呢？\n估计你都不用思考就能直接回答：肯定是“需求”促使客户产生购买行为的。\n没错，商业的本质就是需求，有市场需求，才会产生交易。\n换句话说，你选的产品市场有需求，你才能赚到钱；\n但是你知道吗？\n从选择产品的维度来看，需求还可以拆分成：\n当下的需求\n未来的需求\n只要你能理解这两个需求维度，你会发现，你在选产品的时候，又会打开一扇新的大门！\n下面我分享如何利用这两个维度选择产品，为你提供选品思路！\n一、当下的需求\n当下的需求，就是已经发生的，或者当下产生的需求。\n而当下的需求，又可以细分成两种情况：\n1. 已知的解决方案\n顾名思义，就是客户已经遇到问题，而且知道如何解决，或者市场上很容易找到解决方案，已有成熟产品。\n比如：感冒流鼻涕。\n当客户发现自己感冒流鼻涕的时候，就需要解决方案，而感冒流鼻涕对应的感冒药在市场上已经很普遍，客户直接购买对应感冒药治疗可以轻松解决问题。\n这应该很好理解，这种需求的产生过程是这样的：\n发现问题——产生需求——寻找产品。\n例如：\na、感冒是当下存在的【问题】\nb、解决感冒产生的【需求】\nc、感冒药是【解决方案】\n这种已知需求的解决方案，是大部分人都在做的产品，特点是：需求大，竞争大！\n2. 未知的解决方案\n这种通常是，客户的问题已存在或者已经发生，但是找不到解决方案，或者找不到满意的解决方案。\n这是我在《轻创业从0到1》里面重点提到的方法，也就是“痛点选品法”！\n这是狐狸老师推荐的玩法，这种方法选到的产品，适合大部分人，重点是：客单价高，竞争小！\n比如：过敏性鼻炎流鼻涕。\n同样的流鼻涕，感冒可以简单吃药解决，但是鼻炎导致的流鼻涕，很多药物都没法完美治疗，而且很难根治。\n这样就导致了过敏性鼻炎患者对现有解决方案不满意，需要寻找更好的，更完美的解决方案……\n类似的需求还有：脸颊毛孔粗大、孕妇失眠、孩子叛逆期……\n这个维度的需求非常多，存在于每个领域和品类中，你可以发挥想象空间，如果实在找不到，可以和狐狸老师交流。\n所以，这种需求的产生过程是这样的：\n发现问题——产生需求——产品不满意——寻找新解决方案。\n例如：\na、过敏性鼻炎是当下存在或已经发生的【问题】\nb、痛苦产生的【需求】\nc、对现有解决方案【不满意】\nd、不断寻找新的【解决方案】\n而且，选择“已存在”但“未知解决方案”类型的需求的产品，玩法非常多，产品可塑性非常强，这是中高利润产品的基本形态。\n甚至你可以用这个模型去对应自己现有的产品，如果不属于这种类型的品，我基本可以断定你现在一定做的很痛苦，行业竞争大，利润低，是必然的。\n如果你打算重新选产品或者转型的话，建议选择这种类型需求的产品，可以改善你现有的痛苦！\n二、未来的需求\n所谓未来需求，就是客户在未来可能会产生的问题或者痛点。\n产生这种需求的人群通常都是比较有“前瞻性”的，喜欢思考和规划，为未来做打算。\n但是从另一个角度来看，这类人群的心理共通点是“焦虑”，通常内心会比较容易产生“恐惧”和“担忧”情绪。\n狐狸老师自己会把这类人群定义为“敏感型”人群，或者“焦虑型”人群。\n举个例子：\n比如在疫情时代，很多人咳嗽发烧都担心自己阳了，整天都会疑神疑鬼，哪怕检测阴性，都会觉得检测结果可能不准确……\n或者女生经常走夜路，担心骚扰，坏人，出门就得备好各种防狼神器……\n又或者有钱人老是担心身体出问题，每年定期打干细胞，修复身体各项机能，还能预防各种疾病……\n总之，这种需求的客户通常还没有出现疾病或症状，这是担心未来可能会发生的事情。\n这类产品也是很多的，有些商家直接把这种玩法应用在广告语上；\n比如：\n女人没有自己的事业，未来会多被动？——提倡女性创业；\n女人趁着年轻不保养，老了还会爱你？——医美，化妆品；\n你以为现在的房子贵，以后还会更贵！——现在赶紧买房；\n原来孩子的字写不好，以后影响这么大！——让孩子报名写字训练营；\n虽然说，产生这类需求的都是“焦虑型”人群，但是在2023这个时空节点下：\n试问哪个女人不敏感？\n试问哪个行业不内卷？\n试问哪个孩子不焦虑？\n所以，要切入“未来的需求”的品类，你可以现将客户群体切分成：年龄，职业，性别，行业……\n再找到他们的焦虑点，把客户的焦虑放大，激发出客户藏在心底的需求，触发购买欲望，你就能赚到客户焦虑的钱。\n同时，你还可以结合我之前那篇教你找焦虑需求的文章：《狐狸：带你挖掘暴利产品和项目（实操附案例）》；\n把你现有的产品包装成焦虑品，或者直接重新选一个更高利润的品。\n本文由 @狐狸爱胡扯 原创发布于人人都是产品经理。未经许可，禁止转载。\n题图来自Unsplash，基于CC0协议",
-          "link": "https://www.woshipm.com/operate/5795466.html",
-          "publishedOn": "2023-04-02T05:26:44.000Z",
-          "wordCount": 340,
-          "title": "“当下需求”与“未来需求”的选品策略",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.woshipm.com/?p=5795434",
-          "author": "姚一扣",
-          "description": "AIGC的火爆，将“AI失业”的恐慌落在了人们头上。AIGC到底是什么呢？它将如何颠覆行业？本文作者从设计师的视角，对这场技术变革给设计师带来的影响进行了分析，一起来看一下吧。\n\n看过《流浪地球2》的小伙伴，一定对影片中的终极大Boss人工智能MOSS印象深刻，它既能帮助人类建造卫星发动机，又能连接全球摄像头暗中观察、独立谋划布局，试图用毁灭人类的方法延续人类文明。电影用缜密的叙事手法带我们提前想象了具有了意识的人工智能将对我们造成怎样的威胁。\n电影之外，科技照进现实。美国人工智能实验室OpenAI发布的语言生成模型ChatGPT引发了人们的热烈讨论。ChatGPT所代表的AIGC赛道火爆出圈，“AI失业”时代的恐慌落在了每一个人的头上。\n那AIGC到底是什么？它将如何颠覆设计行业？在为生产力赋能的同时它又会让多少设计师失去饭碗？在这个声音嘈杂的AI浪潮下，我想从设计师的视角，近距离观察这场技术变革，为未来设计师们找到时代解药。本篇文章是这个系列的第一篇。\n01 爆火的AIGC到底是什么？\nAIGC的全称是AI-Generated Content，指利用人工智能来创造内容。 有别于我们在上个时代常说的PGC（Professional Generated Content）专业生产内容，和UGC（User Generated Content）用户原创内容。三者的主要区别是内容来源。PGC的创作主体是拥有专业知识、拥有内容相关领域资质的、具有一定权威的专家；UGC的创作主体是普罗大众，就像现在每个人都可以拿起手机随便拍一段视频上传抖音或小红书，这让成为创作者的门槛大大降低。而如今，AIGC的技术突破标志着内容生产模式迈入了全新的时代。\n\n百度董事长兼首席执行官李彦宏在2022世界人工智能大会上说“AIGC将颠覆现有内容生产模式，可以实现以十分之一的成本，以百倍千倍的生产速度。”\n…",
-          "link": "https://www.woshipm.com/ai/5795434.html",
-          "publishedOn": "2023-04-02T03:02:35.000Z",
-          "wordCount": 340,
-          "title": "设计已死？狂飙的AIGC将如何改变设计师的未来",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.woshipm.com/?p=5794986",
-          "author": "人人都是产品经理",
-          "description": "不想上班的年轻人们，最近终于找到了新的赚钱方式——摆摊。年轻人摆摊，都在卖些什么呢？能赚回本吗？本文作者分享了两个摆摊的年轻人的故事，一起来看看吧。\n\n每周有五天都嚷着不想上班的年轻人们，终于在上班和创业之间找到了一个平衡点——摆摊，只要豁得出去，就能用最少的钱，最快的速度，开启的“低成本创业”。\n不仅能体会当老板的感觉，试错成本也很低，想摆就摆，不想摆就摆烂，还不用承受上司的pua，没有日报、周报、KPI，逍遥又自在。加上地摊经济，网上“摆摊日赚九千”的说法，路边摆摊的年轻面孔，肉眼可见地多了起来。\n尽管摆摊也有很多风险，比如天气因素，还可能被城管赶，可能卖不出去……但还是有一大波年轻人，义无反顾地加入了摆摊大军中。\n01 年轻人摆摊，都在卖些什么\n民以食为天，地摊江湖上最受欢迎的，当然是烤红薯、炸串、烤土豆……各种小吃，而要说最近最火的网红小吃，淀粉肠当之无愧。\n“上次我去一个景点，毫不夸张地说，门口到地铁口的那一段路，摆了十几家卖烤肠的。”轩子说。他原本还和朋友讨论过，干脆离职去卖烤肠，成本低，需求量大，肯定能赚很多钱。没想到这么多人都在卖烤肠，一下打消了他的念头。\n不局限于小吃，年轻人的想法天马行空，摆摊卖的东西也是啥都有。\n穿一身青蛙玩偶服，再提上打好气的青蛙气球，就成了最近热门的“卖儿卖女”的青蛙。藏在青蛙服里，不用直面顾客，秒变社牛，举手投足都充满了不羁，唯一的坏处是动作不便，城管来时可能跑不过。\n\n各种首饰、穿戴甲，以及泥塑、钩织等手工艺品，也是年轻人钟爱的地摊产品。这种非常考验摊主的审美，根据时下流行选品、装饰摊位，抓住每一个路人的眼球，再在顾客的一声声赞美中迷失自我。\n还有人将年轻人喜欢盲盒和拆快递的心态紧紧抓住了，摆摊卖起了“盲盒快递”，8元一个的快递，随便选，买到啥就是啥了。\n这些都是有实物的，也有人卖的是无实物产品，即自己的知识和技能。比如摆摊宣传…",
-          "link": "https://www.woshipm.com/it/5794986.html",
-          "publishedOn": "2023-04-02T01:32:54.000Z",
-          "wordCount": 321,
-          "title": "不想上班的年轻人，都去摆摊了？",
-          "imageUrl": null
         }
       ]
     },
@@ -4057,6 +4037,56 @@
       "feedUrl": "http://www.dayanzai.me/feed",
       "siteUrl": "http://www.dayanzai.me",
       "articles": [
+        {
+          "id": "http://www.dayanzai.me/?p=26776",
+          "author": "大眼仔~旭",
+          "description": "PPSSPP for Windows 1.10 中文版由大眼仔旭（www.dayanzai.me）发布。PPS […]",
+          "link": "http://www.dayanzai.me/ppsspp.html",
+          "publishedOn": "2023-04-30T16:34:39.000Z",
+          "wordCount": 1426,
+          "title": "PC 优秀 PSP 模拟器 PPSSPP for Windows 1.15 + x64 中文多语免费版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=6438",
+          "author": "大眼仔~旭",
+          "description": "相信大家都已经知道 Adobe Flash Player 已经在各大科技公司的支持下宣告“死亡”，不过在国内来 […]",
+          "link": "http://www.dayanzai.me/ruffle.html",
+          "publishedOn": "2023-04-30T16:29:32.000Z",
+          "wordCount": 1002,
+          "title": "开源 Flash Player 模拟器 Ruffle Nightly 2023-05-01 免费下载",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=28158",
+          "author": "大眼仔~旭",
+          "description": "开源图像压缩工具 Caesium Image Compressor 中文版由大眼仔旭（www.dayanzai […]",
+          "link": "http://www.dayanzai.me/caesium-image-compressor.html",
+          "publishedOn": "2023-04-30T16:29:29.000Z",
+          "wordCount": 932,
+          "title": "开源图像压缩工具 Caesium Image Compressor 2.4.0 中文多语免费版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=12918",
+          "author": "大眼仔~旭",
+          "description": "GnuCash 中文版由大眼仔旭（www.dayanzai.me）发布。GnuCash 是一个可以用于个人或小 […]",
+          "link": "http://www.dayanzai.me/gnucash.html",
+          "publishedOn": "2023-04-30T16:26:42.000Z",
+          "wordCount": 1610,
+          "title": "免费开源财务管理软件 GnuCash 5.1 中文多语免费版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=5485",
+          "author": "大眼仔~旭",
+          "description": "尽管社交媒体平台在过去一年不断发展，但许多人仍然更喜欢 Usenet 等经典平台。 Usenet 的工作方式与 […]",
+          "link": "http://www.dayanzai.me/sabnzbd.html",
+          "publishedOn": "2023-04-30T16:24:52.000Z",
+          "wordCount": 1083,
+          "title": "免费二进制新闻阅读器 SABnzbd 4.0.0 中文多语免费版",
+          "imageUrl": null
+        },
         {
           "id": "http://www.dayanzai.me/?p=44803",
           "author": "大眼仔~旭",
@@ -5266,66 +5296,6 @@
           "wordCount": 876,
           "title": "安卓电子书阅读器 FBReader 3.1.5 中文多语免费版",
           "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=64200",
-          "author": "大眼仔~旭",
-          "description": "今天要分享的这款「UPDF」编辑器，是一个颜值与实力并存的神仙软件，小编感觉所有PDF编辑器中最好用的，可以说 […]",
-          "link": "http://www.dayanzai.me/updf.html",
-          "publishedOn": "2023-04-01T16:39:19.000Z",
-          "wordCount": 874,
-          "title": "UPDF 编辑器-多平台全能型 PDF 工具|文末有福利",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=44932",
-          "author": "大眼仔~旭",
-          "description": "流程图绘制工具 Draw.io Desktop 中文版由大眼仔旭（www.dayanzai.me）发布。如果您 […]",
-          "link": "http://www.dayanzai.me/draw-io-desktop.html",
-          "publishedOn": "2023-04-01T16:31:34.000Z",
-          "wordCount": 944,
-          "title": "开源免费流程图绘制工具 Draw.io Desktop 21.1.12 + x64 中文多语免费版",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=7512",
-          "author": "大眼仔~旭",
-          "description": "轻量级免费远程协助工具 TrustViewer 中文版由大眼仔旭（www.dayanzai.me）发布。Tru […]",
-          "link": "http://www.dayanzai.me/trustviewer.html",
-          "publishedOn": "2023-04-01T16:30:25.000Z",
-          "wordCount": 813,
-          "title": "轻量级免费远程协助工具 TrustViewer 2.10.0 Build 4500 中文免费版",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=38325",
-          "author": "大眼仔~旭",
-          "description": "开源免费剪贴板管理工具 CopyQ 中文版由大眼仔旭（www.dayanzai.me）发布。CopyQ 是具有 […]",
-          "link": "http://www.dayanzai.me/copyq.html",
-          "publishedOn": "2023-04-01T16:27:20.000Z",
-          "wordCount": 1132,
-          "title": "开源免费剪贴板管理工具 CopyQ 7.0.0 中文多语免费版",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=996",
-          "author": "大眼仔~旭",
-          "description": "FreeFileSync 中文版免费开源的文件夹比较和同步软件由大眼仔旭（www.dayanzai.me）发布 […]",
-          "link": "http://www.dayanzai.me/freefilesync.html",
-          "publishedOn": "2023-04-01T16:25:21.000Z",
-          "wordCount": 933,
-          "title": "免费开源的文件夹比较和同步软件 FreeFileSync 12.20 中文免费版",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=6394",
-          "author": "大眼仔~旭",
-          "description": "开源免费BT/批量下载工具 DownZemAll! 中文版 工具由大眼仔旭（www.dayanzai.me）发 […]",
-          "link": "http://www.dayanzai.me/downzemall.html",
-          "publishedOn": "2023-04-01T16:10:14.000Z",
-          "wordCount": 901,
-          "title": "开源免费BT/批量下载工具 DownZemAll! 3.0.3 + x64 中文多语免费版",
-          "imageUrl": null
         }
       ]
     },
@@ -5340,6 +5310,16 @@
       "feedUrl": "http://feeds.feedburner.com/pfc",
       "siteUrl": "https://www.portablefreeware.com/",
       "articles": [
+        {
+          "id": "1848+1682965876",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=1848&ts=1682965876",
+          "publishedOn": "2023-05-01T18:31:16.000Z",
+          "wordCount": 955,
+          "title": "[UPDATE] Advanced Renamer v3.88.1",
+          "imageUrl": null
+        },
         {
           "id": "2816+1682688641",
           "author": null,
@@ -6388,26 +6368,6 @@
           "publishedOn": "2023-04-02T18:41:32.000Z",
           "wordCount": 544,
           "title": "[UPDATE] CopyQ v7.0.0",
-          "imageUrl": null
-        },
-        {
-          "id": "1432+1680417697",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=1432&ts=1680417697",
-          "publishedOn": "2023-04-02T06:41:37.000Z",
-          "wordCount": 943,
-          "title": "[UPDATE] Auslogics Registry Defrag v14.0.0.2",
-          "imageUrl": null
-        },
-        {
-          "id": "3066+1680373639",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=3066&ts=1680373639",
-          "publishedOn": "2023-04-01T18:27:19.000Z",
-          "wordCount": 392,
-          "title": "[UPDATE] RisohEditor v5.7.3",
           "imageUrl": null
         }
       ]
