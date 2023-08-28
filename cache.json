@@ -6,6 +6,16 @@
       "siteUrl": "https://www.appinn.com",
       "articles": [
         {
+          "id": "https://www.appinn.com/?p=46323",
+          "author": "青小蛙",
+          "description": "在 Chrome 上阅读 Epub 电子书的扩展 Readium Chrome 宣布停止开发，并推荐了这个新的阅读器：Thorium Reader 是一款免费、多语言、多平台、简单易用的阅读应用程序，",
+          "link": "https://www.appinn.com/thorium-reader/",
+          "publishedOn": "2023-08-27T06:38:22.000Z",
+          "wordCount": 2715,
+          "title": "Readium Chrome 插件停止开发 ，Thorium Reader 接替：开源、跨平台、多格式电子书阅读器",
+          "imageUrl": "https://www.appinn.com/wp-content/uploads/2023/08/appinn-feature-images-2023-08-27t142238-801.jpgo_.jpg"
+        },
+        {
           "id": "https://www.appinn.com/?p=46318",
           "author": "青小蛙",
           "description": "朱雀仿宋是首款开源的仿宋字体，「志在最终提供高质量的、支持多语言的正文仿宋解决方案」。覆盖《通用规范汉字表》一、二级，总汉字数达 6512 字。目前已发布预览测试版，属于免费商用本字体。并由于开发过程",
@@ -479,16 +489,6 @@
           "wordCount": 2538,
           "title": "Proton Pass – 免费、开源密码管理器，隐私优先的新选择",
           "imageUrl": "https://www.appinn.com/wp-content/uploads/2023/07/appinn-feature-images-2023-07-30t124442-880.jpgo_.jpg"
-        },
-        {
-          "id": "https://www.appinn.com/?p=46075",
-          "author": "青小蛙",
-          "description": "Showcase 是一个 Android 应用，它会以幻灯片的方式，展示手机、网络里的照片。对于家中闲置的 Android 手机，拿出来当一个相框，再合适不过了。@Appinn 来自发现频道，@Joe",
-          "link": "https://www.appinn.com/showcase-for-android/",
-          "publishedOn": "2023-07-29T08:34:10.000Z",
-          "wordCount": 2548,
-          "title": "Showcase – 闲置 Android 手机的终极归宿：展示照片",
-          "imageUrl": "https://www.appinn.com/wp-content/uploads/2023/07/appinn-feature-images-2023-07-29t155626-539.jpgo_.jpg"
         }
       ]
     },
@@ -497,6 +497,16 @@
       "feedUrl": "http://www.woshipm.com/feed",
       "siteUrl": "https://www.woshipm.com",
       "articles": [
+        {
+          "id": "https://www.woshipm.com/?p=5892176",
+          "author": "DDliu",
+          "description": "有没有可能搭建相应的功能模块，让长视频平台内部所拥有的版权内容被更多用户看到，从而带来潜在收益？这篇文章里，作者尝试结合爱奇艺平台，制作了一个影视台板块，一起来看看作者的实战分享。\n\n一、项目背景介绍\n爱奇艺现在的一大优势是已经积累了一波优秀的影视剧资源，并且还在源源不断的产生新的内容。同时还有一个弊端，首页推荐以及现在的主流媒体上推荐的影视剧几乎都是最近上映或即将上映的影视剧，这就导致了一些优质的影视资源因上映许久从而被人们忽视。\n因此，我觉得爱奇艺可以在首页或是侧页制作一个影视台的功能，形式可以类似于抖音短视频的播放逻辑+传统有线电视的电视台效果。通过这个影视台的功能将爱奇艺所拥有的版权内容，让更多的人看到，也能为平台带来更多的收益。\n前面我的几篇文章分析过，爱奇艺的短剧业务发展模式无法向抖快模仿，但用户又偏爱抖快那种形式，所以短剧业务发展还需要进一步的考量，结合爱奇艺平台制定一个符合自身特点的短剧业务。\n那么目前爱奇艺的主要内容板块还是围绕传统影视剧（包括自制），当用户数量和会员数量增长见顶后，会员业务的收入只能是凭借着爆款剧来吸引拉高，但每年又能产出几部真正的爆款剧呢？那些没有流量没有好内容的剧现在越来越难合观众的口味了，所以我觉得爱奇艺上线影视台功能后，可以凭借丰富的影视资源一定程度上的利用已有资源再次提高营收。\n\n结合上述，制作一个影视台板块，该板块内，所有的内容都是免费的，每个影视台都会有固定的内容播放，一天24小时，每时每刻都会有固定的内容准点播放，中间也可以像传统电视一样穿插广告，无论是否充值会员，均不可跳过广告，也不能快进，手机平板电视电脑四端都有对应的板块。\n二、需求来源\n下面这个图是我在小红书平台上发布的一个关于爱奇艺上的经典影视剧推荐的内容，半天后收到的数据反馈量，有很多人表示平台上有自己经常会拿出来二刷、三刷的剧。评论中提到比较多的电视剧有如下：…",
+          "link": "https://www.woshipm.com/pd/5892176.html",
+          "publishedOn": "2023-08-27T01:21:25.000Z",
+          "wordCount": 332,
+          "title": "实战分享：爱奇艺影视台项目实战",
+          "imageUrl": "https://image.woshipm.com/2023/04/13/f642ff6a-d9de-11ed-bd5e-00163e0b5ff3.jpg"
+        },
         {
           "id": "https://www.woshipm.com/it/5891834.html",
           "author": "Esc",
@@ -3696,36 +3706,6 @@
           "wordCount": 321,
           "title": "企业架构7——应用架构",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.woshipm.com/?p=5875987",
-          "author": "。。。。",
-          "description": "文案是各个岗位都需掌握的一项技能，对于产品经理而言也不例外。文案写作是利用文字来影响、说服和与受众群体建立联系的技能。本文总结了产品经理需知的一些文案写作秘密，希望对你有所帮助。\n\n在激烈的产品管理竞争格局中，产品专业人士不断努力解锁成功的钥匙。他们的角色涵盖广泛的职责，包括战略规划、市场分析和跨职能协作。在他们掌握的众多技能中，有一个经常被低估的秘密被搁置，掌握了此技能可以提高绩效并彻底改变产品开发和营销方法，这个技能就是：文案写作的艺术。在本文中，将探讨每个产品经理都应该知道的文案秘密，以了解其对行业的变革性影响。\n从本质上讲，文案写作是利用文字来影响、说服和与受众群体建立联系的技能。拥抱这一秘密武器的产品经理可以制作出引人注目的信息，引起利益相关者和客户的共鸣。无论是向高管提出产品提案，还是为目标市场创建营销内容，有说服力的沟通都是推动购买、支持并最终取得成功的关键。\n一、在写文案时首先需要了解你的受众\n文案写作的一个重要方面是彻底了解你的受众。认识到这个秘密的产品经理明白不同的利益相关者有不同的需求、关注点和优先事项。通过针对特定受众定制沟通方式和消息传递，他们可以解决痛点并以引起深刻共鸣的方式提供价值。这种以客户为中心的方法可以培养牢固的关系并建立信任，这对于推动产品采用和忠诚度至关重要。\n例如：\n市面上很多电影宣传都会用到第一个示例，但是对于观看者来说没有一个固定的概念去阐述这个大片到底有多么牛逼。而文案稍加修饰，并有了对应的数据支撑，就会让观众产生想一探究竟的想法，想去看看20 多亿图片耗时 9 年的成片。\n\n二、以讲故事的形势建立情感联系，构建场景化表达\n文案写作秘诀最有力的应用之一在于讲故事的艺术。人类天生就会在情感层面上与故事产生联系，这使其成为产品经理的宝贵工具。通过将讲故事融入到场景沟通中，产品经理可以唤起情感、激发行动并对受众产生持久影响。无论是讲…",
-          "link": "https://www.woshipm.com/copy/5875987.html",
-          "publishedOn": "2023-07-29T06:48:16.000Z",
-          "wordCount": 344,
-          "title": "每个产品经理都应该知道的文案写作秘密",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.woshipm.com/?p=5876129",
-          "author": "人人都是产品经理",
-          "description": "2023年6月10—11日，人人都是产品经理举办的【首届数字化产品经理大会】完美落幕。叮咚买菜前产品线负责人、互联网领域畅销书作家@三爷，为我们带来《新零售数字化之路》为题的分享，本文为演讲内容实录。\n\n一、导入：企业数字化进程\n数字化这个概念已经提出近5年的时间了。在这五年里，我们一直在讨论数字化，但究竟数字化是什么，有没有人能够完整地描述出来呢？\n给大家提供一个模型，诺兰的信息系统进化六阶段模型，它完整地描述了企业信息化的历程。从最开始的初始阶段，到引入系统、扩展功能，收集整理系统边界、进入控制阶段，到最后系统越来越多，功能越来越多，进入需要整合的阶段。在这个过程中，会出现一个转折点，它也是企业数字化重构的开端。\n\n多年来，中国企业在数字化方面不断追赶，在转折点上迈入企业数字化2.0阶段。这是当前的现状。\n但是，对于绝大多数头部企业或先进企业来说，进入转折点之后，可能会与以前的企业数字化建设有所不同。在与一些大型企业和超大型企业的一线业务同学交流后，他们反馈业务系统越来越多。以前，完成一项任务可能只需要一个Excel表，但现在需要在4-5个系统之间操作才能完成。他们不理解，觉得IT部门提供的信息系统或整个业务提效方式反而越来越麻烦。\n\n企业数字化发展中面临的问题可以归纳为以下几个方面:\n\n运营效率提升：不再仅仅将业务线上化，而是更加注重提高运营效率。\n洞察力改善：超大型企业或大型企业面临的一个重要问题是无法及时了解一线业务的实际情况和指标。\n开发效率提升：随着系统数量增多，处理各个系统之间的边界和逻辑需求变得复杂，开发效率成为关注点。\n协同更方便：为了更好地协同工作，企业需要更方便的协同工具和系统。\n以上就是企业数字化“转折点”问题：数字化产品经理需要攻克的关键问题，也是企业在数字化转型过程中面临的重要挑战。\n在探讨企业数字化发展问题之后，我们将详细讨论两个典型企业案例…",
-          "link": "https://www.woshipm.com/kol/5876129.html",
-          "publishedOn": "2023-07-29T03:02:08.000Z",
-          "wordCount": 347,
-          "title": "新零售数字化之路",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.woshipm.com/it/5869544.html",
-          "author": "markzou",
-          "description": "业务数据体系是一个组织内部用于管理和分析业务数据的结构和流程。那么该如何搭建业务数据体系，本文对此进行了总结，希望对你有所启发。\n\n一、搭建业务数据体系\n1. 理解业务\n在之前我们通过商业模式、核心价值链，我们搭建了业务运营模型。\n说到业务模型是一个独立产生商业价值的“经营单元”，服务/产品是什么，给谁，通过什么渠道给，产生什么价值。\n\n业务模型就是怎么解决，怎么做的这个系统（包含规则、协作机制、业务流程）。业务模型是为商业模式服务的，保证商业模式有稳定的输出，让一家公司的业务更持续，成规模的发展。\n通过梳理业务运营模型，我们能够比较清晰的知道这个业务运作的情况，关键的节点。\n这个业务运作模型就是之后数据模型的基础。\n\n2. 目标拆解法\n\n以下是根据战略目标来拆解KPI目标，战略目标与流程、KPI的关系。我们进一步拆分如下图，从公司的整体层面进行拆分，再细化到财务指标层面、客户层面、客户的指标完成需要内部运营、内部运营最终靠的是公司人员。\n如何进行目标的拆解呢，我们使用OSM模型 (Obejective，Strategy，Measurement) 分别代表业务目标、业务策略、业务度量。\n0：用户使用产品的目标是什么? 产品满足了用户的什么需求？\nS：为了达成上述目标我采取的策略是什么？\nM：这些策略随之带来的数据指标变化有哪些？\n\n以下是一个企业目标到策略、策略到内部营运、内部营运最终到人员的技能的拆解模型。为什么要拆解到人呢，因为业务都是由人做出来的。如果我们只关注业务，而不关注做业务的人，那就会形成一种分裂，因为人的能力可能完不成业务目标，如果我们不去将团队能力进行提升，不对团队做调整，那业务目标与团队能力之间的差距就无法弥补。\n\n二、用户旅程拆解法UJM\n通过OSM模型设计好了业务目标、策略和度量指标之后，需要回过头去梳理整个产品的用户生命旅程，以校准我们的业务目标，判断它能否与用户每个阶段的旅程进行吻合。\n那么我们可以进一步梳理用户旅行地图，以核心路径为基准。\n用户行为：用户在该旅途会进行什么操作\n目标：在该旅途要完成的目标\n接触点：产品与用户连接的地方\n问题点：当前在该旅途会有什么困难或者不足\n机会点：针对目标、行为和问题点总结出机会点\n衡量指标：针对机会点选择合适的指标进行度量\n\n不同层级的目标被分配给不同部门、不同层级的人员执行、负责就成为他们的绩效考核指标。\n\n比如说：我们要提高公司的整体净收益，则这个指标为净收益率，其拆分如下（财务的杜邦分析法），随着目标的分拆，上层的目标被下层目标所拆解，下层指标显示上层指标变化的原因。\n结果指标与过程指标的区别：\n结果指标：做产品或运营活动的最终整体评价（gmv）好坏\n过程指标：需要做高频和实时的追踪，通常用于监控（哪里）\n财务指标是结果指标，还有过程指标，过程指标则为分析进一步的运营过程的指标。一般是过程指标为结果指标的拆解，过程指标表明结果指标的变化原因，进行溯源及归因。\n在不同的产品阶段，我们关注的重点不一样，那么我们根据现在业务发展所处的阶段及企业所处的阶段，定义自己当前阶段的重点目标。\n最顶级目标，最重要的目标，就是北极星指标。\n融合运营模型+OSM模型+UJM模型+指标体系分级，涵盖了一级、二级、三级指标。\n也就是梳理清楚目前业务的运作模型、用户旅行地图地图、目前所需的指标，明确现阶段北极星指标、定义指标口径、并搭建数据指标体系。\n我们得到以下两个指标体系，一个是财务指标体系。\n\n一个是运营指标体系。运营与财务只是从两个不同的角度来评估业务与公司的运行情况。\n\n看财务指标，能清晰的判断经营结果，从运营指标看经营细节，并根据经营数据反向查找经营的问题，通过改善经营状况，最终改善财务指标，形成闭环。\n专栏作家\nMarkzou，8年产品经验，人人都是产品经理专栏作家。主要专注于本地生活、O2O、到家服务、新零售领域；曾任职于多家本地生活垂直领域头部公司，具有丰富的本地生活行业经验。\n本文原创发布于人人都是产品经理，未经作者许可，禁止转载。\n题图来自 Unsplash，基于 CC0 协议",
-          "link": "https://www.woshipm.com/pd/5869544.html",
-          "publishedOn": "2023-07-29T02:06:18.000Z",
-          "wordCount": 307,
-          "title": "企业架构6——业务数据体系",
-          "imageUrl": null
         }
       ]
     },
@@ -3938,6 +3918,106 @@
       "siteUrl": "http://www.dayanzai.me",
       "articles": [
         {
+          "id": "http://www.dayanzai.me/?p=31988",
+          "author": "大眼仔~旭",
+          "description": "推荐语：“刘遄老师的新书《Linux就该这么学》双十一当天预售出版上市，必读的Linux系统和红帽认证自学书籍 […]",
+          "link": "http://www.dayanzai.me/linux-book.html",
+          "publishedOn": "2023-08-26T18:28:33.000Z",
+          "wordCount": 828,
+          "title": "《Linux就该这么学》— 非常适合linux技术学习的入门好书",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=47188",
+          "author": "大眼仔~旭",
+          "description": "和小编一样“赛博搬砖”的上班族朋友们，一定多多少少遇到过这样的情况：下班已经在地铁上了，或者干脆在假期出游期间 […]",
+          "link": "http://www.dayanzai.me/sunloginclient.html",
+          "publishedOn": "2023-08-26T16:53:56.000Z",
+          "wordCount": 888,
+          "title": "【送会员兑换码】国民级远控神器向日葵，轻松实现远程办公",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=64200",
+          "author": "大眼仔~旭",
+          "description": "今天要分享的这款「UPDF」编辑器，是一个颜值与实力并存的神仙软件，小编感觉所有PDF编辑器中最好用的，可以说 […]",
+          "link": "http://www.dayanzai.me/updf.html",
+          "publishedOn": "2023-08-26T16:45:19.000Z",
+          "wordCount": 892,
+          "title": "UPDF 编辑器-多平台全能型 PDF 工具|限时优惠低至4折",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=68284",
+          "author": "大眼仔~旭",
+          "description": "每天面对海量的任务和会议笔记，你是否感到捉襟见肘，不知道从何下手？ 项目策划时，是否曾因无法捕捉到团队的每一个 […]",
+          "link": "http://www.dayanzai.me/treemind.html",
+          "publishedOn": "2023-08-26T16:41:52.000Z",
+          "wordCount": 929,
+          "title": "AI脑图一句话生成，百万模版免费用！",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=852",
+          "author": "大眼仔~旭",
+          "description": "R-Studio 中文版 超强数据恢复反删除工具由大眼仔旭发布。小编（www.dayanzai.me）一直在给 […]",
+          "link": "http://www.dayanzai.me/r-studio.html",
+          "publishedOn": "2023-08-26T16:34:51.000Z",
+          "wordCount": 986,
+          "title": "超强数据恢复反删除工具 R-Studio 9.3 Build 191230 中文多语免费版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=4793",
+          "author": "大眼仔~旭",
+          "description": "开源 Windows 10/11 系统优化工具 Optimizer 中文版由大眼仔旭整理发布。全新的 Wind […]",
+          "link": "http://www.dayanzai.me/optimizer.html",
+          "publishedOn": "2023-08-26T16:32:55.000Z",
+          "wordCount": 925,
+          "title": "开源 Windows 10/11 系统优化工具 Optimizer 15.8 中文多语免费版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=41988",
+          "author": "大眼仔~旭",
+          "description": "QOwnNotes 中文版由大眼仔旭整理发布。QOwnNotes 绿色版是一款由 Patrizio Beker […]",
+          "link": "http://www.dayanzai.me/qownnotes.html",
+          "publishedOn": "2023-08-26T16:23:27.000Z",
+          "wordCount": 1031,
+          "title": "Nextcloud 集成的纯文本 Markdown 笔记 QOwnNotes 23.8.2 中文多语免费版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=14960",
+          "author": "大眼仔~旭",
+          "description": "3D Youtube Downloader 1.20 中文版由大眼仔旭发布。3D Youtube Downlo […]",
+          "link": "http://www.dayanzai.me/3d-youtube-downloader.html",
+          "publishedOn": "2023-08-26T16:20:48.000Z",
+          "wordCount": 950,
+          "title": "Youtube 网络视频下载工具 3D Youtube Downloader 1.20 中文多语免费版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=3979",
+          "author": "大眼仔~旭",
+          "description": "开源 Windows 防火墙工具 Fort Firewall 中文版 由大眼仔旭发布。Fort Firewal […]",
+          "link": "http://www.dayanzai.me/fort-firewall.html",
+          "publishedOn": "2023-08-26T16:20:15.000Z",
+          "wordCount": 1050,
+          "title": "开源 Windows 防火墙工具 Fort Firewall 3.9.11 + x64 中文多语免费版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=4146",
+          "author": "大眼仔~旭",
+          "description": "免费文件数据恢复工具 MultiPar 中文版 蓝光转换器由大眼仔旭发布。如果您每天在计算机上处理大量文档，也 […]",
+          "link": "http://www.dayanzai.me/multipar.html",
+          "publishedOn": "2023-08-26T16:10:08.000Z",
+          "wordCount": 859,
+          "title": "免费文件数据恢复工具 MultiPar 1.3.2.9 中文多语免费版",
+          "imageUrl": null
+        },
+        {
           "id": "http://www.dayanzai.me/?p=5622",
           "author": "大眼仔~旭",
           "description": "EZ CD Audio Converter 11 中文版由大眼仔旭发布。EZ CD Audio Convert […]",
@@ -4000,6 +4080,56 @@
       "feedUrl": "http://feeds.feedburner.com/pfc",
       "siteUrl": "https://www.portablefreeware.com/",
       "articles": [
+        {
+          "id": "2706+1693165365",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=2706&ts=1693165365",
+          "publishedOn": "2023-08-27T19:42:45.000Z",
+          "wordCount": 729,
+          "title": "[UPDATE] Text Editor Pro v27.5.0",
+          "imageUrl": null
+        },
+        {
+          "id": "2234+1693129041",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=2234&ts=1693129041",
+          "publishedOn": "2023-08-27T09:37:21.000Z",
+          "wordCount": 427,
+          "title": "[UPDATE] 4ur-Windows-8-Mouse-Balls v4.66",
+          "imageUrl": null
+        },
+        {
+          "id": "2277+1693129013",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=2277&ts=1693129013",
+          "publishedOn": "2023-08-27T09:36:53.000Z",
+          "wordCount": 378,
+          "title": "[UPDATE] NonCompressibleFiles v4.66",
+          "imageUrl": null
+        },
+        {
+          "id": "2332+1693128977",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=2332&ts=1693128977",
+          "publishedOn": "2023-08-27T09:36:17.000Z",
+          "wordCount": 609,
+          "title": "[UPDATE] WifiInfoView v2.91",
+          "imageUrl": null
+        },
+        {
+          "id": "2621+1693128918",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=2621&ts=1693128918",
+          "publishedOn": "2023-08-27T09:35:18.000Z",
+          "wordCount": 454,
+          "title": "[UPDATE] FolderTimeUpdate v1.72",
+          "imageUrl": null
+        },
         {
           "id": "2816+1693058337",
           "author": null,
