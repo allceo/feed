@@ -6,6 +6,16 @@
       "siteUrl": "https://www.appinn.com",
       "articles": [
         {
+          "id": "https://www.appinn.com/?p=46329",
+          "author": "青小蛙",
+          "description": "Mango 是一款开源、自托管的漫画管理与阅读工具，支持多用户、OPDS 目录、嵌套文件夹、自动保存阅读进度、拥有插件系统，部署简单。可在移动设备访问阅读。@Appinn 感谢 @smallpig 的",
+          "link": "https://www.appinn.com/mango/",
+          "publishedOn": "2023-08-29T02:57:00.000Z",
+          "wordCount": 2799,
+          "title": "Mango – 开源、自托管漫画管理与阅读工具",
+          "imageUrl": "https://www.appinn.com/wp-content/uploads/2023/08/mango-099.jpgo_.jpg"
+        },
+        {
           "id": "https://www.appinn.com/?p=44176",
           "author": "青小蛙",
           "description": "「Cubox 是一款跨平台的网络收藏工具，通过浏览器扩展、客户端、手机应用、微信转发等方式，将网页、文字、图片、语音、视频、文件等内容保存起来，再经过自动整理、标签、分类之后，就可以随时阅读",
@@ -459,26 +469,6 @@
           "wordCount": 2555,
           "title": "ChatPicMigrator4QQNT – 从旧版 Windows QQ 平滑升级到新版 QQ NT 的小工具",
           "imageUrl": "https://www.appinn.com/wp-content/uploads/2023/08/appinn-feature-images-2023-08-01t130744-399.pngo_.png"
-        },
-        {
-          "id": "https://www.appinn.com/?p=46111",
-          "author": "青小蛙",
-          "description": "来自论坛的 @XXX 同学今天早上说：《这个APP竟然诈尸了》：百度出的 简单搜索APP 当年号称无广告！还以为不盈利的项目GG了呢！ 所谓无广告，就是当你搜索“整形医院”的时候，出现的是基于地理位置",
-          "link": "https://www.appinn.com/baidu-searchcraft/",
-          "publishedOn": "2023-07-31T08:58:16.000Z",
-          "wordCount": 2804,
-          "title": "简单搜索 – 百度「永无广告」的移动端应用更新，新增适配 64 位",
-          "imageUrl": "https://www.appinn.com/wp-content/uploads/2023/07/appinn-feature-images-2023-07-31t164903-441.pngo_.png"
-        },
-        {
-          "id": "https://www.appinn.com/?p=46107",
-          "author": "青小蛙",
-          "description": "tl-rtc-file-tool 是一个基于 WebRTC 协议的开源在线工具箱，主要功能包括在线文件传输、本地屏幕录制，远程屏幕共享，远程音视频通话，密码房间、直播等功能。支持私有部署，打开浏览器即",
-          "link": "https://www.appinn.com/tl-rtc-file-tool/",
-          "publishedOn": "2023-07-31T08:11:24.000Z",
-          "wordCount": 2500,
-          "title": "tl-rtc-file-tool – 一款开源的在线 P2P 文件传输、屏幕共享、音视频通话等工具",
-          "imageUrl": "https://www.appinn.com/wp-content/uploads/2023/07/appinn-feature-images-2023-07-31t155709-098.jpgo_.jpg"
         }
       ]
     },
@@ -3999,16 +3989,6 @@
           "wordCount": 1082,
           "title": "找遍全网才发现的超好用「文档批量处理」工具！直接让你办公效率翻倍！",
           "imageUrl": "https://img.iplaysoft.com/wp-content/uploads/2023/wodeabctoolbox/abcbox.jpg"
-        },
-        {
-          "id": "https://www.iplaysoft.com/?post_type=xpost&p=5957",
-          "author": "X-Force",
-          "description": "你知道吗？每天有超过 500 小时的工作时间被浪费在思维混乱和不必要的压力上！在这个充满不确定性的互联网时代，裁员危机正威胁着许多人的工作。\n\n面对这一挑战，思维导图成为了一把锋利的武器。俗话说，好工具事半功倍，而 TreeMind 树图就是你效率加速的“秘密武器”。据调查显示，使用思维…… \n「 前往查看原文.... 」\n\n异次元正版数字商城  |  异次元首页  |  微信公众号  |  iPcFun  |  关注微博  |  软件精选",
-          "link": "https://www.iplaysoft.com/p/shutu",
-          "publishedOn": "2023-07-30T18:13:54.000Z",
-          "wordCount": 1075,
-          "title": "TreeMind 树图：AI 一句话制作思维导图利器！秒掉 99% 竞争者 (文末有福利)",
-          "imageUrl": "https://img.iplaysoft.com/wp-content/uploads/2023/p/treemind/treemind.jpg"
         }
       ]
     },
@@ -4017,6 +3997,56 @@
       "feedUrl": "http://www.dayanzai.me/feed",
       "siteUrl": "http://www.dayanzai.me",
       "articles": [
+        {
+          "id": "http://www.dayanzai.me/?p=43344",
+          "author": "大眼仔~旭",
+          "description": "Opera 浏览器 Opera 中文版由大眼仔旭整理发布。Opera 是一种免费的开源 Web 浏览器和网络软 […]",
+          "link": "http://www.dayanzai.me/opera.html",
+          "publishedOn": "2023-08-29T16:29:09.000Z",
+          "wordCount": 915,
+          "title": "Opera 浏览器 Opera 102.0 Build 4880.29 + x64 中文多语免费版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=33429",
+          "author": "大眼仔~旭",
+          "description": "Windows 系统优化安装工具 NTLite 中文版由大眼仔旭发布。NTLite 中文版可以用来做什么，它其 […]",
+          "link": "http://www.dayanzai.me/ntlite.html",
+          "publishedOn": "2023-08-29T16:28:55.000Z",
+          "wordCount": 1193,
+          "title": "Windows 系统优化安装工具 NTLite 2023.8.9402 + x64 中文免费版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=33593",
+          "author": "大眼仔~旭",
+          "description": "谷歌浏览器 Google Chrome 中文版由大眼仔旭（www.dayanzai.me）发布。谷歌浏览器，是 […]",
+          "link": "http://www.dayanzai.me/chrome.html",
+          "publishedOn": "2023-08-29T16:22:11.000Z",
+          "wordCount": 929,
+          "title": "谷歌浏览器 Google Chrome 116.0.5845.141 + x64 中文企业免费版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=29587",
+          "author": "大眼仔~旭",
+          "description": "最流行的博客平台 WordPress 正式版由大眼仔旭（www.dayanzai.me）发布。WordPres […]",
+          "link": "http://www.dayanzai.me/wordpress.html",
+          "publishedOn": "2023-08-29T16:08:50.000Z",
+          "wordCount": 949,
+          "title": "流行的博客平台 WordPress 6.3.1 中文正式版发布！",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=4799",
+          "author": "大眼仔~旭",
+          "description": "开源 BT 客户端 Transmission 中文版 由大眼仔（www.dayanzai.me）发布。Tran […]",
+          "link": "http://www.dayanzai.me/transmission.html",
+          "publishedOn": "2023-08-28T16:38:09.000Z",
+          "wordCount": 1240,
+          "title": "开源 BT 客户端 Transmission 4.0.4 + x64 中文多语免费版",
+          "imageUrl": null
+        },
         {
           "id": "http://www.dayanzai.me/?p=41453",
           "author": "大眼仔~旭",
@@ -4240,6 +4270,46 @@
       "feedUrl": "http://feeds.feedburner.com/pfc",
       "siteUrl": "https://www.portablefreeware.com/",
       "articles": [
+        {
+          "id": "2765+1693342175",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=2765&ts=1693342175",
+          "publishedOn": "2023-08-29T20:49:35.000Z",
+          "wordCount": 1019,
+          "title": "[UPDATE] Quick Access Popup v11.6.2.3",
+          "imageUrl": null
+        },
+        {
+          "id": "1431+1693336836",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=1431&ts=1693336836",
+          "publishedOn": "2023-08-29T19:20:36.000Z",
+          "wordCount": 5037,
+          "title": "[UPDATE] Q-Dir v11.33",
+          "imageUrl": null
+        },
+        {
+          "id": "2350+1693283290",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=2350&ts=1693283290",
+          "publishedOn": "2023-08-29T04:28:10.000Z",
+          "wordCount": 735,
+          "title": "[UPDATE] PrivaZer v4.0.77",
+          "imageUrl": null
+        },
+        {
+          "id": "3006+1693283178",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=3006&ts=1693283178",
+          "publishedOn": "2023-08-29T04:26:18.000Z",
+          "wordCount": 490,
+          "title": "[UPDATE] Agent Ransack Lite v2022 Build 3406",
+          "imageUrl": null
+        },
         {
           "id": "1666+1693240033",
           "author": null,
@@ -5329,46 +5399,6 @@
           "wordCount": 1435,
           "title": "[UPDATE] Rainmeter v4.5.18",
           "imageUrl": null
-        },
-        {
-          "id": "3049+1690799659",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=3049&ts=1690799659",
-          "publishedOn": "2023-07-31T10:34:19.000Z",
-          "wordCount": 432,
-          "title": "[UPDATE] Shotcut v23.07.29",
-          "imageUrl": null
-        },
-        {
-          "id": "2766+1690799556",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=2766&ts=1690799556",
-          "publishedOn": "2023-07-31T10:32:36.000Z",
-          "wordCount": 456,
-          "title": "[UPDATE] NetworkOpenedFiles v1.61",
-          "imageUrl": null
-        },
-        {
-          "id": "2973+1690799508",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=2973&ts=1690799508",
-          "publishedOn": "2023-07-31T10:31:48.000Z",
-          "wordCount": 487,
-          "title": "[UPDATE] SmartSystemMenu v2.24.0",
-          "imageUrl": null
-        },
-        {
-          "id": "1431+1690799427",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=1431&ts=1690799427",
-          "publishedOn": "2023-07-31T10:30:27.000Z",
-          "wordCount": 5014,
-          "title": "[UPDATE] Q-Dir v11.31",
-          "imageUrl": null
         }
       ]
     },
@@ -5415,6 +5445,16 @@
           "publishedOn": "2023-08-21T01:50:33.000Z",
           "wordCount": 691,
           "title": "专业系统优化工具——Ashampoo WinOptimizer 17.00.32 + 18.00.18 + 19.00.13 + 25.00.18 + 26.00.13 破解版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.qiuquan.cc/?p=4791",
+          "author": "泉",
+          "description": "VueScan Pro是一款功能强大的扫描仪软件，支持市场可见绝大多数型号的底片扫描仪，可以更为灵活地控制扫描过程，更深入地发掘硬件潜力，获取色彩完美的高质量扫描结果。",
+          "link": "http://www.qiuquan.cc/image/vuescan.html",
+          "publishedOn": "2023-08-21T01:00:49.000Z",
+          "wordCount": 695,
+          "title": "扫描仪增强工具——VueScan 9.8.15 简体中文专业版｜32&64位整合版",
           "imageUrl": null
         },
         {
@@ -5585,26 +5625,6 @@
           "publishedOn": "2023-08-02T01:40:57.000Z",
           "wordCount": 622,
           "title": "数据恢复——R-Studio Technician 9.3 Build 191223 简体中文注册版（安装版 + 单文件）",
-          "imageUrl": null
-        },
-        {
-          "id": "http://bak.qiuquan.cc/?p=4233",
-          "author": "泉",
-          "description": "一款以简约安全为目标Chrome内核增强版浏览器，支持基于chrome开发的所有扩展插件，内置增强的隐私保护设置让您远离被追踪和广告的烦恼。",
-          "link": "http://www.qiuquan.cc/browser/catsxp.html",
-          "publishedOn": "2023-07-31T00:55:17.000Z",
-          "wordCount": 861,
-          "title": "猫眼浏览器 Catsxp Browser 115.3.7.3 Stable + 100.2.4.1 Beta3（x86 + x64）",
-          "imageUrl": null
-        },
-        {
-          "id": "http://bak.qiuquan.cc/?p=4258",
-          "author": "泉",
-          "description": "PotPlayer 是 KMPlayer 的原制作者姜龙喜先生（韩国）进入 Daum 公司后的新一代作品。PotPlayer 的优势在于强大的内置解码器；而 KMPlayer 的优势在于强大的定制能力和个性化功能。PotPlayer 使用 VC++ 编写， KMPlayer 为 Delphi 编写。",
-          "link": "http://www.qiuquan.cc/media/potplayer.html",
-          "publishedOn": "2023-07-31T00:31:53.000Z",
-          "wordCount": 1651,
-          "title": "Daum PotPlayer 1.7.21953 正式版 + 1.7.21973 测试版｜美化版｜安装版 (去TV列表&禁止强制升级)",
           "imageUrl": null
         }
       ]

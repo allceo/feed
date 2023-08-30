@@ -2,10 +2,106 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://allceo.github.io/feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-08-29T00:55:43.213Z</updated>
+    <updated>2023-08-30T00:56:00.953Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://allceo.github.io/feed/index.html"/>
     <link rel="self" href="https://allceo.github.io/feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] Quick Access Popup v11.6.2.3]]></title>
+        <id>2765+1693342175</id>
+        <link href="https://www.portablefreeware.com/?id=2765&amp;ts=1693342175"/>
+        <updated>2023-08-29T20:49:35.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] Q-Dir v11.33]]></title>
+        <id>1431+1693336836</id>
+        <link href="https://www.portablefreeware.com/?id=1431&amp;ts=1693336836"/>
+        <updated>2023-08-29T19:20:36.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Opera 浏览器 Opera 102.0 Build 4880.29 + x64 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=43344</id>
+        <link href="http://www.dayanzai.me/opera.html"/>
+        <updated>2023-08-29T16:29:09.000Z</updated>
+        <summary type="html"><![CDATA[Opera 浏览器 Opera 中文版由大眼仔旭整理发布。Opera 是一种免费的开源 Web 浏览器和网络软 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows 系统优化安装工具 NTLite 2023.8.9402 + x64 中文免费版]]></title>
+        <id>http://www.dayanzai.me/?p=33429</id>
+        <link href="http://www.dayanzai.me/ntlite.html"/>
+        <updated>2023-08-29T16:28:55.000Z</updated>
+        <summary type="html"><![CDATA[Windows 系统优化安装工具 NTLite 中文版由大眼仔旭发布。NTLite 中文版可以用来做什么，它其 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[谷歌浏览器 Google Chrome 116.0.5845.141 + x64 中文企业免费版]]></title>
+        <id>http://www.dayanzai.me/?p=33593</id>
+        <link href="http://www.dayanzai.me/chrome.html"/>
+        <updated>2023-08-29T16:22:11.000Z</updated>
+        <summary type="html"><![CDATA[谷歌浏览器 Google Chrome 中文版由大眼仔旭（www.dayanzai.me）发布。谷歌浏览器，是 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[流行的博客平台 WordPress 6.3.1 中文正式版发布！]]></title>
+        <id>http://www.dayanzai.me/?p=29587</id>
+        <link href="http://www.dayanzai.me/wordpress.html"/>
+        <updated>2023-08-29T16:08:50.000Z</updated>
+        <summary type="html"><![CDATA[最流行的博客平台 WordPress 正式版由大眼仔旭（www.dayanzai.me）发布。WordPres […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] PrivaZer v4.0.77]]></title>
+        <id>2350+1693283290</id>
+        <link href="https://www.portablefreeware.com/?id=2350&amp;ts=1693283290"/>
+        <updated>2023-08-29T04:28:10.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] Agent Ransack Lite v2022 Build 3406]]></title>
+        <id>3006+1693283178</id>
+        <link href="https://www.portablefreeware.com/?id=3006&amp;ts=1693283178"/>
+        <updated>2023-08-29T04:26:18.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mango – 开源、自托管漫画管理与阅读工具]]></title>
+        <id>https://www.appinn.com/?p=46329</id>
+        <link href="https://www.appinn.com/mango/"/>
+        <updated>2023-08-29T02:57:00.000Z</updated>
+        <summary type="html"><![CDATA[Mango 是一款开源、自托管的漫画管理与阅读工具，支持多用户、OPDS 目录、嵌套文件夹、自动保存阅读进度、拥有插件系统，部署简单。可在移动设备访问阅读。@Appinn 感谢 @smallpig 的]]></summary>
+        <author>
+            <name>青小蛙</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[开源 BT 客户端 Transmission 4.0.4 + x64 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=4799</id>
+        <link href="http://www.dayanzai.me/transmission.html"/>
+        <updated>2023-08-28T16:38:09.000Z</updated>
+        <summary type="html"><![CDATA[开源 BT 客户端 Transmission 中文版 由大眼仔（www.dayanzai.me）发布。Tran […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[全新火狐浏览器 Mozilla Firefox 117.0 + x64 中文多语免费版]]></title>
         <id>http://www.dayanzai.me/?p=41453</id>
@@ -4006,6 +4102,16 @@ DreameDog则来自国内广义机器人公司追觅科技，其外形和体积�
         <link href="http://www.qiuquan.cc/systemtool/ashampoo-winoptimizer.html"/>
         <updated>2023-08-21T01:50:33.000Z</updated>
         <summary type="html"><![CDATA[AshampooWinOptimizer是一款性能强劲、功能全面的Windows系统优化清理工具。AshampooWinOptimizer具有调整和优化系统性能、驱动器清理、Dll文件清理、注册表清理、上网纪录清理、弹出窗口过滤、网络加速、启动加速、磁盘碎片整理、启动项目管理、进程监控、安全删除重要文件、检查并还原已被删除的文件、文件的加密和解密、系统图标和桌面设置、显示测试比较系统性能、文件的分割和合并、备份和恢复等众多功能，还具备一键优化的快捷功能；而且官方完美的提供了中文支持，界面甚是清爽怡人。]]></summary>
+        <author>
+            <name>泉</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[扫描仪增强工具——VueScan 9.8.15 简体中文专业版｜32&64位整合版]]></title>
+        <id>http://www.qiuquan.cc/?p=4791</id>
+        <link href="http://www.qiuquan.cc/image/vuescan.html"/>
+        <updated>2023-08-21T01:00:49.000Z</updated>
+        <summary type="html"><![CDATA[VueScan Pro是一款功能强大的扫描仪软件，支持市场可见绝大多数型号的底片扫描仪，可以更为灵活地控制扫描过程，更深入地发掘硬件潜力，获取色彩完美的高质量扫描结果。]]></summary>
         <author>
             <name>泉</name>
         </author>
@@ -12730,42 +12836,6 @@ PDF 补丁丁 -  12 年历史的国产 PDF 文档编辑处理工具箱，现已�
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[[UPDATE] Shotcut v23.07.29]]></title>
-        <id>3049+1690799659</id>
-        <link href="https://www.portablefreeware.com/?id=3049&amp;ts=1690799659"/>
-        <updated>2023-07-31T10:34:19.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] NetworkOpenedFiles v1.61]]></title>
-        <id>2766+1690799556</id>
-        <link href="https://www.portablefreeware.com/?id=2766&amp;ts=1690799556"/>
-        <updated>2023-07-31T10:32:36.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] SmartSystemMenu v2.24.0]]></title>
-        <id>2973+1690799508</id>
-        <link href="https://www.portablefreeware.com/?id=2973&amp;ts=1690799508"/>
-        <updated>2023-07-31T10:31:48.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] Q-Dir v11.31]]></title>
-        <id>1431+1690799427</id>
-        <link href="https://www.portablefreeware.com/?id=1431&amp;ts=1690799427"/>
-        <updated>2023-07-31T10:30:27.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[消费新哲学？洞门信徒、多巴胺以及口红效应]]></title>
         <id>https://www.woshipm.com/?p=5877013</id>
         <link href="https://www.woshipm.com/marketing/5877013.html"/>
@@ -12806,16 +12876,6 @@ PDF 补丁丁 -  12 年历史的国产 PDF 文档编辑处理工具箱，现已�
 题图来自unsplash，基于 CC0 协议。]]></summary>
         <author>
             <name>小僧鲲鲲</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[简单搜索 – 百度「永无广告」的移动端应用更新，新增适配 64 位]]></title>
-        <id>https://www.appinn.com/?p=46111</id>
-        <link href="https://www.appinn.com/baidu-searchcraft/"/>
-        <updated>2023-07-31T08:58:16.000Z</updated>
-        <summary type="html"><![CDATA[来自论坛的 @XXX 同学今天早上说：《这个APP竟然诈尸了》：百度出的 简单搜索APP 当年号称无广告！还以为不盈利的项目GG了呢！ 所谓无广告，就是当你搜索“整形医院”的时候，出现的是基于地理位置]]></summary>
-        <author>
-            <name>青小蛙</name>
         </author>
     </entry>
     <entry>
@@ -12888,16 +12948,6 @@ PDF 补丁丁 -  12 年历史的国产 PDF 文档编辑处理工具箱，现已�
 1. 原型设计的沉浸…]]></summary>
         <author>
             <name>产品大峡谷</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[tl-rtc-file-tool – 一款开源的在线 P2P 文件传输、屏幕共享、音视频通话等工具]]></title>
-        <id>https://www.appinn.com/?p=46107</id>
-        <link href="https://www.appinn.com/tl-rtc-file-tool/"/>
-        <updated>2023-07-31T08:11:24.000Z</updated>
-        <summary type="html"><![CDATA[tl-rtc-file-tool 是一个基于 WebRTC 协议的开源在线工具箱，主要功能包括在线文件传输、本地屏幕录制，远程屏幕共享，远程音视频通话，密码房间、直播等功能。支持私有部署，打开浏览器即]]></summary>
-        <author>
-            <name>青小蛙</name>
         </author>
     </entry>
     <entry>
@@ -13167,26 +13217,6 @@ Emotional Aspect：1. 安全——司机驾龄要满足X年？要有监控语言
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[猫眼浏览器 Catsxp Browser 115.3.7.3 Stable + 100.2.4.1 Beta3（x86 + x64）]]></title>
-        <id>http://bak.qiuquan.cc/?p=4233</id>
-        <link href="http://www.qiuquan.cc/browser/catsxp.html"/>
-        <updated>2023-07-31T00:55:17.000Z</updated>
-        <summary type="html"><![CDATA[一款以简约安全为目标Chrome内核增强版浏览器，支持基于chrome开发的所有扩展插件，内置增强的隐私保护设置让您远离被追踪和广告的烦恼。]]></summary>
-        <author>
-            <name>泉</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Daum PotPlayer 1.7.21953 正式版 + 1.7.21973 测试版｜美化版｜安装版 (去TV列表&禁止强制升级)]]></title>
-        <id>http://bak.qiuquan.cc/?p=4258</id>
-        <link href="http://www.qiuquan.cc/media/potplayer.html"/>
-        <updated>2023-07-31T00:31:53.000Z</updated>
-        <summary type="html"><![CDATA[PotPlayer 是 KMPlayer 的原制作者姜龙喜先生（韩国）进入 Daum 公司后的新一代作品。PotPlayer 的优势在于强大的内置解码器；而 KMPlayer 的优势在于强大的定制能力和个性化功能。PotPlayer 使用 VC++ 编写， KMPlayer 为 Delphi 编写。]]></summary>
-        <author>
-            <name>泉</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[我又掉进了“自动续费”的陷阱]]></title>
         <id>https://www.woshipm.com/?p=5876049</id>
         <link href="https://www.woshipm.com/pd/5876049.html"/>
@@ -13209,21 +13239,6 @@ Emotional Aspect：1. 安全——司机驾龄要满足X年？要有监控语言
 在App经营者看来，…]]></summary>
         <author>
             <name>天天问</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TreeMind 树图：AI 一句话制作思维导图利器！秒掉 99% 竞争者 (文末有福利)]]></title>
-        <id>https://www.iplaysoft.com/?post_type=xpost&amp;p=5957</id>
-        <link href="https://www.iplaysoft.com/p/shutu"/>
-        <updated>2023-07-30T18:13:54.000Z</updated>
-        <summary type="html"><![CDATA[你知道吗？每天有超过 500 小时的工作时间被浪费在思维混乱和不必要的压力上！在这个充满不确定性的互联网时代，裁员危机正威胁着许多人的工作。
-
-面对这一挑战，思维导图成为了一把锋利的武器。俗话说，好工具事半功倍，而 TreeMind 树图就是你效率加速的“秘密武器”。据调查显示，使用思维…… 
-「 前往查看原文.... 」
-
-异次元正版数字商城  |  异次元首页  |  微信公众号  |  iPcFun  |  关注微博  |  软件精选]]></summary>
-        <author>
-            <name>X-Force</name>
         </author>
     </entry>
 </feed>
