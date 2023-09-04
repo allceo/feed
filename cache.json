@@ -6,6 +6,16 @@
       "siteUrl": "https://www.appinn.com",
       "articles": [
         {
+          "id": "https://www.appinn.com/?p=46356",
+          "author": "青小蛙",
+          "description": "有同学发来了新问题：「需求有点小众，想请问下有什么手机上小工具可以设置个不透明置顶横条，用来遮住视频字幕。不喜欢字幕分心，想把注意力更多集中在说话声上」。@Appinn 这里要先吐槽那些不支持外挂字幕",
+          "link": "https://www.appinn.com/block-the-subtitles/",
+          "publishedOn": "2023-09-03T07:06:08.000Z",
+          "wordCount": 2506,
+          "title": "求 Android 遮挡屏幕视频字幕区域工具｜屏幕工具箱",
+          "imageUrl": "https://www.appinn.com/wp-content/uploads/2023/09/pingmugongjux.jpgo_.jpg"
+        },
+        {
           "id": "https://www.appinn.com/?p=46363",
           "author": "青小蛙",
           "description": "AirPodsDesktop 是一个可以在 Windows 系统上增强 AirPods 的开源项目，主要提供几个功能：动画显示电池信息、入耳检测、低音频延迟。@Appinn 感谢 @Rime 同学的推",
@@ -439,16 +449,6 @@
           "wordCount": 2528,
           "title": "有着 31 年历史的著名文本编辑器 VIM 开发者 Bram Moolenaar 去世",
           "imageUrl": "https://www.appinn.com/wp-content/uploads/2023/08/appinn-feature-images-2023-08-06t094549-942.jpgo_.jpg"
-        },
-        {
-          "id": "https://www.appinn.com/?p=46159",
-          "author": "青小蛙",
-          "description": "Obsidian Weread Plugin 是一款 Obsidian 第三方插件，主要用来同步《微信读书》中的阅读数据，包括书籍元数据、划线、想法等数据，保存为 .md 格式，并存放在 Obsidi",
-          "link": "https://www.appinn.com/obsidian-weread-plugin/",
-          "publishedOn": "2023-08-05T05:40:00.000Z",
-          "wordCount": 2526,
-          "title": "Obsidian Weread Plugin：导出《微信读书》阅读数据至 Obsidian：划线、想法、书评等",
-          "imageUrl": "https://www.appinn.com/wp-content/uploads/2023/08/obsidian-weread-plugin.jpgo_.jpg"
         }
       ]
     },
@@ -457,6 +457,16 @@
       "feedUrl": "http://www.woshipm.com/feed",
       "siteUrl": "https://www.woshipm.com",
       "articles": [
+        {
+          "id": "https://www.woshipm.com/?p=5896377",
+          "author": "晏涛三寿",
+          "description": "继推出会员制以来，茶百道会员规模逐渐增加，远超行业水平。那么茶百道是如何做到在私域中建立会员粘性，保持高复购率的？本文对此进行了分析总结，一起来看看吧。\n\n继奈雪的茶、蜜雪冰城之后，近日，茶百道向港交所申请上市。\n按照2022年零售额预计，茶百道在中国新式茶饮市场中排名第三，市场份额约6.6%。受益于行业高速增长，茶百道近年来业绩表现较好。\n最近3年的年复合增长率高达97.9%。2022年净利润超过9亿元。茶百道业绩的持续增长，离不开它在私域运营方面的耕耘与重视。\n自2021年推出会员制度以来，茶百道已拥有超6600万名会员。其中2023年第二季度的会员复购率高达32.8%，远高于行业平均水平。\n\n那么茶百道是如何做到在私域中建立会员粘性，保持高复购率的？\n下面，就为大家拆解茶百道的私域运营。\n一、案例背景\n1. 品牌简介\n茶百道成立于2008年，是四川成都的本土茶饮连锁品牌。茶百道回到做好一杯饮品的本质上，用原料、工艺、创新精神来创作饮品。2008年，茶百道在成都市温江区开出了第一家门店。2023年4月，茶百道在四川成都举办了2023品牌升级发布会。宣布其门店数量已突破7000家，覆盖全国330个城市。\n2. 市场规模\n中国现制茶饮2020年市场总规模为1136亿元，预计到2025年达3400亿元，是一个名副其实的千亿大市场。\n3. 用户画像\n根据多方数据汇总，奶茶市场女性消费占比约为70%，男性消费者仅占到30%。茶百道自身将目标客户群体定位为18—35岁年轻群体。结合两方数据，茶百道用户画像基本为18—35岁女性。\n二、流量渠道拆解\n茶百道建立了“公众号+小程序+企微+社群”等渠道为核心的私域矩阵，并借助当下热门的抖音、小红书、微博等公域平台，实现公私域的引流转化以及帮助品牌扩大声量。\n1. 线下门店\n茶百道在线下门店，设置了社群引流的入口。店员会主动提示你加入社群，…",
+          "link": "https://www.woshipm.com/share/5896377.html",
+          "publishedOn": "2023-09-03T08:56:18.000Z",
+          "wordCount": 416,
+          "title": "超6600万会员，中国新茶饮TOP3品牌，茶百道是如何运营私域的？",
+          "imageUrl": "https://image.woshipm.com/2023/04/13/83eecc9e-d9e0-11ed-8fc2-00163e0b5ff3.jpg"
+        },
         {
           "id": "https://www.woshipm.com/?p=5896348",
           "author": "芋艿和猫说",
@@ -3496,36 +3506,6 @@
           "wordCount": 392,
           "title": "不懂技术的产品经理，怎么搭建OpenAPI平台的项目？",
           "imageUrl": "https://image.woshipm.com/2023/04/13/0af140b0-d9ef-11ed-889f-00163e0b5ff3.jpg"
-        },
-        {
-          "id": "https://www.woshipm.com/it/5880429.html",
-          "author": "菜大妈",
-          "description": "很多教育培训机构都把力气花在了做转介绍激励或者话术上，却忽视了课程质量和教学才是根本。本文将着重围绕附加价值和价值可视化两个方面来探讨，帮助您的机构实现源源不断的转介绍。一起来看看吧。\n\n很多机构都把大力气花在了如何做转介绍激励或者话术上面，却忽视了教学和课程质量才是转介绍的根本。\n要实现家长的转介绍，我们必须让家长在教学和课程上超预期地获得价值。这个价值分为两个部分：基础价值和附加价值。\n1.基础价值：学这门科目所能获得的原本能力，这也是机构的立命之本。\n比如学美术，获得素描、水墨画的技能；学跆拳道，获得体育竞技的技能；学舞蹈，能完整地跳出一支舞等等。\n2.附加价值：除了主要价值之外，还能给到家长和学员哪些意外的惊喜\n比如学了美术之后，专注力提升了，写字更漂亮了，学了舞蹈之后，能吃苦耐牢了等等。\n\n课程和教学拥有了基础价值和附加价值后，我们还需要把这些价值可视化出来。\n由于主要价值在各个学科中的情况不一，所以在今天的内容中，我们将着重围绕附加价值和价值可视化两个方面来探讨，帮助您的机构实现源源不断的转介绍。\n一、附加价值如何打造？\n1. 满足主流需求\n主流需求是每个家长都普遍需要的，往往集中在成绩提升、学习能力、领导能力等方面。\n我们可以通过创新的课程设计来满足这些需求。\n例如，艾克瑞特机器人将数理化知识融入机器人教育中，帮助孩子打下坚实的基础。\n同时他们还将自己的课程体系张贴在机构走廊中，不同年龄阶段的孩子上什么内容，每一节课具体的内容是什么，结合了什么学科的知识，都一目了然。\n\n培养孩子阅读兴趣、提升阅读能力的儿童书屋——约读书房，则强调通过阅读的培训，拓宽知识面的同时，还能增强理解能力。\n这样对于未来考试的读题理解、学习能力的提升都是非常有帮助。\n\n华蒙星篮球则通过篮球比赛培养孩子的领导和团队协作能力。\n据不完全统计，国外很多知名企业的高管都曾经是篮球队的队长。\n2…",
-          "link": "https://www.woshipm.com/share/5880429.html",
-          "publishedOn": "2023-08-05T07:53:25.000Z",
-          "wordCount": 350,
-          "title": "十步连环，培训机构转介绍实战指南02：通过精心设计教学和课程，提升转介绍",
-          "imageUrl": "https://image.woshipm.com/2023/04/13/58231e20-d9eb-11ed-bd74-00163e0b5ff3.jpg"
-        },
-        {
-          "id": "https://www.woshipm.com/?p=5880214",
-          "author": "LQM",
-          "description": "在供应链体系中，中小微企业可能会存在融资难等问题，这个时候，预付款融资模式可以相对较好地解决中小微企业融资问题。那么，预付款融资产品应该要如何搭建架构？这篇文章里，作者针对预付款融资业务、优势、产品架构、业务流程等方面进行了解读，一起来看。\n\n一、预付款融资业务介绍\n在整个供应链体系中，中小微企业一直存在融资难、融资贵的问题。 在整个供应链金融体系中，核心企业起到的作用是重中之重。同时在部分供应链场景中，下游经销商或客户需要预付账款给核心企业，就形成了先款后货的模式。\n此时由于下游企业还未拿到货，也不能进行任何的抵押，但是又需要资金给核心企业进行采购业务。如果下游企业不能筹集足够的资金，那么这笔业务就流失了，同时也不利于下游企业扩大经营规模。\n预付融资模式如下：\n\n二、预付款融资的优势\n1. 提高供应链整体资金运转效率\n下游企业通过预付款融资方式拉长支付采购货款的账期。同时这也解决核心企业的生产资金需求。\n\n通过采用预付款融资模式，购货方可以延长支付采购货款的期限，从而为核心企业提供更长的销售回款周期，帮助核心企业解决生产资金需求，提高其生产效率和经营效益。\n2. 提升供应链整体业务规模\n实现融资企业的杠杆采购和供应商的批量销售。通过采用预付款融资模式，购货方可以通过支付较少的资金获得更多的货物，从而实现杠杆采购。同时，供应商可以在此基础上进行批量销售，提高销售规模和效益。\n3. 金融机构稳定获利\n金融机构通过与核心企业签署回购协议，降低金融机构坏账率，给投资方带来比较稳定的收益，达到各方共赢。\n三、预付款融资产品架构\n1. 产品架构\n\n产品架构\n预付款融资产品模块分为客户管理、数据中心、金融产品管理、贷前管理、贷中管理、贷后管理、风险管理、分润管理、资方协同。并且需要和客户的业务系统、相关的银行、第三方征信、内部相关系统对接。\n2. 重点模块介绍\n数据中心：收集企业与下游…",
-          "link": "https://www.woshipm.com/pd/5880214.html",
-          "publishedOn": "2023-08-05T05:22:22.000Z",
-          "wordCount": 346,
-          "title": "供应链金融：谈谈预付款融资",
-          "imageUrl": "https://image.woshipm.com/2023/05/06/553d8704-ec01-11ed-adbb-00163e0b5ff3.jpg"
-        },
-        {
-          "id": "https://www.woshipm.com/?p=5880459",
-          "author": "十里村",
-          "description": "想做自媒体，免不了会遇到各种坑。本文通过剖析想要在抖音、快手等平台成为网红IP需要注意的六大禁忌，为想要通过短视频平台走红的自媒体创作者提供了一些建议，希望对你有所帮助。\n\n想要做自媒体IP，一定要避这六个坑。\n今天来和大家聊聊，想要在抖音、快手等平台打造自己的IP，应该注意些什么\n01 不是丰厚的条件，不要签独家\n无论你在哪一个平台，都尽量不要签独家。\n你看东方甄选、交个朋友这么大的品牌，现在依然在淘宝、抖音两边吃，甚至未来都可能去到快手。\n而作为普通的内容创作者也是如此，尤其是三农、旅游等自媒体，更要慎重。\n\n因为每一个平台的用户其实是有差异的，虽然有重合度，但还是有增量。\n如果平台不是给了丰厚的条件保证，都不要签独家。\n02 不要做很多平台，做好一个就行\n不签独家和集中做重点平台，两者之间并无矛盾。\n目前除了抖音外，还有快手、小红书、B站、视频号、百家号、斗鱼、虎牙、YY以及其他一些中小平台。\n但是有些平台只是内容分发的一个渠道而已，比如你看到交个朋友核心阵地还是抖音。\n每一个平台都有各自的玩法、用户喜好，根据自己IP的特点，集中精力做好一个两个就行了。\n包括现在的微信平台，有许多阅读量过十万的账号，在抖音、快手几乎没有流量，也赚不到钱。\n不签独家的目的，就是为了自己万一某个平台做不好，还可以另寻他处。\n03 不要轻易断更，保持常态化更新\n如果你的内容不是极其优质，也不是特别繁琐的情况下，建议你要保持日更。\n尤其是各种财经、知识、才艺、搞笑、生活、三农等类型的博主。\n其一是现在竞争太激烈了，你不是明星，很容易被粉丝遗忘。\n其二是日更就是在薅平台的流量，获得平台持续稳定的推荐。\n我见过不少短视频带货博主可以做到一天两更甚至是三更，更新快也是核心竞争力。\n04 不要不敢变现，一定及时变现\n你要记住，你做抖音、快手等媒体，目的就是为了赚钱。\n与其用户在评论区调侃你，到底什么时候开始卖货、接广告。\n不如一开始就明目张胆的告诉用户，你就是要来赚钱的。\n敢于要关注、点赞、粉丝灯牌、下单等等，做自媒体变现要乘早，尤其是个人博主。\n不要想着等粉丝到了30万、50万再来变现，因为你的账号能不能坚持到那时候还不知道。\n05 不要走一步算一步，要提前设计变现路径\n想要赚钱，在变现之前就要想好，这个IP今后的变现路径。\n是靠视频流量分成，还是商务广告，亦或是直播带货、用户打赏、卖课咨询等等。\n提前设计好变现路径，一方面可以确定内容的风格，一方面提前对用户的消费认知做教育铺垫。\n而不是走一步算一步，这样池早要亏钱的。\n因为提前设计变现路径，还有一个重要的点就是选择什么样的平台，卖什么样的产品。\n06 不是想啥拍啥，要为精准人设做内容\n很多人对于做IP这件事情，想的过于简单了。\n以为只要注册个账号，写篇文章或者发个视频就算是做IP了。\n其实一个IP在创立之前，就要对这个IP本身进行全方位的结构再重组，找到最适合它的方式。\n比如这个IP是什么人设？专家？达人？励志青年？创业者？等等。\n另外围绕着这个IP，从视频的脚本、表达的话术语气、演绎方式、配合的音乐、穿着的服饰，出现的背景等等，都要为了IP的塑造准备。\n就像我们以前一期分享马保国首场直播带货只成交了41万，因为在它的IP塑造中，就没有消费、电商的属性。马保国直播带货首秀，卖了41万。\n再如村长为什么要给自己起这个昵称、为什么开头要用各位村民好这样的称呼等等，这些都是为IP设计的内容、流程、形式。\n所以不要把做IP想得很简单，没有经过详细的策划，就算你拍了100、200个视频，本质上都没有变化。\n最后还要再强调一点，一个IP的成功不是一时的。\n它和背后的团队、IP本人、平台选择、切入的时机、以及是否坚持等等，都有紧密的关系。\n专栏作家\n十里村，微信公众号：十里村（shilipxl），人人都是产品经理专栏作家。偶尔分享生活，关注电商、科技，新事物。\n本文原创发布于人人都是产品经理，未经许可，禁止转载。\n题图来自Unsplash，基于 CC0 协议。",
-          "link": "https://www.woshipm.com/share/5880459.html",
-          "publishedOn": "2023-08-05T01:34:03.000Z",
-          "wordCount": 358,
-          "title": "运营自媒体IP的6大坑！",
-          "imageUrl": "https://image.woshipm.com/2023/04/14/91d37828-da9e-11ed-95a1-00163e0b5ff3.png"
         }
       ]
     },
@@ -3540,6 +3520,16 @@
       "feedUrl": "http://feed.iplaysoft.com/",
       "siteUrl": "https://www.iplaysoft.com",
       "articles": [
+        {
+          "id": "https://www.iplaysoft.com/?p=5497",
+          "author": "X-Force",
+          "description": "在苹果发布了 macOS Ventura 系统之后，微软终于正式发布了其最新一代的操作系统——Windows 11 2023 正式版 了！并且微软还很厚道地宣布「Win11 可以完全免费升级」。\n新版的 Windows 11 系统相比 Win10 带来很多显著的变化，比如全新设计的“毛玻璃”界面、原生支持运行 Android 应用、窗口布局管理 / Widgets 小工具、新的应用商店、支持 XBox Game Pass 订阅、支持云游戏、DirectX 12、AutoHDR 等更强大的游戏体验……\n「 前往查看原文.... 」\n异次元还有这些值得一看：\n\nWindows 10 最新版本 22H2 正式版 ISO 镜像下载 (微软 MSDN / VL 官方原版系统)\n微软 Windows 10 LTSC 2021 企业官方原版 ISO 镜像下载 - 极致稳定/长期支持\nWindows7 集成 SP1 补丁中文旗舰版光盘镜像下载 (微软MSDN官方原版/ VL批量授权版)\n微软 Windows XP SP3 官方 VOL 简体中文专业版原版光盘镜像下载\n\n异次元正版数字商城  |  异次元首页  |  微信公众号  |  iPcFun  |  关注微博  |  软件精选",
+          "link": "https://www.iplaysoft.com/windows11.html",
+          "publishedOn": "2023-09-02T12:02:31.000Z",
+          "wordCount": 2381,
+          "title": "Windows 11 22H2 最新官方正式版 ISO 镜像下载 (微软 MSDN 原版系统 / 网盘 BT 地址)",
+          "imageUrl": "https://img.iplaysoft.com/wp-content/uploads/2021/windows11/windows11_laptop_scene.jpg"
+        },
         {
           "id": "https://www.iplaysoft.com/?p=5981",
           "author": "X-Force",
@@ -3727,6 +3717,46 @@
       "feedUrl": "http://www.dayanzai.me/feed",
       "siteUrl": "http://www.dayanzai.me",
       "articles": [
+        {
+          "id": "http://www.dayanzai.me/?p=45591",
+          "author": "大眼仔~旭",
+          "description": "开源 AI 图像放大增强工具 Upscayl 中文版由大眼仔旭（www.dayanzai.me）独家汉化发布。 […]",
+          "link": "http://www.dayanzai.me/upscayl.html",
+          "publishedOn": "2023-09-02T16:30:50.000Z",
+          "wordCount": 1051,
+          "title": "开源 AI 图像放大增强工具 Upscayl 2.7.5 x64 中文绿色汉化版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=38325",
+          "author": "大眼仔~旭",
+          "description": "开源免费剪贴板管理工具 CopyQ 中文版由大眼仔旭（www.dayanzai.me）发布。CopyQ 是具有 […]",
+          "link": "http://www.dayanzai.me/copyq.html",
+          "publishedOn": "2023-09-02T16:27:20.000Z",
+          "wordCount": 1019,
+          "title": "开源免费剪贴板管理工具 CopyQ 7.1.0 中文多语免费版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=7244",
+          "author": "大眼仔~旭",
+          "description": "Joplin 是一个一款开源简单的、基于 Electron 的应用程序，它允许您添加和管理笔记和待办事项列表， […]",
+          "link": "http://www.dayanzai.me/joplin.html",
+          "publishedOn": "2023-09-02T16:23:21.000Z",
+          "wordCount": 911,
+          "title": "开源免费笔记应用程序 Joplin 2.12.15 中文多语免费版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=34814",
+          "author": "大眼仔~旭",
+          "description": "免费文本代码编辑器 Text Editor Pro 中文版由大眼仔~旭发布。功能强大的文本编辑工具，语法高亮支 […]",
+          "link": "http://www.dayanzai.me/text-editor-pro.html",
+          "publishedOn": "2023-09-02T16:11:57.000Z",
+          "wordCount": 908,
+          "title": "免费文本代码编辑器 Text Editor Pro 27.5.1 + x64 中文多语免费版",
+          "imageUrl": null
+        },
         {
           "id": "http://www.dayanzai.me/?p=68926",
           "author": "大眼仔~旭",
@@ -4170,6 +4200,86 @@
       "feedUrl": "http://feeds.feedburner.com/pfc",
       "siteUrl": "https://www.portablefreeware.com/",
       "articles": [
+        {
+          "id": "885+1693763580",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=885&ts=1693763580",
+          "publishedOn": "2023-09-03T17:53:00.000Z",
+          "wordCount": 3851,
+          "title": "[UPDATE] CCleaner Free v6.15.10623",
+          "imageUrl": null
+        },
+        {
+          "id": "1030+1693742818",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=1030&ts=1693742818",
+          "publishedOn": "2023-09-03T12:06:58.000Z",
+          "wordCount": 623,
+          "title": "[UPDATE] OpenedFilesView v1.91",
+          "imageUrl": null
+        },
+        {
+          "id": "2393+1693742757",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=2393&ts=1693742757",
+          "publishedOn": "2023-09-03T12:05:57.000Z",
+          "wordCount": 568,
+          "title": "[UPDATE] JSONedit v0.9.41",
+          "imageUrl": null
+        },
+        {
+          "id": "2708+1693742668",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=2708&ts=1693742668",
+          "publishedOn": "2023-09-03T12:04:28.000Z",
+          "wordCount": 749,
+          "title": "[UPDATE] MultiPar v1.3.2.9",
+          "imageUrl": null
+        },
+        {
+          "id": "3013+1693742570",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=3013&ts=1693742570",
+          "publishedOn": "2023-09-03T12:02:50.000Z",
+          "wordCount": 399,
+          "title": "[UPDATE] OpenMPT v1.31.04.00",
+          "imageUrl": null
+        },
+        {
+          "id": "2286+1693735421",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=2286&ts=1693735421",
+          "publishedOn": "2023-09-03T10:03:41.000Z",
+          "wordCount": 543,
+          "title": "[UPDATE] QuickTextPaste v8.67",
+          "imageUrl": null
+        },
+        {
+          "id": "2239+1693729236",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=2239&ts=1693729236",
+          "publishedOn": "2023-09-03T08:20:36.000Z",
+          "wordCount": 537,
+          "title": "[UPDATE] MeinPlatz v8.22",
+          "imageUrl": null
+        },
+        {
+          "id": "2741+1693728946",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=2741&ts=1693728946",
+          "publishedOn": "2023-09-03T08:15:46.000Z",
+          "wordCount": 1040,
+          "title": "[UPDATE] TreeSheets Aug 31 2023",
+          "imageUrl": null
+        },
         {
           "id": "1831+1693652176",
           "author": null,
@@ -5229,66 +5339,6 @@
           "wordCount": 803,
           "title": "[UPDATE] Imagine v1.1.5",
           "imageUrl": null
-        },
-        {
-          "id": "1535+1691239018",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=1535&ts=1691239018",
-          "publishedOn": "2023-08-05T12:36:58.000Z",
-          "wordCount": 1515,
-          "title": "[UPDATE] HashMyFiles v2.44",
-          "imageUrl": null
-        },
-        {
-          "id": "1695+1691238937",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=1695&ts=1691238937",
-          "publishedOn": "2023-08-05T12:35:37.000Z",
-          "wordCount": 576,
-          "title": "[UPDATE] NewFileTime v7.07",
-          "imageUrl": null
-        },
-        {
-          "id": "1909+1691238822",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=1909&ts=1691238822",
-          "publishedOn": "2023-08-05T12:33:42.000Z",
-          "wordCount": 593,
-          "title": "[UPDATE] TakeStock v2.0 Release 68",
-          "imageUrl": null
-        },
-        {
-          "id": "2799+1691238780",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=2799&ts=1691238780",
-          "publishedOn": "2023-08-05T12:33:00.000Z",
-          "wordCount": 591,
-          "title": "[UPDATE] ocenaudio v3.12.5",
-          "imageUrl": null
-        },
-        {
-          "id": "2711+1691238623",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=2711&ts=1691238623",
-          "publishedOn": "2023-08-05T12:30:23.000Z",
-          "wordCount": 457,
-          "title": "[UPDATE] OpenTTD v13.4",
-          "imageUrl": null
-        },
-        {
-          "id": "2208+1691172080",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=2208&ts=1691172080",
-          "publishedOn": "2023-08-04T18:01:20.000Z",
-          "wordCount": 1475,
-          "title": "[UPDATE] PhraseExpress v16.2.12",
-          "imageUrl": null
         }
       ]
     },
@@ -5475,16 +5525,6 @@
           "publishedOn": "2023-08-06T03:10:08.000Z",
           "wordCount": 937,
           "title": "好压 6.5.0.11196 去广告剔除驱动优化版｜32&64位整合版",
-          "imageUrl": null
-        },
-        {
-          "id": "http://bak.qiuquan.cc/?p=4108",
-          "author": "泉",
-          "description": "Ashampoo UnInstaller（阿香婆卸载工具）是一款非常优秀的程序卸载反安装工具！Ashampoo UnInstaller 使用了更智能的实时监控技术，监控程序安装中的所有系统更改。",
-          "link": "http://www.qiuquan.cc/systemtool/ashampoo-uninstaller.html",
-          "publishedOn": "2023-08-05T12:12:24.000Z",
-          "wordCount": 631,
-          "title": "阿香婆卸载工具——Ashampoo UnInstaller 9.00.10 + 10.00.13 + 11.00.12 + 12.00.12 简体中文破解安装版",
           "imageUrl": null
         }
       ]
