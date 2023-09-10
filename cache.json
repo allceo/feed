@@ -6,6 +6,16 @@
       "siteUrl": "https://www.appinn.com",
       "articles": [
         {
+          "id": "https://www.appinn.com/?p=46415",
+          "author": "青小蛙",
+          "description": "这是继安装 Windows 11 时用 no@thankyou.com 登录，就能跳过联网账户，创建本地账之后，又一个离谱的 Windows BUG，或者叫特性：只需要对着资源管理器按下 F11 键全",
+          "link": "https://www.appinn.com/windows-explorer-f11-fix/",
+          "publishedOn": "2023-09-09T06:03:18.000Z",
+          "wordCount": 2561,
+          "title": "太离谱！按 F11 给 Windows 10/11 资源管理器加速 400%，居然是真的",
+          "imageUrl": "https://www.appinn.com/wp-content/uploads/2023/09/appinn-feature-images-2023-09-09t121415-875.jpgo_.jpg"
+        },
+        {
           "id": "https://www.appinn.com/?p=46408",
           "author": "青小蛙",
           "description": "Z-Library 宣布 Z-Points 服务在 11 个国家正式启动，包括中国。主要服务是纸质书籍分享，你只需要将闲置的书籍邮寄到 Z-Points（Z点）就行了。之后 Z-Library 会将这",
@@ -419,16 +429,6 @@
           "wordCount": 2527,
           "title": "Z-Library 发布 Chrome、Firefox 浏览器扩展 Z-Library Finder，防失联、防走失神器",
           "imageUrl": "https://www.appinn.com/wp-content/uploads/2023/08/appinn-feature-images-2023-08-12t124120-786.jpgo_.jpg"
-        },
-        {
-          "id": "https://www.appinn.com/?p=46208",
-          "author": "青小蛙",
-          "description": "来自问题求助频道的问题，简单干脆： 有位同学放出了一个视频链接，并说： 请问如何能把这个aes加密的视频，下载到电脑上，这里的ts文件被加密了，大家能帮忙解决一下吗，谢谢！ 开始青小蛙以为是很复杂的视",
-          "link": "https://www.appinn.com/download-video-use-cat-catch/",
-          "publishedOn": "2023-08-11T09:33:20.000Z",
-          "wordCount": 2499,
-          "title": "这个加密视频怎么下载？",
-          "imageUrl": "https://www.appinn.com/wp-content/uploads/2023/08/dl-vodeo.jpgo_.jpg"
         }
       ]
     },
@@ -3631,6 +3631,16 @@
       "siteUrl": "https://www.iplaysoft.com",
       "articles": [
         {
+          "id": "https://www.iplaysoft.com/?p=5966",
+          "author": "X-Force",
+          "description": "在这个信息爆炸的时代，我们往往都在电脑上保存着大量的文档资料，有时想要找到一些重要的信息，却像在在茫茫海洋里捞针一样。所以一款高性能、速度快的搜索工具几乎是必备的！\nFileLocator Pro 是一款超级好用且专业的文件内容查找工具 (全文搜索软件神器)，它以其高效快速、简单易用以及准确度高而备受赞誉。它支持各种办公文档格式，提供了强大的全文搜索功能 (比如支持正则表达式)，可以在海量的文件中迅速找到符合条件的结果……\n「 前往查看原文.... 」\n异次元还有这些值得一看：\n\nTextSeek - 桌面全文搜索引擎工具，像百度一样搜索硬盘文件内容 (Win / Mac)\nAnyTXT Searcher 免费全文搜索工具神器 - 速度超快查找文档内容 (类似 Everything)\ntagLyst Next - 让我们用更科学更智能的“标签”来分类整理文件吧！\nDocFetcher - 免费桌面文档全文搜索引擎工具，直接查找文档的全部文字内容！\n\n异次元正版数字商城  |  异次元首页  |  微信公众号  |  iPcFun  |  关注微博  |  软件精选",
+          "link": "https://www.iplaysoft.com/filelocator.html",
+          "publishedOn": "2023-09-09T09:59:45.000Z",
+          "wordCount": 1115,
+          "title": "FileLocator Pro 超快的文档全文内容搜索工具！正则查找文件 / 免索引 / 支持压缩包",
+          "imageUrl": "https://img.iplaysoft.com/wp-content/uploads/2023/filelocator/filelocator.jpg"
+        },
+        {
           "id": "https://www.iplaysoft.com/?post_type=news&p=5984",
           "author": "X-Force",
           "description": "PDF 早已成为大家学习工作常用的文档格式，但专业 PDF 编辑器功能繁杂，定价还特别贵，而免费的大多又可能性能弱、功能少、或者有广告不好用。\n新生代 PDF 编辑工具：UPDF 编辑器，依靠清爽的界面、强大的性能，以及出色的工具，在同类产品中脱颖而出，成为众多办公用户的新选择。\n\n即日至 9 月 2…… \n「 前往查看原文.... 」\n\n异次元正版数字商城  |  异次元首页  |  微信公众号  |  iPcFun  |  关注微博  |  软件精选",
@@ -3769,6 +3779,16 @@
           "wordCount": 1203,
           "title": "AList 白嫖网盘空间神器 - 免费开源挂载百度/阿里/OneDrive等云盘到本地工具",
           "imageUrl": "https://img.iplaysoft.com/wp-content/uploads/2023/alist/alist.jpg"
+        },
+        {
+          "id": "https://www.iplaysoft.com/?post_type=xpost&p=5279",
+          "author": "X-Force",
+          "description": "喜马拉雅 FM 是国内专业的音频内容分享平台，它汇集了上亿的有声小说、有声读物、有声书、儿童睡前故事、科普、学习知识、相声小品、鬼故事等音频，可以让你随时随地收听。\n\n最近，爱奇艺、百度网盘、 WPS 会员、迅雷云盘、腾讯视频、哔哩哔哩等纷纷都降过价，估计大家买买买很满足了！而对…… \n「 前往查看原文.... 」\n\n异次元正版数字商城  |  异次元首页  |  微信公众号  |  iPcFun  |  关注微博  |  软件精选",
+          "link": "https://www.iplaysoft.com/p/xmly-vip",
+          "publishedOn": "2023-08-13T16:40:33.000Z",
+          "wordCount": 970,
+          "title": "会员买 1 得 12！喜马拉雅+腾讯视频+京东+网易云+度盘等仅￥238 元",
+          "imageUrl": "https://img.iplaysoft.com/wp-content/uploads/2020/p/xmly/xmly_vip.jpg"
         },
         {
           "id": "https://www.iplaysoft.com/?post_type=xpost&p=5969",
@@ -5669,46 +5689,6 @@
           "wordCount": 2014,
           "title": "[UPDATE] AutoHotkey v2.0.5",
           "imageUrl": null
-        },
-        {
-          "id": "1041+1691728600",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=1041&ts=1691728600",
-          "publishedOn": "2023-08-11T04:36:40.000Z",
-          "wordCount": 4029,
-          "title": "[UPDATE] Foxit Reader Portable v12.1.3",
-          "imageUrl": null
-        },
-        {
-          "id": "2792+1691724972",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=2792&ts=1691724972",
-          "publishedOn": "2023-08-11T03:36:12.000Z",
-          "wordCount": 451,
-          "title": "[UPDATE] Quick Any2Ico v3.4.0.0",
-          "imageUrl": null
-        },
-        {
-          "id": "2904+1691688447",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=2904&ts=1691688447",
-          "publishedOn": "2023-08-10T17:27:27.000Z",
-          "wordCount": 506,
-          "title": "[UPDATE] paint.net v5.0.9",
-          "imageUrl": null
-        },
-        {
-          "id": "2086+1691688157",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=2086&ts=1691688157",
-          "publishedOn": "2023-08-10T17:22:37.000Z",
-          "wordCount": 714,
-          "title": "[UPDATE] RedNotebook v2.30",
-          "imageUrl": null
         }
       ]
     },
@@ -5765,6 +5745,16 @@
           "publishedOn": "2023-08-22T07:23:54.000Z",
           "wordCount": 631,
           "title": "河马视频 v5.6.7 + 紫电视频 v1.6.1 + 花火视频 v3.1.1 + 竹叶视频 v5.7.2 + 迅龙视频 v3.1.1 + 翡翠视频 v3.1.1 + 山海视频 v1.6.0 去广告去更新会员版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://bak.qiuquan.cc/?p=4157",
+          "author": "泉",
+          "description": "Allavsoft 视频下载器 是一个流行的快速在线视频下载和转换器，以帮助用户快速下载和转换在线电影，让其能在PC、便携式设备，、手机、MP4播放器、电视上更轻松地播放。 强大的视频下载工具可以保存高清，HQ和3D电影在线视频，然后转换为MP4，AVI，WMV，MOV，MKV，FLV，MPG，VOB等，以在各种各样的数码设备播放，包括ipad mini， iPad，iPod，iPhone，谷歌Nexus，Microsoft Surface，Kindle Fire，黑莓，苹果电视，Zune，PSP，PS3，掌上电脑，创意Zen，Xbox，Archos等。",
+          "link": "http://www.qiuquan.cc/convert/allavsoft.html",
+          "publishedOn": "2023-08-22T00:45:58.000Z",
+          "wordCount": 638,
+          "title": "视频下载转换利器——Allavsoft Video Downloader Converter 3.25.8.8624 注册版",
           "imageUrl": null
         },
         {
