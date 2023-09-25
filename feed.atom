@@ -2,10 +2,121 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://allceo.github.io/feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-09-24T00:59:29.672Z</updated>
+    <updated>2023-09-25T00:57:04.640Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://allceo.github.io/feed/index.html"/>
     <link rel="self" href="https://allceo.github.io/feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] Complete Internet Repair v9.1.3.6322]]></title>
+        <id>2044+1695584038</id>
+        <link href="https://www.portablefreeware.com/?id=2044&amp;ts=1695584038"/>
+        <updated>2023-09-24T19:33:58.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] FastCopy v5.4.0]]></title>
+        <id>1437+1695581516</id>
+        <link href="https://www.portablefreeware.com/?id=1437&amp;ts=1695581516"/>
+        <updated>2023-09-24T18:51:56.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] Quick Clipboard Editor v1.2]]></title>
+        <id>3091+1695564715</id>
+        <link href="https://www.portablefreeware.com/?id=3091&amp;ts=1695564715"/>
+        <updated>2023-09-24T14:11:55.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] TreeSheets sep 20 2023]]></title>
+        <id>2741+1695561403</id>
+        <link href="https://www.portablefreeware.com/?id=2741&amp;ts=1695561403"/>
+        <updated>2023-09-24T13:16:43.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] Mozilla Firefox, Portable Edition v117.0.1]]></title>
+        <id>132+1695550863</id>
+        <link href="https://www.portablefreeware.com/?id=132&amp;ts=1695550863"/>
+        <updated>2023-09-24T10:21:03.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] GIMP Portable v2.10.34-2]]></title>
+        <id>644+1695550606</id>
+        <link href="https://www.portablefreeware.com/?id=644&amp;ts=1695550606"/>
+        <updated>2023-09-24T10:16:46.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] AutoHotkey v2.0.10]]></title>
+        <id>217+1695547188</id>
+        <link href="https://www.portablefreeware.com/?id=217&amp;ts=1695547188"/>
+        <updated>2023-09-24T09:19:48.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Omnivore – 开源稍后阅读工具，可跨设备同步阅读进度，支持抓取微信公众号，可整合 Logseq、Obsidian]]></title>
+        <id>https://www.appinn.com/?p=46525</id>
+        <link href="https://www.appinn.com/omnivore/"/>
+        <updated>2023-09-24T08:30:06.000Z</updated>
+        <summary type="html"><![CDATA[Omnivore 是一款开源的稍后阅读工具，拥有浏览器插件、iPhone、Android 客户端，支持抓取微信公众号图片，可整合 Logseq、Obsidian、Webhooks，有朗读、搜索、根据规]]></summary>
+        <author>
+            <name>青小蛙</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Win11 下一个重大更新将于 26 日发布 - 带来 Copilot / RAR 支持等]]></title>
+        <id>https://www.iplaysoft.com/?post_type=news&amp;p=5996</id>
+        <link href="https://www.iplaysoft.com/news/5996"/>
+        <updated>2023-09-24T06:47:23.000Z</updated>
+        <summary type="html"><![CDATA[微软即将在 9 月 26 日发布 Windows 11 的下一个重大更新，代号为 23H2。这次更新包含了许多令人兴奋的功能，比如基于 AI 的 Windows Copilot、全新设计的文件资源管理器……
+
+下载 Windows 11 正式版镜像
+另外还有专为触笔用户设计的 Ink Anywhere 功能、大幅改进的画图应用程序、原生支持 RAR 和 7-Zip 文件解压、…… 
+「 前往查看原文.... 」
+
+异次元正版数字商城  |  异次元首页  |  微信公众号  |  iPcFun  |  关注微博  |  软件精选]]></summary>
+        <author>
+            <name>X-Force</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[面试攻略：电商治理诱导好评的答题思路]]></title>
+        <id>https://www.woshipm.com/?p=5910111</id>
+        <link href="https://www.woshipm.com/zhichang/5910111.html"/>
+        <updated>2023-09-24T02:21:14.000Z</updated>
+        <summary type="html"><![CDATA[在电商平台中，有些卖家可能会通过一些手段，来引导用户给出好评，这便是“诱导好评”。而这一行为，可能会对买家决策造成误导，也给电商平台治理提出了新的要求。那么，电商平台要怎么治理这类“诱导好评”的行为呢？本文尝试做了拆解和回答，一切来看看。
+
+近期来咨询面试的同学越来越多，大家的共性是可以很好的回应与总结自己做过的工作内容，但是，当面试官问及开放的问题时，大家回答的结构化不够严谨、思路也没有完全打开，因此错失良机。本篇对电商治理链路中提问较为普遍的“诱导好评”为例来做个解答。
+一、背景：什么是诱导好评？
+诱导好评的发起方一般是电商平台卖家，指卖家通过好评返现/红包、免单、加赠豪礼等类似的方式（典型的行为网购内包裹有效纸片，发布好评通过微信好友返现），引导买家快速确认收货并做出好评甚至追评。
+因为该类行为违背了评价客观、真实的原则，对后续买家决策产生误导作用，且极易引发买卖双方的纠纷，所以从21年底，淘宝在《淘宝网评价规范》对规则更新。不光是淘宝，京东、拼多多也早已对诱导好评的乱象进行了不同程度的治理。
+
+在这，诱导好评由几方面构成，卖家、买家、评价、以及评级返现引发的纠纷让诱导好评在电商治理环节被放大。
+二、问题拆解：诱导好评伤害了谁？是否有获益方？
+首先，从消费者的视角理解起来，已经购买了商品的买家，在完成交易的前提下，基于金额奖励，而撰写好评，这里有两种情况：
+买家觉得一般及以上，考虑到能返现，给出好评，短期丰富了该商品来自消费层面的更多体验跟输出（一般店家要求好评+图+视频）。
+买家觉得很差，保留商品但是考虑到返现，留下了好评。这类好评影响了后续来店其它消费者的购买决策，长此以往消费者还得为前人的不公平客观的问题买单，对消费者不利。
+其次，看下商家。商家无利不起早，看到别人在包裹里面放了好评返现卡，好评评价刷刷增长。要知道平台对商家的履约通过评分来约束，刷好评的好处除了…]]></summary>
+        <author>
+            <name>蓝莲花zx</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[[UPDATE] Don't Sleep v9.45]]></title>
         <id>1738+1695463759</id>
@@ -13019,191 +13130,6 @@ He3 超级开发工具箱 - 内置 200 多种实用免费小工具合集 (办公
         <updated>2023-08-26T13:58:57.000Z</updated>
         <author>
             <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] 12-Ants v6.33]]></title>
-        <id>2204+1693049828</id>
-        <link href="https://www.portablefreeware.com/?id=2204&amp;ts=1693049828"/>
-        <updated>2023-08-26T11:37:08.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] DesktopSnowOK v6.22]]></title>
-        <id>2205+1693049799</id>
-        <link href="https://www.portablefreeware.com/?id=2205&amp;ts=1693049799"/>
-        <updated>2023-08-26T11:36:39.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[首款开源仿宋字体「朱雀仿宋」发布预览测试版及问卷调查]]></title>
-        <id>https://www.appinn.com/?p=46318</id>
-        <link href="https://www.appinn.com/zhuque-font/"/>
-        <updated>2023-08-26T07:16:25.000Z</updated>
-        <summary type="html"><![CDATA[朱雀仿宋是首款开源的仿宋字体，「志在最终提供高质量的、支持多语言的正文仿宋解决方案」。覆盖《通用规范汉字表》一、二级，总汉字数达 6512 字。目前已发布预览测试版，属于免费商用本字体。并由于开发过程]]></summary>
-        <author>
-            <name>青小蛙</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[规范的透明度之美：提升可读性和美观性的有效工具]]></title>
-        <id>https://www.woshipm.com/it/5891834.html</id>
-        <link href="https://www.woshipm.com/ucd/5891834.html"/>
-        <updated>2023-08-26T06:07:47.000Z</updated>
-        <summary type="html"><![CDATA[在页面中，我们时常会被各种绚丽的色彩所吸引。本文介绍了透明度系统的优势，并以实际例子展示其在解决设计问题、提高细节表现和可读性方面的应用。让我们一起看下去吧。
-
-打开绚丽纷繁的页面，我们时常会被各种各样的色彩所吸引。但是，除了鲜艳夺目的颜色外，你可曾留意过那些看似平凡无奇的中性颜色？这些中性颜色在UI设计中扮演着不可或缺的角色，而其中的透明度系统更是隐藏着无限的魅力。今天，我们就要一起揭开透明度系统的神秘面纱，探索其在UI规范中的重要性和作用。
-或许你曾听过“Less is more”这句名言，透明度系统恰好就是这个理念的最佳体现。通过微妙的不透明程度调整，中性颜色的透明度不仅能提升整体界面的平衡感和视觉品质，还能增加元素之间的层次感和空间感。想象一下，通过透明度的微妙运用，你的设计将呈现出一种舒适且现代感的风格。是不是感觉很神奇？同时这个方法还是谷歌设计规范中的推崇之一哦！
-
-在设计规范中，我们通常会根据文字的重要性将其分为重要、常规和辅助三个层级，然后为它们定义不同的颜色。但是，有时候使用定义好的颜色在特定情况下会出现识别不清晰、与背景搭配不美观的问题。这就是透明度应用的典型场景。下面先说下使用透明度的优势：
-提升设计的细节表现：通过给文字和设计元素设置透明度，可以使其与背景更融合，提升细节的呈现效果，使作品更富有层次感。
-提高可读性：透明度的设置可以在不损害背景色的前提下，增强文字的对比度，使其更易读，提供更好的用户体验。
-增加视觉美感：透明度的运用可以使设计更具美感和艺术性，让作品更具吸引力。
-接下来让我们首先看看纯色文字定义经常遇到的问题吧。当设定文字与一些颜色元素搭配时，就可能出现一些尴尬的情况。
-比如，下图中相同颜色的文字在品牌色背景上，识别度低，视觉上也不是很和谐。
-
-接下来，我们对文字颜色进行一些小小的改变，通过降低不透明度来解决这个问题。
-效果立竿见影！…]]></summary>
-        <author>
-            <name>Esc</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] Google Chrome Portable v116.0.5845.111]]></title>
-        <id>2074+1693025434</id>
-        <link href="https://www.portablefreeware.com/?id=2074&amp;ts=1693025434"/>
-        <updated>2023-08-26T04:50:34.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] CherryTree v1.0.1]]></title>
-        <id>2790+1693025327</id>
-        <link href="https://www.portablefreeware.com/?id=2790&amp;ts=1693025327"/>
-        <updated>2023-08-26T04:48:47.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[从传播看大模型客户选择]]></title>
-        <id>https://www.woshipm.com/it/5892476.html</id>
-        <link href="https://www.woshipm.com/it/5892476.html"/>
-        <updated>2023-08-26T03:52:13.000Z</updated>
-        <summary type="html"><![CDATA[随着ChatGpt的出现，涌现出了一股大模型热潮，那么对于大模型公司来说，什么最重要，内核是什么？本文深入剖析了大模型落地应对的难题，为大模型公司提供了切实可行的建议。
-
-“通用大模型是自嗨”，一位高管谈道。
-最近，与一些B2B管理者，以及市场营销负责人交谈，聊到对大模型实际应用、公关传播上的看法。感到意外的是，许多人对大模型公司的做法，是批判的。
-比如：
-这些公司发布一个新模型后，往往迅速组织发布会，试图制造快速关注，随后，与自媒体合作，进行一系列公关活动。
-但背后问题是，尽管大家已经听过你的大模型，但很难理解，这个模型到底有什么价值，它如何帮助客户的业务，或者它具体应用于哪些细分场景，以及如何给业务带来效益。
-
-这些问题让我开始思考，是公关正在失去传播效果，还是大模型公司，根本就没有用好公关手段，找到客户选择；或者大模型没定好位，是一场空欢喜？
-一位高管告诉我，解决这个问题，要从“为什么”开始，也就是，大模型公司什么最重要，内核是什么？
-01
-数据，当然是数据，对不对。可是，要什么数据呢？
-openAI原来有近一万亿文字数据，但他们没直接用这么多，因为发现直接从网上抓来的数据质量不行。
-所以，他们选择了用质量好的数据来训练，最后得到了大家都知道的那个1750亿参数的模型。这些质量好的数据主要来源五个地方：
-a) 经过筛选的网上数据
-b) Web Text2这个数据集
-c) 一号图书馆数据
-d) 二号图书馆数据
-e) 英文版维基百科
-当你开始用GPT时，你会觉得它真的挺厉害，好像什么都懂，但如果你学过专业的人工智能prompt（文本提示），去问它行业深度问题，会发现，它的答案有时候太笼统，就像在说空话。
-因为它对专业领域的深入了解不够，所以，通用大模型应用场景，也停留在「通用下」。
-这也是，为什么我们仍然需要更专业的知识来辅助决策、或解答一些深层次问题。那这问题就来了，通…]]></summary>
-        <author>
-            <name>王智远</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[爱奇艺究竟能不能做竖屏短剧？]]></title>
-        <id>https://www.woshipm.com/?p=5889853</id>
-        <link href="https://www.woshipm.com/share/5889853.html"/>
-        <updated>2023-08-26T02:22:16.000Z</updated>
-        <summary type="html"><![CDATA[短剧内容在过去一段时间曾迎来井喷式爆发，像爱奇艺、腾讯视频等长视频平台，也尝试起了自制微短剧。那么对于长视频平台如爱奇艺而言，短视频平台的短剧模式是否可以模仿借鉴呢？一起来看看本文的解答。
-
-在视频内容领域，无论是以爱优腾为首的长视频平台，还是抖快这样的短视频平台今年都有着各自的困境。对于长视频平台而言，会员增长几乎濒临天花板，短视频平台则面临着DAU、MAU增长缓慢的现状。
-在过去互联网模式下资本总是喜欢跑马圈地，只要能把用户揽到自己的平台上来，不计一切亏损。但是现在都纷纷开始收割了。这其中以抖音为代表，这两年被评为最强吸金兽，直播、电商、同城、广告等等，凡是市面上主流的基本都能插一手。
-再说回爱奇艺，在去年环境下，爱奇艺能够实现盈利，是件不容易的事。有人说爱奇艺这波盈利是靠抠出来的，但是也有人认为爱奇艺烧了这么多钱终于实现扭亏为盈了。
-
-不过从用户角度出发爱奇艺这两年确实产出的内容越来越少了，这里面市场环境影响必不可少，第二个还是版权费用的问题，很多影视剧版权还是没有争取到，第三个我觉得可能也跟爱奇艺的战略相关吧，自制剧的业务发展也是爱奇艺未来的一个方向，目前还在储备积累的过程中。
-
-爱奇艺自制剧
-一、爱奇艺短剧业务
-先看一下这幅图片：
-
-爱奇艺竖短片扶持计划
-这个是爱奇艺在2019年的时候与中传传媒等合作开启的“竖短片”合作。
-但是在短剧这个赛道里，今年上半年，爱奇艺仅上线7部短剧，只有抖音的三十分之一，不足腾讯视频的十分之一。不仅如此，有文章还指出爱奇艺平台存在大量UGC搬运的其它平台的短剧（《“偷”来的短剧，撕开了爱奇艺的版权裂痕》）。
-这不禁让人忍不住好奇，为什么爱奇艺平台这么多技术加持，影视制作经验，不能将短剧业务做起来呢？反而让后来者快手、抖音反超？
-二、短剧的发展之路
-短剧的发展可以追溯到18年的时候，短剧内容的发展是迅速且正向的。从2018年的初露锋芒到…]]></summary>
-        <author>
-            <name>DDliu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] Mozilla Firefox, Portable Edition v116.0.3]]></title>
-        <id>132+1692987109</id>
-        <link href="https://www.portablefreeware.com/?id=132&amp;ts=1692987109"/>
-        <updated>2023-08-25T18:11:49.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] PhraseExpress v16.2.18]]></title>
-        <id>2208+1692986913</id>
-        <link href="https://www.portablefreeware.com/?id=2208&amp;ts=1692986913"/>
-        <updated>2023-08-25T18:08:33.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[音乐 CD 抓取转换刻录软件 EZ CD Audio Converter 11.1.0.1 x64 中文多语免费版]]></title>
-        <id>http://www.dayanzai.me/?p=5622</id>
-        <link href="http://www.dayanzai.me/ez.html"/>
-        <updated>2023-08-25T16:35:23.000Z</updated>
-        <summary type="html"><![CDATA[EZ CD Audio Converter 11 中文版由大眼仔旭发布。EZ CD Audio Convert […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[韩国免费屏幕录像软件 oCam 520.0 中文免费版 支持游戏录像]]></title>
-        <id>http://www.dayanzai.me/?p=465</id>
-        <link href="http://www.dayanzai.me/ocam.html"/>
-        <updated>2023-08-25T16:25:45.000Z</updated>
-        <summary type="html"><![CDATA[oCam 官方中文去广告版(免费屏幕录像软件)由大眼仔旭独家发布。今天小编给大家带来的是一款来自韩国的免费屏幕 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[万能音视频解码器 K-Lite Codec Pack Mega 17.7.5 中文多语免费版]]></title>
-        <id>http://www.dayanzai.me/?p=1796</id>
-        <link href="http://www.dayanzai.me/k-lite-codec-pack.html"/>
-        <updated>2023-08-25T16:21:16.000Z</updated>
-        <summary type="html"><![CDATA[K-Lite Codec Pack Mega 中文版 今天小编大眼仔旭给大家推荐一款非常不错的解码器，它就是  […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[小米正在准备 MiOS – Android 的潜在替代品]]></title>
-        <id>http://www.dayanzai.me/?p=68855</id>
-        <link href="http://www.dayanzai.me/xiaomi-mios.html"/>
-        <updated>2023-08-25T13:01:02.000Z</updated>
-        <summary type="html"><![CDATA[中国智能手机制造商小米已在注册了“MiOS”商标。 这引发了人们的猜测，即小米公司正在开发自己的操作系统，该操 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
         </author>
     </entry>
 </feed>
