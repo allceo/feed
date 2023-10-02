@@ -6,6 +6,16 @@
       "siteUrl": "https://www.appinn.com",
       "articles": [
         {
+          "id": "https://www.appinn.com/?p=46587",
+          "author": "青小蛙",
+          "description": "NOVA Video Player 是一款开源的安卓视频播放器，支持从本地、局域网、NAS、网盘*上播放视频，拥有海报背景墙和刮削功能，内置字幕下载，支持 Android 手机、平板、电视。@Appi",
+          "link": "https://www.appinn.com/nova-video-player/",
+          "publishedOn": "2023-10-01T07:50:48.000Z",
+          "wordCount": 2574,
+          "title": "NOVA Video Player – 开源 Android 视频播放器，支持手机、平板、电视，支持刮削、NAS 等",
+          "imageUrl": "https://www.appinn.com/wp-content/uploads/2023/10/Appinn-feature-images-2023-10-01T152127.278.jpg"
+        },
+        {
           "id": "https://www.appinn.com/?p=46584",
           "author": "青小蛙",
           "description": "VidHub 是一款功能完备的免费 macOS 媒体播放器，除了直接播放网盘视频（阿里云盘、百度网盘等）、NAS 视频、Emby 视频等，主要功能还有自动刮削、海报墙、在线字幕等，最近上线 iPhon",
@@ -424,21 +434,6 @@
           "wordCount": 2506,
           "title": "求 Android 遮挡屏幕视频字幕区域工具｜屏幕工具箱",
           "imageUrl": "https://www.appinn.com/wp-content/uploads/2023/09/pingmugongjux.jpgo_.jpg"
-        },
-        {
-          "id": "https://www.appinn.com/?p=46363",
-          "author": "青小蛙",
-          "description": "AirPodsDesktop 是一个可以在 Windows 系统上增强 AirPods 的开源项目，主要提供几个功能：动画显示电池信息、入耳检测、低音频延迟。@Appinn 感谢 @Rime 同学的推",
-          "link": "https://www.appinn.com/airpodsdesktop/",
-          "publishedOn": "2023-09-02T04:05:18.000Z",
-          "wordCount": 2537,
-          "title": "AirPodsDesktop – 开源 AirPods 增强：在 Windows 上动画显示电池信息、入耳检测、低音频延迟",
-          "enclosure": {
-            "url": "https://img.appinn.com/wp-content/uploads/2023/09/ezgif.com-gif-to-mp4-5.mp4",
-            "length": "57197",
-            "type": "video/mp4"
-          },
-          "imageUrl": "https://www.appinn.com/wp-content/uploads/2023/09/AirPodsDesktop.jpg"
         }
       ]
     },
@@ -447,6 +442,56 @@
       "feedUrl": "http://www.woshipm.com/feed",
       "siteUrl": "https://www.woshipm.com",
       "articles": [
+        {
+          "id": "https://www.woshipm.com/it/5914266.html",
+          "author": "琢磨事",
+          "description": "人类大脑皮层是相似的，但因为感知反馈处理内容不同而分成了不同的功能区来处理听觉、视觉和味道。OpenAI如果真的如预期在这条路上彻底跑通商业模式，那无疑是对整个行业的最大刺激，也会给自己打下超级巨头的坚实基础。\n\nOpenAI 9.25发了个关于多模态版本的Blog说chatGPT现在能够看、听、说了，体验过的同学反馈还不错，那这意味着什么？\n一、应用>纯粹的智能改进\n同纯粹的智能提升相比多模态是一种应用可能性的提升。如果说原本的大模型瓮中之脑，那多模态无疑是把给这个瓮中之脑接上和现实世界相联的触角。\n从技术上，这意味着之前这是在多种算法的综合上发力，而不是单纯的强调智能这一个维度。这种衔接在过去其实是吃力的，OpenAI看起来也没把这问题解决的特别好，所以在文章中贴了这么一小段：\n\n这啥意思呢？其实是说语音识别通用度不好，反过来推测一点就是语音识别还没有自己的大模型。希望OpenAI能在这种综合和衔接上取得进展。\n值得一提的是，这种方向和很多人心心念念的GPT5是不完全重叠的，GPT5更像是让瓮中之脑更为强大，而多模态综合则是让现有大脑的智力得到更好的发挥。如果OpenAI贴着多模态走，那意味着他们在战略上把应用放到了更前面。这是对的，并且和人类的大脑产生智能的情况更贴近。人类大脑皮层是相似的，但因为感知反馈处理内容不同而分成了不同的功能区来处理听觉、视觉和味道。\nOpenAI如果真的如预期在这条路上彻底跑通商业模式，那无疑是对整个行业的最大刺激，也会给自己打下超级巨头的坚实基础。\n从应用上这意味着应用范围的拓宽。那里需要多模态呢？显然是物理空间。纯粹的瓮中之脑其实是把应用局限在数字空间，而多模态则打通数字和物理世界。最直接的，这类能力会激活多模态的应用。\n\n典型的多模态应用是什么呢？是PokemanGo。介于纯粹的数字世界和纯粹的物理世界之间就是这种增强现实的场景，没多…",
+          "link": "https://www.woshipm.com/ai/5914266.html",
+          "publishedOn": "2023-10-02T00:09:31.000Z",
+          "wordCount": 352,
+          "title": "从Agent到多模态，大模型想要什么？",
+          "imageUrl": "https://image.woshipm.com/2023/05/06/c97d24e0-ec00-11ed-96ae-00163e0b5ff3.jpg"
+        },
+        {
+          "id": "https://www.woshipm.com/it/5914202.html",
+          "author": "柠檬饼干净又卫生",
+          "description": "风控系统，即风险控制系统，一般指在产品功能设置上，通过技术、运营等方面规避来自政策、黑产、平台、竞争等层面的风险，避免对产品造成收益上的损失甚至造成毁灭性的打击。\n下面本文就盘一下，风控系统及其相关的功能建设。\n\n一、风险的分类\n产品的运营伴随着风险的产生，其中会有来自各方面的不同类型风险，这些风险都会一定程度上影响产品的运营效果。\n1. 按风险的来源分类\n1）法律禁止类\n指由相关国家机构明令禁止的内容/行为，比如涉黄、涉政、未成年、引起不良社会现象的谣言等内容，或者诈骗、盗窃等行为。这类内容/行为被监管部门发现，则会导致公司的产品受到影响（比如下架、勒令整改）。此外，国家禁止的内容/行为会随着随着文化管控的需求变更会有新的防控要求变更，比如为了惩治网络暴力，监管部门有对相关内容APP提出内容管控要求。\n2）黑灰产业类\n指通过作弊进行非正常手段获利，比如抽奖活动刷抽奖、拉新注册刷人头薅羊毛等，这些行为会导致产品的运营收益下降。\n\n3）三方平台类\n指依赖于第三方平台合作的产品（比如安卓应用商城、苹果Apple store，通过上架第三方平台）通过符合其他平台的规则来实现盈利，如果出现违规，可能会导致下架、功能限制等平台处罚措施，导致产品的正常运营受到影响。\n4）脚本外挂类\n主要指用户通过脚本、外挂等方式，进行非正常的用户操作，从而破坏产品的用户生态，比如游戏的外挂、网赚产品的自动完成任务，这些行为一方面损害了正常用户的利益，一方面导致平台运营成本增大（游戏的外挂/脚本会加速游戏内容的损耗、网赚平台则会加大平均的让利成本）。\n5）竞品竞争类\n主要指其他竞品平台的不良内容，用商业诋毁官方或者合作的公司，导致品牌利益受损。一般容易出现在内容平台上，比如水军进行负面舆论的爆破。\n6）内部风险类\n指内部成员产生的风险内容，比如内部成员泄露商业机密、发表负面言论内容等，对企业造成损失。\n…",
+          "link": "https://www.woshipm.com/pd/5914202.html",
+          "publishedOn": "2023-10-01T10:09:27.000Z",
+          "wordCount": 507,
+          "title": "风控系统的建设，具体怎么做？",
+          "imageUrl": "https://image.woshipm.com/2023/04/14/a1a5d5de-da9e-11ed-9b82-00163e0b5ff3.png"
+        },
+        {
+          "id": "https://www.woshipm.com/?p=5912842",
+          "author": "小朋友",
+          "description": "一种新型游戏正在年轻人中迅速流行起来：聚集几十上百人，选择出\"猫\"和\"老鼠\"的角色，通过手机共享位置，在一场跑追捉逐的\"躲猫猫\"游戏中展开精彩的对决。这款游戏对于小学生来说可能有些幼稚，但对于大学生来说刚刚好。\n\n2023年9月初，一种年轻人全新的游戏风靡全国，名为”躲猫猫”。通过查询多个社交软件和线下活动软件进行调查，据初步统计，超过50个城市，包括北上广深蓉渝苏杭等地，已经涌现出相应的”躲猫猫”社群和线下活动。在重庆鸿恩寺森林公园、成都浣花溪公园、长沙梅溪湖公园等地，年轻人们共同参与的”躲猫猫”活动场景非常热闹，人数多达上百人。\n根据初步统计，从9月中旬到国庆假期期间，成都将举办超过50场共享位置的躲猫猫活动。这些活动将分布在锦城湖、兴隆湖、青龙湖、桂溪公园、浣花溪、塔子山等大型公园中。活动组织者将提供游戏道具、花露水、矿泉水等物资，并收取参与者几元至几十元不等的报名费。\n\n这些活动为参与者提供了一个独特而有趣的游戏体验，让年轻人们在自然的环境中共同参与到这场追逐游戏中。躲猫猫游戏既能够锻炼身体，又能够释放压力，成为了当下年轻人热衷的社交活动之一。\n一、“躲猫猫”的兴起、玩法、为什么这么火？\n1. 怎么流行起来的？\n相传”躲猫猫”据传起源于唐朝，经过数千年的发展，一直深受小朋友们的喜爱，并保持着持久的魅力。然而，如今，现代卫星技术的出现却意外地让一群成年人重新感受到了捉迷藏的乐趣。。。\n游戏的原型就是我们小时候玩的“捉迷藏”，只是有了“共享位置”这个科技新功能，玩游戏的人可以在学校、公园或园区，只需要打开共享，躲的人和抓的人都可以通过手机看到对方的位置。卫星技术的加成让成年人重新感受到了童年的快乐，他们重新喜欢上了“躲猫猫”这款经典游戏，并通过互联网将游戏带入虚拟空间，最终组织线下游戏活动。\n最新的游戏玩法最早于今年年初在一些大学校园内兴起，而如今已在全国各大城市迅速流…",
+          "link": "https://www.woshipm.com/evaluating/5912842.html",
+          "publishedOn": "2023-10-01T03:06:37.000Z",
+          "wordCount": 375,
+          "title": "躲猫猫：共享定位下的多人运动新游戏",
+          "imageUrl": "https://image.woshipm.com/2023/04/17/ab04316c-dcf5-11ed-897e-00163e0b5ff3.png"
+        },
+        {
+          "id": "https://www.woshipm.com/?p=5914152",
+          "author": "深渡Cross",
+          "description": "国内的搜索市场基本上都是百度一家独大，好几个公司都尝试做搜索冲击这个市场。这篇文章，我们来看看字节跳动在这方面的表现，具体如何。\n\n近几年，字节在搜索入口上落子频频，似乎已经成为了互联网行业每年的保留节目。\n2020-2021年，确定下注搜索赛道的字节，先后建立了头条搜索、抖音搜索两个内部生态的搜索入口。且于2021年底将头条搜索团队融入到抖音事业部，实现二合一，意图谋划“视频+图文”的新型搜索入口。\n次年2月，字节加快了搜索布局，强势推出综合类搜索引擎悟空搜索，定位于“搜你想搜，看你想看”，而后又修改定位，以“优质信息，搜索无广告”为Slogan跟进了夸克的“无广告”路线。甚至，同年抖音搜索还与苹果Siri达成合作，实现语音搜视频功能，并上线移动端“头条百科”，对垒百度百科，美名其曰为搜索业务加固护城河。\n彼时，字节正在发力电商，借这三大搜索入口也帮抖音咬下了部分电商红利：据2022年抖音电商发布“抖音818发现好物节”数据报告显示，抖音商城带动销量同比增长达359%，搜索场景的同比增幅达到153%。\n\n而近日，据各大媒体消息显示，字节跳动新推出了一款名为“闪电搜索”的全新搜索App，其Slogan为“闪电搜索，快如闪电”。\n据悉，该App用户可使用抖音账号登录，可按用户所需设置搜索范围以及优先级，实现搜索的“广、全、快”，其中搜索结果则均由头条搜索提供。\n值得注意的是，“闪电搜索”吸引用户的方式与百度app别无二致：采用的金币激励模式，并为此单独设置一个“任务”Tab，并且用户在端内阅读和搜索，都能获得金币奖励，金币可兑换成人民币，按照平台要求提现。\n但问题在于，字节在搜索领域并不占优，截至目前，字节曾经的“三大搜索”除了抖音搜索能凭借抖音本身丰富的内容生态，以及庞大的用户体量维持之外，头条搜索、悟空搜索早已“泯然众人矣”，分别转型为“有柿”和AI小工具“小悟空”。\n可…",
+          "link": "https://www.woshipm.com/share/5914152.html",
+          "publishedOn": "2023-10-01T02:08:41.000Z",
+          "wordCount": 345,
+          "title": "再抢搜索入口，字节仍坚定入场，胜算几何？",
+          "imageUrl": "https://image.woshipm.com/2023/04/14/8e8dc6ce-da8e-11ed-b35a-00163e0b5ff3.png"
+        },
+        {
+          "id": "https://www.woshipm.com/it/5914124.html",
+          "author": "CUPTEA",
+          "description": "在菜市场买菜，买完菜送颗葱算是非常常见的操作了。但好像从未有人想一下，这样做的背后，具体原因是什么呢？\n\n最近看到这么一个问题：上「叮咚买菜」买完菜送根葱，是一个好的交互体验吗？\n在「叮咚买菜」选购完商品需要付款时，界面会提示你是否需要小葱。这个体验对我个人来说是挺喜欢的，但还得看怎么送，并不是所有的用户都会为「免费送」买单。\n我最早开始使用「叮咚买菜」是在疫情期间，平常都会去小区门口的菜场逛逛。当我第一次逛这个菜场，想要买葱，却找不到葱，结账时随口问了一句：老板，有葱吗？老板从收银台下拿出一小把葱塞进了我的购物袋里，说送我了。那一刻，我的心情达到了峰值。小小的一把葱，就让我成为了这家菜场的忠实用户。\n这里的前提是，因为我需要这根葱，并且老板送给了我，所以才让我有了一次不错的交互体验。\n「叮咚买菜」最开始的做法是强行送葱，遭到了许多用户的投诉。就跟菜场的老板在你不需要葱的时候，直接往你的购物袋里塞了把小葱，你可能并不会感谢他，甚至还觉得有点浪费，拿回家之后还得想怎么处理它。如果碰到不喜欢葱的用户，甚至会造成用户的反感。\n葱的成本虽然非常低，这种做法企业不仅要承担一定的成本，而且还会造成用户的流失。\n\n于是，「叮咚买菜」就对交互方式进行了调整，把免费小葱默认放进购物车，由用户自行决定是否勾选。即便这样，又出现了新的问题，用户买了鱼但是忘记勾选小葱，或者是勾选了小葱，但是分拣员在分拣商品时给忘记了。用户把所有的责任推给企业，认为是企业没有服务到位。\n最后有了现在的交互方式，「叮咚买菜」采取了把「需要免费的小葱吗」这一提示放在了「结算按钮」这一个显眼的位置。这一温馨提醒的方式既不会让用户感觉到有压力，又不会让需要小葱的用户忘记选择小葱。\n\n如果用户需要小葱，则点击「需要」，如果用户不喜欢小葱，或者家里已经有小葱，则点击「不需要」，这个做法不仅可以收获用户的好感，也不会因为强制送葱让用户感到反感。\n生活中，这样类似的做法还有很多，例如优惠券的使用。\n现在的App都是红包优惠券满天飞，大量的优惠券不一定会让用户留下来，但没有，用户一定会去选择使用别的平台。\n在购物中，商家往往更倾向选择发优惠券而不是降价。如果直接降价，不仅会改变消费者的心理价格锚定，还会觉得这个商品很廉价。但是如果把优惠后置，告诉用户满200减20，用户就会有赚到的感觉。\n再例如下雨天打车，这是一件特别困难的事，下班高峰期可以等上2个小时，如果商家直接给你的账户投放优惠券，你会觉得这是商家应该做的。但如果在你长时间的等待后，有司机接了你的订单，系统提示因为长时间的等待，而给你免单或者减去30元时，商家把你的心情又从糟糕的情绪中拉回到了惊喜中。\n因此，免费送不一定会让所有用户买单。\n文章到这就结束了，各位节日快乐～\n本文由 @CUPTEA 原创发布于人人都是产品经理，未经作者许可，禁止转载。\n题图来自Unsplash，基于CC0协议。",
+          "link": "https://www.woshipm.com/share/5914124.html",
+          "publishedOn": "2023-10-01T01:28:42.000Z",
+          "wordCount": 299,
+          "title": "买完菜送根葱，是一个好的交互体验吗？",
+          "imageUrl": "https://image.woshipm.com/2023/09/26/150bae48-5c65-11ee-b266-00163e142b65.jpg"
+        },
         {
           "id": "https://www.woshipm.com/?p=5914154",
           "author": "硬核老麻花",
@@ -3686,26 +3731,6 @@
           "wordCount": 416,
           "title": "超6600万会员，中国新茶饮TOP3品牌，茶百道是如何运营私域的？",
           "imageUrl": "https://image.woshipm.com/2023/04/13/83eecc9e-d9e0-11ed-8fc2-00163e0b5ff3.jpg"
-        },
-        {
-          "id": "https://www.woshipm.com/?p=5896348",
-          "author": "芋艿和猫说",
-          "description": "本文运用《国王武士祭司诗人》四种男性原型，解析了电视剧《长相思》中四位主要男性角色的品格设置。后面又通过典型案例，扩展到不同品牌人格的品牌暗线建构方式。本文既能帮助理解品牌塑造的思路，也能作为品牌营销的实际指导，值得品牌从业者认真阅读和借鉴。 \n\n最近《长相思》大热。\n一女多男，大爽人心，人物角色建构也挺有意思。网上各种分析很多，尤其针对四位男性角色。\n其中，有一个解析的角度很妙：\n对剧中四种典型形象进行溯源，参考荣格原型为基础的。\n\n《国王武士祭司诗人 : 从男孩到男人，男性心智进阶手册》（原作名字：King, Warrior, Magician, Lover: Rediscovering the Archetypes of the Mature Masculine），作者把男性气质分为四个原型：国王、武士、祭司和诗人。\n国王：\n一个成年男性的自我，不论他暂时达到了多高的地位，拥有了多强大的力量，都必须意识到自己只是一项超越自身之上宏大意志或事业的『公仆』。\n玱玹是『国王』人格的代表，从能量和态度上，都趋向牺牲自我以实现宏大目标。\n武士：\n最典型的属性是攻击性和战斗力。武士往往是苦行者、独行者、在情感上有一定距离感，并具备超越本我的『牺牲精神』。\n相柳不仅兼具战斗力和高度自律，还能保持9个脑袋的清醒思考，处事决断，最后也献身大义。\n诗人：\n敏感、温柔，富有同情心。擅长和世界建立感知。诗人的原型生命力顽强且热烈，积极拥抱世界和生活。\n小狐狸是典型『诗人』，痛苦经历不仅没有让他失去希望，反而保持积极和善意，敏锐且感性，当然，其执天下棋谋局布篇，又类似『祭司』角色。\n祭司：\n『智性』代表，承担了社会对知识的归纳总结，掌控知识和先进技术，依据理性行事。\n丰隆代表的世族掌舵人类型，看似热情大胆，实际处事圆滑、平衡利弊，在婚姻大事上更由理性主导。\n\n这四类形象不仅是文学作品中典型人物…",
-          "link": "https://www.woshipm.com/marketing/5896348.html",
-          "publishedOn": "2023-09-02T07:47:44.000Z",
-          "wordCount": 364,
-          "title": "从《长相思》角色定位到品牌暗线",
-          "imageUrl": "https://image.woshipm.com/2023/08/31/a33fd8f2-47b0-11ee-996f-00163e0b5ff3.jpg"
-        },
-        {
-          "id": "https://www.woshipm.com/it/5895551.html",
-          "author": "wenshyhao",
-          "description": "在产品工作中，日常离不开复盘，那么你是怎么复盘的呢？做复盘有什么好处？该如何做复盘呢？作者从这几个方面进行分析总结，一起来看看吧。\n\n一、发生在身边的复盘\n8月份即将结束，2023年已过大半。手里的项目也推进了小一年的时间了，偶然间，回头看看。沉迷在各种具体事务中，却并没有很多的收拾和整理，似乎还如初入职场时的小白一样，面对各种问题，迎向各种问题，杂乱而无序，而后时间、精力大幅消耗，一年复一年做着毫无营养的工作，就如同群内的小伙伴所说的那样，做啥被砍啥，从0-1-0。\n\n当然，我也在反思一些问题，似乎在老生常谈，不管是梳理项目的情况，还是梳理自己作为产品的关键角色，对自己进行复盘思考都是很有必要的。当所有的事情都有些脱离掌控，自己的努力发挥不到很大的力量时候，那就更好的做自己，一点点去扭转这个情况，一点点从可以着手的地方着手，一点点的把自己该做的、能做的做的更好一些。\n\n当所有人都共同努力的时候，事情终归是在某一个节点会拐弯掉头的。\n二、复盘的好处\n说到复盘优化，那复盘优化能带来什么好处呢？\n1. 提高思考与反思能力\n通过复盘，我们可以总结并归纳经验教训，进而思考如何提升工作效率、改进工作方法和技能。找到正确的方向，方向错误，再努力也到达不了目的地，而总结复盘的过程，实际上就是对每一个环节纠错的过程，就像行进过程中不断检查GPS，校正自己的轨迹是否在正确的路线上。\n2. 提高团队协作和沟通\n复盘可促进团队成员间的交流和沟通，共同总结经验教训，并确定下一步的工作计划。\n3. 改善工作质量\n复盘可以发现工作中的不足和瑕疵，找出改进的方向和方法，从而提高工作质量。在复盘过程中，回溯经过，找到问题所在，就能让我们吃一堑长一智，不让“错误”再发生，从而提高成功率。\n4. 促进个人成长和发展\n复盘是对过去做的事，进行整体的梳理和思考。复盘可以帮助我们认清自身的优势和不足，及时发现并填补…",
-          "link": "https://www.woshipm.com/share/5895551.html",
-          "publishedOn": "2023-09-02T02:45:16.000Z",
-          "wordCount": 365,
-          "title": "2023年已经过去一半了？怎么才能高效地进行项目复盘呢？",
-          "imageUrl": "https://image.woshipm.com/2023/08/31/a33fd8f2-47b0-11ee-996f-00163e0b5ff3.jpg"
         }
       ]
     },
@@ -3929,26 +3954,6 @@
           "wordCount": 1046,
           "title": "开屏跳过 - 开源免费的“李跳跳”替代品 (安卓手机 APP 自动跳过开屏广告神器)",
           "imageUrl": "https://img.iplaysoft.com/wp-content/uploads/2023/kai-ping-tiao-guo/kptg.jpg"
-        },
-        {
-          "id": "https://www.iplaysoft.com/?p=5497",
-          "author": "X-Force",
-          "description": "在苹果发布了 macOS Ventura 系统之后，微软终于正式发布了其最新一代的操作系统——Windows 11 2023 正式版 了！并且微软还很厚道地宣布「Win11 可以完全免费升级」。\n新版的 Windows 11 系统相比 Win10 带来很多显著的变化，比如全新设计的“毛玻璃”界面、原生支持运行 Android 应用、窗口布局管理 / Widgets 小工具、新的应用商店、支持 XBox Game Pass 订阅、支持云游戏、DirectX 12、AutoHDR 等更强大的游戏体验……\n「 前往查看原文.... 」\n异次元还有这些值得一看：\n\nWindows 10 最新版本 22H2 正式版 ISO 镜像下载 (微软 MSDN / VL 官方原版系统)\n微软 Windows 10 LTSC 2021 企业官方原版 ISO 镜像下载 - 极致稳定/长期支持\nWindows7 集成 SP1 补丁中文旗舰版光盘镜像下载 (微软MSDN官方原版/ VL批量授权版)\n微软 Windows XP SP3 官方 VOL 简体中文专业版原版光盘镜像下载\n\n异次元正版数字商城  |  异次元首页  |  微信公众号  |  iPcFun  |  关注微博  |  软件精选",
-          "link": "https://www.iplaysoft.com/windows11.html",
-          "publishedOn": "2023-09-02T12:02:31.000Z",
-          "wordCount": 2381,
-          "title": "Windows 11 22H2 最新官方正式版 ISO 镜像下载 (微软 MSDN 原版系统 / 网盘 BT 地址)",
-          "imageUrl": "https://img.iplaysoft.com/wp-content/uploads/2021/windows11/windows11_laptop_scene.jpg"
-        },
-        {
-          "id": "https://www.iplaysoft.com/?p=5981",
-          "author": "X-Force",
-          "description": "作为对标 ChatGPT 的国产 AI 人工智能平台，百度的「文心一言」自发布后就备受关注。如今，文心一言终于正式全面向全社会开放了！最大的好处就是免费、直连、无任何网络障碍。\n所有用户都可以在文心一言的网页版、文心一言手机 APP 上使用体验这款类似 ChatGPT、Claude 与 Bing 的“原生中文的人工智能”了。此外，在百度网页搜索中，也已经出现了“AI 对话”的选项，可以体验到 AI 加持的网页搜索功能，简单方便无门槛……\n「 前往查看原文.... 」\n异次元还有这些值得一看：\n\n重磅！Google Bard 谷歌 AI 正式支持中文 - 写作问答编程写代码等 (ChatGPT 平替)\nClaude 2.0 注册使用教程 - 免费无限制的 ChatGPT (GPT4) 替代品！ AI 界“超级黑马”\n全面开放！开启微软新必应 Bing Chat 聊天 Ai 功能方法 (免排队 / 免费替代 ChatGPT)\nChatGPT 怎样注册账号？火爆全网的“超神 AI 人工智能”使用方法 ！简直强得离谱……\n\n异次元正版数字商城  |  异次元首页  |  微信公众号  |  iPcFun  |  关注微博  |  软件精选",
-          "link": "https://www.iplaysoft.com/wen-xin-yi-yan.html",
-          "publishedOn": "2023-09-01T15:19:30.000Z",
-          "wordCount": 1122,
-          "title": "百度「文心一言」AI 智能正式开放！对标 “ChatGPT” 中文大模型 (手机 APP / 网页版)",
-          "imageUrl": "https://img.iplaysoft.com/wp-content/uploads/2023/wenxinyiyan/wxyy.jpg"
         }
       ]
     },
@@ -5041,26 +5046,6 @@
           "wordCount": 908,
           "title": "免费文本代码编辑器 Text Editor Pro 27.5.1 + x64 中文多语免费版",
           "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=68926",
-          "author": "大眼仔~旭",
-          "description": "2023 年 8 月，以开发 ChatGPT 闻名的人工智能巨头 OpenAI 宣布推出 GPTBot，这是一 […]",
-          "link": "http://www.dayanzai.me/what-is-gptbot.html",
-          "publishedOn": "2023-09-02T06:28:30.000Z",
-          "wordCount": 859,
-          "title": "什么是 GPTBot？为什么网站会阻止它？",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=2669",
-          "author": "大眼仔~旭",
-          "description": "适用于作家和研究员的编辑器 Zettlr 中文版 由大眼仔（www.dayanzai.me）发布。Zettlr […]",
-          "link": "http://www.dayanzai.me/zettlr.html",
-          "publishedOn": "2023-09-01T16:25:17.000Z",
-          "wordCount": 1948,
-          "title": "适用于作家和研究员的编辑器 Zettlr 3.0.0 x64 中文多语免费版",
-          "imageUrl": null
         }
       ]
     },
@@ -5075,6 +5060,36 @@
       "feedUrl": "http://feeds.feedburner.com/pfc",
       "siteUrl": "https://www.portablefreeware.com/",
       "articles": [
+        {
+          "id": "2945+1696156487",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=2945&ts=1696156487",
+          "publishedOn": "2023-10-01T10:34:47.000Z",
+          "wordCount": 462,
+          "title": "[UPDATE] FileActivityWatch v1.68",
+          "imageUrl": null
+        },
+        {
+          "id": "2245+1696156439",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=2245&ts=1696156439",
+          "publishedOn": "2023-10-01T10:33:59.000Z",
+          "wordCount": 828,
+          "title": "[UPDATE] FontViewOK v8.38",
+          "imageUrl": null
+        },
+        {
+          "id": "1039+1696156408",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=1039&ts=1696156408",
+          "publishedOn": "2023-10-01T10:33:28.000Z",
+          "wordCount": 611,
+          "title": "[UPDATE] MAME v0.259",
+          "imageUrl": null
+        },
         {
           "id": "1033+1696099062",
           "author": null,
@@ -6324,46 +6339,6 @@
           "wordCount": 1040,
           "title": "[UPDATE] TreeSheets Aug 31 2023",
           "imageUrl": null
-        },
-        {
-          "id": "1831+1693652176",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=1831&ts=1693652176",
-          "publishedOn": "2023-09-02T10:56:16.000Z",
-          "wordCount": 480,
-          "title": "[UPDATE] HWMonitor v1.52",
-          "imageUrl": null
-        },
-        {
-          "id": "2086+1693649166",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=2086&ts=1693649166",
-          "publishedOn": "2023-09-02T10:06:06.000Z",
-          "wordCount": 720,
-          "title": "[UPDATE] RedNotebook v2.31",
-          "imageUrl": null
-        },
-        {
-          "id": "2785+1693604968",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=2785&ts=1693604968",
-          "publishedOn": "2023-09-01T21:49:28.000Z",
-          "wordCount": 619,
-          "title": "[UPDATE] Textify v1.10.4",
-          "imageUrl": null
-        },
-        {
-          "id": "443+1693576531",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=443&ts=1693576531",
-          "publishedOn": "2023-09-01T13:55:31.000Z",
-          "wordCount": 901,
-          "title": "[UPDATE] Rainlendar Lite v2.20.1",
-          "imageUrl": null
         }
       ]
     },
@@ -6371,7 +6346,108 @@
       "title": "QiuQuan's Blog",
       "feedUrl": "http://www.qiuquan.cc/feed",
       "siteUrl": "http://www.qiuquan.cc",
-      "articles": []
+      "articles": [
+        {
+          "id": "http://bak.qiuquan.cc/?p=4299",
+          "author": "泉",
+          "description": "莆田珂珂鞋厂一件包邮，免费代理/自家工厂/匡威万斯￥75万款货源，可以免费发得物京东快递",
+          "link": "http://www.qiuquan.cc/cooperate/putian.html",
+          "publishedOn": "2023-09-27T13:20:30.000Z",
+          "wordCount": 673,
+          "title": "【得物】发货nike空军💰65//Aj1💰85专柜1.1珂珂鞋厂全网货源",
+          "imageUrl": null
+        },
+        {
+          "id": "http://bak.qiuquan.cc/?p=4221",
+          "author": "泉",
+          "description": "万兴优转集视频转换、压缩、录屏于一身的视频格式转换器，功能强大。转换速度提升30倍，保持高清无损画质，预设可自定义的格式，随时随地欣赏视频。",
+          "link": "http://www.qiuquan.cc/convert/wondershare-video-converter.html",
+          "publishedOn": "2023-09-27T08:41:49.000Z",
+          "wordCount": 784,
+          "title": "万兴格式转换——Wondershare UniConverter 15.0.2.12 破解版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://bak.qiuquan.cc/?p=4258",
+          "author": "泉",
+          "description": "PotPlayer 是 KMPlayer 的原制作者姜龙喜先生（韩国）进入 Daum 公司后的新一代作品。PotPlayer 的优势在于强大的内置解码器；而 KMPlayer 的优势在于强大的定制能力和个性化功能。PotPlayer 使用 VC++ 编写， KMPlayer 为 Delphi 编写。",
+          "link": "http://www.qiuquan.cc/media/potplayer.html",
+          "publishedOn": "2023-09-27T08:20:53.000Z",
+          "wordCount": null,
+          "title": "Daum PotPlayer 1.7.21998 正式版 + 1.7.22012 测试版｜美化版｜安装版 (去TV列表&禁止强制升级)",
+          "imageUrl": null
+        },
+        {
+          "id": "http://bak.qiuquan.cc/?p=4247",
+          "author": "泉",
+          "description": "QQ浏览器是腾讯公司开发的一款极速浏览器,支持电脑,安卓,苹果等多种终端;更快的浏览体验,更安全的浏览保护,全新主页,定制卡片,个性皮肤,兴趣世界,大有可玩",
+          "link": "http://www.qiuquan.cc/browser/qqbrowser.html",
+          "publishedOn": "2023-09-27T08:00:11.000Z",
+          "wordCount": 851,
+          "title": "QQ浏览器 10.9.4817.400（77内核）正式版 + 11.9.5355.400（94内核）正式版 + 12.0.5440.400（94内核）正式版（剔除驱动优化版）",
+          "imageUrl": null
+        },
+        {
+          "id": "http://bak.qiuquan.cc/?p=4260",
+          "author": "泉",
+          "description": "腾讯视频播放器是腾讯视频旗下的客户端产品，是一款支持丰富内容的在线点播及电视台直播的软件。它采用了先进的P2P流媒体播放技术，可以确保在大量用户同时观看节目的情况下，节目依然流畅清晰；同时具有很强的防火墙穿透能力，为用户在任何网络环境下收看流畅的视频节目提供了有力保障。",
+          "link": "http://www.qiuquan.cc/media/qqlive.html",
+          "publishedOn": "2023-09-27T00:40:19.000Z",
+          "wordCount": 1374,
+          "title": "腾讯视频 11.79.2018 去广告精简版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://bak.qiuquan.cc/?p=4239",
+          "author": "泉",
+          "description": "一款跨平台的通讯工具。支持单人、多人参与。通过手机网络发送语音、图片、视频和文字。",
+          "link": "http://www.qiuquan.cc/chat/wechat.html",
+          "publishedOn": "2023-09-27T00:25:27.000Z",
+          "wordCount": null,
+          "title": "微信电脑版 3.9.2.23 正式版（32位） + 3.9.7.29 正式版（64位）+ 3.9.7.25 测试版（多开 + 防撤回）",
+          "imageUrl": null
+        },
+        {
+          "id": "http://bak.qiuquan.cc/?p=4147",
+          "author": "泉",
+          "description": "360压缩是新一代的压缩软件，永久免费。360压缩相比传统压缩软件更快更轻巧，支持解压主流的rar、zip、7z、iso等多达42种压缩文件。360压缩内置云安全引擎，可以检测木马，更安全。大幅简化了传统软件的繁琐操作，还改进了超过20项的使用细节，拥有全新的界面。360压缩的主要特点是快速轻巧、兼容性好、更安全、更漂亮，而且是永久免费的。",
+          "link": "http://www.qiuquan.cc/compress/360zip.html",
+          "publishedOn": "2023-09-25T03:20:46.000Z",
+          "wordCount": 729,
+          "title": "360压缩 4.0.0.1500 去广告精简版（支持压缩包内连续看图）",
+          "imageUrl": null
+        },
+        {
+          "id": "http://bak.qiuquan.cc/?p=4225",
+          "author": "泉",
+          "description": "Iobit Uninstaller电脑版是一款类似的Windows添加/删除程序，Iobit Uninstaller体积小巧，功能强大，运行速度快，可靠性高。Iobit Uninstaller使用方法非常简单且是一款免费软件。Iobit Uninstaller电脑版能够有效地取代Windows自带的卸载功能。通过Iobit Uninstaller，你可以彻底卸载不需要的软件，不留下软件的相关信息，并且不会造成系统崩溃。",
+          "link": "http://www.qiuquan.cc/systemtool/iobit-uninstaller.html",
+          "publishedOn": "2023-09-21T07:45:33.000Z",
+          "wordCount": 978,
+          "title": "专业软件卸载工具——IObit Uninstaller 7.5.0.7 + 8.6.0.10 + 9.6.0.3 + 10.6.0.4 + 11.6.0.12 + 12.5.0.2 + 13.1.0.3 专业版（安装版 + 单文件版）",
+          "imageUrl": null
+        },
+        {
+          "id": "http://bak.qiuquan.cc/?p=4233",
+          "author": "泉",
+          "description": "一款以简约安全为目标Chrome内核增强版浏览器，支持基于chrome开发的所有扩展插件，内置增强的隐私保护设置让您远离被追踪和广告的烦恼。",
+          "link": "http://www.qiuquan.cc/browser/catsxp.html",
+          "publishedOn": "2023-09-20T06:25:17.000Z",
+          "wordCount": 892,
+          "title": "猫眼浏览器 Catsxp Browser 117.3.9.6 Stable + 100.2.4.1 Beta3（x86 + x64）",
+          "imageUrl": null
+        },
+        {
+          "id": "http://bak.qiuquan.cc/?p=4229",
+          "author": "泉",
+          "description": "WinRAR 是一款强大的压缩文件管理工具，界面友好，使用方便，采用先进的压缩算法，在压缩率和速度方面都有很好的表现。",
+          "link": "http://www.qiuquan.cc/compress/winrar.html",
+          "publishedOn": "2023-09-20T02:25:53.000Z",
+          "wordCount": 886,
+          "title": "WinRAR 5.91 正式版 + 6.23 正式版 + 6.24 Beta 1 测试版｜32&64整合版",
+          "imageUrl": null
+        }
+      ]
     }
   ],
   "cliVersion": "1.15.1"
