@@ -6,6 +6,16 @@
       "siteUrl": "https://www.appinn.com",
       "articles": [
         {
+          "id": "https://www.appinn.com/?p=46868",
+          "author": "青小蛙",
+          "description": "只读是一款简洁易用的 iPhone、macOS 稍后阅读应用。没有太多复杂的功能，只为让你有一个舒适的地方阅读你保存的文章。6.1 MB 大小。@Appinn 来自发现频道，开发者自荐：https:/",
+          "link": "https://www.appinn.com/zhidu-read-it-later/",
+          "publishedOn": "2023-11-04T03:33:00.000Z",
+          "wordCount": 2529,
+          "title": "只读 – 简洁的稍后阅读工具：没有太多复杂的功能，只为让你有一个舒适的地方阅读你保存的文章[iOS/macOS]",
+          "imageUrl": "https://www.appinn.com/wp-content/uploads/2023/11/Appinn-feature-images-2023-11-03T222205.034.jpg"
+        },
+        {
           "id": "https://www.appinn.com/?p=46865",
           "author": "青小蛙",
           "description": "Bandizip 是一款专业的文件压缩、解压缩工具。曾经小众软件提问：有好用的解压缩软件吗？答案居然被 Bandizip 刷屏了，原帖地址：https://www.appinn.com/bandizi",
@@ -559,26 +569,6 @@
           "wordCount": 2639,
           "title": "3 种方法：自动将图片中的表格插入 Excel",
           "imageUrl": "https://www.appinn.com/wp-content/uploads/2023/10/Appinn-feature-images-2023-10-07T143408.592.jpg"
-        },
-        {
-          "id": "https://www.appinn.com/?p=46607",
-          "author": "青小蛙",
-          "description": "Calibre 是一款一站式电子书解决方案，它可以管理电子书、转换格式、阅读电子书、下载、编辑电子书等等，但它有个特点，当你将文件名为中文的电子书加入到 Calibre 库里后，它会帮你自动把文件名改",
-          "link": "https://www.appinn.com/calibre-do-not-translate-my-file-paths/",
-          "publishedOn": "2023-10-06T08:24:55.000Z",
-          "wordCount": 2529,
-          "title": "请 Calibre 不要翻译我的文件路径",
-          "imageUrl": "https://www.appinn.com/wp-content/uploads/2023/10/Appinn-feature-images-2023-10-06T152418.421.jpg"
-        },
-        {
-          "id": "https://www.appinn.com/?p=46602",
-          "author": "青小蛙",
-          "description": "论坛的 @Kuma 同学假期闲来无事，复刻了14年前的贴吧5层加密表白事件，并发布了一个小工具，用来解密。@Appinn 青小蛙完全不记得这个事情，于是还去复习了一下，当年的帖子还在，大意就是「一个男",
-          "link": "https://www.appinn.com/2009-tieba-love-too/",
-          "publishedOn": "2023-10-06T06:59:51.000Z",
-          "wordCount": 2614,
-          "title": "14 年前的贴吧 5 层加密表白事件，前两天又被人以另外一种方式翻了出来…",
-          "imageUrl": "https://www.appinn.com/wp-content/uploads/2023/10/Appinn-feature-images-2023-10-06T144534.576.jpg"
         }
       ]
     },
@@ -587,6 +577,46 @@
       "feedUrl": "http://www.woshipm.com/feed",
       "siteUrl": "https://www.woshipm.com",
       "articles": [
+        {
+          "id": "https://www.woshipm.com/?p=5934052",
+          "author": "alisa6",
+          "description": "产品的效果是由用户体验来做决定的。下面这篇文章是笔者以智联招聘为例子，整理分享关于如何提升用户体验的相关内容，大家一起接着往下看看吧！\n\n一、背景描述\n笔者最近在找工作，今天在智联招聘注册了账号，把线下写好的简历更新到招聘网站。作为一个互联网产品经理，我觉得我对软件功能的自助使用能力还可以的，但搞了半天，才把简历更新好。边用边想智联招聘Web端的产品经理和UI设计师估计是没有用自己公司的网站找过工作，不然怎么设计出这么体感差的功能。\n也有可能是因为智联招聘将重心放在了移动端。我的理解是这样的：找工作毕竟是跟生存相关的，不管是企业还是个人都相对重视。\n求职者视角：一般场景是这样的，投简历时同时会打开浏览器搜一下招聘公司的情况（业务是什么、规模、距离、口碑等）那么Web端多页面窗口更方便体验更好。\n招聘者视角：企业招聘，HR都是上班时间找简历的，大多数都是电脑办公Web使用招聘网站的。\n一千个读者心中有一千个哈姆雷特，有的小帅和小美可能会觉得我是吹毛求疵，鸡蛋里挑骨头，本着“开放、平等、快速、共享“的互联网极客精神，大家跟随我的思路，套用“用户体验五要素“方法论来分析下。如果觉得我说的不对，或者有冒犯到智联招聘，请原谅我这放荡不羁爱自由的灵魂和分享欲，感谢包涵！\n二、用户体验要素分析\n温故而知新，相信很多朋友都度过《用户体验要素》这本书，今天我们再温习一下。\n1. 什么是用户体验\n用户体验（User Experience，简称UE/UX）是用户在使用产品过程中建立起来的一种纯主观感受。但是对于一个界定明确的用户群体来讲，其用户体验的共性是能够经由良好设计实验来认识到。\n\n都说产品经理要有上帝视角，就是能站在不同用户角度去思考他/她的需求，站在不同的业务场景设计功能流程，才能在满足商业利益，组织价值的同时也让用户有比较友好的体验。\n2. 用户体验的重要性\n用户体验就是商机！如果你…",
+          "link": "https://www.woshipm.com/share/5934052.html",
+          "publishedOn": "2023-11-04T07:10:31.000Z",
+          "wordCount": 351,
+          "title": "如何提升用户体验-用我们来找茬的视角",
+          "imageUrl": "https://image.woshipm.com/2023/04/14/c60d0eee-daa1-11ed-af94-00163e0b5ff3.png"
+        },
+        {
+          "id": "https://www.woshipm.com/it/5934126.html",
+          "author": "李强~",
+          "description": "作为产品经理，面对各种需求，我们需要有管理好各项需求，统筹安排的能力。作者总结了在项目过程中需求管理的一些方法，希望对你有所帮助。\n\n今天聊一聊需求管理~\n之前有写过一篇文章叫《需求和期望管理——初级项目经理巨坑之范围篇》有聊过怎么管理需求的范围，今天来聊聊整体的需求管理。\n在之前的文章里我有过一个简单的定义：万物皆产品，万事皆项目；在日常生活中，我们无论做什么事都会有一个出发点，而这个出发点则是我们做这件事的“需求”；比如我要去喝水，那我的需求是解渴，我要喝奶茶，那我的需求则是解馋。\n绝大多数糟糕的项目，究其原因大多数都是因为需求没有管理好，这其中有很多原因，有个人层面的也有企业层面的，但无论何种原因，需求管理一定是项目经理们需要牢牢掌握的一个重拳技能。\n那么这次我将从多方面来介绍强仔在项目过程中需求管理的一些方法，抛砖引玉供大家借鉴~\n一、需求基础分析——内部需求or外部需求？\n在做某一个项目或者某一款产品时候，很多新手都是拿来领导指令或者合同后不去做需求的基础分析，直接就去对项目干系人做需求调研了，最后调研的结果勉勉强强，运气好会顺利通过，运气不好就被甲方或者领导直接拍回来，然后自己原地懵逼，不知道问题出在哪。\n那么什么是需求的基础分析呢？\n很简单，就是这个需求——或者说这个项目——是给谁做的，要满足什么目的。\n比如，这个需求是领导想做出来给领导自己长长脸，还是客户提出来想满足内部工作效率的，是政府要解决民生需求的还是领导小姨子觉得你们的产品不好看随意给领导吹枕边风的。\n那么为什么要做需求的基础分析呢？\n是因为我们要明确项目的最终交付方向是否正确！\n\n因为开展工作的环境各不相同，如果单纯是做交付型项目经理，其实比较简单，绝大部分项目都是外部客户的需求，但是对于产研类的项目经理来说，则需要做好区分。\n这个区分的点在于需求的交付对象是谁，同样都是收到了领导指派的需求，那么…",
+          "link": "https://www.woshipm.com/share/5934126.html",
+          "publishedOn": "2023-11-04T04:15:42.000Z",
+          "wordCount": 356,
+          "title": "需求管理——项目管理的核心",
+          "imageUrl": "https://image.woshipm.com/2023/04/17/8985d4fa-dcf5-11ed-8851-00163e0b5ff3.png"
+        },
+        {
+          "id": "https://www.woshipm.com/?p=5934056",
+          "author": "言成",
+          "description": "随着技术的发展，AI文字生成视频逐渐出现，崭露头角，为个人内容创作和企业传播提供了相应的手段。本文将阐述AI 文字生成视频技术的强大潜力和广泛应用价值，一起来看看吧。\n\n随着技术的日益先进，AI 文字生成视频技术逐渐崭露头角，为企业和个人提供了全新的内容创作和传播手段。\n一、技术概述\nAI 文字生成视频技术是利用人工智能技术，将文字内容自动转换为具有相关视觉表现的视频。它不仅改变了传统的视频制作流程，还为个人和企业提供了一种高效、低成本的内容创作方式。下面通过几个具体的技术模型和应用场景，深入探讨这项技术的特点和价值。\n1. 技术模型\nRunway Research 的 Gen-2 模型: Runway Research 推出的 “Gen-2” 模型，是一个革命性的技术，它能够从一行文字中生成三秒钟的原创视频片段。Gen-2 模型通过深度学习和自然语言处理技术，解析输入的文字内容，理解其语义和情境，然后生成与之相匹配的视频片段。这种模型的出现，为广告制作、社交媒体内容创建和个人视频博客提供了新的可能​。\nCogVideo: CogVideo 是一个拥有 94 亿参数的预训练 Transformer 模型，它采用了先进的文本到图像模型 CogView2，然后通过多帧速率层次训练策略，将生成的图像转换为短视频。CogVideo 的这种设计，使得从文字到视频的转换更为自然和连贯，为动态内容创建提供了强大的支持​。\n2. 应用场景与价值\n个性化广告制作: 传统的广告制作需要大量的人力、物力和时间投入，但 AI 文字生成视频技术却可以在短时间内，通过简单的文字输入，生成吸引人的视频广告。例如，商家可以通过输入产品的描述或优势，快速生成一个产品宣传视频，大大节省了制作成本和时间。\n社交媒体内容创建: 在社交媒体上，用户可以利用 AI 文字生成视频技术，通过输入文字，快速创建有趣、有创意…",
+          "link": "https://www.woshipm.com/ai/5934056.html",
+          "publishedOn": "2023-11-04T04:00:01.000Z",
+          "wordCount": 522,
+          "title": "AI 文字到视频：这将是视频制作的下一个革命吗？",
+          "imageUrl": "https://image.woshipm.com/2023/04/13/a55ba622-d9ea-11ed-9d7a-00163e0b5ff3.jpg"
+        },
+        {
+          "id": "https://www.woshipm.com/?p=5933825",
+          "author": "烧肉女士",
+          "description": "随着互联网的飞速发展，作为年轻潮流一代的喜爱——得物，它最大的特点就是具有彰显个性、时尚、潮流。它不仅是众多一线大牌和潮流品牌运营发售的首选平台，也是国内明星主理品牌聚集地，还是国潮文化的推动者。下面接着来看一下这篇笔者整理分享的关于得物更多内容的文章吧！\n\n随着移动互联网的快速发展，消费者对潮流文化的认知度和接受度大幅提升。越来越多的年轻人选择利用潮流穿搭来彰显个性。\n得物作为一个专业的电商潮流平台，为年轻的消费者提供了大量的潮流单品，近几年来发展迅猛。2023年4月，得物以690亿人民币的企业估值入选《2023·胡润全球独角兽榜》，排名48名。\n它不仅是众多一线大牌和潮流品牌运营发售的首选平台，也是国内明星主理品牌聚集地，还是国潮文化的推动者。可以说“了解得物就是了解潮流，了解年轻人”。\n本文将从以下几个方面来浅析得物APP：\n一、发展历程\n\n2015年7月，虎扑孵化的“毒”App上线，主要提供信息交流和球鞋鉴定服务；\n2016年9月，毒推出了直播功能，正式开启直播KOL社区；\n2017年8月，载入电商平台，从潮流社区平台转向权威正品交易平台，率先以“C2B2C”的业务模式出圈，开创了“先鉴别后发货”的全新交易模式，至此得物快速发展；\n2018年，得物获得虎扑天使轮融资；根据七麦数据，App下载量在下半年迅速增加，日下载量稳定在5万以上；\n2019年，得物获得了普思资本、高榕资本和红衫资本中国的pre-A轮融资，同时也获得了DST Global的A轮融资。投后估值超过10亿美元，得物成为未上市的独角兽企业之一；\n2020年，毒APP更名为“得物APP”，开始发展潮流全品类，并由单一的球鞋电商向潮流网购社区升级。得物的快速发展来源于其创新性的交易服务，吸引了一大批用户加入，拓展了早期市场；\n在整个发展轨迹中，2017年的上线交易服务是得物快速增长的关键因素。\n得物推出了全…",
+          "link": "https://www.woshipm.com/evaluating/5933825.html",
+          "publishedOn": "2023-11-04T02:33:29.000Z",
+          "wordCount": 408,
+          "title": "浅析潮流电商独角兽——得物App",
+          "imageUrl": "https://image.woshipm.com/2023/04/13/56b273de-d9ef-11ed-a8b0-00163e0b5ff3.jpg"
+        },
         {
           "id": "https://www.woshipm.com/it/5934106.html",
           "author": "晏涛三寿",
@@ -4196,46 +4226,6 @@
           "wordCount": 345,
           "title": "大模型应用疯狂加速，洗牌却在静悄悄进行了",
           "imageUrl": "https://image.woshipm.com/2023/04/14/b6fdcf88-daa1-11ed-aaf8-00163e0b5ff3.png"
-        },
-        {
-          "id": "https://www.woshipm.com/it/5914875.html",
-          "author": "汪浩",
-          "description": "我们做活动的时候都会有复盘，活动数据的分析也是复盘内容的一部分。数据可以反应活动的成败于具体情况，这篇文章。我们就来说说在活动复盘那个中国，如何判断活动的好坏。\n\n大部分同学在工作或者面试中，都会遇到这样的问题：\n我们做了一个活动，可以从哪些方面分析活动的好坏？怎么说明好在哪，坏在哪？\n\n没有经验的一遇到这种问题就开始堆砌指标了，同比/环比/参与率/付费率/用户画像等等都用上，结果被批没重点，不聚焦，说不清，业务方说没有用。\n那么，怎么做才是有效的活动分析呢？\n我们今天通过一个例子系统的剖析一下：\n某工具类产品，做了一款优惠券活动，目的是促进新用户付费，进行产品订阅。在用户注册进入首页后，会主动推送优惠券弹窗提醒。每个用户都会有，付费时是否使用优惠券由用户自主选择。\n问：如何评价活动的好坏？\n一、避开活动评估的雷区\n当我们谈到一个评价活动的好坏的时候，想要得到的答案一定是这个活动效果是「好还是坏」，有没有复用价值，可不可以继续做。例如：\n活动的xx指标提升超过了目标多少，是个好活动，我们要继续做\n活动的xx指标提升离目标多远，效果差，投入高，很鸡肋\n活动的xx指标完全没有提升，做了跟没做一样\n活动的xx指标比活动前还降低了，出事故了赶紧叫停\n而很多新手往往回答的是：\n付费率比活动前提升了1%，所以活动是好的\n付费用户的画像，宝妈占50%，职场女性占30%等等\n活动后整体的LTV提升了1块钱，所以活动需要继续做\n而这些数据，都只是分析的过程，没有聚焦成结果形成结论，非常容易推翻。\n\n比如：\n为什么付费率提升了1%就是好活动？跟谁比的？凭什么提升1%就是好？\n付费用户宝妈占比多然后呢？以前不是吗？跟买量的用户结构有没有关系？\n活动后整体的LTV提升了1块钱，为什么要继续做？怎么判定的？\n如果新手面对的是一个懂行的人，很容易被这些问题问的哑口无言。\n二、建立活动评估的标准\n既然是…",
-          "link": "https://www.woshipm.com/data-analysis/5914875.html",
-          "publishedOn": "2023-10-06T06:39:40.000Z",
-          "wordCount": 389,
-          "title": "数据分析，如何评估活动的好坏？",
-          "imageUrl": "https://image.woshipm.com/2023/04/17/6f870b78-dcf5-11ed-ab4d-00163e0b5ff3.png"
-        },
-        {
-          "id": "https://www.woshipm.com/?p=5914886",
-          "author": "灯衍",
-          "description": "自从疯狂星期四的段子出来后，每逢周四各个群就在传播各种相关的段子，并且时间经久不衰。这种情况下，老板要求做一个类似的营销方案，怎么破？\n\n周四，朋友跟我发了个段子，第一遍我没看懂其中奥妙，直到朋友提醒我，看每段第一个字\n原来连起来是：\n“今天疯狂星期四，谁请我吃”。\n\n不得不说，此类叠加了无数网友脑洞的段子，每周四都会活跃于一些社交平台上，引发大量讨论。\n本文尝试从以下角度进行切入，分析“疯狂星期四”的营销策略。\n疯狂星期四的营销策略亮点\n其他行业如何进行对标学习\n疯狂星期四有哪些可优化点\n一、疯狂星期四的营销策略亮点\n疯狂星期四，为什么可以做到保持长期的话题热度？\n拆解来看，便是抓住情绪需求+拥有可持续的基本条件。\n1. 抓住情绪需求\n疯狂星期四活动中一个很大的亮点，便是抓住了”反转故事类内容“的情绪需求。\n各式各样的段子是活动中的经典元素，而这类段子往往会有两个反转形式。\n1）结尾反转\n例如：“想知道结局，今天疯狂星期四，谁请我吃”“我不信，除非你V我50”。\n2）段首段末\n此类内容往往篇幅不短，每隔段落的段首段末可以拼凑成一句话，参考下图。\n\n但这个策略，是自然形成的吗？\n它更像是随着用户讨论发展而逐步形成的。当前互联网节奏下，一些娱乐博主会想一些新奇的脑洞，然后编辑成有趣的内容，引发粉丝互动。而疯狂星期四就是一个非常经典的素材，它像是反转类段子的衔接纽带，牢牢抓住了用户对于反转故事类内容的情绪需求。\n2. 拥有可持续的基本条件\n一个活动抓住了一类情绪的需求，某种程度上来说，就好像在某音发了一个视频，关联上了热点一样。\n\n但是为什么单一的视频很难拥有可持续的热度，而疯狂星期四能够火到现在呢？\n那是因为疯狂星期四的营销活动，拥有三个可持续的基本条件。\n\n1）时间频率恰当\n互联网上每天出现的内容信息非常多，如果疯狂星期四的活动，改为疯狂月初，疯狂季度初，随着时间周期的拉长…",
-          "link": "https://www.woshipm.com/marketing/5914886.html",
-          "publishedOn": "2023-10-06T05:11:59.000Z",
-          "wordCount": 396,
-          "title": "老板让我写个营销方案，对标疯狂星期四",
-          "imageUrl": "https://image.woshipm.com/2023/04/20/e8a18c48-df4a-11ed-9648-00163e0b5ff3.jpg"
-        },
-        {
-          "id": "https://www.woshipm.com/?p=5914829",
-          "author": "言成",
-          "description": "产品的生命周期与产品收益，某种程度上与用户停留时间、用户关注度脱不开关系。具体如何理解呢？本篇文章里，作者就从用户停留时间、注意力经济、用户生命周期价值等维度做了解读和分析，一起来看看吧。\n\n产品的命脉紧密与其能否有效地吸引并保持用户的关注和时间相关。这不仅是产品成功的重要指标，而且直接影响到产品的生命周期和收益。\n一、用户停留时间\n1. 用户停留时间的基本构成\n用户停留时间是由开始时间和结束时间构成的。这个时间段基本反应了用户对产品的第一印象和最终满意度。例如，用户在第一次接触产品时，如果发现产品界面友好、功能强大或者解决了他们的某个问题，很可能会花费更多时间在产品上。相反，如果用户发现产品难以理解或使用，他们可能很快就会放弃并卸载应用​。\n2. 首次体验的重要性\n首次体验对于产品的成功至关重要。如果用户在第一次使用产品时就获得了满意的体验，他们不仅会愿意花费更多时间在产品上，而且可能会成为产品的忠实用户或者甚至推荐给其他人。\n\n然而，如果首次体验不佳，那么在短时间内卸载应用的可能性就会大大增加。例如，假设用户第一次对于产品的体验度只有10%，这基本可以说是一个非常糟糕的体验，用户会直接退出并且卸载此款应用程序，不再安装使用此款产品​。\n3. 用户习惯的培养\n当用户的停留时间增加时，有可能会培养出对产品的使用习惯。例如，如果一个社交应用能吸引用户每天花费时间在上面，用户就可能会养成每天检查该应用的习惯。这种习惯一旦形成，用户的停留时间就会自然增加，从而为产品带来更长的生命周期和更高的用户忠诚度。\n4. 时间与用户满意度的正向循环\n用户满意度和用户停留时间之间存在一个正向的循环关系。当用户在产品上花费更多时间时，他们可能会发现产品的更多有用功能，从而提高满意度。同时，高满意度也会促使用户愿意花费更多时间在产品上。\n这些分析显示，用户停留时间不仅仅是一个简单的指标，它的背后反…",
-          "link": "https://www.woshipm.com/share/5914829.html",
-          "publishedOn": "2023-10-06T03:23:21.000Z",
-          "wordCount": 360,
-          "title": "赢得用户心智的战役：产品命脉与时间占据的艺术",
-          "imageUrl": "https://image.woshipm.com/2023/04/13/cde601d2-d9ea-11ed-a8b0-00163e0b5ff3.jpg"
-        },
-        {
-          "id": "https://www.woshipm.com/?p=5914868",
-          "author": "一只鸡腿",
-          "description": "在日常逛的超市里，其实也隐藏着一些值得探索的设计思维，比如这篇文章里，作者就分享了自己观察到的“货架思维”，从货架布局出发，结合来源、分类、原则、作用等几个角度分享了自己的经验总结，一起来看看吧。\n\n一、前言\n日常都会逛超市，有没有关注过超市的布局？有没有思考过如何应用在设计之中？这一篇主要分享笔者自己在观察超市中货架布局后所总结的思考方式，希望能跟读者分享，有其他思路的欢迎沟通。\n二、来源与补充概念\n这个思路来源于逛中型超市时候的布局，发现无论是大小超市，布局上都有一些规律。\nUX设计本身也是类似于超市货架设计布局到路径的设计，换到实际工作之中就是页面的布局以及交互的设计。\n先补充几个概念。\n1. 货架——产品功能\n货架是商店中用来展示商品的一种设备，包括橱窗、架子、柜台、箱子等。\n\n近年来，为了适应市场竞争和提高顾客购物体验，商店普遍对货架进行改进和调整。\n2. 商品——产品信息\n是指能将商品与消费者联系起来的好主意，简单的说，就是把商品“当作什么”来卖给目标消费者，才是最恰当的。在制造新产品时，很需要有如何才能将产品卖出去的主意。\n三、如何理解\n将产品的使用流程具象化为逛超市买商品的流程，让用户不仅仅能完成工作，还能更加轻松地完成工作，增加用户的幸福感。\n四、货品分类——功能分类\n1. 业务流程\n将所有的功能以业务流程维度进行，就像是进超市之后，首先要引导用户要到需要的大品类到小类别到细分产品（例如：食品>零食>薯片），而无法直接引导到薯片品类区域去寻找，这里涉及到全体流程和局部流程。\n1）全体流程——以单独计划为例\n建立策略-审核策略-制定计划-分配人员与流转-人员执行流程-结果与反馈-数据统计。\n2）局部流程——以常规的审批流程为例\n提交申请-审批发起-审批环节-转发和抄送-审批结果-通知和反馈。\n在B端产品，常常将全体流程与局部流程混合使用。\n2. 用户角色\n在…",
-          "link": "https://www.woshipm.com/pd/5914868.html",
-          "publishedOn": "2023-10-06T01:23:08.000Z",
-          "wordCount": 380,
-          "title": "什么是“货架思维”？",
-          "imageUrl": "https://image.woshipm.com/2023/05/06/edd30b7a-ec00-11ed-8df9-00163e0b5ff3.jpg"
         }
       ]
     },
@@ -4537,6 +4527,56 @@
       "feedUrl": "http://www.dayanzai.me/feed",
       "siteUrl": "http://www.dayanzai.me",
       "articles": [
+        {
+          "id": "http://www.dayanzai.me/?p=50411",
+          "author": "大眼仔~旭",
+          "description": "Neon 的外观和感觉很像 Linux 发行版，但其开发人员在其网站上非常公开地声称 Neon 不是真正的 L […]",
+          "link": "http://www.dayanzai.me/kde-neon.html",
+          "publishedOn": "2023-11-03T16:46:17.000Z",
+          "wordCount": 1194,
+          "title": "开源 Linux 系统 KDE neon 20231102 中文正式版发布",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=3032",
+          "author": "大眼仔~旭",
+          "description": "Mp3tag 中文版 MP3 信息修改工具由大眼仔旭发布。MP3 文件 ID3-Tag 信息修改器。所谓 ID […]",
+          "link": "http://www.dayanzai.me/mp3tag.html",
+          "publishedOn": "2023-11-03T16:34:10.000Z",
+          "wordCount": 1045,
+          "title": "MP3 信息修改工具 Mp3tag 3.23 + x64 中文多语免费版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=15903",
+          "author": "大眼仔~旭",
+          "description": "DoNotSpy11 中文版由大眼仔旭独家汉化发布。DoNotSpy11 是 DoNotSpy10 的后继者， […]",
+          "link": "http://www.dayanzai.me/donotspy11.html",
+          "publishedOn": "2023-11-03T16:28:24.000Z",
+          "wordCount": 1087,
+          "title": "Windows 10、11  反间谍工具 DoNotSpy11 Pro 1.2.0.0 绿色中文汉化版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=2811",
+          "author": "大眼仔~旭",
+          "description": "FileZilla 中文版 + Portable 免费开源的 FTP 软件由大眼仔旭（www.dayanzai […]",
+          "link": "http://www.dayanzai.me/filezilla.html",
+          "publishedOn": "2023-11-03T16:23:48.000Z",
+          "wordCount": 961,
+          "title": "免费开源的 FTP 软件 FileZilla 3.66.1 + x64 中文多语免费版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=33161",
+          "author": "大眼仔~旭",
+          "description": "重复文件查找工具 AllDup 中文版由大眼仔旭（www.dayanzai.me）发布。AllDup 中文版是 […]",
+          "link": "http://www.dayanzai.me/alldup.html",
+          "publishedOn": "2023-11-03T16:10:56.000Z",
+          "wordCount": 980,
+          "title": "重复文件查找工具 AllDup 4.5.52 中文多语免费版",
+          "imageUrl": null
+        },
         {
           "id": "http://www.dayanzai.me/?p=36041",
           "author": "大眼仔~旭",
@@ -5716,61 +5756,6 @@
           "wordCount": 935,
           "title": "开源免费启动盘制作工具 Ventoy 1.0.96 中文多语免费版",
           "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=69584",
-          "author": "大眼仔~旭",
-          "description": "在谈论 Windows 更新时，您可能遇到过不同类型的更新，其中可能包括“累积更新”、“周二补丁更新”、“C  […]",
-          "link": "http://www.dayanzai.me/windows-moment-updates.html",
-          "publishedOn": "2023-10-06T09:16:59.000Z",
-          "wordCount": 1060,
-          "title": "什么是 Windows Moment 更新以及它们有何不同？",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=69583",
-          "author": "大眼仔~旭",
-          "description": "您的 Windows 计算机可能具有集成显卡，尤其是笔记本电脑。 这种内置于主板中显卡的问题在于它通常不如专用 […]",
-          "link": "http://www.dayanzai.me/disable-integrated-graphics.html",
-          "publishedOn": "2023-10-06T08:23:19.000Z",
-          "wordCount": 844,
-          "title": "如何在 Windows 系统上禁用集成显卡",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=36170",
-          "author": "大眼仔~旭",
-          "description": "自由/免费/开源的专业绘画软件 Krita 中文版由大眼仔旭（www.dayanzai.me）发布。Krita […]",
-          "link": "http://www.dayanzai.me/krita.html",
-          "publishedOn": "2023-10-05T16:31:16.000Z",
-          "wordCount": 918,
-          "title": "自由/免费/开源的专业绘画软件 Krita 5.2.0 x64 中文多语免费版",
-          "enclosure": {
-            "url": "https://krita.org/wp-content/uploads/2021/12/Video-for-store_final-30fps.mp4",
-            "length": "32315526",
-            "type": "video/mp4"
-          },
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=3241",
-          "author": "大眼仔~旭",
-          "description": "WinNTSetup 绿色中文版 Windows 系统安装部署工具由大眼仔旭发布。WinNTSetup 是一个 […]",
-          "link": "http://www.dayanzai.me/winntsetup.html",
-          "publishedOn": "2023-10-05T16:28:47.000Z",
-          "wordCount": 1329,
-          "title": "Windows 系统安装部署工具 WinNTSetup 5.3.2 x64 绿色单文件版",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=7279",
-          "author": "大眼仔~旭",
-          "description": "剪映 Windows 版 剪映专业版由大眼仔旭（www.dayanzai.me）发布。2月1日，抖音旗下视频创 […]",
-          "link": "http://www.dayanzai.me/jianying-pro.html",
-          "publishedOn": "2023-10-05T16:21:47.000Z",
-          "wordCount": 919,
-          "title": "剪映 Windows 版 剪映专业版 4.6.1.10576 官方中文免费版",
-          "imageUrl": null
         }
       ]
     },
@@ -5785,6 +5770,156 @@
       "feedUrl": "http://feeds.feedburner.com/pfc",
       "siteUrl": "https://www.portablefreeware.com/",
       "articles": [
+        {
+          "id": "2208+1699127086",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=2208&ts=1699127086",
+          "publishedOn": "2023-11-04T19:44:46.000Z",
+          "wordCount": 1474,
+          "title": "[UPDATE] PhraseExpress v16.2.23",
+          "imageUrl": null
+        },
+        {
+          "id": "1056+1699073666",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=1056&ts=1699073666",
+          "publishedOn": "2023-11-04T04:54:26.000Z",
+          "wordCount": 1492,
+          "title": "[UPDATE] PortableApps.com Platform v26.3",
+          "imageUrl": null
+        },
+        {
+          "id": "1335+1699027840",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=1335&ts=1699027840",
+          "publishedOn": "2023-11-03T16:10:40.000Z",
+          "wordCount": 645,
+          "title": "[UPDATE] Softi FreeOCR v2.6",
+          "imageUrl": null
+        },
+        {
+          "id": "9+1699025433",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=9&ts=1699025433",
+          "publishedOn": "2023-11-03T15:30:33.000Z",
+          "wordCount": 1572,
+          "title": "[UPDATE] FileZilla v3.66.1",
+          "imageUrl": null
+        },
+        {
+          "id": "1137+1699025395",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=1137&ts=1699025395",
+          "publishedOn": "2023-11-03T15:29:55.000Z",
+          "wordCount": 2758,
+          "title": "[UPDATE] Mp3tag v3.23",
+          "imageUrl": null
+        },
+        {
+          "id": "2074+1699014760",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=2074&ts=1699014760",
+          "publishedOn": "2023-11-03T12:32:40.000Z",
+          "wordCount": 1396,
+          "title": "[UPDATE] Google Chrome Portable v119.0.6045.106",
+          "imageUrl": null
+        },
+        {
+          "id": "83+1698993697",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=83&ts=1698993697",
+          "publishedOn": "2023-11-03T06:41:37.000Z",
+          "wordCount": 974,
+          "title": "[UPDATE] CurrPorts v2.76",
+          "imageUrl": null
+        },
+        {
+          "id": "1582+1698993566",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=1582&ts=1698993566",
+          "publishedOn": "2023-11-03T06:39:26.000Z",
+          "wordCount": 602,
+          "title": "[UPDATE] BIOS Beep Codes Viewer v11.1.1.1959",
+          "imageUrl": null
+        },
+        {
+          "id": "2054+1698993162",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=2054&ts=1698993162",
+          "publishedOn": "2023-11-03T06:32:42.000Z",
+          "wordCount": 2442,
+          "title": "[UPDATE] Media Player Classic - Home Cinema v2.1.0",
+          "imageUrl": null
+        },
+        {
+          "id": "1952+1698993014",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=1952&ts=1698993014",
+          "publishedOn": "2023-11-03T06:30:14.000Z",
+          "wordCount": 1359,
+          "title": "[UPDATE] MobaXterm Home Edition v23.4",
+          "imageUrl": null
+        },
+        {
+          "id": "2521+1698990746",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=2521&ts=1698990746",
+          "publishedOn": "2023-11-03T05:52:26.000Z",
+          "wordCount": 693,
+          "title": "[UPDATE] Info-Base v12.8",
+          "imageUrl": null
+        },
+        {
+          "id": "2741+1698954475",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=2741&ts=1698954475",
+          "publishedOn": "2023-11-02T19:47:55.000Z",
+          "wordCount": 1045,
+          "title": "[UPDATE] TreeSheets Nov 2 2023",
+          "imageUrl": null
+        },
+        {
+          "id": "648+1698948335",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=648&ts=1698948335",
+          "publishedOn": "2023-11-02T18:05:35.000Z",
+          "wordCount": 1393,
+          "title": "[UPDATE] Audacity v3.4.0",
+          "imageUrl": null
+        },
+        {
+          "id": "3011+1698943049",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=3011&ts=1698943049",
+          "publishedOn": "2023-11-02T16:37:29.000Z",
+          "wordCount": 450,
+          "title": "[UPDATE] simplewall v3.7.5",
+          "imageUrl": null
+        },
+        {
+          "id": "1427+1698918591",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=1427&ts=1698918591",
+          "publishedOn": "2023-11-02T09:49:51.000Z",
+          "wordCount": 1076,
+          "title": "[UPDATE] TagScanner v6.1.16",
+          "imageUrl": null
+        },
         {
           "id": "2639+1698848076",
           "author": null,
@@ -6743,76 +6878,6 @@
           "publishedOn": "2023-10-07T04:54:02.000Z",
           "wordCount": 1127,
           "title": "[UPDATE] Resource Hacker v5.2.1",
-          "imageUrl": null
-        },
-        {
-          "id": "3066+1696595474",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=3066&ts=1696595474",
-          "publishedOn": "2023-10-06T12:31:14.000Z",
-          "wordCount": 404,
-          "title": "[UPDATE] RisohEditor v5.7.8",
-          "imageUrl": null
-        },
-        {
-          "id": "2119+1696582215",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=2119&ts=1696582215",
-          "publishedOn": "2023-10-06T08:50:15.000Z",
-          "wordCount": 1376,
-          "title": "[UPDATE] calibre v6.28",
-          "imageUrl": null
-        },
-        {
-          "id": "2990+1696530083",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=2990&ts=1696530083",
-          "publishedOn": "2023-10-05T18:21:23.000Z",
-          "wordCount": 424,
-          "title": "[UPDATE] MobileFileSearch v1.47",
-          "imageUrl": null
-        },
-        {
-          "id": "1581+1696519541",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=1581&ts=1696519541",
-          "publishedOn": "2023-10-05T15:25:41.000Z",
-          "wordCount": 1888,
-          "title": "[UPDATE] Youtube Downloader HD v5.4.1",
-          "imageUrl": null
-        },
-        {
-          "id": "2195+1696514815",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=2195&ts=1696514815",
-          "publishedOn": "2023-10-05T14:06:55.000Z",
-          "wordCount": 623,
-          "title": "[UPDATE] PointerStick v6.33",
-          "imageUrl": null
-        },
-        {
-          "id": "2350+1696514588",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=2350&ts=1696514588",
-          "publishedOn": "2023-10-05T14:03:08.000Z",
-          "wordCount": 751,
-          "title": "[UPDATE] PrivaZer v4.0.78",
-          "imageUrl": null
-        },
-        {
-          "id": "2639+1696514550",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=2639&ts=1696514550",
-          "publishedOn": "2023-10-05T14:02:30.000Z",
-          "wordCount": 727,
-          "title": "[UPDATE] RSS Guard v4.5.1",
           "imageUrl": null
         }
       ]
