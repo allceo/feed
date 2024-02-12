@@ -6,6 +6,16 @@
       "siteUrl": "https://www.appinn.com",
       "articles": [
         {
+          "id": "https://www.appinn.com/?p=47671",
+          "author": "青小蛙",
+          "description": "接昨日《小众软件 2023 年度精选.1》，今天继续带来 2023 年度精选第二部分。 先来回顾下：《兔年（2023）小众软件微信公众号阅读数前 10 的文章》以及： 历年回顾： 依旧，所有内容来自小",
+          "link": "https://www.appinn.com/appinn-2023-top-15-list-2/",
+          "publishedOn": "2024-02-11T06:21:12.000Z",
+          "wordCount": 2635,
+          "title": "小众软件 2023年度精选.2",
+          "imageUrl": "https://www.appinn.com/wp-content/uploads/2024/02/Appinn-feature-images-84.jpg"
+        },
+        {
           "id": "https://www.appinn.com/?p=47668",
           "author": "青小蛙",
           "description": "继 2022 年精选榜单之后，今天带来小众软件 2023 年度精选。所有内容来自小众软件精选分类，仅代表青小蛙的主观评断。@Appinn 先来回顾下：《兔年（2023）小众软件微信公众号阅读数前 10",
@@ -424,16 +434,6 @@
           "wordCount": 2589,
           "title": "Xterminal – 跨平台开发工具：SSH 客户端，不止是终端，还支持 CPU、内存、网络监控，快捷动作等",
           "imageUrl": "https://www.appinn.com/wp-content/uploads/2024/01/Appinn-feature-images-38.jpg"
-        },
-        {
-          "id": "https://www.appinn.com/?p=47437",
-          "author": "青小蛙",
-          "description": "wiliwili 是一个专为手柄用户设计的第三方 B 站客户端，拥有非常接近官方 PC 客户端的 B 站浏览体验，同时支持触屏、鼠标、键盘 与 手柄操控，目前可以在 Switch、PS4、PSVita",
-          "link": "https://www.appinn.com/wiliwili-for-bilibili/",
-          "publishedOn": "2024-01-13T04:03:44.000Z",
-          "wordCount": 2645,
-          "title": "wiliwili – 专为任天堂 Switch、PS4、PSVita 等手柄设备开发的第三方开源 B 站客户端",
-          "imageUrl": "https://www.appinn.com/wp-content/uploads/2024/01/Appinn-feature-images-37-1.jpg"
         }
       ]
     },
@@ -442,6 +442,36 @@
       "feedUrl": "http://www.woshipm.com/feed",
       "siteUrl": "https://www.woshipm.com",
       "articles": [
+        {
+          "id": "https://www.woshipm.com/it/5992171.html",
+          "author": "DayThree",
+          "description": "心理学可以在哪些维度给聊天机器人提供帮助和启发？这篇文章里，作者结合自己所学内容做了整理，尝试从当前心理学科的理论技术上获得启发，用以帮助聊天机器人的实践与创造。一起来看看本文的分享。\n\n写在前面\n这篇文章是我在刚接触AI行业的第一段实习期所写，虽然写的拼凑，但也觉得还算有价值，所以近日略微整理发出来与大家分享，希望能够为心理学专业想了解AI的同学们提供一些行业上的参考，也为想提高AI情感能力的同事们给予一些理论上的借鉴。内容比较理论，在实际中也没有完全落地，未来还希望进一步探索。（总结的也并不全面，可能后续会再结合新的发展重新总结，现在就先这样子吧！懒 _(: з」∠)_）\n申明：我不是任何领域的专家，基本是个技术小白，所知浅薄，所以与非常乐意与大家一起探讨，也希望大家多多指正~\n全文一万字左右，阅读时间较长，此外由于微信公众号排版限制，删减了部分内容，详版可以看飞书文档。链接：https://fkrya5d0gh.feishu.cn/wiki/V1U0wcQVIiQPJOkvOg4cmKFgnwb\n以下是正文。\n目的\n本文档的主要目的是希望从当前心理学科的理论技术上获得启发，用以帮助聊天机器人🤖️的实践与创造。\n需要注意的是，心理学这门学科并没有什么特别之处或神秘色彩，其基本内容是对于人行为背后心理活动规律的研究总结，而内省法，也就是我们常说的自我反省，即反思我们自身对生活、事件的感受，是一项最基本也是最重要的研究方法，所以尊重我们自身的直觉感受，理论只是参考，没有权威或是对错，自己觉知的才是真实的，每一个人的想法与观点都是有价值的，都是重要的，所以请一定对这一话题自由发言。\n框架\n目前总结来说，心理学在聊天机器人🤖️的运用可以从三方面出发：\n① 以心理咨询的实践技术为参考，尤其可以提供机器人🤖️在处理负面情绪时的表达技巧；\n② 利用心理学对人思维过程的理论总结，…",
+          "link": "https://www.woshipm.com/ai/5992171.html",
+          "publishedOn": "2024-02-11T06:32:06.000Z",
+          "wordCount": 1755,
+          "title": "Psychology&AI笔记｜咨询技术与心理理论在对话类AI上的应用",
+          "imageUrl": "https://image.woshipm.com/2023/04/13/e194c5a2-d9ee-11ed-a6e8-00163e0b5ff3.jpg"
+        },
+        {
+          "id": "https://www.woshipm.com/?p=5992433",
+          "author": "胡冰茜",
+          "description": "关于交互体验方面的设计方法论，你知道哪些？这篇文章里，作者分享了5个“交互体验”维度的方法论，分别有奥卡姆剃刀原理、希克定律、防呆原则等，一起来看看吧，或许会对你有些帮助。\n\n我们工作中时不时会听到有些云里雾绕的观点，让人有一种“答案在空中飘的感觉”。为了在别人吹牛皮的时候保持清醒，从2018年开始我整理了100来条互联网方法论。\n把这些分享出来希望能帮到更多的人！\n我把这些方法论总结成了六大类：视觉设计、交互体验、心行研究、增长模型、产品策略、数据衡量。\n这次换换脑子，分享5个“交互体验”篇的方法论，包括：\n奥卡姆剃刀原理（Occam’s Razor）\n菲兹定律（Fitts’Law）\n希克定律（Hick’s Law）\n防呆原则\n防止不耐烦原则\n\n交互设计篇 01：奥卡姆剃刀原理 Occam’s Razor\n1. 定义\n也叫简单有效原理，被称为“如无必要，勿增实体“，即如果有两个功能相等的设计，那么选择最简单的。这个原理要求我们在处理事情时，要把握事情的本质，解决最根本的问题，顺应自然，不要把事情人为地复杂化。\n\n早期的设计是人为的复杂化了，比如早期建筑设计中巴洛克风格。那什么时候开始“如无必要，勿增实体。”的？\n大概包豪斯时期，开始了极简设计理念，而乔布斯也延续了包豪斯理论。\n“如无必要，勿增实体。“ 请记住这句装13的话，19年就有人在说，这两年还有人在说。\n2. 采取的设计方法和注意点\n1）专注于用户核心需求，功能上不可过于繁琐\n去除非核心不必要的功能。页面应该保证简洁和工具化，保证功能上的克制。如果有两个功能相似的设计，那么选择最简单易懂的。提取主要功能、重要信息，剔除不必要的干扰功能和信息。\n2）只放置必要的信息\n简洁的设计最重要的一方面是只展示核心信息，其他的都收纳或隐藏。这并不意味着不能提供给用户很多的信息，可以采用“了解更多”的链接来实现这些。\n3）合并多余…",
+          "link": "https://www.woshipm.com/share/5992433.html",
+          "publishedOn": "2024-02-11T05:37:07.000Z",
+          "wordCount": 449,
+          "title": "互联网方法论之“交互设计”篇——合集（一）",
+          "imageUrl": "https://image.woshipm.com/2023/04/13/deb05e96-d9df-11ed-8fc2-00163e0b5ff3.jpg"
+        },
+        {
+          "id": "https://www.woshipm.com/it/5992661.html",
+          "author": "PM小刘",
+          "description": "作为G端产品经理，在展开需求调研的时候需要注意些什么以及相关步骤如何？本文进行了相关总结，希望对你有所帮助。\n\n一、背景\n本指南，基于数字政府建设的要求和趋势，从多个角度阐述数字政府建设的行业经验和方式方法，包含涵义篇、体系篇、建设篇、经验篇等内容,供各位想从事了解或者已经从事政务行业的人士参考。\n本篇为经验篇的其中一个章节，错误或不完善的地方，还请指正。\n项目调研，是做好信息化项目建设中非常关键的一环。对于供应商而言，越充分的调研分析越能提升客户的信任度、满意度以及产品的质量和价值。\n项目调研分售前调研和需求调研，售前调研聚焦于立项前的调研工作，需求调研聚焦于实施前后的调研工作。本文主要讲述需求调研。\n二、项目调研\n1. 需求调研\n需求调研，也称为实施调研，通常是在项目实施过程中，对项目的实际需求以及产品落地进行深入了解和分析的过程。\n关于需求调研原则，笔者总结如下：\n复用性原则。一个好的项目，通常会在前期的方案调研工作中为项目打好了基础。因此，在进行需求调研之前，可以通过和前期的方案调研人员沟通以及查阅建设方案等方式，提前了解和熟悉项目内容，梳理需求调研方案。\n可控性原则。需求调研并不是毫无目的，一定是基于合同建设内容范围内容的模块进行相关细节方面的调研，控制好项目的建设边界，具备成本意识，尽量避免项目验收时合同建设内容和实际落地需求差异太大的情况。\n主动性原则。要打有准备的仗，需求调研前，一定要先准备好调研提纲或者问题清单，主动和客户确认调研的时间、地点、人数等信息，必要时提前思考客户在调研过程中会重点关注的问题或者想要借鉴的内容并做好准备。\n精确性原则。需求调研一定要有针对性和逻辑性，并不是让客户越发散越好。发散的需求不是我们和客户的狂欢，是为团队埋坑，完整且准确的需求才是调研的价值。因此，需求调研时要集中精力，具备需求边界意识，随时引导客户回到调研主题。\n变通性原…",
+          "link": "https://www.woshipm.com/share/5992661.html",
+          "publishedOn": "2024-02-11T03:22:20.000Z",
+          "wordCount": 369,
+          "title": "政务·G端需求调研",
+          "imageUrl": "https://image.woshipm.com/2023/04/14/88176256-da8d-11ed-96fe-00163e0b5ff3.jpg"
+        },
         {
           "id": "https://www.woshipm.com/?p=5992451",
           "author": "麦子的IP运营圈",
@@ -3641,36 +3671,6 @@
           "wordCount": 463,
           "title": "周鸿祎：如何演讲？",
           "imageUrl": "https://image.woshipm.com/2023/04/13/72372542-d9df-11ed-9d2f-00163e0b5ff3.jpg"
-        },
-        {
-          "id": "https://www.woshipm.com/it/5975905.html",
-          "author": "刀姐doris",
-          "description": "如今，找增量很难，那么哪里还可以找增量呢？B站，一定是大家想不到的一个平台。作者分享了自己眼里关于 B 站在商业化上的变化和亮点，希望对你有所启发。\n\n最近大家都在做年度复盘和计划，最常问我的一个问题就是，新的一年，该去哪里找增量？后面常常还会补一句，得有确定性。\n听起来确实是“既要又要”，但我很理解在这个年头，品牌们对于增长和安全感的双重需求。而关于这点，这几天，一个大家可能想不到的平台—— B 站，给我带来了惊喜。\n说起在 B 站做营销，很多人的印象还停留在投内容、玩梗，但在 2023 年全面加速商业化后，B 站已经变了。很多人可能已经看到了，前几天我去参加了他们的 AD TALK 大会，感受到 B 站真的是在卯足劲投入资源和人力，加速商业化建设，也有了很清晰的思路。\n比如分垂直行业给到更细分的支持，按照品牌的关键业务场景提供针对解决方案，之前一直没有被开发的特色用户路径，比如搜索、动态、OTT等场景，B 站也终于开始挖宝了。\n所以，这篇文章就来分享一下我眼里的 B 站在商业化上的变化和亮点。\n01 在B站做营销的安全感来了\n我一直觉得，B 站能为品牌带来的真正价值，体现在三个方面。\n首先，是极强的自有 IP 内容，能提供文化背书，自带年轻属性。最典型的就是跨年晚会，刚刚结束的 2023最美的夜bilibili晚会，直播人气峰值超 3.4 亿，全网热搜超 1000 个，豆瓣评分目前在 8.4 分，曝光力强+用户认同感强。这时，B 站本身就像一个品牌，能给广告主带来如同联名的效应。\n\n其次，UP 主拥有在圈层里的头部效应，ta们是圈子里的“高玩”（高级玩家），兼具明星般的影响力和朋友般的信任力。此时，品牌就可以把某个圈层里的头部势能跟自己品牌做关联，打出圈层势能，由上而下渗透。\n最后，抓住年轻人就是抓住一代人。人的一生中，有几个关键时间点，如成年、成家、生子，而 B 站新…",
-          "link": "https://www.woshipm.com/share/5975905.html",
-          "publishedOn": "2024-01-13T08:17:26.000Z",
-          "wordCount": 502,
-          "title": "我发现是时候重新认识B站营销了",
-          "imageUrl": "https://image.woshipm.com/2023/04/17/ab0d3726-dcf5-11ed-ab4d-00163e0b5ff3.png"
-        },
-        {
-          "id": "https://www.woshipm.com/it/5976117.html",
-          "author": "阿宅的产品笔记",
-          "description": "国内互联网证券行业的发展已经历经多年，这个过程中，有什么变化和动作在发生？这篇文章里，作者讲述了互联网证券的三个发展阶段，一起来看看，或许会对想从事这方面的产品经理等同学有所帮助。\n\n互联网证券1.0（1994-2004）\n中国互联网证券的起步，可以追溯到1994年。这一时代的关键词是终端、数据和门户。\n代表性公司有94年成立的同花顺（前身核心软件）和95年成立的万得。其他早期比较有影响力的公司包括1996年成立的和讯网、1998年成立且率先在纳斯达克上市的金融界、2000年成立的大智慧，以及90年代的第一批数据公司巨灵、巨潮、港澳资讯等。\n同期，值得一提的是，1997年，华融信托湛江营业部首次推出了网上证券交易系统。\n\n互联网证券2.0（2005-2012）\n在2005年到2012年，互联网证券进入社区时代，通过提供股票金融交流社区来获取用户。\n代表性公司包括2005年成立的东方财富网，其早期的标杆性产品股吧在C端获得高活跃度。\n\n互联网证券3.0（2013至今）\n在2013年到2015年间，政策给互联网证券提供了足够宽松的环境。2012年12月，荐股软件业务监管规定出台，缓解了炒股软件行业无序竞争的局面，为同花顺、大智慧、东方财富等龙头企业发展奠定制度基础。2013年3月中证协发布《证券公司开立客户账户规范》，允许非现场开户限制。2014年，中国证券业协会公布券商互联网业务试点，中信等6家证券公司获得了网络证券业务试点资格。\n\n同期，在2014年到2015年上半年，牛市爆发。大量投资者蜂拥入市。2015年4月中证登放开一人一户的限制，提高个人开户数上限至20个，为互联网券商快速增长客户规模、提高市场份额创造机遇。\n利益的驱使，“互联网+”向传统金融行业快速渗透，证券业各公司纷纷设立“互联网金融”部门，开展线上开户“拉人头”。“产品、流量、牌照”三要素是互联网券商成型的关…",
-          "link": "https://www.woshipm.com/it/5976117.html",
-          "publishedOn": "2024-01-13T02:46:37.000Z",
-          "wordCount": 400,
-          "title": "激荡三十年，互联网证券的前世今生",
-          "imageUrl": "https://image.woshipm.com/2023/04/13/4e4437c8-d9ea-11ed-a6e8-00163e0b5ff3.jpg"
-        },
-        {
-          "id": "https://www.woshipm.com/?p=5976113",
-          "author": "加鱼加肉",
-          "description": "到了每年这个节点，大多数职场人都需要面临年终总结这道议题，那么，作为职场人的你，是否真的会写年终总结，且理解年终总结的意义所在？这篇文章里，作者手把手教你写一份年终总结，帮你打开思路，一起来看看吧。\n\n每到年末或年初，很多职场人都会面对一个逃不了的议题：年终总结。\n年终总结是邀功？是甩锅？还是一种形式主义？\n都不是，年终总结是传递工作价值的重要依据。\n先别着急反驳，回想一下，你有没有吭哧吭哧干完活，面对老板时却三缄其口，怕吹嘘又怕吃亏。看着旁边摸鱼的同事侃侃而谈时，羡慕又夹杂着不甘。\n在老板看来，不会指望一个年终总结都写不好的人，平时的工作会做的有多出色。真正「出活」的人都会管理好自己的工作价值。\n如何迈过心理这道坎，拒当职场沉默老黄牛？\n好的年终总结长啥样？是篇幅越多越好吗？照抄公司给的八股格式有用吗？\n你是否知道，年终总结也能写成吸引人的故事？\n自己汇报时如何抓重点、展示价值？\n他人汇报时如何提问、让领导眼前一亮？\n作为一名互联网反卷斗士，也是叱咤职场的文档达人，今天就手把手教写一份年终总结，让你「不卷不躺不吃亏」，完美收官 2023，更为 2024 优秀开局。\n话不多说，直接进入正文部分，Enjoy：\n\n一、写之前：不拧巴\n1. 理解总结的意义\n无论是日报、周报、月报、会议以及日常的沟通，其实都是在做信息的沟通传递。\n沟通的频次、习惯、逻辑差异，决定了工作价值管理水平，很大程度上也决定了我们在职场上发展的水平。\n尤其是平时就默默无闻工作的职场人，没有常汇报的习惯和机会，年终总结就是一份值得抓住的考卷。（何况还和年终奖挂钩）\n而总结没有做好的根本原因其实不在于能力、也不在于业绩，在于写之前心态就错了：把总结视为一件麻烦、形式主义的事。\n这样的抵触心态是不可能做好总结的，最后不仅付出时间，还付出了情绪劳动，身累心也累。\n\n其实，无论我们身处的组织开展年终总结有多么「形式主…",
-          "link": "https://www.woshipm.com/zhichang/5976113.html",
-          "publishedOn": "2024-01-13T01:24:28.000Z",
-          "wordCount": 402,
-          "title": "职场年终总结这么写，不卷不躺不吃亏",
-          "imageUrl": "https://image.woshipm.com/2023/04/13/b2583c2e-d9df-11ed-bd5e-00163e0b5ff3.jpg"
         }
       ]
     },
@@ -3804,26 +3804,6 @@
           "wordCount": 1023,
           "title": "留痕 WeChatMsg - 开源备份导出微信聊天记录工具 (可生成有趣年度聊天报告)",
           "imageUrl": "https://img.iplaysoft.com/wp-content/uploads/2024/wechatmsg/wechatmsg.jpg"
-        },
-        {
-          "id": "https://www.iplaysoft.com/?post_type=news&p=4313",
-          "author": "X-Force",
-          "description": "看剧基本必备爱奇艺会员，相信不用多做介绍了；而如果你经常会在京东商城买东西，那么自然也知道京东 Plus 会员的各种好处！比如每月免邮、全品类优惠券、Plus 特价商品、专享活动价、免费上门退换货等等特权。\n\n但原本爱奇艺 VIP 年卡定价 218 元，京东 PLUS 会员定价 299 元/年，正价购买还是很贵…… \n「 前往查看原文.... 」\n\n异次元正版数字商城  |  异次元首页  |  微信公众号  |  iPcFun  |  关注微博  |  软件精选",
-          "link": "https://www.iplaysoft.com/news/4313",
-          "publishedOn": "2024-01-13T04:20:32.000Z",
-          "wordCount": 1379,
-          "title": "绝对值爆！爱奇艺 (电视端) VIP 年卡 + 京东Plus会员 ￥148 起",
-          "imageUrl": "https://img.iplaysoft.com/wp-content/uploads/2018/news/4313/iqiyi_logo.jpg"
-        },
-        {
-          "id": "https://www.iplaysoft.com/?p=612",
-          "author": "X-Force",
-          "description": "Parallels Desktop 被称为 macOS 上最强大的虚拟机软件。可以在 Mac 下同时模拟运行 Win、Linux、Android 等多种操作系统及软件而不必重启电脑，并能在不同系统间随意切换。\n最新版 Parallels Desktop 19 (PD19) 完美支持最新的 macOS Sonoma、Ventura 和 Windows 11 / Win10 及 CentOS、Ubuntu 等，并充分优化！可不重启直接在 Mac 系统上运行 Linux 和 Win 应用程序和游戏、使用如 Office、VisualStudio、AutoCAD、Matlab 等工具。新版 PD19 还支持 OpenGL 4.1 与 DirectX 11，大幅提升速度及 3D 游戏图形性能！！绝对是 Mac 必备神器……\n「 前往查看原文.... 」\n异次元还有这些值得一看：\n\nVMWare Fusion Pro 13 / Player 官方免费版 - 苹果 macOS 虚拟机软件 (Ventura/Win11)\nVirtualBox 7 最新虚拟机软件下载 - 免费开源跨平台 (支持 Win/Mac/Linux 安装多系统)\nVMware Workstation Pro 17 中文虚拟机软件专业版 - 支持最新 Win11/游戏3D加速\nSynergy - 用一套键鼠同时控制多台电脑的软件！跨屏共享键鼠设置教程\n\n异次元正版数字商城  |  异次元首页  |  微信公众号  |  iPcFun  |  关注微博  |  软件精选",
-          "link": "https://www.iplaysoft.com/parallels-desktop.html",
-          "publishedOn": "2024-01-12T18:10:40.000Z",
-          "wordCount": 2370,
-          "title": "Parallels Desktop 19 激活码 - 苹果 Mac 最新版 PD 虚拟机下载 (支持Win11/macOS Sonoma)",
-          "imageUrl": "https://img.iplaysoft.com/wp-content/uploads/2015/pd11/pd19_v2.jpg"
         }
       ]
     },
@@ -4881,66 +4861,6 @@
           "wordCount": 1002,
           "title": "开源免费无视觉桌面访问 NVDA 2023.3.1 中文多语免费版",
           "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=70759",
-          "author": "大眼仔~旭",
-          "description": "mpv.net 是一款适用于 Windows 的媒体播放器，具有现代 GUI。该播放器基于流行的 mpv 媒体 […]",
-          "link": "http://www.dayanzai.me/mpv-net.html",
-          "publishedOn": "2024-01-12T16:28:25.000Z",
-          "wordCount": 1112,
-          "title": "开源 MPV 播放器 GUI 版本 mpv.net 7.1.0 中文多语免费版",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=3687",
-          "author": "大眼仔~旭",
-          "description": "CrystalDiskInfo 中文版 硬盘检测工具由大眼仔旭（www.dayanzai.me）发布。硬盘里的 […]",
-          "link": "http://www.dayanzai.me/crystaldiskinfo.html",
-          "publishedOn": "2024-01-12T16:26:44.000Z",
-          "wordCount": 920,
-          "title": "机械/固态硬盘检测工具 CrystalDiskInfo 9.2.2 + x64 中文绿色单文件版",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=3328",
-          "author": "大眼仔~旭",
-          "description": "Ashampoo Burning Studio 25 中文版 光盘刻录由大眼仔旭（www.dayanzai.m […]",
-          "link": "http://www.dayanzai.me/ashampoobs.html",
-          "publishedOn": "2024-01-12T16:25:13.000Z",
-          "wordCount": 997,
-          "title": "阿香婆光盘刻录工具 Ashampoo Burning Studio 25.0.2 中文多语免费版",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=1002",
-          "author": "大眼仔~旭",
-          "description": "InnoExtractor Ultra 中文版 Inno setup 安装包提取工具由大眼仔旭（www.day […]",
-          "link": "http://www.dayanzai.me/innoextractor.html",
-          "publishedOn": "2024-01-12T16:20:08.000Z",
-          "wordCount": 979,
-          "title": "Inno Setup 安装包提取工具 InnoExtractor 2024 7.3.1.529 中文多语免费版",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=36536",
-          "author": "大眼仔~旭",
-          "description": "JetBrains CLion 是由捷克 JetBrains 公司开发的一款跨平台的 C++ IDE，风格接近 […]",
-          "link": "http://www.dayanzai.me/clion.html",
-          "publishedOn": "2024-01-12T16:16:59.000Z",
-          "wordCount": 947,
-          "title": "C/C++开发工具 JetBrains CLion 2023.3.2 x64 中文免费版",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=2563",
-          "author": "大眼仔~旭",
-          "description": "轻量级免费图像浏览器 Imagine 中文版由大眼仔旭发布。Imagine 中文版是一款免费图像浏览器应用程序 […]",
-          "link": "http://www.dayanzai.me/imagine.html",
-          "publishedOn": "2024-01-12T16:16:58.000Z",
-          "wordCount": 1013,
-          "title": "轻量级免费图像浏览器 Imagine 1.3.9 + x64 中文多语免费版",
-          "imageUrl": null
         }
       ]
     },
@@ -4955,6 +4875,36 @@
       "feedUrl": "http://feeds.feedburner.com/pfc",
       "siteUrl": "https://www.portablefreeware.com/",
       "articles": [
+        {
+          "id": "1048+1707659478",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=1048&ts=1707659478",
+          "publishedOn": "2024-02-11T13:51:18.000Z",
+          "wordCount": 1390,
+          "title": "[UPDATE] PeaZip v9.7.0",
+          "imageUrl": null
+        },
+        {
+          "id": "782+1707659416",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=782&ts=1707659416",
+          "publishedOn": "2024-02-11T13:50:16.000Z",
+          "wordCount": 1229,
+          "title": "[UPDATE] TheSage v7.58.2812",
+          "imageUrl": null
+        },
+        {
+          "id": "3091+1707630210",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=3091&ts=1707630210",
+          "publishedOn": "2024-02-11T05:43:30.000Z",
+          "wordCount": 395,
+          "title": "[UPDATE] Quick Clipboard Editor v1.3.2",
+          "imageUrl": null
+        },
         {
           "id": "132+1707583925",
           "author": null,
