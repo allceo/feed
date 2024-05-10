@@ -2,10 +2,807 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://allceo.github.io/feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-05-07T00:59:56.832Z</updated>
+    <updated>2024-05-10T01:00:42.038Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://allceo.github.io/feed/index.html"/>
     <link rel="self" href="https://allceo.github.io/feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] Quick Clipboard Editor v2.1]]></title>
+        <id>3091+1715275274</id>
+        <link href="https://www.portablefreeware.com/?id=3091&amp;ts=1715275274"/>
+        <updated>2024-05-09T17:21:14.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[开源免费 DJ 混音软件 Mixxx 2.4.1 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=52316</id>
+        <link href="http://www.dayanzai.me/mixxx.html"/>
+        <updated>2024-05-09T16:29:36.000Z</updated>
+        <summary type="html"><![CDATA[开源免费 DJ 混音软件 Mixxx 中文版由大眼仔旭发布。Mixxx 是免费的开源软件，并完全由社区推动的。 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[韩国视频播放器 Daum PotPlayer 1.7.22224 + x64 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=8446</id>
+        <link href="http://www.dayanzai.me/potplayer.html"/>
+        <updated>2024-05-09T16:27:50.000Z</updated>
+        <summary type="html"><![CDATA[Daum PotPlayer 中文多语免费版由大眼仔旭发布。Daum PotPlayer 是 KMPlayer […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[跨平台开源 SSH 桌面终端 Electerm 1.39.2 x64 中文免费版]]></title>
+        <id>http://www.dayanzai.me/?p=765</id>
+        <link href="http://www.dayanzai.me/electerm.html"/>
+        <updated>2024-05-09T16:25:50.000Z</updated>
+        <summary type="html"><![CDATA[跨平台开源 SSH 桌面终端 Electerm 中文版由大眼仔旭整理发布。通常，终端仿真器用于为某些计算机用户 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[免费 Windows 实用程序 simplewall 3.8.2 + x64 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=1222</id>
+        <link href="http://www.dayanzai.me/simplewall.html"/>
+        <updated>2024-05-09T16:20:01.000Z</updated>
+        <summary type="html"><![CDATA[免费 Windows 实用程序 simplewall 中文版由大眼仔旭发布。至少可以说，配置您的 Window […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[开源 EXE/Dll 资源压缩工具 UPX 4.2.4 + x64 发布！]]></title>
+        <id>http://www.dayanzai.me/?p=887</id>
+        <link href="http://www.dayanzai.me/ultimate-packer-for-executables.html"/>
+        <updated>2024-05-09T16:16:30.000Z</updated>
+        <summary type="html"><![CDATA[UPX (Ultimate Packer for eXecutables) 是一个轻量级的可执行文件压缩工具， […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[优捷易一键装机助理 V5.1.7 标准版 + 5.23.8.22 正式版 + 6.24.5.1 正式版（解压版 + 单文件）（无视浏览器主页锁定）]]></title>
+        <id>http://bak.qiuquan.cc/?p=4186</id>
+        <link href="http://www.qiuquan.cc/systemtool/ujyqii.html"/>
+        <updated>2024-05-09T11:20:57.000Z</updated>
+        <summary type="html"><![CDATA[内置多个一键装机方案,根据当前用户环境自动匹配;
+支持自动调用PE模块[WinRE.wim/Boot.wim/第三方PE];
+支持当系统不存在PE模块时,联网自动下载PE模块;
+调用第三方PE时无视其防串改机制;
+支持优化调整还原后的系统;
+支持[自定义运行接口];
+自带USB3.X/Nvme补丁,还原时可选择注入;
+支持调用IT天空|系统总裁|装机员万能驱动包,可在还原后自动在PE/部署中/桌面调用;
+支持导入自定义驱动
+支持系统热备份;
+内置独创的木马清除技术;
+支持导入软件推广包/自定义浏览器主页;
+支持自定义系统部署后的桌面壁纸;
+支持自定义Ghost系统的部署背景图;
+支持自定义系统的OEMlogo信息;
+优捷易PE下支持系统净化功能;
+支持导入系统安装密钥;
+支持在线重装Windows系统;
+支持命令行参数调用;
+支持在PE环境下在线重装Windows系统;
+支持参数形式的自动化安装系统;
+支持一键自动分区;
+支持桌面环境下单系统盘无其他分区一键还原系统;
+支持插件包,在还原系统阶段即安装完成,进入桌面即可使用;
+支持命令行参数调用,详见 命令行脚本示例 目录
+支持多种自定义,详见 装机助理支持文档.txt]]></summary>
+        <author>
+            <name>泉</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] Bandizip Standard Edition v7.33]]></title>
+        <id>2397+1715252597</id>
+        <link href="https://www.portablefreeware.com/?id=2397&amp;ts=1715252597"/>
+        <updated>2024-05-09T11:03:17.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[阿里开始变拧巴了]]></title>
+        <id>https://www.woshipm.com/it/6048329.html</id>
+        <link href="https://www.woshipm.com/share/6048329.html"/>
+        <updated>2024-05-09T09:43:59.000Z</updated>
+        <summary type="html"><![CDATA[近期，阿里对淘宝进行了很多更新，取消预售制度、更新PC端和重启“淘江湖”。但却与企业利用相矛盾，或许与其愿景和使命是有所偏差的。
+
+阿里最近有几个动作值得玩味：第一个动作是取消618预售，宣布5月20日晚八点直接售卖，全程化价保。
+实际上淘天做预售已经有十年之久，预售对于商家来说，可以更有效地判断备货量，但是对于用户来说，预售拉长了收货周期，显然是有损用户体验的。
+但或许用户为了买到低价商品，愿意承担这种用户体验的损失，背后折射的是卖方市场关系。‍‍‍‍‍‍
+第二个动作是淘宝开始重启PC版网站，并且重启论坛淘江湖。‍‍说是重启PC版网站当然也是夸张了，PC版淘宝一直都存在、不曾下线，只不过前几年PC端的用户体验非常糟糕，登陆PC版淘宝网站非常麻烦，以至于我有时候上班摸鱼想看看淘宝网站，都极为不方便。‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍
+
+我相信大家都能感觉到这几年PC版淘宝用户体验之糟糕，阿里的意思恐怕也很简单，就是全力为移动端让路，尽可能地引导用户使用APP，这背后自然是阿里的移动化战略所致。‍‍‍‍‍‍‍‍‍
+阿里的这两点动作变化，自然可以说是以用户为中心做出的改变，也展现出了吴妈执掌阿里后做出变革的决心。‍‍‍‍‍‍‍‍‍‍只是这个改变实在是让用户等的太久了，以至于阿里突然为用户着想，似乎好像反倒成了一种“英明”。‍‍‍‍‍‍‍‍‍‍
+但我想说的是两点：第一，“用户为先”有可能与企业利益相矛盾，因此阿里（或任何一家公司）的“用户为先”战略都无法长期持续下去，“用户为先”更多只是某一个阶段的主题；‍‍‍‍‍‍‍‍‍‍‍第二，阿里的客户到底是谁，阿里真的想清楚了吗？
+我们对此有些怀疑，当然蔡崇信说是阿里终于明白了谁（消费者）是自己的客户，但这与阿里的愿景使命其实是有偏差和些许矛盾的。‍‍‍‍‍‍‍‍‍‍‍下面我们详细讲讲这两点。
+01
+首先，吴妈蔡崇信回归阿里后，先是批判了以前…]]></summary>
+        <author>
+            <name>传播体操</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[谁是最佳“AI Agent创想家”？钉钉AI助理众测大赛结果出炉！]]></title>
+        <id>https://www.woshipm.com/?p=6045556</id>
+        <link href="https://www.woshipm.com/it/6045556.html"/>
+        <updated>2024-05-09T09:13:37.000Z</updated>
+        <summary type="html"><![CDATA[在AI时代，找到自我的能力突破口，和适合自己的最佳演进路径。
+
+一、大赛回顾
+4月初，人人都是产品经理联合钉钉举办了“寻找AI Agent创想家——钉钉AI助理众测大赛”，邀请关注AI、热爱AI的产品经理、运营们来开发AI技术的应用场景，打开AI Agent的落地想象空间。
+随后，在一个月左右的时间里，我们陆陆续续收到了总计1000+报名表与300+报名作品。在大家提交的作品里，我们看到了人们对AI技术的关注，也看到了大家对AI Agent应用潜能的不断挖掘，有的人借助钉钉AI助理实现了业务效率的提升，也有的同学在钉钉AI的路线演进中透视AI应用的发展方向。思维的高速碰撞，让这场众测大赛不再局限于竞技之中，而是发挥出了更大的效用，即让个体与AI时代实现了深度链接。
+这也是人人都是产品经理联合钉钉举办本次大赛的初衷之一——即帮助产品经理塑造AI时代的“铠甲”，让产品经理等人员可以将过程中积累的实战经验和观察落地、复用至实际业务中，获得切实的能力提升。
+为了达成这一初衷，人人都是产品经理在过程中也提供了许多帮助：
+比如详细的参赛资料和操作指南~
+
+比如赛程阶段的群内答疑和关键内容提醒~
+
+比如贴心的私聊答疑，从产品体验问题，到资料查询，运营小伙伴们时刻在线解答~
+
+当然了，电话答疑也少不了（把电话打爆！打爆！！）~
+人人都是产品经理还邀请AI行业的大咖们来进行直播宣讲，帮助大家捋清思路，找到上手AI Agent的路径和作品创作方向。
+
+参赛的小伙伴们当然也十分给力！许多小伙伴平时工作繁忙，只能抽取空余时间来进行体验和输出。但是在有限的时间里，许多小伙伴最后仍按时交稿，且质量好评！！！在此，人人都是产品经理也感谢各位创作者的坚持与支持~~
+
+咳咳，回归正题——那么，在N++份优质稿件里，谁最终可以获得本次钉钉AI助理众测大赛的大奖？
+现在，我们就来正式揭晓本次“寻找AI Agen…]]></summary>
+        <author>
+            <name>人人都是产品经理</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] ShareX v16.1.0]]></title>
+        <id>2409+1715244092</id>
+        <link href="https://www.portablefreeware.com/?id=2409&amp;ts=1715244092"/>
+        <updated>2024-05-09T08:41:32.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] EmEditor Free v24.1.2]]></title>
+        <id>2960+1715244040</id>
+        <link href="https://www.portablefreeware.com/?id=2960&amp;ts=1715244040"/>
+        <updated>2024-05-09T08:40:40.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[近1年仅靠小红书拉搜交易破百万，横测笔记数据下滑如何找到新增量？]]></title>
+        <id>https://www.woshipm.com/it/6048237.html</id>
+        <link href="https://www.woshipm.com/share/6048237.html"/>
+        <updated>2024-05-09T08:16:29.000Z</updated>
+        <summary type="html"><![CDATA[近年来，宠物赛道发展得如火如荼，宠物用品猫砂更是一大话题。本文就猫砂在小红书上的整体市场动态和营销趋势进行分析，希望帮助大家更高效地引流。
+
+本期我们将关注点转向另一种宠物用品——猫砂，观察了该类目小红书上整体的市场动态和营销趋势。下文主要围绕猫砂产品的引流路径和相关内容布局的思路展开分析探讨，希望能帮大家在小红书高效引流转化上提供一些新思路。
+我们目前观测到比较典型的3个品牌主要通过以下几种内容玩法拿到了不错的销售转化：
+
+01 宠洁优猫砂
+
+客单价：24.9元
+22年10月，宠洁优猫砂开始在小红书推广；到23年5月找到合适的内容玩法，之后的两个月内便将相关的淘系搜索人数从3000+拉至3.3万+。
+
+（数据来源：生意参谋&灰豚数据）
+它的销售渠道主要在淘系，从近30天的销售额来看，官方渠道的贡献率在90%左右，剩下的少部分销量由多个分销渠道贡献。同时抖音平台有少量的销量产出，但整体占比量较少。
+笔记投放节奏和内容分析
+宠洁优猫砂的笔记种类多样，且随着市场情况的变化，相关的笔记内容也会有所调整，根据不同阶段的核心笔记类型大致可以分为以下三个阶段：
+第一阶段
+在22年10月至23年4月期间，以素人产品种草笔记为主，少量的企业号抽奖活动内容和排行榜笔记。整体来看这一时期大概是品牌的内容玩法测试阶段，相关的搜索增长较慢。
+其中12月品牌在12月发起了“猫砂打卡”活动（如下图），吸引了大量养猫用户参与。
+
+第二阶段
+在23年5月-10月期间，排行榜笔记逐渐成为核心内容，占到笔记的90%左右。在这期间搜索人数快速攀升，笔记拉搜明显，仅是7月搜索人数就超过3.3万。
+如下图，这些笔记主要围绕猫砂品类的搜索关键词，同时也有一部分内容聚焦于新手养猫的场景搜索关键词。
+
+（图片来源：灰豚数据）
+第三阶段
+在23年10月之后排行榜内容带来的搜索效益快速下降，品牌采取了相关的行动来维稳流量；一…]]></summary>
+        <author>
+            <name>Sally</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[产品经理方法论连载06 | 产品通识——项目交付全流程（附流程图和任务拆解）]]></title>
+        <id>https://www.woshipm.com/?p=6047820</id>
+        <link href="https://www.woshipm.com/share/6047820.html"/>
+        <updated>2024-05-09T08:06:56.000Z</updated>
+        <summary type="html"><![CDATA[若想建立对产品岗位的全貌认知，我们还需要理解产品岗位与组织体系的关系。本文就以常见的合作项目交付为场景进行举例，一起来看一下。
+
+一、前言
+1. 概述
+我将连载更新我认知中的产品方法论，从产品通识讲到产品技能再讲到产品思维。
+本人先后曾任互联网大厂的市场营销策划、用户运营、活动运营、解决方案岗位，现为一名高级产品经理。如果你是产品新人，希望能让你更快捷地认知这个岗位。如果你是经验丰富的同行，欢迎交流反馈，共同交付价值。
+产品方法论将分为三个维度：产品通识、产品方法和工具、产品思维。
+具体框架阐述详见首篇文章：https://www.woshipm.com/share/6040109.html
+
+2. 本文说明
+1）今天更新的模块为产品通识-产品岗位标准流程-产品岗位与组织体系的关系。
+在我的前几篇文章中，已经对于岗位基础进行了说明，具体阐述了产品经理是什么、做什么、有哪些分类、需要哪些能力模型、应知的岗位名词。
+
+但仅仅了解这些，不足以建立对于产品岗位全貌的认知。每一个岗位都是企业这台机器中的一个零部件，需要和其他岗位协同配合，才能对组织产生效应。
+因此，作为产品经理，需要先了解你在组织中体系中处于哪一环节、你的前后左右分别是哪些角色，进而知道如何与协同部门有效协作、任务如何流转、权责如何划分、工作的考核标准和边界在哪里。
+今天这篇文章，就带大家一起绘制一个棋盘 ，了解产品经理作为棋子之一，是如何开展工作的。
+2）为了更直观地展示，本文将以常见的合作项目交付为场景举例。
+因为这个场景下，包含企业外部客户和企业内部多个部门，角色和情况最为齐全。
+二、项目交付全流程——流程图
+1、从项目时间维度，可将项目分为：
+售前支持阶段：沟通需求、合作洽谈、明确交付范围和产品实现方式、签订合同。
+产品系统设计阶段：编写产品方案、系统设计方案、测试用例。
+产品功能实施阶段：开发编码、测试执行、项目管理、处理需求变更等异常问题。
+上线与验收阶段：产品验收、产品功能手册编写、产品培训、客户验收并签署验收单。
+售后技术支持阶段：技术问题排查及处理、问题记录、产品需求池、产品版本迭代。
+2、从参与项目的各角色维度，可拆分为：
+项目方：由于本文举例的场景为合作项目交付流程，因此项目方可理解为提出需求并出资的甲方。
+市场：公司承担外部对接、商务洽谈的角色。
+产品：产品经理。有些公司此处也可拆分为产品经理和解决方案经理两个角色，前者注重产品方案设计和产品开发跟进，后者侧重方案设计前的需求对接、合作方案拟定。
+研发：前后端开发人员，负责编码实现产品方案。
+测试：测试工程师，负责编码后的功能测试、上线后的验收、售后技术支持时的问题排查。有些公司会单独成立客服部，承接售后问题。
+平台运营：在项目中作为了解业务的核心角色，确保项目推进不影响原有业务开展。如果功能上线后需要运营或推广，平台运营岗位也可以凭借参与项目全过程，快速制定运营方案。
+客户成功：这个岗位一般出现在提供软件服务的SaaS（软件即服务）公司或2B业务中，建立长期客户关系并提供持续价值的企业或业务。岗位核心价值是与客户保持密切联系，确保客户在使用企业的产品或服务时有良好且符合预期的体验，并建立客户合作忠诚度。因此在项目流程中，应承接产品上线后的客户交付职能、参与产品验收、熟悉产品功能。
+
+三、项目交付全流程——任务项&交付物拆解
+流程图便于了解各角色和事项的流转时间和顺序，下方的拆解表可用来了解每个阶段的角色、任务、标准输出物。
+一个项目从启动的商务阶段到收款结项，需要公司各主要部门通力合作，如果缺少标准流程，在各个关键节点就会出现内部扯皮，分工不清边界不明。也会给合作方造成服务不专业的印象，影响合同续签或业内口碑。
+
+四、总结
+本篇文章是作者精心梳理的项目全流程，内容信息凝练自本人工作中的多项项目经验。
+不同于其他行业通识，本文细节内容可以根据各自公司具体情况灵活调整。
+原创不易，请多多关注、推荐给需要的同行！
+下一篇将会说说产品经理的工作流程，了解这个岗位的工作事项始末。
+如有建议和补充，欢迎交流！你们的互动将是我更新的最大动力，感谢！
+本文由 @刘一手 原创发布于人人都是产品经理。未经作者许可，禁止转载。
+题图来自Unsplash，基于CC0协议。]]></summary>
+        <author>
+            <name>刘一手</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[存量客户激活，银行常见的企微客户添加路径]]></title>
+        <id>https://www.woshipm.com/it/6048201.html</id>
+        <link href="https://www.woshipm.com/operate/6048201.html"/>
+        <updated>2024-05-09T07:39:59.000Z</updated>
+        <summary type="html"><![CDATA[在当前数字化转型的情况下，很多银行都在经历变革。那么要对存量客户进行激活，有哪些常见的企微客户添加路径呢？
+
+在当前的银行数字化转型过程中，很多银行正经历着前所未有的变革。无论是银行本身还是银行的客户。
+在客户方面，他们期望获得更便捷、更个性化、更安全的金融服务；而银行本身则是在寻求更高效、更低成本的获客方式。
+在这个中间，从客户的营销角度来说，站在私域的视角，首先第一步考虑的则是如何将银行长期积累的客户资源逐步转移到线上端来，这是第一步。
+毕竟，如果没有客户，何谈后面的客户营销与体验升级。
+而对于银行来说，其实在私域的某种程度来看，是比较符合做线上私域营销的，首要第一点就是，客户足够多。
+在之前传统的网点服务中，尤其针对一些国有大行， 几乎每一个省分行都有着上千万的客户资源，而这些客户基本都是与银行有过相关的业务，至少都曾有过开户，这就相当于是有了客户的基础信息资源。 
+这其实是一个比较庞大的客户群体，在当前的互联网营销下，新客的获客成本远比维护一个老客户的成本高，所以，当前的银行市场该考虑的则是如何逐步维护这批老客户，降低客户的流失，提升客户与银行之前的业务上线。
+从当前的银行客户体量来说，先不说新增多少的客户，把原有的老客户尽可能的激活上线这对于银行来说，都是一个非常庞大的业务资产提升体量。
+在客户的分布渠道上，之前的银行客户承接方式基本都是在客户经理的个人微信上，网点的客户上门，分支行的客户数据系统。
+实际上，所有的客户基本上都会留存在行内的客户数据系统上，这里有着客户的基础相关信息，比如手机号，姓名，身份证号等。
+而在客户的维护以及转化上，基本都是在网点的到店和客户经理微信上的引导，尤其在客户经理操作上，客户都积累在个人微信里面，这实际上不管是对于银行还是行员来说，都是一种不确定的风险。
+对于银行来说，客户会存在被流失带走的风险，一旦客户经理岗位出现变动，客户就会…]]></summary>
+        <author>
+            <name>刘志兴</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[我们应该如何做参与式观察？]]></title>
+        <id>https://www.woshipm.com/?p=6047959</id>
+        <link href="https://www.woshipm.com/user-research/6047959.html"/>
+        <updated>2024-05-09T07:11:39.000Z</updated>
+        <summary type="html"><![CDATA[参与式观察的步骤和平常的观察步骤，其实还是存在着一定差异。那么，我们要如何做好参与式观察？本文从事前、事中、事后三个阶段做了相应的阐述，一起来看。
+
+记得多年以前，有个朋友问我：对于做观察，有人通过教授绘画技巧来教人如何做观察。你们研究员又不会画画，你们如何让人相信你们更会观察呢？坦率说，当时我被问住了，因为我从来没有进行过这样的对比。我知道我会如何观察，但我并不确定一个会画画的人观察会跟我有何不同。
+于是我特地去翻看了一些教授如何画画的书。应该说，绘画中的很多观察技巧确实给我很多启发。不过研究中的观察（包括参与式观察）跟绘画的观察还是颇有不同。在我看来，做好参与式观察必须要做好以下几个步骤。
+事前：精心准备，但保持空杯心态
+这一点看上去平平无奇，但却是极其重要的第一步。其主要原因有三：
+1）设定预期
+无论对于所需观察的场景是熟悉或陌生，事前都需要仔细拆解我们所需要观察的元素，包括但不限于环境、人物、时间、流程、任务、物料等。仔细检索资料后思考对于此次观察的具体任务。如果有机会的话，最好可以提前去相关的场合进行预观察。提前熟悉相关的环境，可以让我们不至于在陌生的场合手足无措，也可以更好地发现自己准备过程当中的疏漏。
+
+2）建立假设
+如果是我们熟悉的场合，那么好极了。尝试着填写一下上面提到的那些元素，看看哪些事实是我们凭记忆填不出来。自以为填写得出来的部分尽量多地回忆细节。比如上次去医院打针。你从医生那里出来的时候，医生跟你说了什么？然后你去了哪里？在输液室第一个交谈的护士是谁？你手里拿着什么东西？……这种练习会让你对于自己自认为了解的东西有新的认识。
+如果是我们不熟悉的场合，一定要提前通过各种方式来提前熟悉并了解。数年前我执行一个关于门诊输液的项目，特意买了两本关于静脉输液护理的专业书籍学习。
+这种学习会帮助我了解到手脚麻利的护士在一两分钟之内完成的输液操作其实是由十几个步…]]></summary>
+        <author>
+            <name>Gump</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[私域增长时，“筛选流量”比“培育用户”更重要？]]></title>
+        <id>https://www.woshipm.com/?p=6048020</id>
+        <link href="https://www.woshipm.com/operate/6048020.html"/>
+        <updated>2024-05-09T06:44:18.000Z</updated>
+        <summary type="html"><![CDATA[“用户筛选”和“用户培育”，其实并不存在着对立关系，它们某种程度上如同双轮驱动，推动着企业在私域运营的道路上稳健前行。如何理解呢？一起来看看本文的梳理和解读。
+
+在私域运营中，我发现不少朋友会陷入直线思维，把“用户筛选”和“用户培育”放在对立面。
+看似冲突的两者，其实在私域里，并没有谁对谁错或对立取代的关系，这两者更像是有着与家庭共进退目标的“夫妻”关系。
+但现实是，很多业务模型在运营过程中，变成流量思维一刀切，只注重“筛选流量”，忽略了“培育用户”。
+而往往这些不经意的忽视，也容易让私域从认知到落地就一步错、步步错，掰回来的功夫比重建更艰难！
+一、什么是私域里的“筛选”与“培育”？
+有人会认为私域流量的运营中，是动态筛选的过程，是对潜在客户进行甄别，选择那些最有可能成为付费客户的人群，并完成触达成交；
+也有人认为在私域中对已经吸引进来的客户进行持续的沟通和教育，以促进他们购买决策的形成。
+一种是自上而下的漏斗过滤思维，一种是自下而上的螺旋成长思维。
+只是在不同场景和用户属性中，两者作为不同的运营方式发挥着不同效用。
+
+1. 用户筛选：精准定位，高效转化
+属于流量池思维，无论是公域流量池还是存量用户池，通过感兴趣的内容或活动筛选进入下一个运营环节的用户，比如购买、试用、参与等。
+特别在公域情境下，客户还未成为品牌的私域成员时，用户筛选大浪淘金显得更为重要。
+
+所以，在用户筛选型的公式中关注的是GMV，多少公域资源换取私域变现的总量，即“GMV=公域流量*导流率*转化率*产品客单价”，而其中核心指标是“导流率”和“转化率”，在既定公域流量池中，提升私域导流率和成交转化率，是用户筛选的关键。
+一般适用于线索型的私域业务，比如，汽车行业、教育行业私域、留学移民业务。
+那么是否意味着线索型私域就只有筛选运营思维呢？
+其实，并不正确，筛选更多时候为了在海量用户中先筛选出有意向有预算的…]]></summary>
+        <author>
+            <name>晓峰的运营增长</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Axure高保真教程：上传图片列表]]></title>
+        <id>https://www.woshipm.com/?p=6047836</id>
+        <link href="https://www.woshipm.com/share/6047836.html"/>
+        <updated>2024-05-09T06:40:02.000Z</updated>
+        <summary type="html"><![CDATA[如何在Axure制作一个上传图片列表的原型模板？这篇文章里，作者分享了详细的教程和步骤，一起来看看吧。
+
+上传图片列表常用于许多不同类型的应用和系统中，包括社交媒体平台、电子商务网站、博客和内容管理系统、在线相册和图像存储服务、项目管理工具等，发挥着重要作用，帮助用户管理、组织和展示他们上传的图片，从而丰富内容、提高用户体验，并支持各种业务需求。
+所以今天作者就教大家怎么在Axure制作一个上传图片列表的原型模板，具体效果如下所示：
+一、效果展示
+1、点击上传方框，打开显示本地资源的窗口，里面可以选择本地的资源。
+2、如果选择的不是图片格式，弹出弹窗提示。
+3、如果选择的是图片格式，将图片回显，然后显示下一个上传方框。
+
+原型地址：https://cspfgk.axshare.com/#g=1&p=上传图片（列表效果2）
+二、制作教程
+1. 材料准备
+这里需要的材料很简单主要包括一个上传框的图片，一个文本框和一个文本标签。
+图片我们命名为vigopic1，文本框命名为vigotext1，文本标签命名为click1。
+图片默认选择上传框的图片。
+文本标签，用于触发后续交互。
+文本框输入类型选择输入框，我们通过js代码可以调用选择本地图片，选择图片后进行回显，之前在上传图片那章教程里面，有详细讲解，大家可以先去学习那章教程，然后再回来学习上传之后怎么触发继续上传新的图片。
+整体摆放如下图所示，只显示图片，文本标签和文本框放置在图片底部，用图片遮挡着他俩。
+
+如果想做成列表，我们需要总共上传多少个，就复制几个，例如朋友圈案例是最多上传9个，那就复制多8个，总数九个，前面只有第一个默认显示，后面的默认隐藏即可，然后摆放整齐就可以了，本演示案例是做了一个最多上传12张图片的案例，如果有需要更多的，也可以按照下面方法自行添加。
+对了，因为js代码是根据元件名来上传和回显的，所以文件名要唯一，前面第一个组合，我们把图片命名为vigopic1，文本框命名为vigotext1，文本标签命名为click1；那第二个组合就要改成图片命名为vigopic2，文本框命名为vigotext2，文本标签命名为click2；那第3个组合就要改成图片命名为vigopic3，文本框命名为vigotext3，文本标签命名为click3……如此类推。
+2. 交互制作
+在原有的代码基础上，我们可以增加一个判断，就是上传的是否为图片格式，常见的图片格式包括png、jpg、jpeg，案例中用的是这三种格式，如果需要增加其他图片格式，可以自行添加代码如：
+if(fileType==”image/png”||fileType==”image/jpeg”||fileType==”image/jpg”)
+如果上传不符合格式，我们用 alert代码，调出系统弹窗提示即可，例如 alert( “请上传图片（格式JPG、JPEG、PNG）!”)；
+如果上传的格式符合，那就回显图片，这里和之前上传图片不同的是，回显之后，我们要显示下个一个上传框，以第一个上传框上传回显后为例，我们要从代码回到axure的元件里面，这里我们需要借助文本标签click1，我们在文本标签鼠标单击时，我们用显示的交互，将第二个组合显示出来就可以了。
+
+现在剩下的问题就是，上传回显完之后，怎么触发这个文本标签鼠标单击的事件呢？
+我们可以在代码里增加一行，用jQuery 事件 – click() 方法，模拟点击按钮（或执行点击按钮时的操作），我们要选择Axure里名为click1的元件，相当于选择页面中标有 data-label 属性值为 ‘click1′ 的元素，所以整行代码是(“[data-label=’click1’]”).click();选择页面中标有 data-label 属性值为 ‘click1’ 的元素，并模拟用户对这个元素的点击，点击之后就触发上面单击时的交互，显示第一个组合。
+组合2的话也是同一个原理，我们把图片命名为vigopic1、文本框命名为vigotext1、文本标签命名为click1的目的也是为了方便后续修改，在第二个组合里的，我只需要代码和名字里的’1’改成’2’，然后交互事件显示组合2改成显示组合3就可以了，改起来也非常方便。
+后续的345678……组合，也是同一个道理。
+那以上就是本期教程的全部内容，感兴趣的同学们可以动手试试哦，感谢您的阅读，我们下期见。
+本文由 @AI产品人 原创发布于人人都是产品经理，未经许可，禁止转载
+题图来自 Unsplash，基于 CC0 协议]]></summary>
+        <author>
+            <name>AI产品人</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[视频下载转换利器——Allavsoft Video Downloader Converter 3.27.0.8868 注册版]]></title>
+        <id>http://bak.qiuquan.cc/?p=4157</id>
+        <link href="http://www.qiuquan.cc/convert/allavsoft.html"/>
+        <updated>2024-05-09T06:30:58.000Z</updated>
+        <summary type="html"><![CDATA[Allavsoft 视频下载器 是一个流行的快速在线视频下载和转换器，以帮助用户快速下载和转换在线电影，让其能在PC、便携式设备，、手机、MP4播放器、电视上更轻松地播放。 强大的视频下载工具可以保存高清，HQ和3D电影在线视频，然后转换为MP4，AVI，WMV，MOV，MKV，FLV，MPG，VOB等，以在各种各样的数码设备播放，包括ipad mini， iPad，iPod，iPhone，谷歌Nexus，Microsoft Surface，Kindle Fire，黑莓，苹果电视，Zune，PSP，PS3，掌上电脑，创意Zen，Xbox，Archos等。]]></summary>
+        <author>
+            <name>泉</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple Pencil Pro 会成为 Vision Pro 的手柄吗？]]></title>
+        <id>https://www.woshipm.com/?p=6047974</id>
+        <link href="https://www.woshipm.com/share/6047974.html"/>
+        <updated>2024-05-09T06:24:03.000Z</updated>
+        <summary type="html"><![CDATA[许多 Apple Vision Pro 的用户都期望可以看到能够和 Vision Pro 兼容交互、可以作为类似手柄控制器一样的 Apple Pencil，但目前，这一期望还未能被满足。那么，Apple Pencil Pro 有没有可能成为 Vision Pro 的手柄呢？
+
+在近日的 2024 年春季特别活动日，苹果发布了新一代 iPad Pro 和 iPad Air，此外 Apple Vision Pro 用户期望看到一款能够和 Vision Pro 兼容交互、可以作为类似手柄控制器一样的 Apple Pencil，但是苹果毫不意外地没有满足我们的期待。
+新发布的 Apple Pencil Pro（即便也带有引人遐想的 Pro）与前几代相比，新增以下几个特性：
+一个新的压力传感器，用于识别挤压（Squeeze）手势
+触觉引擎提供精确的反馈（Haptic feedback）
+陀螺仪可让您滚动（Barrel roll）铅笔以获得更多控制
+
+Apple Pencil Pro 功能概览
+这看起来已经和传统的 VR 手柄功能非常接近了！
+
+我们通过更新的 《Apple 人机界面指南》中也看到了新增的处理 Apple Pencil Pro 捏压和横转的设计说明，通过陀螺仪传感器可以实现 Apple Pencil Pro 的 3DoF（3 自由度）位姿追踪，即基于 iPad Pro 屏幕位置之上的前后、左右、上下三个纬度的旋转位姿：
+
+Apple 人机界面指南
+如果只从交互设计的角度考虑，Apple Pencil 和 iPad Pro 的悬停感应设计与 Apple Vision Pro 的视觉悬停效果（Hover Effect）无论是在设计层面还是空间隐喻层面，都保持完全一致！
+
+悬停（Hover）响应
+传统 VR 用户肯定都清楚，3DoF 手柄只能做到“原地旋转”，而 6DoF 才可以做到完整的全空间自由操作（也就是在 3 DoF 原地三个维度旋转的基础上，增加了空间位移信息，如下图）。而要做到手柄相对于头戴显示设备的 6 DoF 追踪，还需要通过头显的摄像头去追踪手柄的空间位置（当然也有像 Quest Pro 这种把摄像头安装在手柄上的方案）。
+
+3 DoF vs 6 DoF
+回到 Apple Pencil Pro 新增的特性上来，有了陀螺仪的数据之后，实际上只需要通过 Vision Pro 的摄像头追踪 Apple Pencil 的位置，就可以将其作为一个完整功能的手柄使用（并且具备触觉反馈引擎），而对于以手部追踪为核心交互技术的 Vision Pro 来说，这简直太简单了！
+实际上，在去年的 visionOS 测试过程中，有开发者已经发现当手握 Apple Pencil 时，Vision Pro 无法正常识别手指的捏合操作，而官方的反馈则表示：这是经过设计的特性，而非 BUG！目的是为了防止使用 Apple Pencil 的过程中产生手指捏合的误操作（可能导致关闭 visionOS 应用窗口）。这也从侧面说明，在使用 Vision Pro 的过程中，实时追踪手部操作的同时，识别 Apple Pencil 的存在（甚至是定位）已经是内置的功能。
+
+关于 Apple Pencil 识别的官方反馈
+也正因如此，开发者才会更加期待下个月的 WWDC2024，是否会伴随 visionOS 2.0 一同发布将 Apple Pencil Pro 作为具备触觉反馈的手柄（或者称为手杖、魔杖更合适 ）的功能升级！因为从硬件和技术上，一切必要条件已经具备。
+当然也有人怀疑，为什么不在 Apple Pencil Pro 发布时直接宣布其作为 Vision Pro 控制器的特性，而要浪费这个首发宣传的机会？我觉得首先这次发布会的核心主角还是 iPad，一切聚焦围绕在 iPad 产品线周围，此时 Apple Vision Pro 就像发布会上一闪而过的那个坐在角落里的员工一样：这次他不是主角。
+
+此外，如果你跟 Apple Vision Pro 的首批用户们说，想要给你 3500 美元的设备添置一对手柄吗？你需要再花 260 美元（两个 Pencil Pro 的价格），他们可能觉得自己更加冤大头了…但如果说 $130 可以买到全新的 Apple Pencil Pro，而它甚至可以升级为 Vision Pro 的手柄，我们只会为 Apple 全家桶的生态而感动。
+作者：V2XR； 微信公众号：V2XR
+本文由 @V2XR 原创发布于人人都是产品经理。未经许可，禁止转载。
+题图来自苹果官网]]></summary>
+        <author>
+            <name>V2XR</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[聊聊数据产品和目标借款人]]></title>
+        <id>https://www.woshipm.com/?p=6047293</id>
+        <link href="https://www.woshipm.com/pd/6047293.html"/>
+        <updated>2024-05-09T06:17:20.000Z</updated>
+        <summary type="html"><![CDATA[这篇文章里，作者说了自己的感受之一，即感觉各家的风控策略和意向，总是在找寻适合自己公司的“完美借款人”。我们不妨跟着作者的脚步，来做进一步的探索和分析。
+
+每个行业中自己认为的常识可能并不是所有人的常识，并非每个人都能搞清楚IRR、APR等概念的差异，也无法理解为什么汽车品牌自有的汽融公司优于其他融资方式。即一定会有人对借款利率不敏感。相较于能精算出利率的客户，对还款不敏感，愿意分36期借60%利率产品的客户更符合盈利目标。
+外部数据管理实务中，处理各类问题时尝试完全地另辟蹊径，多数时候只能事后感慨“自衿功伐，奋其私智而不师古”。大部分时候借鉴别人的方案，可以解决70%的问题。征信公司对外展业的时候，为增加可能的使用方对其数据的理解，其大体也会介绍不同层级、不同风格的同业公司对其不同数据的使用思路。相较于直接抠代码抠数据自行对一批客群进行描述、探索，或者自行做ABtest，和外部同业持续保持沟通，个人理解也是完善风控相关问题的一种办法。
+征信机构上游外部数据源的来源，除其公司自身准入外，还有其他因使用方独特的需求被动准入的数据源。理论上讲可以在更高的视角上审视各家的外部数据使用，当然，此基于所有机构都严格按照监管需求“断直连”的前提。理论上讲一段时间后，征信机构侧可能可以拥有不同层级的公司的主要使用的所有数据源列表，基于此甚至乃甚至可以推理出各家风控倾向及重点。在与各家同业，或征信公司的交流沟通的过程中，恍惚间总感觉各家的风控策略和意向，总是在找寻适合自己公司的“完美借款人”。
+一、信用风险控制？欺诈风险控制？
+各类互联网文章总在描述传统行业的各种缓慢与随意，与此印象相悖的是，整个传统的合规的金融行业，在风险控制，不论是信用风险管理还是欺诈风险控制上，都有长篇累牍的著作，文章，规范去讨论应当怎么做，及阐述了在系统工程的视角下部分对整体的影响。
+但源于信用卡的非房贷的消费贷款…]]></summary>
+        <author>
+            <name>肥柴周</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何用ChatGPT维护客户关系]]></title>
+        <id>https://www.woshipm.com/?p=6047562</id>
+        <link href="https://www.woshipm.com/share/6047562.html"/>
+        <updated>2024-05-09T06:08:12.000Z</updated>
+        <summary type="html"><![CDATA[ChatGPT的出现可以帮助我们完成许多事情，这篇文章里，作者就分享了如何借助ChatGPT来帮助发展与保持与客户的沟通，一起来看。
+
+ChatGPT可以协助你建立强大的客户关系，为你提供有价值的见解、技术和策略，提高你的客户服务技能。ChatGPT可以帮助你发展和保持与客户的有效沟通，确定他们的需求和偏好，并随着时间的推移建立信任和忠诚度。利用ChatGPT的专业知识，你可以提高客户保留率，促进企业的成功。
+提问词：
+“What are some effective ways to personalize my interactions with [customers/clients], based on their previous [purchases/interactions] and [feedback/reviews]? How can I use this information to tailor my [products/services] to their [preferences/needs]?”
+“What are some common mistakes that [businesses/companies] make when it comes to [customer service/interactions], and how can I avoid them? How can I handle [difficult/dissatisfied] [customers/clients] in a [professional/efficient] manner?”
+“How can I use [social media/digital platforms] to connect with [customers/clients] and build a strong [online/presence]? What are some [best practices/strategies] for engaging with [customers/clients] through these [channels/platforms]?”
+
+“What are some creative ways to show [customers/clients] that we [value/appreciate] their [loyalty/business]? How can we [go above and beyond/exceed] to [exceed their expectations/create a memorable experience]?”
+“How can we gather [feedback/reviews] from [customers/clients] and use this information to [improve/enhance] our [products/services]? What are some [effective methods/strategies] for conducting [surveys/focus groups] and other types of [customer research/analysis]?”
+
+提问技巧：
+💡 要具体并提供明确的指示： ChatGPT在给出明确和具体的提示时效果最好，所以要确保你的问题定义明确，包括所有必要的细节。例如，不要问“我怎样才能改善我的营销策略？”这样的一般性问题，而是提供有关你的业务和目标受众的具体信息。一个更具体的提示可能是“在数字营销活动中针对Z世代消费者有哪些有效方法？”
+💡 使用自然语言： ChatGPT的设计是为了理解和回应自然语言，所以避免在你的提示中使用技术性或过于正式的语言。使用你在向同事或朋友提问时使用的日常语言。例如，不要问“基于云的计算基础设施的最佳配置是什么？”，而是问“为我的企业建立云系统的最佳方式是什么？”
+💡 使用相关的关键词和短语： ChatGPT使用自然语言处理算法来理解和回应提示。为了确保ChatGPT提供相关和准确的回应，使用与你的问题相关的关键词和短语。例如，不要问“我如何做饭？”，而是问“有什么健康的素食食谱？”
+本文由 @图帕先生 原创发布于人人都是产品经理。未经作者许可，禁止转载
+题图来自Unsplash，基于CC0协议]]></summary>
+        <author>
+            <name>图帕先生</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[操盘经验：一个极简开门红模型]]></title>
+        <id>https://www.woshipm.com/?p=6047948</id>
+        <link href="https://www.woshipm.com/share/6047948.html"/>
+        <updated>2024-05-09T06:04:26.000Z</updated>
+        <summary type="html"><![CDATA[在0-1项目中，操盘手需要思考如何落地。这篇文章里，作者就分享了相应的模型与原则，一起来看。
+
+大家好，我是清音。
+接下来讨论落地的问题，要落地就需要拿来即用的行动模型。今天重点分享《怎么落地第一个100W的商业闭环》之03——打响第一枪的开门红模型。
+0-1项目有3个不足：人手不足，经验不足，资源不足。
+不管是大公司还是小企业，在0-1项目期，都不会倾注太多资源，对企业来说，这个阶段探索意义更大。2021年下半年，我就经历过6个完全不同的新项目同时开启的魔幻时刻，像是6个不足月的早产儿，能不能活下来，全靠操盘手/负责人。
+打好第一仗，是操盘手或项目负责人们的介绍信，是创业者给自己和家人的定心丸，是给团队小伙伴的强心针，是给领导们、投资人的投名状。
+面对不确定，有必胜的攻略吗？
+有。
+这就是“心-想-事-成”的开门红模型。这是根据我数次0-1操盘的失败和成功的经验总结、也是在他人项目成功运作过程中验证过的。
+每一个缺乏实际经验的人都会犯这样的错误、可以说每一个操盘手都是从这样的失败中成长起来的。因为，神枪手不是天生的，是子弹喂出来的。
+2020年，我从一个小白第一次操盘0-1项目，几乎踩遍了所有的坑。那是真正意义上的第一仗，一次99元的三天训练营的发售，历时2周，成交1人，上课的学员问讲师“老师，就我一个人上课，还要上3天，我有点尴尬，你尴尬不？”
+老师对我说“我不尴尬”。
+但，我其实很尴尬。
+怎么会搞成这样呢？看看我是怎么做成这样的。
+1、战术：邯郸学步。
+因为不知道怎么做，看竞对做了训练营，大家都说我们也做一个吧，我们讲的不比他们差。然后，我就疯狂看书，套了模型，参加别人训练营，照猫画虎做了个训练营计划，还很乐观，目标100单。
+2、执行：照抄照搬。
+因为我们都是线下思维，也没什么资料或干货积累。所以我找了几个还不错机构，把他们的训练营话术、流程甚至分享的资料都拿过来深…]]></summary>
+        <author>
+            <name>是清音啊</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[什么？你还讲不清楚用户什么样？！]]></title>
+        <id>https://www.woshipm.com/?p=6047951</id>
+        <link href="https://www.woshipm.com/share/6047951.html"/>
+        <updated>2024-05-09T05:53:33.000Z</updated>
+        <summary type="html"><![CDATA[Persona这个工具的出现本来是为了帮助大家简化问题，达成共识，但随着越来越多杂乱因素的加入，有关persona的理解却变得越来越难。所以，我们到底该怎么做好persona呢？
+
+我发现一个很奇怪的现象。大家都知道把一勺糖倒进满满一杯水里，水会变甜。如果杯子越大，甜度会降低。这并不奇怪。奇怪的是对于persona也是如此。
+刚开始有persona这个概念的时候，至少讲的人是清楚的。随着越来越多的人想了解它，大家开始挖掘persona的前世今生，解读persona的各个不为人知的侧面，制作出种种精美的模板工具……然而，这一切并没有让persona变得清晰，反而让人在制作persona时无所适从。就好像那勺融化在一大杯水里的糖，已经让人尝不出滋味。
+Persona本来是一个简化问题以帮助大家达成共识的工具。结果现在persona自己却成了一个新的问题点。本来团队里就已经有很多分歧了，现在又多了一个。于是，开始有人说，Persona根本没有什么用，就像那杯水，根本喝不出来什么味道。我们为什么还要做呢？
+首先需要明确的一个问题是：Persona并不是Profile。
+Profile描述的是一群人。当我们说“90后更有个性，是互联网的原生住民，拥有超前的消费观念……”的时候，就是在尝试着给90后这个群体画像。
+当我们看到“年轻人成为购书主力军，18岁至29岁的年轻人占总购买人数近五成，其中，90后占比近26%。购买数据中女性占比60%。此外，处女座、天蝎座、天秤座为最爱读书的三大星座”这类描述时，我们在读“买书人”的用户画像。
+
+Persona叫典型角色。它描述的是一个人，一个虚拟的，但却鲜活的人。这个人是用户心中的英雄，是他们理想中的自我。
+还记得《穿PRADA的女魔头》里米兰达吗？她就是一个非常典型的典型角色。她位于时尚界的职场天花板。她气场强大、追求完美、眼毒心细、敏锐善变，…]]></summary>
+        <author>
+            <name>Gump</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OFGB – 一键关闭 Windows 11 广告，9 处]]></title>
+        <id>https://www.appinn.com/?p=48397</id>
+        <link href="https://www.appinn.com/ofgb-oh-frick-go-back/"/>
+        <updated>2024-05-09T04:59:51.000Z</updated>
+        <summary type="html"><![CDATA[OFGB (Oh Frick Go Back)是一款能够一键关闭 Windows 11 的 9 处小广告的的小工具。@Appinn 来自发现频道，@Zetaloop 同学的推荐及汉化：https://]]></summary>
+        <author>
+            <name>青小蛙</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] Google Chrome Portable v124.0.6367.156]]></title>
+        <id>2074+1715229733</id>
+        <link href="https://www.portablefreeware.com/?id=2074&amp;ts=1715229733"/>
+        <updated>2024-05-09T04:42:13.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] Clipboardic v1.18]]></title>
+        <id>2029+1715229619</id>
+        <link href="https://www.portablefreeware.com/?id=2029&amp;ts=1715229619"/>
+        <updated>2024-05-09T04:40:19.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] PortableApps.com Platform v29.5.1]]></title>
+        <id>1056+1715229493</id>
+        <link href="https://www.portablefreeware.com/?id=1056&amp;ts=1715229493"/>
+        <updated>2024-05-09T04:38:13.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] RJ TextEd v16.20]]></title>
+        <id>2206+1715229365</id>
+        <link href="https://www.portablefreeware.com/?id=2206&amp;ts=1715229365"/>
+        <updated>2024-05-09T04:36:05.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[解锁HMI设计规范]]></title>
+        <id>https://www.woshipm.com/?p=6047888</id>
+        <link href="https://www.woshipm.com/pd/6047888.html"/>
+        <updated>2024-05-09T04:03:20.000Z</updated>
+        <summary type="html"><![CDATA[HMI设计与其他领域的设计有所差异，它具备着独特的设计规范。这篇文章里，作者围绕HMI视觉样式展开，并整合了平时遇到的一些问题、思考以及碎片化知识，梳理出了相应的HMI端的设计系统和原则，一起来看。
+
+一、前言
+车载HMI设计近年来成为一个热门领域。许多朋友对HMI设计感兴趣，却苦于不知如何入手，不了解HMI设计的基本原则和规范。有人误以为HMI设计仅是设计类似iPad的界面，认为可以直接应用移动端或Web端的规范，这是不正确的。HMI设计拥有其独特的设计规范。本文旨在介绍HMI端的设计系统和原则。当然，这些规范主要用于参考，特殊情况下可以适当打破这些规则。
+二、HMI设计原则
+1. 交互原则
+在当前的驾驶环境中，自动驾驶尚不能完全取代人工驾驶，驾驶者在行车过程中仍需保持对路况的高度注意，因此确保驾驶安全是设计的首要前提。本文将主要介绍视觉部分的设计考量，关于车载交互的详细讨论将在后续文章中更新。
+
+2. 视觉原则
+在以驾驶安全为前提的设计中，需要确保内容的易读性，目标的易用性，以及界面元素的一致性，从而满足用户在全场景下的体验需求。
+
+三、HMI设计系统
+1. 为什么要搭建设计系统
+一致性：设计系统提供了一套统一的视觉和功能组件，确保不同的产品、页面和功能在视觉表现和用户体验上具有高度一致性。这不仅减少了用户的学习成本，也加强了品牌的整体形象和专业性。
+提高效率：设计系统中的可重用组件和明确的设计指南可以大大减少设计和开发的工作量。设计师和开发者可以快速采用预定义的元素来构建新功能或改进现有功能，无需从零开始。这有助于缩短项目时间线，实现产品的快速迭代。
+
+易于维护：当所有设计元素和代码都遵循一个统一的系统时，维护和更新变得更加简单和高效。例如，如果需要更新品牌颜色或修改按钮样式，只需在设计系统中进行更改，相关变更即可自动应用到所有使用这些元素的地方。
+提高跨团队协作：设…]]></summary>
+        <author>
+            <name>设计师Ksss</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【入门科普】必了解的 20 个 AI 术语解析（下）]]></title>
+        <id>https://www.woshipm.com/?p=6047672</id>
+        <link href="https://www.woshipm.com/share/6047672.html"/>
+        <updated>2024-05-09T03:56:16.000Z</updated>
+        <summary type="html"><![CDATA[AI领域的基础概念和相关技术有很多，这篇文章里，作者就深入浅出地介绍了相应的内容，感兴趣的同学们，不妨来看一下。
+
+本文专为非技术背景的AI爱好者设计，旨在深入浅出地介绍AI的基础概念和关键技术，带您一步步解锁AI技术的奥秘。建议先阅读【入门科普】必了解的 20 个 AI术语解析（上）再阅读本文。
+十一、生成对抗网络
+想象一下有两位艺术家：一位是伪造者，另一位是鉴赏家。伪造者试图创作出看起来像真正艺术品的作品，而鉴赏家则试图区分出哪些是真正的艺术品，哪些是伪造的。他们不断地相互学习会使得伪造者变得越来越擅长创作逼真的作品，而鉴赏家则变得越来越擅长识别真伪。
+
+生成对抗网络GAN由两部分组成：一个是生成器（伪造者）和一个是判别器（鉴赏家）。
+
+十二、强化学习
+如果说对抗网络是真假孙悟空之间的1对1的斗智斗勇，目标是战胜对方，那么强化学习就是1对多的一路斩妖除魔，设定一个去西天的目标，取经队伍总会去想办法在真实环境中排除万难，那些牛魔王、火焰山、蜘蛛精、女儿国等等都是在环境中遇到的不同的挫折，磨炼的是取经队伍内在的佛性。
+
+十三、主成分分析
+假设你有一个非常杂乱的书桌，上面堆满了各种物品。如果你想用一张照片抓住书桌的“精华”，但又不想让照片显得太杂乱，你可能会选择从一个角度拍摄，这个角度能最好地展示书桌上最重要的几样东西。PCA就是在做类似的事情：它试图找到最能代表整个数据集“精华”的几个方向（主成分），然后用这些方向来简化和描述数据集。
+
+十四、交叉验证
+交叉验证是机器学习中的一种评估方法，旨在测试模型对新数据的预测准确性。它通过将数据集分成多个部分来工作。在k-折交叉验证中，整个数据集被分成k个等大小的子集。然后，模型会进行k次训练和测试的循环，每次循环中，选择一个不同的子集作为测试集，而剩余的k-1个子集用作训练集。通过这种方式，每个数据子集都有机会作为测试集使用。完成这k次循环后，通过平均所有循环的测试结果来评估模型的整体性能。
+
+十五、梯度下降
+想象你在一座山上，目标是找到山谷的最低点。由于山上浓雾弥漫，你看不清整座山，所以无法直接找到最低点。梯度下降就像是你决定每次都沿着当前位置最陡峭的下坡方向走一步，期望这样可以带你到达山谷的最低点。在机器学习中，梯度下降帮助模型“学习”到最佳参数，即找到能让模型预测误差最小的参数。
+
+十六、迁移学习
+假设你已经是一个钢琴高手，现在你想学习吉他。由于你已经掌握了很多关于音乐的知识，如音阶和节奏，你可以把这些知识应用到新的学习中，这样你学吉他的速度就会更快。在AI中，迁移学习就是这个原理，它让一个已经在一个任务上训练好的模型，用于另一个相关但不同的任务。这样可以节省大量的训练时间和资源。
+
+十七、特征工程
+模型的学习能力很大程度上取决于我们给它提供的信息质量。如果信息选得好，模型就能学得快，预测得准；如果信息选得不好，模型就可能学不会，或者学错了。这个过程包括数据预处理、特征选择、特征构造、特征转化、降纬 等等，比如训练一个颜值打分模型，训练数据是一堆照片，那么特征的工程就是提取眼睛、鼻子、嘴巴的位置、构造出新的特征比如面部比例数据、并选择具体哪个面部特征的颜值权重更高 等等。
+
+十八、超参数调优
+超参数是在开始训练之前设置的参数，它们不能通过训练过程本身得到。比如决定每次训练模型时输入的数据量的“批大小”、决定每次权重更新幅度的学习率等等。如果把模型训练过程比喻成西天取经的过程，那么超参数调优就是在取经出发前，唐僧从观音或唐太宗那里获得的 通关文牒、锦襕袈裟。
+
+十九、增强检索
+在大语言模型通常会发生“模型幻觉”的问题，就是在处理复杂事物是产生与事实不符甚至完全捏造的信息，就像说人有时候也会说梦话一样胡说八道。增强检索可以缓解这个问题，通过引入外部知识来源来提高回答问题的准确性和丰富性。以一个法律咨询的场景为例，如果用户询问关于最新税法的问题，传统的语言模型可能只能提供基于其训练数据的答案，而这些数据可能不包括最新的税法变化，这是需要增强检索的典型应用场景。
+
+二十、通用人工智能
+马斯克在24年4月时说：比人类更聪明的AGI将在两年内实现。通用人工智能是指不需要人为干预而可以自我学习、自我调整从而完全像人类一样可以执行原本只有人可以从事的任务，甚至机器人可以自行进行科学理论探索。这将是地球智能发展的奇点。
+
+本文由 @李文杰 原创发布于人人都是产品经理。未经作者许可，禁止转载。
+题图来自Unsplash，基于CC0协议。]]></summary>
+        <author>
+            <name>李文杰</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[无论你喜欢与否，Windows 11 的未来是 AI 人工智能]]></title>
+        <id>http://www.dayanzai.me/?p=71513</id>
+        <link href="http://www.dayanzai.me/future-of-windows-11-ai.html"/>
+        <updated>2024-05-09T02:47:13.000Z</updated>
+        <summary type="html"><![CDATA[微软在 2024 年首次开始推动人工智能驱动 Windows 的想法，称为“工作新时代”- 但什么是 Wind […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mac 矢量绘图软件 Sketch 100.0 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=42962</id>
+        <link href="http://www.dayanzai.me/sketch.html"/>
+        <updated>2024-05-08T23:20:10.000Z</updated>
+        <summary type="html"><![CDATA[Mac 矢量绘图软件 Sketch 中文版由大眼仔旭整理发布。Sketch 是一款适用于所有设计师的矢量绘图应 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[网易 Filmly - 免费能直连网盘的播放器 / 自动刮削电影海报影视库 (支持百度阿里盘)]]></title>
+        <id>https://www.iplaysoft.com/?p=6157</id>
+        <link href="https://www.iplaysoft.com/filmly.html"/>
+        <updated>2024-05-08T15:25:11.000Z</updated>
+        <summary type="html"><![CDATA[如今除购买 NAS 下载保存电影电视剧外，很多人更喜欢用网盘来收藏视频更省事！而异次元推荐过的 VidHub、极影派、NOVA，搭配上「AList」工具，更是能将网盘打造成私人的影视库！
+而让人意外的是，在“影视媒体库”播放器的赛道，居然引来了大厂的入场——网易 Filmly！它与 VidHub、NOVA、Infuse 类似，支持直连百度网盘和阿里云盘，帮你自动刮削网盘内的影视资源，生成电影封面海报墙，并能支持直接在线播放网盘内的视频资源……
+「 前往查看原文.... 」
+异次元还有这些值得一看：
+
+NAS 绝配！安卓视频播放器 NOVA Video Player (支持 TV 电视 / 海报墙 / 替代 Infuse)
+VidHub 免费 iOS / Apple TV 个人影视库播放器 - 自动刮削海报墙 (阿里网盘 NAS 播放/投屏)
+OPlayer 专业版 - 强大老牌的 iOS / 安卓手机全能格式视频播放器 APP 应用
+HandBrake 官方绿色中文版 - 开源免费视频格式转换/压缩转码压制工具 (跨平台)
+
+异次元正版数字商城  |  异次元首页  |  微信公众号  |  iPcFun  |  关注微博  |  软件精选]]></summary>
+        <author>
+            <name>X-Force</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[360压缩 4.0.0.1520 去广告精简版（支持压缩包内连续看图）]]></title>
+        <id>http://bak.qiuquan.cc/?p=4147</id>
+        <link href="http://www.qiuquan.cc/compress/360zip.html"/>
+        <updated>2024-05-08T14:00:46.000Z</updated>
+        <summary type="html"><![CDATA[360压缩是新一代的压缩软件，永久免费。360压缩相比传统压缩软件更快更轻巧，支持解压主流的rar、zip、7z、iso等多达42种压缩文件。360压缩内置云安全引擎，可以检测木马，更安全。大幅简化了传统软件的繁琐操作，还改进了超过20项的使用细节，拥有全新的界面。360压缩的主要特点是快速轻巧、兼容性好、更安全、更漂亮，而且是永久免费的。]]></summary>
+        <author>
+            <name>泉</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Daum PotPlayer 1.7.22129 正式版 + 1.7.22217 测试版｜美化版｜安装版 (去TV列表&禁止强制升级)]]></title>
+        <id>http://bak.qiuquan.cc/?p=4258</id>
+        <link href="http://www.qiuquan.cc/media/potplayer.html"/>
+        <updated>2024-05-08T11:00:53.000Z</updated>
+        <summary type="html"><![CDATA[PotPlayer 是 KMPlayer 的原制作者姜龙喜先生（韩国）进入 Daum 公司后的新一代作品。PotPlayer 的优势在于强大的内置解码器；而 KMPlayer 的优势在于强大的定制能力和个性化功能。PotPlayer 使用 VC++ 编写， KMPlayer 为 Delphi 编写。]]></summary>
+        <author>
+            <name>泉</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Link Map – 在侧边栏管理 Chrome 标签页：与 Arc 浏览器的标签页管理十分相似]]></title>
+        <id>https://www.appinn.com/?p=48392</id>
+        <link href="https://www.appinn.com/link-map/"/>
+        <updated>2024-05-08T08:36:56.000Z</updated>
+        <summary type="html"><![CDATA[Link Map 是一款在侧边栏管理 Chrome、Edge 标签页的扩展，它用树形结构，展示当前所有已打开标签页，并通过拖拽进行管理，包括分类、锁定、跳转、挂起等功能，还支持重命名标签页、搜索。与]]></summary>
+        <author>
+            <name>青小蛙</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wise Care 365 Pro 4.9.1 Build 472 + 5.9.1 Build 583 + 6.7.2 Build 645 去广告专业版（安装版 + 便携版 + 单文件版）]]></title>
+        <id>http://bak.qiuquan.cc/?p=4208</id>
+        <link href="http://www.qiuquan.cc/systemtool/wise-care-365.html"/>
+        <updated>2024-05-08T07:10:01.000Z</updated>
+        <summary type="html"><![CDATA[清理注册表和磁盘垃圾文件，保护个人隐私记录，提高电脑使用安全。优化系统、提高Windows系统运行速度最好的选择！]]></summary>
+        <author>
+            <name>泉</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[傲游浏览器 5.3.8.2000 正式版 + 6.2.0.2000 正式版 + 7.1.8.9000 正式版 + 7.0.2.2700 测试版]]></title>
+        <id>http://bak.qiuquan.cc/?p=4192</id>
+        <link href="http://www.qiuquan.cc/browser/maxthon.html"/>
+        <updated>2024-05-08T02:00:08.000Z</updated>
+        <summary type="html"><![CDATA[傲游云浏览器是国内具有独立内核的桌面浏览器产品，首创双核浏览模式，在安全、快速的基础上，保证了对网银、网购类网站的兼容性。傲游3浏览器内置云端广告过滤系统，强大而易用，确保用户在浏览网页时不受任何广告的骚扰。]]></summary>
+        <author>
+            <name>泉</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[超值到爆的 BundleHunt 正版 Mac 软件套装 - 40 款正版应用 APP 优惠随意挑！]]></title>
+        <id>https://www.iplaysoft.com/?p=3973</id>
+        <link href="https://www.iplaysoft.com/bundlehunt.html"/>
+        <updated>2024-05-07T21:15:34.000Z</updated>
+        <summary type="html"><![CDATA[使用 苹果 Mac 电脑的朋友都希望能低价购买更多正版 macOS 应用。除了「SetApp 包月服务」或 数码荔枝、APSGO软购、麦软 等渠道外，还可以关注偶尔出现的软件“特惠套装”(Bundle) 促销，有时甚至以原价 1、2 折入手也不稀奇。
+正值新版系统 macOS Sonoma 的即将发布，Bundlehunt 再次推出了一个优惠正版 Mac  应用 APP 套装 (部分应用也有 Win 版)， 划算程度依然劲爆！它可像自选超市一样让你“随意挑选 APP 购买”，不必浪费钱购入不需要的。可选应用多达 42 款，阵容相当不错……
+「 前往查看原文.... 」
+异次元还有这些值得一看：
+
+SetApp 正版 Mac 软件包月订阅 - 超低价入手正版 macOS 付费软件的新姿势
+年度超值 Mac 应用捆绑包！PD16 Pro / PDFpen / Gemini / Luminar 等12款“打骨折”
+重磅！PD18 买 1 送 14 - 官网免费送 PDF Expert / MindManager / Snagit 等应用
+The Epic Mac Bundle 优惠套装：PDF Expert / Fantastical 2 等8款应用
+
+异次元正版数字商城  |  异次元首页  |  微信公众号  |  iPcFun  |  关注微博  |  软件精选]]></summary>
+        <author>
+            <name>X-Force</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[专业系统优化工具——Ashampoo WinOptimizer 17.00.32 + 18.00.18 + 19.00.13 + 25.00.18 + 26.00.20 + 27.00.01 破解版]]></title>
+        <id>http://bak.qiuquan.cc/?p=4198</id>
+        <link href="http://www.qiuquan.cc/systemtool/ashampoo-winoptimizer.html"/>
+        <updated>2024-05-07T17:00:33.000Z</updated>
+        <summary type="html"><![CDATA[AshampooWinOptimizer是一款性能强劲、功能全面的Windows系统优化清理工具。AshampooWinOptimizer具有调整和优化系统性能、驱动器清理、Dll文件清理、注册表清理、上网纪录清理、弹出窗口过滤、网络加速、启动加速、磁盘碎片整理、启动项目管理、进程监控、安全删除重要文件、检查并还原已被删除的文件、文件的加密和解密、系统图标和桌面设置、显示测试比较系统性能、文件的分割和合并、备份和恢复等众多功能，还具备一键优化的快捷功能；而且官方完美的提供了中文支持，界面甚是清爽怡人。]]></summary>
+        <author>
+            <name>泉</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[猫眼浏览器 Catsxp Browser 124.4.5.1 Stable + 100.2.4.1 Beta3（x86 + x64）]]></title>
+        <id>http://bak.qiuquan.cc/?p=4233</id>
+        <link href="http://www.qiuquan.cc/browser/catsxp.html"/>
+        <updated>2024-05-07T15:00:17.000Z</updated>
+        <summary type="html"><![CDATA[一款以简约安全为目标Chrome内核增强版浏览器，支持基于chrome开发的所有扩展插件，内置增强的隐私保护设置让您远离被追踪和广告的烦恼。]]></summary>
+        <author>
+            <name>泉</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] TreeSize Free v4.7.3]]></title>
+        <id>36+1715091221</id>
+        <link href="https://www.portablefreeware.com/?id=36&amp;ts=1715091221"/>
+        <updated>2024-05-07T14:13:41.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[专业软件卸载工具——IObit Uninstaller 7.5.0.7 + 8.6.0.10 + 9.6.0.3 + 10.6.0.4 + 11.6.0.12 + 12.5.0.2 + 13.5.0.1 专业版（安装版 + 单文件版）]]></title>
+        <id>http://bak.qiuquan.cc/?p=4225</id>
+        <link href="http://www.qiuquan.cc/systemtool/iobit-uninstaller.html"/>
+        <updated>2024-05-07T13:10:33.000Z</updated>
+        <summary type="html"><![CDATA[Iobit Uninstaller电脑版是一款类似的Windows添加/删除程序，Iobit Uninstaller体积小巧，功能强大，运行速度快，可靠性高。Iobit Uninstaller使用方法非常简单且是一款免费软件。Iobit Uninstaller电脑版能够有效地取代Windows自带的卸载功能。通过Iobit Uninstaller，你可以彻底卸载不需要的软件，不留下软件的相关信息，并且不会造成系统崩溃。]]></summary>
+        <author>
+            <name>泉</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[休息日 – 让 iPhone 在节假日跳过闹钟：基于「快捷指令自动化」跳过休息日，支持中国、日本、新加坡、美国的公共假期日历[iOS]]]></title>
+        <id>https://www.appinn.com/?p=48382</id>
+        <link href="https://www.appinn.com/leaves-for-iphone/"/>
+        <updated>2024-05-07T06:43:36.000Z</updated>
+        <summary type="html"><![CDATA[休息日是一款新鲜的 iPhone、iPad 应用，它通过内置的多个公共假期模板，配合 iOS 快捷指令自动化功能，实现 iPhone 在公共假期跳过闹钟这个需求。让你在假期不会被闹钟叫醒，也不会因为调]]></summary>
+        <author>
+            <name>青小蛙</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[[UPDATE] RegCool v2.005]]></title>
         <id>3084+1715014381</id>
@@ -13273,1746 +14070,6 @@ BaiduPCS-Web 网页版 - 搭建自己的百度网盘不限速离线远程下载�
         <summary type="html"><![CDATA[Stay for Safari 是一款 Safari 扩展，提供了油猴脚本、广告拦截两个基础功能，以及自定义网页主题配色、自定义过滤规则链接、视频 & 文件下载器、网页广告标记、脚本云同步这几]]></summary>
         <author>
             <name>青小蛙</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] ExperienceIndexOK v4.34]]></title>
-        <id>2720+1712748023</id>
-        <link href="https://www.portablefreeware.com/?id=2720&amp;ts=1712748023"/>
-        <updated>2024-04-10T11:20:23.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] QwikTape v0.7]]></title>
-        <id>3090+1712747990</id>
-        <link href="https://www.portablefreeware.com/?id=3090&amp;ts=1712747990"/>
-        <updated>2024-04-10T11:19:50.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] Advanced Renamer v3.94]]></title>
-        <id>1848+1712747793</id>
-        <link href="https://www.portablefreeware.com/?id=1848&amp;ts=1712747793"/>
-        <updated>2024-04-10T11:16:33.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[小米SU7文案的流量密码 [破解版]]]></title>
-        <id>https://www.woshipm.com/it/6030304.html</id>
-        <link href="https://www.woshipm.com/share/6030304.html"/>
-        <updated>2024-04-10T09:54:35.000Z</updated>
-        <summary type="html"><![CDATA[小米汽车文案大获成功的秘诀到底是什么，本文进行了总结，一起来看看吧~
-
-“当小米汽车的品牌文案还在穿鞋的时候，小米汽车的段子文案已经跑遍了全城。”
-小米汽车火的一塌糊涂，可你知道小米汽车的Slogan文案是什么吗？你不知道，你只关心你自己。
-当小米汽车的Slogan文案“人车合一，我心澎湃”还在ppt上的时候，小米汽车的段子已经传遍了全网，而且不断有新段子被创作出来。
-段子，是当下互联网时代传播最快的东西之一，能与之匹敌的可能只有“吃瓜”了，然而“大瓜”不常有，段子却可以随时被创作。
-于是我们看到，每每有热点事件发生，流传速度最快的往往是与之相关的段子（天灾人祸一类热点不在这个讨论范围内），这种所谓的“段子”可以是一段好笑或观点独到的文字，也可以是一张梗图或一段视频。
-比如在小米汽车正式发布当晚，最先刷屏的却是“蔚小理”的梗图，发布会小米邀请了蔚来、小鹏、理想等一众友商，“蔚小理”的三个老板坐在一起，一开始是这样的：
-
-当小米汽车的最终价格公布，他们的表情是这样的，然后就迅速刷屏了。
-
-
-
-平常的段子，大家就是图个一乐，但假使这个段子带了品牌或者主张，那它就可能成为带有广告诉求的文案，当广告诉求乘上段子的快车，达成的传播效果将会非常可观。
-再看这次小米汽车的爆火，固然发布会很精彩，车本身也很优秀，但真正让这个话题引爆全网的，恰恰是这些段子。
-比如在小米汽车发布会当晚，我其实没看，但我们文案群里很多人都在发各种小米汽车的段子，一段字、一张图的轻便体量，足以让它们渗透进互联网的每一个毛孔，从而在朋友圈、微信群、微博、小红书、抖音这些社交平台和评论区里广泛传播，让那些原本不关注、不了解的人也全部被卷进来。
-
-
-小米汽车的发布，原本只是汽车圈、科技圈的大事件，但如此一来，就变成了一场全民参与的狂欢，这种传播效果对于品牌的收益是无法估量的。
-这不仅帮助小米汽车完成了极为亮眼的销售收据…]]></summary>
-        <author>
-            <name>文案包邮</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[一篇文章详细分析B端与C端]]></title>
-        <id>https://www.woshipm.com/?p=6029905</id>
-        <link href="https://www.woshipm.com/share/6029905.html"/>
-        <updated>2024-04-10T09:40:16.000Z</updated>
-        <summary type="html"><![CDATA[对不少新手产品来说，B端和C端的区别和差异还是分不清楚。这篇文章，我们就来分析一下两者之间的差别，和C端、B端产品各自的特点，希望能帮助大家了解。
-
-一、什么是B端产品和C端产品？
-B 端产品（Business-to-Business Product）是指面向企业或组织的产品，主要用于满足企业的业务需求和提高运营效率。
-其特点包括：
-专注于解决企业的特定问题和工作流程。
-通常具有复杂的功能和高度的专业性。
-强调数据的准确性和安全性。
-帮助企业实现数字化转型和提升竞争力。
-C 端产品（Consumer Product）则是面向个人消费者的产品。
-其特点包括：
-注重满足个人用户的需求和偏好。
-设计简洁易用，注重用户体验。
-涵盖各种领域，如社交、娱乐、购物等。
-依靠吸引用户和建立用户忠诚度。
-总的来说，B 端产品旨在帮助企业提高效率和管理能力，而 C 端产品则致力于为个人用户提供便利和乐趣。
-
-二、B端产品的特点
-1. 目标用户
-B 端产品的目标用户主要包括以下几类：
-企业管理层：他们需要借助 B 端产品来监控业务状况、制定决策和管理团队。
-业务部门人员：如销售、市场、财务、人力资源等，用于更高效地完成日常工作。
-技术人员：需要相关产品来支持他们的开发、维护和管理工作。
-运营人员：利用 B 端产品优化运营流程，提高工作效率。
-中小企业主：帮助他们管理和发展自己的业务。
-特定行业的从业者：例如医疗、金融、教育等行业的专业人员。
-2. 目标用户的特点
-对工作效率和流程优化有较高的要求。
-注重数据的准确性和安全性。
-需要满足企业的特定业务流程和管理需求。
-通常有多个用户角色，需要不同的权限和功能。
-对产品的稳定性和可靠性要求较高。
-可能需要与其他系统或软件进行集成。
-决策过程相对复杂，可能涉及多个部门和层级。
-3. 功能设计和业务逻辑
-功能设计：
-用户需求分析：深入了解用户的工作流程、…]]></summary>
-        <author>
-            <name>Eason同学</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[产品交互设计七大定律和尼尔森十大原则]]></title>
-        <id>https://www.woshipm.com/?p=6029927</id>
-        <link href="https://www.woshipm.com/share/6029927.html"/>
-        <updated>2024-04-10T09:28:54.000Z</updated>
-        <summary type="html"><![CDATA[产品经理的核心工作是产品设计。产品设计的重点在于提升产品的用户体验，让用户喜欢并且坚持使用我们的产品。提升产品的用户体验分两个维度。第一个维度是提升产品的可用性，即让产品确实能解决用户的需求“痛点”。第二个维度是提升产品的易用性，即让产品对用户来说易于学习和使用、记忆负担小，且产品的使用满意度高。要想提升产品的易用性，需要仔细打磨产品交互，而交互设计七大定律和尼尔森十大原则就是在解决产品易用性的问题。
-
-下面是简单的总结了七大定律和尼尔森十大原则。
-一、七大定律
-1、操作区域要尽可能离鼠标，或者手指近，而且显眼——按钮等可点击区域在合理的范围内越大，用户的操作效率越高；按钮等可点击区域在合理的范围内越大，用户的操作效率越高。
-2、7+-2原则，控制导航数量——-PC 端网页的一级导航一般不会超过9 个；移动端网页的一级导航一般不超过5 个。
-3、主流程要简化，突出核心功能，不增加没必要的内容——前提是保证可用性。
-4、界面相似或有关联的功能要进行分组——可以更好的引导用户操作行为，防止误操作。
-5、减少给用户的选择项——降低决策时间，提高用户效率。
-6、产品需要设计防错机制——比如再次确认操作。
-
-7、复杂度守恒定律。
-二、尼尔森十大原则
-1、状态可见——让用户知道发生了什么，并在适当的时间内做出适当的反馈。
-2、环境贴切——图标、文案要贴近现实，贴近用户，让用户容易一看就懂。
-3、用户可控——误操作后，可以回到原来的状态。
-4、一致性——结构（同类型功能排版）、色彩、操作、反馈、文字一致。看起来舒服，学习成本低。
-5、防错——条件限制操作（置灰/禁用/隐藏），再次确认操作。
-6、易取——预知性的操作功能设计，分析用户行为，预判用户操作，显示相应的操作按钮。
-7、灵活高效——通过设计满足用户个性化需求。
-8、易扫——突出重点，弱化剔除不相关信息。
-9、容错——提供提示，帮助用户识别错误，定位错误，提供解决方案，回到正确道路。
-10、人性化帮助——提供帮助入口。
-本文由 @立志做人参的萝卜 原创发布于人人都是产品经理。未经作者许可，禁止转载
-题图来自Unsplash，基于CC0协议
-该文观点仅代表作者本人，人人都是产品经理平台仅提供信息存储空间服务]]></summary>
-        <author>
-            <name>立志做人参的萝卜</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[用最短时间最快最全面的了解一个行业（超全方法论）]]></title>
-        <id>https://www.woshipm.com/?p=6029886</id>
-        <link href="https://www.woshipm.com/share/6029886.html"/>
-        <updated>2024-04-10T09:27:28.000Z</updated>
-        <summary type="html"><![CDATA[在创业或者是做一款新产品时，我们都需要对整个行业进行一个系统分析。本文概述了行业分析的方法、步骤和工具，希望可以帮到大家。
-
-一、行业分析概述
-行业分析指的是根据原有和现有的数据分析工具对该行业进行深入的分析，从而发现行业运行的内在经济规律，进而进一步预测未来行业发展的趋势。
-我们在工作中有时需要快速了解一个行业：
-换工作：要不要换到一个新行业？这行业有没有前途？
-做产品：B端产品经理需要熟悉行业知识
-写报告：老板让你明天交一份行业分析报
-行业分析的应用场景概括如下：
-企业战略规划：通过行业分析，企业可以深入了解市场趋势、竞争格局、技术创新等信息，进而制定适应市场变化和竞争压力的战略规划。
-投资决策：投资者在进行投资决策时，行业分析可以帮助他们了解行业的增长潜力、风险因素、投资机会等信息，从而做出更明智的投资决策。
-市场营销和消费者洞察：利用行业分析数据，企业可以了解市场趋势、竞争对手和消费者行为，进而发现新的市场机会，制定更精准的营销策略，优化定价策略，并提供个性化的客户体验。
-运营和供应链管理：行业分析有助于企业优化运营流程、降低成本并提高效率。通过精准预测需求，企业可以避免库存积压，优化供应链网络。
-人力资源管理：通过行业分析，企业可以了解劳动力市场的趋势和变化，从而更有效地招聘和留住人才，评估员工绩效，并提供个性化的培训和发展计划。
-二、行业分析的方法
-行业分析是企业深入了解某一行业发展态势、竞争格局及市场前景的重要手段。在当前的商业环境中，准确、全面地分析行业趋势，对于企业的战略规划和决策至关重要。
-
-行业分析的方法多种多样，在实际应用中，我们可以通过运用SWOT分析、PEST分析、五力模型等分析工具，对行业的优势、劣势、机会、威胁进行全面评估，为企业的战略决策提供依据。
-1. SWOT分析
-这是一种战略分析方法，通过对企业自身的优势（Strengths）、劣势（…]]></summary>
-        <author>
-            <name>诺儿笔记本</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI健康应用体验分析–讯飞晓医/夸克]]></title>
-        <id>https://www.woshipm.com/?p=6029378</id>
-        <link href="https://www.woshipm.com/share/6029378.html"/>
-        <updated>2024-04-10T09:17:00.000Z</updated>
-        <summary type="html"><![CDATA[医疗健康领域因为专业性较强，且积累的数据和大数据足够多，是最适合AI应用的领域之一。那这些AI产品的表现如何？我们来看本文对几款健康应用的分析表现。
-
-本文主要介绍了科大讯飞的讯飞星火认知大模型V3.0和智能医疗助手，以及对讯飞晓医APP和夸克APP的健康助手进行了体验分析。
-讯飞星火大模型在医疗领域具有深厚的技术积累和广泛的应用，尤其在基层医疗方面表现突出，已成功应用于智医助理等多个产品。
-讯飞晓医APP作为智能医疗助手，具备诊前、诊中、诊后多个环节的数字化和智能化应用，为居民提供精细化的健康咨询服务。
-夸克APP的健康助手则提供了疾病咨询和就医建议推荐，整合医疗资源整合，实现线上线下全流程的服务推荐。
-一、科大讯飞
-讯飞星火认知大模型V3.0，面向每个家庭，发布讯飞星火医疗大模型，打造每个人的AI健康助手。
-1. 讯飞模型与医疗储备
-讯飞医疗深耕医疗人工智能领域多年，一方面，基于通过国家执业医师资格测试的人工智能技术，赋能基层医生。智医助理成为全国唯一大规模落地的基层智能辅诊应用，在全国30余个省426个区县取得规模化的成功应用，累计给出6.9亿次辅助诊断，修正100多万次基层医生的首次不合适诊断，给出5000多万次不合理处方建议，把病历规范率、诊断合理率、用药合理率都大幅提升了。同时，智慧医院产品已在7家TOP10医院、500+等级医院应用。
-另一方面，讯飞星火医疗大模型在医疗海量知识问答、医疗复杂语言理解、医疗专业文书生成等六大核心能力方面超越GPT-4。
-2. 模型应用-智能医疗助手
-讯飞星火大模型和华为FusionCube A3000的软硬件一体化的智能医疗助手，具备多模态交互、医疗训练推理、医疗知识问答、医疗内容生成等能力，让智能医疗助手在“安全可控”之外更加“聪明”，助力成为“每个医生的AI诊疗助理，每个人的AI健康助手”。
-
-二、应用-讯飞晓医APP体验分…]]></summary>
-        <author>
-            <name>宫宫宫宫</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[一篇商业稿为什么那么贵？]]></title>
-        <id>https://www.woshipm.com/?p=6029363</id>
-        <link href="https://www.woshipm.com/share/6029363.html"/>
-        <updated>2024-04-10T09:14:55.000Z</updated>
-        <summary type="html"><![CDATA[在企业传播过程中，通常会用商业稿件，但一般都比较贵，这是为什么？本篇文章具体从4个方面介绍了为什么一篇商业稿那么贵的原因，一起来看一看吧。
-
-没过多久，营销传播的朋友会问我一些问题。
-类似有：
-智远，我们举办一场活动并进行推广。询问一圈自媒体后发现，他们写稿、发稿费用真高，是传统媒体的几倍。
-最低报价几千元，大号都上万、几十万，看看兜里这点钱，都没自信去问别人刊例价了。
-还有即便合作成，申请预算时，老板看到一篇商业软文要几十万，心里总会疑惑：“对方是不是你亲戚，你在中间赚差价了？”，这昂贵费用，我该怎么向老板合理解释？
-
-确实，我在甲方工作时，老板也问过我这样的问题。
-他不明白之前，还会愤然拍桌子的说：“真是狮子大开口，有一天，我迟早收购几家自媒体公司，利润比我干电商赚的都多”。
-这类问题在业内以及甲乙双方之间讨论多年，但之前从未有人将其公开讨论过，甚至，后面步入商业自媒体的人，也一知半解。
-阅读量高、点赞多，并不是商业稿昂贵的唯一理由。要明白这一切，首先，要理解“企业传播的本质”。
-01
-思考一下：传播的本质是什么？
-我们生活在现实世界，同时也被新闻和社交媒体的世界包围。你有没有感觉，最近，网上热点新闻越来越让人摸不着头脑了。
-比如：
-4月3日，一节语文课上，老师让孩子们用“因为……所以”造句，一位孩子朴实又炸裂的说“因为我爷爷是行长，我妈是副行长，所以我想继承家业”。此话一出，震惊四座。
-
-你可能在微博上支持一个根本不认识的人，觉得他们很冤，结果一查才发现，那个人因为卖假货欠债，还散布谣言的。
-或者，你为被人恶意抢购，导致亏本的水果店感到不公，后来发现，店主是在假扮农民，用编造的故事去骗消费者。
-这两个世界的混合，让我们分不清什么是真的，什么是假的，哪些是事实，哪些是观点，需要帮助谁，哪些品牌好不好。
-切换到品牌视角。过去在电视上频繁投放广告，业绩就会增长，你有没有想过…]]></summary>
-        <author>
-            <name>王智远</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[如何对TO B系统产品提出好的需求]]></title>
-        <id>https://www.woshipm.com/?p=6028161</id>
-        <link href="https://www.woshipm.com/share/6028161.html"/>
-        <updated>2024-04-10T08:50:34.000Z</updated>
-        <summary type="html"><![CDATA[本文深入探讨了如何为TOB系统产品提出有效的需求，分享了在需求收集和分析过程中的关键步骤和注意事项，希望对你在产品管理和需求工程方面提供实用的指导。
-
-在TO B的产品工作中，最重要的一个需求来源就是实施交付的项目。
-实施交付项目上的需求是最能够代表真实用户心声，最后能够体现系统在业务中的价值。
-但是，往往在需求收集和传递的过程中，最重要的、最有价值的信息被损失掉了，项目过多、客户过多的时候，特别是SaaS系统，产品经理不可能每个项目都和客户直接进行沟通，必须要面对二手需求。
-为了避免在传递的过程中损失太多信息，特意编写此文档说明如何对提TO B系统产品提出好的需求。
-一、需求模板规范
-首先，给出一个需求模板：
-
-二、什么是需求
-2.1 需求的定义
-在经济学中对需求的定义：需求是人们在某一特定的时期内、在各种可能的价格下、为了达到某种目标，愿意并且能够购买某个具体商品的需要。这里面涉及到四个关键词：
-人
-场景（在某个特定的时期）
-问题（为了达到目标）
-购买能力（愿意并且能够购买）
-在To B系统的场景下，需要强调的两个词的差异，业务需求和功能需求，这是两个完全不同的概念：
-业务需求才是我们说的真正的需求，是需要解决的问题，是需求挖掘和需求分析的产出
-功能需求是对系统某个具体能力的描述，一般是产品设计的产出
-2.2 需求的构成是什么
-需求的4个关键词也就组成了需求的4个要素，缺一不可
-2.2.1 人
-人是需求的中心，全部都是围绕人来说的，也就是用户；在需求的语境下，用户不是自然人，而是一种角色。例如：只有在爸爸的角色下，一位30谁的男士才会有尿不湿的需求，没有角色的背景，这个爸爸就不会有需求。
-PS.其实我们都是带着角色的面具而生活。
-2.2.2 场景
-场景是为了更好的理解需求，同样的需要，在不同的场景下就变成了不同的需求，脱离了实际场景的需求就是无源之水、无本之木。例如：一…]]></summary>
-        <author>
-            <name>Seven</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[终于有人把Tob SaaS产品运营体系说清楚了]]></title>
-        <id>https://www.woshipm.com/?p=6029827</id>
-        <link href="https://www.woshipm.com/operate/6029827.html"/>
-        <updated>2024-04-10T08:13:24.000Z</updated>
-        <summary type="html"><![CDATA[产品运营体系是产品功能和业务目的实现的枢纽点。运营体系是由价值提炼、价值传递、价值实现和价值量化四个部分组成，要从0到1建立整个体系，我们需要怎么做？
-
-当前很多Tob SaaS企业，把“产品运营”当成了一件事情去做，而没有把它做成一个完整的体系去建设，导致产品与客户业务适配的过程中出现诸多问题。同时产品运营工作体系并不是由多个不同的岗位，比如说内容运营，渠道运营等相近岗位组合去做落地，没有让专项团队或个人从0到1建立起真正适合自己公司的产品运营体系。
-产品运营体系是产品功能和业务目的实现的枢纽点。笔者曾经给产品运营岗位对于公司价值下过一个定义“武能上一线做售前拿下新签，文能提笔写方案搞定续费”。
-要想建立起产品运营体系，核心基础就是你要让某个团队内部人员成为产品&业务双料专家。同时其业务专业属性要接近于行业咨询顾问。
-从0到1建立起的产品运营体系，应该是由价值提炼、价值传递、价值实现和价值量化四个部分组成。
-一、价值提炼（能卖≠会卖）
-首先我们讲价值提炼，对于产品运营岗位而言，意味着最重要的工作内容。所以你要先了解业务的背景，只有熟悉业务的背景，才能知道你的产品为什么会存在。才能够在客户提出很多需求的时候，你才明白什么是真需求，什么是假需求。你才能在客户提出问题的时候，知道如何帮助客户更好地解决问题。
-请问你的公司有多少人了解你现在从事的业务。什么才叫了解业务呢？了解业务的标准就是基于从事的业务，只要是客户提出来的问题，都能通过产品功能或产品功能+方法论的方式给予解答。
-第二个要了解产品，所有的产品都不是完美的。我们对于了解产品要体现到什么程度—“知道自己行哪里行，知道自己哪里不行。”产品经理只是通过产品功能维度了解模块差异，回到产品在实际使用的维度，产品运营最应该清楚哪些是OK或不OK的功能，从而“扬长避短”。公司内部认为非常好的功能，在实际应用过程当中的结果可能并不是…]]></summary>
-        <author>
-            <name>不打杂运营</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[银行如何构建大语言模型产品]]></title>
-        <id>https://www.woshipm.com/?p=6029603</id>
-        <link href="https://www.woshipm.com/ai/6029603.html"/>
-        <updated>2024-04-10T08:12:57.000Z</updated>
-        <summary type="html"><![CDATA[自从ChatGPT发布之后，大模型对知识整理、归纳、推理、总结方面强大的能力引起了大家的关注。而银行领域的专业性和特殊性，更要求自己构建LLM产品。本文针对银行使用大模型的场景、方式进行了详细的分析，并给出了银行做大模型的实践样例，供大家参考。
-
-目前大语言模型（Large language mode，LLM），以下简称LLM，非常火爆，各种基于LLM的产品如雨后春笋般出现。以OpenAI推出的GPT4为代表的LLM产品，为大家展示了LLM在对知识整理、归纳、推理、总结方面强大的能力。
-LLM借助于思维链（Chain Of Thought，CoT）技术，可以使LLM生成推理路径，将复杂问题拆解为多个简单步骤分别处理，从而模拟人类思考的过程。
-
-OpenAI近期推出的Sora产品，同样令人震撼，给出一些提示词，Sora便可以根据文本生成一段生动的视频，效果不亚于专业的视频工作室耗费几天做出来的视频。
-例如通过提示词: 一段广角视频，一辆拉力车穿过红杉林，出现在树后，在急转弯时向空中喷洒泥土，电影胶片拍摄于35毫米景深 。Sora会生成一段高清的10秒左右的视频，非常逼真。大家有兴趣可以使用Sora体验一下。
-
-由此可见LLM在人机对话、知识推理、归纳总结、图片和视频生成上功能确实非常强大，只要我们给定的提示词足够恰当，LLM便能给出我们想要的结果。
-很多垂直领域，已经出现了许多LLM产品。本文收集整理了一些，大家有兴趣的可以重点深入了解。一些关于金融领域的LLM产品主要基于金融知识与问答，金融机构可以作为增值服务提供给客户，是一个非常不错的应用场景。
-
-一、银行使用大模型的场景
-对于银行而言，LLM产品的应用场景有很多。任何工具的使用，其主要目标是提升客户服务质量，节省企业运营成本，增加企业收益以及提升企业社会效益。概括下来，就是降本增效。
-我们知道，银行的主营业务主要是存款…]]></summary>
-        <author>
-            <name>佳佳原创</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[（一文看懂）预训练大模型，满足企业的需求]]></title>
-        <id>https://www.woshipm.com/?p=6026576</id>
-        <link href="https://www.woshipm.com/share/6026576.html"/>
-        <updated>2024-04-10T08:00:11.000Z</updated>
-        <summary type="html"><![CDATA[在我们探讨了指令工程、模型微调（SFT）与强化学习&人工反馈（RLHF）这三大调优利器后，您是否已对驾驭大模型有了更深的理解与掌控力？
-然而，调优之旅并未止步于此。今天，我们将揭开调优系列的新篇章——预训练。
-
-预训练是GPT/BERT等大语言模型的基石、也是赋予其语言理解与生成能力的关键步骤。
-01 预训练的定义与效果
-预训练可以理解为构建大型语言模型的起始阶段（或者可以理解为建立领域基础大模型），它涉及到在海量文本数据上训练模型，使其学习到语言的基础规则、结构和模式。
-这个过程赋予模型广泛的背景知识，这些知识后续通过细化的训练（比如微调）可以被特定地应用到各种任务中。
-预训练模型的核心优势是其丰富的通用性，它可以被后续调整应用于诸如文本分类、情感分析、机器翻译等多样化的应用场景中。
-例如，一个经过预训练的模型，可以不同程度上理解多种语言的文本，为多语言处理提供了极大便利。
-02 预训练适用和不适用的场景
-适用的场景
-当开始从事自然语言处理项目时，预训练模型提供了一个很好的出发点。
-需要模型有很好的通用知识基础，为多种任务提供服务时。
-对于小数据量下任务，预训练模型能快速引入必要的语言知识。
-不适用的场景
-预训练模型可能并不总是完全符合特定任务的需求，可能需要进一步的训练和微调。
-在领域极其特殊化的情况下，预训练模型可能无法提供足够的领域知识，需要额外的定制化训练数据。
-03 预训练的训练步骤
-三步法：
-1）构建或获取数据集：选择一个庞大的多样化文本数据集作为训练材料，这些数据集需要涵盖广泛的主题和语言样式。
-
-2）模型架构选择：确定合适的模型架构，比如Transformer，以支持大规模的并行训练。
-3）训练执行：
-在大规模数据集上进行预训练，让模型掌握语言的基本结构。
-监测训练过程中的损失和性能指标。
-在预训练模型时，尤其需要注意的两个关键点：
-模型与任务契合度：选择预训练模型时，需确保其架构（如自回归/双向编码器）及预训练任务（如掩码语言建模）与目标任务（如文本生成/理解）需求相匹配。
-资源效率：考虑模型规模带来的计算资源（GPU/内存）、训练时间需求，以及数据量与标注成本限制，适时采用模型压缩、轻量级版本或高效学习策略。
-04 预训练的示例：跨领域知识支持的问答系统
-如果我们希望构建一个问答系统（你可以联想到OpenAI搭建ChatGPT的场景），该系统可以回答关于从历史到科技领域的问题，预训练是关键步骤。
-以下是具体步骤：
-1）数据集整合：我们可能会聚合多个领域的百科全书、教科书、新闻存档等数据集。
-2）模型架构选择：选择一个适合文本理解和生成的预训练模型，例如GPT或BERT类型的模型。
-3）预训练执行：
-在聚合好的数据上执行预训练，模型会在这一过程中学到大量的跨领域知识。
-经过预训练之后，模型就已经具备了广泛的知识储备和对话生成的能力。
-此后，我们可以在更窄领域或特定任务上进一步微调，让问答系统在特定主题上更加精准。预训练提供了一个坚实的基础，使得后续的专业化调整更加高效。
-最后的话
-预训练模型为大规模模型训练带来了巨大的潜力，可实现丰富知识的获取和高效训练。
-然而，它也带来了挑战，包括高昂的计算资源和时间成本以及数据隐私性的问题。
-尽管预训练模型在大公司中被广泛使用，但对于小公司来说，更推荐使用模型微调或指令工程，以最小的成本高效解决业务问题。
-希望带给你一些启发，加油。
-作者：柳星聊产品，公众号：柳星聊产品
-本文由 @柳星聊产品 原创发布于人人都是产品经理。未经许可，禁止转载。
-题图来自 Unsplash，基于 CC0 协议]]></summary>
-        <author>
-            <name>柳星聊产品</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Just-One-Page-PDF – 将网页保存为 PDF：A4 尺寸，支持保存为一页或多页 PDF[Chrome]]]></title>
-        <id>https://www.appinn.com/?p=48140</id>
-        <link href="https://www.appinn.com/just-one-page-pdf/"/>
-        <updated>2024-04-10T07:52:28.000Z</updated>
-        <summary type="html"><![CDATA[Just-One-Page-PDF 是一款 Chrome 扩展，用来将网页保存为 A4 尺寸的 PDF，可以是完整的一页，也可以是多页。用起来，就像截图一样。@Appinn 来自发现频道，@t35t]]></summary>
-        <author>
-            <name>青小蛙</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[用心理学打开交互设计]]></title>
-        <id>https://www.woshipm.com/?p=6029379</id>
-        <link href="https://www.woshipm.com/share/6029379.html"/>
-        <updated>2024-04-10T07:51:10.000Z</updated>
-        <summary type="html"><![CDATA[心理学用于研究人们使用产品或系统时的心理反应和行为。本文以招聘网站为例，用心理学打开交互设计，一起来探讨一下吧。
-
-新概念心理专家荣新奇教授表示，求职是一个孤独、不可预测的过程，它没有规则、没有保证、没有督导、具风险，需要高度自我规划性。
-失业率的升高，让求职者在求职过程中，可能会经历各种事件，如果连续一段时间的求职待业状态，可能会影响到心理状况。有调查研究发现，平均在家待业一个月以上，就会开始出现气馁和抑郁，超过两个月就会有明显的抑郁、焦虑和负面情绪。
-求职者的求职方式有两种：一种是线下招聘会，一种是线上的招聘网站。招聘网站离求职者距离最短。
-接下来我们结合求职者心理变化阶段和用户体验五要素分析某招聘网站中职位列表的交互设计方案。
-举例：
-某招聘网站（以下称网站）是求职者找工作的方式之一。网站职位列表是访问数量最高的页面。
-以下配图为交互场景：
-
-图一：静态页面
-
-图二：hover状态（标题热区外）
-
-图三：hover状态（标题热区内）
-职位JD的触发区域较为龃龉，似乎并不想让用户触发此功能。但又设计了此功能。体现了产品设计的“克制”。
-网站定位是：快速、高效的直聊+精准匹配。从产品定位来看，在列表页查看JD与“精准匹配”似乎相违背，反而与传统招聘产品的模式相像，却没有直面解决该场景下的用户痛点。
-用户点击岗位进入详情页才是设计者设定的操作路径与产品定位相符。这一单一的使用场景，无法适应求职者心境的变化。缺少求职者适用场景。
-一、结合用户体验五要素来设计职位列表
-“辛向阳教授提出：交互设计的本质是对行为的设计。”
-
-交互设计的五要素分别是：用户、场景、目的（需求）、媒介（产品）、行为。产品交互设计就是研究“什么样的人，在什么场景下，通过什么媒介，做什么，来实现自己的目的。”
-在招聘网站中使用频次最高的职位列表则成了交互设计的关键。是用户行为分流的关键节点。
-1. 用户
-《…]]></summary>
-        <author>
-            <name>界面与交互</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5000字实战思考：短暂成交和无效涨粉是私域假象，全域盘活才算真本事]]></title>
-        <id>https://www.woshipm.com/?p=6029805</id>
-        <link href="https://www.woshipm.com/operate/6029805.html"/>
-        <updated>2024-04-10T07:50:47.000Z</updated>
-        <summary type="html"><![CDATA[做私域时，不少人都沉迷于群活跃度、群人数的增长指标，或者是GMV数据，却忽视了冰山下的部分。本文围绕大家关注的“私域业绩成交”和“私域用户增长”这两大维度，分析私域的表象与里子，希望能帮到大家。
-
-我们时常对私域给予足够多的期待，但又经常对私域结果操之过急。
-做私域，最终目标肯定是变现获得利润，但很多时候着急吃不了热豆腐。
-做私域只是有可能通过积累私域用户获取未来成交机会，也有可能通过私域售后服务，积累用户未来复购的机会，也有可能通过私域氛围、产品与对人设的信任，积累老带新介绍的机会，也有可能通过私域帮助潜在客户，解决跟你业务产品毫无关联的问题，比如你是做护肤品销售，但你为一位用户在朋友圈发问“哪里有好吃火锅”进行了餐厅推荐，他对你增加了一分的好感度。
-这些看似普通，实则不简单的运营动作，在表面与私域成交毫无关联，但里子处处都在为私域成交去打基础。
-但我们通常只执迷于冰山上的表象，比如GMV的成交，用户体量增长，却忽视私域冰山下的部分，今天围绕大家关注的“私域业绩成交”和“私域用户增长”这两大维度，分析私域的表象与里子。
-一、私域成交是结果表象，价值与信任是底层里子
-私域是一个价值养成的过程
-就像一个养成类游戏，需要增加亲密度，就需要情绪价值，需要增加成长速度，就需要喂养干货价值，解决实际遇到的问题，当亲密度和成长值在用户心理账户里存满时候，才会为提供产品和服务埋单。
-私域是一个信任关系的递进
-吸引过来的用户可能是因为你的公域内容很棒，或者是你提供的引流产品或赠送内容是我想要的，又或者是购买了产品需要售后服务而添加到你的私域，那么这个时候是一个弱关系，从泛粉丝到私域用户关系，对你有兴趣有刚需，但对你还不够了解，不确定你能提供哪些价值给到我。
-那么通过添加好友动作过后，在你的微信生态多触点闭环中，逐渐加深对人设认知、产品认知、品牌认知、专业能力认知。
-
-而微信生态的各个触点发…]]></summary>
-        <author>
-            <name>晓峰的运营增长</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[产品经理应该写PRD还是用户故事？]]></title>
-        <id>https://www.woshipm.com/?p=6029063</id>
-        <link href="https://www.woshipm.com/share/6029063.html"/>
-        <updated>2024-04-10T07:04:15.000Z</updated>
-        <summary type="html"><![CDATA[本文探讨了产品经理在产品开发过程中应该编写PRD（产品需求文档）还是用户故事的选择问题，提供了深入的见解和建议，引导阅读，希望对你在产品管理领域的实践有所帮助。
-
-产品经理最基本的技能之一是编写需求，但应该怎样编写需求呢？我搜索了“产品经理如何整理需求”的词条，发现主要有以下四类方式。
-需求文档（PRD）。这是目前最主流的方式之一。网络上有很多PRD格式分享、撰写PRD的培训等等。
-以用户为中心的PRD。因为PRD主要以描述功能细节为主，随着“用户为王”的意识越来越强烈，PRD中开始加入目标用户的部分，做用户细分、用户画像、用户流程，希望弥补用户导向的缺失。
- 直接在原型软件中写PRD的“一体化原型”。慢慢的用户、或者项目相关干系人会发现word版的PRD中描述的功能，最后开发出来的往往和想象的不一样，和定稿的原型有诸多不对应的地方。于是部分产品经理开始以原型为中心，详细描述该原型页面的功能情况，这样可以比较大程度保证所见的、所约定的，就是开发出来的结果。
-用户故事。通过名字就可以看出这是一种完全以用户为导向的需求编写方式。这样的需求是一个故事线，讲述了用户可以通过将要开发的这个特征、这个功能实现什么，从而明确这一个用户故事对用户、对整个项目的价值。
-我个人倾向于写用户故事。前三种需求编写方式在我看来依然脱离不了PRD的影子，所以下面我将根据我的个人经验，对比PRD和用户故事，分享一下更喜欢用户故事的原因。先放一张PRD和用户故事的对比图，方便不了解这两者的朋友有个基本的概念，后面会做具体的对比分析。
-
-2018年我在一家外企刚开始做产品经理时，接受了用户故事的培训。我当时问我老板为什么我们不写PRD（产品需求文档）？因为我所了解到的这个职位是要写BRD、MRD、以及PRD的。我当时看了一下这几个文档的格式和页数，感觉比写用户故事要高大上的多，看上去也更专业，因为要写好几个…]]></summary>
-        <author>
-            <name>Qyuyus</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[基于大模型的AI产品设计新方式——双故事线策略探索]]></title>
-        <id>https://www.woshipm.com/?p=6029520</id>
-        <link href="https://www.woshipm.com/share/6029520.html"/>
-        <updated>2024-04-10T07:02:30.000Z</updated>
-        <summary type="html"><![CDATA[本文介绍了基于大模型的AI产品设计新方式——双故事线策略，探讨了如何结合技术和用户体验创新产品，引导阅读，希望对你在AI产品设计方面有所启发。
-
-在人工智能领域，大模型以其卓越的数据处理能力和深度学习能力，正悄然改变着产品设计的传统模式。今天，我们将深入剖析一种创新的AI产品设计思路——“双故事线”策略。这一策略不仅极大地提升了用户体验，还为用户带来了前所未有的信息增量，让AI产品更加智能、贴心。
-
-一、充当用户配角服务
-在AI应用日益普及的今天，我们渴望的不仅是一个功能强大的工具，更是一个能够真正理解我们需求、提供贴心服务的伙伴。在这个故事线中，AI产品扮演的就是这样一个角色——它像是一位默默无闻的配角，始终在后台守护着你，等待在你需要的时候伸出援手。
-要实现这一角色定位，AI产品设计者需要在多个方面下功夫。首先，界面设计要简洁直观，让用户一目了然，轻松上手。其次，响应速度要快，确保用户提出问题后能够迅速得到反馈。最后，功能设计应精准对接用户需求，真正做到贴心入微，为用户排忧解难。在这方面，现有的大模型应用如ChatGPT、文心一言等已展现出卓越的表现，为我们提供了宝贵的借鉴与启示。
-二、提供信息增量服务
-然而，AI产品的价值并不仅限于提供贴心服务。在第二个故事线中，我们将探讨如何通过AI产品为用户带来信息增量，帮助他们拓宽视野、增长见识。
-
-为了实现这一目标，我们提出了一种全新的设计模型——“人-大模型-大模型-人”。在这个模型中，用户通过自然语言与AI大模型进行交互，提出自己的问题和需求。AI大模型不仅能够理解并拆解这些问题，还能与其他大模型进行协作，共同探索问题的多个层面和角度。
-
-这样，AI产品不仅能够为用户提供精准的答案，还能为他们提供丰富的背景知识、相关案例和前沿动态，帮助他们更好地理解和解决问题。比如：Perplexity强大问题总结能力，秘塔搜索的研究模式，360搜索的思维导图。
-
-下面我们来看一个假设的AI产品：AI赋能的车辆检修小帮手。
-为了更好地说明“双故事线”策略在实际产品中的应用，我们设计了一款名为“车轮助手”的AI赋能车辆检修应用。
-这款应用旨在帮助车主快速识别和解决车辆常见小问题。用户只需通过简单的自然语言输入描述车辆出现的问题症状，“车轮助手”便能迅速响应并提供可能的故障原因和检修建议。这一过程中，AI模型充当了静默守护者的角色，以简洁直观的方式提供无干扰的服务。
-同时，“车轮助手”还通过大数据分析用户的驾驶习惯和车辆历史数据，为用户提供个性化的维护建议和预防性措施。这些建议不仅能够帮助用户解决当前的问题，还能帮助他们更好地了解车辆维护知识，从而延长车辆使用寿命。
-这种信息增量的设计思路让“车轮助手”成为了一款真正能够为用户带来价值的AI产品。
-三、结语
-“双故事线”策略为基于大模型的AI产品设计提供了新的思路和方法。通过结合贴心配角和信息增量的设计思路，我们可以创造出更加智能、贴心的AI产品，为用户带来更好的使用体验和价值。在未来的AI产品设计中，我们应该更加注重用户体验和信息增量的平衡，不断探索和创新，为用户带来更加优质的服务和体验。
-同时，我们也应该关注到AI技术的潜力和价值不仅在于研发更先进的大模型，更在于如何将这些技术应用到实际场景中，解决用户的真实问题。
-本文由@云师兄 原创发布于人人都是产品经理，未经许可，禁止转载。
-题图来自Unsplash，基于CC0协议]]></summary>
-        <author>
-            <name>云师兄</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[如何编写产品需求文档（PRD）]]></title>
-        <id>https://www.woshipm.com/?p=6028190</id>
-        <link href="https://www.woshipm.com/share/6028190.html"/>
-        <updated>2024-04-10T06:59:32.000Z</updated>
-        <summary type="html"><![CDATA[作为产品经理，编写产品需求文档是基本技能之一，本文详细介绍了如何编写产品需求文档（PRD），希望对你编写有效的PRD有所帮助。
-
-PRD是Product Requirement Document的简称，翻译为：产品需求文档。该文档是产品由“概念化”阶段进入到“图纸化”阶段的最重要的一个文档。编写PRD是一个产品经理最为基础的工作内容，也是一个产品经理最基础的能力。不夸张的说，通过一篇PRD文档就可以体现出一个产品经理的基本功是否扎实，这直接影响到整个研发团队的效率。
-我常年从事To B系统产品的工作，因此本文的内容也仅针对To B系统的PRD文档，并不完全适用To C的系统产品。想写出一篇优秀的PRD文档，需要搞清楚如下4个问题：
-PRD文档的编写目的是什么？
-PRD文档在编写前需要做什么？
-PRD文档在编写的过程中有哪些是需要注意的？
-PRD文档编写完成后如何使用？
-一、PRD文档的编写目的是什么
-编写PRD文档最为重要的目的就是：协调各个相关角色，将产品高效正确的“生产”出来。PRD仅仅是为达到这个目标，产品经理经常使用的一种工具，只要是能够高效的完成最后的系统化产品，那么PRD具体的内容、形式也没有非常严格的标准。从这个目标出发，我们能够看到这样几个关键词：各个角色、高效&正确和生产
-1.1 各个角色
-这里的角色是涉及到整个产品研发过程中全部相关的角色，每个角色在这个过程中负责的工作和关注点有所不同，PRD中需要照顾到所有参与角色的关注点，To B系统产品在此过程中主要涉及到的角色如下：
-领导（产品总监等）：这个角色的人一般不会太过关注PRD的细节，重点会看一下，做这项工作的原因、解决问题的影响范围、成本、以及最终给客户和公司内部提供的价值。当然，这些内容如果在PRD之前就使用其他的文档说清楚了，PRD文档中就不需要写了，我也建议在PRD编写之前，通过产品提案等方式，…]]></summary>
-        <author>
-            <name>Seven</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI一键生成思维导图，直接解放大脑！]]></title>
-        <id>http://www.dayanzai.me/?p=71182</id>
-        <link href="http://www.dayanzai.me/shutu.html"/>
-        <updated>2024-04-09T16:41:28.000Z</updated>
-        <summary type="html"><![CDATA[现代生活中，我们面临着海量的信息和复杂的问题，如何高效地整理、理解和表达这些内容成为了一项重要的技能。 随着人 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[开源免费编程工具 Python 3.12.3 Win/Mac/Linux 官方下载]]></title>
-        <id>http://www.dayanzai.me/?p=42032</id>
-        <link href="http://www.dayanzai.me/python.html"/>
-        <updated>2024-04-09T16:34:42.000Z</updated>
-        <summary type="html"><![CDATA[作为现在比较流行的开源免费编程工具 Python 我想对于开发人员肯定很不陌生。Python 能做什么?Pyt […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[静读天下专业版 Moon+ Reader Pro 9.3 中文免费版]]></title>
-        <id>http://www.dayanzai.me/?p=25121</id>
-        <link href="http://www.dayanzai.me/moon-reader.html"/>
-        <updated>2024-04-09T16:30:58.000Z</updated>
-        <summary type="html"><![CDATA[静读天下专业版 Moon+Reader Pro 中文版由大眼仔旭发布。静读天下专业版已付费版是一款非常吊炸天的 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[远程桌面会话管理器监控系统 Terminal Services Manager 22.09 中文免费版]]></title>
-        <id>http://www.dayanzai.me/?p=71193</id>
-        <link href="http://www.dayanzai.me/terminal-services-manager.html"/>
-        <updated>2024-04-09T16:30:24.000Z</updated>
-        <summary type="html"><![CDATA[Terminal Services Manager 会显示哪个用户连接到了远程主机、正在运行哪些进程以及使用了 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[开源免费跨平台环境 Microsoft .NET Desktop Runtime 8.0.4 正式版免费下载]]></title>
-        <id>http://www.dayanzai.me/?p=47960</id>
-        <link href="http://www.dayanzai.me/microsoft-net.html"/>
-        <updated>2024-04-09T16:15:53.000Z</updated>
-        <summary type="html"><![CDATA[.NET 8.0 是一个免费的，跨平台的开源开发人员平台，用于构建许多不同类型的应用程序。大眼仔旭了解到 Mi […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[《策略策划终极方法》5.0版，超10年策划功力无保留讲授！]]></title>
-        <id>https://www.woshipm.com/?p=6029402</id>
-        <link href="https://www.woshipm.com/share/6029402.html"/>
-        <updated>2024-04-09T09:43:22.000Z</updated>
-        <summary type="html"><![CDATA[AI的加入，对营销行业带来了极大冲击，对于策划岗位而言，其作业模式同样会受到影响。于是在这篇文章里，作者不仅阐述了营销策划的分类、策划常用的思维模型等内容，还加入了有关AI营销、AI创作的介绍和分析，我们不妨来看一下。
-
-从2019年第一次写策划方法的文章开始，《策略策划方法论》坚持每年更新一版的节奏，将老泡每一年在营销实战工作中，学习到的新经验以及对营销更深层次的理解，更新在文章中；如今已经更新到了第5个版本。
-由于ChatGPT的横空出世，去年被很多人称为AI人工智能应用的元年，从AI整个一年多的发展来看，AI和大模型的爆发确实改变了许多行业的运作模式。
-特别是对于看重内容创作的营销领域来说，AI对营销行业和营销人所带来的冲击是非常震撼和巨大的，甚至在慢慢改变着无数营销人和内容创作者的作业模式。
-因此这篇5.0的版本，在保留原有大框架的基础上，不仅会对原来的内容进行升级、做更详细的讲解，还会加入一些跟AI营销、AI创作有关的介绍和分析。
-“要达成全年的增长目标，你的策略是什么？”
-“为了快速引爆市场声量，需要策划一场破圈的事件营销”
-“不要用战术上的勤奋，掩盖战略上的懒惰”
-“制定正确清晰的战略方向，才能让企业立于不败之地”
-“想要在激烈的竞争中脱颖而出，有哪些好的战术手段？”
-在日常的工作沟通中，我们经常会在以上这些场景中用到“策略，策划，战略，战术”四个词，因为它们是覆盖范围广的宏观性概念词语，适合用来框定想要表达的核心主题或大方向。特别是在营销传播方案中，这几个词特别好用，既能显得专业让人不明觉厉，还能保证不会出现明显错误。
-然而即便是从业多年的营销广告资深人士，也很难简练清晰地解释清楚这几个概念的具体含义和区别；正因为它们过于抽象，不同的人心里往往有不一样的理解，很容易造成沟通不同频的情况；因此有必要先把这几个主要概念介绍清楚，让大家理解通透了才能往下一步走。
-…]]></summary>
-        <author>
-            <name>老泡</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Keep Screen On – 临时保持屏幕开启，不熄灭[全设备平台]]]></title>
-        <id>https://www.appinn.com/?p=48132</id>
-        <link href="https://www.appinn.com/keep-screen-on/"/>
-        <updated>2024-04-09T08:38:10.000Z</updated>
-        <summary type="html"><![CDATA[Keep Screen On 是一个简单的网页，只有一个按钮，点开后可以保持屏幕开启，不熄灭。不挑平台，稍微现代一点的浏览器即可使用。@Appinn 来自发现频道，@JoeCubber 同学的推荐：h]]></summary>
-        <author>
-            <name>青小蛙</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[100种分析思维模型之：GRPI 模型]]></title>
-        <id>https://www.woshipm.com/?p=6027837</id>
-        <link href="https://www.woshipm.com/share/6027837.html"/>
-        <updated>2024-04-09T07:20:04.000Z</updated>
-        <summary type="html"><![CDATA[本文作者介绍了分析思维模型：GRPI 模型。GRPI 模型能帮助管理者提升团队的绩效，也能帮助团队成员更好地互动。
-
-在工作中，我们通常都属于某个团队中的一员。
-在团队中，如果出现目标不清晰、职责不明确、流程不规范、或者与同事的关系不和谐等情况，就会影响工作的效率、质量和体验。
-下面介绍 100 种分析思维模型的第 65 种：GRPI 模型，它能帮助管理者提升团队的绩效，也能帮助团队成员更好地互动。
-一、为什么学习 GRPI 模型？
-通过学习和运用 GRPI 模型，可以让我们更加清晰地定义目标，明确角色的职责范围，建立规范的工作流程，并促进有效的互动交流，建立一个更加强大、更加高效、更加和谐的团队。
-如果我们不懂得运用 GRPI 模型，就有可能会出现目标不清、角色混淆、流程混乱、沟通不畅等问题，导致团队的工作效率低下，团队士气低落，甚至可能导致项目失败等严重后果。
-GRPI 模型是团队成功的黄金法则，它将目标、角色、流程与互动紧密结合起来，形成一个有机的整体，让团队发展能够更加顺利，进而有效提升绩效和完成目标。
-二、什么是 GRPI 模型？
-GRPI 模型是 Goal（目标）、Role（角色）、Process（流程）、Interaction（互动）的首字母缩写。
-
-1. Goal（目标）
-目标是团队成功的基石，目标通常需要遵循 SMART 原则，也就是：Specific（具体的）、Measurable（可衡量的）、Attainable（可达到的）、Relevant（相关的）、Time-bound（有时间限制的）。
-比如，某数据分析团队的目标是：在 2023 年 12 月 31 日之前，累计制作完成 60 份专项数据分析报告，平均 80 分以上。
-由分管领导或问题提出者进行评分，100 分代表非常有价值或完美解决问题，80 分代表很有价值或很好地解决问题，60 分代表部分有价…]]></summary>
-        <author>
-            <name>林骥</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[公司聘请运营顾问靠谱吗？]]></title>
-        <id>https://www.woshipm.com/?p=6028747</id>
-        <link href="https://www.woshipm.com/share/6028747.html"/>
-        <updated>2024-04-09T07:04:36.000Z</updated>
-        <summary type="html"><![CDATA[公司的发展需要两类人：解决问题和创造效益的人。这种情况下，是否有招聘运营顾问的必要呢？在作者看来，运营是一个应用题，是先有了A才有B的结果。
-
-这段时间因为失业的关系，加上年纪已经过了35岁，于是决定不再靠工作养家糊口。在机缘巧合之下，给原来帮过忙的6家公司（解决运营问题或做运营规划），做起了运营顾问。也许基于之前的信任，协定过程比较顺利。
-不过，就运营顾问这个职位，很多老板还是有顾虑的。毕竟之前并没有这样的服务形式，每个公司都有自己的运营团队，看起来不需要再找个人过来“指手画脚”。再不济，将业务外包，用代运营公司解决目前的运营问题。
-作为15年的运营，从执行做到总监，在这个事情上，还算有发言权的。这段时间又在频繁接触企业客户，也对于聘用运营顾问这个事情，有了一定理解和了解。我站在有一个已经是运营顾问的角度，说一下我的看法。
-在我看来，一个公司想要发展离不开两类人，一类是解决问题的人，另一类是创造效益的人。不过，从运营本身来说，应该是通过解决问题来创造效益。我和客户一直在沟通，运营不是一个选择题，不是选了A就有B的结果；运营是一个应用题，是先有了A才有B的结果。
-一、运营顾问更注重制定策略
-这个过程需要的是制定运营策略，代运营能解决当下问题，但是否符合公司长期目标就不得而知了。我举个例子就明白了，运营的最终目标是用户付费，前提是有流量。代运营可能解决流量问题，但流量是否精准，代运营公司不会承诺，客户也不完全懂。
-这里的信息差，就是代运营公司赚钱的所在。于客户后期付费转化来说，流量不精准，转化率就低，最后营收就很难看。那么，对赌或者分成行不行呢？在我了解情况上看，先不说这样的代运营公司少，即使有，也会先收取相应的服务费用，至于达不到退款，它们也不亏。
-
-作为运营顾问，会明确告诉客户，公司应该从哪里，以什么样的内容，及什么样的方式，获取精准流量；精准流量在什么情况下，会趋于稳定…]]></summary>
-        <author>
-            <name>运营研究院</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[周鸿祎老板AI公开课，这4点让我受益匪浅！]]></title>
-        <id>https://www.woshipm.com/?p=6029018</id>
-        <link href="https://www.woshipm.com/ai/6029018.html"/>
-        <updated>2024-04-09T06:57:29.000Z</updated>
-        <summary type="html"><![CDATA[昨天360创始人周鸿祎在某个活动上分享了《企业如何拥抱AI》的分享，本文为作者参与后记录的个人总结和思考，与各位读者分享。
-
-今天去听了周鸿祎老板的企业AI公开课，听完之后对企业AI应用收获颇丰，来汇总一下我的收获和思考：
-这个会议中周老板分享了很多干货，我总结对我触动比较大的四点：
-对AI的相信，信念有的时候比什么都重要
-Think Different，世界不需要那么多超级大模型
-对场景的洞察，企业大模型成败的核心
-用户思维做营销，产品好也要让大家明白好在哪
-以下内容基于周鸿祎老板的分享和我自己的思考汇总在一起。
-一、对AI的相信
-OpenAI开启了人类AGI时代的原点，但为什么Transformer的创造者谷歌却没有开创这一奇迹？
-论资源、论技术，谷歌都不会落后于OpenAI，从最近谷歌最新的产品Gemini 1.5也可以看出来，谷歌追赶速度是飞快的，它能够拿出来的技术也是非常厉害的，Gemini能够在25分钟的视频中理解视频内容，告诉你肉夹馍出现在那一秒画面，这个技术是目前市面上最强的多模态理解能力。
-
-那为什么是OpenAI？
-信念，他们坚信基于Transformer模型做Scalling Law，一定可以通往AGI。
-现在AGI的大门已经悄然打开了，现在人们又会面临很多相信的问题，是否相信AI会重塑所有业务？是不是一次新的工业革命？
-现在的ChatGPT看起来就是能写点文案，真的是强人工智能吗？所谓AGI会不会和web3、区块链一样又是昙花一现？
-自媒体天天说不拥抱AI的公司、员工会被淘汰，一年多过去了？好像什么都没有发生，世界一点没改变。
-你相信AI能够改变世界吗？能够让未来会不一样？
-我想这个问题大概可能是很难回答的。因为你回答相信，现阶段你能够看到有限的趋势且充满非常大的不确定性。
-LLM的C端AI产品，罕见盈利；卖课的倒是赚的盆满钵满。
-二、Think D…]]></summary>
-        <author>
-            <name>云舒</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[电商公司：赚钱速度=作图速度]]></title>
-        <id>https://www.woshipm.com/?p=6028644</id>
-        <link href="https://www.woshipm.com/share/6028644.html"/>
-        <updated>2024-04-09T06:31:52.000Z</updated>
-        <summary type="html"><![CDATA[在拼多多电商领域，想要实现快速赚钱，关键在于美工作图的速度。原创素材的多少直接决定了链接的动销率，进而影响着整体的销售业绩。本文将深入探讨美工作图速度对电商赚钱速度的影响，并分享如何提升美工作图效率的策略，助您在拼多多平台上取得更好的业绩。
-
-咱们做电商目的是啥？来跟我一起大声喊出来：为了梦想。什么？不是这个？那重来一遍，为了什么？为了赚钱！这次姿势对了。
-对的，咱们做电商就是为了多多赚钱。任何一个电商公司，每个月初都会定这个月的业绩目标，不出意外，绝对比上个月要高。公司要业绩，更要增长，业绩多少取决于哪里？当然是赚钱的速度了。
-别个电商大佬睁眼闭眼几秒钟的功夫，几万流水就进账了。大家羡慕别人赚钱快，那是因为人家有一个牛逼的赚钱机器——公司，公司是由各部门相互配合组成的组织。一个完善的，配合密切的组织架构，就是一台超级印钞机，赚钱的速度自然很快了。
-任何一个公司，其赚钱速度的快慢，往往取决于一两个核心部门。有的是业务部，公司业绩高低全凭几个销冠的开发客户能力；有的是行政部，挖到大佬级人才和制定出能激发大家狼性的绩效方案，也是能提高公司赚钱速度的。
-而电商公司，以我这么多年的了解和认知，我发现，咱们做拼多多的电商公司，赚钱的快慢，几乎完全取决于美工（设计师）的作图速度。
-一、多铺链接才能多赚钱
-咱们都知道24年拼多多的核心玩法是多店多链接布局，尤其是做非标品的，以及可以多场景使用的标品商家，多链接多场景布局，简直是顺应时代的步伐。为啥多场景布局能够赚到钱，本质上是流量的利用率问题。
-试想一下，你卖女装的，目标群体都是年轻、老年、儿童这些常规的人群，但是不要忘记，平台上还是有部分大码女装需求的。
-如果平台上完全没有商家切这部分人群，这部分流量就无法变现，流量的利用率会大打折扣。所以，平台提倡商家把每一个需求都照顾到，让每个犄角旮旯的流量都能产生变现能力，苍蝇蚊子虽小，也是肉嘛。…]]></summary>
-        <author>
-            <name>老虎讲运营</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[用SWOT工具，聊聊视频号的克制和伟大]]></title>
-        <id>https://www.woshipm.com/?p=6028068</id>
-        <link href="https://www.woshipm.com/operate/6028068.html"/>
-        <updated>2024-04-09T06:19:48.000Z</updated>
-        <summary type="html"><![CDATA[腾讯视频号在短视频领域的逆袭之战备受瞩目，本文运用SWOT工具，深入剖析视频号的制胜策略，探讨其如何在激烈竞争中实现克制与伟大。通过对比抖音等竞争对手，揭示视频号产品背后的优势、劣势、机遇与威胁，为您揭示这场短视频大战的制胜之道。
-
-聊起视频号和抖音之间的PK，早已是老生常谈的事儿。本篇不赘述腾讯如何打赢这场短视频战役的全过程，反而想用SWOT工具，聊聊视频号产品的克制和伟大。
-我们知道，腾讯当初为了能切入短视频赛道，内部赛马了17款短视频产品，但之前的短视频产品Dau跟抖音比差了一整个量级。直到张小龙在微信中做短视频，腾讯才逆风翻盘，抢占住短视频生态位，并很快处于短视频行业的第一梯队。
-目前，视频号的各项关键数据怎么样了？
-一、视频号VS抖音数据
-
-截止24年3月，视频号日活跃用户数（DAU）约5亿，日均用户使用时长58分钟；抖音日活跃用户数（DAU）约7亿，日均用户使用时长120分钟；总时长算下来抖音是视频号的3倍。
-然而，视频号的商业化才刚开始，而且DAU和用户时长增速快于抖音，目测未来3-5年商业化收入能达到抖音三分之一，比如增加利润1000亿。
-二、为什么视频号能胜出，腾讯做对了什么？
-在视频号之前，微视曾被腾讯视为内部重点发展产品。2014年微视日活达到4500万，却在仅仅一年后因日活停止增长被降级并入腾讯视频。
-尽管彼时微视占尽腾讯资源优势，流量打法依然不奏效，但抖音无疑从产品定位、推荐算法及商业化能力上更胜一筹。马化腾在内部会议上提到“不再相信买量的故事”，而是需要所有的产品发展回归本质，研究好产品和服务本身。
-在腾讯，微信产品用户量大，它是一款全域用户运营的产品，一直占据通讯交流的产品生态位。所以微信的产品优化向来很克制，一个小改动对微信来说影响都巨大。然而在短视频一战中，最后腾讯决定在微信中做视频号。
-在微信中加入短视频生态功能是一件既冒险又慎重的事，但…]]></summary>
-        <author>
-            <name>卡卡的产品札记</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[产品同质化的底层逻辑]]></title>
-        <id>https://www.woshipm.com/?p=6029170</id>
-        <link href="https://www.woshipm.com/marketing/6029170.html"/>
-        <updated>2024-04-09T06:10:07.000Z</updated>
-        <summary type="html"><![CDATA[提到产品同质化，大家第一反应就是价格战。那价格战怎么破局呢？本文作者介绍了产品同质化的维度、产品与商品的关系以及产品同质化破局的几种策略。
-
-提到产品同质化，大家第一反应，就是：价格战。那价格战怎么破局呢？今天，我们就来研究一下。
-一、产品同质化的概述
-俗话说：没有卖不出去的产品，只有卖不出去的认知。
-产品同质化，站在客户视角，就是客户有很多不买你，或者替代你的选择。而且这种替代选择，客户感觉和你的产品几乎没有什么差异。
-
-这么说起来，产品同质化，可能体现在下面八个维度上：
-产品大众化，真的相同（产品没有竞争力）
-产品扁平化，机制相同（商品没有竞争力）
-产品有不同，流量相同（客户有替代选择）
-产品有不同，卖点相同（转化没有竞争力）
-产品有不同，内容相同（记忆唤醒难度很大）
-产品有不同，体验相同（感性情绪几乎为零）
-产品有不同，客户相同（生产过剩信息过载）
-产品有不同，利润相同（经营没有竞争力）
-二、产品与商品的关系
-这里，我们提到了一组相对的概念：一是产品，二是商品。产品与商品有什么不同？
-我们说：商品 = 产品 + 需求。
-没有走向终端市场的，都叫产品；走向终端市场接受客户检验的，才是商品。
-在市场里，有一句经典名言：客户并不需要你的产品，客户需要的是解决他的问题。
-换句话说：商品，是为了更好更快的交易，需要将不同的产品功能与不同的客户需求，快速地匹配起来。
-所以，我们才会说：从产品到商品，是惊险的一跳。
-
-这是为什么呢？产品与商品是两个完全不同的维度。
-产品是基于功能的，商品是基于需求的。
-产品是用来体验的，商品是用来交易的。
-产品是解决问题的，商品是等价交换的。
-不仅产品力强，还要商品力强，销售业绩才会更好。
-这里，要解决产品同质化，必须要深刻理解产品与商品之间的关系。
-产品同质化，不见得商品也同质化。也就是说，商品差异化，可以是破局产品同质化的一种策略。
-三、产品同…]]></summary>
-        <author>
-            <name>灰度认知社</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[公关和营销就像一对孪生子，但他们的目标是不同的]]></title>
-        <id>https://www.woshipm.com/?p=6028299</id>
-        <link href="https://www.woshipm.com/share/6028299.html"/>
-        <updated>2024-04-09T03:54:05.000Z</updated>
-        <summary type="html"><![CDATA[中小企业主热衷自媒体打造个人IP，以解决公关难题和营销需求。然而，流量与生意不必然正相关，公关与营销也难两全。
-
-我不是一个传统公关人，甚至可以说，我是一个公关小白。
-在进入广告行业前，我一直闷头在做互联网产品运营和营销执行的工作。在面对大众沟通时，没有专业师傅带路，没有受过系统性的训练，一直是靠自学摸索。
-一、营销比公关有意思
-虽然我无比认同《公关第一，广告第二》这本书的理念，但事实上，我觉得开发布会、企业新闻写作这些日常公关工作都很无聊。
-而且时间久了，就越来越受不了公关界层出不穷、晦涩难懂的“新名词”。好像他们总是刻意要把自己放入“语境的囚牢”似的，与大众、消费者形成天然隔离。
-与之相比，市场营销的语言就接地气很多。我们写广告文案、电商文案、短视频文案，都是力求用最简单的语言，讲清楚一个核心卖点。
-所以相比做公关，我还是更喜欢自由度和创造性强的广告营销工作，比如品牌咨询、策略策划、包装设计、创意整合营销等。
-二、公关比营销难度更大
-而且，最近因为蹭了一下农夫山泉的热点，让我也对公关产生了阴影，不禁感叹公关工作难做。
-甚至我觉得，这种危机处理能力，跟工作经验都不一定成正相关，考验更多的是人的心态。
-这件小事也让我领悟到：在面对公众的“有理之争”与“无理取闹”时，你的任何表达可能都是无解的。一句无心的话，可以被过度解读；一次善意的表态，抵不过恶意的诋毁。
-所以，一些聪明的老板都很谨慎，不爱抛头露面。公关如同摆设，能多低调就多低调，最好不要有太多存在感。
-其哲学意味，好比上海人常说的“不响”：不该讲的，说不清楚的，没想好，没规划的，自我为难、为难别人的，都不响，做事要留有余地。
-我的理解就是沉默是金，“不说话”胜过“说错话”，很朴素的道理。
-大型企业一般都有自己的公关团队，而中小企业、民营企业的最大公关代表就是老板本人。靠谁都不靠谱，能为公司品牌形象和声誉负责的，只有他自己…]]></summary>
-        <author>
-            <name>一个符号工作室</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[注意力稀缺时代，Bento Box设计的应对之道]]></title>
-        <id>https://www.woshipm.com/?p=6028354</id>
-        <link href="https://www.woshipm.com/ucd/6028354.html"/>
-        <updated>2024-04-09T03:52:52.000Z</updated>
-        <summary type="html"><![CDATA[我们在进行页面设计、界面设计时，总会要求设计师做出个XX风格的样式出来。这就要求我们对各种设计风格都要有所了解才行。本文介绍了Bento Box这种设计风格的风格特点和设计要点，希望可以帮助大家了解。
-
-2024年上半年，在多个网站发布的UI/UX设计趋势中，Bento Box（便当盒）风格均榜上有名。
-或许你对这个名字很陌生，但相信一定见过：在Apple的发布会、小米的产品网页、手机的操作系统中处处都有它的存在。这些通过看似“随机”的方式将多个卡片组合在一起的设计，都可以称为Bento Box设计。
-因为风格以“便当盒”命名，所以很多文章都将该风格的灵感源头直指日本的便当盒文化。
-
-但仅从设计形式上看，Bento Box风格是否源于日本便当盒文化没有确切答案，至少源于交通指示系统的Metro UI与Bento Box有着极大的相似之处，都是基于栅格化的卡片布局来传递信息。
-然而，这并不妨碍我们透过便当盒的视角来认识这种设计风格。
-
-一、便当盒文化
-在日本，便当盒是饮食文化的重要组成部分，也是生活方式的一种体现。
-在繁忙的工作日，人们可以通过便当盒方便地携带美味的食物，日式便当盒通常采用分隔式设计，将一餐食物放置在不同的隔层，防止不同食物的味道混合，并使食物更加整齐有序。
-
-这种出于实用性和秩序性的诉求，也同样构成了Bento Box风格的基础和底色，使其成为一种注重结构化、注重信息传递有效性的布局方式和设计风格。
-
-另一方面，日本文化中对和谐、平衡、细节的美学追求，逐渐渗透到便当盒中，隔层的划分、食物的选择及摆放不再只是为了方便携带，也为食用者提供了不同的视觉感官体验。
-这一特点在Bento Box风格中完美呈现：恰当的隔层间距、精致的模块元素、丰富的视觉层次，体现了该风格对视觉细节的强大承载力和表现力。
-
-二、Bento Box风格特点
-我们通过浏览大量的Bento B…]]></summary>
-        <author>
-            <name>设计来电</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[消费者旅程解析：从需求萌芽到忠诚客户的完整过程]]></title>
-        <id>https://www.woshipm.com/?p=6028500</id>
-        <link href="https://www.woshipm.com/marketing/6028500.html"/>
-        <updated>2024-04-09T03:52:05.000Z</updated>
-        <summary type="html"><![CDATA[在消费者的购物旅程中，我们会经历从接触到变为忠实用户的过程。本文对消费者旅程进行解析，并深入研究如何将这些想法付诸实践。
-
-观察我们成长的过程，可以发现我们从最初的无知逐渐接触各种信息，经历不断成熟和发展。这些信息在我们的发展过程中扮演着至关重要的角色。类似地，消费者的购物行为也展现出类似的模式。
-以咖啡认知为例，最初我们对咖啡一无所知，但随着周围环境和各种媒介的影响，我们开始对咖啡产生兴趣，并逐渐了解其种类和品牌。最终，我们可能会成为咖啡的忠实消费者，并向他人推荐品牌。
-一、推动旅程的触发因子
-在人生旅程或消费者的购物旅程中，推动旅程向前的关键在于各种触发因子的作用，它们推动旅程进入下一个阶段。
-在人生旅程中，这些触发因素可分为两种类型：
-自然因素：生老病死等，这些因素会直接影响个体的生命周期和角色转变。
-人为因素：分为商业目的和非商业目的两种。
-非商业目的的因素：例如亲情交往、心理学习、宗教体验等，这些因素与个体的情感和内在成长相关。
-商业目的的因素：例如商家的营销活动、产品推广等，这些因素主要受商业利益驱动，旨在引导消费者购买特定产品或服务。
-消费者旅程的触发因子只是人生旅程的一小部分，主要包括自然因素和商业目的的人为因素两个部分。为了扩大市场覆盖，增加利润，商家通常会更加充分地利用商业因素，引导消费者朝向购买自家产品的路径发展。
-营销的本质就是在消费者旅程的各个阶段引导他们向前推进，并为他们提供持续前进的动力。为了有效地将个人消费者旅程与营销场景连接或重新连接，商家会重新设计触发因素。这些触发因素将从其起点开始，贯穿整个消费者旅程。
-二、消费者决策旅程
-1. 决策旅程观察思路
-根据我们对思维方式的基本了解，我们知道思维过程可以用输入外部信息、大脑加工、输出信息的模型来解释。因此，在观察决策旅程阶段时，也可以从输入、思考、输出这三个角度来进行。
-输入方面：我们接收到的…]]></summary>
-        <author>
-            <name>我是产品张</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AirBattery – 实时在 Mac 菜单栏、程序坞上显示 iPad、iPhone、手表的电量信息]]></title>
-        <id>https://www.appinn.com/?p=48125</id>
-        <link href="https://www.appinn.com/airbattery/"/>
-        <updated>2024-04-09T03:45:07.000Z</updated>
-        <summary type="html"><![CDATA[AirBattery 是一款用来在 Mac 菜单栏或者程序坞（Dock）上显示你的所有苹果设备电量信息的开源工具，只需要这些设备在同一个局域网内即可。对于 iPhone 或插卡版 iPad 可以通过蓝]]></summary>
-        <author>
-            <name>青小蛙</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[100种分析思维模型之：PREP 模型]]></title>
-        <id>https://www.woshipm.com/?p=6027829</id>
-        <link href="https://www.woshipm.com/share/6027829.html"/>
-        <updated>2024-04-09T03:16:43.000Z</updated>
-        <summary type="html"><![CDATA[本文作者介绍了分析思维模型：PREP 模型。PREP 模型能帮助我们提升沟通、表达和说服能力。
-
-优质资源通常都是有限的，需要我们靠能力去争取。
-所以，沟通、表达和说服的能力就显得尤为重要。
-下面介绍 100 种分析思维模型的第 64 种：PREP 模型，它能帮助我们提升沟通、表达和说服能力。
-一、为什么学习 PREP 模型？
-清晰有力的表达，离不开对语言的精心组织。
-学习 PREP 模型，可以让我们的思路更加清晰，表达更有条理，且更有说服力。
-① 思路更加清晰
-运用 PREP 模型，按照固定的顺序来组织语言，可以避免思路混乱，使得观点更容易被理解，从而提升沟通的效率。
-② 表达更有条理
-在 PREP 模型的帮助下，我们可以更有条理地表达自己的观点，清晰准确地传达关键的信息，从而提高沟通的质量。
-③ 更具有说服力
-按照 PREP 模型的顺序，先提出观点，再阐述原因，然后用实例佐证，最后重申观点，可以让人更容易接受自己的观点，从而更具有说服力。
-总之，PREP 模型对提升沟通、表达和说服的能力很有帮助，值得我们好好学习。
-二、什么是 PREP 模型？
-PREP 模型是 Point（观点）、Reason（原因）、Example（例子）、Point（观点）的首字母缩写，也就是把表达的过程分成 4 个步骤：① 先说观点，② 再说原因，③ 举例说明，④ 重申观点。
-
-1. Point：观点
-先说观点，意味着要结论先行，首先明确表达自己的观点，这是提升沟通效果的第一步，也是「金字塔原理」的精髓所在。一个强有力的观点是清晰且具有针对性的，能够立即吸引别人的注意力。
-例如：我认为电子书比纸质书更好。
-这个观点很明确，虽然你未必同意我的观点，但是你能快速知道我的立场。
-2. Reason：原因
-再说原因，意味着要有理有据，可以运用「溯源思维」，多问几个为什么，列举出相关的原因，多用数据说话，…]]></summary>
-        <author>
-            <name>林骥</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[我用ChatGPT训练了一个SPIN销售高手，我觉得，可能没有它卖不出的东西]]></title>
-        <id>https://www.woshipm.com/?p=6028391</id>
-        <link href="https://www.woshipm.com/share/6028391.html"/>
-        <updated>2024-04-09T03:16:08.000Z</updated>
-        <summary type="html"><![CDATA[我们经常收到一些人的拉群申请或者是群发的广告信息，对个人来说这些形成了骚扰，而对发送者来说并没有太大的意义。上一篇文章，我们分享了SPIN销售法，如果用这种方法来进行邀请，效果是不是会更好？
-
-最近，我的微信老是收到一些“骚扰”广告：
-
-我定睛一看这些人，要么是通过我公众号文章加过来的，要么是通过一些知识星球加过来的，很可惜，我遇到这种基本是拉黑。
-不过拉黑的同时，我也在思考2个问题：
-1.是不是我的价值输出还不够，以致于可能他们不珍惜我这个人脉；
-2.其实私发广告没有错，那么是不是一定要用这么生硬的方式呢？有没有一种更优雅、同时又能吸引别人的方式呢？
-于是我想起来，去年年底学习的SPIN销售法。这里也要感谢一下我的前东家，让我参加了华为前高管做的大客户销售培训，我才了解到这种方法。
-传统的销售方法都是拼命讲自己的产品有多好，你为什么需要，而SPIN销售法则是像一个记者一样，通过不断向客户提问，引导他们说出自己的信息和需求，让他们自己意识到需要购买产品，而不是生硬的推销。
-一、SPIN销售法
-1.背景问题（Situation）：旨在了解客户的当前状况和背景，这有助于销售人员获得必要的信息来定制他们的销售策略。
-2.难点问题（Problem）：这类问题帮助销售人员发掘客户可能面临的具体问题、挑战或不满。通过识别这些问题，销售人员可以更好地展示他们的产品或服务如何解决这些问题。
-3.暗示问题（Implication）：暗示问题涉及探索问题的后果或对客户业务的潜在影响，这种类型的问题有助于提高客户对问题的紧迫感，并突出解决方案的价值。
-4.需求-效益问题（Need-payoff）：这类问题让客户自己阐述解决特定问题的好处，而不是由销售人员直接说明。这有助于客户更清楚地看到采取行动的价值，并且有助于构建更强的购买动机。
-那么这样的方式，如何用ChatGPT实现呢？
-我们来看看对话过…]]></summary>
-        <author>
-            <name>菜菜</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[揭秘小米汽车构建“信任状”的7个套路]]></title>
-        <id>https://www.woshipm.com/?p=6028277</id>
-        <link href="https://www.woshipm.com/marketing/6028277.html"/>
-        <updated>2024-04-09T03:11:04.000Z</updated>
-        <summary type="html"><![CDATA[最近小米汽车发售引起很大关注，而“信任状”是消费者相信品牌承诺的基础，那么小米汽车是如何构建信任状的呢？本文结合营销实际情况，与大家分享小米汽车构建信任状的七个套路。
-
-在《定位》理论中，“信任状”(Reason to Believe）是指品牌用来证明自己所宣称的差异化优势的真实性和可信度的证据或理由。
-它是消费者相信品牌承诺的基础，是品牌在消费者心智中的担保物。
-一般成本较高的行业都需要信任状加持，打消消费者顾虑。对于汽车品牌来说，构建“信任状”是一个系统性的工程，涉及品牌、产品和消费者关系等多个层面。
-坦率地讲，小米入场造车的时间确实晚了，甚至还不如“蔚小理”等新造车势力们。在“新能源电车领先品牌”的认知上，小米确实排不上号。
-基于这样的先天劣势去构建信任状，就不会像老牌车企推出新能源业务线那么容易。因此，也就需要小米使出更多的套路，才能弥补不足之处。
-那么，小米汽车是如何构建信任状的呢？结合实际营销情况，我分析有以下7点：
-套路一：打造专业/专家品牌
-俗话说得好：经验不够，专业来凑。尽管小米不具有新能源汽车领域的品牌先发优势，但不妨碍它成为一个专业/专家品牌。
-比如，可以突出造车专业性，围绕电池技术、自动驾驶、车联网等方面的研发投入和专利技术，来构建专业品牌的信任状。
-
-实际上它也是这么做的：
-在电池技术层面，小米通过与宁德时代合作，共同研发了800V高压电池包，采用了CTB一体化电池技术，这种技术将电池包与车身底盘结构集成，提高了空间利用率和车辆的续航里程。
-同时，小米还自研了电芯倒置技术、高效双模热泵技术和三热源逐级聚能技术等多项专利技术，强调其在电池安全性、续航能力和加热效率等方面的改进与优化能力。
-在自动驾驶层面，小米汽车的智驾专属团队已突破1000人，并在武汉成立了自动驾驶研发中心。此外，小米澎湃OS、智能座舱系统、跨端智联等多项技术，以及小米生态链企业的支…]]></summary>
-        <author>
-            <name>一个符号工作室</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[政务G端产品建设指南（产品规划）]]></title>
-        <id>https://www.woshipm.com/?p=6028610</id>
-        <link href="https://www.woshipm.com/pd/6028610.html"/>
-        <updated>2024-04-09T02:56:39.000Z</updated>
-        <summary type="html"><![CDATA[政务项目的产品规划，通常需要结合项目的里程碑一起定制，按照时间来交付，在项目周期内，在什么阶段需要做哪些？本文总结了政务G端产品的建设指南，希望对你了解相关流程有所帮助。
-
-一、背景
-本指南，基于数字政府建设的要求和趋势，从多个角度阐述数字政府建设的行业经验和方式方法，包含涵义篇、体系篇、建设篇、经验篇等内容，供各位想从事了解或者已经从事政务行业的人士参考。
-本篇为经验篇的其中一个章节，错误或不完善的地方，还请指正。
-项目风云变幻，一个好的产品规划，是项目能够获得主动性的关键，也是产品能够平稳落地、符合逾期的核心。
-政务项目的产品规划，通常结合项目的里程碑一起定制，也就是在规定的项目周期里，各阶段计划实现哪些内容。
-二、产品规划
-1. 需求管理
-政府行业的需求，具有一定的不确定性和浅显性，分析需求时，一定要主动思考，不能以“客户提出的就是对的”这种心态管理需求。
-需求的来源，除了上述提到的需求调研之外，还包括项目内部团队成员提出、老板提出、竞品分析等。通过以上多种渠道收集来的需求，需要进一步的分析整理，整理要点如下：
-需求的准确性。并不是所有的客户需求都会直接传递给产品经理或需求分析师，因此，产品经理或需求分析师在收到“二手”需求时要第一时间确认原始需求，尽量要到客户原话并加以理解分析，如果第一时间不能完全确认需求，尽量约客户进行二次需求确认，避免出现理解不一致返工的情况。
-需求的有效性。我们经常会陷入一个“自我认同”的心境中，即接到需求的第一时间，就认为需求是真实需求，甚至在客户现场就光速答应客户会实现提出的需求。谈论需求时，首要明确需求是否是真实需求，如果是伪需求，进一步看看是否属于因客户表达方式问题而忽略的隐藏需求，试图挖掘背后真实的意图；如果识别为真实需求，判断技术上能否实现、实现的难易程度以及是否超出合同范围等。
-需求的价值性。并不是所有的有效需求都要满足实现，受…]]></summary>
-        <author>
-            <name>PM小刘</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[商业拆解09 | 英语赛道1000W+/年、这对夫妻“站着把钱挣了”]]></title>
-        <id>https://www.woshipm.com/?p=6028257</id>
-        <link href="https://www.woshipm.com/operate/6028257.html"/>
-        <updated>2024-04-09T02:47:28.000Z</updated>
-        <summary type="html"><![CDATA[一个夫妻店，去年至少赚了1000W+，人数不到10个人，是怎么做到的？这篇文章，我们就来拆解一下这个案例，看看有那些地方可以学习的。
-
-今天来拆解一个“站着把钱挣了”的夫妻店案例。特立独行、很有意思。你可能会说，干嘛拆解夫妻店啊，多不高级？
-但高不高级，我说了不算，你说了也不算，消费者愿不愿意、买不买单才算。
-从这一点上看，这对夫妻档做的不错，堪称标杆。如果以后，我也，你也，那这个案例非常值得一看。
-一、案例背景
-这是一个不怎么出圈的英语IP，不像雪梨那么人尽皆知，也不如杨家成那么耀眼，更没有恩恩姥姥那么下沉。
-我是听这个IP背后的操盘手分享的时候，才去手动搜索找到的。
-这是一对夫妻店，丈夫操盘，妻子做IP，2023年至少赚了1000W+，公司人数不到10个人。据操盘手说，2024年还要继续缩小规模，提升利润。
-同为教育人&创业人，我认为他是把在线教育的玩法和精髓给吃透了，特别懂成本计算、十分明白自己要什么，敢取舍，比如，不做巨头。
-
-做巨头多累啊，要时刻警惕被对手黑，被举报，被监察，营销上小心翼翼，推广上战战兢兢，而且有时候莫名其妙的就会被拉下神坛，远一点的不说，就比如最近的农夫山泉。
-我在企业里操盘项目的时候，都是特别希望公司做大，上市，最好做成巨头，因为这样，就会极大的满足我的虚荣心，方便以后我创业的时候拿来做背书。瞧瞧、大厂，瞧瞧这团队，项目规模、瞧瞧~~
-但是，我现在经营这个小破公司的时候，我却希望小一点、慢一点、稳一点，最好不要成为巨头，我想要做到行业TOP，但是却不希望成为最大的那一个，但是要成为最特别的那一个。
-在这一点上，这个IP堪称我的学习标杆。
-二、案例拆解
-
-其实商业模式很简单，对不对？
-我认为成功的商业模式一定是很简单的。反之，就要警惕。
-只是人心太复杂了。而且很多人总喜欢用营销品牌学来解决自己本需要用社会心理学才能解决的问题。
-南辕北辙，只会越做…]]></summary>
-        <author>
-            <name>是清音啊</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[百分浏览器 Cent Browser 4.3.9.248 Stable + 5.0.1002.354 Stable + 5.1.1130.26 Beta（x86 + x64）]]></title>
-        <id>http://bak.qiuquan.cc/?p=4153</id>
-        <link href="http://www.qiuquan.cc/browser/centbrowser.html"/>
-        <updated>2024-04-09T02:40:37.000Z</updated>
-        <summary type="html"><![CDATA[Cent Browser，又称百分浏览器，是一款由百分工作室（Cent Studio）采用谷歌的开源Chromium开发者引擎系统精心重编译而成，并附加诸多实用功能的增强版网页浏览器。它具备谷歌自主知识产权Blink极速浏览器内核，持续致力于简单且有效率的用户交互界面。]]></summary>
-        <author>
-            <name>泉</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[腾讯视频 11.92.1408 去广告精简版]]></title>
-        <id>http://bak.qiuquan.cc/?p=4260</id>
-        <link href="http://www.qiuquan.cc/media/qqlive.html"/>
-        <updated>2024-04-09T02:10:19.000Z</updated>
-        <summary type="html"><![CDATA[腾讯视频播放器是腾讯视频旗下的客户端产品，是一款支持丰富内容的在线点播及电视台直播的软件。它采用了先进的P2P流媒体播放技术，可以确保在大量用户同时观看节目的情况下，节目依然流畅清晰；同时具有很强的防火墙穿透能力，为用户在任何网络环境下收看流畅的视频节目提供了有力保障。]]></summary>
-        <author>
-            <name>泉</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[专业软件卸载工具——Uninstall Tool 3.7.4（Buile 5725）破解版（安装版 + 单文件版）]]></title>
-        <id>http://bak.qiuquan.cc/?p=4206</id>
-        <link href="http://www.qiuquan.cc/systemtool/uninstall.html"/>
-        <updated>2024-04-09T02:00:38.000Z</updated>
-        <summary type="html"><![CDATA[Uninstall Tool 是一个小巧、安全、快速、强大的软件卸载删除工具和自启动管理工具，它支持在使用软件本身的卸载程序卸载完毕后，再扫描软件残留的注册及其它残余文件，将其彻底在系统删除！安装监视器可以监视每个应用程序的安装，实时监视应用程序安装在系统中的任何文件及注册表项目，当您使用Uninstall Tool卸载软件时，它会更加彻底的将其删除干净，不留痕迹！软件本身还带有管理系统随机启动程序工具，加快系统启动速度！]]></summary>
-        <author>
-            <name>泉</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[中高阶产品经理，数字科技企业的“攻坚手”]]></title>
-        <id>https://www.woshipm.com/?p=6028411</id>
-        <link href="https://www.woshipm.com/it/6028411.html"/>
-        <updated>2024-04-09T00:02:51.000Z</updated>
-        <summary type="html"><![CDATA[一支既能洞悉市场需求、把握行业趋势，又能协调跨部门资源、高效推进项目实施的精英团队，有助于数字科技企业驱动创新引擎持续运转。
-
-01 背景
-越来越多企业开始积极投身于数字化浪潮之中，在这个过程中，数字科技企业凭借大数据、人工智能、云计算等先进技术重塑着各行各业的运作模式和服务方式。
-然而，在日新月异的科技竞争环境中，尤其是在企业深化数字化进程的关键阶段，如何有效培养具备战略视野、深度理解技术应用场景并能驾驭复杂项目管理的中高阶产品经理，成为了数字科技企业发展过程中亟待解决的关键课题。
-一定程度上，中高阶产品经理的角色犹如一座桥梁，连接着技术研发与市场需求、用户痛点之间的鸿沟。他们在企业的创新驱动中扮演着至关重要的角色，不仅需要洞悉市场动态、预见行业趋势，更要精通产品设计、优化用户体验，以及引导团队实现从概念到落地的全过程。
-02 解决方案
-1. 客户背景
-关于这个问题，国内领先的数字科技企业 J 公司也有所预见。
-随着 J 公司各条业务线的高速发展，产品经理人才梯队建设也进入了新的阶段，很大程度上，中高阶产品经理是公司在进行产品创新、商业化、业技融合进程的中坚力量。
-所以为了打造一支特别能攻坚的产品精锐人才，J 公司选择和起点团队合作，组织《产品攻坚营》，全面提升产品经理思维认知、全链路产品专业力及多岗位经验，对于中高阶产品经理进行选拔、摸底、培养、复测，识别和培养一批优中选优的产品经理人才。
-2. 解决方案
-本次参与培训的人员背景相对复杂，业务类型、负责的产品类型不一，为了更好地贴合同学们的实际能力情况，起点团队决定结合专家导师调研、访谈、课前专业技能测评+个人短板识别的方式，进行人才定性和定量的分析，输出人才能力分析，以确保培养的专业性和科学性；最终的培养方式，则通过线下实战任务练习+课后复盘行动的共创工坊形式进行，帮助同学们在“教学练用”中夯实基础，提高实操能力。
-整…]]></summary>
-        <author>
-            <name>起点课堂企业服务</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] RegCool v2.000]]></title>
-        <id>3084+1712596146</id>
-        <link href="https://www.portablefreeware.com/?id=3084&amp;ts=1712596146"/>
-        <updated>2024-04-08T17:09:06.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[注册表管理工具 RegCool 2.000 + x64 中文多语免费版]]></title>
-        <id>http://www.dayanzai.me/?p=33712</id>
-        <link href="http://www.dayanzai.me/regcool.html"/>
-        <updated>2024-04-08T16:32:43.000Z</updated>
-        <summary type="html"><![CDATA[注册表管理工具 RegCool + x64 中文多免费版由大眼仔旭发布。RegCool 是一个高级注册表编辑器 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MAC 地址更改工具 Change MAC Address 24.04 中文多语免费版]]></title>
-        <id>http://www.dayanzai.me/?p=71189</id>
-        <link href="http://www.dayanzai.me/change-mac-address.html"/>
-        <updated>2024-04-08T16:30:47.000Z</updated>
-        <summary type="html"><![CDATA[在网络适配器芯片的固件中，每个网络适配器都有一个制造商嵌入的唯一 MAC 地址。有时，你可能需要找出或更改网络 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[系统优化组合软件 WinTools net Premium 24.3.1 中文多语免费版]]></title>
-        <id>http://www.dayanzai.me/?p=5222</id>
-        <link href="http://www.dayanzai.me/wintools-net.html"/>
-        <updated>2024-04-08T16:23:09.000Z</updated>
-        <summary type="html"><![CDATA[WinTools net Premium 24 中文版由大眼仔旭发布。WinTools.net 是一系列的系统 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ExifTool 图形界面 ExifToolGui 6.3.0 中文绿色汉化版]]></title>
-        <id>http://www.dayanzai.me/?p=71145</id>
-        <link href="http://www.dayanzai.me/exiftoolgui.html"/>
-        <updated>2024-04-08T16:22:13.000Z</updated>
-        <summary type="html"><![CDATA[在数字时代，图像元数据的重要性日益凸显。它不仅记录了图像的拍摄信息，还蕴含着丰富的创作背景和故事。而如何有效地 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[开源安卓实时投屏工具 QtScrcpy 2.2.1 + x64 中文免费版]]></title>
-        <id>http://www.dayanzai.me/?p=3483</id>
-        <link href="http://www.dayanzai.me/qtscrcpy.html"/>
-        <updated>2024-04-08T16:21:02.000Z</updated>
-        <summary type="html"><![CDATA[开源安卓实时投屏工具 QtScrcpy 中文版 AE关键帧运动动画极品脚本由大眼仔（www.dayanzai. […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[免费开源的 FTP/SFTP 软件 Cyberduck 8.8.2.41344 中文多语免费版]]></title>
-        <id>http://www.dayanzai.me/?p=3544</id>
-        <link href="http://www.dayanzai.me/cyberduck.html"/>
-        <updated>2024-04-08T16:12:09.000Z</updated>
-        <summary type="html"><![CDATA[Cyberduck 中文版 免费开源的 FTP/SFTP 软件由大眼仔旭（www.dayanzai.me）发布 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] MiTeC EXE Explorer v3.7.1]]></title>
-        <id>2857+1712587375</id>
-        <link href="https://www.portablefreeware.com/?id=2857&amp;ts=1712587375"/>
-        <updated>2024-04-08T14:42:55.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[喷墨与激光打印机有什么区别，哪种最好？]]></title>
-        <id>http://www.dayanzai.me/?p=71146</id>
-        <link href="http://www.dayanzai.me/laser-printer-vs-inkjet.html"/>
-        <updated>2024-04-08T12:32:11.000Z</updated>
-        <summary type="html"><![CDATA[选购一台新打印机可能会令人感到非常困惑。除了浏览各种不同的品牌，您还需要弄清楚是喷墨打印机还是激光打印机最适合 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5个维度解读如何构建品牌营销策略]]></title>
-        <id>https://www.woshipm.com/?p=6027389</id>
-        <link href="https://www.woshipm.com/marketing/6027389.html"/>
-        <updated>2024-04-08T10:48:12.000Z</updated>
-        <summary type="html"><![CDATA[品牌营销策略对于企业的成功至关重要，指引企业在市场竞争中稳步前行。如何构建品牌营销策略？作者从五个维度进行了解读分析。
-
-品牌营销策略对于企业的成功至关重要，它如同孩子成长中的父母教导，指引企业在市场竞争中稳步前行。完善的营销计划不仅帮助企业明确市场定位，还能确保企业在不同阶段采取恰当的策略和行动。
-在构建品牌营销策略时，需要深入了解消费者需求，确定品牌核心价值和特色，并选择适合的营销渠道来推广。只有循序渐进地推进品牌营销，注重与消费者的互动和沟通，企业才能赢得消费者的信任和忠诚，最终实现自身的成长和成功。
-这就意味着，建立品牌营销策略涉及到洞察消费者需求、制定精准的品牌定位、以创意吸引目标受众、有效传播品牌信息以及持续运营维护等环节。这些方面相互关联、相互支持，共同构成了品牌营销策略的完整框架，推动企业成功塑造并维护强大的品牌形象，从而在市场竞争中脱颖而出。
-一、洞察消费者需求
-
-这项工作旨在深入挖掘消费者内心深处的需求和偏好，为企业揭示无尽的市场机遇，探索新的战略战术。在这一过程中，企业不仅能够更精准地定位产品和服务，更能有效地提高营销成效，摆脱市场的激烈竞争。
-然而，洞察消费者并非易事。在这个纷繁复杂的市场环境中，消费者常常会在无意中布下陷阱，让没有“慧眼”的企业陷入困境。这就要求企业在洞察消费者时，既要顺应人性，又要敢于挑战人性。
-站在静态的角度看，顺应人性似乎是明智的选择。因为消费者往往更容易接受那些与他们心理需求相契合的产品和服务。
-以可口可乐这一驰名世界的百年品牌为例，其始终深谙消费者心理、精准把握市场需求。从经典口味的传承到针对不同消费群体的创新产品，可口可乐始终满足着消费者的口味偏好，并通过富有创意的广告宣传，与体育赛事、音乐节等热点活动紧密合作，成功吸引消费者的目光，建立了年轻、活力的品牌形象。这种深入洞察消费者需求并灵活应对市场变化的策略，使得可口可乐…]]></summary>
-        <author>
-            <name>品牌市场相对论</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[自营和非标是品牌增长洼地]]></title>
-        <id>https://www.woshipm.com/?p=6027467</id>
-        <link href="https://www.woshipm.com/marketing/6027467.html"/>
-        <updated>2024-04-08T10:45:41.000Z</updated>
-        <summary type="html"><![CDATA[自营和非标组合是品牌增长洼地吗？作者在市场调研中和部分外地商家沟通后，了解到一些与以往不同的经营理念。
-
-说个经历：
-现在商场喜欢弄一些面包节、咖啡节、春日游园会等活动。为了吸引人来消费，同时也给中小品牌露脸机会。
-清明节前夕，逛几个市集，顺便做下市场调研，和部分外地商家聊完后发现，越来越多下岗年轻人，开始独立做小众品牌。
-不过，经营原则和以往有些不同，他们越来越清醒，不再像过去把钱投到线上平台抢流量、追求做大，更倾向小而美经营逻辑。
-比如：
-开一家咖啡厅，不加盟，主打网上学习怎么做后，在当地像麻雀一样找到生态位，以小生意思维为目标，建立一套新品研发、销售，维护老客户的方法，绕过大品牌竞争。
-除此外，在他们身上，我还学到不少对生意模型、非标、自营经营等方面见解，或许，这些是未来挖掘增量的机会点。
-01
-针对品牌的赚钱模式有几种，你知道吗？有三个：
-平台型生意
-加盟型生意
-自营生意
-喝咖啡时，一个年轻商家说道：“今天互联网时代，你去APP商店随便一翻，小而美软件几乎看不到，除游戏和工具，能从移动互联网飞速发展中活下来的，基本是平台大玩家。
-为什么会这样？因为互联网竞争法则是赢者通吃，市场集中度高，容不下业务同质化小的平台。
-大平台，用技术把供需两端连起来，从中间发展出各式各样的商业模式，他们算最轻松的印钞机，只要占据上游核心垄断地位，不断维持下游生态繁荣，就可以一劳永逸，高枕无忧的躺着挣钱。
-说到国内互联网平台，大致分为电商（比如淘宝、拼多多、美团）和信息流（抖音、头条、百度）还有本地服务的（美团、大众点评）。
-我以前在大公司做技术开发，后来，大厂裁员就出来干了；现在看来，不管做啥好像都绕不开平台魔咒，我正在试图摆脱这种模式。
-我问：为什么？
-对方说，轻资产创业听起来挺好，实际步入一个预设好的有限游戏中。
-国内电商平台，没有哪家能说自己有很深的护城河，消费者追求无非「多快好省…]]></summary>
-        <author>
-            <name>王智远</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[100种分析思维模型之：增长思维]]></title>
-        <id>https://www.woshipm.com/?p=6027822</id>
-        <link href="https://www.woshipm.com/share/6027822.html"/>
-        <updated>2024-04-08T07:13:31.000Z</updated>
-        <summary type="html"><![CDATA[本文作者介绍了分析思维模型：增长思维。增长思维主要关注与个人成长和产品相关的增长，它能帮助我们提升判断能力，更好地应对未来的变化和挑战。
-
-增长是一个范围很广的话题，国家希望经济获得增长，企业希望收入和利润获得增长，个人希望财富获得增长……
-在工作中，我们希望收入获得增长。
-在生活中，我们希望智慧获得增长。
-在学习中，我们希望见识获得增长。
-下面介绍 100 种分析思维模型的第 62 种：增长思维，主要关注与个人成长和产品相关的增长，它能帮助我们提升判断能力，更好地应对未来的变化和挑战。
-一、为什么学习增长思维？
-如果一个人的收入增长快于消费增长的速度，就会变得越来越富裕，否则就会变得越来越穷困。
-如果一个人的智慧增长快于年龄增长的速度，就会让人感觉充满活力，否则就会让人感觉未老先衰。
-如果一个人的见识增长快于时代发展的速度，就能获得更多的好机会，否则就有可能错失良机。
-增长能力，是持续做出正确决策的能力。
-学会在正确的时间、用正确的方式、做正确的事情，这是需要我们终身学习和实践的东西。
-二、什么是增长思维？
-人们对增长的理解五花八门：有人说，增长就是以技术的方式做互联网营销；有人说，增长黑客是技术变现；有人说，增长是考量效果的营销；还有人说，增长是数据驱动的营销……
-在某种程度上来讲，这些说法都有一定的道理，但是没有反映增长的本质。
-增长其实是比营销更底层的一个概念，它以供需分析为基础，主要是研究供给和需求的平衡问题，从用户全生命周期中寻找适合的增长点。
-增长的本质，是一个资源再配置的过程，核心是找到关键的供需失衡问题，然后想办法调节供需，使其趋向平衡。
-好产品是增长的根本，运用产品思维，要知道产品的核心价值是什么、目标用户是谁，否则无论营销手段有多高明，或者广告投入有多大，都不会获得可持续的增长。
-增长不只是AARRR模型，你可以根据业务的实际情况，探索出不同的增长路径…]]></summary>
-        <author>
-            <name>林骥</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[支持20万字的上下文的Kimi产品测评]]></title>
-        <id>https://www.woshipm.com/?p=6027257</id>
-        <link href="https://www.woshipm.com/evaluating/6027257.html"/>
-        <updated>2024-04-08T07:03:47.000Z</updated>
-        <summary type="html"><![CDATA[本文深入探讨了Kimi产品的多方面性能和用户体验，提供了全面而详细的测评，引导阅读，希望对你在选择和使用Kimi产品时有所帮助。
-
-Kimi是一个有着超大“内存”的智能助手，可以一口气读完二十万字的小说，还会上网冲浪，快来跟他聊聊吧
-在国内大模型格局基本已定的情况下，Kimi还能再火一把，吸引大家的关注，确实不容易。主打就是一个长文本的输入和理解。
-
-关键点：
-支持一次发送长达20w汉字的文档，Kimi可以快速阅读并输出相应的主要内容解读。
-在对话中，最长支持上下文200w字的理解，即在这个字数范围内，系统能够记住和参考之前提到的信息，从而提供连贯、一致且相关的回答。
-仅凭这一点，就值得好好研究体验一下。毕竟在所有大模型产品中，这也是遥遥领先的存在。
-作为产品经理，本次测评Kimi的目的可能包括以下3个方面：
-市场定位：通过测评了解Kimi在当前市场中的定位，包括它与竞争对手相比的优势和不足，以及它能满足的市场需求和潜在的增长空间。
-用户体验优化：评估Kimi在实际使用中的表现，包括用户界面的友好性、功能的易用性、响应速度等，以便发现并解决用户体验中的问题。
-产品改进：识别Kimi的强项和弱点，为产品的持续改进提供依据。这可能涉及算法优化、功能增强、性能提升等方面。
-一、关于月之暗面（MoonshotAI）
-公司介绍：
-北京月之暗面科技有限公司（ Moonshot AI）是一家专注于通用人工智能领域的公司。公司致力于寻求将能源转化为智能的最优解，通过产品与用戶共创智能，实现普惠AI。
-成立时间：2023年3月1日
-二、关于月之暗面杨植麟
-杨植麟是一位在AI领域具有显著影响力的年轻科学家和创业者。这位保送清华、程序设计课程满分的“少年天才”，在卡耐基梅隆⼤学读博⼠时，就已经 作为第⼀作者发表的关于Transformer-XL与XLNet的两篇论⽂，成为本次AI⼤模型技术能够突…]]></summary>
-        <author>
-            <name>Echo 产品论</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[我用 FetchRSS 和 RSS Translator，做了一个针对 Everything 1.5 Alpha 的中文更新 RSS 地址]]></title>
-        <id>https://www.appinn.com/?p=48119</id>
-        <link href="https://www.appinn.com/fetchrss-and-rss-translator/"/>
-        <updated>2024-04-08T06:36:42.000Z</updated>
-        <summary type="html"><![CDATA[由于 Everything 正式版已经很久不更新了，但是 Everything 1.5 Alpha 更新的却非常频繁，只不过开发者一直在其论坛里更新，就没有办法获得最新的消息。 恰巧很久以前用 Fet]]></summary>
-        <author>
-            <name>青小蛙</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[从白领、蓝领到科学家、艺术家，AI正在接手哪些工作？]]></title>
-        <id>https://www.woshipm.com/?p=6027775</id>
-        <link href="https://www.woshipm.com/share/6027775.html"/>
-        <updated>2024-04-08T06:28:52.000Z</updated>
-        <summary type="html"><![CDATA[开始做AI时，我们都希望AI能帮我们完成机械重复的繁重工作，人类能放手去做一些更高端的工作。但现在的AI，艺术家和科学家反而成了AIGC的养料，而且AI貌似什么都会，人类何去何从呢？
-
-这个世界就是一拨人昼夜运转，另一拨人起床发现世界变了。
-在这个AI应用寒武纪大爆发的时代，AI对白领、蓝领、艺术家、科学家都产生了什么正负向影响？
-这篇文章里有我一直以来关注的国内外AI应用进展，也有很多好玩、惊喜的切身体验。
-一、AI之于白领、蓝领，是帮工，也是领导
-AI这根挥向世界的魔法棒，正在改变什么？
-在AIGC爆发初期，作为一个“懵懂大学生”，大模型和AI更多是在增强和优化现有的工作和服务。即便这样，在人类生产和创造都逐渐向数字世界迁移的过程中，AI魔法也在向白领、蓝领乃至科学、艺术等各领域悄然渗透，辅助和取代部分工作。
-AIGC用在游戏、影视、营销、电商等服务业比较多，这些行业的白领也是最先感受到AI“福报”的人。去年跟几个唱歌搭子去KTV，其中一个游戏原画师说半年没找到工作了。今年，这波“福报”已经卷到视频行业，我们公司费尽周折招来了有AIGC视频项目经验的同事，来研究怎样满足营销需求。公司里不管是文案、技术还是设计师岗，都被要求学、用各种AI软件。
-该说不说，AI是真有用，我自己就根本离不开AI。写稿子把营销案例交给AI，直接就能用营销术语分条总结出营销策略。最近刚刚写完的一本书，也用AI做了大量资料调取、总结内容的工作，如果没有AI写完估计头都秃了。
-
-AI也真能省钱。
-去年，我在某音频网站花了六百多（这还是会员价）买了一首背景音乐一年的版权，今年用AI分分钟搞好了背景音乐，再也不用续费了！
-
-还有一个比较触动我的事是，有天中午给精通Midjourney的设计师朋友介绍了一个临时的AI活儿，她下午用三个小时就完成了广告公司报价大几千的海报，对今年营销预算缩紧的老板们来说不要…]]></summary>
-        <author>
-            <name>AI NPC 刘与白</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[小红书灵犀是什么？对商家运营有何借鉴意义？]]></title>
-        <id>https://www.woshipm.com/?p=6027470</id>
-        <link href="https://www.woshipm.com/share/6027470.html"/>
-        <updated>2024-04-08T06:05:05.000Z</updated>
-        <summary type="html"><![CDATA[小红书推出灵犀后，它能够帮助人们什么？商家又如何借鉴？一起来看看本文作者的分析。
-
-去年小红书举办商业大会，正式介绍灵犀产品，官方解释，灵犀是针对商家选品、调研、卖点投放的平台。
-在我看来，它类似于抖音的云图、淘宝的生意参谋，有了这个系统，能更高帮助商家选品、目标用户选择、产品力诊断等。
-备注目前只开放代理商和部分高消耗客户，90%以上的商家用不了。
-
-小红书灵犀后台功能
-之前小红书在36Kr新闻稿也透露出，灵犀有赛道、需求分析、受众分析和产品口碑调研等内容，最新的介绍灵犀洞察，解决品牌各阶段的问题。
-如趋势洞察、选什么品、去看品的市场反应度、和谁进行沟通，产出什么样的卖点，换句话说，平台就是帮助你在小红书取胜。
-
-小红书灵犀洞察解决的问题
-下面来谈灵犀这5大功能；
-一、灵犀趋势洞察
-灵犀作为一个数据平台，融合小红书搜索、不同社区类目数据，能看到不同词的增长情况。
-比如水乳，就能看到近期是否在增长、指数的变化，榜单等。商家在选品时也会有参考性；
-
-小红书灵犀趋势洞察
-二、灵犀帮助选品
-如美妆品牌A，在考虑精华和面霜如何来做？
-灵犀可以分析市场趋势，看市场需求和竞品竞争情况，看搜索和需求蓝情况，由此就能看到品牌在哪个类目上，确定竞争优势。
-
-灵犀帮助品牌看赛道竞争情况
-PS：灵犀此处的数据，也可通过官方更新的月报和关键词规划后台，看到搜索量和出价情况，能真正看到具体的竞争情况。
-以1月份美妆月报为例，就能看到行业搜索和竞争占比，哪里是竞争蓝海、红海等；
-
-小红书美妆类目占比分析
-
-小红书美妆行业竞争点击成本
-三、灵犀帮助诊断产品力
-用灵犀去看品牌在消费者眼中，自身产品力如何？
-
-具体看产品整体口碑，看具体用户反馈。如A品牌精华NPS（口碑推荐）比其它品牌高，去看具体的维度的正负向评价，然后根据用户评价，动态调整产品；
-
-灵犀帮助诊断产品力
-PS：灵犀把用户关注的点排序，然后再进行下探细分，以功效为例，有抗老、保湿、抗氧化等需求，去看品牌在这个维度上，有哪些优势。
-但此处我也会产生疑问，作为品牌，基本会自己种草，自己种草基本是口碑维护，此处的正向反馈和词云，客观性也是存在问题。
-四、灵犀目标用户分析
-最后一步灵犀帮助品牌分析，用户是哪一群人，喜欢什么？
-去定义TA，丰富用户的标签，分析用户的标签，了解客户的标签，通过标签的细化后，再进行广告和投放。
-
-灵犀目标用户画像分析
-目标用户的核心，利用小红书人群反漏斗模型，围绕核心人群打透，持续化破圈转化；
-
-小红书人群反漏斗模型
-举例全棉时代纱布被，核心人群是陪睡熊猫眼妈妈、兴趣人群是熊猫眼白领、然后到精致睡眠家，层层突破人群来做；
-
-全棉时代人群反漏斗模型
-五、灵犀卖点洞察
-灵犀也可以帮助品牌确定主推何种卖点？
-首先将用户需求，用户的关注点依次排序，洞察功效有哪些，然后继续下钻到功效层面，用户关注关注哪些？
-然后再继续下钻，成分有哪些，相对于其它品牌，有哪些优势。
-
-小红书灵犀卖点洞察
-六、灵犀对商家的帮助
-以上是官方关于灵犀的介绍，谈一下，我个人对灵犀平台的理解；
-1、小红书数据能力升级
-灵犀推出，是官方对外披露最全的数据平台，对每一个商家来讲，都有借鉴意义，去看类目的竞争、用户需求、竞品的情况，也能让品牌及时做出选择，甚至是及时放弃。
-相对于抖音的云图、淘宝的生意参谋，灵犀是否全面给商家还不确定。
-太多的小商家、私域类商家、甚至博主也需要类似的数据工具去指导，目前市面分析工具，如千瓜、灰豚也在承担类灵犀的功能；
-2、既要科学营销又要品牌理论
-灵犀、生意参谋、云图都是5A传播模型下，几乎所有的平台都在试图，用一套流程告诉商家如何科学做营销，去洞察、做卖点、使用投放工具。
-但在营销底层内容，理论还是处于缺失阶段，比如命名即战略、传播即成本、交易成本等品牌理论，商家在运营还有很大的空间学习，既要科学营销又要品牌理论配合。
-专栏作家
-江河聊营销，微信公众号：江河聊营销，人人都是产品经理专栏作家。从品牌投放到达人孵化，帮助近百家品牌、数十位达人在小红书少走弯路。
-本文原创发布于人人都是产品经理，未经作者许可，禁止转载。
-题图来自Unsplash，基于CC0协议。]]></summary>
-        <author>
-            <name>江河聊营销</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] ControlMyMonitor v1.38]]></title>
-        <id>2911+1712553932</id>
-        <link href="https://www.portablefreeware.com/?id=2911&amp;ts=1712553932"/>
-        <updated>2024-04-08T05:25:32.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] ColorConsole v6.91]]></title>
-        <id>1960+1712553867</id>
-        <link href="https://www.portablefreeware.com/?id=1960&amp;ts=1712553867"/>
-        <updated>2024-04-08T05:24:27.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] DesktopOK v11.19]]></title>
-        <id>1692+1712553828</id>
-        <link href="https://www.portablefreeware.com/?id=1692&amp;ts=1712553828"/>
-        <updated>2024-04-08T05:23:48.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] SearchMyFiles v3.25]]></title>
-        <id>1485+1712553796</id>
-        <link href="https://www.portablefreeware.com/?id=1485&amp;ts=1712553796"/>
-        <updated>2024-04-08T05:23:16.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] Info-Base v13.1]]></title>
-        <id>2521+1712553733</id>
-        <link href="https://www.portablefreeware.com/?id=2521&amp;ts=1712553733"/>
-        <updated>2024-04-08T05:22:13.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[告别盲目推广！掌握科学营销方法，精准锁定目标受众，让每一份投入都产生最大回报]]></title>
-        <id>https://www.woshipm.com/?p=6027600</id>
-        <link href="https://www.woshipm.com/share/6027600.html"/>
-        <updated>2024-04-08T03:25:52.000Z</updated>
-        <summary type="html"><![CDATA[相信很多人对营销是既熟悉又陌生。熟悉的是很多人都看过营销的书籍或营销之类的文章，陌生的是只是知道营销的理论，却不知道如何去把营销落地。本文来帮助大家解决下这些问题。
-
-一、科学的营销策略
-科学的营销策略其实并不难懂。让我用几个生活中的例子来解释一下。
-案例一 健康产品巨头脑白金如何提升市场份额？
-众所周知,其目标客户为老年群体.对于老年人群体而言,如何做的营销的呢？
-老人随着年龄增长，机体功能逐渐衰退导致睡眠不足及心理焦虑，服用脑白金可使老年人缓解失眠以及焦虑情绪；然而，究竟为何如此有效呢？关键在于脑白金的核心成分：褪黑素与低聚糖。前者有助于人体生物钟调节及睡眠品质改善，后者则调节肠道酸碱度，促进肠道运动，减少毒素吸收（大家可以PDD搜下“褪黑素片价格”）。
-
-接下来解答以下问题：购买者与使用者是否为同一群体？通常情况下，购买并不由老年群体自己买的，而是其子女或晚辈买的，大多数购买场景“过年过节的礼品”考虑到礼品选择需负责任且具心意，价格不能太廉价，大部分消费者力所能及，而且还有效果，有口碑。
-哪种传播途径能同时触达此类人群呢？各卫视电视台、CCTV、老旧社区的围墙上以及乡村街道墙面，都成为了优质传播媒介。
-当你观察到大爷大妈们收到珍视所得的这份珍贵礼物时，他们内心必无比欣喜!而其显著的效果也令人暖心，这种感恩之情使得他们更乐于宣扬脑白金产品。
-最后，再来谈成本问题。
-
-除原料本身外，主要成本集中于包装、营销及销售渠道等方面。而在推广上，广告语简单明了——’今年过节不收礼，收礼只收脑白金!’
-脑白金营销案例分析：
-目标受众：脑白金主要针对的是老年人，尤其是那些睡眠质量不佳的消费者。
-购买者与使用者：购买者通常是年轻人，他们为老年人购买脑白金作为礼物，以此来表达孝顺。
-产品功效：脑白金的主要成分是褪黑素，有助于改善睡眠。
-传播渠道：选择CCTV1等黄金时段进行广告，因为这些时…]]></summary>
-        <author>
-            <name>闯爷</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[营销服运营平台-更高维度看营销服平台的定位]]></title>
-        <id>https://www.woshipm.com/?p=6027503</id>
-        <link href="https://www.woshipm.com/pd/6027503.html"/>
-        <updated>2024-04-08T03:18:06.000Z</updated>
-        <summary type="html"><![CDATA[本次分享内容是承接前篇从运营角度解构数字化转型《从解构企业价值看数字化转型》，站在数字化全貌角度来看营销服平台。
-
-C端业务比单纯的B2B业务要复杂的多，一方面是比B2B业务多了C端用户，场景就不是简单的倍数增长了；另一方面，品牌方需要在用户增长、业务增长、组织升级与伙伴增长中寻找平衡，在降本提效的同时还要实现用户满意、员工满意、伙伴满意。
-最复杂的莫过于制造业，尤其汽车等高客单价商品或服务的行业。
-一、核心价值链与数字化全貌
-制造业务的核心价值链中有3大核心业务：产品研发、生产供应链、营销服，构成了企业的核心业务链路，对应的会有PLM、ERP+MES+SCM、CRM等核心系统，以及围绕核心系统建设的小系统，或强化核心系统的某个领域，比如TMS物流系统、DMS经销商管理系统、CC客服系统、CDP客户数据平台、EPC电子图册等等。
-
-下图是车企的核心业务系统以及业务关系，可以帮助大家有更全貌的认识。蓝色是产品研发部分，黄色是营销服部分的，中间是生产供应链部分。
-
-二、再认识CRM
-CRM概念的出现已很多年，我的理解有3点：
-管理角度：以用户为中心的管理思想
-业务角度：为客户提供产品或服务的流程组合
-系统角度：以客户为中心、帮助企业高效提供服务的信息系统
-要对CRM有准确的理解，就需要追溯CRM系统的历程。有4个关键时间点：
-
-1956年，美国泛美航空使用世界上第一个呼叫中心为客户提供方便的咨询服务、机票预订和处理乘客投诉。
-1980年，AT&T公司开始使用系统记录联系人。开始大规模出现呼叫中心。
-1993年，Siebel CRM产品面世，功能主要包括销售管理、现场服务管理、专业化服务、产品配置器、价格配置器、佣金管理等功能模块。
-1999年，Salesforce成立，推出了相对完整的CRM产品，涵盖了营+销+服领域，主要的功能包括销售管理、市场营销、客户服务等。与Siebel…]]></summary>
-        <author>
-            <name>王建儒营销数字化</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数字化浪潮下的采购与支出管理，正在发生新一轮革命]]></title>
-        <id>https://www.woshipm.com/?p=6027590</id>
-        <link href="https://www.woshipm.com/it/6027590.html"/>
-        <updated>2024-04-08T03:14:05.000Z</updated>
-        <summary type="html"><![CDATA[在当今数字化潮流的推动下，企业的采购和支出管理领域也正经历着一场深刻的变革——从传统的手工纸质流程向数字化、智能化转变，不仅提高了效率，还带来了全新的商业模式和管理方式。
-
-随着历史上纸质流程从自动化向智能化的发展，采购部门必须应对数据和文化变革。
-一、已达成的采购效率提升目标
-“如果没有更改，我们只需等待产品到货即可。”一家制造商的供应链绩效经理告诉笔者说。
-这家制造商的采购部门有一半采购订单在产品到货前需要进行更改，采购员不得不在电子表格的数千行中查找以更新数量或其他参数，并通过电话、传真或电子邮件向供应商发送新信息。
-然而在使用一款供应链协同工具后，即可与供应商实时沟通订单变更，并确认供应商已知晓修订后的订单，极大地提高了采购效率。
-该公司首席执行官透露，一位客户在COVID-19疫情期间通过自动化采购订单管理，节省了3500万美元的收入，这再次印证了数字化采购的价值。
-根据Dun & Bradstreet的调查发现，包括938家《财富》1000强企业在内，有500万家公司在武汉地区拥有二级供应商，可见其需求存在已久。而且，新冠疫情也凸显了对供应链风险管理的需求，进而需要技术和可见性，以支撑更加及时识别和应对潜在风险，从而保障供应链的稳定运行。
-“了解供应商的供应商至关重要，但现在建立一个数据库，然后可以通过自动化进行跟踪，这是一个非常低效且依赖手工操作的过程，”CAPS（亚利桑那州立大学的供应管理研究中心）研究执行董事Bryan Fuller说，整个行业都很期待技术更智能。
-二、正迈向的智能化需求趋势
-采购技术正从自动化向智能化的方向发展。
-以往，采购活动一直建立在询价和采购订单上的纸质流程，需要手动输入、审查和签署。但在近15年来，企业普遍通过采购技术来自动化流程，以减少行政成本并使其步入数字化时代。
-
-如今，将交易性流程交由机器人流程自动化处理已经很普遍。机器人…]]></summary>
-        <author>
-            <name>坤少说</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[100种分析思维模型之：FABE 模型]]></title>
-        <id>https://www.woshipm.com/?p=6027803</id>
-        <link href="https://www.woshipm.com/share/6027803.html"/>
-        <updated>2024-04-08T03:12:48.000Z</updated>
-        <summary type="html"><![CDATA[本文作者介绍了分析思维模型：FABE 模型。FABE 模型可以帮助我们提升销售能力，赢得别人的尊重和信任。
-
-现代社会，交易几乎无处不在，所以我认为每个人都需要掌握一点「销售能力」。
-下面介绍 100 种分析思维模型的第 63 种：FABE 模型，它可以帮助我们提升销售能力，赢得别人的尊重和信任。
-一、为什么学习 FABE 模型？
-FABE 模型广泛应用于很多领域，无论是销售实体产品，还是推荐虚拟物品，或者是给领导介绍一个方案，都可以运用它。
-FABE 模型提供了一个系统的框架，让我们的表达更加清晰、论述更有条理，帮助我们更好地展示产品或服务的优势，进而更加有效地传递价值。
-具体来说，学习 FABE 模型的好处主要包括以下几个方面。
-① 理解客户的需求
-通过了解产品或服务给客户带来的好处，可以更好地知道客户的需求和期望是什么，以便提供更加合适的产品或服务。
-② 提高客户满意度
-通过提供合适的产品或服务，给客户带来实际的利益，可以有效增加客户购买的兴趣，提高客户满意度和忠诚度，从而增加销售收入和利润。
-③ 制定有效的策略
-通过了解产品或服务的特征、优点，以及客户的利益，可以帮助我们制定更有效的策略，包括制定更具吸引力的话术、提供更优质的服务等。
-综上所述，FABE 模型可以让销售更有针对性，而且更加高效。
-二、什么是 FABE 模型？
-FABE 模型是 Features（特征）、Advantages（优点）、Benefits（利益）、Evidence（证据）的首字母缩写。
-简单来说，就是找出客户最感兴趣的特征，分析这一特征产生的优点，并找出这个优点给客户带来的利益，最后提供相关的证据。
-
-在销售的过程中，这 4 个环节环环相扣，让客户逐渐对产品建立信任感，促使客户做出决策。
-1. Features：特征
-特征是有形的，通常是可以被看到、尝到、摸到或闻到的东西，能让人知道它是什…]]></summary>
-        <author>
-            <name>林骥</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[产品诊断：如何提升“退货体验”？]]></title>
-        <id>https://www.woshipm.com/?p=6027490</id>
-        <link href="https://www.woshipm.com/pd/6027490.html"/>
-        <updated>2024-04-08T03:09:45.000Z</updated>
-        <summary type="html"><![CDATA[在网上买东西，谁还没有个不如意的时候；这种情况下， 退货就成了大家的选择。但不是每一家的退货体验都一定很好。本文以淘宝的退货流程为例，从产品设计的角度，来看看这个流程，如何做才是合理的。
-
-本文是笔者在淘宝退货退款时的日常体验，一点点想法💡，共勉～
-引发思考🤔：在淘宝退货环节，怎样确保给用户带来好的体验感受？
-下面👇就淘宝退货退款经历展示说说～
-一、用户使用场景
-近期在淘宝同一家店铺购买了 2 件商品，收到货后，发现与期望不符，于是前往淘宝退货。
-1. 线上申请退货退款
-找到已签收的商品订单，选择要退货的商品，点击退款，选择售后类型及商品，选择每件商品的退款原因，有多件商品则需选择多次，我选择了 2 次，确认信息后提交退款申请。
-系统自动同意退款申请，等待顾客退货并填写退货物流信息。平台针对信誉较好的顾客，享有自动同意退款申请的福利，无需等待商家同意。
-此时，发现多了 2 笔待退货售后订单， 1 笔订单中有 1 件商品。
-2. 线下寄件
-任意选择 1 笔商品订单，进入订单详情复制退货地址信息，前往丰巢小程序寄件，一键粘贴收件信息，选择快递服务，填写物品类型、数量，提交订单。
-此时，生成一笔待投柜的寄件订单，将 2 件商品投递到丰巢柜后，生成1 个物流单号。
-3. 线上填写退货物流信息
-复制丰巢小程序的物流单号，前往淘宝填写物流信息。找到待退货商品订单，进入详情页填写物流单号、物流公司，提交信息，操作到这就算完成了 1 笔商品订单的退货物流信息填写。
-收到系统自动退款，接下来等待商家收货确认。信誉较好的顾客，享有平台自动退款的福利，由平台垫付给顾客，无需等待商家收货确认后才退款。
-
-如果中途物流或退货商品存在不符合退货退款的条件，商家端应该是有权操作拒绝退款的，其目的是保障商家利益不受损。
-二、分析退货退款流程
-1. 用户操作流程
-
-2. 分析操作流程
-在操作退货退款过…]]></summary>
-        <author>
-            <name>Nana</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[小米SU7品牌：关于流量、产品、用户、营销的启发]]></title>
-        <id>https://www.woshipm.com/?p=6027649</id>
-        <link href="https://www.woshipm.com/marketing/6027649.html"/>
-        <updated>2024-04-08T03:01:40.000Z</updated>
-        <summary type="html"><![CDATA[小米召开汽车新品发布会，关于雷军的首部汽车热搜连连不断，小米su7汽车在引起轰动的同时，对于品牌人有哪些启发呢？本文将从流量、产品、用户、营销几个方面，分享作者的启发思考。
-
-3月28日小米汽车新品发布会，雷军的首部汽车一度热搜不断。汽车对于小米和雷军都是新领域，小米su7汽车引起轰动的同时，对于品牌人有哪些启发呢？
-从产品定位、新品发布会预热，到现场定价策略搭赠活动，每一步都有团队的深究考量。本篇内容，我将从su7品牌下的流量、产品、用户、营销四个模块，来谈谈含着金钥匙出生的小米su7的一些启发。
-一个观点，关于新消费品，活的最短的是研究流量那批人；再长一点，就研究产品的那批人；活得最好，是研究用户的那批人；有营销意识的品牌，是贯穿产品开发到销售售后的全生命周期。
-流量，是短期行为短期活下去；
-产品，是中长期行为保证稳健的活着；
-用户，需差异化满足潜在和已有用户行为及心理。
-营销，是系统化串联品牌全生命周期，能快速放大产品优势。
-从全域看是把双刃剑，可以抢占市场份额，也可以快速放大自己的劣势，加速品牌消亡；从经营上看，营销是贯穿产品整个生命周期。
-雷布斯在3年前决定做小米su7那一刻，营销就开始了。
-从造车前logo、及保时捷造型的选择，发布会前预热价格战的猜疑，发布会现场交定金，预定的造势，小米汽车创始版独有的用户权益，到首批交车雷布斯亲自开车门的仪式感，每一个环节都是营销。
-01 流量
-流量，对于小米而言是空气般的存在。雷军发布一条微博，动不动就热搜。小米手机，小米终端各种智能设备，小米之家线下终端门店，让小米这个消费品犹如空气般存在于用户生活。
-流量，小米品牌从来不缺热度，雷军发布会流量，虹吸消费者注意力，直播间百万场观，短视频自传播层出不断的热搜。
-如何玩转现有的流量，小米这种超级系统生态品牌是小品牌无法企及，但也能学习借鉴。
-比如流量借势，发布会前、发布会期间、…]]></summary>
-        <author>
-            <name>火火品牌营销</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[如何深度理解和制定设计目标]]></title>
-        <id>https://www.woshipm.com/?p=6026323</id>
-        <link href="https://www.woshipm.com/pd/6026323.html"/>
-        <updated>2024-04-08T02:55:48.000Z</updated>
-        <summary type="html"><![CDATA[为了更好的制定设计目标，我们需要深度理解设计的底层逻辑，本文将深度解析设计目标的来源以及具体该如何制定，提升设计价值。
-
-一、设计目标相关的基础概念
-在设计任务中，一个清晰的设计目标尤为重要。通过目标进行设计策略的制定，并通过观察设计指标对设计方法和策略进行评估。
-先了解一下这里面涉及到的基本概念：设计目标、设计策略、设计方法和设计指标，它们在设计过程中都扮演着不可或缺的角色。
-设计目标：设计工作的出发点和归宿，它明确了我们希望设计达到的效果和预期结果。
-设计策略：实现设计目标的路径和方法。
-设计方法：我们在设计过程中所使用的具体操作方式和表达。
-设计指标：是衡量设计成果是否达到预期目标的标准和尺度。
-
-综上所述，它们相互关联、相互支持，共同构成了设计工作的基础。通过合理地运用这些要素，我们可以更好地实现设计目标，提升设计的品质和效果。
-二、设计目标的底层逻辑
-首先我们需要明白互联网商业产品的本质：产品作为企业与用户的桥梁，将企业提供的服务或资源售卖给需要的用户；我们作为交互体验设计师，需要帮助构建好企业与用户的这座产品“桥梁”，最终帮助企业实现盈利。产品功能最终是为了更好的收益，所以设计目标需要服务于商业。
-其次设计结果是为了服务用户，那么我们需要从用户需求出发，了解用户的痛点爽点，让我们的设计意图能够以一种被用户理解和喜爱的方式在产品中体现。只有用户满意了，愿意使用才能达成设计目标背后的商业诉求，所以设计目标需要以用户为中心。
-
-总结来说设计目标来自商业目标，需要以用户为中心，平衡好商业和用户诉求，设计出符合产品特性的设计方案。
-三、如何制定设计目标
-1. 需求来源分析
-在制定设计目标过程中，首先是基于一个需求来源，通常有三种类型：
-以业务为导向，因为市场变化或者业务调整，而导致的需求变动，这时候设计目标来自业务诉求的拆解；
-以用户洞察为出发点，通过用户调研，用户数据分…]]></summary>
-        <author>
-            <name>玄清</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[企业如何使用模型微调（SFT）定制化调优大模型？]]></title>
-        <id>https://www.woshipm.com/?p=6026559</id>
-        <link href="https://www.woshipm.com/ai/6026559.html"/>
-        <updated>2024-04-08T02:52:43.000Z</updated>
-        <summary type="html"><![CDATA[现在各个公司都在做自己的大模型，或者是用大模型进行调优以符合企业的要求。这种情况下，我们如何是用模型微调定制化调优大模型呢？本文介绍了模型微调的训练步骤，并给出了相关案例参考，希望能帮到大家。
-
-上次我们聊完指令工程调优大模型，有朋友说它很初级，解决不了实际的业务问题。
-那我们今天聊的模型微调（SFT）可以在一定程度解决你的困惑，本次依然将我在实际应用中的具体效果、适用场景、示例以及详细的训练步骤来分享。
-话不多说，开整~
-01 模型微调的定义与效果
-在大模型的调优策略中，模型微调是一个关键步骤。它存在两种策略：
-全参数微调（Full Parameter Fine Tuning）
-部分参数微调（Sparse Fine Tuning）
-全参数微调涉及到调整模型的所有权重，使之适应特定领域或任务，这样的策略适用于拥有大量与任务高度相关的训练数据的情况。
-而部分参数微调则是只选择性地更新模型中的某些权重，特别是当我们需要保持大部分预训练知识时，这种方法能减少过拟合的风险，并提高训练效率。
-微调的核心效果是：在保留模型泛化能力的同时，提升其在某一特定任务上的表现。
-02 模型微调适用和不适用的场景
-适用的场景
-在拥有大量领域相关标记数据时，适宜进行全参数微调。
-当需要模型具有领域专一性，同时又要保持一定泛化能力时，部分参数微调是更佳选择。
-不适用的场景
-当训练数据有限，或者与原始预训练数据差异极大时，全参数微调可能导致过拟合。
-如果任务需要模型具有广泛的知识背景和泛化能力，部分参数微调可能过于狭隘。
-03 模型微调的训练步骤
-三步法：
-1）确定微调策略：基于可用的训练数据量和任务需求选择全参数微调还是部分参数微调。
-2）准备数据集：按照微调的策略准备相关的标记数据。
-
-3）微调训练：
-对于全参数微调，通常需要长时间训练以及大量的数据。
-对于部分参数微调，确定哪些参数需要更新，并在较…]]></summary>
-        <author>
-            <name>柳星聊产品</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[微信电脑版 3.9.8.15 正式版（32位） + 3.9.9.43 正式版（64位）+ 3.9.10.19 测试版（多开 + 防撤回）]]></title>
-        <id>http://bak.qiuquan.cc/?p=4239</id>
-        <link href="http://www.qiuquan.cc/chat/wechat.html"/>
-        <updated>2024-04-08T02:25:27.000Z</updated>
-        <summary type="html"><![CDATA[一款跨平台的通讯工具。支持单人、多人参与。通过手机网络发送语音、图片、视频和文字。]]></summary>
-        <author>
-            <name>泉</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI 写论文好用工具！三步生成原创论文，还提供免费论文大纲]]></title>
-        <id>https://www.iplaysoft.com/?post_type=xpost&amp;p=6134</id>
-        <link href="https://www.iplaysoft.com/p/ibiling-paper"/>
-        <updated>2024-04-08T02:01:25.000Z</updated>
-        <summary type="html"><![CDATA[论文写作是一项既重要又具挑战性的任务。对于忙碌的大学生、研究生以及各学科领域的研究人员来说，面对繁杂的研究主题和严格的格式要求时，常常感到不知所措。
-
-此时，「笔灵 AI 论文写作」作为一个能够简化论文写作流程、提供专业辅助的工具显得尤为重要。面向 700+ 学科专业，笔灵 AI 论文…… 
-「 前往查看原文.... 」
-
-异次元正版数字商城  |  异次元首页  |  微信公众号  |  iPcFun  |  关注微博  |  软件精选]]></summary>
-        <author>
-            <name>X-Force</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GPU-Z 显卡检测 v2.58.0 完整汉化版  By：th_sjy]]></title>
-        <id>http://bak.qiuquan.cc/?p=4100</id>
-        <link href="http://www.qiuquan.cc/systemtool/gpu-z.html"/>
-        <updated>2024-04-08T01:00:49.000Z</updated>
-        <summary type="html"><![CDATA[GPU-Z是一款GPU识别工具，绿色免安装，界面直观，运行后即可显示GPU核心，以及运行频率、带宽等。。。GPU-Z通吃A卡和N卡，对于交火及混合交火也能很好的识别。]]></summary>
-        <author>
-            <name>泉</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[扫描仪增强工具——VueScan 9.8.32 简体中文专业版｜32&64位整合版]]></title>
-        <id>http://www.qiuquan.cc/?p=4791</id>
-        <link href="http://www.qiuquan.cc/image/vuescan.html"/>
-        <updated>2024-04-08T00:40:49.000Z</updated>
-        <summary type="html"><![CDATA[VueScan Pro是一款功能强大的扫描仪软件，支持市场可见绝大多数型号的底片扫描仪，可以更为灵活地控制扫描过程，更深入地发掘硬件潜力，获取色彩完美的高质量扫描结果。]]></summary>
-        <author>
-            <name>泉</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DAMA 自动打码 APP 太爱了！智能识别出图片中隐私文字信息打码涂抹/加水印]]></title>
-        <id>https://www.iplaysoft.com/?p=6140</id>
-        <link href="https://www.iplaysoft.com/dama.html"/>
-        <updated>2024-04-07T16:30:55.000Z</updated>
-        <summary type="html"><![CDATA[现在经常需要将照片或者截图发到微信群、朋友圈上去，但是，这些图片往往会包含有一些个人的隐私信息，比如快递单的收件地址、姓名、联系电话、身份证号、序列号等等。
-如果随手发布出去，这些个人信息很容易泄露导致不可预知的后果。但一个个手工去“涂抹打码”又会特别麻烦！对于广大“懒人”朋友，异次元强烈推荐一款实用的 iOS 自动打码 App 应用「DAMA」，它能“全自动”帮你涂抹掉照片图片上所有敏感信息打码，非常方便……
-「 前往查看原文.... 」
-异次元还有这些值得一看：
-
-防止隐私照片被盗用！3 款免费简单批量证件/图片加水印 APP 应用 (重复铺满效果)
-BgSub - 完全免费的 AI 自动抠图工具 (本地离线处理/无需上传图片/去除背景比 PS 更快)
-Remove.bg - 只需5秒！人工智能代替 PS 一键自动抠图移除背景工具
-傲软抠图 - 比 PS 简单好用的一键智能抠图软件/图片移除背景工具 (免费领激活码)
-
-异次元正版数字商城  |  异次元首页  |  微信公众号  |  iPcFun  |  关注微博  |  软件精选]]></summary>
-        <author>
-            <name>X-Force</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[轻量级免费远程协助工具 TrustViewer 2.12.1 Build 5195 中文免费版]]></title>
-        <id>http://www.dayanzai.me/?p=7512</id>
-        <link href="http://www.dayanzai.me/trustviewer.html"/>
-        <updated>2024-04-07T16:30:25.000Z</updated>
-        <summary type="html"><![CDATA[轻量级免费远程协助工具 TrustViewer 中文版由大眼仔旭（www.dayanzai.me）发布。Tru […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LightBulb 开源护眼软件 LightBulb 2.4.9 中文绿色汉化版]]></title>
-        <id>http://www.dayanzai.me/?p=4335</id>
-        <link href="http://www.dayanzai.me/lightbulb.html"/>
-        <updated>2024-04-07T16:30:23.000Z</updated>
-        <summary type="html"><![CDATA[LightBulb 中文版由大眼仔旭汉化发布。LightBulb 是一个开源的屏幕护眼工具，旨在通过调整屏幕亮 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[开源免费下载工具 HTTP Downloader 1.0.5.7 + x64 绿色中文版]]></title>
-        <id>http://www.dayanzai.me/?p=1722</id>
-        <link href="http://www.dayanzai.me/http-downloader.html"/>
-        <updated>2024-04-07T16:29:12.000Z</updated>
-        <summary type="html"><![CDATA[开源免费下载工具 HTTP Downloader 中文版由大眼仔旭提供翻译并发布。HTTP Downloade […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows 程序卸载工具 HiBit Uninstaller 3.2.10 中文多语免费版]]></title>
-        <id>http://www.dayanzai.me/?p=35102</id>
-        <link href="http://www.dayanzai.me/hibit-uninstaller.html"/>
-        <updated>2024-04-07T16:24:49.000Z</updated>
-        <summary type="html"><![CDATA[Windows 程序卸载工具 HiBit Uninstaller 中文版由大眼仔旭发布。HiBit Unins […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[开源跨平台远程桌面软件 RustDesk 1.2.3-2 中文多语免费版]]></title>
-        <id>http://www.dayanzai.me/?p=1652</id>
-        <link href="http://www.dayanzai.me/rustdesk.html"/>
-        <updated>2024-04-07T16:20:55.000Z</updated>
-        <summary type="html"><![CDATA[RustDesk 是一个开源远程桌面应用程序，如果用户愿意，它允许用户托管自己的连接服务器（虽然不是必需的）。 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[免费系统优化工具 HDCleaner 2.069 + x64 中文多语免费版]]></title>
-        <id>http://www.dayanzai.me/?p=7630</id>
-        <link href="http://www.dayanzai.me/hdcleaner.html"/>
-        <updated>2024-04-07T16:10:41.000Z</updated>
-        <summary type="html"><![CDATA[免费系统优化工具 HDCleaner 中文版由大眼仔旭发布。如果您拥有一台基于 Windows 的计算机，则可 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows 启动项管理工具 HiBit Startup Manager 2.6.40 中文多语免费版]]></title>
-        <id>http://www.dayanzai.me/?p=36707</id>
-        <link href="http://www.dayanzai.me/hibit-startup-manager.html"/>
-        <updated>2024-04-07T16:03:39.000Z</updated>
-        <summary type="html"><![CDATA[Windows 启动项管理工具 HiBit Startup Manager 中文版由大眼仔旭（www.daya […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
         </author>
     </entry>
 </feed>
