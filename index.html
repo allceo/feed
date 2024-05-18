@@ -22,11 +22,1138 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-05-16 datetime="2024-05-16T15:30:19.000Z">2024-05-16</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-05-16 datetime="2024-05-16T15:30:19.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-05-18 datetime="2024-05-18T00:36:20.000Z">2024-05-18</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-05-18 datetime="2024-05-18T00:36:20.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >人人都是产品经理</button>
+                  <a class="source-heading__link" href="https://www.woshipm.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6054861"
+                        open
+                      >
+                        <summary class="article-expander__title">断言：LLM将重塑搜索输入框逻辑</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6054861.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/13/1c2b24b8-d9ea-11ed-bd74-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>在用户交互层应用大模型，用户体验或许可以被大幅度提升，搜索也将变得更加智能和人性化。这篇文章里，作者就从日常体验出发，分享了他的看法，一起来看看吧。
+
+一、被关键词匹配统治的APP搜索输入框体验欠佳
+在大语言模型推出之前，几乎所有APP的搜索框都是基于关键词匹配，用户也被教育了这么多年，也大都习惯了关键词检索。
+关键词检索本质上是技术思维，当然也是受限于技术栈现状，它依赖于用户对搜索内容的准确表达和对检索系统的了解。用户需要知道如何用恰当的关键词来描述他们的需求，以便系统能够返回相关的结果。
+这种检索方式在大语言模型推出之前是主流，因为它相对简单且易于实现，但同时也存在一些局限性。
+
+首先，用户需要准确知道如何表达他们的查询意图，这对于一些复杂或模糊的查询来说是个极大的挑战，也存在同义关键词碰撞的问题；其次，查询系统对于用户真正意图的理解仅局限于每次的查询请求，无法通过上下文辅助理解用户的真正意图；最后，搜索结果的信息过载导致用户需要花费时间从搜索结果中再次决策自己的答案，同时商业化因素也会影响搜索结果，导致用户决策时间成本的增加。
+二、各大APP搜索框现状
+1. 美团APP搜索框实测
+搜索“附近最好吃的烤鱼和烤肉”，搜索结果未满足“附近”和“烤鱼烤肉”的要求。
+
+搜索“适合与哥们喝酒的地方”，结果不满足需求。
+
+美团APP实测结果：搜索框是完全的关键词逻辑，未采用大模型语义理解搜索。
+2. 百度地图APP实测
+搜索“小众网红景点”，交互上显示小度在思考，并且给出了结果，相对符合需求。再次搜索”十公里内的小众网红景点“，搜索结果也符合需求。
+
+
+另外测试搜索最近比较火的词“阿里大悦城”，没有给出结果。
+
+3. 贝壳APP搜索框实测
+搜索“北苑地区2000元以内的合租”，无结果；但是通过筛选可以得到结果。
+
+
+三、用大模型重塑搜索输入框方案探讨
+1. 在用户交互层应用大模型
+充分利用大模型的自然语言理解能力，在用户输入查询语言后，先通过大模型进行自然语言处理，对用户查询语言进行关键词转换，转换为检索系统可以检索的关键词或逻辑表达，在进入搜索系统进行搜索。如下图：
+
+2. 优缺点分析
+这种方案的优点是，对现有生产系统侵入较小，需求逻辑相对明确，迭代速度快；
+当然缺点也很明显，大模型处理查询语言势必造成交互时间的增加，所以产品经理在进行产品设计的时候需要充分考虑这点。
+后记
+通过在用户交互层应用大模型，可以极大地提升用户体验，使搜索更加智能和人性化。然而，这也带来了一些挑战，比如对计算资源的高需求、模型的训练和优化、以及对用户隐私的保护等问题，当然这些问题都有望得到解决，大模型将在搜索中发挥越来越重要的作用。
+看到这篇分享文章的互联网大厂的产品同学，可以考虑借助大模型的能力对输入框进行一个版本迭代了。可以预见的是，这将会显著提升产品搜索体验，也将显著提升你的KPI。
+本文由 @李雨田 原创发布于人人都是产品经理。未经作者许可，禁止转载。
+题图来自Unsplash，基于CC0协议。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-05-17 datetime="2024-05-17T19:29:20.000Z">2024-05-17</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-05-17 datetime="2024-05-17T19:29:20.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >The Portable Freeware Collection</button>
+                  <a class="source-heading__link" href="https://www.portablefreeware.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="2816+1715974160"
+                        open
+                      >
+                        <summary class="article-expander__title">[UPDATE] QOwnNotes v24.5.4</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.portablefreeware.com/?id&#x3D;2816&amp;ts&#x3D;1715974160">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="2826+1715951036"
+                        open
+                      >
+                        <summary class="article-expander__title">[UPDATE] FileVoyager v24.5.17</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.portablefreeware.com/?id&#x3D;2826&amp;ts&#x3D;1715951036">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="1932+1715917819"
+                        open
+                      >
+                        <summary class="article-expander__title">[UPDATE] IsMyLcdOK v5.59</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.portablefreeware.com/?id&#x3D;1932&amp;ts&#x3D;1715917819">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="2074+1715917711"
+                        open
+                      >
+                        <summary class="article-expander__title">[UPDATE] Google Chrome Portable v125.0.6422.61</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.portablefreeware.com/?id&#x3D;2074&amp;ts&#x3D;1715917711">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="2206+1715917407"
+                        open
+                      >
+                        <summary class="article-expander__title">[UPDATE] RJ TextEd v16.21</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.portablefreeware.com/?id&#x3D;2206&amp;ts&#x3D;1715917407">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >异次元软件世界</button>
+                  <a class="source-heading__link" href="https://www.iplaysoft.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.iplaysoft.com/?p&#x3D;6161"
+                        open
+                      >
+                        <summary class="article-expander__title">重磅！VMware 虚拟机正式对个人免费 - 最新 Pro 免激活/网盘下载 (支持 Win / Mac)</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.iplaysoft.com/vwmare-free.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://img.iplaysoft.com/wp-content/uploads/2024/vmware-free/vmware.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>一直以来，VMWare Workstation 都是 Windows 上强大的商业级虚拟机软件选择，相比免费开源的 VirtualBox、微软 Windows 11 上的 Hyper-V，无论在功能还是性能上都更加强大。
+但过去 VMWare Workstation / Fusion 的商用 Pro 版授权非常昂贵，除了公司很少个人会花几千块去买正版。然而，随着 VMWare 被博通 (Broadcom) 收购后，事情终于变了！博通将旗下面向商业的产品全部改成“订阅制”，但面向个人消费者，直接来一个王炸大礼：完全免费……
+「 前往查看原文.... 」
+异次元还有这些值得一看：
+
+VirtualBox 7 最新虚拟机软件下载 - 免费开源跨平台 (支持 Win/Mac/Linux 安装多系统)
+Portable VirtualBox - 免费绿色版虚拟机软件 / 制作免安装的便携U盘系统
+Parallels Desktop 19 激活码 - 苹果 Mac 最新版 PD 虚拟机下载 (支持Win11/macOS Sonoma)
+Wubuntu - 披着 Win11 皮肤主题的 Ubuntu Linux 系统！支持运行 exe 和安卓 APP
+
+异次元正版数字商城  |  异次元首页  |  微信公众号  |  iPcFun  |  关注微博  |  软件精选</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.iplaysoft.com/?post_type&#x3D;news&amp;p&#x3D;4313"
+                        open
+                      >
+                        <summary class="article-expander__title">值爆！爱奇艺 (电视端) VIP 年卡 + 京东 Plus 会员 ￥148 元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.iplaysoft.com/news/4313">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://img.iplaysoft.com/wp-content/uploads/2018/news/4313/iqiyi_logo.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>看剧基本必备爱奇艺会员，相信不用多做介绍了；而如果你经常会在京东商城买东西，那么自然也知道京东 Plus 会员的各种好处！比如每月免邮、全品类优惠券、Plus 特价商品、专享活动价、免费上门退换货等等特权。
+
+但原本爱奇艺 VIP 年卡定价 218 元，京东 PLUS 会员定价 299 元/年，正价购买还是很贵…… 
+「 前往查看原文.... 」
+
+异次元正版数字商城  |  异次元首页  |  微信公众号  |  iPcFun  |  关注微博  |  软件精选</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >人人都是产品经理</button>
+                  <a class="source-heading__link" href="https://www.woshipm.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6051760"
+                        open
+                      >
+                        <summary class="article-expander__title">5000字深入拆解无代码平台关键组成功能，必看</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6051760.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/13/b24d80e0-d9df-11ed-9d2f-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>最近几年，无代码这种模式非常火热，BAT都推出了自己的无代码产品。对于企业解决业务流程信息化很有帮助。本文从布局、功能给阿甲展示无代码产品的关键要素，并从用户洞察、竞品分析等维度让大家深入了解这类产品。
+
+你有没有过一个闪念：希望创建一个小程序、网站来解决特定问题或帮助他人，甚至你已经准备开始组建自己的研发团队？或者你没有无足够资金？不会编写代码？
+无代码是非常火热的一个赛道，2024年预测市场规模将达到百亿级别，而行业玩家也很多，甚至腾讯、阿里、百度都有自己的无代码产品。这里面很大一部分的无代码产品都是面向企业解决业务流程信息化，相信大家对这种无代码产品比较熟悉。今天这篇文章是无代码生成面向用户的消费级应用的，希望对你能有一定帮助。
+看来我已经开始引起你的兴趣了，接下来我将从布局、功能向你展示如何使用无代码产品的关键要素，同时会从用户洞察、竞品分析、产品展望向你更深入了解。接下来，enyoy~
+一、布局
+首先是布局，对于从事软件设计或开发的朋友来说，下面这张图片应该让你们非常熟悉。这是一张典型的UI设计界面图，该页面中包含如下三个部分：左侧是页面和组件，中间是页面预览，右侧是组件或页面的详细配置。你可以在每个组件中进行设计、内容和交互相关的配置。
+一般搭建网页或者小程序的无代码平台的主要操作页面就是一个画布，在画布上可以进行页面，按钮等个性化的软件建设，而通过快捷操作栏上的按钮，你可以进行数据库，第三方api、AI、预览和发布等操作。
+
+画布
+
+figma编辑页面
+二、功能列表
+看完布局后，接下来了解下功能列表。
+1. 原子级组件和交互
+以Web端为例，无代码的组要功能部件是组件，提供了24种丰富的组件，这些组件分为展示、输入和容器三大类别，包括但不限于文字、图片、按钮、表格、富文本、视频、输入框、容器，以及视图等组件。多种的组件选择，为应用开发带来了无限可能性。
+
+原子…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/it/6054943.html"
+                        open
+                      >
+                        <summary class="article-expander__title">缺客户？给你一个获取精准流量的方法</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6054943.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2024/05/17/0367d06a-1432-11ef-b503-00163e142b65.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>缺客户，去哪里找流量？作者总结了一个获取精准流量的方法，希望对你有所帮助。
+
+流量是一切赚钱项目中最重要的一个要素。
+没有流量，赚钱就是就是空谈。
+流量多就赚的多，流量少就赚的少，没有流量就没得赚。
+获取流量要么是讲目标客户引导到店，要么是将目标客户引导到私域，也就是加微信。
+获取流量的五要素：目标人群+渠道+文案+诱饵+引流体系
+1. 目标人群
+要知道你的目标人群是怎么样的？
+有什么需求、痛点、兴趣、爱好、特征。
+他们的年龄、学历、职业、地域是怎么样的。
+他们最终为了解决什么问题、达成什么目标。
+引流获客的前提是对目标客户足够了解，越了解，你就越能找到精准的引流渠道，越了解目标客户你就越能够设计出吸引他们的引流品。
+一定要清晰的了解你的目标客户，知道谁是你的目标客户，谁不是你的目标客户，最理想的目标客户是什么样的，最爽快买单的目标客户是怎么样的，最需要、最想要你产品的目标客户是怎么样的，界定出最有可能为我们产品买单的人是哪一类人。
+2. 渠道
+哪里可以找到你的理想客户？
+要列出你的目标客户可能会在哪些地方出现，线上他们会在哪些app、哪些论坛、哪些社群，线下会出现在哪些地方。
+一定要花时间把你们的客户会在哪里全部想清楚，去调研、去站在客户的角度思考。
+
+如何找到找准渠道，可以关注这三个。
+①竞争对手
+观察分析。假装是对方客户，关注同行的营销方法，广告，分销渠道，促销方法等等。
+话术收集。提出各种问题难题，看对方怎么回答，用什么话术。
+要知道同行是最好的老师，去找到那些做得好的同行。
+②关联商家
+想想你的目标客户还有哪些需求，把这些需求全部列出来，他的其他需求也需要去找商家、找渠道满足他的需求，而我们就可以去这些渠道引流或者跟这些商家合作，
+③客户转介绍， 客户是个非常重要的渠道。做好转介绍，客户也不会缺。
+3. 文案
+想要提高关注率，还要懂得设计一出个让客户无法拒绝的引流文案。
+现如今，信息大爆炸，用户每天接收到的信息非常多。
+俗话说，酒香也怕巷子深，即使你产品再好，如果用户看不到、找不到也白瞎。
+所以如何能够让你的文案、内容，引起用户好奇、引起用户兴趣、抓住用户的注意力，让用户能够点开你的内容，浏览你的内容就变得至关重要。
+抓注意力–激发兴趣-建立信任–刺激欲望–催促关注–领取诱饵。
+抓住注意力的核心是构建冲突，激发兴趣的核心是与它相关，建立信任的核心是权威的背书和从众心理 ，激发欲望是重复兴趣，总结并给出结果，催促行动是稀缺和紧迫。
+4. 诱饵
+通过什么东西，吸引目标客户添加你，这就是诱饵。
+诱饵是代表目标客户的需求，是他的痛点或痒点。
+诱饵设计有3个原则：
+第一个原则是诱饵产品的价值要足够高。
+就是通过一款高价值的产品，高价值的诱饵，你可以吸引到大量的潜在流量。诱饵的四个价值类型，价值从高到低分别是：有用、实用、通用、必须用
+第二个原则是诱饵产品的价格足够低。
+第三个原则是一定要跟你的售卖的产品要有相关性，要有足够的关联。
+你做什么行业，你卖什么产品，围绕会购买你产品的目标客户设计。
+诱饵跟产品的关联，主要目的是为了找到更精准的客户，方便后续的成交。
+第四个原则是高诱惑，对于客户来讲要足够有吸引力，他才会去行动。
+诱饵设计的4大方向：
+虚拟资料：电子书、资料、课程….
+咨询服务：减肥咨询、心理咨询…..
+抽奖券：1元抽奖、免费抽奖
+会员资格：成为xxx会员，将获得什么好处
+诱饵设计的过程中有一个最核心的步骤是挖掘需求。
+只要围绕挖掘出来的用户需求去设计诱饵，你的客户绝对是无法抗拒。
+诱饵要对用户有吸引力，如果诱饵不具备吸引力，你会白忙活一场。
+所有的用户需求都来源于一句话：追求梦想，逃避痛苦。
+你知道任何人都是“趋利避害”，通过这个诱饵用户能获得什么好处、解决什么问题，通过这个诱饵可以摆脱什么痛苦。
+你做什么行业，卖什么产品，你的诱饵就必须围绕这个行业或者围绕会购买你产品的目标客户去设计。
+5. 引流体系
+要搭建出一套可以持续引流的体系，每天要有源源不断的流量进来。
+要把引流作为常规化、流程化的动作，每天都要去做。
+本文由人人都是产品经理作者【老陈的深度思考】，微信公众号：【老陈的深度思考】，原创/授权 发布于人人都是产品经理，未经许可，禁止转载。
+题图来自Unsplash，基于 CC0 协议。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6054801"
+                        open
+                      >
+                        <summary class="article-expander__title">什么是支付？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6054801.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/17/bb8a9e0e-dcf5-11ed-9781-00163e0b5ff3.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>支付这个动作，基本上每个人都会操作到，那么，到底什么是支付？如何理解支付这一概念？这篇文章里，作者做了分析，一起来看。
+
+支付图示：
+
+支付的概念解释
+从字面意义上来说，支付，可以拆分为“支”与“付”，一方支出钱财，一方交付商品或者服务。从比较正规定义上来说，交易+清分+结算，三个环节构成了支付。
+交易是支付的前提，有具体的交易对象，有具体要交换的物品…清分是一个计算过程，计算交易双方，谁要给谁多少钱，谁要给谁多少的货品；而结算是整个支付的闭环，根据清分的结果，最终完成财、物最终的交割。
+
+主要使用现金结算的阶段，以线下面对面交易为主，多是一手交钱，一手交货，然后人工记账的方式。
+就好比这样一个场景，“我去村东头王婆的果蔬店里，给了她6块钱买了1颗小西瓜”。其中，我去到她店里，告诉她我要买1颗瓜，这里是我向她发起交易；她给我秤瓜4斤，按照1斤1.5给我算钱，要我给她6块，这里涉及到清分；最后一手交钱一手交瓜，我给了她钱，她给了我瓜，从而完成了结算，这一系列的过程就是支付。
+而到了电子货币结算阶段，支付的环节，从线下转移到了线上。
+还是以王婆的瓜举例，王婆入驻了拼瓜瓜线上购物平台，在平台上卖瓜，我在她的网店里选购，当我选中了3斤的瓜，并且下订单时候，我通过支付平台向她发起了交易；平台帮我计算好4斤这个品种的瓜一共6块钱，告诉我要支付6块，告诉王婆要准备4斤的瓜；等我收到了瓜，确认收货，通过平台把从我的银行卡内扣除的买瓜的钱打到王婆的银行卡内，完成实际的结算，这一系列动作就是支付。
+本文由 @笛仁杰 原创发布于人人都是产品经理。未经作者许可，禁止转载
+题图来自Unsplash，基于CC0协议</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/it/6054827.html"
+                        open
+                      >
+                        <summary class="article-expander__title">农业大数据如何推动农业现代化？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/it/6054827.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2024/05/10/c3041594-0ea3-11ef-b3fd-00163e142b65.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>本文主要介绍了农业大数据如何推动农业现代化的过程，以及农业大数据的各种特性和优势，同时指出农业大数据在未来的发展趋势和应用前景。
+
+随着科技的迅速发展，农业行业也逐渐迎来了数字化转型的时代。在这个过程中，农业大数据成为推动农业现代化的关键因素之一。农业大数据的广泛应用不仅有助于提高农业生产效率，还能够减少资源浪费、优化农产品供应链，并推动可持续农业发展。
+一、农业大数据
+1. 提高产量
+农业大数据为农民和农业从业者提供了更多的决策依据。通过收集、整合和分析农业生产过程中的各种数据，如气象数据、土壤信息、作物生长情况等，农民可以及时了解到农作物的生长状况、病虫害风险等重要信息。基于这些数据，他们可以采取相应的措施，如调整灌溉水量、施肥量、农药使用等，以最优化地管理自己的农田。此外，农业大数据还可以帮助农民做出更准确的市场预测，选择合适的种植作物，从而提高产量和经济效益。
+2. 信息收集
+农业大数据的应用有助于优化农产品的供应链管理。在传统的农产品供应链中，信息流通不畅、信息不对称等问题常常导致农产品供应与需求之间存在较大的差距。而通过农业大数据的应用，可以实现农产品的溯源管理、物流优化和市场监测等一系列功能，提高农产品供应链的透明度和效率。农产品的产地、种植、采摘、加工和运输等环节的各类数据都可以被记录、追踪和共享，消费者可以通过扫描商品上的二维码或查询数据库，了解到农产品的生产过程和质量信息，增加了消费者对农产品的信任。
+
+3. 可持续发展
+农业大数据的应用还有助于推动农业的可持续发展。随着全球人口的增长和资源的有限性，农业可持续发展成为当务之急。通过农业大数据的应用，可以实现农产品生产的精准管理，减少农药、化肥等农业投入品的使用量，避免浪费和环境污染。此外，农业大数据还可以帮助农民选择更适合当地气候和土壤条件的作物品种，提高农作物的适应能力，减少自然灾害对农业的影响。
+二…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6054728"
+                        open
+                      >
+                        <summary class="article-expander__title">一文讲透品牌广告和效果广告的本质区别</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6054728.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/17/83f2e852-dcf5-11ed-897e-00163e0b5ff3.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>大多数品牌营销圈的人都会思考一个问题，即当下品牌是应该投效果广告还是投品牌广告？这篇文章里，作者探讨了品牌广告和效果广告的区别，一起来看。
+
+投效果广告还是投品牌广告？
+这个话题是最近些年品牌营销圈里争议最大的话题之一，上到百亿体量的世界五百强品牌，下到规模几个亿的中小品牌，不仅甲方的品牌创始人和营销负责人在关心和权衡，乙方的大小媒介公司和大小广告公司也都在争议。
+公说公有理婆说婆有理，争议多年下来，也没有明确和清晰的共识结论，甚至连两者的区别都少有人能讲清楚，大部分公司还是按照自己的判断和逻辑来决策以及分配营销预算。
+这里面的问题说复杂也复杂，说简单也简单。
+复杂的地方在于不同行业和不同阶段的品牌公司，面临的营销（渠道和媒介）问题是不一样的，加上内部组织架构差异很大，导致营销预算的分配逻辑和结果衡量想要做到很清晰是困难的。
+说简单也简单，其实只要把效果广告和品牌广告的本质弄清楚，知道二者本质的区别是什么，就知道该基于自己的业务状况如何去分配预算和衡量结果了。
+其实效果广告和品牌广告的定义不够精准，精准定义应该是：效果曝光（广告）&#x3D;渠道类曝光，品牌曝光（广告）&#x3D;媒介类曝光
+效果广告：本质就是能够直接带来销售行为或ROI回报的曝光，大部分是精准人群和竞价的售卖模式，归根到底是渠道流量。
+
+品牌广告：本质是不能直接带来销售行为或ROI回报的曝光，大部分是通过泛的媒介完成营销信息传达的，是媒介带来的流量。
+这个我在之前文章里面已经说清楚了（文末附抖音底层逻辑篇），渠道曝光和媒介曝光本质的区别除了能否承担完整交易链路之外，就在于覆盖人群的精准度（更严谨讲是人群背后的需求精准度），决定一切媒介或渠道价值的，就是媒介或渠道背后人群精准度的高低和规模。
+媒介可以曝光，但人群泛，且需要激发购买需求，不能完成交易链路，所以曝光的广告费便宜。
+渠道可以曝光，且人群更精准，大概是带着需求来的，能…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6054733"
+                        open
+                      >
+                        <summary class="article-expander__title">TOB客户私域运营渠道整理与反哺</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6054733.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/14/fa63c6e6-da8e-11ed-9503-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>在做ToB客户私域运营时，如何扩大私域池，如何做好引流等动作，都是需要注意的问题和事项。这篇文章里，作者就做了介绍，一起来看一下。
+
+私域就是个大池子，不是说引流到企微或者微信就是私域，像是CRM客户池，SCRM的线索池都是私域的一部分。
+很多人一开始做用户运营的时候都死盯着一块地方，一般企业引流到微信或者企微，就盯着这块一共要产出多少，包括一开始我也是。但其实ToB客户本身就没ToC那么广，尤其是有些saas产品就给一到两个部门使用，目标kp就没那么多。所以如何扩大私域池就成了一个问题？
+现有的私域来源无非是官网和活动等，死揪着一个池子不断发送骚扰信息是没用的，那我们就想想别的方法引流。
+首先是官网的表单，大部分ToB企业官网上都会有表单，一般就会获取客户的企业、姓名、电话。SDR会初步筛选这些表单，那没打通的，态度不佳或者单纯找找资料的怎么办？（事实是内容做得好也会招来很多学习的人，这是无法避免的。）他们可能是我们的潜在线索，但是就是没到那个时机。这时候把表单线索引流到另一处私域池（特指企微或者微信）就很重要了。因为在这平台上可以不通过电话打扰的去触达客户，比如sop，比如群发，比如朋友圈运营。
+
+其次是公司自有客户池，比如CRM，CRM作为客户关系管理系统肯定是有大量客户资料的，一般企业是没有把CRM和企微打通的，所以客户信息也会比较分散，运营人能做的就是有效有头脑使用。CRM内客户分层做好了，那等需要的时候导出也容易，再通过一些方法引流到企微/微信。
+最后是零零碎碎的名单，这些名单可能是线下沙龙的签到名单，可能是某场大会的电子线上名单，也可能是某次直播的报名名单等等。每场活动复盘只会复盘当时的效果，那运营人拿到名单后就一笑而过吗？不，当时名单可能很多客户是没有添加企微/微信的，很可能一次触达之后就没下文，珍惜每一位客户是一种态度，要做的就是尽量引流到企微/微信。
+好了，上面说到了三种池子，在最后我都说了引流到企微/微信，那具体怎么引流？
+重点客户电话回访
+EDM/邮件营销
+短信通知与邀请
+如果是活动/直播，最好现场就引流，会比较高效率且意愿度更高。
+你可以通过不同内容去吸引客户，当然也是需要真的有内容，不要欺骗或者夸大，时刻注意运营人需要传达的品牌力，比如白皮书，行业报告，大礼包等等，你也可以邀请客户参与其他适合他的活动。注意，要站在客户角度去推荐他想要看的东西，这一步看似简单，实则背后既要了解客户所属企业的情况，又要了解现有内容分类，对SDR要求还是比较高的！
+标题说的反哺又是什么呢？那就是一个循环，公司给了运营人池子，运营人又通过私域池（特指企微或者微信）促成线索，补充已有池子kp。既然理论知道了，那就多多实践吧！
+希望每一位运营人工作顺利~
+作者：cici手记，微信公众号：cici手记
+本文由 @cici手记 原创发布于人人都是产品经理。未经作者许可，禁止转载
+题图来自Unsplash，基于CC0协议</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/it/6054808.html"
+                        open
+                      >
+                        <summary class="article-expander__title">常见面试题–产品篇2（问题及答案）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6054808.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2024/05/17/8cf7516e-1411-11ef-b3fd-00163e142b65.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>继前篇面试题分享和分析后，作者在产品群中又收集了一些产品面试中遇到的问题，希望对你有帮助。
+
+之前写过一些产品面试中遇到的问题，但还没有覆盖完全，还是有小伙伴断断续续的在群中咨询，那就在产品群中又收集了一波。
+希望我的回答能帮助到小伙伴们快速找到工作！！
+一、业主需求反复修改怎么办？
+首先确认这个反复修改什么阶段发生的，如果是需求收集确认阶段，是正常的，如果是已经投入开发阶段了，虽然也会遇到中途需求变更，但是不会很频繁，如果还是会发生频繁修改的情况就属于产品经理前期需求确认的问题了。
+按照正常的产品流程，前期的需求收集，业主表达出自己的需求后，产品经理要确认这些需求的业务场景，使用人群是什么？是个人特例还是普遍问题？了解需求提出的真实原因，而不是说客户要做什么功能，产品经理不加思考直接就按照客户做什么功能，这样就会导致后期需求反复修改的情况。
+并且产品经理也要懂得引导客户，引导客户哪些能做？哪些不能做？不能做的原因是什么？如果不能做，替代方案是什么？
+
+一方面我们要从客户的角度思考问题，用产品来解决他们的核心需求，一方面也要从公司成本考虑这个需求的可行性，再能解决客户的核心需求的前提下，争取找到成本最低的方案。
+需求确认之后，会出功能清单，找业主确认签字，然后产品经理设计原型，原型设计完成后，对照需求清单和原型设计，找业主确认，如果业主确认没问题，即可进行UI设计，UI设计完成，找业主确认UI设计，确认完成后即可交付开发。
+经过这三次确认，需求基本不会出现反复修改的情况。
+二、如何快速的了解一个你不熟悉的项目或系统，说说你的方法论？
+其实这种情况我在工作中遇到很多次了，我一般会用以下四个方法：
+1. 收集相关资料，了解产品
+收集关于项目、系统的所有文档，比如需求文档、设计文档、用户手册、技术架构图、宣传ppt等相关资料，通过仔细阅读，可以对项目系统有一个整体的认识，可以了解…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/it/6054807.html"
+                        open
+                      >
+                        <summary class="article-expander__title">设计思维在产品开发中的应用</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/it/6054807.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2024/05/16/bf50f05e-1329-11ef-b3fd-00163e142b65.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>本文围绕&quot;设计思维在产品开发中的应用&quot;，介绍了相关资料，包括其概念解释、应用场景及其实现步骤等。
+
+设计思维，Design Thinking，是一种以人为本的产品创新方法。
+它被广泛应用于新产品开发的模糊前端：挖掘用户痛点、产生创意方案等等。
+无论是产品经理，还是工业设计师和研发工程师，都应该好好学习和掌握设计思维。
+一、设计思维的三个维度
+设计思维，主要从三个维度进行深度思考，寻找用户想要的、创造性的解决方案。
+Desirability 人的需求: 产品创新，必须找到用户痛点，满足用户需求；这样的产品，才是用户真正想要的产品，才卖得出去。
+Viability 商业可行性：产品创新，必须符合企业的战略规划和业务目标，具备商业可行性；这样的产品，企业才有利可图。
+Feasibility 技术可行性：产品创新，必须符合企业当前的资源和能力要求，具备技术可行性；这样的产品，企业才做得出来。
+
+二、设计思维的三大特征
+设计思维，具有三大特征：
+同理心：通过沉浸在真实的用户场景中，亲身体验用户想法和需求，达到与用户的感同身受。同理心，是设计思维最显著的特征，确保设计思维以人为本进行产品创新。
+
+
+创造自信：人人都有创造力，鼓励“跳出框框”进行思考；对不遵循主流、乍一看不切实际的想法，也一视同仁。
+快速试错：鼓励尽早测试、尽早失败。有了创意后，要快速创建原型并进行测试，尽快剔除错误的、不合理的创意和解决方案，筛选出正确的、合理的创意和解决方案。     
+三、设计思维的双钻模型
+双钻模型，是由英国设计协会提出的一种设计思维模型。
+它非常直观形象的把我们解决问题的过程，用两颗钻石的形状描绘出来。
+
+1. 左边的钻石
+代表方向选择，做正确的事。
+首先，用发散思维来发现尽可能多的客户问题；
+然后，用聚敛思维来定义问题：当前客户最重要、最紧急的问题是什么，客户痛点是什么等等，完成问题定义。
+2. 右边的钻石
+代表执行，正确的做事。
+首先，用发散思维来构思尽可能多的解决方案；
+然后，用聚敛思维来确定当前的最优解决方案，并在客户期望、商业模式和技术可行性之间取得平衡，完成方案交付。 
+四、设计思维，在产品开发中的应用
+从市场机会到产品定义的新产品开发过程，业界通常称之为模糊前端。
+模糊前端的产品创新活动，可以用双钻模型来表示。
+
+1. 为何做左边的钻石
+主要回答“为何做”，即为什么要开发这个产品。
+首先，通过市场调研和机会探索，发现市场机会。主要就是通过看市场规模、看增长趋势、看竞争态势、看技术壁垒、看自身资源和能力等等，找出适合我们的市场机会。
+然后，针对市场机会，深挖用户痛点，形成需求洞察。主要就是通过挖掘、分析和筛选用户需求，找出尚未满足的用户需求、以及潜在的用户需求。
+2. 做什么右边的钻石
+主要回答“做什么”，即明确我们要开发一个什么样的产品。
+首先，根据用户痛点，进行创意构思，明确产品的差异化和竞争优势。
+然后，根据优选的创意方案，进行详细的产品定义，明确产品的价值主张、功能、特征、属性等等，锁定市场机会。
+本文由人人都是产品经理作者【产品人生】，微信公众号：【产品人生】，原创/授权 发布于人人都是产品经理，未经许可，禁止转载。
+题图来自Unsplash，基于 CC0 协议。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/it/6054791.html"
+                        open
+                      >
+                        <summary class="article-expander__title">详解｜为什么“设计需求”不等于“设计目标”？“用户需求”也不是“用户目标”？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6054791.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2024/05/17/9b862364-1401-11ef-b3fd-00163e142b65.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>需求和目标不是一回事，目标来源于需求，需求是用户的想法和期待。这篇文章，作者带领我们一次性整理清楚“需求”和“目标”的差别。
+
+经常有同学问我：
+– 设计需求不就是设计目标么？
+– 用户需求和用户目标是不是一回事？
+关于“需求”和“目标”的那些事儿，今天就来给大家讲清楚。
+一、User Needs And Goals 用户需求 ｜ 用户目标
+相信大家都听过这个案例：亨利·福特在制造汽车之前曾问过他的用户想要什么，得到的回答是“想要更快的马”。但福特交出的答卷是汽车，而他的用户们也欣然接受。
+ “更快的马”就是用户需求，但是很多时候，用户需求并不直接等同于用户目标，因为用户通常很难准确地定义出自己的目标。以上案例中的用户目标其实是：“实现两地之间更快速地移动”。这也就是需要设计师、产品经理或是企业家凭借自己的观察和经验，敏锐地捕捉和总结出来的。 
+因此，我们也可以得出这样的结论： 
+用户需求：来源于用户的真实感受，它是用户最直接的想法和期待，但感受不一定真的是产品的优化方向或是最优的解决方案。 
+用户目标：来源于用户需求，是设计师和产研团队基于用户的需求、行为、心理、喜好等因素、做了一系列用户相关的研究和洞察之后总结和提炼出的用户没有表达出来的优化方向。 
+通常情况下，用户需求是用户目标的基础和源头；用户目标则是用户需求的总结和演化。 
+
+由此可见，设计师在进行设计研究工作时，是要关注用户需求，但也不能被用户需求牵着走，而是要时刻保持住敏锐的判断力和洞察力，对用户进行全方位的观察和了解，透过现象看本质。对于用户目标的定义和提炼也是一个设计师专业能力高低的体现方式之一。
+二、Design Needs And Goals 设计需求 ｜ 设计目标
+我在文章：设计价值应该如何体现？ 一文中提到过设计师的在工作时的立场应该是：
+在保证用户体验的基础上完成产品设计，
+实现产品需求和业务目标。
+
+因而当你接到一个设计需求时，这个需求所对应的设计目标应该是： 
+设计师在兼顾和平衡业务、产品、用户等多方面需求后所找到的最优解，是对业务目标、产品需求和用户需求的拆解、整合后所确定的设计工作方向。
+
+因此，我们也可以得出这样的结论： 
+设计需求：来源于业务方和产品方的最直接诉求，但不一定是设计的最终方案和最优解。 
+设计目标：来源于业务、产品和用户三方需求的整合和总结，而并非只是你对于设计需求的概述。 
+由此可见，即便是上游合作方将设计需求表述的很清析，你也未必能够直接将其作为你的设计目标。你同样需要分析和判断需求背后的成因和背景，定义最根本、最有效的解决方案。
+另外，很多同学总是将设计目标定义成通用的“体验提升”、“功能升级”，但这样的描述反而让设计目标变得毫无意义。每一个设计目标都应该是具体的、依据问题定制的。
+举个通俗易懂的例子： 
+一个马上要参加奥运会比赛的运动员，面对“体重超重”的问题，他的目标就不是像普通人一样“节食减掉多余的体重”，而应该是：“在短时间内减重的同时不能破坏身体的其他机能，要保证身体健康以保持最佳的训练状态”。
+设计目标就像案例中的减重目标一样，针对不同的场景下的问题存在特定的、唯一的、个性化的答案。
+能够精准定位设计问题并挖掘出最优的设计目标，也是不同设计师能力层次的体现。
+本文由人人都是产品经理作者【元尧】，微信公众号：【长弓小子】，原创/授权 发布于人人都是产品经理，未经许可，禁止转载。
+题图来自Unsplash，基于 CC0 协议。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6054734"
+                        open
+                      >
+                        <summary class="article-expander__title">从产品到社交：广汽丰田的破局之道</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6054734.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.yunyingpai.com/wp/2024/05/6Hl9ZQD3jr2C4DqgpPqc.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>本篇文章由广汽丰田赛那的案例出发，介绍了如何结合产品与社交，提升品牌的市场影响力，推荐对品牌运营、品牌营销等方面感兴趣的小伙伴阅读学习。
+
+汽车产业，作为现代工业的缩影，其复杂度和精密性堪比“现代工业皇冠上的明珠”。
+近年来，一个趋势是，汽车制造逐渐开始像电子消费品一样进行快速迭代，新车的推陈出新速度不断加快，这无疑是消费者所乐见的。
+然而，如今一些新能源车花样频出的宣传，很多都着重于展示大屏幕、冰箱、彩电、炫酷的电子后视镜等功能，造车的本质反而提及的少了。
+造车依然脱不开传统车厂多年积累的技术，同时，传统车厂在面对新技术和新趋势时，也要在充分发挥自己技术优势的基础上，与时俱进地进行营销创新。
+01 “最好的赛那在中国”：赛那的升级与承诺
+作为拥有深厚历史积淀的传统汽车品牌，广汽丰田近年来一直秉承着“为中国，造好车”的理念，不断进行创新实践。通过精心优化产品线和提升服务质量，广汽丰田赢得了市场的广泛认可。
+2023年，广汽丰田全年累计销售901025台，这一数字在日系品牌中排名第一，在合资品牌中也稳居前三。
+进入2024年，广汽丰田继续保持着强劲的发展势头。新车型的推出，如全新一代凯美瑞和铂智品牌的纯电SUV，以及市场策略的不断创新，都引起了消费者的热烈讨论，销量和口碑均呈现出积极的趋势。
+这些动作，充分体现了广汽丰田在技术和产品上的底蕴，以及强大的粉丝基础。
+
+在广汽丰田的产品矩阵中，赛那无疑是一款具有标志性意义的车型。作为丰田的代表车型之一，赛那凭借其宽敞的空间、舒适的乘坐体验以及可靠的品质，一直是MPV领域的“红人”，赢得了无数家庭用户的青睐。
+多年来，赛那因这些独特优势积累了大量的忠实用户，这些用户群体不仅对赛那有着深厚的情感，也是广汽丰田最宝贵的品牌资产。
+2024款丰田赛那针对中国市场进行了全面升级，并举办了发布会。没有过多的渲染，一切直抵重点：诚意和价值——新…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/it/6054716.html"
+                        open
+                      >
+                        <summary class="article-expander__title">用户研究人员如何在低 UX 成熟度的组织中开展研究</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/user-research/6054716.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2024/05/17/58e45d60-1405-11ef-b3fd-00163e142b65.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>本文深入探讨了在用户体验成熟度较低的组织中，用户研究人员如何有效开展工作并提升其价值认可的策略。文章提供了如何在组织层面、产品团队层面以及研究人员个人层面上应对挑战的方法，对于致力于推动用户体验研究的专业人士来说，这是一篇极具启发性的文章。阅读本文，你将获得在不同层面提升用户体验成熟度的实用建议，希望对你有所帮助。
+
+Peron核心观点：
+1.尼尔森·诺曼公司（NN/g）的用户体验从 0 到最佳实践的六个关键阶段为我们指明了方向，即最成熟的用户研究组织一定诞生在拥有“以用户为中心、用户驱动（user driven)文化的公司里，很多公司/组织把用户挂在嘴边，但企业文化里压根没有这回事儿
+2.成熟的用户研究组织需要具备的三个条件：以用户为中心的企业文化，决策层认同用户研究的价值并给予资源支持；体系化、综合的用户研究工作（不是只做验证性的研究；也不是只做微观产品层面的研究等等）；经验丰富、专业的用户研究团队。
+3.要想获得决策层的支持，就要保证你的用户研究成果要有公司层面的价值和影响力，也就是战略用户研究。要想开展体系化、综合的用户研究，就要确保在一个战略/行业、数据、用户研究三位一体的组织架构里，常见的如战略部/市场洞察部。要想打造专业的用户研究团队，需要引导团队成员了解行业内最佳实践，走出舒适区。
+以下为正文：
+用户研究的社群中，许多人会定期分享从业经验，无论是通过文字还是分享会。我们希望找到最严谨、引人入胜的方式，与组员、同行研究人员、以及公司的其他成员分享我们的见解。
+但这种精益求精的动力在我们工作场景中并不完全受用。
+如果公司不理解研究的基本原则，那么实操前沿的研究方法是非常困难的，尤其是在“用户体验成熟度 (UX Maturity)” 较低的组织中。
+本文介绍了几种 UXR 领导者们应对这些挑战的方法。
+一、什么是“用户体验成熟度低”的公司
+2006年，雅各布·尼尔…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/it/6054710.html"
+                        open
+                      >
+                        <summary class="article-expander__title">一文搞懂，“四段式”对账</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6054710.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/10/11/74deb480-67cf-11ee-99ad-00163e142b65.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>本文深入探讨了现代支付系统中的“四段式对账”机制，详细解释了账务数据、支付数据、清算数据和结算数据之间的核对关系及其重要性。阅读本文，你将全面理解支付对账的核心逻辑和实施细节，希望对你有所帮助。
+
+无论在哪套体系里，对账体系都是非常重要的一环，而且是一环扣一环
+同一笔交易，在一个机构内部会产生多套数据，这些数据之间存在核对关系，他们的核对关系，可以称为”四段式对账“
+什么是”四段式对账“，这里的四段指的是”四段数据”，”四段式对账“就是指这四段数据的相互核对，如下图
+
+一、有哪四段数据
+四段数据即“账务数据、支付数据、清算数据、结算数据”，这是对账的核心数据，他们之间存在如下的相生关系
+
+从下面这张图中可以更清晰的看出来交易驱动支付和账务，支付驱动渠道，渠道自身生成清算记录和结算记录
+
+只不过这里要清楚这样一个问题，交易在驱动账务过程中经过了“计费”，也就是商户手续费、以及通道成本费用，那么这两部分费用原则上至少要在资金对账环节参与核对，甚至在明细核对环节也可以参与核对，具体看开头推荐到“对账长文”
+回头看这四段数据，如何标记这四段数据，也就是可以通过一个标记方法，轻松识别是什么数据，比如你可以把账务数据叫张三，支付数据叫李四，渠道数据叫王五，渠道结算数据叫老六
+但是，这样做很明显并不太好用于交流和系统之间的数据传递
+还有一种方法就是通过一组数字编码实现，同时，同一段数据，如支付数据，又存在支付、退款、打款、打款退回等子类，那么至少在编码上可以实现多维度的分类，先看两个编码设计例子
+1）就像国家一级科目编号一样
+资产类：1001是库存现金，1002是银行存款
+负债类：2001是短期借款
+所有者权益类：4001是实收资本，4002是资本公积
+2）同样看二代系统对业务编码的设计规则
+
+通过这样的规则，就得到了下面的业务编码
+
+3）数据段编码设计
+受上述编码设计的启发，我们也可以…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/it/6054707.html"
+                        open
+                      >
+                        <summary class="article-expander__title">【Axure教程】上传图片列表</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6054707.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2024/05/17/c0b262cc-13fe-11ef-8ad3-00163e142b65.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>本文详细介绍了如何在Axure中创建一个上传图片列表的原型模板，包括具体的操作步骤和交互设计，对于需要在产品原型中实现图片上传功能的产品经理和设计师来说，这是一个非常实用的教程。阅读本文，你将学会如何制作一个交互式的图片上传列表，希望对你有所帮助。
+
+上传图片列表常用于许多不同类型的应用和系统中，包括社交媒体平台、电子商务网站、博客和内容管理系统、在线相册和图像存储服务、项目管理工具等，发挥着重要作用，帮助用户管理、组织和展示他们上传的图片，从而丰富内容、提高用户体验，并支持各种业务需求。
+所以今天作者就教大家怎么在Axure制作一个上传图片列表的原型模板，具体效果如下所示：
+一、原型效果
+1、点击上传方框，打开显示本地资源的窗口，里面可以选择本地的资源。
+2、如果选择的不是图片格式，弹出弹窗提示。
+3、如果选择的是图片格式，将图片回显，然后显示下一个上传方框。
+
+ 
+二、制作教程
+1. 材料准备
+这里需要的材料很简单主要包括一个上传框的图片，一个文本框和一个文本标签。
+图片我们命名为vigopic1，文本框命名为vigotext1，文本标签命名为click1。
+图片默认选择上传框的图片。
+文本标签，用于触发后续交互。
+
+文本框输入类型选择输入框，我们通过js代码可以调用选择本地图片，选择图片后进行回显，之前在上传图片那章教程里面，有详细讲解，大家可以先去学习那章教程，然后再回来学习上传之后怎么触发继续上传新的图片。
+整体摆放如下图所示，只显示图片，文本标签和文本框放置在图片底部，用图片遮挡着他俩。
+
+如果想做成列表，我们需要总共上传多少个，就复制几个，例如朋友圈案例是最多上传9个，那就复制多8个，总数九个，前面只有第一个默认显示，后面的默认隐藏即可，然后摆放整齐就可以了，本演示案例是做了一个最多上传12张图片的案例，如果有需要更多的，也可以按照下面方法自行添加。
+对了，因为js代码是根据元件名来上传和回显的，所以文件名要唯一，前面第一个组合，我们把图片命名为vigopic1，文本框命名为vigotext1，文本标签命名为click1；那第二个组合就要改成图片命名为vigopic2，文本框命名为vigotext2，文本标签命名为click2；那第3个组合就要改成图片命名为vigopic3，文本框命名为vigotext3，文本标签命名为click3……如此类推。
+2. 交互制作
+在原有的代码基础上，我们可以增加一个判断，就是上传的是否为图片格式，常见的图片格式包括png、jpg、jpeg，案例中用的是这三种格式，如果需要增加其他图片格式，可以自行添加代码如：
+if(fileType&#x3D;&#x3D;”image/png”||fileType&#x3D;&#x3D;”image/jpeg”||fileType&#x3D;&#x3D;”image/jpg”)
+
+如果上传不符合格式，我们用 alert代码，调出系统弹窗提示即可，例如 alert( “请上传图片（格式JPG、JPEG、PNG）!”)；
+如果上传的格式符合，那就回显图片，这里和之前上传图片不同的是，回显之后，我们要显示下个一个上传框，以第一个上传框上传回显后为例，我们要从代码回到axure的元件里面，这里我们需要借助文本标签click1，我们在文本标签鼠标单击时，我们用显示的交互，将第二个组合显示出来就可以了。
+
+现在剩下的问题就是，上传回显完之后，怎么触发这个文本标签鼠标单击的事件呢？
+我们可以在代码里增加一行，用jQuery 事件 – click() 方法，模拟点击按钮（或执行点击按钮时的操作），我们要选择Axure里名为click1的元件，相当于选择页面中标有 data-label 属性值为 ‘click1′ 的元素，所以整行代码是(“[data-label&#x3D;’click1’]”).click();选择页面中标有 data-label 属性值为 ‘click1’ 的元素，并模拟用户对这个元素的点击，点击之后就触发上面单击时的交互，显示第一个组合。
+组合2的话也是同一个原理，我们把图片命名为vigopic1、文本框命名为vigotext1、文本标签命名为click1的目的也是为了方便后续修改，在第二个组合里的，我只需要代码和名字里的’1’改成’2’，然后交互事件显示组合2改成显示组合3就可以了，改起来也非常方便。
+后续的345678……组合，也是同一个道理。
+那以上就是本期教程的全部内容，感兴趣的同学们可以动手试试哦，感谢您的阅读，我们下期见。
+本文由人人都是产品经理作者【AI产品人】，微信公众号：【Axure高保真原型】，原创/授权 发布于人人都是产品经理，未经许可，禁止转载。
+题图来自Unsplash，基于 CC0 协议。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/it/6054700.html"
+                        open
+                      >
+                        <summary class="article-expander__title">小天才成了儿童界的微信</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6054700.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2024/05/17/6d40a6ca-13ff-11ef-b3fd-00163e142b65.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>曾经有人说，小天才就是少儿版的微信。至少从心智层面已经达到了这种效果，毕竟心理认知一旦养成，想要改变可不那么容易。
+
+最近给小孩换了儿童手表，从米兔换成了小天才，因为小孩班级基本用的小天才。但是试用了几天，很多功能明显没有米兔儿童手表好用。比如语音助手，小天才用的是小度的语音服务，估计没有和小天才深度定制，连设置个闹钟都不会。
+可是小孩们还是乐此不疲的要用小天才，因为可以比步数，可以加好友，可以聊天。
+01 网络效应是强大的壁垒
+不只是大人需要社交，小孩子也需要社交。
+不同的品牌阻断了之间相互添加好友，就好比米聊和微信不能互相添加好友一样，微信利用各种先天优势，把好友网络牢牢掌握在自己手里。一旦好友网络建成了，如果你换成了米兔，那你需要说服所有人和你一样都换成米兔才有可能好友互通，那这个阻力好比叫大家都从微信换成米聊吧，难度非常大。
+
+于是小孩子在小天才的好友圈中享受着交友的乐趣，尽管语音助手、天气预报等功能很弱智，但是小孩子不care，因为十几个好友一起比步数，比几个人比步数有趣多了。
+就是这样简简单单的功能，把小孩子拿捏的死死的。
+02 怎么打破小天才的壁垒
+如果某一天，政府说小天才要支持和米兔互通好友，那小天才的壁垒就淡然无存了。
+有太多这种先例了。
+比如以前的移动联通的短信是不能互通的，导致如果用户想发短信还得是一个品牌。
+后来政府要求放开了，短信终于可以互通了，壁垒不存在了，用哪个品牌都可以发短信了。
+但是一个手机号码用久了，如果觉得移动不好用，你也不敢换成联通，因为手机号码和很多地方关联太深了。
+后来政府出台可以携号转网，用户的这个顾虑也不存在了。
+所以壁垒有时候也不是一成不变的，哪一天政府要求所有的通讯软件都可以和微信互通，可能也是微信危机的时刻。
+本文由人人都是产品经理作者【蔡锦海】，微信公众号：【锦海说】，原创/授权 发布于人人都是产品经理，未经许可，禁止转载。
+题图来自Unsplash，基于 CC0 协议。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >小众软件</button>
+                  <a class="source-heading__link" href="https://www.appinn.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.appinn.com/?p&#x3D;48462"
+                        open
+                      >
+                        <summary class="article-expander__title">我的世界 15 周年，官网所有游戏 5 折优惠，iOS/Android  冰点 3 折特价</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.appinn.com/minecraft-15th-anniversary/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.appinn.com/wp-content/uploads/2024/05/Appinn-feature-images-2024-05-17T124621.198.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>我的世界（MineCraft）已经 15 周年了，目前官网所有游戏都在 5 折优惠，iOS 版本更是 1.99 刀冰点价格，入正好时机。@Appinn 作为全球销量第一的电子游戏，《我的世界》就不需要</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >大眼仔旭</button>
+                  <a class="source-heading__link" href="http://www.dayanzai.me">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://www.dayanzai.me/?p&#x3D;6634"
+                        open
+                      >
+                        <summary class="article-expander__title">安卓时间轴待办事项 Taskito 1.1.0 中文多语免费版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://www.dayanzai.me/taskito.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>安卓时间轴待办事项 Taskito 中文免费版 由大眼仔旭（www.dayanzai.me）发布。新时代待办事 […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >QiuQuan&#x27;s Blog</button>
+                  <a class="source-heading__link" href="http://www.qiuquan.cc">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://bak.qiuquan.cc/?p&#x3D;4229"
+                        open
+                      >
+                        <summary class="article-expander__title">WinRAR 5.91 正式版 + 6.24 正式版 + 7.01 正式版 ｜32&amp;64整合版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://www.qiuquan.cc/compress/winrar.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>WinRAR 是一款强大的压缩文件管理工具，界面友好，使用方便，采用先进的压缩算法，在压缩率和速度方面都有很好的表现。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-05-16 datetime="2024-05-16T16:37:52.000Z">2024-05-16</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-05-16 datetime="2024-05-16T16:37:52.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >大眼仔旭</button>
+                  <a class="source-heading__link" href="http://www.dayanzai.me">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://www.dayanzai.me/?p&#x3D;71091"
+                        open
+                      >
+                        <summary class="article-expander__title">智能 PC 系统优化工具 Smart PC Optimizer 9.4.0.4 中文绿色版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://www.dayanzai.me/smart-pc-optimizer.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Smart PC Optimizer（智能电脑优化大师）- 自动清理和优化电脑！自动清理垃圾文件、跟踪 coo […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://www.dayanzai.me/?p&#x3D;71565"
+                        open
+                      >
+                        <summary class="article-expander__title">Windows 快捷方式小箭头移除工具 1.0 中文免费版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://www.dayanzai.me/remove-shortcut-arrow.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>当您需要定制 Windows 桌面图标时，您可能会注意到桌面上的快捷方式都带有一个小箭头，它表示这些图标是快捷 […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://www.dayanzai.me/?p&#x3D;41458"
+                        open
+                      >
+                        <summary class="article-expander__title">Unicode 全功能文本和源编辑器 RJ TextEd 16.21 + x64 中文多语免费版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://www.dayanzai.me/rj-texted.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>RJ TextEd 是一个支持 Unicode 的全功能文本和源编辑器。RJ TextEd 是使用 Embar […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://www.dayanzai.me/?p&#x3D;12624"
+                        open
+                      >
+                        <summary class="article-expander__title">开源 WSL 发行版管理器 WSL Manager 1.8.14 中文多语免费版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://www.dayanzai.me/wsl-manager.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>开源 WSL 发行版管理器 WSL Manager 中文版由大眼仔旭整理发布。WSL 发行版管理器是一个免费和 […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://www.dayanzai.me/?p&#x3D;3544"
+                        open
+                      >
+                        <summary class="article-expander__title">免费开源的 FTP/SFTP 软件 Cyberduck 8.9.0.41543 中文多语免费版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://www.dayanzai.me/cyberduck.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Cyberduck 中文版 免费开源的 FTP/SFTP 软件由大眼仔旭（www.dayanzai.me）发布 […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://www.dayanzai.me/?p&#x3D;71554"
+                        open
+                      >
+                        <summary class="article-expander__title">为什么 HDMI 2.1 对游戏如此重要？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://www.dayanzai.me/why-hdmi-2-1.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>如果你认真对待游戏，并希望获得反应灵敏的高清体验，就应该投资购买 HDMI 2.1 电缆和兼容的显示器及游戏设 […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -944,39 +2071,6 @@ AIGC的发展速度太快了。
                             <span class="media-object__text">
                               <span>No content preview</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >大眼仔旭</button>
-                  <a class="source-heading__link" href="http://www.dayanzai.me">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://www.dayanzai.me/?p&#x3D;71554"
-                        open
-                      >
-                        <summary class="article-expander__title">为什么 HDMI 2.1 对游戏如此重要？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://www.dayanzai.me/why-hdmi-2-1.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>如果你认真对待游戏，并希望获得反应灵敏的高清体验，就应该投资购买 HDMI 2.1 电缆和兼容的显示器及游戏设 […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -8291,6 +9385,66 @@ The Epic Mac Bundle 优惠套装：PDF Expert / Fantastical 2 等8款应用
 
 异次元正版数字商城  |  异次元首页  |  微信公众号  |  iPcFun  |  关注微博  |  软件精选</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.iplaysoft.com/?p&#x3D;1364"
+                        open
+                      >
+                        <summary class="article-expander__title">VMware Workstation Pro 17.5.2 最新免费虚拟机软件专业版(网盘下载) - 支持 Win11 / 免激活</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.iplaysoft.com/vmware-workstation.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://img.iplaysoft.com/wp-content/uploads/2015/vmware-workstation-pro/vmware16.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>虚拟机软件可让你在不重启电脑的情况下，在一个操作系统上同时运行多个不同的系统，譬如在 Win10 上同时运行 Ubuntu 与 Win7，用户可用于各种开发、测试或运行不同平台的软件。
+VMware Workstation Pro 17.5 中文专业版功能相对免费的 VMWare Player 要丰富强大得多！新版本支持 Windows 11，支持 USB 3.1、TPM 2.0、蓝牙、4K，支持容器、兼容 Hyper-V，支持 DirectX 11 和 OpenGL 4.3 加速，3D 游戏性能大幅提高！另还可共享或远程控制虚拟机等……
+「 前往查看原文.... 」
+异次元还有这些值得一看：
+
+VirtualBox 7 最新虚拟机软件下载 - 免费开源跨平台 (支持 Win/Mac/Linux 安装多系统)
+VMWare Fusion Pro 13.5.2 苹果 Mac 免费虚拟机 (网盘下载) - 支持 M 芯片 / Win11 ARM
+Parallels Desktop 19 激活码 - 苹果 Mac 最新版 PD 虚拟机下载 (支持Win11/macOS Sonoma)
+VMWare Player 17.5.1 中文版 - 官方免费版虚拟机软件 (支持3D游戏与Win11系统)
+
+异次元正版数字商城  |  异次元首页  |  微信公众号  |  iPcFun  |  关注微博  |  软件精选</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.iplaysoft.com/?p&#x3D;1367"
+                        open
+                      >
+                        <summary class="article-expander__title">VMWare Fusion Pro 13.5.2 苹果 Mac 免费虚拟机 (网盘下载) - 支持 M 芯片 / Win11 ARM</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.iplaysoft.com/vmware-fusion.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://img.iplaysoft.com/wp-content/uploads/2015/vmware-fusion/vmwarefusion13.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>使用苹果 Mac 电脑不可避免都会遇到一些软件、硬件只能在 Windows 下使用 (如网银/行业软件/仅能兼容 IE 的网站、无 Mac 驱动的硬件等)，因此在 Mac 上安装 Win 是很有必要的。
+曾经我们可用 BootCamp 安装双系统，但如今只能使用虚拟机安装了。VMWare Fusion 13 Pro 是 macOS 下优秀高性能的虚拟机软件 (同类有 Parallels Desktop)，完美兼容 macOS Ventura 和苹果 M 系芯片，能无需重启，直接在 Mac 下同时运行 Windows 11、Linux 等多款系统……
+「 前往查看原文.... 」
+异次元还有这些值得一看：
+
+Parallels Desktop 19 激活码 - 苹果 Mac 最新版 PD 虚拟机下载 (支持Win11/macOS Sonoma)
+VirtualBox 7 最新虚拟机软件下载 - 免费开源跨平台 (支持 Win/Mac/Linux 安装多系统)
+VMware Workstation Pro 17.5.2 最新免费虚拟机软件专业版(网盘下载) - 支持 Win11 / 免激活
+VMWare Player 17.5.1 中文版 - 官方免费版虚拟机软件 (支持3D游戏与Win11系统)
+
+异次元正版数字商城  |  异次元首页  |  微信公众号  |  iPcFun  |  关注微博  |  软件精选</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -22450,741 +23604,6 @@ OTA平台争抢五一，小长假火车票开售即候补，12306回应
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6034914"
-                        open
-                      >
-                        <summary class="article-expander__title">如何用原型写需求？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6034914.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/13/d6b51d42-d9eb-11ed-a6e8-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>怎么用原型写需求文档？这篇文章里，作者以小红书APP为例做了相应的步骤和案例分享，想了解的同学，不妨来看一下。
-
-用原型写需求文档，最大的优点就是简洁直观。
-本文以小红书APP为例，说说如何用原型写需求文档。
-一、搭建好文件目录
-
-1）文档修改记录
-记录下每次修改，做好文件版本迭代记录
-
-2）原型说明
-① 全局说明 将适用于全局的规则、交互等信息进行前置说明，方便统一管理。
-
-② 页面结构 理清各页面之前的层级结构，就像画树一样，先画出主干，再进行分支的补充。
-
-3）流程
-梳理出流程，理清业务逻辑。可以结合泳道图说明在实际业务场景中各角色的任务职能。
-
-4）原型
-画出产品的基本框架构思。有哪些信息要素？信息的表现优先级？等等。后面会详细展开描述。
-二、画好原型并做好注释
-
-1. 分模块
-页面可以按照功能分成几个模块。
-小红书的个人主页页面，我分成了基本信息、附属信息、活跃信息三部分。
-当然每个人也可以有自己的划分思路和想法。
-2. 做好注释
-分好模块之后，需要对每个模块的具体信息进行详细说明。一般会有信息元素描述、规则、状态、异常情况。
-1）信息元素描述
-可以从这几个维度展开：数据、类型、操作、优先级、数据来源、备注。
-数据：将信息进行结构化梳理，罗列信息字段。
-类型：信息有不同的表现形式，可以是图片也可以是文本等等。
-操作：进行什么操作会产生什么样的效果。
-优先级：有些信息需要高亮显示，比如文本显示为显眼的红色；有些文本需要加粗显示；而有些就是正常显示，这就代表着不同的信息会有不同的表现形式，也就代表了不同的表现优先级。
-数据来源：写明数据从何而来。
-备注：额外说明。
-2）规则
-即限制条件。比如：表格每页最多显示几行，按钮的多次点击需要间隔多久等等。
-3）状态
-区分状态。举个例子：文本链接有已点击、未点击、鼠标悬浮几个状态，他们可以有不同的表现形式，已点击链接显示为蓝色，未点击显示为黑色，悬浮出现说明文档气泡。
-4）异常情况
-除正常流程外的异常情况，也属于功能的一部分。做好异常情况兼容，产品才会运行地更稳健，具有更好的容错性。
-三、不遗漏异常情况
-大家如果跟测试打过交道的话，应该知道“冒烟测试”这个概念，在产品上线前回归下主流程，避免大的缺陷。
-一个产品需要涉及到很多边界条件，也就会有很多的异常情况。比如文本输入时超出了限制长度，多次点击同一个按钮，写错了内容想要撤销修改等等，产品经理需要尽可能多的联想到会发生的各种情况并做好对应处理。
-抛开上帝视角，实实在在去体验一把产品，可能就会发现一些意想不到的场景和情况。
-tips： 推荐几个原型的组件库：
-1、Ant Design 蚂蚁设计 ：https://link.zhihu.com/?target&#x3D;https%3A//ant.design/docs/resources-cn（包括移动端、pc 端）
-2、饿了么：https://element.eleme.cn/#/zh-CN/resource（pc端）
-参考链接：
-up主斯前想后来：https://www.bilibili.com/video/BV1264y1V7pp/?spm_id_from&#x3D;333.999.0.0&amp;vd_source&#x3D;618ed4fde6a60aef6cf49edd31dc737a
-本文由 @西瓜古古 原创发布于人人都是产品经理，未经许可，禁止转载
-题图来自 Unsplash，基于 CC0 协议</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6034907"
-                        open
-                      >
-                        <summary class="article-expander__title">6000字干货 | 2024年，「社区启动」成功指南：1认知2要素6策略全面解析！</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/operate/6034907.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/05/06/94262dea-ec01-11ed-bbb6-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>如何做好社区启动？这篇文章里，作者分享了六种社区启动策略，以及何时使用每种策略和方法。一起来看一下，或许可以帮助你更了解怎么去建立一个充满活力、具有影响力和持久力的社区。
-
-时至今日，许多人和组织仍然使用过去十年的启动社区/社群的方法，但很遗憾，这些方法已经过时或被过度使用，导致了许多失败的尝试。
-很多组织也因为缺乏足够的资源来执行社区启动策略，或者选择了错误的方法，而最终失败了。这三种情况使得社区无法成功启动，很难达到关键的活跃度基准（如300、100和10个参与者）。
-因此，让我们一起来看看在2024年仍然有效的六种社区启动策略，以及何时使用每种策略和方法。这些策略将帮助你适应时代的变化，建立一个充满活力、具有影响力和持久力的社区。
-
-一、社区启动时，2大考虑要素和1个认知
-在启动社区过程中，有许多简单而实用的方法。然而，当我们将一个在某种环境中行之有效的方法应用到另一种环境中时，问题就会出现。举个例子，如果没有大量的初始受众，那么推出一个私人问答论坛将是一个巨大的挑战；相比之下，通过社交媒体渠道先建立起受众群，成功的机会会更大。
-
-在选择合适的方法时，有两个关键的考虑因素：「受众规模」和「社区类型」。
-当然，“预算”和“有足够时间展示成果”也是主要因素。但如果不具备这两个条件，问题就不是决定使用哪种方法，而是是否应该「启动社区」。
-1. 考虑因素1、受众规模
-拥有庞大现有受众（以及持续的流量）和试图从零开始建立受众之间存在巨大的差异。
-那些曾经为拥有大量受众的知名品牌推出社区的人，在帮助一个没有这样受众基础的品牌时，常常会面临困境，这是因为发布和运营的方式完全不同。
-即使有大量受众，也需要将其转化为一个小型社区。如果你没有10,000+的受众（或每月有10,000+的网站访问量），那么你启动社区的方式将完全不同。
-10,000+这个数字可能有些武断，但它能帮助你理解。…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;5994184"
-                        open
-                      >
-                        <summary class="article-expander__title">线上问题的处理&amp;反馈模版速递，建议收藏</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/5994184.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.yunyingpai.com/wp/2024/04/V1TiD59x7fdvIbuClLVr.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>线上问题的快速反馈与解决模板，如何助力问题高效处理，减少线上bug，提升用户体验。来看看这篇文章了解一下如何处理吧。
-
-线上问题是各位产品以及研发友友们经常遇到的问题，复盘线上问题处理在当今数字化、网络化的社会中具有重要意义，它不仅影响用户体验、品牌形象，还关系到企业的运营效率与成本控制。复盘线上问题还是比较有价值和意义的，接下来月亮学姐带着大家来整体看一下线上问题如何处理以及复盘。
-一、线上问题定义
-首先我们需要了解什么是线上问题，线上问题通常指在互联网服务、软件应用、数字产品或任何在线交互过程中遇到的任何异常情况、错误、缺陷或问题。
-
-这些问题可能会阻碍用户的正常使用、影响用户体验，甚至导致数据损失或安全风险。线上问题可以广泛涉及到各个方面，主要包括但不限于以下几类：
-技术故障：这类问题涉及软件、应用程序或网站出现的技术缺陷，比如系统崩溃、功能失效、页面加载异常、链接失效等。
-用户体验问题：这些问题可能不涉及后端的技术错误，而是关乎于设计、界面、交互逻辑等，使得用户在使用过程中感到困惑、不便或不舒适。
-安全与隐私问题：包括数据泄露、未经授权的访问、恶意软件入侵等，这类问题对用户安全和信任度的影响尤其严重。
-性能问题：涵盖加载时间长、响应迟缓、资源消耗过多等情况，影响用户对产品的整体满意度。
-兼容性问题：指产品或服务在不同的设备、操作系统、浏览器或网络环境下出现的兼容性差异，导致某些用户无法正常使用功能。
-内容错误：涉及到信息错误、拼写错误、过时的内容、链接错误等，影响用户获得准确信息。
-支付与交易问题：在线购物或进行其他类型的在线交易时可能遇到的问题，如支付失败、交易中断、优惠代码无效等。
-服务中断：由于维护、故障或外部攻击导致的服务临时不可用。
-二、线上反馈模板
-1. 问题反馈表（用户或是产研线上测试反馈）
-反馈人信息：
-姓名/昵称
-联系方式（邮箱/电话）
-反馈时间
-问题详情：
-问题类型（如登录问题、支付失败、功能异常等）
-发生时间
-问题描述（请尽可能详细描述遇到的问题，包括操作前后的情况、期望的结果与实际出现的结果）
-问题重现步骤（如果适用）： 1. 2. 3. （请描述您在遇到问题时的具体操作步骤，以帮助我们更好地复现问题。）
-影响范围（如仅自己遇到、多个用户报告等）
-问题截图/录屏（如果可能，提供问题发生时的截图或录屏可以更直观地帮助我们理解问题）
-备注（任何额外信息，包括但不限于已尝试的解决方法等）
-2. 处理流程（内部使用）
-接收与初步分类：
-受理人员
-问题分类：业务场景覆盖不全，产品功能设计不合理，产品体验/易用性考虑不足等等。
-受理时间
-问题优先级
-严重程度：
-严重Bug导致系统崩溃或无法正常运转时，要高优解决
-轻微、偶现的Bug，可适当放低优先级
-影响范围：
-影响到广泛用户或核心模块时要高优解决
-影响到单一用户或非核心模块可适当放低优先级
-用户价值：
-涉及到用户核心需求、主流程、关键功能及体验的要高优修复
-非核心需求可适当放低优先级
-发生频率：
-高频发生的问题要优先解决
-低频、偶现的问题可适当放低优先级
-频次要依据系统的使用情况来综合判断，一些功能的使用频次天然较低，即使1个月发生1次，也属于高频问题，例如：算薪相关的功能
-解决成本：
-仅涉及单一业务域或更易修复（研发耗时3天内）的问题可以快速推进解决
-涉及跨业务域或成本较高（研发耗时3天以上）的问题可适当往后放
-反馈来源：来自关键客户、使用方的反馈也要适当提高优先级
-问题分配：
-责任团队/个人：
-预计处理时间：
-事故定级：经济损失 、影响的用户数、 影响的PV比例、时段、时长、系统功能的重要性。根据维度，将系统故障分为P0-非常严重、P1-严重、P2-比较严重、P3-一般、P4-轻微共五个级别。
-问题分析与解决：
-实际原因分析：
-采取的措施/解决方案：
-验证结果：
-反馈与跟进：
-用户反馈：
-额外支持需求（如有）：
-跟进人员：
-跟进时间：
-问题总结与预防：
-问题总结（问题发生的原因、处理过程、解决方法等）：
-短期方案：用户在面临该问题时的及时处理方案
-长期方案：优先从根源上解决问题，若解决周期过长时，要考虑短期或兜底的方案
-预防措施（如有）
-三、结语
-这个模板旨在确保问题可以被快速、准确地解决。请根据具体应用场景调整模板详细程度。
-月亮学姐也经常会碰见自己的系统出现线上问题，线上问题的复盘以及反馈主要目的不是追责，而且杜绝此类问题发生以及查缺补漏，希望咱们所有人的线上bug越来越少，跟bug说拜拜。
-本文由 @月亮漫谈 原创发布于人人都是产品经理。未经许可，禁止转载。
-题图来自 Unsplash，基于 CC0 协议</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6033753"
-                        open
-                      >
-                        <summary class="article-expander__title">年龄优于美-老年人界面设计指南</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/pd/6033753.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/13/a55934dc-d9ea-11ed-9d7a-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>为了更好地服务于老年人这一群体，我们需要调整设计理念，提升他们的用户体验。这篇文章里，作者就分享了有关老年人界面设计的一些思考，我们不妨来看一下。
-
-如今，全国老年人占比国家人口21.1%！而且这个年龄段的增长速度比任何其他群体都快。然而，在网上，他们的需求常被忽视。为了更好地服务这一群体，我们需要重新思考他们的设计方法，将“年龄优先”作为设计的核心理念。
-一、明确图标与大字体：简洁的布局设计
-随着人变老，眼睛也变差。许多老年人使用老花镜或更大的字体来方便阅读。因此，增加色彩对比度、保持文本和按钮的大尺寸是非常必要的。一般而言，字体使用无衬线字体可以提高可读性。
-图标对老年人来说很重要，最好用文本标明每个图标的用途。这样，不熟悉页面的老年人也能轻松理解。确保文本清晰易懂是关键，这也不会影响熟悉页面的老人，但是这一步对需要帮助的老人很有帮助。
-
-二、提升老年人的用户体验
-人和机器之间的互动对用户来说很重要，尤其是对老年人。他们需要看得清、懂得明，操作也得简单。随着年纪大，动作变得不那么灵活，复杂的操作更难做到。
-1. 手势操作
-在为老年人（尤其是65岁以上的老年人）设计时，请保持手势简单易操作。
-
-别用那些需要多个手指或快速移动的复杂手势，简单的点击和上下左右滑动就好，因为这些动作更自然，复杂手势和精细的定位会让技术熟练的老年人也觉得麻烦和难受。
-
-2. 记忆力和注意力的问题
-虽然不是所有老年人都有记忆和注意力问题，但随着年龄增长，许多人的认知能力会有所下降。他们处理信息的速度变慢，完成任务可能比年轻时花费更长时间。
-比如，年轻时可能只需要几秒钟就能记住一个新的电话号码，但随着年龄增长，这个过程可能需要更长的时间，或者可能需要重复几次才能记住。
-在设计消息提醒时，应考虑到老年人的阅读速度和理解能力。建议提供关闭消息的选项，或者如果消息必须自动消失，确保它停留的时间足够长，以便老年人有足够的时间无压力地注意、阅读、理解并采取行动。
-
-3. 老年人可能将错误消息看作是自己的失误
-比如，年轻人在遇到“支付失败”的消息时，通常会认为是系统或软件的问题，而不是个人失误。他们更倾向于寻找解决方案或重新尝试，不会过多责怪自己。
-而老年人在遇到“支付失败”的消息可能会觉得是自己操作有误（肯定是我不小心按到了什么），而不是系统的问题。这可能让他们感到沮丧或不安，对技术的信心降低，有时甚至让他们觉得自己变老了。
-因此，处理不当的错误消息可能会损害老年人的自信心。他们通常需要更多时间来理解问题所在以及如何解决问题。
-那么我们就需要在消息提醒的文案上做优化，以更有效地引导和帮助老年用户，提高他们在使用应用时的自信和独立性。
-
-4. 老年人会仔细阅读和分析每个字
-老年人看东西时会很仔细，特别是对于他们不太懂或复杂的信息。他们可能会花更多时间来弄明白，不想错过什么重要的信息。所以，我们在设计界面或给他们信息时，要简单明了，详细一点，这样他们才能轻松地理解和使用。
-A：商品已经被购物车存放，请您接着选购或查看购物车里的内容。
-B：商品已成功加入购物车，请继续选购或查看购物车
-相对于A点的句子，B点的这个简单的文案对老年人来说更直接和易于理解，不会有多余的信息或复杂的句子结构。
-三、老年人与软件技术熟悉度
-为了让所有用户都能方便使用应用软件，他们应该能快速地从入口到达目标任务如A点（入口处）到B点（目标处）这就是导航设计出来的意义。
-设计给老年人用时，导航应简单易懂，并有引导帮助他们了解新功能。年轻人可能会主动探索新应用，但许多年长用户却不愿意这样做。
-在为老龄化人口设计用户界面时，子级页面应该尽量减少，以保持界面简洁和易于导航。这可以帮助他们更容易找到他们需要的信息或功能，减少混淆和迷失的可能性。
-
-对于技术不熟悉的老年用户，使用简单、友好和尊重的语言很重要。复杂或居高临下的信息可能会让他们感到困惑和不安，进而放弃使用应用。相反，友好的语言可以帮助他们更容易地理解和信任应用，促进他们的持续使用。
-
-结论
-设计就是让我们和这个世界互动变得简单和方便。不管是给年轻人还是给老年人，设计的目的都是让东西更容易用、更好理解，也更舒服。好的设计能帮助我们解决问题，做事更快，甚至让生活过得更好。
-本文由 @孙太初 原创发布于人人都是产品经理，未经许可，禁止转载
-题图来自 Unsplash，基于 CC0 协议</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6034730"
-                        open
-                      >
-                        <summary class="article-expander__title">B端系统——企业内部礼品库存管理系统设计（从需求到上线）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/pd/6034730.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/13/b2583c2e-d9df-11ed-bd5e-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>一套线上的礼品库存管理系统该怎么适配企业需求进行搭建？这篇文章里，作者分享了相应的案例，梳理了从需求到上线的流程。想了解系统设计的同学，不妨来看一下。
-
-某企业因为内部有一定数量的礼品（如采购礼品用于赠礼、员工福利等），设置了礼品仓库。由于礼品种类多、数量大，日常进出库频繁、盘点数据登记繁琐，仓库负责人提出建设一套线上的礼品库存管理系统来配合并优化仓库管理工作，需要包含入库、出库、调拨、盘点等仓储管理常用功能。
-一、需求调研
-接到需求后，先和开发一起与仓库负责人简单了解下上系统的目的、大致想要实现的功能。比如：为什么想上系统？目前线下使用有哪些不方便的地方；哪些功能需要放线下，哪些暂时放线下？
-根据这些梳理出主要的需求点，并与需求方详细确认（引导需求方痛点）。
-1. 现状和存在的问题
-⭐⭐⭐【最重要的诉求】目前使用“纸质单据+excel表”管理，一次出入库需要同时更新3张表格，比较繁琐，且会出错；希望上系统后能提升效率、节省时间。
-分公司仓库无法直接管理，只能定期收集汇总、核对表格
-礼品申领时需领导确认，纸质单据签字、微信截图都有，不好查找
-节日集中领用或内购时，可能会出现货品库存不足等情况
-部分礼品（如食品、茶叶）有保质期，存在过期可能
-2. 需求
-入库、出库、调拨、盘点数据，自动关联总库存表
-分公司库存表入系统，实时可查
-礼品领用流程审批转线上（试行，不适合可以改回纸质申请表）
-集中领用或内购时，设置单独的领用上限
-有保质期的礼品要有提醒，比如6个月内到期的礼品提醒
-同时，仓库负责人强调进出库和盘点需要线上线下结合，避免临时物料取用流程进度不及时产生误差。
-二、概要设计
-根据需求方最重要的诉求（少更新表格、减少出错），确定了“录入尽量少、最好都自动、数据必须准确”的设计原则。
-1. 相关用户
-因为需求方希望系统简单、方便，相关用户角色要尽量少。
-
-1）员工。不参与库存管理，仅涉及礼品申领/内购、采购申请等。
-礼品内购时，可直接从内购虚拟仓中选择礼品（行政提前将一定数量的礼品调拨入内购虚拟仓）；
-除内购外，不能看到库存，只能表述需求后由行政人员选择。
-2）行政。库存管理人，包括：
-仓库管理，设置仓库和仓库管理员
-产品管理，管理产品信息
-3）仓库管理员。入库、出库的执行者和确认者；一般由总部、分公司的行政人员兼任。
-接受员工的申请，发起入库、出库操作
-日常库存管理，如盘点、调拨
-需求会议中，开发者曾提出不设置仓库管理员，由行政人员直接负责；但考虑到需求方提出的分公司仓库在异地、各分公司仅能查看自己仓库，因此保留了仓库管理员的设定。
-2. 业务流程图
-将主要业务入库、出库、调拨、盘点梳理流程如下：
-
-3. ER模型图
-考虑到需求方后期统计、盘点的需求，我们在ER模型设计中将库存的出库/入库/调拨/盘点记录抽象为实体，绘制ER模型图如下：
-
-三、细节设计
-在进行细节设计时，我们发现在原设计存在2个问题：
-行政分别录入仓库、产品信息后，仍需逐条录入库存数量，录入量存在冗余。
-调拨单中，如果将一个产品调入库存为0的仓库，系统实现起来比较复杂。
-为了契合“录入尽量少、最好都自动、数据必须准确”的设计前提，在和开发人员讨论后，我们修改了库存数量管理的方案：
-录入仓库信息，录入产品信息（先后顺序不限）
-系统根据仓库、产品信息，自动生成库存信息，新库存数量设为0
-使用《入库单》更新库存
-这样，1个仓库仅需1个《入库单》即完成库存数量录入，录入量少且更符合线下习惯；调拨单的实现也更简单。
-四、项目上线
-经历内测、需求方试用后，项目上线。
-为了方便用户使用，我们在系统中设置了业务操作图，点击图标即可打开对应的表单。
-
-五、结语
-在本系统的设计和实施过程中，和需求方沟通时，我们能明显感觉到他们减少录入、尽量简单、数据准确的强烈诉求，这也是他们期望系统能做到的。因此我们在设计时，经常反复讨论，能不能不录？能不能自动？本系统中对库存数量管理的方案改动，就得益于这样的讨论。
-在B端系统中，方案上一次看似简单的录入，日常工作中都可能积累成巨大的工作量；因此方案中的每一次录入、每一个字段都值得反复考量：能不能不录？
-作为一个企业内部使用的系统，礼品库存管理系统“录入尽量少、最好都自动、数据必须准确”的设计原则同样适用于大多数B端系统。
-本文由 @小草是棵树 原创发布于人人都是产品经理。未经许可，禁止转载。
-题图来自 Unsplash，基于 CC0 协议</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6034522"
-                        open
-                      >
-                        <summary class="article-expander__title">关于 aPaaS 产品的思考（下）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/pd/6034522.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/14/a1a5d5de-da9e-11ed-9b82-00163e0b5ff3.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>aPaaS 解决的究竟是什么问题？本篇文章里，作者从更为落地的视角，探讨了 aPaaS 的解决方案、AI 对 aPaaS 的影响等方面，我们不妨来看一下。
-
-两年前，在写《关于 aPaaS 的思考（上）》时，正在求职关口，本质输出就是最好的思考方式，分享了我对下面 3 个问题的思考：
-aPaaS 产品是什么
-aPaaS 产品面向的用户是谁？
-aPaaS 产品面向的场景是什么？
-这两年里又一头扎入「模型驱动」的 aPaaS 产品中，在宏观商业模式模式的思考外，补充了很多更落地的视角。再次站在职业选择的路口，补上《关于 aPaaS 的思考（下）》，也算是给自己的阶段性小结。
-一、aPaaS 解决的问题是什么
-1. 面向企业
-相比两年前，对于这个问题，我的视角会有所不同。
-零代码的视角：从无序到有序，提高中小企业的经营效率
-在做零代码时，我们关注的是从无到有，是中小企业「管理思路」的工具化。我们判断中小企业，由于缺少高性价比的数字化管理工具，会导致企业整体经营效率会比较低。
-
-比如：百人以内的电商代运营团队，每天花费大量人力用电子表格来进行库存管理。
-低代码的视角：降低内部系统的成本
-而在最近工作的两年里，观察市场上在投入 aPaaS 方向的企业，更多是中大型公司，而其核心的动机是「如何以更低的成本迭代各种内部系统」以满足企业快速发展的诉求。
-比如：A 公司内部已经有了 OA、人力、差旅等多个系统，但是系统数据不打通，希望搭建 aPaaS 层的工具，实现系统层的数据、流程互通。
-B 公司存在大量业务线需要客服工具，于是中台打造通用客服产品，但是发现业务支持时，存在大量个性化需求，迭代不过来，于是搭建 aPaaS 工具层，快速响应。
-所以从企业视角，本质都是解决「企业应用」的问题，主要是看解决「中小企业的从无到有」，还是「大企业的从有到优」，而这两种思路，从商业化上，各自有其需要解…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6034791"
-                        open
-                      >
-                        <summary class="article-expander__title">100种分析思维模型之：中心极限定理</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6034791.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.yunyingpai.com/wp/2024/04/2vKsTXs2LNcGdiGov9Gq.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>本文将带你探索中心极限定理的奥秘，了解它如何帮助我们从随机事件中发现规律，并应用于日常生活和决策中，希望对你有所帮助。
-
-你好，我是林骥。
-在我们的日常生活中，一些看似没有规律的随机事件，其实背后隐藏着一个神奇的定理。
-下面介绍 100 种分析思维模型的第 74 种：中心极限定理，它能帮助我们更好地理解事物背后的规律。
-一、为什么学习中心极限定理？
-学习中心极限定理有很多好处，下面简要总结 3 点：
-① 更好地理解数据分布
-通过学习中心极限定理，我们可以更好地理解数据分布的特点，从而更准确地提取有价值的信息。
-② 增强数据分析的能力
-学习中心极限定理可以帮助我们更好地分析数据，提升我们的数据分析能力，因为它不仅是一种理论工具，更是一种思维方式。
-③ 更好地解决实际问题
-中心极限定理有着广泛的应用，比如市场调研、质量控制、风险评估、医学研究、社会调查等，掌握中心极限定理，能帮我们更好地解决现实生活中遇到的问题。
-总之，中心极限定理为我们提供了一种强有力的工具，帮助我们更好地理解现实世界，进而给我们带来深远而有益的影响。
-二、什么是中心极限定理？
-中心极限定理是概率论与数理统计中的重要定理，它的核心思想是：无论原始随机变量如何分布，当样本量足够大时（至少 30 个），样本均值总会趋近于正态分布。
-
-比如，虽然总体上人们的财富属于幂律分布（符合二八法则），但是如果每次随机抽取 n 个人，总共随机抽 m 次，那么这 m 次抽样的平均值就趋近于正态分布。
-需要注意的是，样本量 n 不能太小，且为了保障抽样的随机性，每次抽样都要保持独立，不能相互影响。
-如下图所示，随着样本量 n 的增加，无论总体分布的形状如何变化，最终样本均值都将趋近于正态分布。
-
-按照中心极限定理揭示出来的规律，每个随机事件最终都将演化成正态分布的样子。
-也就是说：所有的分布，不是正态分布，就是在变成正态分布的路上…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6034804"
-                        open
-                      >
-                        <summary class="article-expander__title">紫菜云从1到5的跃升，斗胆说说我的理解</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6034804.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/13/a17018d2-d9e9-11ed-a6e8-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>随着公众环保意识的提高，对于环保、可持续的物资回收服务的需求日益增长。产业级的物资循环服务平台正好抓住了这一步，紫菜云从1到5的跃升，都做了些什么？我们一起来看看吧。
-
-以下是我对基建物资循环行业的理解，期望能对业务的发展以及有意涉足此领域的同行们提供一些有益的参考与帮助。
-一、物资循环行业介绍
-随着闲鱼、转转等面向个人的二手平台崛起，产业级的“物资循环服务”平台也开始进入公众视野，成为推动绿色经济发展的重要力量。这些平台不仅响应了国家关于循环经济和资源节约的政策号召，还借助互联网技术，实现了物资循环业务的规模化和专业化。
-在政策层面，国家相继出台了《循环经济促进法》和修订后的《固体废物污染环境防治法》，为物资循环行业提供了法律支持和政策指导。这些法规鼓励企业采用先进的循环技术和管理方法，提高资源的再利用率，减少环境污染。
-
-物资循环服务平台通过整合线上线下资源，提供从废弃物分类、收集、运输到处理的全流程服务，有效提升了行业的运营效率。同时，通过大数据分析和物联网技术的应用，这些平台能够更精准地预测市场趋势，优化循环策略，降低运营成本。
-在基建物资细分领域，传统的运作模式常导致物资周转率低、大量闲置，这不仅占用了宝贵的设备场地和资金，还因供应商设计能力参差不齐而增加了基建企业的成本负担。此外，物资计划的不详尽和配套性差，以及物资发放与实际需求脱节，进一步造成了物资浪费，并增加了工程项目延期的风险，凸显了行业在物资管理和使用上的诸多痛点。
-随着公众环保意识的提高，对于环保、可持续的物资回收服务的需求日益增长。产业级的物资循环服务平台正抓住这一机遇，通过提供高效、便捷的回收解决方案，满足市场需求，推动行业的健康发展。预计在未来，随着技术的不断进步和政策的持续支持，物资循环行业将迎来更加广阔的发展空间。
-二、市场空间
-产业级的物资回收市场在全球范围内都具有巨大的市场价值和发展潜力…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6034852"
-                        open
-                      >
-                        <summary class="article-expander__title">苹果 Ferret-UI，会颠覆交互设计么？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6034852.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/17/23a05b42-dcf5-11ed-8851-00163e0b5ff3.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>近期，Apple 发布了关于 AI 手机端应用的论文，其中一篇是讲 Ferret-UI 的研发成果。苹果为什么要做 Ferret-UI，它会颠覆交互设计么？
-
-最近，Apple 在一周内发布了两篇 AI 手机端应用的论文，其中一篇是讲 Ferret-UI 的研发成果。
-作为交互设计师，我们有必要将该技术可以看作是 AI 在交互设计领域的全新尝试，会对未来的界面交互体验产生颠覆性的影响。‍
-一、为什么苹果要做 Ferret-UI
-一直以来，ChatGPT 等大型语言模型都主要依赖于文本和图象数据进行训练，而这些数据大多来源于已存在的网络信息和页面。但是，移动应用的界面和交互方式与直观的网页信息不同，最主要的两个区别如下：
-一是移动界面的宽高比、图标和按钮的尺寸有各种规范和设计原则；
-二是移动应用的功能语意需要理解，每个元素都存在不同的交互方式。
-正是这两点导致传统的大语言模型在处理和设计移动应用界面信息时往往会力不从心。而苹果开发 Ferret-UI 想要解决的就是AI 在理解移动应用界面方面的问题。苹果的研究人员在论文中提到，Ferret-UI 采用多模态大型语言模型的技术路线，并对其进行了三点针对性的优化：
-1. Ferret-UI 能够识别和处理不同宽高比的屏幕，可以理解同一个页面不同尺寸的适配方案：‍‍‍
-
-2. Ferret-UI 增强了识别小尺寸图像的能力，比如 icon、按钮、文本等等，能够更准确地识别和定位屏幕上的各个元素及其功能：
-
-3. Ferret-UI 在识别图像后更进一步，能够理解对话和推断任务，也即理解屏幕内容变化与用户操作结果之间的关系，更好地响应用户的指令：
-
-二、Ferret-UI 的应用场景
-我们可以从苹果对于 Ferret-UI 的核心技术描述推断出其能够应用的几类场景：
-1. 建立更标准、通用的底层规范
-Ferret-UI 通过学习大量…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6032449"
-                        open
-                      >
-                        <summary class="article-expander__title">一招让你的生意从淡季秒变旺季，轻松实现营收逆袭</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6032449.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/13/e51f781a-d9ea-11ed-9d7a-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>本篇文章作者在讲将生意从淡季秒变旺季的方法，主要在讲店铺的曝光方法。感兴趣的朋友继续看下去吧～
-
-很多人说生意不好做，没有客户，那是没有掌握方法，没有一套获取流量的体系。
-这边分享几个公式：
-业绩&#x3D;曝光×平台点击量率×导入私域流量率×私域转化率×客单价
-业绩&#x3D;曝光×平台点击量率×进店率×进店转化率×客单价
-私域流量&#x3D;曝光×平台点击量率×导入私域流量率
-进店流量&#x3D;曝光×平台点击量率×进店率
-精准流量&#x3D;导入私域流量（进店流量）×种草×认可、信任×需求、痛点×分层跟进
-业绩&#x3D;精准流量（私域、进店）×转化率
-有没有发现上面的公式中最基础的就是曝光，也就是把你的品牌、产品、店面传播出去让更多的人知道。
-今天主要就讲曝光，其他的后面文章再继续讲。
-01
-那很多人其实都不重视曝光，不重视传播，这是生意不好的原因之一。
-比如做实体的如果能够做到每天进店的客户都大部分都能替你发朋友圈、发小红书、发抖音，能够帮你传播，并且能够帮你做口碑传播、体验分享，那你的店、你的生意一定非常火。
-现在人看得最多的就是朋友圈、小红书、抖音，那如果能够引导客户帮我们转发，那是不是能够形成很大的一股能量，就能让更多的人看到并且知道这家店。
-朋友圈的文案+海报，我们直接准备好，然后客户直接发就可以。
-小红书、抖音的，我们可以跟她说应该怎么拍、怎么发，记住一定要掌握做抖音、小红书的原理，这样才能得到最大程度地有效曝光，才能让更多的目标客户看到你。
-02
-那怎么才能让他们帮忙传播，这就需要设计利益机制，设计出客户无法拒绝的机制，让客户愿意替你传播，并且传播完以后会得到他想要的奖励。
-很多人的抖音、小红书其实都是随便拍的内容，更多的是用来娱乐的，所以只要设计好奖励，他是愿意帮忙传播的，因为对他来讲没什么损失，无非就是帮忙发一发。
-
-再然后，其实一般我们想要买什么东西，大部分人可能问过身边的朋友，参考过身边朋友的建议。
-看到身边朋友买了什么，如果自己需要，也可能会跟风买。
-03
-如何做口碑传播，也就是如何让客户愿意发朋友圈分享、如何让客户愿意跟身边的人提起我们、如何让客户觉得如果身边朋友有需要会推荐我们，就很重要。
-这其实都是体验后的分享，在体验后会跟朋友分享，这就需要有分享的点以及分享的理由。
-首先产品、服务一定是基础，只有基础做好客户才会愿意分享。
-然后要有新意、要有奇特、要有惊喜给到客户。
-并且要搭建私域用户池，把客户都加到私域，然后在私域中最好客户的维护、跟进、成交、服务，通过私域营销，不断提升客户终身价值。
-04
-如何让用户愿意发朋友圈分享，如何让客户愿意跟身边的人提起我们，本质上都是要让客户产生分享欲。
-那么如何让客户产生分享欲呢？
-1. 提供新颖和反差
-要想办法打破客户常识。
-比如送外卖的都是穿外卖服装，但这个时候要是有人穿个皇帝装送外卖，很多人就会拍照、发朋友圈，或者分享给身边朋友这一新鲜事。
-之前有个品牌：熊猫不走蛋糕，送蛋糕上门还负责跳舞，这就明显地提供了新颖和反差，很多人就会愿意分享到朋友圈。
-如果你的营销、产品、服务等每个与客户接触的环节都能打破客户的尝试、提供新颖和反差，打破客户原有的预期，客户自然就会愿意分享。
-2. 提供稀缺知识
-每个人本能地其实都有分享欲，比如当你知道了一个别人不知道的知识、信息、八卦，你就很想分享出去，让身边的朋友知道。
-而如果要刺激客户的分享，就要想办法给客户提供稀缺的知识，所以要主动给客户提供必要的知识，让他们拥有超过别人知识的优越感，进而让客户很想分享。
-3. 绑定话题
-比如像雨伞本身缺少话题感，这种很少会主动提及和分享，就需要跟一个常见的事物或者话题绑定分享，把雨伞跟一个更加容易被讨论的话题进行绑定。
-专栏作家
-老陈，公众号：老陈的深度思考，人人都是产品经理专栏作家。90后互联网创业者，多年互联网运营和创业经验，擅长流量操盘、私域变现、个人品牌IP打造。
-本文原创发布于人人都是产品经理。未经许可，禁止转载
-题图来自Unsplash，基于 CC0 协议</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6035544"
-                        open
-                      >
-                        <summary class="article-expander__title">京东投资10亿，要做短视频</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6035544.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.yunyingpai.com/wp/2024/04/4THkonlox9KHgXn6lTU8.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>在短视频热潮的推动下，不少货架电商平台纷纷效仿抖音等短视频平台，试图通过增设短视频入口来吸引和留住用户。然而，这种跟风策略是否真的有效？京东等平台为何选择这样做？面对用户的真实需求和货架电商的核心竞争力，这些平台又该如何平衡和取舍？本文将深入剖析这些问题，并探讨货架电商的未来发展之路。
-
-京东眼看着其他平台纷纷布局短视频，比如美团、饿了么、支付宝，拼多多等，也开始心急了。
-据相关信息显示，京东已经准备了10亿现金，重点布局短视频和直播领域。
-将对数码家电、宠物、时尚、运动等20多个领域的内容创作达人进行重点补贴，单周期内单账号最高可获得30000元现金创作补贴。
-同时为了快速完成达人的邀请和内容的完善，京东将特别设置500万元的机构激励榜。
-就连多年未公开露面的京东创始人刘强东，也将于4月16日以京东采销1哥的身份开启直播首秀，当然他是以AI数字人的身份出现。
-不管怎样，足以可见东哥对短视频、直播领域的重视。
-但对于京东花巨资入局短视频，我个人并不看好。
-一、内容同质化严重
-首先最为明显的一个问题，就是现在各大平台都在拉作者，对于作者来说也十分乐意。
-毕竟一个作品，可以在不同的平台上享受多重收益。
-但内容是给用户看的，质量低的不火的视频你发到其他平台也很难火。
-而高质量的内容和作者，一定优选抖音。
-比如我经常看到许多搬运的内容发布在拼多多、支付宝上，这种刷几次就不想看了，关键还浪费了核心频道的流量，许多APP都把短视频放在的首屏的tab位置、
-二、用户为什么要在京东上看短视频
-许多人认为用户既然在短视频平台上能消费，那在电商平台上做个短视频入口，也肯定那把货卖出去。
-虽然说，的确有一部分是这样的，但相比于整个比重来说，那还是很少的。
-就像餐饮店平常也有饮料卖，但是用户口渴的时候，还是会走到隔壁的便利店去买。
-
-尤其是京东没有思考一个问题，用户出于什么目的打开京东的？
-更没有…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6035535"
-                        open
-                      >
-                        <summary class="article-expander__title">经营分析赋能业绩增长，这家大厂是怎么做到的？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/data-analysis/6035535.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.yunyingpai.com/wp/2024/04/iOEEa7ulBkGeKmmFwIeR.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>怎么从数字中看到机会？经营分析如何为业绩增长赋能？本篇文章通过一个大厂的案例给你解答。
-
-“做经营分析不要光堆数据，要有洞察，要能找到业绩增长机会”。这是很多公司的要求，然而却让同学们犯难：到底该怎么弄？怎么就从数字里看到机会呢？
-今天通过一个大厂的某事业部的一个具体例子，系统讲解下如果通过经营分析赋能业绩增长。话不多说，直接上案例。
-一、问题背景
-某企业有100间门店，平均每间门店贡献120万年收入，全年1.2亿收入。现在想在下一年增加50%，达到1.8个亿，该怎么做？
-二、错误做法
-有些同学一看题目，就说：这还不简单。多挣1.8-1.2&#x3D;0.6个亿，每个店120万，开50个新店，搞掂！
-不要笑，很多同学真就是这么算的。这里有哪些问题？
-1、120万是年度平均，所以新店必须在1月份开起来，否则不够。
-2、120万是所有店平均，新店/老店是否一样？得分开看
-3、120万是所有店平均，大店/小店是否一样？得分开看
-4、6000万增长，需要多少投入，是否收支平衡？
-5、是否一个城市扎堆太多，导致效益下降？
-6、是否老店还有增长空间，空间有多大？
-7、除了店，有没有新渠道（比如线上渠道）可以考虑？
-这些细节统统没有考虑。当然会惹人笑话。
-注意，这里列的7个细节，完全可以用数据量化，和具体业务操作没有关系。我们不需要考虑到，诸如门店的门口用红字还是蓝字，线上是投广告还是请大长腿小姐姐来开直播。这7个细节，保障的是经营工作的方向正确与资源充足。如果能找到合适的方向，有充足的资源，再长再白的腿也能找到来开直播。
-这就是经营分析驱动业绩增长的关键：
-1、清晰业绩增长方向
-2、保障资源投入力度
-3、剔除明显有问题做法
-有了这三点保障，就像上战场的时候，给前线配足枪支弹药，选好容易攻击的阵地。这对于前线的帮助，要比坐飞机空投一个命令”你把机枪往前挪100米”要有用得多。
-要注意的是，这里的问…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6031808"
-                        open
-                      >
-                        <summary class="article-expander__title">用户增长框架与实战（10）用增的能力储备和团队结构</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6031808.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.yunyingpai.com/wp/2024/04/gObjPoo89a4644RKRviH.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>本篇文章作者在讲解用户增长的能量储备与团队结构，逆向拆解目标系统构造，从而清晰理解运作原理。让我们来一起看看吧~
-
-一、用户增长的能力储备
-1. 逆向拆解目标系统构造
-逆向拆解目标系统构造，从而清晰理解运作原理。比如你想做好在facebook上投放，或者你想做好在小红书抖音上一个账号的粉丝数、订单量。假设自己是这个平台的产品负责人，能清晰表达系统都有哪些主要模块，如何从零搭建起来的，模块之间如何运作的。如果整理好思路，给一个技术团队讲清楚，基本就做到了。
-对于付费渠道的增长，还需要理解这个系统的计费逻辑，也就是它如何把资源计价卖给我们的。理解预算和流量是如何分配才是合理的，为了平台自身的良性发展，他们会用什么策略。他们的成本是什么，目标是什么，平台自身增长的抓手是什么。
-
-举个反例，我在给某个付费渠道团队讲，为什么我们浪费了大量预算，结果混入了大量无效流量。是由于这个campaign设置了转化事件，计费逻辑我们设置的tROAS，平台是按照近期历史统计，找到相似特征的目标受众，预估CTR，受众的当前竞价，然后从实际的 cost per event，反推出eCPM。所以我告诉他们，平台本质是按照 cost per event收费的，由于我们发送给平台的event有业务逻辑错误，导致了这个结果。但是这个团队从执行者到管理层，给我一致答复是：平台是按照click来计费，并不是按event。这样就属于纯按字面意思理解，很难做到增长价值了。
-2. 对业务的深刻理解
-比如大促、电商平台的商家运营，电商平台的买家运营。简单的说就是这个业务的付费方是谁，我们给他提供的价值是什么，他通过我们获得了什么收益。
-举个反例，我问一个顶级资深运营同学，电商大促的底层逻辑，如果二选一，你会选哪个？
-优化卖方资金、货物、物流、仓储等周转效率，提高资金的年化收益率，从而他们给用户让利。三赢。
-让用户集中被广告触达，认为这个期间大量产品应该让利，但实际上却冲动消费。平台GMV有明显提升。
-我得到的答复是#2。所以不难解释KPI为何那样定了。在我看来，那种KPI与公司业务的增长，并无正相关性。因为这不符合业务逻辑，提供的业务价值相当有限。
-再举个反例，我在立项阶段问一个资深业务同学做的内容项目给用户提供了什么价值。他回答说，用户看了我们的内容，就会点击，我们就获得了流量。更可怕的是这个同学在晋升答辩时也是这样叙述的。
-做到真正的“点线面“。通过深刻的业务理解，先抓到一个重点，做出成绩。思考相似业务的共性，合并逻辑，减少重复劳动，甚至抽象成算法逻辑，进一步提高效率。再思考更底层的共性，是否可以延展到更多部门，形成更庞大的体系，扩大影响力。少数同学可能会为了体系而做体系。把一个不重要的点放大，设计出一套复杂的体系，甚至称之为“点线面”。我见过太多例子，浪费了极大的资源。
-千万不要钻牛角尖。比如当我给付费流量团队讲框架的逻辑和数据分析的过程，我说需要找到波动性最大的特征维度，暂定用标准方差计算。这个同学居然问我，”标准方差是线性的还是非线性的?”。我说，”随便你怎么算，合理即可，我只是为了省事，用excel默认公式算的，其实肉眼看就很明显了”。
-二、团队结构
-可能有的部门设计，把流量运营改名为用户增长，与产品、自有流量等运营团部并行。在我看来确实方便管理，结构清晰，但很难做出成绩。用户体验非常容易割裂，每一个环节还要重复劳动，重新思考，方向很难把控。按我的理解，用增就是用户运营下面的增长策略团队。策略之间是并行的，但是任何一个策略从头至尾应该是同一个团队在所有环节和部门中贯彻。
-
-甚至有的团队设计，按照用户生命周期分组，例如：新用户、激活、促活、忠实度、召回。每个组下面再重新思考策略和抓手。我所看到的抓手，几乎是相似的，总结一个词就是买曝光。业务早期是可以的，中后期会发现成本升高，效果降低，无法持久。
-应按用户画像分组，例如交友app按男女来拆，视角、需求、完全不同。每个组的负责人只要抓到需求痛点，用户生命周期各个阶段的策略也就非常容易想清楚，各个产品、算法团队该如何配合，也都可以讲的很清楚，更容易形成合力。
-本文由 @达太 原创发布于人人都是产品经理。未经作者许可，禁止转载
-题图来自Unsplash，基于CC0协议
-该文观点仅代表作者本人，人人都是产品经理平台仅提供信息存储空间服务</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6035098"
-                        open
-                      >
-                        <summary class="article-expander__title">原来小红书账号的断更的原因是…..</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6035098.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.yunyingpai.com/wp/2024/04/aSElg5oPiXhmWEHhcaia.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>本文为想要做小红书博主的读者推荐了几款优质的内容模型，感兴趣的读者一起看看吧。
-
-很多做博主的宝子反馈，近期小红书广告商单收入骤降，一些PR竟然要60%的返点，扣除掉手续费，还不到30%。
-如果内容要选题、拍摄，完全就是浪费时间，还不如去麦当劳打工！虽然是句玩笑话，的确是事实。
-出现这种情况，除小红书合作产业链出现问题外，更重要博主内容创作方法陷入黑洞期，就是每一条笔记创作成本太高，太浪费时间。
-从选题、制作、发稿至少要1-2天准备，所花费的成本制作周期太长。
-无论是个人博主还是商家，都要想法设法找到优质内容制作模型，投入过多精力创作笔记，只会造成对数据的过多期待。
-但每个人账号流量下降是不可逆，这就形成恶性循环，在这种情况，账号因为变现、创作的压力，不得不断更。
-什么是优质的内容模型？
-就是你每天都在经历、很方便去拍的、花时间成本低创作方式，且该笔记类型小红书用户喜欢，一直有流量的内容。
-
-比如翻包、生活记录、好物分享等内容，具体还有哪些内容模型，就需要你持续刷小红书做判断；
-近期我看到一些优质内容模型。
-一、翻包类账号
-介绍：更新自己每天翻包，因为你每天出门都带包，内容形式就比较好拍，更重要因为是实拍，容易植入广告做且不突兀，翻包本质是满足用户窥探欲，所以流量就会一直有。
-举例下图为1.5W粉翻包博主，左侧为翻包笔记类型，右图其月接单3条商单，其图文报价2100，职场人副业选择，核心要把图拍干净、有质感；
-
-图1：翻包类博主日常记录
-二、生活记录拍摄
-简介：每天记录工作、晚上看书、做手工日常，拍视频记录也是顺手的事情，流水账形式广告内容也更好嫁接；
-举例下图黑糖爱攒钱，每天分享月薪3千如何存钱记录视频，月更25条，新增粉丝1.8K。
-视频类能月更25条，就是其内容制作成本低，不花费更多时间，若每一条都需要选题、写文案很难实现月更25条；
-
-图2：黑糖爱攒钱后台数据
-三、好物分享类
-简介：好物分享类账号，化妆品、礼盒等，举例护肤好物博主，每天分享化妆品用法或直拍商品，拍摄成本低，因为是直拍也更容易植入广告；
-举例护肤好物博主山前雨雨来，主要以手持位置，正文中植入对产品的描述，相比其它美妆博主拍摄，成本真的很低，近期发的10条笔记全是商单；
-
-图3：山前雨雨来后台数据
-从以上的博主案例，找到优质内容模型后，就可以持续按照模型更新，笔记制作成本低，更容易实现矩阵化运营。
-更重要因为是实拍商品，品牌方看到数据不错，更愿意投，如果非商品实拍，大概率出现自然流量好，但商品笔记差的情况，这也就能解决这些问题。
-专栏作家
-江河聊营销，微信公众号：江河聊营销，人人都是产品经理专栏作家。从品牌投放到达人孵化，帮助近百家品牌、数十位达人在小红书少走弯路。
-本文原创发布于人人都是产品经理，未经作者许可，禁止转载。
-题图来自Unsplash，基于CC0协议。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -23278,336 +23697,12 @@ Ferret-UI 通过学习大量…</span>
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >The Portable Freeware Collection</button>
-                  <a class="source-heading__link" href="https://www.portablefreeware.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="2890+1713438559"
-                        open
-                      >
-                        <summary class="article-expander__title">[UPDATE] CudaText 1.213.0</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.portablefreeware.com/?id&#x3D;2890&amp;ts&#x3D;1713438559">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="1431+1713438518"
-                        open
-                      >
-                        <summary class="article-expander__title">[UPDATE] Q-Dir v11.55</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.portablefreeware.com/?id&#x3D;1431&amp;ts&#x3D;1713438518">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;17
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="2610+1713420336"
-                        open
-                      >
-                        <summary class="article-expander__title">[UPDATE] IsMyHdOK v3.96</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.portablefreeware.com/?id&#x3D;2610&amp;ts&#x3D;1713420336">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="2910+1713420305"
-                        open
-                      >
-                        <summary class="article-expander__title">[UPDATE] InstalledPackagesView v1.10</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.portablefreeware.com/?id&#x3D;2910&amp;ts&#x3D;1713420305">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="885+1713412953"
-                        open
-                      >
-                        <summary class="article-expander__title">[UPDATE] CCleaner Free v6.23.11010</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.portablefreeware.com/?id&#x3D;885&amp;ts&#x3D;1713412953">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;13
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >小众软件</button>
-                  <a class="source-heading__link" href="https://www.appinn.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.appinn.com/?p&#x3D;48212"
-                        open
-                      >
-                        <summary class="article-expander__title">Delta – 新鲜上架：iPhone 游戏模拟器，支持 NES 红白机、Game Boy 系列、任天堂 DS/64 系列、世嘉MD</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.appinn.com/delta-game-emulator/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.appinn.com/wp-content/uploads/2024/04/Appinn-feature-images-2024-04-18T114456.304.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Delta – Game Emulator 是一款新鲜上架 App Store，适配 iPhone 的游戏模拟器，支持NES、SNES、Game Boy、Game Boy Color、Ga</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >QiuQuan&#x27;s Blog</button>
-                  <a class="source-heading__link" href="http://www.qiuquan.cc">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://bak.qiuquan.cc/?p&#x3D;4262"
-                        open
-                      >
-                        <summary class="article-expander__title">360驱动大师 2.0.0.2010 去广告去多余图标优化版（安装版 + 单文件 + 网卡版）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://www.qiuquan.cc/systemtool/360drvmgr.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>360驱动大师是一款专业解决驱动安装更新软件，百万级的驱动库支持，驱动安装一键化，无需手动操作，首创的驱动体检技术，让你更直观了解您电脑的状态，强大的云安全中心让保证您所下载的驱动不带病毒，快一点，再快一点，体验一键化安装和升级的乐趣，驱动大师陪你一路行。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-04-17 datetime="2024-04-17T16:30:12.000Z">2024-04-17</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-04-17 datetime="2024-04-17T16:30:12.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >大眼仔旭</button>
-                  <a class="source-heading__link" href="http://www.dayanzai.me">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://www.dayanzai.me/?p&#x3D;2795"
-                        open
-                      >
-                        <summary class="article-expander__title">本地磁盘文件搜索工具 Everything 1.5.0 Build 1372a x64 绿色汉化版</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://www.dayanzai.me/everything.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Everything 1.5.0 绿色中文版由大眼仔旭（www.dayanzai.me）发布。本地磁盘搜索工具 […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://www.dayanzai.me/?p&#x3D;6556"
-                        open
-                      >
-                        <summary class="article-expander__title">基于 Qt 的多媒体播放器 Qmmp 2.1.7 中文多语免费版</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://www.dayanzai.me/qmmp.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>开源多媒体播放器 Qmmp 中文版由大眼仔旭（www.dayanzai.me）发布。Qmmp 是一款现代音频播 […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://www.dayanzai.me/?p&#x3D;8637"
-                        open
-                      >
-                        <summary class="article-expander__title">水狐浏览器 Waterfox G6.0.12/2022.11 Classic x64 中文免费版</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://www.dayanzai.me/waterfox.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>水狐浏览器 Waterfox 中文版由大眼仔旭发布。Waterfox 中文版是 Firefox 的 64 位版 […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://www.dayanzai.me/?p&#x3D;10134"
-                        open
-                      >
-                        <summary class="article-expander__title">开源免费 SSH 和 Telnet 客户端 Putty 0.80 中文汉化版</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://www.dayanzai.me/putty.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Putty 中文版由大眼仔旭（www.dayanzai.me）整理发布。PuTTY 中文版是一个多功能的免费  […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >异次元软件世界</button>
-                  <a class="source-heading__link" href="https://www.iplaysoft.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.iplaysoft.com/?p&#x3D;6139"
-                        open
-                      >
-                        <summary class="article-expander__title">“狗屁下载器”？Gopeed - 开源全平台下载器 (免费轻量 / 比 Aria2 好用 / 远程下载)</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.iplaysoft.com/gopeed.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://img.iplaysoft.com/wp-content/uploads/2024/gopeed/gopeed.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>如果要推荐好用的下载工具，大家首先都会想到「IDM」这样的热门产品！然而，IDM 仅能支持  Windows，也不支持 BT，想要在 Mac、Linux 或者手机下载文件，还是得另外寻找工具。
-Gopeed“狗屁下载器”不对~ 它其实叫够快下载器，是一款开源免费跨平台支持手机和电脑的现代化下载加速软件！支持 Win / Mac / Linux 桌面系统，也支持 iOS / Android 手机端，还能 Docker 部署到 NAS 或 VPS 上，实现高速多线程 HTTP 和 BT 加速下载，以及远程离线下载……
-「 前往查看原文.... 」
-异次元还有这些值得一看：
-
-Free Download Manager (FDM) 中文版 - 替代迅雷的优秀免费开源下载工具软件
-Motrix - 清爽开源免费的全能下载工具 (跨平台 Aria2 客户端 / 支持 BT / 磁力链 / 百度网盘)
-Photon - 开箱即用的免配置 Aria2 免费开源下载软件利器 (替代迅雷)
-替代迅雷！小白都会用的免配置 Aria2 图形界面版免费开源下载软件 PDM
-
-异次元正版数字商城  |  异次元首页  |  微信公众号  |  iPcFun  |  关注微博  |  软件精选</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/allceo/feed/actions/runs/9121293115">
-        <time id="build-timestamp" datetime="2024-05-17T01:01:31.809Z">2024-05-17T01:01:31.809Z</time>
+      <a class="footer-link" href="https://github.com/allceo/feed/actions/runs/9136049137">
+        <time id="build-timestamp" datetime="2024-05-18T01:00:53.689Z">2024-05-18T01:00:53.689Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
