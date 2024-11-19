@@ -6,6 +6,26 @@
       "siteUrl": "https://www.appinn.com",
       "articles": [
         {
+          "id": "https://www.appinn.com/?p=50194",
+          "author": "青小蛙",
+          "description": "微软在官网下载页面放出了基于 ARM 芯片的 Windows 11 磁盘映像 (ISO)，所有使用 Arm 芯片的 PC 设备终于可以自己重装系统了。@Appinn 目前的 Windows 11 Ar",
+          "link": "https://www.appinn.com/windows-11-arm-iso-download/",
+          "publishedOn": "2024-11-18T12:20:22.000Z",
+          "wordCount": 2652,
+          "title": "微软放出基于 ARM 的 Windows 11 磁盘映像 ISO下载",
+          "imageUrl": "https://www.appinn.com/wp-content/uploads/2024/11/Appinn-Feature-images-2024-11-18T201020.951.jpg"
+        },
+        {
+          "id": "https://www.appinn.com/?p=50189",
+          "author": "青小蛙",
+          "description": "Little File Explorer 是一款仅有 35KB 大小的安卓文件管理器，功能全面，免费开源，还有深色模式。最有趣的是它兼容 Android 1.0，要知道这已经是18年前的安卓系统了。@",
+          "link": "https://www.appinn.com/little-file-explorer/",
+          "publishedOn": "2024-11-18T09:29:12.000Z",
+          "wordCount": 2682,
+          "title": "仅35KB！支持 Android 1.0 的免费、开源安卓文件管理器 Little File Explorer",
+          "imageUrl": "https://www.appinn.com/wp-content/uploads/2024/11/Appinn-Feature-images-2024-11-18T171711.316.jpg"
+        },
+        {
           "id": "https://www.appinn.com/?p=50181",
           "author": "青小蛙",
           "description": "《半条命2》是2004年发布的一款第一人称射击游戏，在游戏商店 Steam 上好评如潮。最近发布了20 周年庆更新，包括「升级了游戏体验、推出了全新功能、翻出了往昔视频，还制作了纪录片」，还有一个壁纸",
@@ -534,16 +554,6 @@
           "wordCount": 2774,
           "title": "Files Gallery – 单文件 PHP 程序：将任何文件夹变成网页版文件库",
           "imageUrl": "https://www.appinn.com/wp-content/uploads/2024/10/Appinn-Feature-images-2024-10-21T151237.319.jpg"
-        },
-        {
-          "id": "https://www.appinn.com/?p=49781",
-          "author": "青小蛙",
-          "description": "Smart Preview 是一个模仿 Arc 浏览器 Peek 功能的 Chrome、Firefox 扩展，只需要按住 Shift 再点击链接，就可以在无需离开当前标签页的情况下，快速预览链接，最后",
-          "link": "https://www.appinn.com/smart-preview/",
-          "publishedOn": "2024-10-20T10:05:57.000Z",
-          "wordCount": 2835,
-          "title": "Smart Preview – 仿 Arc 浏览器 Peek 功能：快速预览链接插件[Chrome/Firefox]",
-          "imageUrl": "https://www.appinn.com/wp-content/uploads/2024/10/Appinn-Feature-images-2024-10-20T172746.199.jpg"
         }
       ]
     },
@@ -552,6 +562,156 @@
       "feedUrl": "http://www.woshipm.com/feed",
       "siteUrl": "https://www.woshipm.com",
       "articles": [
+        {
+          "id": "https://www.woshipm.com/?p=6142348",
+          "author": "起点课堂",
+          "description": "业务调研是做B端产品的不可或缺的环节，缺少实际的业务调研而是凭空构思产品方案，对团队对公司都是灾难性的后果。  […]",
+          "link": "https://www.woshipm.com/it/6142348.html",
+          "publishedOn": "2024-11-19T00:01:25.000Z",
+          "wordCount": 701,
+          "title": "产品经理必看：你的业务调研方法，真的高效且正确吗？",
+          "imageUrl": "https://image.woshipm.com/2024/10/21/c3e231b2-8f5e-11ef-abf0-00163e0b5ff3.jpg"
+        },
+        {
+          "id": "https://www.woshipm.com/it/6142205.html",
+          "author": "陈宇明",
+          "description": "在汽车售后服务领域，AI智能体的应用正带来一场效率和专业度的革命。本文深度解析了一个AI智能体在To B领域的 […]",
+          "link": "https://www.woshipm.com/aigc/6142205.html",
+          "publishedOn": "2024-11-18T08:58:06.000Z",
+          "wordCount": 807,
+          "title": "深度解析！AI智能体在To B领域应用，汽车售后服务落地全攻略",
+          "imageUrl": "https://image.woshipm.com/2024/07/02/083e0566-386b-11ef-90af-00163e142b65.png"
+        },
+        {
+          "id": "https://www.woshipm.com/?p=6142014",
+          "author": "Isaac Theo",
+          "description": "在数字化时代，内容安全审核成为了各大平台维护健康网络环境的核心工作。然而，面对法规的频繁变化、内容形式的多样性 […]",
+          "link": "https://www.woshipm.com/operate/6142014.html",
+          "publishedOn": "2024-11-18T08:31:07.000Z",
+          "wordCount": 753,
+          "title": "内容安全审核标准（一）：政策到执行的科学构建指南",
+          "imageUrl": "https://image.woshipm.com/2023/04/14/98ef5b88-daa1-11ed-aee8-00163e0b5ff3.png"
+        },
+        {
+          "id": "https://www.woshipm.com/?p=6141970",
+          "author": "品牌市场相对论",
+          "description": "在商业和管理的领域中，\"战略\"一词被频繁提及，它关乎企业如何在竞争激烈的市场中定位自己，并实现长期目标。但究竟 […]",
+          "link": "https://www.woshipm.com/share/6141970.html",
+          "publishedOn": "2024-11-18T08:27:41.000Z",
+          "wordCount": 735,
+          "title": "你懂战略吗？一文讲清关于战略的那些事儿",
+          "imageUrl": "https://image.woshipm.com/2023/04/13/d34a618a-d9e1-11ed-9d7a-00163e0b5ff3.jpg"
+        },
+        {
+          "id": "https://www.woshipm.com/?p=6141706",
+          "author": "唐辰同学",
+          "description": "随着双11购物节的落幕，消费者行为、品牌策略以及电商平台的动态再次成为热议的焦点。本文深入探讨了双11期间品牌 […]",
+          "link": "https://www.woshipm.com/share/6141706.html",
+          "publishedOn": "2024-11-18T08:19:39.000Z",
+          "wordCount": 716,
+          "title": "重估双11：白牌向下，品牌向上",
+          "imageUrl": "https://image.woshipm.com/2023/04/13/79ebf122-d9ea-11ed-a8b0-00163e0b5ff3.jpg"
+        },
+        {
+          "id": "https://www.woshipm.com/?p=6141926",
+          "author": "菠萝油AI",
+          "description": "《AI产品经理百词斩》这是专为想要了解AI产品的大学生和有志于转行AI产品的职场新人量身打造的系列文章。这本书 […]",
+          "link": "https://www.woshipm.com/share/6141926.html",
+          "publishedOn": "2024-11-18T07:35:32.000Z",
+          "wordCount": 679,
+          "title": "【AI产品经理百词斩】从小白到专家之路（一）",
+          "imageUrl": "https://image.woshipm.com/2023/04/13/f35c645e-d9dd-11ed-8440-00163e0b5ff3.jpg"
+        },
+        {
+          "id": "https://www.woshipm.com/?p=6141930",
+          "author": "INFP怡伶设计",
+          "description": "为了让更多受众了解 AR - HUD，本文将对其进行综合研究，包括其发展历程、应用场景、信息布局以及未来发展趋 […]",
+          "link": "https://www.woshipm.com/evaluating/6141930.html",
+          "publishedOn": "2024-11-18T06:50:33.000Z",
+          "wordCount": 1259,
+          "title": "增强现实抬头显示AR- HUD综合研究",
+          "imageUrl": "https://image.woshipm.com/2024/02/20/78c1d520-cfe2-11ee-8b8d-00163e142b65.png"
+        },
+        {
+          "id": "https://www.woshipm.com/?p=6141897",
+          "author": "这届南京码农",
+          "description": "6年家居建材运营，3年小红书获客运营，做过8位数的gmv营收，累计孵化家居建材类达人20位以上，累计家居建材精 […]",
+          "link": "https://www.woshipm.com/operate/6141897.html",
+          "publishedOn": "2024-11-18T06:34:15.000Z",
+          "wordCount": 700,
+          "title": "家居建材新媒体内容营销何去何从",
+          "imageUrl": "https://image.woshipm.com/2023/04/20/0ffc7280-df4b-11ed-81f2-00163e0b5ff3.jpg"
+        },
+        {
+          "id": "https://www.woshipm.com/?p=6141892",
+          "author": "外贸小巨熊",
+          "description": "一、UGC 创作者越来越有价值 越来越多品牌开始意识到与微型影响者、纳米影响者以及UGC（用户生成内容）创作者 […]",
+          "link": "https://www.woshipm.com/share/6141892.html",
+          "publishedOn": "2024-11-18T06:19:58.000Z",
+          "wordCount": 769,
+          "title": "2025年值得重点关注的4个营销趋势",
+          "imageUrl": "https://image.woshipm.com/2023/04/13/454199ea-d9ea-11ed-889f-00163e0b5ff3.jpg"
+        },
+        {
+          "id": "https://www.woshipm.com/?p=6141888",
+          "author": "鲍跃忠",
+          "description": "中国的市场是先有线下再有了线上。或者说是先有一个单一的线下市场，然后被互联网崛起产生的线上零售硬生生的逐步“蚕 […]",
+          "link": "https://www.woshipm.com/share/6141888.html",
+          "publishedOn": "2024-11-18T06:16:35.000Z",
+          "wordCount": 697,
+          "title": "如何看线下与线上市场",
+          "imageUrl": "https://image.woshipm.com/2023/04/13/45e23af0-d9de-11ed-8fc2-00163e0b5ff3.jpg"
+        },
+        {
+          "id": "https://www.woshipm.com/?p=6138658",
+          "author": "Zero0304",
+          "description": "基于对最近工作内容“建设横向覆盖公司全业务，纵向贯穿合同全生命周期，数据互联互通、业务高效协同的集团级、国际化 […]",
+          "link": "https://www.woshipm.com/evaluating/6138658.html",
+          "publishedOn": "2024-11-18T06:13:36.000Z",
+          "wordCount": 764,
+          "title": "合同类产品研究",
+          "imageUrl": "https://image.woshipm.com/2023/04/13/732a64fe-d9ef-11ed-bd74-00163e0b5ff3.jpg"
+        },
+        {
+          "id": "https://www.woshipm.com/?p=6138975",
+          "author": "瘦肉丸",
+          "description": "正打算看这篇文章的小伙伴。本文适合0-3岁的产品/运营/数据新人阅读，写在我作为新人入职3个月左右的时间。我相 […]",
+          "link": "https://www.woshipm.com/operate/6138975.html",
+          "publishedOn": "2024-11-18T03:58:21.000Z",
+          "wordCount": 811,
+          "title": "数据埋点与用户行为分析：以终为始，层层拆分",
+          "imageUrl": "https://image.woshipm.com/2024/09/12/95ad73d0-70b7-11ef-9237-00163e142b65.png"
+        },
+        {
+          "id": "https://www.woshipm.com/?p=6141651",
+          "author": "艾克斯",
+          "description": "2024年度逐进尾端，想必所有懂得营销先行的运营人都开始准备2025年度的运营规划了，今天我们来聊下将会更内卷 […]",
+          "link": "https://www.woshipm.com/zhichang/6141651.html",
+          "publishedOn": "2024-11-18T03:52:36.000Z",
+          "wordCount": 733,
+          "title": "【运营之路】医美运营人关于更内卷2025年的几点思考",
+          "imageUrl": "https://image.woshipm.com/2023/04/14/881c8d76-da8d-11ed-8198-00163e0b5ff3.png"
+        },
+        {
+          "id": "https://www.woshipm.com/?p=6141788",
+          "author": "王富贵儿本人",
+          "description": "找工作的时候，有自己的作品集能更好展现自己的能力，帮助自己提高求职成功的概率。本文作者详细分享了如何准备作品集 […]",
+          "link": "https://www.woshipm.com/zhichang/6141788.html",
+          "publishedOn": "2024-11-18T03:39:32.000Z",
+          "wordCount": 816,
+          "title": "作品集和知识体系搭建–不同的见解和认识（上）",
+          "imageUrl": "https://image.woshipm.com/2023/04/14/91d37828-da9e-11ed-95a1-00163e0b5ff3.png"
+        },
+        {
+          "id": "https://www.woshipm.com/it/6142024.html",
+          "author": "壹叁零壹",
+          "description": "在数字化浪潮席卷全球的今天，企业如何通过数字化转型提升竞争力已成为一个核心议题。文章从企业内部效率提升、外部市 […]",
+          "link": "https://www.woshipm.com/share/6142024.html",
+          "publishedOn": "2024-11-18T03:29:22.000Z",
+          "wordCount": 770,
+          "title": "数字化转型：[业务]流程在线、流程再造 – 开篇",
+          "imageUrl": "https://image.woshipm.com/2024/10/23/8d1c3048-9133-11ef-b0a5-00163e142b65.png"
+        },
         {
           "id": "https://www.woshipm.com/?p=6139756",
           "author": "大脑袋瓜子",
@@ -4381,76 +4541,6 @@
           "wordCount": 396,
           "title": "3年产品经理再跳槽发现：我好像变得没那么“值钱”了！",
           "imageUrl": "https://image.woshipm.com/2024/08/21/eaf8d0a6-5fb8-11ef-8525-00163e0b5ff3.jpg"
-        },
-        {
-          "id": "https://www.woshipm.com/it/6129807.html",
-          "author": "品牌市场相对论",
-          "description": "在品牌的传播策略中，借势营销因其低成本高回报的潜力而备受青睐。它通过与热点事件挂钩，为品牌提供了一个与广大受众建立连接的捷径。但这一策略并非没有风险，稍有不慎，品牌就可能陷入公关危机。本文将揭秘借势营销背后的价值与效益，探讨其六种常见实施方式，并强调在操作过程中需要注意的“三度”原则。\n\n借势营销是常见的品牌营销手段，不少品牌对此乐此不疲。\n有的品牌通过借势营销收到了四两拨千斤的效果，以低成本收获了品牌曝光度、知名度和美誉度的多重提升，但也有品牌稍有不慎就翻了车，虽然吸引了一时的注意力却给公众留下了恶劣的品牌印象，品牌声誉因借势营销而产生负面增益。\n例如，奇瑞借势奔驰车主插队砸车的热点新闻却在事件反转后被围观群嘲，杜蕾斯曾借势河南特大暴雨营销被指责利欲熏心，后有车企哪吒汽车借吴亦凡事件蹭热点为产品发布造势被指价值观低俗、违背社会公德。\n这些都是品牌开展借势营销却惨烈翻车的典型案例。\n同是借势营销，有人收获满满，有人翻车难堪，背后的奥秘究竟是什么呢？\n今天，我们就一起来聊聊借势营销的那些事儿：品牌偏爱借势营销的原因、开展借势营销的六种方式、开展借势营销要注意的”三度“。\n01 品牌偏爱借势营销的原因\n首先，大家要理解什么是借势营销。\n所谓借势营销，是将销售的目的隐藏于营销活动之中，将产品的推广融入到一个消费者喜闻乐见的环境里，使消费者在这个环境中了解产品并接受产品的营销手段。这个环境就是所谓的“势”，可以是现有的舆论热点、社会事件，也可以是活动、节日等具有较高关注度的现象。\n对于品牌来说，借势营销的核心在于“借”——即品牌通过巧妙地与这些热点关联起来，从而吸引消费者的注意力，增加品牌的曝光率，并最终促进销售。换言之，便是通过顺势、造势、借势等方式，以求提高企业或产品的知名度、美誉度，树立良好的品牌形象，并最终促成产品或服务销售。\n\n品牌之所以喜欢借势营销，是因为品牌通过借势营…",
-          "link": "https://www.woshipm.com/marketing/6129807.html",
-          "publishedOn": "2024-10-20T12:07:19.000Z",
-          "wordCount": 369,
-          "title": "揭秘借势营销：价值效益、常见的六种方式、须注意的“三度”",
-          "imageUrl": "https://image.woshipm.com/2024/09/12/86714118-70b6-11ef-ab80-00163e142b65.png"
-        },
-        {
-          "id": "https://www.woshipm.com/it/6129780.html",
-          "author": "接地气的陈老师",
-          "description": "在数字化时代，数据已成为企业运营的核心驱动力。然而，如何将数据转化为实际的运营成效，是许多企业面临的挑战。本文深入探讨了数据分析在运营中的关键作用，以及如何通过数据赋能来提升运营效率和效果。\n\n做数据分析的同学最常服务运营，也最怕运营纠结。因为本身运营的工作和数据分析有高度关联，以至于大家在网上看到的数据分析文章，十篇里有六篇是运营写的。\n运营对数据分析涉入的如此之深，以至于经常在分析思路、分析方法、分析结论上和数据分析师们怼起来。\n今天我们就先看其中最大的一个问题。运营的工种有很多（如下图），其中活动运营是策略性最强，和数据分析关系最紧密，也是怼得最多的岗位，今天就用它举例子。\n\n请听题：某游戏APP，用户活跃率在5月出现轻微下降情况，活动运营小组决定做一个签到打卡的活动，提高用户活跃度（具体提高多少没说），现活动前后数据如下图所示。\n活动运营小组坚持称：如果不是做活动，5月份自然增长是下跌的。\n老板认为这是扯淡。\n活动运营小组称：数据分析师应利用人工智能大数据，精准分析出自然增长率。\n\n问：你是数据分析师，你该怎么办？\n01 科学旗号下的荒唐事\n首先问，这个题的题眼在哪里？\nA、用户活跃率减少\nB、自然增长率\nC、人工智能大数据\n思考一秒钟\n\n我们先反问一个问题：某天，一个人拿着弓来问你：“请用人工智能大数据精确分析一下，我比自然命中率高了多少”你会怎么办？你会抄起键盘开始叭叭写代码吗？——不会！你会先问他：“你射的是啥？”\n如果他说：我也不知道射的啥，你帮我分析分析？你会咋办？你会用人工智能大数据分析他要射什么东西吗？——当然不会！有礼貌的话，你会让他先把自己射的箭找到；没礼貌的话，你可以直接口吐芬芳了。因为即使是幼儿园的小朋友都知道：射箭要先树个靶子。\n这是常识。\n所以整体的题眼是：具体提高多少没说。甚至题目本身都是有问题的。请注意问题的来源是活跃用户数量减少。结果…",
-          "link": "https://www.woshipm.com/share/6129780.html",
-          "publishedOn": "2024-10-20T07:57:13.000Z",
-          "wordCount": 379,
-          "title": "卷死他们！数据赋能运营，就得这么干",
-          "imageUrl": "https://image.woshipm.com/2023/04/13/7227ad92-d9df-11ed-8d63-00163e0b5ff3.jpg"
-        },
-        {
-          "id": "https://www.woshipm.com/?p=6129288",
-          "author": "Miaahaha",
-          "description": "在当今快速变化的商业环境中，产品经理作为连接市场、用户和技术的关键角色，其重要性日益凸显。产品经理不仅需要具备发现机会的能力，还需要具备持续学习进步的能力。本文将探讨产品经理的核心能力及其职业发展路径。\n\n1. 产品经理的核心能力\n1.1 发现机会的能力\n发现机会是产品经理的核心能力之一。真正的机会到来时，很容易出成果；而当机会尚未显现时，即使付出再多努力也难以取得成效。因此，产品经理需要具备敏锐的市场洞察力，能够识别市场需求、用户痛点以及未来趋势。这种能力不仅体现在对当前市场的深入理解上，更重要的是对未来趋势的预判能力。优秀的产品经理总能在第一时间捕捉到市场变化，从而为产品找到突破口。\n1.2 持续学习进步的能力\n产品经理是一个需要终身学习的职业。市场和技术的快速发展要求产品经理不断更新自己的知识体系，掌握最新的技术和市场趋势。持续学习不仅包括专业知识的学习，还包括软技能的提升，如沟通能力、团队协作能力等。只有不断学习进步，产品经理才能在激烈的市场竞争中立于不败之地。在这个日新月异的时代，停滞不前就意味着被淘汰。\n2. 产品经理的三观与职业素养\n2.1 用户导向\n产品经理始终以用户需求为中心，追求极致的用户体验。只有深入了解用户需求，才能设计出真正满足用户需求的产品。优秀的用户体验是产品成功的关键，而这一切都源于产品经理对用户的深刻理解和关爱。\n2.2 市场敏锐度\n\n产品经理需要对市场变化保持高度敏感，能够快速响应市场变化。这不仅要求产品经理具备扎实的市场分析能力，还需要具备一定的预见能力。在瞬息万变的市场环境中，能够及时捕捉到市场信号并作出反应的产品经理，无疑是最具竞争力的。\n2.3 创新能力\n产品经理需要勇于尝试新事物，敢于打破常规，创造独特的产品价值。创新不仅是产品功能上的创新，更是思维方式上的创新。在同质化严重的市场中，唯有不断创新，才能让产品脱颖而出。\n2.4 …",
-          "link": "https://www.woshipm.com/share/6129288.html",
-          "publishedOn": "2024-10-20T06:33:50.000Z",
-          "wordCount": 378,
-          "title": "产品经理实践（6）：产品经理的核心能力与职业发展",
-          "imageUrl": "https://image.woshipm.com/2023/04/13/c6e6b9f4-d9e9-11ed-9d7a-00163e0b5ff3.jpg"
-        },
-        {
-          "id": "https://www.woshipm.com/?p=6129560",
-          "author": "一只鸡腿",
-          "description": "在快节奏的商业环境中，差旅审批流程的效率直接影响着企业的运营成本和员工的满意度。本文将带您一探究竟，如何通过精心的设计优化，让繁琐的审批流程变得更加省钱且高效。\n\n差旅业务常见主管和财务要审批属员出行的申请，主管审批的难点在于既要审过合理的出差费用又要能合理的分配，接下来分享如何通过设计来进行优化。\n一、业务背景\n主管角色在差旅业务中拥有着审批的职能，目标是高效审批单据，审批有参考依据,对于部门出差信息有一个全局的掌控。希望个人的信息与部门的能同时展现。\n二、现有痛点\n优化前的痛点具体可以三类：\n链路长：无法一键获取核心数据, 不符合实际用户操作的心智\n心智乱：现有布局不合理, 页面使用屏效低且页面结构分散, 层级杂乱。\n风格旧：风格沉闷, 缺少情感化传达\n三、设计优化\n优化措施主要是涉及到工作台与具体的详情页面2 个功能，接下来从这个角度来进行分享。\n1. 工作台优化\n首页布局重构，提高页面利用率\n\n对首页布局进行了重构，以提高页面利用率。摒弃了原来分散且缺乏逻辑性的板块设置，重新定义框架。从审批人的角度出发，对工作台的功能模块进行分类并排出优先级。这样的设计更加贴合审批场景，符合客户的浏览习惯，助力审批人快速做出决策.\n快速处理待办事项，缩短操作链路\n在工作台设计了 “待我审批” 入口，让用户能够以最少的点击或操作完成审批任务，极大地提高了用户的工作效率。通过将高频功能前置，核心场景得以高效触达，快速处理待办事项，缩短了操作链路。可以直接从工作台进入审批详情页面，无需经过繁琐的步骤，大大提升了整体的用户体验。\n2. 详情优化\n重构页面布局，双列递进，提高审批浏览效率\n对页面布局进行了重构，采用双列递进的方式，充分利用 X 轴空间，将信息整合到一个页面，实现更加沉浸式审批。左侧聚焦单据信息，右侧展示支付信息，这种布局符浏览动线，能够快速获取所需内容，提高工作效率。\n预警信息外显，减少用户点击\n为了让用户更便捷地获取重要信息，将预警信息进行外显。采用醒目的颜色和图标来标记超标数据，用户无需多次点击就能获取超标信息的内容。不会打断用户工作流程，减少了用户的认知负担和切换成本。图标和颜色的设计与其他信息形成对比，操作更加便捷。\n不同卡片展示, 快速获取重要信息\n通过不同卡片分层、分组展示来区分信息的优先级，降低单个页面内信息复杂度，提升用户的查看效率。在票据卡片设计上，采用情感化设计，费用相关产品采用发票样式，提升了整体视觉品质，更贴合产品调性，增强了品牌的辨识度和记忆点。金额采用右对齐方式，总计金额拉高层级，便于用户在金融、财务场景下从右到左阅读数字，进行数值比较和计算，同时突出关键信息，保持界面元素整齐。\n四、数据验证\n上线一个月之后，通过埋点系统查看单次审批平均时长从半小时缩短到 20 分钟。\n五、之后规划\n审批相关的系统比较复杂，现阶段只是优化了工作台和审批详情页面，后面会逐步优化整个流程。\n六、总结\n通过重构页面布局、外显预警信息和采用不同卡片展示等方式，提高用户工作效率，满足主管需求。\n专栏作家\n一只鸡腿，微信公众号：B端设计一只鸡腿，人人都是产品经理专栏作家。一个吃货的B端设计师。\n本文原创发布于人人都是产品经理，未经许可，禁止转载\n题图来自 Unsplash，基于 CC0 协议",
-          "link": "https://www.woshipm.com/share/6129560.html",
-          "publishedOn": "2024-10-20T03:53:33.000Z",
-          "wordCount": 346,
-          "title": "如何让审批更加的省钱？",
-          "imageUrl": "https://image.woshipm.com/2023/04/13/280e69ea-d9de-11ed-8fc2-00163e0b5ff3.jpg"
-        },
-        {
-          "id": "https://www.woshipm.com/?p=6129274",
-          "author": "阿宅的产品笔记",
-          "description": "在人工智能飞速发展的今天，AI产品正逐渐渗透到我们生活的方方面面，从智能助手到自动驾驶，AI的应用正不断拓宽我们的想象边界。但构建一个成功的AI产品并非易事，它需要深入理解AI产品的架构和开发流程。\n\nAI对我们来说已经不算是新鲜词了，尤其是ChatGPT发布后，关于AI、大模型的讨论铺天盖地。另一方面，互联网的发展到了存量竞争时代，产品经理这个职位也渐趋成熟，甚至说，在当前环境下，人才市场有些过于饱和。如何破局？如何寻找职业生涯的第二增长曲线，或许，AI就是我们当前最好的机会之一。\n未来已来，少年，你准备好了吗？\n了解如何成为AI产品经理之前，我们先来了解AI产品的架构。\n01 AI产品的四层架构\n如果把AI产品看成一座冰山，那么它的架构可以分为以下四层：\n第一层：数据基础层\n第二层：算法与模型层\n第三层：应用服务层\n第四层：用户交互层\n\n02 数据基础层\n数据基础层是 AI 产品架构的最底层，也是一切智能的源头。它主要需要考量以下内容：\n1. 数据收集\n数据收集首先要确定数据的来源。\n\n对于AI产品而言，数据源多种多样。内部数据源可能包括企业自身积累的业务数据，如电商企业的销售记录、用户评价、商品信息等。外部数据源可以是公开的数据集，例如图像识别领域常用的MNIST（手写数字图像）数据集；也可以是通过网络爬虫从互联网上收集的数据，如新闻网站的文本内容、社交媒体的用户动态等，但需要注意数据使用的合法性和隐私问题。\n其次是数据采集工具和技术\n为了获取数据，会使用各种工具和技术。例如，在传感器数据采集方面，物联网设备中的温度传感器、压力传感器等会将物理量转换为数字信号，传输到数据存储系统中。在日志数据收集时，会利用日志收集工具，如Logstash等，将服务器日志、应用程序日志等收集起来，这些日志数据对于故障诊断、用户行为分析等AI应用场景很有价值。对于网络爬虫，像Scrapy…",
-          "link": "https://www.woshipm.com/share/6129274.html",
-          "publishedOn": "2024-10-20T00:53:49.000Z",
-          "wordCount": 452,
-          "title": "AI 产品的四层架构：开启智能未来的密码",
-          "imageUrl": "https://image.woshipm.com/2024/07/02/096e0ca6-386b-11ef-90af-00163e142b65.png"
-        },
-        {
-          "id": "https://www.woshipm.com/it/6129686.html",
-          "author": "赛博禅心",
-          "description": "这几天字节的大模型事件闹得沸沸扬扬，一名实习生居然能给公司造成巨量的损失，不少人觉得不可思议。但从方法上来说，其实是可以达到的。这篇文章，作者就给我们分享了如何实现的办法。\n\n这两天，字节 GPU 投毒事件沸沸扬扬：\n\n和朋友们细聊了这个事儿，也在这里给大家盘一盘。\n根据公开信息，推测一下可能的实现方法，或为三个方面：\n恶意代码执行\n扰乱模型训练\n代码隐藏与对抗\n下面介绍每个唯维度可能攻击的手法，以及如何进行安全防护。\n一、恶意代码执行\n攻击者通过精心设计的模型文件或数据集，利用底层库的漏洞，引发远程代码执行（RCE），从而获得控制权。在这种攻击中，即便攻击者没有直接的集群 SSH 权限，也可以通过以下几种方式悄无声息地执行恶意代码。\n1. 有关 transformer\n以 transformers 库为例，已经发现了多起相关的安全漏洞：\nCVE-2024-3568：该漏洞影响 transformers 库版本低于 4.38.0，主要利用 TFAutoModel 的反序列化过程触发恶意代码执行。\nCVE-2023-7018：影响版本低于 4.36.0 的 transformers 库，tokenizer 解析存在类似的反序列化漏洞。\nCVE-2023-6730：涉及 RagRetriever.from_pretrained 方法，影响版本同样是低于 4.36.0。\n这些漏洞的存在，意味着如果攻击者能够控制模型文件内容，便可通过反序列化行为，在模型加载的瞬间就可以触发恶意代码执行。\n2. trust_remote_code：远程代码执行的“后门”\n在 transformers 库中，还有一个较为隐蔽的危险选项：trust_remote_code。这个参数允许从远程服务器加载代码，并直接在本地执行。它的初衷是为了方便开发者快速获取并使用最新的模型和功能，但同时也给了攻击者一个可…",
-          "link": "https://www.woshipm.com/ai/6129686.html",
-          "publishedOn": "2024-10-20T00:36:27.000Z",
-          "wordCount": 448,
-          "title": "细说实现：大模型是如何被投毒的",
-          "imageUrl": "https://image.woshipm.com/2024/09/13/d570872c-71d5-11ef-9237-00163e142b65.png"
-        },
-        {
-          "id": "https://www.woshipm.com/it/6129683.html",
-          "author": "鹏鹏的工作日记",
-          "description": "最近在人人都是产品经理上看到了一个很有趣的问题，而这个问题其实挺普遍的。于是作者写下了这篇文章，给到了自己的办法和意见，供大家参考。\n\n最近我比较活跃在“人人都是产品经理”这个网站上。\n一个原因是，这个平台汇聚了各行各业的产品经理，专业度都比较高，在这个平台我能学习到很多的经验和知识；\n另一个原因是，通过这个平台，我也能看到不同的产品经理面临哪些问题，给我不少的灵感与启发；\n还有一个原因是，我也在上面去推广一些我的工作方法。\n这几天，看到一个挺有意思的问题，这位产品设计师是这样写的：\n我总结了一下自己的问题。\n1.不该中途偷懒，不做好留痕记录，也不该后面把需求写的模糊（虽然是时间不够）\n2.不应该把需求优化和bug混淆给开发（耍小聪明）\n3.应该直面自己的错误，挨打立正，大不了就劝退开除，还有更坏的情况吗？\n4.不再给自己找借口，不能老逃避，直面就可以了\n5.心理承受能力太差\n问问各位pd大佬，在面对挫折和失败的时候，怎么缓解恐惧和低落，从而让自己内心更强大的？\n\n这个场景其实是挺常见的，产品经理也好，产品设计师也罢，都需要和开发团队打配合。\n一旦涉及到打配合，那就会存在沟通问题，\n今天也就“水”一篇文章，发表一下我对这位同学的几点建议。\n如果你也是有遇到这种情况，希望对你有所启发。\n一、游戏工作，心态放好\n说易做难，但本质就像你自己写的，大不了被辞退，还有什么更坏的结果呢？\n被辞退了，还有N+1呢，美滋滋。\n如果你的心态一直很差，那就不是被辞退的问题了，可能还会影响你的未来发展。\n\n把工作当作一场游戏，像电视剧演的那样去玩，把跨部门沟通、对齐需求当作一个游戏，当你逐渐当作游戏后，你遇到难题，你就会想怎么解，怎么把游戏玩好，你会很有兴致；但当你把它当成工作了，你就会觉得压力很大，很焦虑。\n如果想清楚最坏结果，并且可以接受，那就当作游戏去玩，尽量玩，玩不好那就回去睡觉。\n玩的过程，想办法尽量提升自己的等级、经验（让自己要成长）。\n二、工作减少耍小聪明\n遇到刨根问底或者是比较资深些的领导和同事，你的小花招是没用的，而且还会把你不端正的态度暴露出来，这是完全没有必要的。\n尤其是在面对开发团队的时候，大家都是会实打实扣细节，因为要具体编码实现。\n举个最近的例子：\n一个项目经理一开始觉得接了个大活，跨部门对接要资源要协助的时候，就对外讲，“我是xxx项目的项目负责人”。等到后面，这个项目有风险，可能干不成了，他对外就换说法了，“我只是xxx项目里的一个pm，这个项目不全是我负责呀。”\n结果呢，有人录音存证了，那你觉得这件事，公司会怎么看？\n一来，业务没干成，失败，这个项目经理不行；\n二来，态度有问题，失败，遇到问题就开始退缩甩锅。\n然后就被发配边疆了，最近一两年应该不会有好的发展前景了。\n所以，不要耍小聪明，说话上可以，但做事上不要，小聪明没耍好，被看穿了，那会显得自己很“蠢”，要是留下了不好的印象，不端正的品态，那就只能换公司了。\n三、做一些保护自己的事情与向上管理\n我看第一点提到的偷懒、没留痕、需求没写好（工作量），留痕很重要，要文字、邮件、聊天记录等，口头留痕是没用的，时间不够那就要向上反馈，一般做不完无非就三板斧：加人、延期、砍需求。\n变形的话，无非是，部分需求晚点之类的。\n虽然不是开发，但是有风险，还是要同步消除。\n哪怕不能消除，也要同步，不然你的上级也可以甩锅，“我不知道有风险呀，他一直说能搞定，结果搞不定。如果早点说，我就投资源进去帮他了。”\n四、总结一下\n“水”完了一篇文章，我对“小聪明”这件事情倒是有一些感触。\n当你耍小聪明时，你是不是会觉得自己可以骗过对方？存在一定的侥幸心理。\n就好像，你与几个朋友去打麻将，结果你说了一句，“今天我一定要满载而归。”\n那其他人今天来和你打麻将，是准备输钱才来的？\n那显然不是。\n所以，很多小聪明就不建议去耍了，很容易取得反效果。\n本文由人人都是产品经理作者【鹏鹏的工作日记】，微信公众号：【鹏鹏的工作日记】，原创/授权 发布于人人都是产品经理，未经许可，禁止转载。\n题图来自Unsplash，基于 CC0 协议。",
-          "link": "https://www.woshipm.com/zhichang/6129683.html",
-          "publishedOn": "2024-10-20T00:01:37.000Z",
-          "wordCount": 334,
-          "title": "工作上，产品经理要怎么更好与开发配合？",
-          "imageUrl": "https://image.woshipm.com/2024/10/20/e98381ee-8e75-11ef-b0e5-00163e142b65.png"
         }
       ]
     },
@@ -4465,6 +4555,16 @@
       "feedUrl": "http://feed.iplaysoft.com/",
       "siteUrl": "https://www.iplaysoft.com",
       "articles": [
+        {
+          "id": "https://www.iplaysoft.com/?p=5818",
+          "author": "X-Force",
+          "description": "任天堂 Switch 拥有极佳的便携性+大量极其优秀的独占游戏，如塞尔达传说王国之泪、旷野之息、超级马里奥奥德赛、 宝可梦系列等，自上市一直大受欢迎！甚至还火出了妹子圈。\n其实「入手一台 Switch」所带来的乐趣真的能值回票价！而得益于 Ryujinx 龙神复活版、Yuzu 等模拟器的开发，你完全可在 PC 电脑或苹果 Mac 上流畅游玩到几乎全部主流 Switch 游戏。在入手前先用电脑来试玩是不错的。而且 Ryujinx 模拟器还在原版停更后奇迹般“复活”了……\n「 前往查看原文.... 」\n异次元还有这些值得一看：\n\nYuzu 柚子模拟器 (最终收藏版) - 在电脑 PC 上玩 Switch 塞尔达传说 / 马里奥等游戏\nRetroArch - 跨平台 38 合 1 全能模拟器之王！开源免费手机电脑重温街机/掌机游戏\n爷青回！苹果 Delta 模拟器 - 免费开源在 iPhone 上玩 GBA / NDS / FC / N64 等游戏\nSunshine 基地版 - 魔改加强开源游戏串流工具 (支持 HDR / 自定义分辨率 / 全屏无黑边)\n\n异次元首页  |  微信公众号  |  关注微博  |  软件精选  |  软件激活码折扣",
+          "link": "https://www.iplaysoft.com/ryujinx.html",
+          "publishedOn": "2024-11-18T12:50:24.000Z",
+          "wordCount": 1318,
+          "title": "Ryujinx 龙神模拟器复活版 - 免费在电脑 Mac 上玩任天堂 Switch 游戏 (塞尔达/马里奥等)",
+          "imageUrl": "https://img.iplaysoft.com/wp-content/uploads/2022/ryujinx/ryujinx.jpg"
+        },
         {
           "id": "https://www.iplaysoft.com/?p=452",
           "author": "X-Force",
@@ -4784,16 +4884,6 @@
           "wordCount": 1025,
           "title": "来喜投屏 - 手机群控工具 / 安卓批量控制管理 (多账号运营/自动化操作/流畅投屏)",
           "imageUrl": "https://img.iplaysoft.com/wp-content/uploads/2024/laixi-app/laixi_app.jpg"
-        },
-        {
-          "id": "https://www.iplaysoft.com/?p=6244",
-          "author": "X-Force",
-          "description": "最近 OpenAI 发布了他们最新的推理模型 o1，而相比 GPT 系列模型，o1 更专注于深度思考和逻辑推理，适合处理更复杂的问题和任务，比如学术、战略、推理、编程和研究领域。\n同时，OpenAI 官方终于继 macOS 版之后，正式推出 ChatGPT 的 Windows 版桌面客户端了！通过这款桌面 APP 应用，我们能在任何时候通过快捷键一键呼出 AI 助手，随时快速对话问答或上传图片文档截图等让 AI 处理。不必打断当前工作流，让 ChatGPT 大幅提升你的工作效率……\n「 前往查看原文.... 」\n异次元还有这些值得一看：\n\n免费使用 GPT-4！微软 Copilot 手机版 AI 助手 APP 推出 iOS / Android 应用\nChatGPT 官方 Android 与 iOS 手机版 APP 应用下载 - 免费无广告客户端 (支持 GPT-4)\n全面开放！开启微软新必应 Bing Chat 聊天 Ai 功能方法 (免费替代 ChatGPT)\nChatGPT 是什么？怎样注册账号？火爆全网的“AI 人工智能”使用方法教程\n\n异次元正版数字商城  |  异次元首页  |  微信公众号  |  iPcFun  |  关注微博  |  软件精选",
-          "link": "https://www.iplaysoft.com/chatgpt-desktop.html",
-          "publishedOn": "2024-10-19T13:36:38.000Z",
-          "wordCount": 1214,
-          "title": "ChatGPT 推出 Windows 与 Mac 桌面应用！直接能用最新 o1 模型、一键呼出对话框",
-          "imageUrl": "https://img.iplaysoft.com/wp-content/uploads/2024/chatgpt-desktop/chatgpt_desktop.jpg"
         }
       ]
     },
@@ -4802,6 +4892,66 @@
       "feedUrl": "http://www.dayanzai.me/feed",
       "siteUrl": "https://www.dayanzai.me",
       "articles": [
+        {
+          "id": "http://www.dayanzai.me/?p=70811",
+          "author": "大眼仔~旭",
+          "description": "目前在重装 Windows 系统中有很多第三方工具，比如一键重装系统软件、制作启动 U 盘工具以及各种开源的启 […]",
+          "link": "https://www.dayanzai.me/multios-usb.html",
+          "publishedOn": "2024-11-17T16:57:53.000Z",
+          "wordCount": 970,
+          "title": "多系统安装环境 MultiOS-USB 0.9.5 更新发布下载",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=13327",
+          "author": "大眼仔~旭",
+          "description": "音频文件标签编辑器 Metatogger 中文版 由大眼仔旭发布。功能强大且易于使用的标签软件，可让您分类和管 […]",
+          "link": "https://www.dayanzai.me/metatogger.html",
+          "publishedOn": "2024-11-17T16:34:18.000Z",
+          "wordCount": 895,
+          "title": "音频文件标签编辑器 Metatogger 7.6.0.0 中文多语免费版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=32988",
+          "author": "大眼仔~旭",
+          "description": "今天大眼仔旭给大家推荐国外的一款优秀免费的 BT 下载工具 qBittorrent 中文版。qBittorre […]",
+          "link": "https://www.dayanzai.me/qbittorrent.html",
+          "publishedOn": "2024-11-17T16:33:26.000Z",
+          "wordCount": 1115,
+          "title": "轻量级 BT 下载工具 qBittorrent 5.0.2 + x64 中文多语免费版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=6438",
+          "author": "大眼仔~旭",
+          "description": "相信大家都已经知道 Adobe Flash Player 已经在各大科技公司的支持下宣告“死亡”，不过在国内来 […]",
+          "link": "https://www.dayanzai.me/ruffle.html",
+          "publishedOn": "2024-11-17T16:29:32.000Z",
+          "wordCount": 1067,
+          "title": "开源 Flash Player 模拟器 Ruffle Nightly 2024-11-18 免费下载",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=40957",
+          "author": "大眼仔~旭",
+          "description": "Shotcut 中文版是一个免费的开源跨平台视频编辑器由大眼仔旭（www.dayanzai.me）整理发布。网 […]",
+          "link": "https://www.dayanzai.me/shotcut.html",
+          "publishedOn": "2024-11-17T16:27:54.000Z",
+          "wordCount": 1210,
+          "title": "开源跨平台视频编辑器 Shotcut 24.11.17 x64 中文多语免费版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=72703",
+          "author": "大眼仔~旭",
+          "description": "Personal Backup 6 中文版是一个用于将个人数据保存到任何目标文件夹的免费软件，由大眼仔旭提供中 […]",
+          "link": "https://www.dayanzai.me/personal-backup.html",
+          "publishedOn": "2024-11-17T16:26:04.000Z",
+          "wordCount": 1120,
+          "title": "来自德国的个人备份工具 Personal Backup 6.3.23.0 中文多语免费版",
+          "imageUrl": null
+        },
         {
           "id": "http://www.dayanzai.me/?p=73433",
           "author": "大眼仔~旭",
@@ -6311,76 +6461,6 @@
           "wordCount": 1082,
           "title": "Windows 资源管理器视频扩展 Icaros Shell Extensions 3.3.3 中文免费版",
           "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=73186",
-          "author": "大眼仔~旭",
-          "description": "许多智能手机制造商开始关注屏幕的刷新率，例如三星 Galaxy S24 Ultra 就配备了 90Hz 甚至  […]",
-          "link": "https://www.dayanzai.me/smartphone-refresh-rates.html",
-          "publishedOn": "2024-10-20T11:01:52.000Z",
-          "wordCount": 934,
-          "title": "还在为手机刷新率纠结？120Hz 和 60Hz 又要如何选择？",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=44803",
-          "author": "大眼仔~旭",
-          "description": "Winget 是一个很多人都非常熟悉的软件包管理器，但大多数休闲用户由于命令行界面而干脆放弃使用它，这可能看起 […]",
-          "link": "https://www.dayanzai.me/wingetui.html",
-          "publishedOn": "2024-10-19T16:36:55.000Z",
-          "wordCount": 1458,
-          "title": "开源软件包管理器 WingetUI 3.1.2 x64 中文多语免费版",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=12730",
-          "author": "大眼仔~旭",
-          "description": "Sandboxie 中文版由大眼仔旭（www.dayanzai.me）发布。沙盘英文名sandbox(sand […]",
-          "link": "https://www.dayanzai.me/sandboxie.html",
-          "publishedOn": "2024-10-19T16:32:04.000Z",
-          "wordCount": 1042,
-          "title": "经典优秀的沙盘工具 Sandboxie 5.70.0 + x64 中文多语免费版",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=2634",
-          "author": "大眼仔~旭",
-          "description": "MKVToolnix x64 中文版 MKV 封装工具由大眼仔旭发布。MKVToolNix 是一组用于创建，更 […]",
-          "link": "https://www.dayanzai.me/mkvtoolnix.html",
-          "publishedOn": "2024-10-19T16:31:08.000Z",
-          "wordCount": 1033,
-          "title": "MKV 封装工具 MKVToolnix 88.0.0 + x64 中文多语免费版",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=38325",
-          "author": "大眼仔~旭",
-          "description": "开源免费剪贴板管理工具 CopyQ 中文版由大眼仔旭（www.dayanzai.me）发布。CopyQ 是具有 […]",
-          "link": "https://www.dayanzai.me/copyq.html",
-          "publishedOn": "2024-10-19T16:27:20.000Z",
-          "wordCount": 1088,
-          "title": "开源免费剪贴板管理工具 CopyQ 9.1.0 中文多语免费版",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=1386",
-          "author": "大眼仔~旭",
-          "description": "开源免费沙箱增强版 Sandboxie Plus 中文版由大眼仔旭发布。Sandboxie 是用于 32 位和 […]",
-          "link": "https://www.dayanzai.me/sandboxie-plus.html",
-          "publishedOn": "2024-10-19T16:24:58.000Z",
-          "wordCount": 1142,
-          "title": "开源免费沙箱增强版 Sandboxie Plus 1.15.0 + x64 中文授权版",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=13424",
-          "author": "大眼仔~旭",
-          "description": "新傲游浏览器 Maxthon 中文版由大眼仔旭（www.dayanzai.me）发布。Maxthon 是一款免 […]",
-          "link": "https://www.dayanzai.me/maxthon.html",
-          "publishedOn": "2024-10-19T16:22:15.000Z",
-          "wordCount": 922,
-          "title": "新傲游浏览器 Maxthon 7.2.2.5201 + x64 中文多语免费版",
-          "imageUrl": null
         }
       ]
     },
@@ -6395,6 +6475,56 @@
       "feedUrl": "http://feeds.feedburner.com/pfc",
       "siteUrl": "https://www.portablefreeware.com/",
       "articles": [
+        {
+          "id": "2359+1731933536",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=2359&ts=1731933536",
+          "publishedOn": "2024-11-18T12:38:56.000Z",
+          "wordCount": 603,
+          "title": "[UPDATE] CHK v5.51",
+          "imageUrl": null
+        },
+        {
+          "id": "3084+1731927611",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=3084&ts=1731927611",
+          "publishedOn": "2024-11-18T11:00:11.000Z",
+          "wordCount": 430,
+          "title": "[UPDATE] RegCool v2.016",
+          "imageUrl": null
+        },
+        {
+          "id": "1931+1731901041",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=1931&ts=1731901041",
+          "publishedOn": "2024-11-18T03:37:21.000Z",
+          "wordCount": 473,
+          "title": "[UPDATE] OnlyStopWatch v6.44",
+          "imageUrl": null
+        },
+        {
+          "id": "2798+1731900990",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=2798&ts=1731900990",
+          "publishedOn": "2024-11-18T03:36:30.000Z",
+          "wordCount": 582,
+          "title": "[UPDATE] Qmmp v2.2.2",
+          "imageUrl": null
+        },
+        {
+          "id": "3102+1731900394",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=3102&ts=1731900394",
+          "publishedOn": "2024-11-18T03:26:34.000Z",
+          "wordCount": 404,
+          "title": "[UPDATE] Unicodia v2.9.1",
+          "imageUrl": null
+        },
         {
           "id": "2741+1731868709",
           "author": null,
@@ -7273,46 +7403,6 @@
           "publishedOn": "2024-10-20T14:07:28.000Z",
           "wordCount": 948,
           "title": "[UPDATE] Imagine v1.7.0",
-          "imageUrl": null
-        },
-        {
-          "id": "2900+1729416550",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=2900&ts=1729416550",
-          "publishedOn": "2024-10-20T09:29:10.000Z",
-          "wordCount": 550,
-          "title": "[UPDATE] CopyQ v9.1.0",
-          "imageUrl": null
-        },
-        {
-          "id": "1691+1729401888",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=1691&ts=1729401888",
-          "publishedOn": "2024-10-20T05:24:48.000Z",
-          "wordCount": 981,
-          "title": "[UPDATE] Blank And Secure v7.88",
-          "imageUrl": null
-        },
-        {
-          "id": "2119+1729401251",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=2119&ts=1729401251",
-          "publishedOn": "2024-10-20T05:14:11.000Z",
-          "wordCount": 1395,
-          "title": "[UPDATE] calibre v7.20",
-          "imageUrl": null
-        },
-        {
-          "id": "2973+1729350767",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=2973&ts=1729350767",
-          "publishedOn": "2024-10-19T15:12:47.000Z",
-          "wordCount": 578,
-          "title": "[UPDATE] SmartSystemMenu v2.28.0",
           "imageUrl": null
         }
       ]
