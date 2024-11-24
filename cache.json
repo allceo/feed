@@ -504,36 +504,6 @@
           "wordCount": 2741,
           "title": "胡闹搬家（Moving Out）在 Epic 游戏商店限免｜经典多人游戏，最多4人",
           "imageUrl": "https://www.appinn.com/wp-content/uploads/2024/10/Appinn-Feature-images-2024-10-25T210054.931.jpg"
-        },
-        {
-          "id": "https://www.appinn.com/?p=49892",
-          "author": "青小蛙",
-          "description": "JetBrains 是一家著名的 IDE 软件开发商，旗下产品包括 IntelliJ IDEA（Java）、PyCharm（Python）、WebStorm（JavaScript）、Rider（.NE",
-          "link": "https://www.appinn.com/jetbrains-webstorm-rider/",
-          "publishedOn": "2024-10-25T08:58:19.000Z",
-          "wordCount": 2790,
-          "title": "JetBrains 宣布 WebStorm 和 Rider 针对非商业用途免费｜RustRover 和 Aqua 也免费",
-          "imageUrl": "https://www.appinn.com/wp-content/uploads/2024/10/Appinn-Feature-images-2024-10-25T163703.040.jpg"
-        },
-        {
-          "id": "https://www.appinn.com/?p=49885",
-          "author": "青小蛙",
-          "description": "Eagle 是一款已经诞生8年的素材管理工具，支持 Windows 与 macOS，小众软件介绍过很多次。本月23号，Eagle 在公众号发布消息，将于2024年11月1日调价，由 ¥199 涨价至",
-          "link": "https://www.appinn.com/eagle-price-increase/",
-          "publishedOn": "2024-10-25T06:37:25.000Z",
-          "wordCount": 2838,
-          "title": "著名的海量素材管理工具 Eagle 将于 7 天后涨价｜终身授权 8 年不涨价，终于也撑不住了",
-          "imageUrl": "https://www.appinn.com/wp-content/uploads/2024/10/Appinn-Feature-images-2024-10-25T113232.349.jpg"
-        },
-        {
-          "id": "https://www.appinn.com/?p=49881",
-          "author": "青小蛙",
-          "description": "Bundlehunt 每年都会有一个几十款 Mac 软件在一起的自选超市式捆绑包，均特价。今年的黑五 Mac 软件优惠捆绑包已经上线了，一共有 45 款 macOS 软件以及 3 款 Windows",
-          "link": "https://www.appinn.com/bundlehunt-2024/",
-          "publishedOn": "2024-10-24T15:08:53.000Z",
-          "wordCount": 2898,
-          "title": "Bundlehunt 2024 年黑五 Mac 软件优惠捆绑包上线了",
-          "imageUrl": "https://www.appinn.com/wp-content/uploads/2024/10/Appinn-Feature-images-2024-10-24T214748.521.jpg"
         }
       ]
     },
@@ -4546,6 +4516,16 @@
       "siteUrl": "https://www.iplaysoft.com",
       "articles": [
         {
+          "id": "https://www.iplaysoft.com/?p=6266",
+          "author": "X-Force",
+          "description": "大家作为资深的上网人士，经常都需要下载各种各样的文件，肯定会遇到一些下载龟速的时候，所以多线程加速下载工具一直是大家不可划缺的必备工具之一。\n而经典知名的 IDM 一直颇受大佬推崇，但它是收费软件。尽管 IDM 确实非常值得入手，但对于偶尔的下载需求，免费依然是王道。最近发现一款高颜值的下载软件 AB Download Manager (简称 ABDM) 不仅开源免费，跨平台支持 Win / Linux，完全可以当作是 IDM 的免费平替……\n「 前往查看原文.... 」\n异次元还有这些值得一看：\n\nNDM 免费多线程下载工具利器中文版 - 替代 IDM / Folx / 迅雷 (支持网页视频下载)\n“狗屁下载器”？Gopeed - 开源全平台下载器 (免费轻量 / 比 Aria2 好用 / 远程下载)\nADM Pro - 安卓版的“IDM” 多线程下载加速工具 / 手机下载 BT / 视频嗅探\nFree Download Manager (FDM) 中文版 - 替代迅雷的优秀免费开源下载工具软件\n\n异次元首页  |  微信公众号  |  关注微博  |  软件精选  |  软件激活码折扣",
+          "link": "https://www.iplaysoft.com/ab-download-manager.html",
+          "publishedOn": "2024-11-23T12:55:12.000Z",
+          "wordCount": 1125,
+          "title": "高颜值实力！AB Download Manager - 可替代 IDM 免费开源多线程下载加速工具",
+          "imageUrl": "https://img.iplaysoft.com/wp-content/uploads/2024/ab-download-manager/ab_download_manager.jpg"
+        },
+        {
           "id": "https://www.iplaysoft.com/?p=5818",
           "author": "X-Force",
           "description": "任天堂 Switch 拥有极佳的便携性+大量极其优秀的独占游戏，如塞尔达传说王国之泪、旷野之息、超级马里奥奥德赛、 宝可梦系列等，自上市一直大受欢迎！甚至还火出了妹子圈。\n其实「入手一台 Switch」所带来的乐趣真的能值回票价！而得益于 Ryujinx 龙神复活版、Yuzu 等模拟器的开发，你完全可在 PC 电脑或苹果 Mac 上流畅游玩到几乎全部主流 Switch 游戏。在入手前先用电脑来试玩是不错的。而且 Ryujinx 模拟器还在原版停更后奇迹般“复活”了……\n「 前往查看原文.... 」\n异次元还有这些值得一看：\n\nYuzu 柚子模拟器 (最终收藏版) - 在电脑 PC 上玩 Switch 塞尔达传说 / 马里奥等游戏\nRetroArch - 跨平台 38 合 1 全能模拟器之王！开源免费手机电脑重温街机/掌机游戏\n爷青回！苹果 Delta 模拟器 - 免费开源在 iPhone 上玩 GBA / NDS / FC / N64 等游戏\nSunshine 基地版 - 魔改加强开源游戏串流工具 (支持 HDR / 自定义分辨率 / 全屏无黑边)\n\n异次元首页  |  微信公众号  |  关注微博  |  软件精选  |  软件激活码折扣",
@@ -4852,6 +4832,46 @@
       "feedUrl": "http://www.dayanzai.me/feed",
       "siteUrl": "https://www.dayanzai.me",
       "articles": [
+        {
+          "id": "https://www.dayanzai.me/?p=73487",
+          "author": "大眼仔~旭",
+          "description": "在当今社交媒体中，GIF 已经成为沟通的重要组成部分，尤其是在社交媒体平台上。无论是为了给帖子增添幽默感，还是 […]",
+          "link": "https://www.dayanzai.me/gifshop.html",
+          "publishedOn": "2024-11-23T12:24:04.000Z",
+          "wordCount": 912,
+          "title": "安卓 GIF 动画制作工具 GIFShop 3.0.1 中文汉化版",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.dayanzai.me/?p=73481",
+          "author": "大眼仔~旭",
+          "description": "无论是音乐爱好者、有声书听众，还是播客粉丝，拥有一款强大且易用的媒体管理工具都是必不可少的。MediaMonk […]",
+          "link": "https://www.dayanzai.me/mediamonkey-for-android.html",
+          "publishedOn": "2024-11-23T12:03:21.000Z",
+          "wordCount": 903,
+          "title": "专业收藏家的音乐管理器 MediaMonkey Pro 2.0.2.1222 安卓中文版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=71953",
+          "author": "大眼仔~旭",
+          "description": "Fedora Media Writer 中文版是一个简洁而强大的开源免费工具，专门设计用于帮助用户轻松创建可启 […]",
+          "link": "https://www.dayanzai.me/fedora-media-writer.html",
+          "publishedOn": "2024-11-22T16:37:51.000Z",
+          "wordCount": 1047,
+          "title": "Fedora Linux 系统启动盘创建工具 Fedora Media Writer 5.2.0 x64 中文多语免费版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=42613",
+          "author": "大眼仔~旭",
+          "description": "照片转像素画软件 Pixelmash 中文版由大眼仔旭独家汉化发布。虽然技术正在迅速发展，现在显卡比以往任何时 […]",
+          "link": "https://www.dayanzai.me/pixelmash.html",
+          "publishedOn": "2024-11-22T16:26:08.000Z",
+          "wordCount": 959,
+          "title": "照片转像素画软件 Pixelmash 2025.0.0 x64 中文汉化版",
+          "imageUrl": null
+        },
         {
           "id": "https://www.dayanzai.me/?p=73475",
           "author": "大眼仔~旭",
@@ -6441,36 +6461,6 @@
           "wordCount": 1025,
           "title": "快速启动菜单工具 Quick Access Popup 11.6.4.0 中文多语免费版",
           "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=34331",
-          "author": "大眼仔~旭",
-          "description": "JavaScript 和 Web 前端开发神器 JetBrains WebStorm 2024 中文版由大眼仔 […]",
-          "link": "https://www.dayanzai.me/webstorm.html",
-          "publishedOn": "2024-10-24T16:37:32.000Z",
-          "wordCount": 923,
-          "title": "JavaScript 和 Web 前端开发神器 JetBrains WebStorm 2024.2.4 x64 中文免费版",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=70805",
-          "author": "大眼仔~旭",
-          "description": "光影魔术手于 2004 年推出第一个版本，因其特色功能深受用户喜爱。2008 年，迅雷公司收购了光影魔术手，希 […]",
-          "link": "https://www.dayanzai.me/neoimaging.html",
-          "publishedOn": "2024-10-24T16:27:35.000Z",
-          "wordCount": 896,
-          "title": "经典傻瓜修图软件 光影魔术手 4.6.1.670 中文免费版",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=36457",
-          "author": "大眼仔~旭",
-          "description": "高效智能的 PHP IDE JetBrains PhpStorm 2024 下载由大眼仔旭（www.dayan […]",
-          "link": "https://www.dayanzai.me/phpstorm.html",
-          "publishedOn": "2024-10-24T16:21:24.000Z",
-          "wordCount": 964,
-          "title": "高效智能的 PHP IDE JetBrains PhpStorm 2024.2.4 中文免费版",
-          "imageUrl": null
         }
       ]
     },
@@ -6485,6 +6475,16 @@
       "feedUrl": "http://feeds.feedburner.com/pfc",
       "siteUrl": "https://www.portablefreeware.com/",
       "articles": [
+        {
+          "id": "1776+1732322767",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=1776&ts=1732322767",
+          "publishedOn": "2024-11-23T00:46:07.000Z",
+          "wordCount": 393,
+          "title": "[UPDATE] MyPhoneExplorer v2.2",
+          "imageUrl": null
+        },
         {
           "id": "1441+1732261942",
           "author": null,
@@ -7324,36 +7324,6 @@
           "wordCount": 1033,
           "title": "[UPDATE] Quick Access Popup v11.6.4",
           "imageUrl": null
-        },
-        {
-          "id": "2204+1729843122",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=2204&ts=1729843122",
-          "publishedOn": "2024-10-25T07:58:42.000Z",
-          "wordCount": 483,
-          "title": "[UPDATE] 12-Ants v6.61",
-          "imageUrl": null
-        },
-        {
-          "id": "2388+1729843069",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=2388&ts=1729843069",
-          "publishedOn": "2024-10-25T07:57:49.000Z",
-          "wordCount": 611,
-          "title": "[UPDATE] ESEDatabaseView v1.75",
-          "imageUrl": null
-        },
-        {
-          "id": "2741+1729787277",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=2741&ts=1729787277",
-          "publishedOn": "2024-10-24T16:27:57.000Z",
-          "wordCount": 1053,
-          "title": "[UPDATE] TreeSheets Oct 24 2024",
-          "imageUrl": null
         }
       ]
     },
@@ -7750,16 +7720,6 @@
           "publishedOn": "2024-10-25T13:25:33.000Z",
           "wordCount": 510,
           "title": "360驱动大师 2.0.0.2060 去广告去多余图标优化版（安装版 + 单文件 + 网卡版）",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.qiuquan.cc/?p=6679",
-          "author": "泉",
-          "description": "美颜相机（BeautyCam）是一款专为追求完美自拍体验的用户设计的高级应用。它提供了全面的美颜功能，包括智能磨皮、美白、瘦脸等，让每张照片都焕发自然光泽。乐享网基于谷歌版解锁会员VIP功能，已经解锁了VIP功能所有高级滤镜和编辑工具，用户可以享受无限次使用，无需担心广告干扰。无论是日常分享还是专业摄影，美颜相机都能满足你的需求，让你的自拍更加出众。",
-          "link": "http://www.qiuquan.cc/androidsoft/beautycam.html",
-          "publishedOn": "2024-10-25T01:50:15.000Z",
-          "wordCount": 427,
-          "title": "美颜相机(BeautyCam) v12.2.80 去广告解锁VIP谷歌商店版",
           "imageUrl": null
         }
       ]

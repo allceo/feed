@@ -2,10 +2,59 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://allceo.github.io/feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-11-23T01:17:22.674Z</updated>
+    <updated>2024-11-24T01:23:54.549Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://allceo.github.io/feed/index.html"/>
     <link rel="self" href="https://allceo.github.io/feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[高颜值实力！AB Download Manager - 可替代 IDM 免费开源多线程下载加速工具]]></title>
+        <id>https://www.iplaysoft.com/?p=6266</id>
+        <link href="https://www.iplaysoft.com/ab-download-manager.html"/>
+        <updated>2024-11-23T12:55:12.000Z</updated>
+        <summary type="html"><![CDATA[大家作为资深的上网人士，经常都需要下载各种各样的文件，肯定会遇到一些下载龟速的时候，所以多线程加速下载工具一直是大家不可划缺的必备工具之一。
+而经典知名的 IDM 一直颇受大佬推崇，但它是收费软件。尽管 IDM 确实非常值得入手，但对于偶尔的下载需求，免费依然是王道。最近发现一款高颜值的下载软件 AB Download Manager (简称 ABDM) 不仅开源免费，跨平台支持 Win / Linux，完全可以当作是 IDM 的免费平替……
+「 前往查看原文.... 」
+异次元还有这些值得一看：
+
+NDM 免费多线程下载工具利器中文版 - 替代 IDM / Folx / 迅雷 (支持网页视频下载)
+“狗屁下载器”？Gopeed - 开源全平台下载器 (免费轻量 / 比 Aria2 好用 / 远程下载)
+ADM Pro - 安卓版的“IDM” 多线程下载加速工具 / 手机下载 BT / 视频嗅探
+Free Download Manager (FDM) 中文版 - 替代迅雷的优秀免费开源下载工具软件
+
+异次元首页  |  微信公众号  |  关注微博  |  软件精选  |  软件激活码折扣]]></summary>
+        <author>
+            <name>X-Force</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[安卓 GIF 动画制作工具 GIFShop 3.0.1 中文汉化版]]></title>
+        <id>https://www.dayanzai.me/?p=73487</id>
+        <link href="https://www.dayanzai.me/gifshop.html"/>
+        <updated>2024-11-23T12:24:04.000Z</updated>
+        <summary type="html"><![CDATA[在当今社交媒体中，GIF 已经成为沟通的重要组成部分，尤其是在社交媒体平台上。无论是为了给帖子增添幽默感，还是 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[专业收藏家的音乐管理器 MediaMonkey Pro 2.0.2.1222 安卓中文版]]></title>
+        <id>https://www.dayanzai.me/?p=73481</id>
+        <link href="https://www.dayanzai.me/mediamonkey-for-android.html"/>
+        <updated>2024-11-23T12:03:21.000Z</updated>
+        <summary type="html"><![CDATA[无论是音乐爱好者、有声书听众，还是播客粉丝，拥有一款强大且易用的媒体管理工具都是必不可少的。MediaMonk […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] MyPhoneExplorer v2.2]]></title>
+        <id>1776+1732322767</id>
+        <link href="https://www.portablefreeware.com/?id=1776&amp;ts=1732322767"/>
+        <updated>2024-11-23T00:46:07.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[从搞机械到做产品经理，我艰难的职业旅程]]></title>
         <id>https://www.woshipm.com/?p=6143895</id>
@@ -14,6 +63,26 @@
         <summary type="html"><![CDATA[我的互联网发展历程 之前跟大家稍微聊过我的职业发展之路，第一份工作是从事重型机械行业的市场工作，大客户销售代表 […]]]></summary>
         <author>
             <name>markzou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fedora Linux 系统启动盘创建工具 Fedora Media Writer 5.2.0 x64 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=71953</id>
+        <link href="https://www.dayanzai.me/fedora-media-writer.html"/>
+        <updated>2024-11-22T16:37:51.000Z</updated>
+        <summary type="html"><![CDATA[Fedora Media Writer 中文版是一个简洁而强大的开源免费工具，专门设计用于帮助用户轻松创建可启 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[照片转像素画软件 Pixelmash 2025.0.0 x64 中文汉化版]]></title>
+        <id>http://www.dayanzai.me/?p=42613</id>
+        <link href="https://www.dayanzai.me/pixelmash.html"/>
+        <updated>2024-11-22T16:26:08.000Z</updated>
+        <summary type="html"><![CDATA[照片转像素画软件 Pixelmash 中文版由大眼仔旭独家汉化发布。虽然技术正在迅速发展，现在显卡比以往任何时 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
         </author>
     </entry>
     <entry>
@@ -14045,16 +14114,6 @@ The Epic Mac Bundle 优惠套装：PDF Expert / Fantastical 2 等8款应用
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[JetBrains 宣布 WebStorm 和 Rider 针对非商业用途免费｜RustRover 和 Aqua 也免费]]></title>
-        <id>https://www.appinn.com/?p=49892</id>
-        <link href="https://www.appinn.com/jetbrains-webstorm-rider/"/>
-        <updated>2024-10-25T08:58:19.000Z</updated>
-        <summary type="html"><![CDATA[JetBrains 是一家著名的 IDE 软件开发商，旗下产品包括 IntelliJ IDEA（Java）、PyCharm（Python）、WebStorm（JavaScript）、Rider（.NE]]></summary>
-        <author>
-            <name>青小蛙</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[小红书终于可以正大光明的发微信号了]]></title>
         <id>https://www.woshipm.com/it/6132176.html</id>
         <link href="https://www.woshipm.com/share/6132176.html"/>
@@ -14078,24 +14137,6 @@ The Epic Mac Bundle 优惠套装：PDF Expert / Fantastical 2 等8款应用
 题图来自Unsplash，基于 CC0 协议。]]></summary>
         <author>
             <name>Vic的营销思考</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] 12-Ants v6.61]]></title>
-        <id>2204+1729843122</id>
-        <link href="https://www.portablefreeware.com/?id=2204&amp;ts=1729843122"/>
-        <updated>2024-10-25T07:58:42.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] ESEDatabaseView v1.75]]></title>
-        <id>2388+1729843069</id>
-        <link href="https://www.portablefreeware.com/?id=2388&amp;ts=1729843069"/>
-        <updated>2024-10-25T07:57:49.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
         </author>
     </entry>
     <entry>
@@ -14140,16 +14181,6 @@ The Epic Mac Bundle 优惠套装：PDF Expert / Fantastical 2 等8款应用
 正如我前面说的，对于低代码研发工具，我最看重的就是自由度，那些一上来就介绍表单设计、流程设计的平台，我会直接Pass掉；不能自由的配置前端交互界面的平台，我也会Pass掉；最关键的一点，对于不能进行数据处理和业务逻辑的编排的平台，我会Pass掉，一款软件产品，业务逻辑处理是核心，如果这里不能自由的配置，我就只是在一个大一点的笼子里浪费时间。最后，我自己做过JAVA后端研发，因此如果一定要我写代码，我也可以接受，但必须好集成，并且足够自由，零代码最好，这样就省了我自己还要…]]></summary>
         <author>
             <name>垫底汪3033</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[著名的海量素材管理工具 Eagle 将于 7 天后涨价｜终身授权 8 年不涨价，终于也撑不住了]]></title>
-        <id>https://www.appinn.com/?p=49885</id>
-        <link href="https://www.appinn.com/eagle-price-increase/"/>
-        <updated>2024-10-25T06:37:25.000Z</updated>
-        <summary type="html"><![CDATA[Eagle 是一款已经诞生8年的素材管理工具，支持 Windows 与 macOS，小众软件介绍过很多次。本月23号，Eagle 在公众号发布消息，将于2024年11月1日调价，由 ¥199 涨价至]]></summary>
-        <author>
-            <name>青小蛙</name>
         </author>
     </entry>
     <entry>
@@ -14490,55 +14521,6 @@ AI视频新奇玩法模块化：封装AI视频新奇玩法为单个功能，如�
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[美颜相机(BeautyCam) v12.2.80 去广告解锁VIP谷歌商店版]]></title>
-        <id>http://www.qiuquan.cc/?p=6679</id>
-        <link href="http://www.qiuquan.cc/androidsoft/beautycam.html"/>
-        <updated>2024-10-25T01:50:15.000Z</updated>
-        <summary type="html"><![CDATA[美颜相机（BeautyCam）是一款专为追求完美自拍体验的用户设计的高级应用。它提供了全面的美颜功能，包括智能磨皮、美白、瘦脸等，让每张照片都焕发自然光泽。乐享网基于谷歌版解锁会员VIP功能，已经解锁了VIP功能所有高级滤镜和编辑工具，用户可以享受无限次使用，无需担心广告干扰。无论是日常分享还是专业摄影，美颜相机都能满足你的需求，让你的自拍更加出众。]]></summary>
-        <author>
-            <name>泉</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JavaScript 和 Web 前端开发神器 JetBrains WebStorm 2024.2.4 x64 中文免费版]]></title>
-        <id>http://www.dayanzai.me/?p=34331</id>
-        <link href="https://www.dayanzai.me/webstorm.html"/>
-        <updated>2024-10-24T16:37:32.000Z</updated>
-        <summary type="html"><![CDATA[JavaScript 和 Web 前端开发神器 JetBrains WebStorm 2024 中文版由大眼仔 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] TreeSheets Oct 24 2024]]></title>
-        <id>2741+1729787277</id>
-        <link href="https://www.portablefreeware.com/?id=2741&amp;ts=1729787277"/>
-        <updated>2024-10-24T16:27:57.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[经典傻瓜修图软件 光影魔术手 4.6.1.670 中文免费版]]></title>
-        <id>http://www.dayanzai.me/?p=70805</id>
-        <link href="https://www.dayanzai.me/neoimaging.html"/>
-        <updated>2024-10-24T16:27:35.000Z</updated>
-        <summary type="html"><![CDATA[光影魔术手于 2004 年推出第一个版本，因其特色功能深受用户喜爱。2008 年，迅雷公司收购了光影魔术手，希 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[高效智能的 PHP IDE JetBrains PhpStorm 2024.2.4 中文免费版]]></title>
-        <id>http://www.dayanzai.me/?p=36457</id>
-        <link href="https://www.dayanzai.me/phpstorm.html"/>
-        <updated>2024-10-24T16:21:24.000Z</updated>
-        <summary type="html"><![CDATA[高效智能的 PHP IDE JetBrains PhpStorm 2024 下载由大眼仔旭（www.dayan […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[产品经理如何进行竞品分析？]]></title>
         <id>https://www.woshipm.com/it/6131885.html</id>
         <link href="https://www.woshipm.com/share/6131885.html"/>
@@ -14580,16 +14562,6 @@ AI视频新奇玩法模块化：封装AI视频新奇玩法为单个功能，如�
 题图来自Unsplash，基于 CC0 协议。]]></summary>
         <author>
             <name>刘志远</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bundlehunt 2024 年黑五 Mac 软件优惠捆绑包上线了]]></title>
-        <id>https://www.appinn.com/?p=49881</id>
-        <link href="https://www.appinn.com/bundlehunt-2024/"/>
-        <updated>2024-10-24T15:08:53.000Z</updated>
-        <summary type="html"><![CDATA[Bundlehunt 每年都会有一个几十款 Mac 软件在一起的自选超市式捆绑包，均特价。今年的黑五 Mac 软件优惠捆绑包已经上线了，一共有 45 款 macOS 软件以及 3 款 Windows]]></summary>
-        <author>
-            <name>青小蛙</name>
         </author>
     </entry>
     <entry>
