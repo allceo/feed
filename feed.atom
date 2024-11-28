@@ -2,10 +2,264 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://allceo.github.io/feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-11-27T01:21:23.661Z</updated>
+    <updated>2024-11-28T01:20:45.215Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://allceo.github.io/feed/index.html"/>
     <link rel="self" href="https://allceo.github.io/feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[会接需求、画原型、跟项目，跳槽面试被刷，企业想要招什么样的产品经理？]]></title>
+        <id>https://www.woshipm.com/?p=6146775</id>
+        <link href="https://www.woshipm.com/it/6146775.html"/>
+        <updated>2024-11-28T00:08:01.000Z</updated>
+        <summary type="html"><![CDATA[2024年剩下不到100天了，想跳槽的职场人还在努力准备，冲刺年底的offer机会。那企业今年到底想要招什么样 […]]]></summary>
+        <author>
+            <name>起点课堂</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何倒推小红书投流预算？]]></title>
+        <id>https://www.woshipm.com/it/6146892.html</id>
+        <link href="https://www.woshipm.com/share/6146892.html"/>
+        <updated>2024-11-27T16:32:07.000Z</updated>
+        <summary type="html"><![CDATA[掌握小红书的精准投放艺术，让你的营销预算发挥最大效用。本文为你揭示如何倒推小红书的聚光投放预算，从确定营销诉求 […]]]></summary>
+        <author>
+            <name>Vic的营销思考</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[用户研究案例：地产客户人群细分及需求调研]]></title>
+        <id>https://www.woshipm.com/it/6146886.html</id>
+        <link href="https://www.woshipm.com/share/6146886.html"/>
+        <updated>2024-11-27T16:00:48.000Z</updated>
+        <summary type="html"><![CDATA[探索房地产市场的奥秘，深入了解客户需求，是项目成功的关键。在这篇文章中，我们将带您走进某知名房企的大型住宅项目 […]]]></summary>
+        <author>
+            <name>Peron用户研究</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] Windows System Control Center v10.0.0.2]]></title>
+        <id>1666+1732720106</id>
+        <link href="https://www.portablefreeware.com/?id=1666&amp;ts=1732720106"/>
+        <updated>2024-11-27T15:08:26.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] Q-Dir v11.91]]></title>
+        <id>1431+1732716393</id>
+        <link href="https://www.portablefreeware.com/?id=1431&amp;ts=1732716393"/>
+        <updated>2024-11-27T14:06:33.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] RJ TextEd v16.35]]></title>
+        <id>2206+1732716297</id>
+        <link href="https://www.portablefreeware.com/?id=2206&amp;ts=1732716297"/>
+        <updated>2024-11-27T14:04:57.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] QOwnNotes v24.11.4]]></title>
+        <id>2816+1732716239</id>
+        <link href="https://www.portablefreeware.com/?id=2816&amp;ts=1732716239"/>
+        <updated>2024-11-27T14:03:59.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] PhraseExpress v17.0.107]]></title>
+        <id>2208+1732716118</id>
+        <link href="https://www.portablefreeware.com/?id=2208&amp;ts=1732716118"/>
+        <updated>2024-11-27T14:01:58.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GoAccess – 开源实时 Web 日志分析器]]></title>
+        <id>https://www.appinn.com/?p=50293</id>
+        <link href="https://www.appinn.com/goaccess/"/>
+        <updated>2024-11-27T13:56:31.000Z</updated>
+        <summary type="html"><![CDATA[GoAccess 是一个开源实时 Web 日志分析器和交互式查看器，支持在终端和网页上运行。@Appinn 可以在终端里直接用， 不过，使用 Docker 更简单一些： 注意你的日志文件 access]]></summary>
+        <author>
+            <name>青小蛙</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scrcpy 3 - 开源免费在电脑显示手机画面并控制安卓手机工具 (投屏/录屏/免Root)]]></title>
+        <id>https://www.iplaysoft.com/?p=4904</id>
+        <link href="https://www.iplaysoft.com/scrcpy.html"/>
+        <updated>2024-11-27T12:00:38.000Z</updated>
+        <summary type="html"><![CDATA[如果想在电脑上使用 Android 应用/玩游戏，除了用安卓模拟器、MuMu、BlueStack 等模拟器跑安卓系统外，也可以借助类似 Vysor 等工具将手机画面投屏到电脑上显示和控制。
+可惜 Vysor Pro 收费贵，免费版广告又多，幸运的是我们又发现了一款开源免费但功能却更强大的安卓手机屏幕画面投屏+控制软件 Scrcpy！它跨平台支持 Win、Mac、Linux，可通过 USB 数据线 (或WiFi) 连接电脑，将手机画面投屏到电脑显示，并可使用键盘鼠标远程控制你的手机……
+「 前往查看原文.... 」
+异次元还有这些值得一看：
+
+Escrcpy - 免费开源！电脑上控制安卓手机的投屏工具 (屏幕镜像 / 无线连接 / 键鼠 / 录屏)
+Scrcpy-GUI 电脑控制安卓手机的工具神器！终于有了更直观好用的界面啦
+Vysor - 通过 USB 数据线在电脑上远程控制 Android 手机平板/同步显示画面的神器！
+Mobizen 中文版 - 电脑 USB/WiFi 无线远程控制 Android 手机的软件神器！(截图/录像/传文件)
+
+异次元首页  |  微信公众号  |  关注微博  |  软件精选  |  软件激活码折扣]]></summary>
+        <author>
+            <name>X-Force</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] Notepad++ v8.7.2]]></title>
+        <id>539+1732700307</id>
+        <link href="https://www.portablefreeware.com/?id=539&amp;ts=1732700307"/>
+        <updated>2024-11-27T09:38:27.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[独立开发者的鸿蒙故事：一个小工具的千次激活之路]]></title>
+        <id>https://www.woshipm.com/?p=6146643</id>
+        <link href="https://www.woshipm.com/it/6146643.html"/>
+        <updated>2024-11-27T09:11:42.000Z</updated>
+        <summary type="html"><![CDATA[作为一名独立开发者，安辉和其他人一样，也希望更多的用户能使用自己的产品。而独立开发者的身份，注定了不能像大公司 […]]]></summary>
+        <author>
+            <name>Aine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2年过去了，「AI大模型」怎么样了？]]></title>
+        <id>https://www.woshipm.com/it/6146628.html</id>
+        <link href="https://www.woshipm.com/share/6146628.html"/>
+        <updated>2024-11-27T08:16:38.000Z</updated>
+        <summary type="html"><![CDATA[“AI 大模型发展之路，两年历程回顾。” 自 2022 年 ChatGPT 的横空出世，AI 大模型成为科技领 […]]]></summary>
+        <author>
+            <name>长弓PM</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[8000字竞品分析干货！超详细的AI对话类产品分析与思考]]></title>
+        <id>https://www.woshipm.com/it/6146626.html</id>
+        <link href="https://www.woshipm.com/evaluating/6146626.html"/>
+        <updated>2024-11-27T08:11:43.000Z</updated>
+        <summary type="html"><![CDATA[“AI 对话产品之争，谁能脱颖而出？” 在人工智能蓬勃发展的时代，AI 对话类产品如雨后春笋般涌现。它们各具特 […]]]></summary>
+        <author>
+            <name>Clippp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[高阶策略人必备的系统思维，到底是什么？]]></title>
+        <id>https://www.woshipm.com/it/6146607.html</id>
+        <link href="https://www.woshipm.com/share/6146607.html"/>
+        <updated>2024-11-27T07:48:56.000Z</updated>
+        <summary type="html"><![CDATA[在商业策略的世界里，高阶策略人犹如领航者，他们的决策精准而高效。而系统思维则是他们手中的秘密武器。究竟什么是系 […]]]></summary>
+        <author>
+            <name>策略人藏锋</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[仓储管理5字真言：收、存、发、盘、管]]></title>
+        <id>https://www.woshipm.com/it/6146586.html</id>
+        <link href="https://www.woshipm.com/pd/6146586.html"/>
+        <updated>2024-11-27T07:32:13.000Z</updated>
+        <summary type="html"><![CDATA[在物流与供应链的关键环节 —— 仓储管理中，“收、存、发、盘、管” 这五个字犹如基石，承载着整个仓储运营的高效 […]]]></summary>
+        <author>
+            <name>壹叁零壹</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[为什么李子柒归来仍是顶流？]]></title>
+        <id>https://www.woshipm.com/it/6146585.html</id>
+        <link href="https://www.woshipm.com/share/6146585.html"/>
+        <updated>2024-11-27T07:22:44.000Z</updated>
+        <summary type="html"><![CDATA[“李子柒回归，顶流依旧。” 在这个瞬息万变的网络时代，李子柒的归来如同一颗重磅炸弹，瞬间引发热议。她为何能在退 […]]]></summary>
+        <author>
+            <name>小雨杂谈</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[产品经理如何将工作聚焦到关键问题上？]]></title>
+        <id>https://www.woshipm.com/it/6146584.html</id>
+        <link href="https://www.woshipm.com/pmd/6146584.html"/>
+        <updated>2024-11-27T07:17:45.000Z</updated>
+        <summary type="html"><![CDATA[“产品管理路，聚焦方致远。” 在产品经理的日常工作中，面对繁杂的事务和众多的需求，如何拨开迷雾，将精力聚焦在关 […]]]></summary>
+        <author>
+            <name>伍德安思壮</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[无需注册不联网，开源安卓经期记录应用 Periodical，让数据只属于你]]></title>
+        <id>https://www.appinn.com/?p=50284</id>
+        <link href="https://www.appinn.com/periodical/"/>
+        <updated>2024-11-27T07:04:21.000Z</updated>
+        <summary type="html"><![CDATA[Periodical 是一款开源的安卓经期记录应用，可以记录经期、症状，添加备注，有周期数据统计，完全离线使用，无需注册。支持数据备份，完全开源，采用 Material Design 设计，只有 2.]]></summary>
+        <author>
+            <name>青小蛙</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于“用户名”的产品设计，也有那么一点点内容]]></title>
+        <id>https://www.woshipm.com/?p=6146358</id>
+        <link href="https://www.woshipm.com/pd/6146358.html"/>
+        <updated>2024-11-27T06:10:16.000Z</updated>
+        <summary type="html"><![CDATA[本文深入探讨了“用户名”这一看似简单却充满设计学问的元素。从用户名的唯一性、来源、长度，到是否支持表情，再到审 […]]]></summary>
+        <author>
+            <name>觅云人</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[你绝对想不到，小红书可以这样引流！（附AI傻瓜式解决方案）]]></title>
+        <id>https://www.woshipm.com/?p=6146416</id>
+        <link href="https://www.woshipm.com/share/6146416.html"/>
+        <updated>2024-11-27T06:02:11.000Z</updated>
+        <summary type="html"><![CDATA[本文揭秘了一种在小红书上意想不到的引流技巧，它不仅能够吸引用户的注意力，还能巧妙地将广告植入到用户的日常笑料中 […]]]></summary>
+        <author>
+            <name>菜菜</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[深度｜Sam Altman：让 AI 和每个人对话，便可深入理解数十亿人的共识]]></title>
+        <id>https://www.woshipm.com/it/6146520.html</id>
+        <link href="https://www.woshipm.com/share/6146520.html"/>
+        <updated>2024-11-27T04:48:19.000Z</updated>
+        <summary type="html"><![CDATA[在人工智能的浪潮中，Sam Altman，OpenAI的CEO，与哈佛商学院的Debora Spar展开了一场 […]]]></summary>
+        <author>
+            <name>有新Newin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[雷军带火辣椒酱，企业家直播带货会被看不起吗？]]></title>
+        <id>https://www.woshipm.com/it/6146519.html</id>
+        <link href="https://www.woshipm.com/it/6146519.html"/>
+        <updated>2024-11-27T04:37:22.000Z</updated>
+        <summary type="html"><![CDATA[作为小米的领军人物，雷军不仅在科技界掀起波澜，更以其独特的个人魅力和影响力，将辣酱品牌“饭遭殃”从破产边缘拉回 […]]]></summary>
+        <author>
+            <name>寻空</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jellycat商业模式：情绪价值如何成就全球品牌]]></title>
+        <id>https://www.woshipm.com/it/6146518.html</id>
+        <link href="https://www.woshipm.com/share/6146518.html"/>
+        <updated>2024-11-27T04:25:58.000Z</updated>
+        <summary type="html"><![CDATA[在品牌林立的市场中，Jellycat以其独特的情感价值策略脱颖而出，成为全球知名的毛绒玩具品牌。从1999年的 […]]]></summary>
+        <author>
+            <name>MsQ星球</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SnippetsLab 免费了！程序员必备的 Mac 代码片段管理工具]]></title>
+        <id>https://www.appinn.com/?p=50281</id>
+        <link href="https://www.appinn.com/snippetslab/"/>
+        <updated>2024-11-27T04:16:39.000Z</updated>
+        <summary type="html"><![CDATA[SnippetsLab 是一款著名的 macOS 代码片段管理工具，2024年11月27日起，SnippetsLab 已经完全免费，可以直接在 Mac App Store 下载安装。@Appinn S]]></summary>
+        <author>
+            <name>青小蛙</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[抖快电商的突围困境]]></title>
         <id>https://www.woshipm.com/?p=6146329</id>
@@ -14,6 +268,76 @@
         <summary type="html"><![CDATA[文/庄帅 这两年来，淘天、京东和拼多多三大万亿规模的货架电商平台在白热化的竞争中，愈加明确了各自在品类、经营模 […]]]></summary>
         <author>
             <name>庄帅</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[打造个性 Windows 桌面体验 Seelen UI 2.0.6 x64 中文版发布]]></title>
+        <id>http://www.dayanzai.me/?p=73115</id>
+        <link href="https://www.dayanzai.me/seelen-ui.html"/>
+        <updated>2024-11-26T16:38:55.000Z</updated>
+        <summary type="html"><![CDATA[Seelen UI 中文版是一款专为提升 Windows 桌面体验而设计的工具，其主要特色在于提供高度的个性化 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[开源免费优秀播放器 Media Player Classic – Home Cinema 2.3.8 + x64 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=40060</id>
+        <link href="https://www.dayanzai.me/media-player-classic.html"/>
+        <updated>2024-11-26T16:37:38.000Z</updated>
+        <summary type="html"><![CDATA[开源免费优秀播放器 Media Player Classic 中文版由大眼仔旭（www.dayanzai.me […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[开源免费 DJ 混音软件 Mixxx 2.4.2 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=52316</id>
+        <link href="https://www.dayanzai.me/mixxx.html"/>
+        <updated>2024-11-26T16:29:36.000Z</updated>
+        <summary type="html"><![CDATA[开源免费 DJ 混音软件 Mixxx 中文版由大眼仔旭发布。Mixxx 是免费的开源软件，并完全由社区推动的。 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[开源电脑风扇控制软件 Fan Control v209 绿色中文便携版]]></title>
+        <id>https://www.dayanzai.me/?p=73554</id>
+        <link href="https://www.dayanzai.me/fan-control.html"/>
+        <updated>2024-11-26T16:23:23.000Z</updated>
+        <summary type="html"><![CDATA[对于大多数用户来说，无论是操作系统还是计算机内部机制，在保持系统温度方面都已经做得相当不错。然而，如果您是一位 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[开源小说写作应用 novelWriter 2.5.3 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=71665</id>
+        <link href="https://www.dayanzai.me/novelwriter.html"/>
+        <updated>2024-11-26T16:22:28.000Z</updated>
+        <summary type="html"><![CDATA[novelWriter 中文版是一款功能强大、易于使用的开源小说创作工具，它结合了 Web 应用程序和命令行工 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[万能音视频解码器 K-Lite Codec Pack Mega 18.7.0 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=1796</id>
+        <link href="https://www.dayanzai.me/k-lite-codec-pack.html"/>
+        <updated>2024-11-26T16:21:16.000Z</updated>
+        <summary type="html"><![CDATA[K-Lite Codec Pack Mega 中文版 今天小编大眼仔旭给大家推荐一款非常不错的解码器，它就是  […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[开源免费雷鸟邮件客户端 Mozilla Thunderbird 133.0 + x64 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=40351</id>
+        <link href="https://www.dayanzai.me/thunderbird.html"/>
+        <updated>2024-11-26T16:18:22.000Z</updated>
+        <summary type="html"><![CDATA[Thunderbird 中文版是大眼仔旭整理发布的一款开源免费的电子邮件应用程序，配置简单，定制自由—还附有强 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
         </author>
     </entry>
     <entry>
@@ -12947,592 +13271,6 @@ B 端产品既复杂又庞大，产品可不是超人，不是所有问题扔到
         <summary type="html"><![CDATA[作为一个全方位的媒体转换套件，Leawo Prof. Media 确保了高品质的家庭电影之夜及流畅的观影体验。 […]]]></summary>
         <author>
             <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple Intelligence 现已在 iPhone、iPad 和 Mac 上推出]]></title>
-        <id>http://www.dayanzai.me/?p=73240</id>
-        <link href="https://www.dayanzai.me/apple-intelligence-now-available.html"/>
-        <updated>2024-10-29T12:48:54.000Z</updated>
-        <summary type="html"><![CDATA[苹果发布了 iOS 18.1 的正式版本。此次更新引入了“苹果智能”（Apple Intelligence）， […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[滴滴企业版“崩了”的教训： 企业应该对技术有“敬畏”之心]]></title>
-        <id>https://www.woshipm.com/it/6133434.html</id>
-        <link href="https://www.woshipm.com/it/6133434.html"/>
-        <updated>2024-10-29T12:11:44.000Z</updated>
-        <summary type="html"><![CDATA[系统崩溃对一个产品来说算是经常碰到的问题，只要做好日常维护好就行。但对滴滴这种使用人数和频率都很大的产品来说，影响可不是件小事。前几天滴滴企业版崩溃，本文就对此进行了简单分析，探讨了企业在技术投入上的挑战与权衡，以及如何平衡商业发展与技术“敬畏”。
-
-在许多码农为“1024”庆祝时，滴滴的程序员们恐怕开心不起来。
-就在10月24日晚上，小红书、微博、抖音等社交平台上陆续出现对滴滴企业版的吐槽：加班到晚上11点的“打工人”想要打车回家时，却发现滴滴企业版“崩”了，要么一直打不到车，要么上车后还在派单，或者直接提示系统异常……
-
-在不满情绪的加持下，“企业滴滴崩了”的话题，硬是在大半夜上了微博热搜。
-有些讽刺的是，10月23日的企业出行服务峰会上，滴滴企业版刚宣布“累计服务超55万家企业，已成为一站式企业商旅出行平台”，并坦言“持续加大技术资源投入，让更多企业从一体化解决方案中获益。”
-
-也许10月24日晚上的“崩溃”只是偶发事故，却也揭示了一个既定事实：除了所谓的“商业理想”，企业还要有对技术有起码的“敬畏之心”。
-01.宕机的“秘密”藏在财报里
-如果是在两年前，“企业滴滴崩了”的事故可能不会掀起太大的声浪，但在“开猿节流”后遗症频发的当下，似乎有必要“刨根问底”。
-何况滴滴早有“P0级重大事故”在先。
-时间回到2023年11月27日，同样是在打车高峰期的夜间，滴滴APP被曝系统故障，出现了无法定位、显示网络异常等问题，而且持续时间长达12个小时，直到第二天下午才基本恢复正常。
-坊间迅速产生了不少猜测：有人认为滴滴遭遇了“外部攻击”，有人判断滴滴的“底层系统本身存在有缺陷”，更多人讨论的焦点则是——“滴滴系统崩了，跟之前减员增效有关——把老人都裁光了，剩下的新兵hold不住整个系统。‍‍‍‍‍‍‍‍‍‍‍”
-当时就有好事者从滴滴财报中找到了一些蛛丝马迹：2021年底，滴滴的员…]]></summary>
-        <author>
-            <name>Alter</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[比炒股更可怕的是天猫双十一]]></title>
-        <id>https://www.woshipm.com/it/6133425.html</id>
-        <link href="https://www.woshipm.com/share/6133425.html"/>
-        <updated>2024-10-29T11:29:29.000Z</updated>
-        <summary type="html"><![CDATA[随着双十一购物节的临近，消费者们纷纷摩拳擦掌，准备投身于这场年度购物盛宴。然而，海贝学姐却发现，今年的双十一似乎变得比炒股还要让人头疼。
-
-童鞋们好呀，最近几天学姐一起床就觉得头痛，想来想去不知道为啥。在我收到几条品牌发的垃圾营销短信之后恍然大悟，原来是最近双十一数学题做多了啊～
-
-小红书博主教你怎么解双十一数学题
-前几天，手机给我推荐了一张十年前双十一的老照片，当时不小心把地址填成了公司的，然后不得不让去借了一个超市的大推车才把那些快递搬上楼。结果今年双十一，群里都是各种等着抄作业的，没有一个人是做作业的，大家都面面相觑不知道该买啥，搞到最后我淘宝的购物车比我妈收拾过的房间还干净哦～
-
-为什么双十一越来越拉垮？学姐觉得主要是两方面因素，首先是价格体系全面崩塌，其次是产品流程超级复杂。
-这几天淘宝上，大部分商品的标价比最近的大A股价都魔幻。甭管多少钱的东西，哪怕就三五十的，在双十一也会硬生生给你涨到300左右，然后再给你发一张200+的券，再来个跨店满300减30（你猜我能跨到吗）。学姐恍惚间有一种几十年前看电视购物的感觉（暴露年龄），不要999，不要699，今天只卖99！
-比如，一小盒3片装的月抛隐形眼镜，告诉你原价300，然后减吧减吧最后算下来只要58，再比如一件小孩子的睡衣，布料都没多少，也是原价300，然后给你发一张240元的券，最后再88VIP折扣啥的减到65。淘宝真的就是把消费者当猴耍了是吧，难道姐不出门购物，不知道墙外的世界都在消费降级？
-
-每逢大促先涨价是淘宝商户的基本操作
-标价虚高也就算了，买一个东西还得疯狂“内耗”，比如我想买一个护肤品，撇开那些第三方代购啥的，光是官方的店，就有N个店价格需要比较了，品牌旗舰店、天猫超市、阿里健康大药房，还有什么百亿补贴品牌优选、天猫国际自营全球超级店、天猫国际自营秒颜社，你们仨是在PK店名长度嘛？就算是只看品牌旗舰店，…]]></summary>
-        <author>
-            <name>海贝学姐</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[写出第一篇10w+之后，用户说：请给雷军颁发诺贝尔奖！]]></title>
-        <id>https://www.woshipm.com/it/6133423.html</id>
-        <link href="https://www.woshipm.com/share/6133423.html"/>
-        <updated>2024-10-29T11:20:06.000Z</updated>
-        <summary type="html"><![CDATA[在数字内容的浪潮中，一篇爆款文章的诞生总能引起广泛的关注和讨论。本文讲述了作者如何在公众号仅有400多位关注者的情况下，实现了阅读量突破20万的壮举。
-
-早上好朋友们，又是一个美好的周一！
-就在刚刚过去的这个周末，我的公众号在只有400多位朋友关注的情况下、在日更的第31天，突然迎来了第一篇大爆款。
-
-但前天这篇，直接突破20w阅读。
-
-8:00 阅读量8000+；
-9:10 阅读量突破2w，成历史最高；
-10:10阅读量突破4w；
-01:45 半个小时后，阅读量突破5w；
-12:30阅读量突破8w；
-14:10阅读量达到前台展示的峰值，10w+；
-当我以为到头的时候，没想到，阅读量依然在疯狂涨。终于，在昨晚10点，阅读量达到20w。
-截止目前，阅读量暂停在22w。
-
-作为一个长期做内容的人，当然是兴奋的，这篇文章也是可以载入“2024年度个人最值得纪念的10件小成就”里的事件。
-所以我今天想分别从内容从业者的视角，分析一下两篇小爆款的共同之处，总结一下流量密码，为同样做公众号、抖音、小红书等新媒体的小伙伴一些个人心得；
-第二，从300多条留言中，总结一下人类的多样性，面对用户的不同需求，我们到底应该怎样做产品？如何避免“过度”营销对口碑的反噬？
-一、20w+背后的流量密码
-其实，对于内容创作者而言，我是非常厌恶流量密码这样的说法的。
-背后藏掖着对内容的投机心态，似乎掌握了所谓的内容技巧，就可以“拿捏”每一位阅读文字的朋友，我似乎掌握了这样的流量密码，但是我也不会在接下来的日更中去追随流量的玩法，依然坚持我手写我心的原则，只迎合自己和每一位读者，而不迎合流量噱头。
-当然，文章爆款背后的内容思维，却值得我们好好总结梳理一下。
-我结合两篇的共性，分享一下认为爆款内容最重要的一个思维：
-爆款背后一定是大的社会议题。
-正常来说，这两篇文章，我一个想表达培养创新能力的重要，一个是表达…]]></summary>
-        <author>
-            <name>好学的黄河</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[公共数据授权——场景式授权模式分析]]></title>
-        <id>https://www.woshipm.com/it/6133418.html</id>
-        <link href="https://www.woshipm.com/pd/6133418.html"/>
-        <updated>2024-10-29T10:55:48.000Z</updated>
-        <summary type="html"><![CDATA[索数据授权运营的新篇章，深入了解公共数据授权的创新模式。文章详细解读了《公共数据资源授权运营实施规范（试行）》，并深入探讨了依场景授权模式的优势、挑战以及杭州市公共数据授权运营的具体机制。
-
-根据国家数据局发布的《公共数据资源授权运营实施规范（试行）》（公开征求意见稿）。授权运营是指“将县级以上地方各级人民政府、国家行业主管部门持有的公共数据资源，按照法律法规和相关要求，授权符合条件的运营机构进行治理、开发，并面向市场公平提供数据产品和技术服务的活动。”
-
-其中授权运营活动包括实施机构、运营机构两类主体。授权运营模式，包括整体授权、分领域授权和依场景授权等。
-今天我们就来了解下“依场景授权”的运营模式。
-一、依场景授权模式分析
-依场景授权模式是指运营机构向数据主管单位提出具体应用场景和所需数据内容，经审核通过后获取特定数据进行特定场景的开发利用，该模式鼓励“先有场景设计规划，后有授权运营”，而非“先有授权运营，后有场景设计规划”，因此能更准确地实现数据资源与需求相匹配。
-目前，以杭州、温州为代表的城市采用的就是场景式授权运营模式，这种模式具有以下特点：
-（1）充分市场化竞争带来数据创新。地方政府不对特定主体进行授权，对运营机构的数量和属性也没有严格要求，可以有效地避免数据垄断。运营机构可以通过申请获取公共数据，有助于充分激发市场竞争，提升参与主体的创新活力和运营效率。
-（2）以场景为依据申请获取特定的公共数据，要求运营机构做好数据产品和服务规划，保证申请数据与场景的契合。同时数据主管部门可以对数据授权审批更好地做出决策，防止公共数据的无效滥用，降低数据泄露的风险。
-（3）地方政府或者实施机构需要确定授权运营的数据资源范围，建立数据资源目录等，对公共数据进行统筹规划与协调管理，一定程度上避免数据孤岛的形成，有助于实现公共数据的跨领域调用。（4）由于各类主体均可以申请并获取公共…]]></summary>
-        <author>
-            <name>子牧先生</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] HWiNFO v8.14]]></title>
-        <id>1715+1730198955</id>
-        <link href="https://www.portablefreeware.com/?id=1715&amp;ts=1730198955"/>
-        <updated>2024-10-29T10:49:15.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[鸡肋赛道产品经理：不转行，就失业。]]></title>
-        <id>https://www.woshipm.com/it/6133416.html</id>
-        <link href="https://www.woshipm.com/share/6133416.html"/>
-        <updated>2024-10-29T10:43:45.000Z</updated>
-        <summary type="html"><![CDATA[在当今竞争激烈的职场环境中，鸡肋赛道的产品经理正面临着前所未有的挑战。他们中的许多人可能会发现，自己未来的职业道路只有两条：转行或者失业。
-
-最近接触了不少鸡肋赛道的产品经理，有一个感觉越发强烈，那就是他们未来大概率只有2条路：要不转行，要不失业。
-
-所谓鸡肋赛道，最典型的特征有 3 点：
-1）市场需求少
-2）产品价值不显著
-3）产品通用性差
-比如，某些机场管理软件、物业管理软件，本来就没有多少潜在客户，而且产品设计也非常简单。
-负责这一类软件的产品经理，能力得不到提升，产品设计经验也没有太大亮点。他们往往会面临 2 个困境：
-1、留在现在的岗位，基本没什么发展
-而且由于产品简单，很容易被替代，因此一旦年龄稍大，被裁员的风险就很大
-2、如果跳槽，现有的经验基本没啥用
-最典型的特征就是他们说不出什么产品亮点，以前的产品设计经验也基本没法复用。
-结果就是，对他们来说，一旦过了 35 岁，基本就是“离职即失业”。
-其实，在早几年，鸡肋赛道产品经理跨行求职的难度还是相对低的。
-主要还是产品经理的需求太旺盛了，以致于面试官不放水就招不到人。
-这几年，随着经济大环境的变化，转行越来越难，毕竟经验匹配的产品经理都找不到工作，何况你跨行求职呢？
-即便如此，我仍然建议鸡肋赛道的产品经理尽早转行。
-因为这里有一个非常关键的问题，那就是年龄越大，转行越难。
-比如，一位接近35岁的星友来找我，说自己现在的赛道非常偏门，想要转行。
-我只能劝她从外包做起，因为一般的产品公司恐怕很难再给她机会了。
-最后，她还是入职了一家外包公司，不过好在是大赛道，相信她会迎来全新的职业生涯。
-另外，有些同学急于转行，但是又没有面试机会，就会想着走捷径：编造项目经验求职。
-甚至有培训机构专门提供这种编造假项目的服务。
-我特意调研了这件事情，虽然不能代表全貌，但是应该在一定程度上能够还原真相。
-在前几年，靠着培训班作假求职…]]></summary>
-        <author>
-            <name>ToB老人家</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[详解“日切”原理]]></title>
-        <id>https://www.woshipm.com/it/6133415.html</id>
-        <link href="https://www.woshipm.com/share/6133415.html"/>
-        <updated>2024-10-29T10:37:41.000Z</updated>
-        <summary type="html"><![CDATA[探索支付领域的奥秘，深入了解日切的复杂世界。在这篇文章将带我们穿越历史的长河，从早期的钱庄货币到现代银行体系，全面解析日切的演变、挑战和实现模式。
-
-我想很多人都不陌生，但日切究竟是如何实现的，日切前后及过程中都发生了什么，需要做哪些事情；不同的年代、不同的机构情形下，日切的实现模式有何异同，本文将彻底聊清楚
-
-所谓日切就是切换到下一个记账日期，这里要先搞清楚一个事情，日切就意味上一个交易日结束，下一个交易日开始，也就是日切伴随着日终，二者形影不离，那么聊日切就必须聊日终处理，我们把它当成一件事来看
-为了深刻理解日切模式，我们先看下日切的发展史
-一、日切简史
-大家可能觉得，我现在就在做账务，对日切感知并不明显，所以，日切有什么好讲的，如果你这么想，那只因为一个原因
-时代变了，方式也变了；要想深度理解一个事物，就要站在历史发展的视角看它，你感知不到，可能是因为，它以更高级和隐蔽的形式存在
-1）从重到轻
-支付发展程度越高，效率越高，成本越低，其中就包括日切的处理
-
-早期的钱庄货币是金属的，做账是手工的，加上没有现代会计方法作为依据，那么账务登记和管理效率相对较低，造成两个交易日之间的日终处理工作相对繁琐，可以理解为非常重的“日切/日终处理”时期
-同样银行也经历了多个时期，例如最早期的手工账时期，用算盘算账，纸质账簿做账务登记，那么日切过程势必要处理的事务相对较多，而且需要的人力成本较高，用时较长
-1979年，国务院批准银行业可以引进外国计算机进行试点，1987年开始，工行、中行、建行开始引入IBM的大型机和业务应用系统，结束了手工记账的时代，开启了信息化进程‌，那么很多工作交给了计算机去做，这时候的日终处理效率相比手工账时代就高多了，但是日切和日终的事务依然耦合在一起，需要停止联机交易进行日切和日终处理
-这个阶段，每年的12月31号，一年最后一天的日切/年终也就是银行年终决算最…]]></summary>
-        <author>
-            <name>陈天宇宙</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] WinScan2PDF v9.11]]></title>
-        <id>2051+1730197205</id>
-        <link href="https://www.portablefreeware.com/?id=2051&amp;ts=1730197205"/>
-        <updated>2024-10-29T10:20:05.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[史上最简单建站：WordPress Studio 发布，只需点两下鼠标，就能创建一个网站]]></title>
-        <id>https://www.appinn.com/?p=49917</id>
-        <link href="https://www.appinn.com/wordpress-studio/"/>
-        <updated>2024-10-29T09:10:11.000Z</updated>
-        <summary type="html"><![CDATA[WordPress Studio 是网站内容发布工具 WordPress 发布的一款本地软件（Windows、macOS），用来在本地创建网站，真的只需要点击 2 下鼠标，就能创建一个网站。不需要搭建]]></summary>
-        <author>
-            <name>青小蛙</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[谈营销型CRM]]></title>
-        <id>https://www.woshipm.com/?p=6133317</id>
-        <link href="https://www.woshipm.com/share/6133317.html"/>
-        <updated>2024-10-29T07:59:14.000Z</updated>
-        <summary type="html"><![CDATA[在CRM系统中，核心能力都在于线索-客户-商机管理和客户服务上，营销能力是CRM在搭建好销售管理和客户服务后的一个自然延伸。这篇文章，作者点评了一些比较具有代表性的CRM产品，一起来看看。
-
-论及企业信息化全家桶，不论是在大企业还是小企业，只要是需要对客户/用户进行管理的，各种形式的CRM必占有一席之地。CRM经过多年的发展，不管是内涵还是外延都发生了很大的变化。
-其一，CRM开始行使部分ERP的职能。笔者曾经的一个老东家是背靠大集团、估值几十亿美金的独角兽，公司内部使用的CRM就包含了电商的库存管理、市场活动管理、财务管理等模块，通过不同的角色、数据、模块来控制每个系统用户的权限。虽然从严格的系统隔离和区分角度来说，这种设计耦合度太高、显得不合理。但是对于一家业务处于高速发展阶段的新兴企业来说，好处也很明显，那就是系统架构上更简单、更高效、开发投入更低，公司可以把精力集中在主要业务上。
-其二，长期以来CRM的核心能力都在于线索-客户-商机管理以及客户服务（典型CRM的基本产品结构如下图所示）。而最近几年，经过国际同行巨头的教育和国内互联网企业的内卷，不少厂家都向上游扩充了营销能力以便于扩大线索的获取。此外在AI浪潮的席卷之下，作为生产力工具的CRM也得到了极大的滋养，智能化程度与日俱增。
-
-家里有CRM的朋友们都知道，线索对于CRM有如源头活水，有线索才有后续的一系列业务。作为销售漏斗的顶层，线索量的口子越大越好。但是线索本身是很被动的东西，它不会凭空产生，只能来自于营销和推广活动。那么，如何将营销和推广融合进CRM，甚至是通过这样的融合扩大线索量？国内的产品和国外的产品，在实现路线上有什么不同？传统CRM厂商和互联网大厂出品的CRM各自发力的方向是什么？以下介绍2款CRM，对这些问题进行探讨。
-
-01 CRM界的扛把子——Salesforce
-作为行业霸主，Salesf…]]></summary>
-        <author>
-            <name>霹雳</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[级别越高，越要学会“秋后算账”]]></title>
-        <id>https://www.woshipm.com/it/6133370.html</id>
-        <link href="https://www.woshipm.com/share/6133370.html"/>
-        <updated>2024-10-29T07:54:11.000Z</updated>
-        <summary type="html"><![CDATA[在职场中，我们经常会遇到紧急情况，需要立即处理问题而暂时搁置责任归属的讨论。然而，这种处理方式可能会导致问题重复发生，对个人和组织都造成伤害。"秋后算账"这一机制的建立，就是为了确保在紧急情况处理完毕后，能够回过头来审视问题，找出根源，并制定改进措施。本文将探讨如何建立有效的"秋后算账"机制，以及它对于提高工作效率和组织发展的重要性。
-
-前言
-不知你是否遇到过这种情况：
-“先别分是谁的责任了，客户那边很着急，我们先处理问题吧。”
-“这件事情确实是我这边有些问题，但我们业务还得往下，你想想办法吧。”
-然后，你被说的哑口无言，不得不开始处理了起来。
-不处理吧，那就是导向不对，会被扣上帽子；
-处理了，那就是在妥协和让步，下次还会有类似的事情。
-吃亏永远在后端。
-一、
-问题出现了，先解决问题，到底对不对？
-处理紧急事情，解决当前问题，肯定是对的。
-那明明是对的，为什么接到这件事情时，会这么别扭，会这么难受呢？
-因为缺少了“秋后算账”的机制。
-这是一个什么机制？简单点讲，可以这样理解：
-“事情紧急，那我先处理了，把客户那边安抚好了，我再回头找你算帐。”
-我们工作里，往往少了这个算帐的环节。
-无非有两点原因，导致我们没有去“算帐”：
-事情已经处理完，碍于面子，也不想上纲上线再去提。
-觉得自己提了，好像也不能改变什么，想想也就算了。
-于是，边一路忍着忍着，把不爽和郁闷都憋到了自己心里。
-不要觉得这件事情，只是自己受委屈了，它对整个组织都是一种伤害。那这样会组织造成什么不好的风气和影响？
-有这么两点：
-第一点，以后只需要拿着“客户优先”的尚方宝剑，就可以推进任何事情。
-第二点，这类事情对前端人员没进行惩罚，未能形成约束。在他们的认知里，这件事情是没有成本的，未来还是会继续这样干。
-慢慢地，只要出现了问题，那就找人擦屁股，只要嘴上说这是客户紧急，那就会有人解决，也不需要考虑成本。
-这不仅对个…]]></summary>
-        <author>
-            <name>鹏鹏的工作日记</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[面试官说你做的产品没什么价值，该如何应对？]]></title>
-        <id>https://www.woshipm.com/it/6133359.html</id>
-        <link href="https://www.woshipm.com/share/6133359.html"/>
-        <updated>2024-10-29T07:33:29.000Z</updated>
-        <summary type="html"><![CDATA[在产品经理的职业生涯中，面试往往是一个展示自我能力的关键时刻。然而，当面试官质疑你所负责的产品缺乏价值时，这不仅是挑战，更是展现你应变能力和专业素养的机会。本文将为你提供应对这种质疑的有效策略，帮助你从容应对，清晰阐述产品的价值和未来发展方向。通过理性分析、正面回应和展望未来，你将能够在面试中脱颖而出，赢得面试官的认可。
-
-在产品经理的面试过程中，如果遇到面试官质疑你所负责的产品缺乏价值，这无疑是一个挑战，但也是一个展示你应变能力、专业素养和问题解决能力的绝佳机会。
-以下是一些详细的建议，帮助你有效地应对这种局面，展现你的实力和对产品价值的深刻理解。
-一、保持冷静，理性分析
-首先，遇到这种情况不要慌张，面对面试官的质疑，保持冷静至关重要。
-不要让情绪影响你的表达和思维。
-深呼吸，然后礼貌地请面试官具体说明他们为何认为产品缺乏价值。
-这有助于你更准确地理解问题所在，也为后续的回应提供了方向。
-二、正面回应，展现自信
-1、阐述产品背景与目标
-解释产品开发的初衷是基于怎样的市场洞察和用户需求。
-可以提及市场调研、用户访谈、竞品分析等数据或证据，说明产品是为了解决哪些具体痛点而设计的。
-说明产品如何与公司整体战略、业务目标相契合，比如提高用户粘性、增加收入来源、提升品牌影响力等。
-2、展示产品价值
-详细介绍产品如何改善用户体验，解决用户痛点，提升生活或工作效率。
-可以通过用户反馈、满意度调查、留存率提升等数据来证明。
-阐述产品如何为公司创造经济效益，如增加收入、降低成本、提高市场份额等。
-提供具体的KPI变化、收入增长、成本节约等数据支持。
-三、承认不足，提出改进思路
-1、诚恳接受反馈
-如果面试官指出的确存在产品未完全满足市场需求或用户期望的地方，应以开放的态度接受反馈，展现出你愿意学习和改进的决心。
-2、分析原因与改进措施
-针对面试官提出的问题，分析背后的原因，比如市场需求变化、…]]></summary>
-        <author>
-            <name>伍德安思壮</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[怎么有效进行用户调研？]]></title>
-        <id>https://www.woshipm.com/?p=6133030</id>
-        <link href="https://www.woshipm.com/share/6133030.html"/>
-        <updated>2024-10-29T07:30:51.000Z</updated>
-        <summary type="html"><![CDATA[在做市场调研、需求挖掘时，我们会经常需要进行用户调研。这篇文章，作者以B端业务调研为例，为我们分析了调研的整个过程，供大家参考。
-
-用户调研是一切项目的开端。
-以B端业务调研举例，进行全过程剖析。
-案例：小红集团是一家经营了十几年的新能源项目规划设计、工程咨询、工程施工、运营管理等为一体的综合性工程管理公司。
-由于近几年工程业务发展较迅速，工程施工所需流程/标准多且复杂，若干流程、管理、风险问题越来越突出，企业难以及时掌握项目开展情况等。
-诉求：企业希望通过配套软件对整体施工情况进行有效把控，提升业务效率，控制施工风险。
-业务调研主流程：
-明确调研目的→确定调研方法→调研样本选择→执行调研计划→总结归纳
-一、调研前准备
-1）明确调研目的
-梳理业务现状、总结业务问题，梳理业务相关法律法规（若有）
-
-回到前文案例中，我们确定的调研目标如下：
-了解施工进度管控在整个小红集团的战略定位、战略目标
-了解该业务的经营策略、管控模式
-了解该业务的线下运作模式与细节、含组织架构、业务流程、使用场景及用户等
-梳理该业务的问题与痛点，确定优先级
-2）确定调研方法
-本篇主要以用户访谈方法举例
-访谈要素：访谈大纲、从高级别人员到中层再到一线人员分别访谈、提前研究访谈对象、和访谈对象保持联系
-访谈方法之一 ：提出假设、通过访谈、验证假设，也可通过直接问问题的方式进行
-调研大纲：问问题前，对客户业务需要做一些初步了解，明确本次访谈的对象是谁、通过调研想了解到什么，准备调研大纲可参考如下结构：
-
-3）调研样本选择
-客户分层分析选择、关键用户画像梳理。
-针对前文案例（B端业务调研），调研对象一般为业务高管、业务经理、一线业务人员等
-针对高管，可以了解战略层面信息；针对经理/部门负责人，可了解业务的管控模式、运营思路等；对于一线业务人员，可了解实际作业过程、操作细节等信息。
-针对小红集团，计划调研对象为：集…]]></summary>
-        <author>
-            <name>不知名产品露</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[作为一个产品经理或产品负责人会可能忽视哪些实际上很重要的事？]]></title>
-        <id>https://www.woshipm.com/it/6133337.html</id>
-        <link href="https://www.woshipm.com/share/6133337.html"/>
-        <updated>2024-10-29T07:17:40.000Z</updated>
-        <summary type="html"><![CDATA[在快节奏的科技行业，产品经理和产品负责人常常被产品的即时需求和短期目标所牵引，从而可能忽视了一些对产品长期成功至关重要的因素。从用户情感的深度研究到团队协作的微妙动态，这些易被忽略的方面往往决定了产品是否能够真正触及用户的心。本文将探讨那些在产品管理中可能被忽视，但实际上极为重要的事项，帮助产品经理避免潜在的陷阱，引领产品走向成功。
-
-作为产品负责人或者产品经理，我们常常陷入产品的细节中，很容易忽视一些看似不重要，但实际上对产品成功至关重要的因素。这些被忽视的“小事”，往往会成为产品职业发展道路上的绊脚石。
-一、用户研究的深度
-忽视用户情感。产品不仅仅是功能的集合，更是一种情感体验。忽视用户的情感需求，产品就很难打动用户。
-忽视边缘用户。过度关注核心用户，而忽视了边缘用户，导致产品缺乏包容性。
-研究方法单一。只依赖问卷调查或用户访谈，而忽略了其他研究方法，如用户日志分析、眼动追踪等。
-
-二、产品策略的广度
-忽视竞争对手的创新。只关注直接竞争对手，而忽略了潜在竞争对手和跨行业创新。
-缺乏长期愿景。过度关注短期目标，而没有为产品制定长期发展战略。
-忽视产品组合管理。没有对产品组合进行整体规划，导致资源浪费。
-三、团队协作的深度
-缺乏信任基础。团队成员之间缺乏信任，导致沟通不畅，合作不顺。
-忽视多元化思维。过于强调团队一致性，而忽视了多元化思维的重要性。
-缺乏反馈机制。团队成员之间缺乏及时有效的反馈，导致问题得不到及时解决。
-四、产品迭代的持续性
-过度追求新功能。一味追求新功能，而忽略了对现有功能的优化。
-忽视技术债。为了快速上线，积累了大量技术债，导致产品质量下降。
-缺乏数据驱动。没有基于数据分析进行产品迭代，导致优化方向不明确。如何避免这些问题呢？
-加强用户研究。多维度、多渠道地收集用户反馈，深入了解用户需求。
-制定长期产品战略。将产品置于更大的商业环境中考虑，制定长期发展规划。
-建立高效的团队协作机制。建立信任、鼓励沟通、重视多元化。
-持续迭代优化。采用敏捷开发方法，快速迭代，持续优化。
-保持终身学习。关注行业动态，不断学习新知识和技能。
-产品经理的角色不仅仅是产品的设计者，更是一个战略家、领导者和终身学习者。只有全面发展，才能打造出真正满足用户需求、具有竞争力的产品。
-电商产品经理的进阶指南：从传统思维到用户驱动的运营策略
-电商产品经理如何策划大促活动？
-产业变革中的数字化转型：供应链与制造体系的协同发展
-如何预测销量？供应链产品经理帮助企业精准决策
-供应链必知必会：什么是库存？如何管理库存？
-供应链数字化：物流、信息流、资金流三流融合
-本文由人人都是产品经理作者【刘志远】，微信公众号：【远哥聊产品】，原创/授权 发布于人人都是产品经理，未经许可，禁止转载。
-题图来自Unsplash，基于 CC0 协议。]]></summary>
-        <author>
-            <name>刘志远</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[我独自研发产品【2】——试水]]></title>
-        <id>https://www.woshipm.com/?p=6132153</id>
-        <link href="https://www.woshipm.com/share/6132153.html"/>
-        <updated>2024-10-29T06:48:11.000Z</updated>
-        <summary type="html"><![CDATA[上一篇文章，作者分享了自己决定独立开发产品时是如何选择工具的。这篇文章，和作者一起，看看他是如何使用工具的。
-
-一、做什么呢？
-首先，我决定做一些零散功能，来熟悉平台提供的功能。单个小超市的管理系统，需求清晰，并且都是常规业务逻辑，比较适合用来熟悉平台功能，我就从这个下手吧。作为这个系统的起点，我还是决定从商品的增删改查开始。
-二 、创建应用
-登录我自己的租户以后，我创建了一个应用，目前我还不知道应用的基础信息中填写的这些内容会在什么地方用到，不过还是简单填了一下。
-
-创建应用以后，可以在应用图表的右下角找到访问按钮，点击这里才可以进入应用。当我进入应用以后，发现左侧的菜单改变了，并且系统会明确的提示我，现在我所处的位置是“开发端-应用名称”。根据我的理解，访问应用，其实就是进入到应用的开发环境，而左侧的菜单就是用来开发应用的工具。
-
-三、创建模型
-左侧的菜单非常多，暂时弄不懂是干什么的，但是在我做产品设计的时候，习惯从业务实体分析开始，首先分析我将要设计的功能需要由哪些业务实体作为基础。所以，我也决定从工具中的模型设计开始。首先我简单的设计了一个商品的模型，如下图：
-
-由于只是做个简单的超市管理系统，也没打算真的开放给别人使用，所以在设计层面，一切从简，各位可以理解我要做的意图就可以。在设计好以后，我在开发工具的模型设计中建立了对应的模型
-
-在创建模型的过程中，我理解了一下这个工具中的几个重要字段类型：
-
-1、长文本、短文本、自定义文本：这三种都是文本，只是长度上有区分，在我创建模型的时候，我不是很理解为什么要分为三种类型，直接给我一个文本类型，我自己设置长度不久可以了吗？后来我发现，在做页面的时候，有一种叫做模板页面的快速配置方式，模板页面中，不同的字段类型会生成不同的控件，例如，短文本就是文本框，长文本就是多行文本框，因此这里才区分了三种。
-2、模型：模型这种字段类型…]]></summary>
-        <author>
-            <name>垫底汪3033</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Few Shot：最少的样本，最大的可能]]></title>
-        <id>https://www.woshipm.com/?p=6133284</id>
-        <link href="https://www.woshipm.com/ai/6133284.html"/>
-        <updated>2024-10-29T06:42:05.000Z</updated>
-        <summary type="html"><![CDATA[在LLM提示工程中，链式推理是一种方法，少样本提示也是一种。如何能让“少样本”发挥出最大的价值，这篇文章提供了多种思路。
-
-前两周我们探讨了LLM 提示工程中的一个关键方法：链式推理（Chain of Thought）在实际产品开发中的应用和注意要点。这篇文章我们会分享少样本提示（few shot）的概念和应用。
-一、概念：零样本提示（Zero shot）与少样本提示（Few shot）
-想象一下，你有一位非常聪明的助手。
-很多时候，你只需要告诉他你想要做什么，他就能立刻理解并正确无误地替你办完。比如，你告诉他“请帮我找最近3个月AIGC的最新研究发现”，他就能快速又贴心地给你想要的。但如果，你要他做的任务是“给客户写一封正式的邀请函”，且这类邀请函自带独特的排版格式、语言要求。你的助手纵然天赋异禀，也得知道邀请函怎么写才行。那么，你会怎么做？
-第一种方法，絮叨半小时，把规则一条条说清楚：“请给我写一封客户的邀请函，第一行必须是客户抬头，而且要顶格；第二行是……；日期的格式要这样，结尾的格式要那样……”。
-第二种方法，简单指示+参考：“这次的活动要请XX公司的张总参加，客户名片、活动时间在这里。你来草拟正式的邀请函，具体的格式和语言风格按照以前的邀请函来，这里有一些好的例子，你拿去参考。”
-如果助手够聪明，也有具备写作能力，第二种方法对你和助手来说，显然都是轻松又高效的。
-这两种“提要求”的方法，恰恰就是prompt两种不同的技术：零样本提示（Zero Shot）和少样本提示（Few Shot）样本。
-零样本提示（Zero Shot）：是一种在没有任何相关示例的情况下，直接对模型进行提问的方法。
-少样本提示（Few Shot）：在提示中提供少量的示例，以帮助模型更好地理解任务的目标和输出要求。
-如果你的提示直接明确，或者想获得开放性的回答，零样本提示（Zero Shot）足…]]></summary>
-        <author>
-            <name>AI 实践干货</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[销售团队目标设计及实施详述]]></title>
-        <id>https://www.woshipm.com/?p=6133151</id>
-        <link href="https://www.woshipm.com/pd/6133151.html"/>
-        <updated>2024-10-29T05:32:01.000Z</updated>
-        <summary type="html"><![CDATA[在企业管理中，销售团队的目标设定和实施是推动业绩增长的关键环节。然而，如何科学地设计这些目标，并确保它们能够有效地被执行和达成，是许多企业面临的挑战。本文深入探讨了销售目标管理的核心原则和实践步骤，给大家提供了一套系统的框架和实用工具。
-
-在我过去的职业生涯中，参与制定过十余次年度销售目标以及数百次月度销售目标，基于当时所处的职位以及参与的深度，多数销售目标都是以销售额、客户数形式制定并下发的，一线销售团队对于销售目标这件事情的讨论也主要集中在“数字高了还是低了”“和上个月相比缺口是多少”等等，但是对于目标本身的讨论和理解是相当不充分的，就好像目标天生就是给我一个数字，我去完成就好。
-与此同时，作为销售管理团队的一员，我们在销售年度规划、销售战略、业务策略、执行计划等等涉及销售管理的设计和实施上，对于销售目标环节的讨论和分析也近乎零，它出现在管理团队的时候，就已经成了一个数字指标，并且不容我们置疑。
-我并不清楚各位是否也和我一样遇到了同样的状况，我的经历告诉我，理想的丰满和现实的骨干之间总还有差距，但是这并不妨碍我去追求理想的丰满，因为那是正确的事情，而正确总会成为我们走向成功最重要的积淀。
-在销售目标管理上，正确的陈述应该是：
-销售目标，是整个销售业务单元的核心驱动要素，它应该包括数字、路径、奖惩、资源，以及与之对应的分层解读。其基础认知包括：
-认知一：销售目标源自公司的业务目标，并服从公司在不同时间点上的战略预期，如果在目标描述上这三者都无法形成连贯的逻辑，销售目标必然是不合理的；
-认知二：销售目标不能只是数字，它应该是经过一套完整的目标设计流程后得到的一个可以对团队清晰描述的“一页纸文档”；
-
-认知三：销售目标是公司唯一一个能够拉通所有业务单元和职能部门的、最为显性，客观的考核指标，他需要能够对所有业务单元和职能部门负责人明确、清晰的说明；
-一、什么是一个好的销售目标…]]></summary>
-        <author>
-            <name>运营的不惑屋</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] Volume² v1.1.9.468]]></title>
-        <id>2357+1730179683</id>
-        <link href="https://www.portablefreeware.com/?id=2357&amp;ts=1730179683"/>
-        <updated>2024-10-29T05:28:03.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] QOwnNotes v24.10.4]]></title>
-        <id>2816+1730179634</id>
-        <link href="https://www.portablefreeware.com/?id=2816&amp;ts=1730179634"/>
-        <updated>2024-10-29T05:27:14.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PixPin – 截图工具：贴图、截长图、截动图、OCR 文字识别｜终身会员首次7折优惠，可激活8个设备]]></title>
-        <id>https://www.appinn.com/?p=46991</id>
-        <link href="https://www.appinn.com/pixpin/"/>
-        <updated>2024-10-29T03:35:58.000Z</updated>
-        <summary type="html"><![CDATA[PixPin 是一款比较新鲜的 Windows、macOS 截图工具，拥有截图、贴图、截长图、截动图、OCR 文字识别几个功能，目前口碑极佳。同时也是在线 OCR 工具 PearOCR 同款开发者。@]]></summary>
-        <author>
-            <name>青小蛙</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI时代的来临是产品经理再次崛起的时候]]></title>
-        <id>https://www.woshipm.com/?p=6133156</id>
-        <link href="https://www.woshipm.com/share/6133156.html"/>
-        <updated>2024-10-29T03:27:16.000Z</updated>
-        <summary type="html"><![CDATA[随着人工智能技术的飞速发展，我们正站在一个新时代的门槛上，AI的浪潮预示着新的机遇与挑战。在这篇文章中，我们将探讨AI时代下产品经理的角色如何转变，以及他们如何利用这一技术浪潮实现职业上的再次崛起。
-
-一、AI时代爆发的前夕
-从22年底、23年初ChatGPT3.5发布之始，AI又再一次的成为人们眼前的热点，各种畅享着改变世界的呼声有层出不穷，在之后通用型大模型不断出现国内也是热火朝天，包括文心一言、豆包、通义千问、腾讯混元、Kimi等等。而在各个细分领域的AI也是像雨后春笋一样，不断冒出，作图的、做视频、处理文档各个领域都是百花齐放。而基于这些底层大模型进行应用层面的创业更是各式各样，呈爆发式增长，但除了像ChatGPT这一类的现象级底层技术平台，后续并未太多面向全民的杀手级应用出现。
-在这一两年的持续观察中，发现大模型的发现虽然日新月异，但真正能够落地的、产生实际用户价值的产品其实不多。大模型在经过这两年的落地应用后发现的弊端也是逐步显现，幻觉、无法保证完全的一致性、逻辑黑盒等等问题也是让各路创业者头疼，而对于大模型的使用看上去门槛很低，但要想真正在它之上做到极致的却又是难上加难。
-像这个社会上很多下限低上限高的事物一样，这里面的道理大家都懂得真正能够做好的人却不多。这里面涉及几个方面的原因，一个是用他的人要能够持续的去学习钻研，大模型的发展日新月异，人们需要不断的去迭代自己的知识以适应他的发展；另外就是要用好它需要既懂它又懂业务，还能够有抽象思维的人，能够从现象中找到逻辑、规则，以至于认知事物的本质；最后也是要有迭代思维，能够真正的使用产品思维去做落地，可能只是一句提示词的改变或者是一个插件选择的区别，你得到的结果都是千差万别的。
-而以上这些我认为刚好是与一个好的产品经理的要求是一致的，未来产品经理在AI的爆发浪潮中大概率会再次崛起。
-二、产品经理再次崛起
-近些年AI…]]></summary>
-        <author>
-            <name>不可分类者</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AdGuard广告拦截器APP v4.7.74 Nightly + 4.6.88 Final]]></title>
-        <id>http://www.qiuquan.cc/?p=6644</id>
-        <link href="http://www.qiuquan.cc/androidsoft/adguard.html"/>
-        <updated>2024-10-29T00:35:36.000Z</updated>
-        <summary type="html"><![CDATA[AdGuard是一款非常实用的广告屏蔽工具，其甄别并屏蔽广告的强大能力已然成为业界公认的金标准。而在功能强大的同时，AdGuard又以简单易用的用户界面，让每一个用户都能不费吹灰之力扼制各类烦人的广告。更加轻松地浏览网页，无广告烦恼。]]></summary>
-        <author>
-            <name>泉</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[苹果发布 macOS Sonoma 14.7.1 (23H222) 正式版 系统镜像下载]]></title>
-        <id>http://www.dayanzai.me/?p=46407</id>
-        <link href="https://www.dayanzai.me/macos-sonoma.html"/>
-        <updated>2024-10-28T16:51:38.000Z</updated>
-        <summary type="html"><![CDATA[macOS Sonoma 是 Apple Mac 设备的最新操作系统版本，苹果以世界上最着名的葡萄酒产区之一命 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple 最新 MacOS Ventura 13.7.1 (22H221) Final 正式版官方镜像下载]]></title>
-        <id>http://www.dayanzai.me/?p=60018</id>
-        <link href="https://www.dayanzai.me/macos-ventura.html"/>
-        <updated>2024-10-28T16:51:32.000Z</updated>
-        <summary type="html"><![CDATA[秋季到来或者 7 月，如果你喜欢尝试早期的 Beta MacOS – MacOS Ventura  […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[批量调整图像大小工具 Light Image Resizer 7.0.9.54 绿色中文免费版]]></title>
-        <id>http://www.dayanzai.me/?p=1082</id>
-        <link href="https://www.dayanzai.me/lightimageresizer.html"/>
-        <updated>2024-10-28T16:35:43.000Z</updated>
-        <summary type="html"><![CDATA[Light Image Resizer 绿色中文版 批量调整图像大小由大眼仔旭（www.dayanzai.me […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[开源儿童绘画工具 Tux Paint 0.9.34 + x64 中文多语免费版]]></title>
-        <id>http://www.dayanzai.me/?p=8328</id>
-        <link href="https://www.dayanzai.me/tux-paint.html"/>
-        <updated>2024-10-28T16:30:42.000Z</updated>
-        <summary type="html"><![CDATA[开源儿童绘画工具 Tux Paint 中文多语版由大眼仔旭（www.dayanzai.me）发布。Tux Pa […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[跨平台开源 SSH 桌面终端 Electerm 1.40.20 x64 中文免费版]]></title>
-        <id>http://www.dayanzai.me/?p=765</id>
-        <link href="https://www.dayanzai.me/electerm.html"/>
-        <updated>2024-10-28T16:25:50.000Z</updated>
-        <summary type="html"><![CDATA[跨平台开源 SSH 桌面终端 Electerm 中文版由大眼仔旭整理发布。通常，终端仿真器用于为某些计算机用户 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[轻松管理您的 EFI/UEFI 启动项 EasyUEFI Enterprise 5.8 x64 中文企业版]]></title>
-        <id>http://www.dayanzai.me/?p=2779</id>
-        <link href="https://www.dayanzai.me/easyuefi.html"/>
-        <updated>2024-10-28T16:20:07.000Z</updated>
-        <summary type="html"><![CDATA[EasyUEFI x64 中文企业版由大眼仔旭（www.dayanzai.me）发布。EasyUEFI 是一个 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[《胡闹搬家》超搞笑超欢乐的多人合作游戏！亲子益智聚会 / 类似双人成行 / 分手厨房]]></title>
-        <id>https://www.iplaysoft.com/?p=6249</id>
-        <link href="https://www.iplaysoft.com/moving-out.html"/>
-        <updated>2024-10-28T13:42:46.000Z</updated>
-        <summary type="html"><![CDATA[如果你玩过《双人成行》，肯定会喜欢上这类双人合作的游戏！既能家长孩子合家欢，也能和男女朋友互相增进感情。那么除了双人成行外，还有什么类似的多人合作游戏呢？
-比较值得推荐的有以“分手厨房”之称的《胡闹厨房》系列以及双子传说，此外，还有一款相当不错——《胡闹搬家》(Moving Out)。它们都是在合作游戏的基础上，通过卡通的场景，轻松搞笑的玩法，各种乱来与恶搞，让玩家们在欢声笑语中体验 互相撕逼 游戏的乐趣……
-「 前往查看原文.... 」
-异次元还有这些值得一看：
-
-胡闹厨房 2 (分手厨房 / 煮糊了) - 超欢乐搞笑的本地合作游戏！享受友尽撕逼的快乐
-模拟人生 4 中文版 - 男女老少都适合玩的超经典 PC 游戏大作！在虚拟世界体验别样人生
-口袋妖怪 Pokemon GO - 精灵宝可梦手机版游戏 (超有趣的 AR 增强现实玩法)
-城市：天际线 - 超好玩的现代模拟城市/交通规划/经营建造游戏之一
-
-异次元首页  |  微信公众号  |  关注微博  |  软件精选  |  软件激活码折扣]]></summary>
-        <author>
-            <name>X-Force</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] Tux Paint v0.9.34]]></title>
-        <id>122+1730121828</id>
-        <link href="https://www.portablefreeware.com/?id=122&amp;ts=1730121828"/>
-        <updated>2024-10-28T13:23:48.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
         </author>
     </entry>
 </feed>
