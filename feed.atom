@@ -2,10 +2,199 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://allceo.github.io/feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-12-06T01:22:10.915Z</updated>
+    <updated>2024-12-07T01:21:02.654Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://allceo.github.io/feed/index.html"/>
     <link rel="self" href="https://allceo.github.io/feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[支付清结算中全额、净额、轧差是个啥？]]></title>
+        <id>https://www.woshipm.com/?p=6151462</id>
+        <link href="https://www.woshipm.com/pd/6151462.html"/>
+        <updated>2024-12-07T00:56:55.000Z</updated>
+        <summary type="html"><![CDATA[在金融支付领域，清算和结算是两个核心概念，它们不仅关系到资金的流转效率，还涉及风险管理和流动性管理。本文深入探 […]]]></summary>
+        <author>
+            <name>隐墨星辰</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[让你公众号流量提升10倍的一套公式！]]></title>
+        <id>https://www.woshipm.com/?p=6151488</id>
+        <link href="https://www.woshipm.com/operate/6151488.html"/>
+        <updated>2024-12-07T00:05:40.000Z</updated>
+        <summary type="html"><![CDATA[现在各个公众号阅读量下降得厉害，各位运营也是愁得不行。本文给公众号的流量做了总结分析，希望可以帮到你。 阅读量 […]]]></summary>
+        <author>
+            <name>运营研究生</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[个推携手人人都是产品经理举办数据驱动运营增长闭门会]]></title>
+        <id>https://www.woshipm.com/?p=6151148</id>
+        <link href="https://www.woshipm.com/share/6151148.html"/>
+        <updated>2024-12-06T23:48:08.000Z</updated>
+        <summary type="html"><![CDATA[抓住AI风口，共探变革机遇。12月7日-8日，AI产品经理大会将在深圳召开。每日互动（个推）将在7日上午场带来 […]]]></summary>
+        <author>
+            <name>个推</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SimpleMindMap – 开源、功能完整的思维导图工具[跨平台/Web]，更新 Obsidian 插件]]></title>
+        <id>https://www.appinn.com/?p=49516</id>
+        <link href="https://www.appinn.com/simplemindmap/"/>
+        <updated>2024-12-06T15:14:27.000Z</updated>
+        <summary type="html"><![CDATA[SimpleMindMap 是一款开源的思维导图工具，功能完整，拥有网页端及客户端（Windows、macOS、Linux），支持插件、API，简单易用。可以自定义外观、线条等，非常适合随手用用。@A]]></summary>
+        <author>
+            <name>青小蛙</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] RegCool v2.019]]></title>
+        <id>3084+1733489872</id>
+        <link href="https://www.portablefreeware.com/?id=3084&amp;ts=1733489872"/>
+        <updated>2024-12-06T12:57:52.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TLDRify – 标记网页内特定文字内容，并转换为短链接]]></title>
+        <id>https://www.appinn.com/?p=50402</id>
+        <link href="https://www.appinn.com/tldrify/"/>
+        <updated>2024-12-06T07:27:57.000Z</updated>
+        <summary type="html"><![CDATA[TLDRify 是一款用来标记网页内特定文字内容，并转换为短链接的在线服务。当用户打开短链接时，会自动跳转到特定文字，并高亮显示。@Appinn 感谢 @ゼロ 的推荐。 这是一款…挺好用的]]></summary>
+        <author>
+            <name>青小蛙</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI医疗的战略价值]]></title>
+        <id>https://www.woshipm.com/it/6151157.html</id>
+        <link href="https://www.woshipm.com/share/6151157.html"/>
+        <updated>2024-12-06T07:11:00.000Z</updated>
+        <summary type="html"><![CDATA[人工智能技术在医疗领域的应用，正在引发一场深刻的变革。它不仅提高了医疗服务的效率和降低了成本，还改变了医疗企业 […]]]></summary>
+        <author>
+            <name>罗福如</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一句话打钱35万！人类都开始“诈骗”AI了]]></title>
+        <id>https://www.woshipm.com/it/6151153.html</id>
+        <link href="https://www.woshipm.com/aigc/6151153.html"/>
+        <updated>2024-12-06T06:52:46.000Z</updated>
+        <summary type="html"><![CDATA[在人工智能迅速发展的今天，AI的应用已经渗透到我们生活的方方面面。然而，一项名为Freysa的挑战游戏却揭示了 […]]]></summary>
+        <author>
+            <name>乌鸦智能说</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数字孪生：现实世界的身外化身]]></title>
+        <id>https://www.woshipm.com/it/6151150.html</id>
+        <link href="https://www.woshipm.com/ai/6151150.html"/>
+        <updated>2024-12-06T06:41:28.000Z</updated>
+        <summary type="html"><![CDATA[数字孪生技术，作为现实世界与数字世界的桥梁，正逐渐成为工业4.0和智能制造的核心。它通过创建物理实体的虚拟副本 […]]]></summary>
+        <author>
+            <name>壹叁零壹</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI产品从1到100：如何驾驭产品生命周期中的非线性挑战]]></title>
+        <id>https://www.woshipm.com/it/6151147.html</id>
+        <link href="https://www.woshipm.com/share/6151147.html"/>
+        <updated>2024-12-06T06:33:04.000Z</updated>
+        <summary type="html"><![CDATA[在人工智能产品的发展过程中，非线性挑战是常态。从0到1的起步阶段，从1到10的扩展阶段，再到从10到100的规 […]]]></summary>
+        <author>
+            <name>长弓PM</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[要不要给实习生安排关键岗位的工作？]]></title>
+        <id>https://www.woshipm.com/it/6151143.html</id>
+        <link href="https://www.woshipm.com/share/6151143.html"/>
+        <updated>2024-12-06T06:24:35.000Z</updated>
+        <summary type="html"><![CDATA[在当今职场，实习生已成为企业中不可或缺的一部分，他们不仅为公司注入新鲜血液，还常常在关键岗位上发挥重要作用。然 […]]]></summary>
+        <author>
+            <name>伍德安思壮</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[优惠券生成与发放策略：精准营销,提升转化率]]></title>
+        <id>https://www.woshipm.com/it/6151137.html</id>
+        <link href="https://www.woshipm.com/share/6151137.html"/>
+        <updated>2024-12-06T06:12:21.000Z</updated>
+        <summary type="html"><![CDATA[在电商的激烈竞争中，优惠券作为一种营销利器，其设计和发放策略对于提升用户购买意愿和销售转化率起着至关重要的作用 […]]]></summary>
+        <author>
+            <name>刘志远</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[从右往左思考：更有效的问题解决方式]]></title>
+        <id>https://www.woshipm.com/?p=6150881</id>
+        <link href="https://www.woshipm.com/share/6150881.html"/>
+        <updated>2024-12-06T03:46:01.000Z</updated>
+        <summary type="html"><![CDATA[《思考，快与慢》中把人的思维方式分为快思考和慢思考，多数人都是从左往右的思考方式；但作为一名产品经理，这样的方 […]]]></summary>
+        <author>
+            <name>产品方法论集散地</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何狂揽6个offer？我的面试技巧]]></title>
+        <id>https://www.woshipm.com/?p=6150853</id>
+        <link href="https://www.woshipm.com/share/6150853.html"/>
+        <updated>2024-12-06T03:34:16.000Z</updated>
+        <summary type="html"><![CDATA[去年开始，大家都在说找工作困难，动不动就是几个月起。但就是在这种情况下，作者四个月还是获得了6个Offer，具 […]]]></summary>
+        <author>
+            <name>Thea小里</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IAA 阅读产品 商业化广告]]></title>
+        <id>https://www.woshipm.com/?p=6150891</id>
+        <link href="https://www.woshipm.com/share/6150891.html"/>
+        <updated>2024-12-06T03:22:43.000Z</updated>
+        <summary type="html"><![CDATA[主流的小说、阅读类APP都是通过内置的广告位赚钱。这篇文章，作者分享了此类APP内置广告位的设计，供大家参考。 […]]]></summary>
+        <author>
+            <name>PM大明同学</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[内容安全策略：如何构建有效的舆情风险分析模型]]></title>
+        <id>https://www.woshipm.com/?p=6150990</id>
+        <link href="https://www.woshipm.com/pd/6150990.html"/>
+        <updated>2024-12-06T03:08:02.000Z</updated>
+        <summary type="html"><![CDATA[本文将从数据采集、舆情分析、风险评估及应对策略等多个维度出发，构建一个全面的舆情风险分析模型，旨在为内容平台提 […]]]></summary>
+        <author>
+            <name>Isaac Theo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[用AI将30个设计师砍到2个，有赞值得骄傲吗]]></title>
+        <id>https://www.woshipm.com/?p=6151036</id>
+        <link href="https://www.woshipm.com/share/6151036.html"/>
+        <updated>2024-12-06T03:06:23.000Z</updated>
+        <summary type="html"><![CDATA[白鸦在某个视频里说自己用AI裁员了28名设计师，初听可能会觉得没什么，但实际上，在时代滚滚向前，很多人都会不可 […]]]></summary>
+        <author>
+            <name>冰冰酱</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI 的 12 个大新闻之一：200美金/月的 ChatGPT Pro 套餐，包括不限量的 OpenAI o1 新模型]]></title>
+        <id>https://www.appinn.com/?p=50391</id>
+        <link href="https://www.appinn.com/openai-12-chatgpt-pro/"/>
+        <updated>2024-12-06T02:57:27.000Z</updated>
+        <summary type="html"><![CDATA[作为另外一个最会营销的公司之一，OpenAI 最近搞了一个 12 天大新闻，每天发布一条消息。 第一天：200美金/月的 ChatGPT Pro 套餐，包括不限量的 OpenAI o1 模型，o1-m]]></summary>
+        <author>
+            <name>青小蛙</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[找了30天找到的优秀动效灵感，不看亏大了]]></title>
+        <id>https://www.woshipm.com/?p=6150917</id>
+        <link href="https://www.woshipm.com/share/6150917.html"/>
+        <updated>2024-12-06T02:39:23.000Z</updated>
+        <summary type="html"><![CDATA[毋庸置疑动效现在已经成了生活中不可或缺的一部分，它给生活中带来了很多乐趣和功能性的指引作用，就连现在马路上奔驰 […]]]></summary>
+        <author>
+            <name>姝斐suphie</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[30+ 软件打折：Fences / Groupy / uPDF / PD 等无套路直降]]></title>
         <id>https://www.iplaysoft.com/?post_type=news&amp;p=6271</id>
@@ -32,6 +221,16 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[AMD 显卡驱动 AMD Radeon Adrenalin Edition 24.12.1 正式版发布！]]></title>
+        <id>http://www.dayanzai.me/?p=34242</id>
+        <link href="https://www.dayanzai.me/amd-adrenalin.html"/>
+        <updated>2024-12-05T17:31:58.000Z</updated>
+        <summary type="html"><![CDATA[AMD Radeon Adrenalin Edition 是一个软件套件，包括 AMD Radeon 显卡的驱 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[[UPDATE] mp3DirectCut v2.37]]></title>
         <id>91+1733419132</id>
         <link href="https://www.portablefreeware.com/?id=91&amp;ts=1733419132"/>
@@ -41,12 +240,82 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[免费、开源的音频处理应用程序 Equalizer APO 1.4 + x64 中文汉化版]]></title>
+        <id>http://www.dayanzai.me/?p=69641</id>
+        <link href="https://www.dayanzai.me/equalizer-apo.html"/>
+        <updated>2024-12-05T16:33:24.000Z</updated>
+        <summary type="html"><![CDATA[Equalizer APO 是一个免费、开源的音频处理应用程序，由大眼仔旭独家汉化发布，适用于 Windows […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[微软全新浏览器 Microsoft Edge 131.0.2903.86 + x64 中文商业版]]></title>
+        <id>http://www.dayanzai.me/?p=42612</id>
+        <link href="https://www.dayanzai.me/microsoft-edge.html"/>
+        <updated>2024-12-05T16:23:41.000Z</updated>
+        <summary type="html"><![CDATA[微软全新 Chromium 内核浏览器 Microsoft Edge 中文版由大眼仔旭整理发布。我们知道人们花 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[远程桌面控制工具 AnyDesk 9.0.1 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=2758</id>
+        <link href="https://www.dayanzai.me/anydesk.html"/>
+        <updated>2024-12-05T16:22:58.000Z</updated>
+        <summary type="html"><![CDATA[AnyDesk 中文版由大眼仔旭发布。AnyDesk 中文版是市场上最快的远程桌面软件。AnyDesk 允许新 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[免费桌面图标整理工具 iTop Easy Desktop 2.7.1.11 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=4379</id>
+        <link href="https://www.dayanzai.me/itop-easy-desktop.html"/>
+        <updated>2024-12-05T16:22:39.000Z</updated>
+        <summary type="html"><![CDATA[免费桌面图标整理工具 iTop Easy Desktop 中文版 卫星电视接收卡软件由大眼仔旭发布。一个干净的 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[极致蓝光影音 CyberLink PowerDVD Ultra 23.0.2319.62 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=5152</id>
+        <link href="https://www.dayanzai.me/cyberlink-powerdvd.html"/>
+        <updated>2024-12-05T16:20:18.000Z</updated>
+        <summary type="html"><![CDATA[CyberLink PowerDVD 23 中文版由大眼仔旭发布。极致蓝光影音 CyberLink Power […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[[UPDATE] PDFTK Builder Enhanced v4.1.7]]></title>
         <id>1066+1733415238</id>
         <link href="https://www.portablefreeware.com/?id=1066&amp;ts=1733415238"/>
         <updated>2024-12-05T16:13:58.000Z</updated>
         <author>
             <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[免费开源的 FTP/SFTP 软件 Cyberduck 9.1.0.42520 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=3544</id>
+        <link href="https://www.dayanzai.me/cyberduck.html"/>
+        <updated>2024-12-05T16:12:09.000Z</updated>
+        <summary type="html"><![CDATA[Cyberduck 中文版 免费开源的 FTP/SFTP 软件由大眼仔旭（www.dayanzai.me）发布 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MP3 音频编辑器 mp3DirectCut 2.37 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=5064</id>
+        <link href="https://www.dayanzai.me/mp3directcut.html"/>
+        <updated>2024-12-05T16:09:33.000Z</updated>
+        <summary type="html"><![CDATA[mp3DirectCut 是用于编码 MP3 和 AAC 的快速且广泛的音频编辑器。 无需重新编码，直接剪切、 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
         </author>
     </entry>
     <entry>
@@ -9625,763 +9894,6 @@ GUI的出现，将抽象的命令行变成了可以点击的文本选项。
         <summary type="html"><![CDATA[自 2010 年成立以来，Microsoft Rewards（原名 Bing Rewards）一直是微软的一项 […]]]></summary>
         <author>
             <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HRP（四）：成本管理系统]]></title>
-        <id>https://www.woshipm.com/?p=6137737</id>
-        <link href="https://www.woshipm.com/pd/6137737.html"/>
-        <updated>2024-11-07T11:43:07.000Z</updated>
-        <summary type="html"><![CDATA[前面聊了下HRP的全面预算管理、财务管理的内容，今天接着聊HRP系列，浅谈下医院在成本核算管理信息化的内容。 
-
-在介绍本篇医院成本管理之前，我们先简单了解下医院在成本管理相关的概念。
-什么是医院的成本？医院的成本包含哪些内容？
-医疗成本指医院在医疗过程中发生的支出，包括医疗支出、药品支出、其他支出与财政专项支出。
-其中医疗支出指医院在开展医疗业务活动中的基本工资、补助工资、其他工资、职工福利费、社会保障费、公务费、业务费、卫生材料费、修缮费、设备购置费和其他费用；药品支出指医院在药品采购、管理过程中发生的支出；其他支出指医疗、药品支出以外的支出，包括被没收的财物支出、各项罚款、赞助、捐赠支出、财产物资盘亏损失、与医院医疗业务无关的基础性科研支出、医疗赔偿支出等；财政专项支出指财政专项补助支出。
-医院的费用有哪些？怎么区分这些费用？
-医疗成本分为直接费用和间接费用。
-直接费用即医院在开展业务活动中可以直接计入医疗支出或药品支出的费用。包括医疗科室和药品部门开支的基本工资、补助工资、其他工资、职工福利费、社会保障费、公务费、业务费、卫生材料费、药品费、修缮费、购置费和其他费用；辅助科室中能明确为医疗或药品服务的科室或班组的费用支出，如一般医院的营养食堂、洗衣房等的支出，基本上是为医疗业务服务的，可直接计入医疗支出；提取修购基金应按固定资产使用部门分别计入医疗支出、药品支出。
-
-间接费用即不能直接计入医疗支出或药品支出的管理费用，包括医院行政管理部门和后勤部门发生的各项支出，以及职工教育费、咨询诉讼费、坏账准备、科研费、报刊杂志费、租赁费、无形资产摊销、利息支出、银行手续费、汇兑损益等。
-间接费用按医疗科室和药品部门的人员比例进行分摊，并按支出明细项目逐项进行分配。
-一、政策背景
-2021年2月3日，国家卫健委和国家中医药局联合发布国卫财务发〔2021〕4号文《公立医院成本核算…]]></summary>
-        <author>
-            <name>观海日记</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[快速了解产品经理]]></title>
-        <id>https://www.woshipm.com/?p=6137646</id>
-        <link href="https://www.woshipm.com/share/6137646.html"/>
-        <updated>2024-11-07T11:26:16.000Z</updated>
-        <summary type="html"><![CDATA[不少同学都希望自己能做好产品经理，但也有人连产品的指责这些基础知识都不够了解。这篇文章，我们来看看作者整理的内容。
-
-一、什么是产品管理
-产品管理是一项多面性的职能，是科技公司中不可或缺的核心力量。
-产品经理的职责是确保产品的成功，并带领跨职能团队不断优化产品，要求产品经理深入理解市场、竞争格局、客户需求和偏好，同时具备清晰的业务战略思维。
-产品经理的决策直接影响产品的战略方向、设计、功能和商业成败。
-产品经理实际上是连接各个团队的桥梁，如工程、设计、市场营销、销售和客户支持团队，确保产品从开发到发布的顺利衔接。
-推荐学习资料：What is a Product Management？
-二、产品经理与项目经理的区别
-项目管理专注于规划、执行和完成特定项目，目标明确，有具体的时间表和交付成果，确保任务按时完成并在预算范围内进行。项目管理关注的是项目的成功交付，通常涉及的是有明确起止时间的临时性工作。
-与之相对，产品管理是一项持续的过程，贯穿产品的整个生命周期，从最初的构思、开发到市场发布，再到不断的优化和改进。产品经理的职责是定义产品的愿景、战略和路线图，确保产品满足客户需求并实现商业目标。他们需要与工程、市场、销售等跨职能团队密切合作，推动产品在整个生命周期内为用户和公司持续创造价值。
-
-概括来说，项目经理关注的是特定任务的执行，而产品经理则更专注于产品的长期成功与发展。
-三、产品经理的角色与职责
-产品经理是一个连接业务、技术和用户体验的重要角色。
-职责包括理解客户需求、定义并传达产品战略、优先排序产品功能、协调工程、销售、市场等不同团队，确保产品的顺利开发和发布。同时，产品经理需要监测和分析市场趋势，推动产品在市场中的成功。
-一位优秀的产品经理，凭借对业务的敏锐洞察和技术的深刻理解，能够显著提升产品的市场接受度，并为公司带来直接的业绩增长。
-四、产品经理的核心技能
-产品经理常被视为“产品的CEO”，需要具备商业敏锐度、技术知识和战略思维的独特组合，以推动产品成功。
-产品经理的核心技能通常包括：
-战略思维：能够从全局出发制定产品方向，确保产品符合市场定位和公司目标。
-跨职能团队的协作与影响力：具备影响力和协作能力，能够有效协调不同部门（如工程、设计、市场等），推动项目顺利进行。
-技术理解：具备一定的技术知识，以便与技术团队紧密合作，确保产品设计的技术可行性。
-用户需求和市场趋势的洞察：能够敏锐地捕捉用户需求和市场变化，确保产品能够解决用户实际问题并保持竞争力。
-解决问题的能力：快速分析和应对问题的能力，保障产品开发的流畅性。
-出色的沟通能力：能够清晰传达想法，确保团队理解产品愿景和目标。
-这些技能对于管理各方利益相关者、制定战略产品愿景、做出关键业务决策和确保产品的高效执行至关重要。由于产品管理行业充满变化，持续学习和适应能力同样不可或缺。
-本文由 @Ray 原创发布于人人都是产品经理。未经作者许可，禁止转载
-题图来自Unsplash，基于CC0协议
-该文观点仅代表作者本人，人人都是产品经理平台仅提供信息存储空间服务]]></summary>
-        <author>
-            <name>Ray</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[项目中如何争取资源]]></title>
-        <id>https://www.woshipm.com/?p=6084255</id>
-        <link href="https://www.woshipm.com/share/6084255.html"/>
-        <updated>2024-11-07T11:24:26.000Z</updated>
-        <summary type="html"><![CDATA[在项目中，基本上所有的资源都是不足的：人力、时间、成本。这种时候，学会争取资源就很重要了。这篇文章，看看作者是如何争取的吧。
-
-最近对接项目工作，感觉争取不同部门资源配合，琐碎且消耗精力，用我同事的话来说就是，提出需求-配合人家各种要求-提供人家各种需要的资料-是不是的push人家催催进度-最后感谢人家把份内的活干了。
-1）项目运转中，经常会遇到公司关键资源位需要battle的情况。一般是按照以下规则分配
-项目级别，政治任务＞公司S+级＞部门S级＞团队A
-同级别的项目，按照占领时间分配，先到先得（常规项目按一定节奏发起的比较有优势，但是频率不固定的就需要提前规划争取了）
-2）还有特殊情况，不同BU但是项目级别相当、优先级都很高，这种情况如何争取呢？
-
-
-拆优先级：可以按预热期、内容释放期、爆发期、长尾期来分。不能覆盖整个项目周期的时候，可以按照重要程度确保爆发期获得资源。项目有交叉情况时可以拆出关键部分，各个项目按照不同节奏上下资源位。
-有理有据：对外争取资源的时候，我们要准备好足够支撑的逻辑（背景、必要性、目标、客情、top-down任务）。对于已经掌握的资源也要有使用标准，避免被挪用的时候没有支撑。
-利他：项目立项后尽快开启动会同步相关方，项目节奏清晰，便于资源协调，项目节奏越清晰相关方越容易判断项目排期，争取共用资源。
-及时同步：资源对接关键节点及时同步上级，经常你在下面使劲半天没有进展，上级介入拉会对齐，很通畅就推下去了。我之前感觉一个人能处理各种问题是能力强的表现，越长大越明白，高效解决问题才是关键。
-3）除了上面这些点，还有些小建议可以帮助我们更有效的争取资源。
-明确项目里程碑：上线日期、上线周期、达成目标，便于资源方根据时间进行排期
-熟悉协作流程：可以非正式先沟通下，确认下对方的协作流程，需要提供哪些物料，要上升到什么层级，整理好这些等正式聊的时候效率会高很多
-与决策者沟通：很多时候你找到干活的人，需求也说明白了，物料也提供了，但是还是无法推进，大概率因为他说的不算。正式沟通的时候尽量约上+1、+2，等上级认可后推进就会异常顺利了。
-这就是最近项目需要协调资源时遇到的一些卡点和思考，希望能对你有所帮助。祝大家的项目都非常顺利，一顺到底。
-本文由 @行谦 原创发布于人人都是产品经理，未经许可，禁止转载
-题图来自Unsplash，基于 CC0 协议]]></summary>
-        <author>
-            <name>行谦</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[垃圾清理工具——Wise Disk Cleaner 11.1.7.833 去广告版（安装版 + 解压版 + 单文件版）]]></title>
-        <id>http://bak.qiuquan.cc/?p=4235</id>
-        <link href="http://www.qiuquan.cc/systemtool/wisediskcleaner.html"/>
-        <updated>2024-11-07T10:38:39.000Z</updated>
-        <summary type="html"><![CDATA[Wise Disk Cleaner 是一个界面友好，功能强大，操作简单的系统垃圾和痕迹清理工具，通过系统瘦身释放大量系统盘空间，并提供磁盘整理工具。它能识别多达50种垃圾文件，可以让你轻松地把垃圾文件从你的计算机磁盘上清除。支持自定义文件类型清理，最大限度释放磁盘空间。通过磁盘碎片整理可以有效地提高硬盘速度，从而提高整机性能。]]></summary>
-        <author>
-            <name>泉</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] MZCacheView v2.22]]></title>
-        <id>1376+1730974439</id>
-        <link href="https://www.portablefreeware.com/?id=1376&amp;ts=1730974439"/>
-        <updated>2024-11-07T10:13:59.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] MobaXterm Home Edition v24.3]]></title>
-        <id>1952+1730974377</id>
-        <link href="https://www.portablefreeware.com/?id=1952&amp;ts=1730974377"/>
-        <updated>2024-11-07T10:12:57.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] WifiInfoView v2.95]]></title>
-        <id>2332+1730974337</id>
-        <link href="https://www.portablefreeware.com/?id=2332&amp;ts=1730974337"/>
-        <updated>2024-11-07T10:12:17.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] Quick Clipboard Editor v2.3]]></title>
-        <id>3091+1730973051</id>
-        <link href="https://www.portablefreeware.com/?id=3091&amp;ts=1730973051"/>
-        <updated>2024-11-07T09:50:51.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[猫眼浏览器 Catsxp Browser 131.4.11.1 Stable（x86 + x64）]]></title>
-        <id>http://bak.qiuquan.cc/?p=4233</id>
-        <link href="http://www.qiuquan.cc/browser/catsxp.html"/>
-        <updated>2024-11-07T08:35:17.000Z</updated>
-        <summary type="html"><![CDATA[一款以简约安全为目标Chrome内核增强版浏览器，支持基于chrome开发的所有扩展插件，内置增强的隐私保护设置让您远离被追踪和广告的烦恼。]]></summary>
-        <author>
-            <name>泉</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AppList – 开源安卓应用：列出所有已安装手机应用，并导出 .CSV 列表｜这有什么用？]]></title>
-        <id>https://www.appinn.com/?p=50035</id>
-        <link href="https://www.appinn.com/export-applist-anroid/"/>
-        <updated>2024-11-07T07:25:33.000Z</updated>
-        <summary type="html"><![CDATA[AppList 是一个非常简单的开源安卓应用，就一个功能：列出手机上所有的已安装应用，并直接导出为 .csv 列表文件，包括应用名称和版本号。@Appinn 在问题求助频道中，有同学问：https:/]]></summary>
-        <author>
-            <name>青小蛙</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[90%的产品经理都不懂业务，4000 字]]></title>
-        <id>https://www.woshipm.com/it/6137726.html</id>
-        <link href="https://www.woshipm.com/share/6137726.html"/>
-        <updated>2024-11-07T07:14:20.000Z</updated>
-        <summary type="html"><![CDATA[在产品管理的领域中，深入理解业务是每位产品经理必备的技能。然而，真正能够洞察业务精髓、从战略到执行层面全面把握业务的产品经理却并不多见。
-
-一位大厂产品经理说想内转到一条更有前途的业务线，但是被领导拒绝了。
-这位产品经理一毕业就呆在大厂，负责办公协同产品线，互联网设计经验丰富，但是对垂直业务了解不深。
-这就是他被拒绝的核心原因。
-工作这么多年，我见过了太多产品经理，但是我敢说，90%的产品经理都不懂业务。
-我知道，说出这样的话，肯定会让你不服气：
-说我不懂业务，那我怎么能梳理客户需求？又怎么能设计出让用户满意的功能呢？
-能梳理客户需求，确实是“懂业务”的第一步，但远远不是全部。
-可惜的是，90%的产品经理，都只停留在了这一步。
-01 什么是懂业务
-熟悉业务用语，能画业务流程图，这些只能算是入门。
-真正的“懂业务”，必须能够从战略层、策略层、执行层三个层次洞察业务。
-
-首先说战略层。
-所谓战略层，就是高层关注的KPI指标。
-比如，对于CRM系统来说，高层关注的肯定是更多的客户、更高的收入。
-那么，我们的系统方案，如何支撑这些目标的实现呢？
-通过数据分析，找到转化率更高的渠道？
-通过社交媒体的打通，扩宽线索的入口？
-通过新客群的拓展，打开二次增长的曲线？
-这些方案往往不是系统方案，但产品经理的真正职责并不是设计系统，而是“帮助用户解决问题”。
-再比如，在制造业采购管理中，零部件的良品率，对成品质量具有决定性作用，在很大程度上会左右制造企业“高端品牌战略”的成败。
-那么，如何提高良品率？
-通过更科学的供应商评价制度？
-通过更严格的质量管理措施？
-通过建立战略采购管理部门？
-其次说策略层。
-所谓策略层，则是业务方案的落地。
-比如，要提高销售线索的转化率，就必须提高销售人员跟进线索的积极性。
-那么，我们可以通过哪些业务策略来提高线索的跟进率，而CRM系统在其中又可以起到什么样的支撑作…]]></summary>
-        <author>
-            <name>ToB老人家</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[钉钉产品体验那些事: 三个月, 我们解决了 6000 个全球语言适配问题]]></title>
-        <id>https://www.woshipm.com/it/6137725.html</id>
-        <link href="https://www.woshipm.com/ucd/6137725.html"/>
-        <updated>2024-11-07T07:08:55.000Z</updated>
-        <summary type="html"><![CDATA[在全球化的浪潮中，企业沟通协作平台面临着跨语言、跨文化的挑战。本文深入探讨了钉钉在出海战略中如何克服全球语言适配问题，提升多语言用户的产品体验。
-
-今年 6 月，钉钉宣布出海战略——提供全球一致的沟通协作平台，帮助企业解决跨国沟通协作的问题。服务全球用户，首先要解决的是语言问题，确保来自不同国家、使用不同语言的用户，都能顺畅使用钉钉的产品和服务。
-目前，钉钉已支持 15 个国家/地区的语言。
-随之而来，原本以中文为主要语言设计的产品界面，当用户将钉钉切换成其它语言之后，会出现「省略、截断、重叠、拥挤、翻译不准确、拼写错误、表述不一致」等常见的全球语言适配问题——导致用户在使用非中文语言产品过程中，无法获取准确信息、难以快速定位关键信息，甚至可能出现操作错误、流程中断、任务无法完成等情况，严重影响用户的使用体验。
-
-
-
-一款剑指全球市场的产品，存在十分基础的全球语言适配问题，对于产品品牌来说，也是一种伤害——用户会认为钉钉不专业、不严谨、缺乏本土化的诚意，甚至感到不被尊重。
-来自一位用户的反馈：很难想象这是国际大厂的产品，钉钉是请不起英语专业的人吗？
-三个月，我们更新了 300000+ 条全球语言文案，解决了 6000+ 个全球语言适配问题。其中，对用户使用体验影响最严重的是译文「省略、截断、重叠、拥挤」问题，典型特征是译文结尾的省略符号“…”。
-
-不同语言文字「字长」的差异，是造成问题的主要原因。
-
-相较中文、日文、韩文等信息密度大的语言，使用字母书写的英语或者类英语（English-like——谷歌 Material Design 对西欧、中欧和东欧以及非洲大部分使用拉丁字母书写语言的统称），往往需要更多的文字展示空间。
-
-如何解决？
-可以采取「精简译文、预留空间、纵向折行、缩减字号、调整布局、渐进说明」等设计策略。
-
-01 精简译文
-去除冗余的表达，能够有效缩短不同语言…]]></summary>
-        <author>
-            <name>钉钉用户体验</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[策略需求文档模板V2.0，拿来即用]]></title>
-        <id>https://www.woshipm.com/it/6137715.html</id>
-        <link href="https://www.woshipm.com/share/6137715.html"/>
-        <updated>2024-11-07T06:40:34.000Z</updated>
-        <summary type="html"><![CDATA[在产品开发和管理的过程中，一份清晰、详尽的需求文档（PRD）对于确保项目顺利进行至关重要。本文将为您提供一个通用的策略需求文档模板，帮助大家高效地撰写出既专业又实用的PRD。
-
-产品需求文档(Product Requirement Document，简称PRD)是研发将产品方案进行落地的依据，也是产品经理所有思考的载体，因此一份优秀的需求文档不仅能够顺利的保证项目的研发进度，而且能够提升产品经理的个人影响力。
-每个企业，每个团队对需求文档的要求不尽相同，今天给大家分享一份相对比较通用的策略需求文档模板，主要包括文档内容结构、内容呈现颗粒度以及注意事项。 
-01 需求概述 
-和大多数PRD一样，策略PRD的第一部分也应该呈现需求概述。需求概述中一般至少包含如下内容：需求背景和需求目标。
-1. 需求背景
-通俗来讲就是讲就是这篇文档中描述的方案要需要解决什么问题，及其必要性。
-对于策略需求来讲，这块通常有以下几个切入点：
-用户痛点捕捉，大多数的策略，尤其典型的搜推策略，解决的都是流量高效分发的问题，简言之，如何做好人货匹配，所以从用户视角去进行需求点分析是必需的；
-当前业务的问题，尤其在对接业务方需求的时候，通常可以以这样的背景进行切入，而且本身检验策略有效性的核心就是业务指标收益，所以明确业务问题也是定指标的关键；
-主观评估报告的结论，相比C和B的需求来说，通过主观策略评估发现策略优化点通常都可以作为策略迭代的出发点，这是策略产品区别C和B端产品的一个非常典型的切入点。
-数据前置分析发现优化点，通过数据趋势性分析发现问题，漏斗分析，session分析发现机会点，这样能够定量的去验证策略的必要性以及收益点。
-在我们进行完初步都需求背景表述之后，需要定义当前策略需求的目标。
-2. 需求目标
-就是完成这个需求所有达成的收益，通常是以指标的方式进行定义。
-策略需求的指标通常包括CTR、…]]></summary>
-        <author>
-            <name>策略产品夏师傅</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] ocenaudio v3.14.7]]></title>
-        <id>2799+1730961557</id>
-        <link href="https://www.portablefreeware.com/?id=2799&amp;ts=1730961557"/>
-        <updated>2024-11-07T06:39:17.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[提示词（Prompt）基础篇，小白入门请从此篇开始]]></title>
-        <id>https://www.woshipm.com/it/6137683.html</id>
-        <link href="https://www.woshipm.com/share/6137683.html"/>
-        <updated>2024-11-07T06:00:50.000Z</updated>
-        <summary type="html"><![CDATA[在人工智能领域，大语言模型（LLM）的应用日益广泛，而提示词（Prompt）和提示词工程（Prompt Engineering）则是与这些模型交互的关键工具。
-
-一、提示词（Prompt）和提示词工程（Prompt Engineering）的区别
-在说明Prompt之前，我们先来分清两个概念，就是提示词（Prompt）和提示词工程（Prompt Engineering），我们在做AI大模型项目的时候，经常会混淆这两个概念，认为他们是一回事，实际上，他们在落地应用上的区别还是比较大的：
-1. 概念层面
-提示词（Prompt）：是一种注入式指令，用于“指挥”AI按照预设的思路去思考问题、输出内容。它是一种指令或信息，引导或触发AI系统做出回应。
-提示词工程（Prompt Engineering）：是一门较新的学科，关注提示词的开发和优化，帮助用户将大语言模型（LLM）用于各场景和研究领域。它不仅仅是关于设计和研发提示词，而是包含了与大语言模型交互和研发的各种技能和技术。
-2. 应用层面
-提示词（Prompt）：作为与AI系统交互的起点，触发回应、引导对话，并影响输出。
-提示词工程（Prompt Engineering）：涉及到提升大语言模型处理复杂任务场景的能力，如问答和算术推理能力。它还包括了与大语言模型交互、对接，以及理解大语言模型能力的各种技能和技术。
-3. 目的和效果
-提示词（Prompt）：目的在于通过精确的指令或问题，让AI生成更符合预期的内容。
-提示词工程（Prompt Engineering）：目的在于提高大语言模型的安全性和能力，赋能大语言模型，比如借助专业领域知识和外部工具来增强大语言模型能力。
-4. 范围和深度
-提示词（Prompt）：通常是一个简单的指令或问题，范围相对有限。
-
-提示词工程（Prompt Engineering）：是一个更广泛的概念，包括…]]></summary>
-        <author>
-            <name>爱吃糖炒栗子</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[工业软件产品分析——模型结构树]]></title>
-        <id>https://www.woshipm.com/?p=6137470</id>
-        <link href="https://www.woshipm.com/pd/6137470.html"/>
-        <updated>2024-11-07T05:59:18.000Z</updated>
-        <summary type="html"><![CDATA[在工业设计领域，软件工具的每一次创新都可能引发工作流程的革命。本文通过对比分析Solidworks、Creo、Fusion360三款主流CAD软件的模型树设计，深入探讨了工业软件中的核心功能之一——模型结构树的设计和演变。
-
-上一篇，笔者介绍了工业软件中的三维模型浏览功能。本篇，笔者将分析工业软件中另一个重要基础共性功能——模型结构树（以下简称模型树，也有软件叫设计树、导航器、选择树、特征树、大纲等等，功能都类似）
-模型树出现在几乎每一个工业软件中，无论CAD、CAE、BIM还是其它林林总总的工业软件，都在以这种清晰的树状结构来组织和管理数据并记录操作过程。
-本文以三款常用的CAD软件（Solidworks、Creo、Fusion360）为例，从他们的模型树设计及演化中，分析工业软件中的模型树的常见设计方式。
-
-一、模型树的基本组成及作用
-CAD软件中，有两种建模方式，一种叫参数化建模，另一种叫直接建模。
-参数化建模：在参数化建模中，设计师使用参数来定义和控制设计模型的形状、尺寸和特征。设计中的各个几何元素和特征都与参数相关联，改变参数的值可以直接影响整个模型的几何形状。这使得设计师能够快速灵活地修改和调整设计，实现快速的设计迭代。
-直接建模：在直接建模中，设计师可以直接编辑和调整几何体的形状，而不需要依赖于参数和特征。直接建模更加自由和直观，适用于快速创建简单的几何形状或进行快速的修正和调整。
-两种建模方法一般都会用到模型树，不过在参数化建模中，由于需要记录特征创建历史，模型树发挥了更大的效用。
-
-1985年，来自苏联的émigré 和列宁格勒大学的前教授Samuel Geisberg在美国创建了参数技术公司(PTC)，以开发革命性的MCAD(机械计算机辅助设计软件)市场的Pro/Engineer系统。Samuel Geisberg在Pro/Engineer中使用的参数特…]]></summary>
-        <author>
-            <name>石寒</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[基于LLM构建应用程序：9大注意事项]]></title>
-        <id>https://www.woshipm.com/it/6137676.html</id>
-        <link href="https://www.woshipm.com/share/6137676.html"/>
-        <updated>2024-11-07T05:54:12.000Z</updated>
-        <summary type="html"><![CDATA[随着大语言模型（LLM）技术的快速发展，越来越多的企业开始探索将其集成到产品和服务中，以提升用户体验和业务效率。对于产品经理而言，理解LLM的潜力和挑战，以及如何有效地将其应用于产品开发，变得至关重要。本文提供了一个全面的指南，涵盖了从明确应用场景到持续维护和迭代的各个关键步骤，帮助产品经理在构建基于LLM的应用程序时做出明智的决策。
-
-越来越多的企业开始将LLM（大语言模型）应用于各种产品和服务中，从智能客服到内容生成，再到个性化推荐系统等等。
-作为产品经理，了解并掌握基于LLM构建应用程序的关键注意事项，将有助于您在产品设计和开发过程中做出更明智的决策。
-本文将向你介绍在构建基于LLM的应用程序时，产品经理需要关注的几个核心要点。一、明确应用场景与需求
-在决定将LLM引入产品之前，首先需要明确应用场景和具体需求。LLM擅长处理自然语言理解和生成任务，但并非所有场景都适合其应用。产品经理应回答以下问题：
-应用场景是否需要自然语言处理？例如，智能客服、内容创作、语言翻译等。
-LLM能否显著提升用户体验或业务效率？确保引入LLM的价值明显，避免技术滥用。
-是否存在更合适的技术替代方案？比如规则引擎、传统机器学习模型等。
-通过明确需求，可以有效评估LLM在特定应用中的可行性和必要性。二、选择合适的LLM平台与供应商
-LLM的发展迅速，市场上涌现了诸多供应商和平台，如OpenAI、kimi、通义大模型、文心一言、DeepSeek等等。产品经理在选择LLM平台时，应考虑以下因素：
-模型性能与能力：不同模型在理解和生成文本的能力上有所差异，需根据应用需求选择最合适的模型。
-定制化与灵活性：是否支持微调和定制，以满足特定业务需求。
-成本与预算：评估使用LLM的成本，包括API调用费用、计算资源消耗等，确保在预算范围内。
-供应商支持与服务：包括技术支持、文档资料、社区活跃度等，以确保在开…]]></summary>
-        <author>
-            <name>长弓PM</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[浅谈如何设计给高层决策者的数据看板]]></title>
-        <id>https://www.woshipm.com/it/6137674.html</id>
-        <link href="https://www.woshipm.com/pd/6137674.html"/>
-        <updated>2024-11-07T05:51:54.000Z</updated>
-        <summary type="html"><![CDATA[在商业智能和数据分析的世界里，为高层决策者设计的数据看板是一项至关重要的任务。这不仅仅是关于数据的展示，更是关于如何通过数据驱动决策和行动。文章详细探讨了如何通过了解用户需求、业务背景和提炼关键指标，来设计一个既直观又功能强大的数据看板，帮助高层决策者快速把握业务现状，做出明智的决策。
-
-前言
-B端产品除了提供支持业务运转的功能外，往往还需要提供描述业务和系统价值的“数据功能”。
-对于基础的一线使用者和一线管理者，往往只需要提供基础的数据表单、数据看板功能，以满足他们“汇总个人价值/业务价值/系统价值”的需求。
-然而对于整个团队的高层决策者而言，他们并不需要详细描述业务情况的数据报表，他们需要在他们有限的时间内，快速掌握业务现状，然后得出结论并付诸行动。
-这类数据报表往往又有一个称呼——数据大屏。数据大屏往往具有信息量大、多数据源整合、实时性、直观易懂等特点，以满足辅助“高层决策者快速感知、决策、行动”的需求。
-
-最近刚好有一项业务需要设计面向高层决策者的看板，因此特地回溯下之前的一些经验和思考，总结一二。
-一、前置调研：了解用户与业务
-个人理解的数据大屏核心解决的是“信息传递”的问题，也就是如何把业务的情况传递给高层决策者，这里需要我们从繁琐的信息中拆解出“有用的信息”，然后选择合适的方式传递给高层决策者。
-那怎么选择有用的信息呢？首先我们先了解用户与业务，从中提炼需要呈现的“信息”。
-了解你的用户
-无论做什么需求，首先第一步需要了解你的用户。就算他是你的领导，在这个功能上也是你的用户。
-B端的产品相比起C端产品来说，更容易接触到你的用户，因此可以直接与用户发起“一对一”的访谈交流，通过交流的过程中挖掘到用户的需求和使用习惯。
-但是高层决策者往往是比我们高级的存在，甚至是我们的直系领导，一般情况下很难接触到，也不会配合我们。有的同学可能运气比较好，会遇到愿意交流和沟通的上…]]></summary>
-        <author>
-            <name>柠檬饼干净又卫生</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[内容安全人工审核（二）：痛点问题的解决方案]]></title>
-        <id>https://www.woshipm.com/?p=6132294</id>
-        <link href="https://www.woshipm.com/share/6132294.html"/>
-        <updated>2024-11-07T05:49:34.000Z</updated>
-        <summary type="html"><![CDATA[在数字化时代，内容安全已成为各大平台的重中之重。面对海量信息的挑战，人工审核作为保障内容安全的关键环节，却常常遭遇效率低下、标准不一等问题。本文深入探讨了内容安全人工审核中的痛点问题，并提出了一系列解决方案，旨在通过流程优化、技术赋能和人员培训，提升审核效率和准确性。
-
-一、破解审核难题，走向系统化解决之道
-在上一篇中，我们深入探讨了人工审核所面临的核心痛点及其成因，包括审核员的背景差异、审核标准的模糊性以及技术支持的欠缺，这些因素在不同程度上对审核质量产生了影响。要真正构建高效、一致的内容审核体系，必须针对流程优化、技术赋能和审核员培训提出科学的解决方案。本篇将从这三个方面出发，为平台提供实际可行的解决方案，以有效化解审核难题，并推动内容安全审核的进一步升级与发展。
-1. 标准化审核流程
-细化审核标准，减少主观差异
-操作措施：制定详尽且具体的审核标准，将典型案例和实际场景融入审核指导中，特别是在主观性较强的内容方面，必须明确并细化判断标准。例如，在审核低质或敏感内容时，增加具体的审核情景案例，同时指出判定的特征要素，以便审核员参照执行。
-预期效果：通过标准的细化和操作指导，减少审核员在操作中的主观判断空间，有效提升审核一致性。标准化的操作将帮助审核员在复杂情境下有更清晰的参照，从而减少因个人差异引发的审核结果不一致。
-
-建立双重审核和复审机制
-操作措施：针对争议较大的内容或高敏感度内容，引入双重甚至多重审核机制。在内容通过初审后，由第二位审核员进行复核，在必要时设置交叉互审，对重大内容设置资深审核员负责的最终复核环节，以提高重要内容的审核精度。
-预期效果：双重审核机制能够有效提高审核的准确性，为平台提供一层质量保障。该机制减少了审核员之间的判断差异，并且在重要内容的审核中增加了一层安全防护，确保审核决策更加精准。
-2. 技术支持的强化
-优化后台系统设计，提高操作效率
-操作…]]></summary>
-        <author>
-            <name>Isaac Theo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[如何将AI应用到物联网行业中？]]></title>
-        <id>https://www.woshipm.com/it/6137667.html</id>
-        <link href="https://www.woshipm.com/share/6137667.html"/>
-        <updated>2024-11-07T05:44:33.000Z</updated>
-        <summary type="html"><![CDATA[物联网（IoT）和人工智能（AI）的结合正在成为推动各行各业智能化转型的关键力量。这种技术的融合不仅极大地提高了运营效率，还带来了创新的解决方案。文章深入探讨了AI在物联网中的应用方式、具体场景以及面临的技术挑战和解决方案，为我们揭示了AI如何助力物联网行业实现更智能、更高效的未来。
-
- 2024年11月05日 08:00 北京
-物联网（IoT）和人工智能（AI）的结合正在推动各个行业的智能化转型，这种融合不仅提高了效率，还带来了前所未有的创新。
-以下是关于如何将AI应用到物联网行业中的详细观点和案例。
-一、AI在物联网中的应用方式
-1、边缘智能
-边缘智能通过在物联网设备端集成AI算法，使设备能够实现实时数据处理和智能响应。
-这种方式显著减少了数据传输的延迟，提高了系统的可靠性。
-例如，智能摄像头可以在本地分析视频内容，检测异常行为并及时报警，而不需要将视频数据全部上传到云端进行分析。
-这种方式不仅提高了响应速度，还减轻了云端的处理负担。
-案例：智能安防摄像头
-通过AI算法，摄像头可以实时分析视频内容，识别入侵者、异常行为等，并触发报警系统。
-这种应用在智能家居、企业安防等领域有着广泛的应用前景。
-2、云端智能
-在更复杂的应用场景中，AI与物联网结合的处理能力主要依赖于云端。
-物联网设备将收集的数据上传至云平台，通过强大的云计算能力进行深度学习和大规模数据分析。
-之后，系统可以将分析结果发送回设备，实现智能化控制。
-案例：智能制造
-在智能制造中，云端AI能够根据设备运行数据优化生产流程，预防设备故障，提升整体生产效率。
-例如，通过AI分析生产线上各个传感器的数据，可以预测设备的维护需求，从而避免非计划停机，提高生产效率。
-二、AI在物联网中的具体应用场景
-1、智慧城市
-AI和物联网的结合为智慧城市建设提供了强大助力。
-通过物联网设备收集城市各项基础设施的数据，AI能够帮助优…]]></summary>
-        <author>
-            <name>伍德安思壮</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[“8个瑞士卷怎么分”成网络热梗，盒马鲜生才是最终赢家？]]></title>
-        <id>https://www.woshipm.com/it/6137638.html</id>
-        <link href="https://www.woshipm.com/share/6137638.html"/>
-        <updated>2024-11-07T05:34:10.000Z</updated>
-        <summary type="html"><![CDATA[在互联网的汪洋大海中，一个小小的瑞士卷意外成为了全民热议的焦点。一段关于家庭中如何分配瑞士卷的视频，不仅引发了关于性别角色和家庭权力的讨论，还意外地带火了盒马鲜生这一品牌。这篇文章将带你一探究竟，瑞士卷如何从家庭琐事演变成网络热梗，以及盒马鲜生如何巧妙地利用这一现象，成为背后的赢家。
-
-互联网上究竟什么内容会火是一道玄学难题，谁都不知道明明很普通的内容，怎么突然就火爆全网？
-10月28日，一位宝妈分享其因为吃掉两个瑞士卷与老公争吵的内容而火爆全网，“8个瑞士卷怎么分”成为网络热梗，甚至有网友表示，瑞士卷怎么分成为一道老公的“高考题”，各种各样的“考验老公”短视频被多次二创和传播出来。
-
-原视频对话：
-女：哎，你就说了，我怎么就不能吃了？
-男：我不是说你不能吃，我只想说，你作为父母，你吃饭时候多吃点，对孩子吃饭也有一定的好的影响，这是零食，不是饭，你知道吧？那你吃了，这零食，那孩子没得吃了呀。
-女：第一，这是零食，我吃饱饭依然可以吃；第二，你让我听你话，在家做全职妈妈，你连这点蛋糕你都供不起了吗？
-男：哎，你看你看，你想多了吧？我的意思不是这个，我的意思是，作为父母，大家不都这样吗？把好的省给孩子吃，有错吗？
-女：我已经为孩子做的够多的了，我没有那么伟大。
-后女宝妈狠狠地吃了几口瑞士卷，视频结束。
-网络该视频的前序是：一盒8个瑞士卷，儿子吃掉两个，女儿吃掉两个，丈夫吃掉两个，轮到女子吃掉两个瑞士卷时被丈夫“爹味”教育，于是，女子发了短视频，并提到，“原来我已经卑微到，连自主吃一个小蛋糕的权利都没有了”。视频变火以后，该女子承认视频是真实内容，但却删除了原视频。
-《中国网络视听发展研究报告（2024）》的统计：截至2023年底，全网短视频账号总数有15.5亿个，主要短视频平台日均短视频更新量近8000万。每天有如此之多的短视频内容更新，为什么偏偏是这条看着完全不起眼的“瑞士卷”…]]></summary>
-        <author>
-            <name>郭静</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CleanShot X – 专业 Mac 截图、录屏神器，双11限时 8 折优惠中]]></title>
-        <id>https://www.appinn.com/?p=37261</id>
-        <link href="https://www.appinn.com/cleanshot-x-for-macos/"/>
-        <updated>2024-11-07T04:00:44.000Z</updated>
-        <summary type="html"><![CDATA[CleanShot X 是一款 macOS 下非常专业的截图、录屏工具 ，功能强大，还内置了强大的图片编辑器，让你能轻松、快速地添加标注、形状、文本，以及将多个截图进行合并。@Appinn 双11 8]]></summary>
-        <author>
-            <name>青小蛙</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[电商商城系统开发工作说明书 SOW]]></title>
-        <id>https://www.woshipm.com/?p=6137405</id>
-        <link href="https://www.woshipm.com/pd/6137405.html"/>
-        <updated>2024-11-07T03:36:14.000Z</updated>
-        <summary type="html"><![CDATA[工作说明书（Statement of Work, SOW）是一份详细阐述项目或服务范围、目标、时间表、预算、团队角色与职责、验收标准以及风险管理计划的文档。它是项目管理中的重要组成部分，用于明确项目发起方与执行团队之间的期望和责任，确保双方对项目有共同的理解和期望。
-
-一、项目名称
-2C商城系统开发
-二、项目背景
-随着电子商务的快速发展，为了满足广大消费者对线上购物便捷性、个性化及安全性的需求，本项目旨在开发一套面向消费者（2C）的商城系统。该系统将集成商品展示、购物车管理、在线支付、订单处理、用户账户管理、客户服务、物流跟踪及促销活动等核心功能，旨在提供优质的购物体验，增强用户粘性，并促进业务增长。
-三、项目目标
-构建用户友好的前端界面：设计并实现响应式网页和移动应用界面，确保在不同设备上都能提供良好的用户体验。
-商品管理与展示：实现商品分类浏览、搜索、详情展示、评价查看等功能，支持商品图片、视频、规格参数等多维度展示。
-购物车与结算系统：开发购物车管理功能，包括添加、删除、修改商品数量，以及支持多种支付方式（如信用卡、支付宝、微信支付等）的在线结算流程。
-订单管理系统：实现订单生成、状态跟踪（如待支付、已支付、发货中、已完成等）、取消订单、退款申请等功能。
-用户账户体系：建立用户注册、登录、个人信息管理、收货地址管理、积分/优惠券管理等账户功能。
-客户服务与帮助中心：提供在线客服聊天、FAQ、售后申请、投诉建议等客户服务渠道。
-物流跟踪：集成第三方物流服务API，实现订单物流信息实时查询。
-营销与促销活动：支持限时折扣、满减、优惠券、积分兑换等多种促销手段，提升用户购买意愿。
-数据安全与隐私保护：确保用户数据的安全存储与传输，遵守相关法律法规，保护用户隐私。
-
-四、项目范围
-需求分析与设计：包括市场调研、竞品分析、用户画像构建、功能需求文档编写、UI/UX设计。
-系统开…]]></summary>
-        <author>
-            <name>Axurebi符号</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[如何高效管理B端产品需求？试试这3个方法！]]></title>
-        <id>https://www.woshipm.com/?p=6137316</id>
-        <link href="https://www.woshipm.com/class/6137316.html"/>
-        <updated>2024-11-07T00:02:59.000Z</updated>
-        <summary type="html"><![CDATA[需求管理能力是企业的核心竞争力之一，也是产品经理必备的核心技能之一。​但没有掌握一定的技巧，不少做B端产品几年的老司机依旧难以解决日常B端需求管理难题。
-
-
-正在做B端产品的同学，对这些需求管理问题一定不陌生：
-接手新项目，但平台业务复杂而又年长，历史逻辑梳理不清，需求管理做到哪个程度才能避免产品开发踩雷？
-1-n阶段，产品相对成熟时，产品如何挖掘新的需求，提升产品竞争力，让客户买单？
-做项目/定制化业务，被动接需求，需求管理工作需要应对各种复杂场景，如果没有主动规划和准确的判断力，容易造成需求堆积，挖需不到位，产品上线后用户满意度低。
-由此，B端产品经理们常常会觉得发现自身的需求管理能力远远不能支撑业务需要，缺乏一定的需求掌控力，为啥？
-首先，B端产品的需求来源和场景复杂，很难像C端产品那样基于模型从单一维度去覆盖需求洞察的工作。这使得B端产品的需求管理工作开展十分困难。
-其次，客户/老板等业务方提出的需求/方案，不一定是真的痛点需求。被动接需求，难以挖掘真实业务痛点场景，找到“真”需求。
-最后，B端多业务方，需求来源复杂，各个需求方都会强调自己的需求优先级最高。需求优先级的判断需要B端产品经理从顶层视角，结合公司产品战略、业务重心、核心 KPI 等进行判断，做到透明公开。
-由此，掌握一套正确的挖需+需求优先级评估标准方法提升工作效率就尤为重要。
-为了帮助B端产品经理更好高效的解决B端需求管理难题，人人都是产品经理社区&起点课堂特别邀请了前阿里产品专家@Martin老师开展一场【B端需求管理】主题直播课。现场拆解3个案例，教你做好B端需求管理。
-福利直播公开课
-限时免费
-仅限前100名
-添加顾问老师 获取免费听课权限
-↓↓↓
-
-一、课程将由哪位B端产品老司机主讲？
-@Martin老师
-前阿里产品专家，15年互联网产品经验
-曾先后就职于阿里1号店等知名电商平台。曾负责涉及超过3亿商品+8万卖家店铺的企业级战略项目管理、海外俄罗斯Tmall平台建设、海外自营业务供应链基础产品搭建等核心产品建设。
-参与实现过电商多种商业模式的产品落地，对于电商领域商品、营销、订单交易、供应链等业务逻辑及产品设计颇为熟悉
-
-二、在这门课中，你将会学到什么？
-1、新接手成熟项目，如何快速上手推进新需求挖掘？
-当我们接手一个成熟项目时，往往会需要面对庞大的系统、海量的文档、杂乱的需求，这时候要如何理清系统逻辑?
-在这部分，老师将结合具体案例拆解，面对杂乱需求如何有效理清系统逻辑。
-
-2、面对成熟行业，如何保持挖掘新需求，保持迭代？
-面对成熟的业务系统，业务场景已相对稳定，该如何挖掘新的需求保持迭代?
-这个部分老师将会结合真实案例，从行业理解广度到深度、需求挖掘被动到主动等方面，带大家梳理成熟行业产品迭代机会点；以及如何对业务场景稳定的传统行业实现数字赋能。
-
-3、面对多个业务方，如何应对杂乱的需求来源做好需求管理？
-B端业务复杂，置身于复杂的业务项目，面对杂乱的需求来源，如何判断优先级?要如何让各方满意？
-第三部分，老师将通过一个公交车模型、四象限法则告诉你，如何制定统一的需求管理，从而合理判断优先级。
-
-3、B端产品经理如何提高对于业务和产品需求的掌控力？
-需求管理能力不足，更多的是底层综合能力不足，在这部分，老师将会为我们介绍B端产品经理能力模型，并告诉我们如何高效提升，更快更高效的成为一个合格优秀的B端产品经理。
-
-三、课程配有哪些服务？
-（1）专属学习社群
-对于此次公开课，我们还会设置专属的学习交流社群，在这里你会结识各行各业优秀的B端产品经理，在群内进行提问或是是参与话题的讨论，跟大家一起学习，共同进步。
-（2）直播互动答疑
-本次的课程讲解结束后，还将会留出10分钟的与老师1v1线上连麦，任何B端产品/业务难题，职业发展问题，现场高效解答你自己搞不定的个性化难题~仅有3个名额哦~提前准备好问题，越具体越容易得到针对性的建议哦！
-
-四、什么样的人适合学习？
-想往B端产品方向发展的同学，但不清楚B端产品工作难点，想提前了解B端产品的相关信息。那么不要犹豫，这个课程就是为你量身定制的，它非常适合你！
-野路子出身的B端产品同学，不清楚规范的B端产品方法，想学习大厂B端产品工作方法，也非常欢迎，因为一套规范的B端产品工作方法，对你们后续工作的高效推进，也能给到更多的帮助！
-以上，就是这样一门包含B端产品经理入门提升干货内容+专属社群服务的公开课，限时免费！
-它一定不能解决你的所有问题。但是，它会是你的B端产品职业发展和能力提升的开始，帮助你了解B端产品核心工作难点，梳理清常见解决思路，让你对B端产品的工作更得心应手。
-本期公开课将于周四晚8点开课，现在名额已经剩余不多，赶快扫描下方图片中的二维码，免费报名！
-限时免费
-仅限前100名
-添加顾问老师激活免费听课权限
-▼▼▼]]></summary>
-        <author>
-            <name>起点课堂</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] Info-Base v13.3]]></title>
-        <id>2521+1730921493</id>
-        <link href="https://www.portablefreeware.com/?id=2521&amp;ts=1730921493"/>
-        <updated>2024-11-06T19:31:33.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] BowPad v2.9.2]]></title>
-        <id>2683+1730921379</id>
-        <link href="https://www.portablefreeware.com/?id=2683&amp;ts=1730921379"/>
-        <updated>2024-11-06T19:29:39.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] Pale Moon Portable v33.4.1]]></title>
-        <id>1978+1730921325</id>
-        <link href="https://www.portablefreeware.com/?id=1978&amp;ts=1730921325"/>
-        <updated>2024-11-06T19:28:45.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[微信电脑版下载 - 官方 Win / Mac / Linux 桌面客户端 (支持小程序/朋友圈)]]></title>
-        <id>https://www.iplaysoft.com/?p=1891</id>
-        <link href="https://www.iplaysoft.com/weixin.html"/>
-        <updated>2024-11-06T16:50:51.000Z</updated>
-        <summary type="html"><![CDATA[自从微信火起来后，很多用户都非常渴望它能有类似 QQ 的电脑桌面版客户端，方便使用电脑键盘替代手机快速输入聊天。如今腾讯终于推出了微信电脑版了！
-在腾讯推出了 微信 for Mac 版一段时间后，终于也推出官方的 微信 Windows 版 以及 Linux 版客户端了！而且如今电脑版微信功能界面已经全面统一，能支持打开小程序、刷朋友圈等功能了。有了电脑版微信，当你工作时，终于可以更加高效地与多人同时沟通了……
-「 前往查看原文.... 」
-异次元还有这些值得一看：
-
-QQ Linux 3.0 全新重构版本 - 腾讯发布新一代 NT 架构 Linux 版 QQ (与 Mac 版相同)
-微信重磅新功能 - 手机电脑文件传输助手免安装网页版  / 电脑端免扫码自动登录
-腾讯“微小号”办理 - 免 SIM 卡虚拟手机号 (类似阿里小号 / 一机多号 / 保护隐私)
-腾讯 TIM 下载 - 清爽去广告的官方 QQ 办公版，支持团队协作编辑文档
-
-异次元首页  |  微信公众号  |  关注微博  |  软件精选  |  软件激活码折扣]]></summary>
-        <author>
-            <name>X-Force</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[轻量级开源媒体播放器 MPC-BE 1.8.1 + x64 中文多语免费版]]></title>
-        <id>http://www.dayanzai.me/?p=9727</id>
-        <link href="https://www.dayanzai.me/mpc-be.html"/>
-        <updated>2024-11-06T16:35:52.000Z</updated>
-        <summary type="html"><![CDATA[MPC-BE 中文版由大眼仔旭发布。MPC-BE 是一款用来播放 windows 系统里视频的万能视频播放器。 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[文档减肥工具 NXPowerLite Desktop 10.3.1 x64 中文多语免费版]]></title>
-        <id>http://www.dayanzai.me/?p=394</id>
-        <link href="https://www.dayanzai.me/nxpowerlite.html"/>
-        <updated>2024-11-06T16:30:18.000Z</updated>
-        <summary type="html"><![CDATA[NXPowerLite Desktop 中文版由大眼仔旭（www.dayanzai.me）发布。今天小编（ww […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Opera 浏览器 Opera 114.0 Build 5282.154 + x64 中文多语免费版]]></title>
-        <id>http://www.dayanzai.me/?p=43344</id>
-        <link href="https://www.dayanzai.me/opera.html"/>
-        <updated>2024-11-06T16:29:09.000Z</updated>
-        <summary type="html"><![CDATA[Opera 浏览器 Opera 中文版由大眼仔旭整理发布。Opera 是一种免费的开源 Web 浏览器和网络软 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RackNerd 性价比 VPS 服务器黑五促销开启！续费同价！]]></title>
-        <id>https://www.iplaysoft.com/?post_type=xpost&amp;p=6256</id>
-        <link href="https://www.iplaysoft.com/p/racknerd"/>
-        <updated>2024-11-06T16:05:24.000Z</updated>
-        <summary type="html"><![CDATA[很多人都需要用到「国外的 VPS 主机」，省钱省事，用来学习 Linux、编程开发、跑外贸网站、博客，或者用 Docker 自建网盘或各种各样的私有网络服务都非常实用。
-
-最近除了早前的板佤工高端 CN2 GIA 线路、HostDare 等 VPS 服务器主机补货之外，不断被网友推荐的性价比主机品牌 RackNerd 终于也推出了最新的…… 
-「 前往查看原文.... 」
-
-异次元首页  |  微信公众号  |  关注微博  |  软件精选  |  软件激活码折扣]]></summary>
-        <author>
-            <name>X-Force</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[人工智能边界：未来50年AI无法取代的8大职业！]]></title>
-        <id>https://www.woshipm.com/it/6137388.html</id>
-        <link href="https://www.woshipm.com/share/6137388.html"/>
-        <updated>2024-11-06T15:45:58.000Z</updated>
-        <summary type="html"><![CDATA[探索人工智能的边界：在AI技术飞速发展的今天，它正在如何重塑我们的工作和职业格局？本文深入探讨了未来50年内，AI难以取代的8大职业，揭示了人类在情感、道德、创造力和决策方面的独特价值。
-
-AI的迅猛发展，正在重塑着我们的工作方向和职业格局！
-
-今年上半年盖洛普的一项调查显示：22%的受访者担心技术会取代他们的工作，而72%的财务500强首席人力资源官预计人工智能将在未来3年内取代更多工作。
-但仍有一些职业因其独特的人类特性，而难以被AI完全取代，今天我们就探讨一下人工智能的边界！
-1医疗专业人员
-俗话说，90%的疾病跟情绪有关，医疗所面对的不仅仅是生理健康，心理健康也很重要。
-而AI在医疗领域中存在的局限性，特别是在情感交流、伦理责任、个性化治疗和心理支持等方面，AI无法完全取代医疗专业人员的重要作用。
-一、AI无法取代该岗位的原因：
-同理心与情感交流：医疗专业人员在与患者的互动中展现出的同理心和情感支持是AI难以复制的。同理心是医学专业精神的核心元素，能促进医患关系，增强患者对医生的信任。
-非线性工作方法：医生的工作方法是非线性的，需要创造力和解决问题的能力，这包括根据患者的具体情况进行个性化的诊断和治疗。AI虽然能够处理大量数据，但在处理复杂多变的医疗情况时，缺乏人类的直觉和灵活性。
-专业技能与经验：医疗专业人员通过多年的学习和实践积累了丰富的专业技能和经验，能够独立解决复杂或重大的技术问题，并指导下级医师。
-伦理道德与法律责任：医疗专业人员在执业过程中遵守医学伦理道德，尊重患者的知情同意权和隐私权，这些是AI难以完全理解和执行的。医生的决策不仅涉及技术层面，还包括对患者权益的保护和法律责任的承担。
-二、AI能助力这个行业哪些方面？
-辅助诊断与决策支持：
-AI技术可以通过分析医学影像、实验室结果和电子健康记录等数据，辅助医生进行诊断。例如，在乳腺癌筛查中，AI的准确率…]]></summary>
-        <author>
-            <name>晓庄同学</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[经验｜我做的项目太琐碎，如何成长和沉淀？]]></title>
-        <id>https://www.woshipm.com/it/6137386.html</id>
-        <link href="https://www.woshipm.com/share/6137386.html"/>
-        <updated>2024-11-06T15:39:32.000Z</updated>
-        <summary type="html"><![CDATA[探索数字化转型的实战策略：在这篇文章中，我们将深入分析中小企业在数字化转型过程中面临的挑战与机遇。文章通过实际案例，揭示了企业如何借鉴行业巨头的成功经验，以及如何通过创新服务来提升竞争力
-
-作为 B 端的初级或中级设计师，不论你在大、小厂工作，可能都会遇到一个问题：
-
-🤔 接到的项目或者项目需求比较零碎、杂乱，不成体系，比如只是改几个 Button 的位置，或是加一两张页面，这种情况下设计师应该怎么做可以让工作内容体系化、并且找到工作重点呢？如何能够锻炼自己的能力，不断成长呢？
-一、能力成长三步走‍  
-1、确定你的发展目标。‍‍‍‍‍‍
-你要先确定自己未来的职业规划和发展目标。有了目标，你才知道要努力的方向是什么、才知道自己有哪些能力需要被提升。
-那么如何确定自己的职业发展目标呢？可以根据以下几点：
-‒ 自己未来三到五年的职业规划；
-‒ 对于自己上一级的同事、前辈、领导的能力的了解和认知，也可以翻阅你所在公司的职级体系；‒ 相较于成熟的大厂，与你相同层级的大厂岗位的能力要求是什么；*识别二维码看看大厂的职级体系能力标准：
-‒ 你对于自己能力的长、短板的认知，哪些是长板，需要不断精进；哪些欠缺，需要尽快补齐。
-先找到自己要发展的方向和需补全的能力，然后再根据实际情况来制定相应的成长计划，采取有针对性的行动。
-2、理清你的设计思路。‍
-产品给的需求零碎，不代表你的设计思路也可以零碎。作为设计师，你对于每一个产品需求都需要使用标准的设计思维，只不过在工作流程上，可以因时间周期而进行相应的取舍。
-即便是留给你做需求的时间不够充足，你也可以先完成需求产出，之后利用自己的空闲时间反复打磨设计方案。
-我见过很多同学，觉得自己在工作中的设计需求毫无意义，于是选择利用课余时间报设计培训班来提升能力，其实这是一种舍近求远的方法。日常接需求的过程就是你自我提升最好方式。
-3、总结需求里的共性。‍
-即便是在大厂，我接到的项目需求也很杂，经常也会出现有一些零碎的小需求的现象。通常来说，如果这些小需求不属于今年业务主要的发展方向，我们一般不需要投入太多的精力，可以不做总结和沉淀；但如果这些小的需求或迭代属于今年工作目标里的主要业务内容，那就最好能够找到需求中的共性，总结出类似需求的通用设计经验，包括且不限于：
-‒这些需求是否存在类似的设计解决方案和设计流程；
-‒哪一类项目需求只需要开发提供方案，哪一类需求需要设计师参与，参与程度如何；
- ‒这些需求的设计产出物的标准分别有哪些等等。
- 你可能认为设计经验沉淀就只是设计方法论或设计工具的积累和整理，但其实我们的设计工作流程以及与上下游协作的方式，都可以被沉淀和整理，以此来为团队的设计工作降本提效。
-本文由人人都是产品经理作者【元尧】，微信公众号：【长弓小子】，原创/授权 发布于人人都是产品经理，未经许可，禁止转载。
-题图来自Unsplash，基于 CC0 协议。]]></summary>
-        <author>
-            <name>元尧</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[产品设计方案：AI心语——基于大模型技术的心理咨询平台]]></title>
-        <id>https://www.woshipm.com/it/6137358.html</id>
-        <link href="https://www.woshipm.com/share/6137358.html"/>
-        <updated>2024-11-06T13:44:44.000Z</updated>
-        <summary type="html"><![CDATA[在快节奏的现代生活中，心理健康问题逐渐成为我们不可忽视的挑战。面对专业心理咨询资源的稀缺和种种限制，我们迫切需要一种新的解决方案。。AI心语将如何帮助我们管理情绪、缓解压力，并提升整体心理健康？
-
-一、产品背景与目标
-在现代社会，心理健康问题日益突出，但专业心理咨询资源有限，且受到时间、地点等限制。AI心语旨在利用先进的大模型技术，打造一个便捷、私密、高效的心理健康服务平台，为用户提供全天候、个性化的心理咨询服务，解决情绪管理、压力缓解、抑郁焦虑、人际关系等多方面的心理健康问题。
-
-二、核心技术
-大模型自然语言处理：采用GPT或类似技术，实现深度对话理解，精准捕捉用户情感与需求。
-
-情感分析算法：通过机器学习分析用户语言中的情感色彩，动态调整交流策略，提供共情支持。
-个性化推荐系统：基于用户历史数据和偏好，智能推荐心理咨询方案、冥想音频、心理测试等资源。
-数据安全与隐私保护：采用高级加密技术，确保用户数据的安全，严格遵守隐私保护法规。
-
-三、产品功能设计
-智能对话咨询
-用户可通过文字、语音或视频与AI心理咨询师进行互动。
-AI能识别用户情绪状态，提供即时反馈和建议。
-内置多种情境对话模式，如压力释放、情绪调节、睡眠指导等，满足不同场景需求。
-个性化心理健康计划
-根据用户初始评估（如心理问卷）和日常互动数据，生成个性化心理健康改善计划。
-计划包含目标设定、日常任务（如正念练习、认知行为疗法练习）、进度追踪等。
-
-情绪日记与数据分析
-用户可记录每日心情、想法及遭遇的挑战，AI自动分析情绪变化趋势。
-提供周期性报告和建议，帮助用户更好地管理情绪。
-支持情绪标签功能，简化记录过程，提升用户体验。
-专业资源库
-提供丰富的心理学文章、视频课程、冥想音频、心理测试等资源。
-定期邀请心理学专家进行直播讲座，增加用户互动与学习深度。
-紧急干预与转介服务
-对于识别出有严重心理危机倾向的用户，AI将自动启动紧急干预流程，提供即时安抚。
-建立与全国心理咨询机构的合作网络，为用户提供便捷的转介服务。
-
-四、用户体验设计
-简洁易用的界面：确保所有功能直观易懂，减少用户操作负担。
-高度个性化：通过持续学习用户偏好，使服务更加贴合个人需求。
-情感共鸣：在交流中融入人性化设计，如使用温暖的语言风格、表情符号等，增强用户信任感和舒适度。
-多平台兼容：开发手机APP、网页端及小程序，确保用户随时随地都能获取服务。
-隐私保护：明确告知用户数据收集、存储和使用方式，提供隐私设置选项，增强用户安全感。
-
-五、推广与运营策略
-合作推广：与心理健康机构、企业EAP项目、学校等合作，扩大用户基础。
-社交媒体营销：利用微博、抖音、小红书等平台，发布心理健康知识，提高品牌知名度。
-用户社群建设：建立线上社群，鼓励用户分享经验，形成互助氛围，增强用户粘性。
-持续优化与反馈循环：建立用户反馈机制，定期收集意见并迭代产品，确保服务质量不断提升。
-内容营销：定期发布高质量的心理健康内容，吸引并留住用户。
-
-七、总结
-AI心语是一款基于大模型技术的心理咨询平台，通过个性化心理评估、即时反馈与互动、互动式学习体验等功能，为用户提供全面、便捷、高效的心理咨询服务。通过技术实现、用户参与与反馈、市场推广与运营等多方面的努力，AI心语将帮助更多用户解决心理困扰，提升心理健康水平。
-
-本文由人人都是产品经理作者【Echo 产品论】，微信公众号：【产品经理的逻辑与审美】，原创/授权 发布于人人都是产品经理，未经许可，禁止转载。
-题图来自Unsplash，基于 CC0 协议。]]></summary>
-        <author>
-            <name>Echo 产品论</name>
         </author>
     </entry>
 </feed>
