@@ -6,6 +6,26 @@
       "siteUrl": "https://www.appinn.com",
       "articles": [
         {
+          "id": "https://www.appinn.com/?p=50427",
+          "author": "青小蛙",
+          "description": "ByePhotos 是一款专门用来找出 iPhone、iPad 相册中重复、相似照片的应用，并可以快速删除这些照片。还支持压缩大尺寸视频，告别手机存储空间不足。@Appinn ByePhotos 目前",
+          "link": "https://www.appinn.com/byephotos-for-ios/",
+          "publishedOn": "2024-12-09T07:59:26.000Z",
+          "wordCount": 2641,
+          "title": "ByePhotos – 找出 iPhone 相册中的重复照片，还支持压缩视频[限免中]",
+          "imageUrl": "https://www.appinn.com/wp-content/uploads/2024/12/appinn-homework-29.jpg"
+        },
+        {
+          "id": "https://www.appinn.com/?p=50421",
+          "author": "青小蛙",
+          "description": "有同学在发现频道推荐了自己写的小工具《哔哩哔哩账号备份》，用来一键备份 B 站账号，并支持还原，方便账号数据迁移/快速转生。可备份关注、追番、收藏夹、稍后再看等内容，还支持查询已注销账号信息。适用于",
+          "link": "https://www.appinn.com/bilibili-backup-tool/",
+          "publishedOn": "2024-12-08T10:59:45.000Z",
+          "wordCount": 2602,
+          "title": "哔哩哔哩账号备份工具，但为什么要备份 B 站账号？",
+          "imageUrl": "https://www.appinn.com/wp-content/uploads/2024/12/appinn-homework-28-1.jpg"
+        },
+        {
           "id": "https://www.appinn.com/?p=50417",
           "author": "青小蛙",
           "description": "音频转换器是一款适用于 iPhone、iPad 的免费应用，它可以进行 MP3 格式转换、从视频中提取音频、直接对音频裁剪、倍速处理，另外还支持批量处理音频文件。开发者媳妇是 🌍 全球第一个用户。@A",
@@ -479,41 +499,6 @@
           "wordCount": 2742,
           "title": "从800元二手群晖到自研 App，一个程序员的 NAS 进化之路",
           "imageUrl": "https://www.appinn.com/wp-content/uploads/2024/11/Appinn-Feature-images-2024-11-11T200428.092.jpg"
-        },
-        {
-          "id": "https://www.appinn.com/?p=50075",
-          "author": "青小蛙",
-          "description": "OpenAlternative 是一个用来查找日常 SaaS 软件开源替代品的网站，只需要输入软件名称，它就会返回给你开源替代品。@Appinn 什么是 SaaS 软件？ 所谓 SaaS 软件是\b",
-          "link": "https://www.appinn.com/openalternative/",
-          "publishedOn": "2024-11-10T12:48:48.000Z",
-          "wordCount": 2600,
-          "title": "查找免费开源替代品：用 OpenAlternative 替换你的付费 SaaS 软件",
-          "imageUrl": "https://www.appinn.com/wp-content/uploads/2024/11/Appinn-Feature-images-2024-11-10T203315.427.jpg"
-        },
-        {
-          "id": "https://www.appinn.com/?p=50069",
-          "author": "青小蛙",
-          "description": "李跳跳真实好友是一款能够帮你找出删除你、拉黑你的微信好友的安卓应用，还可以为这部分微信好友添加备注，让你一眼识别删除你的和拉黑你的微信好友。@Appinn 注意：需要无障碍权限，进行模拟手机操作。 李",
-          "link": "https://www.appinn.com/litiaotiao-true-friend/",
-          "publishedOn": "2024-11-09T14:21:00.000Z",
-          "wordCount": 2580,
-          "title": "李跳跳真实好友5.0内测版发布，悄然找出删除你的微信好友[Android]",
-          "imageUrl": "https://www.appinn.com/wp-content/uploads/2024/11/Appinn-Feature-images-2024-11-09T215001.206.jpg"
-        },
-        {
-          "id": "https://www.appinn.com/?p=50062",
-          "author": "青小蛙",
-          "description": "说到经典的国货软件，有一款 Win 软件是一定绕不过去的。它就是知名的本地文件搜索工具 Listary！ 即日起至 11 月 14 日，双 11 大促期间，Listary Pro 限时 7 折，仅需",
-          "link": "https://www.appinn.com/listary-6-1111/",
-          "publishedOn": "2024-11-09T02:40:00.000Z",
-          "wordCount": 2679,
-          "title": "双 11 大促！搜索神器 Listary 6 限时 7 折，买断仅需 68.6 元",
-          "enclosure": {
-            "url": "https://static3.appinn.com/images/2024/11/2-ezgif.com-gif-to-mp4-converter-1.mp4",
-            "length": "443795",
-            "type": "video/mp4"
-          },
-          "imageUrl": "https://www.appinn.com/wp-content/uploads/2024/11/Appinn-Feature-images-2024-11-08T215342.525.jpg"
         }
       ]
     },
@@ -522,6 +507,156 @@
       "feedUrl": "http://www.woshipm.com/feed",
       "siteUrl": "https://www.woshipm.com",
       "articles": [
+        {
+          "id": "https://www.woshipm.com/it/6152649.html",
+          "author": "风姑娘的数字视角",
+          "description": "“AI+BI 时代，数据分析何去何从？” 随着大模型的兴起，AI 与 BI 的融合为数据分析领域注入了新的活力 […]",
+          "link": "https://www.woshipm.com/share/6152649.html",
+          "publishedOn": "2024-12-09T12:45:46.000Z",
+          "wordCount": 681,
+          "title": "有了大模型AI+BI，数据分析还得学！",
+          "imageUrl": "https://image.woshipm.com/2024/12/09/26a009b2-b62b-11ef-bcc7-00163e1bca14.png"
+        },
+        {
+          "id": "https://www.woshipm.com/it/6152648.html",
+          "author": "否定先生",
+          "description": "“AI 发展遇阻，前路何方探寻。” 在人工智能一路高歌猛进的进程中，OpenAI 新模型进展放缓的消息如同一颗 […]",
+          "link": "https://www.woshipm.com/share/6152648.html",
+          "publishedOn": "2024-12-09T12:42:07.000Z",
+          "wordCount": 754,
+          "title": "AI 突破受阻？OpenAI 新模型透露的行业隐忧",
+          "imageUrl": "https://image.woshipm.com/2024/12/09/8423352e-b62a-11ef-abf9-00163e1bca14.png"
+        },
+        {
+          "id": "https://www.woshipm.com/it/6152647.html",
+          "author": "接地气的陈老师",
+          "description": "“数据分析之钥，标杆分析之道。” 在数据驱动业务的征程中，标杆分析法犹如一把关键的钥匙。它看似简单，实则蕴含诸 […]",
+          "link": "https://www.woshipm.com/share/6152647.html",
+          "publishedOn": "2024-12-09T12:37:04.000Z",
+          "wordCount": 728,
+          "title": "高手的数据分析方法之四：标杆分析法",
+          "imageUrl": "https://image.woshipm.com/2024/10/09/7324ca72-8622-11ef-bd7d-00163e142b65.png"
+        },
+        {
+          "id": "https://www.woshipm.com/it/6152641.html",
+          "author": "伍德安思壮",
+          "description": "“出海业务拓展，多元赛道探索。” 在全球化浪潮的推动下，出海业务成为众多企业寻求发展的新方向。然而，面对广阔的 […]",
+          "link": "https://www.woshipm.com/share/6152641.html",
+          "publishedOn": "2024-12-09T12:30:26.000Z",
+          "wordCount": 725,
+          "title": "做出海业务可以尝试哪些赛道？",
+          "imageUrl": "https://image.woshipm.com/2024/08/11/0843dede-57e5-11ef-99e2-00163e142b65.png"
+        },
+        {
+          "id": "https://www.woshipm.com/it/6152638.html",
+          "author": "张书乐",
+          "description": "“仅退款‘打折’背后，电商规则之变。” 在电商竞争日益激烈的当下，消费者体验和商家利益的平衡成为关键。“仅退款 […]",
+          "link": "https://www.woshipm.com/share/6152638.html",
+          "publishedOn": "2024-12-09T12:20:23.000Z",
+          "wordCount": 690,
+          "title": "仅退款“打折”，然后呢",
+          "imageUrl": "https://image.woshipm.com/2024/11/19/5a2f96b6-a64b-11ef-9099-00163e09d72f.png"
+        },
+        {
+          "id": "https://www.woshipm.com/it/6152633.html",
+          "author": "接地气的陈老师",
+          "description": "在数据分析领域，如何设计并执行一个优秀的数据分析项目是许多专业人士关心的问题。本文通过五个具体的测试题，帮助读 […]",
+          "link": "https://www.woshipm.com/share/6152633.html",
+          "publishedOn": "2024-12-09T12:14:39.000Z",
+          "wordCount": 731,
+          "title": "五步拆解：如何做一个优秀的数据分析项目",
+          "imageUrl": "https://image.woshipm.com/2024/05/10/d0e8f93a-0e7c-11ef-b3fd-00163e142b65.png"
+        },
+        {
+          "id": "https://www.woshipm.com/it/6152630.html",
+          "author": "王智远",
+          "description": "随着人工智能技术的迅猛发展，传统浏览器的功能正在被重新定义。The Browser Company宣布正在开发 […]",
+          "link": "https://www.woshipm.com/share/6152630.html",
+          "publishedOn": "2024-12-09T12:10:26.000Z",
+          "wordCount": 831,
+          "title": "AI浏览器要来了吗？",
+          "imageUrl": "https://image.woshipm.com/2024/09/09/5dd7bf1e-6e9c-11ef-9237-00163e142b65.png"
+        },
+        {
+          "id": "https://www.woshipm.com/it/6152628.html",
+          "author": "趣解商业",
+          "description": "直播电商正在经历一场由内容逻辑驱动的变革。品牌和商家通过创新的直播场景和模式，将镜头对准户外和源头工厂，以此吸 […]",
+          "link": "https://www.woshipm.com/share/6152628.html",
+          "publishedOn": "2024-12-09T11:56:25.000Z",
+          "wordCount": 736,
+          "title": "直播电商，正在被内容逻辑重塑",
+          "imageUrl": "https://image.woshipm.com/2024/10/08/c97f5d58-854e-11ef-b583-00163e142b65.png"
+        },
+        {
+          "id": "https://www.woshipm.com/it/6152624.html",
+          "author": "刘玮冬",
+          "description": "对于普通创业者而言，转型做电商并成功投放站内广告是一项挑战。本文总结了18个关键要点，帮助初学者快速掌握电商广 […]",
+          "link": "https://www.woshipm.com/share/6152624.html",
+          "publishedOn": "2024-12-09T11:41:34.000Z",
+          "wordCount": 898,
+          "title": "普通人转型创业做电商，站内广告投放必知的18个要点",
+          "imageUrl": "https://image.woshipm.com/2024/10/24/1aaaa6f6-91e3-11ef-b0a5-00163e142b65.png"
+        },
+        {
+          "id": "https://www.woshipm.com/it/6152618.html",
+          "author": "波叔爱这世界",
+          "description": "在当今快速变化的商业环境中，技术思维虽然重要，但其局限性也日益显现。本文通过分析锤子手机的兴衰历程，揭示了技术 […]",
+          "link": "https://www.woshipm.com/share/6152618.html",
+          "publishedOn": "2024-12-09T11:24:01.000Z",
+          "wordCount": 700,
+          "title": "超越技术思维：打造高效创新团队的秘诀",
+          "imageUrl": "https://image.woshipm.com/2024/12/09/0f4a8db6-b61f-11ef-abf9-00163e1bca14.png"
+        },
+        {
+          "id": "https://www.woshipm.com/it/6152607.html",
+          "author": "Hanni",
+          "description": "在全球化的浪潮中，企业出海已成为一种趋势，但文化差异带来的挑战也日益凸显。本文通过一个企业家的真实经历，深入探 […]",
+          "link": "https://www.woshipm.com/share/6152607.html",
+          "publishedOn": "2024-12-09T11:12:51.000Z",
+          "wordCount": 729,
+          "title": "企业出海如何跨越文化差异的鸿沟？",
+          "imageUrl": "https://image.woshipm.com/2024/10/03/e2dde496-8160-11ef-bb45-00163e142b65.png"
+        },
+        {
+          "id": "https://www.woshipm.com/?p=6152588",
+          "author": "华为开发者联盟",
+          "description": "在商超、便利店、餐厅等线下门店中， “碰一下”设备已让无数消费者领略到了近场交互技术的便捷。这种技术不仅简化了 […]",
+          "link": "https://www.woshipm.com/share/6152588.html",
+          "publishedOn": "2024-12-09T10:57:48.000Z",
+          "wordCount": 696,
+          "title": "【一碰交互 共触未来】12月17日诚邀您参与ITMA深圳站！",
+          "imageUrl": "https://image.woshipm.com/2023/04/13/72372542-d9df-11ed-9d2f-00163e0b5ff3.jpg"
+        },
+        {
+          "id": "https://www.woshipm.com/?p=6152434",
+          "author": "道总有理",
+          "description": "吴柳芳的爆火，让更多人的目光看向擦边网红，甚至不少主播也是主动或被动开始进入这个赛道。在主流视角之外，叱咤秀场 […]",
+          "link": "https://www.woshipm.com/it/6152434.html",
+          "publishedOn": "2024-12-09T09:56:06.000Z",
+          "wordCount": 720,
+          "title": "脱掉长衫的网红，正在构建出一个巨大的“擦边”宇宙",
+          "imageUrl": "https://image.woshipm.com/2023/04/13/c02627ca-d9ea-11ed-bd74-00163e0b5ff3.jpg"
+        },
+        {
+          "id": "https://www.woshipm.com/?p=6151865",
+          "author": "瑾益",
+          "description": "从关键词的巧妙运用到情感共鸣的触发，再到精准的目标受众定位，每一个环节都是提升笔记吸引力的关键。这篇文章为你揭 […]",
+          "link": "https://www.woshipm.com/copy/6151865.html",
+          "publishedOn": "2024-12-09T08:57:51.000Z",
+          "wordCount": 891,
+          "title": "收藏！小红书笔记标题应该怎么设计！",
+          "imageUrl": "https://image.woshipm.com/2023/04/14/fa63c6e6-da8e-11ed-9503-00163e0b5ff3.jpg"
+        },
+        {
+          "id": "https://www.woshipm.com/?p=6152101",
+          "author": "运营研究生",
+          "description": "想要让你的公众号粉丝数量飙升吗？这篇文章将揭秘一个高效的增粉策略，它已经帮助作者实现了单日增粉943的惊人成绩 […]",
+          "link": "https://www.woshipm.com/share/6152101.html",
+          "publishedOn": "2024-12-09T08:40:55.000Z",
+          "wordCount": 695,
+          "title": "公众号单日增粉943！这个方法真的太好用了！",
+          "imageUrl": "https://image.woshipm.com/2024/11/04/17257b0e-9a81-11ef-b0e5-00163e142b65.jpg"
+        },
         {
           "id": "https://www.woshipm.com/it/6151998.html",
           "author": "进击的沈帅波",
@@ -4131,76 +4266,6 @@
           "wordCount": 353,
           "title": "金融精准营销平台搭建实战（二）：私人银行场景（财富管理）",
           "imageUrl": "https://image.woshipm.com/2023/04/14/4fcfc726-da8d-11ed-8198-00163e0b5ff3.jpg"
-        },
-        {
-          "id": "https://www.woshipm.com/?p=6138481",
-          "author": "设计来电",
-          "description": "随着技术的发展，原来的账号密码方式，也引入生物识别技术，人脸、指纹、声纹等方式的应用，也让我们的生活有了更多便捷。这篇文章，我们来看看，生物识别技术，是如何重塑我们的身份认证的。\n\n随着智能设备的普及，用户对身份认证的隐私、安全、速度和便捷性有了更高要求，传统的账号密码和短信验证码方式渐渐显得不足。在这种背景下，生物识别技术迅速发展，通过指纹、面部、声纹等生物特征实现精准身份认证，并广泛应用于支付和设备解锁等日常场景。\n此外，集成多种生物特征的多模态识别技术也正成为一种趋势，为未来的身份认证提供了更安全、便捷的解决方案。在文章中，我还以智能音箱为例，分析了它在身份认证体验上的挑战，并结合生物识别技术的发展方向，提出优化思路。\n一、身份认证的重要性\n在互联网早期，用户和服务之间是单向关系，服务端决定提供什么，用户只能被动接受。随着移动互联网的发展，这种关系逐渐转变成了双向互动。用户在使用产品时会产生数据，而这些数据帮助服务端优化产品，提升体验。\n例如，在资讯和视频类应用中，个性化推荐系统会根据用户的浏览偏好推送感兴趣的内容；在电商平台，通过分析用户的特征和行为实现“千人千面”的精准推荐，让每位用户都看到符合自己兴趣的商品。\n\n正是用户数字身份中的丰富数据推动了这种互动关系的发展。在技术与设备的双重加持下，身份认证则成为用户与一切服务、信息连接，实现智能生活的重要基础技术。\n二、认证技术的发展\n身份认证的目的是验证用户的真实性和有效性。概括来说，身份认证主要有三种方式：\n根据你所知道的信息；\n根据你所拥有的东西；\n根据你自己的身体特征；\n\n在手机指纹识别出现之前，用户登录应用时通常依赖账号密码。为了提高安全性，密码复杂度不断增加：数字、大小写字母、符号等等，不同平台还有不同的要求。对用户来说，记住这些密码成了“记忆力考验游戏”。\n\n随后，手机验证码提供了比账号密码更方便的选择，…",
-          "link": "https://www.woshipm.com/pd/6138481.html",
-          "publishedOn": "2024-11-10T07:16:32.000Z",
-          "wordCount": 436,
-          "title": "生物识别技术如何重塑身份认证体验",
-          "imageUrl": "https://image.woshipm.com/2023/05/06/9cd97fdc-ec01-11ed-94e0-00163e0b5ff3.jpg"
-        },
-        {
-          "id": "https://www.woshipm.com/?p=6138685",
-          "author": "左手键盘右手诗",
-          "description": "在财务产品这个垂直领域，因为与业务关联紧密，一直和常规的产品经理有很大不同。这篇文章，作者结合自己的工作经历，和大家分享了业务财务产品未来发展的理解和从业者的要求，供大家参考。\n\n在互联网公司，什么样的产品可以称为财务产品？财务产品的主要职责又是什么？\n个人认为，职责由工作内容赋予，工作内容由需求衍生，而需求源自客户/用户痛点（产品自身迭代也是源于用户、回归用户，属于用户的间接需求），因此标记财务产品的主要特征便是支撑财务团体人员，准确地说，是保障财务职能的完整落地，所以广义上的财务产品就是企业IT/信息化团队中以财务视角间接赋能业务发展的产品人员。\n企业财务经过多年的发展，整个财务知识和职责体系已经相当完善，常见的财务人员有财务bp（business partner）、财务共享、资金会计等职责，加上财务信息化、数字化成为普遍的共识时，财务信息化人才基本成为规模以上企业的标配。作为推动财务数字化的生力军，财务产品也衍生了多个产品专业方向，比如结算、税务、核算等方向，但根据与业务的链接协同程度，整体上可以分为①业务方向的财务产品和②财务职能方向的财务产品，前者以损益、结算为主，后者以核算、税务、资金为主，前者更偏业务、by行业by企业发展阶段有较强灵活性，后者专业属性更强、更为标准通用，这是目前财务产品两个主要发展的方向和路径。\n\n下面结合个人最近几年的工作，聊下对前者，也就是业务财务产品未来发展方向的理解以及个体从业者应具备哪些能力。\n近些年来，随着投资消费环境遇冷，互联网大额投资基本销声匿迹，而且企业间竞争日益白热化，对资本的使用效率、对风险的管控空前重视，所以在这种企业管理趋势下，越来越需要企业财务前置且深度参与到业务的运营和决策中，用财务的专业素养为业务提供指导和风险规避，这也是业财一体的缘起，本质上是增加业务的赋能渠道，同时对财务提出了更高的要求，也为业务财务产品的发展带来了新的机会和方向（企业有强诉求）。那么，在这样的背景下，财务产品个体通过发展什么样的能力能够从容“接招”或者获得更好的个人发展？个人觉得，可以在这几个方向多投入：\n1、专业领域下的持续拓宽。一般来说，1年了解、3年精通、5-8年资深，有选择的情况下，在职业生涯前期（毕业10年）尽可能拓展领域，尤其是相关的上下游领域，做到全链路了解，以能够做到0-1的水平为最佳目标（说实话，0-1可遇不可求，也无需强求，能稳定支持已是水准之上）。\n2、基础产品能力的持续夯实。以项目管理和需求管理为日常工作主线，以产品规划为纲（前者是基础，后者是拔高，也是核心竞争力），既有“远虑”，又解得了“近忧”。这些都源自日常思考、不断“仿真”、久久为功，才能积跬步而致千里。除此之外，我觉得相互讨论学习、相互借鉴非常重要，也是最近才懂得的道理，不要固步自封，多增加些良性的火花，与自己悟道相结合，会相得益彰。\n3、业务场景中，运用财务知识的能力锻炼（白话：业务sense）。目标是拓展信息源、了解需求的来龙去脉以及推演路径。如何能够加强，我也在探索，欢迎留言讨论，但还是想说句正确的“废话”：组织机遇+个人能力缺一不可，越往上走应该会接触到更多启发的场景。\n以上3点，如果大家能够持续做到，我相信和我大家可以在“顶峰相见”，与君共勉。\n以上就是我对企业B端财务产品的理解以及对未来职业发展的思考，个人观点，欢迎大家积极讨论。\n本文由 @左手键盘右手诗 原创发布于人人都是产品经理。未经作者许可，禁止转载\n题图来自Unsplash，基于CC0协议\n该文观点仅代表作者本人，人人都是产品经理平台仅提供信息存储空间服务",
-          "link": "https://www.woshipm.com/share/6138685.html",
-          "publishedOn": "2024-11-10T06:16:37.000Z",
-          "wordCount": 302,
-          "title": "互联网增长瓶颈下，解决财务产品职业发展困惑的思考",
-          "imageUrl": "https://image.woshipm.com/2023/04/14/fa5cbae0-da8e-11ed-b35a-00163e0b5ff3.jpg"
-        },
-        {
-          "id": "https://www.woshipm.com/it/6138840.html",
-          "author": "随心将夜",
-          "description": "在互联网时代，\"嘴替\"现象成为了一种独特的社会文化现象，它不仅反映了群体心理的趋同，也触及了个体自我认同的深层次问题。这篇文章深入探讨了\"嘴替\"现象背后的社会学和哲学意义，分析了它如何影响我们的思考和表达方式。\n\n在这个光怪陆离的时代，《再见爱人》中的黄执中、张泉灵以犀利言辞成为众人追捧的“嘴替”，引发全民吐槽的热潮。\n2023 年，“嘴替”毫无意外地登上十大互联网流行词之首。在网络如巨兽般蔓延、信息无孔不入的当下，我们似乎陷入了一种诡异的失语困境。\n一、社会学视角下的群体心理趋同\n从社会学的视角来看，这背后反映出一种群体心理的趋同。\n在庞大的社会网络中，个体往往渴望找到归属感和认同感。当“嘴替”出现，说出那些似乎能代表大众心声的话语时，人们便如同找到了精神寄托，纷纷在评论区欢呼雀跃。\n这就如同古斯塔夫·勒庞在《乌合之众》中所描述的，个体在群体中会失去自我意识，盲目地跟随群体的行为和情绪。\n\n我们在为“嘴替”叫好的同时，也在不知不觉中放弃了自己独立思考和表达的权利。\n二、哲学层面的自我迷失\n更深层面去思索，这何尝不是一种自我的迷失？\n我们将自己的所思所想所感拱手让给他人去表达，仿佛我们自身已经无法准确地传达内心的声音。我们习惯了被代表，习惯了在他人的言语中寻找自己的影子，却忘记了我们每个人都是独一无二的存在，我们的感受无法被完全替代。\n被“共性”裹挟而完全同感的人生，是浅薄的。\n三、被流量吞噬的“嘴替”\n营销号们如逐利的饿狼，疯狂地剪辑“嘴替”片段，用各种煽动性的话语吸引眼球。“家人们谁懂啊”“xx 说出了所有打工人的心声”“xx 太敢说了”“xx 会说多说好吗”，这些话语如同魔咒一般，让我们深陷其中无法自拔。“嘴替”们在流量的海洋中畅游，收获着金钱与名利，而我们这些被“嘴替”的人，却在这场喧嚣的闹剧中逐渐失去了自我。\n那些打着“嘴替”人设的网红博主们，更是令人唾弃。他们一边假惺惺地代表民众，一边却为了私利，推销着九块九包邮的三无产品，赚取着黑心钱。他们真的能理解民众的生活吗？一个从未真正体验过上班之苦的人，却堂而皇之地当起“嘴替”吐槽老板，这是多么荒谬的一幕。\n四、反思与觉醒\n当“嘴替”泛滥成灾，我们确实该深刻反思那些被“替”者的感受。在享受“嘴替”带来的短暂快感时，我们实际上是在一步步远离真实的自我。我们如同提线木偶般，被他人的言语操纵着，却浑然不知，这背后隐藏着的是我们对自我认知的模糊和对独立思考的恐惧。\n从本质上来说，我们为什么会如此轻易地将自己的话语权让渡出去？\n一方面，在快节奏的现代社会中，人们往往缺乏足够的时间和精力去深入思考问题，而“嘴替”们看似简洁明了的表达恰好满足了大家对快速获取观点的需求。\n另一方面，面对复杂多变的世界和众多不确定因素，每个人内心深处的不安使得我们更倾向于寻找一种确定性，而那些被广泛传播的“嘴替”言论似乎给了我们一种虚假的安全感。\n然而，这种依赖“嘴替”的行为实际上是一种逃避。我们逃避了面对自己内心的困惑和矛盾，逃避了通过自己的努力去探索和理解世界的过程。我们在不知不觉中成为了思想的懒惰者，满足于他人为我们构建的认知框架，而失去了突破和创新的能力。\n当我们沉浸在“嘴替”的世界中时，我们也在逐渐丧失与他人进行真正交流和沟通的能力。因为我们习惯了用他人的话语来回应问题，而不是用自己的思考和感受去与他人互动。这样的交流往往是表面的、肤浅的，无法触及到问题的核心和本质。\n更为严重的是，这种对“嘴替”的过度依赖可能会导致社会的同质化和思想的僵化。当大家都在追逐同样的“嘴替”言论时，不同的声音和观点就会被压抑，社会的多样性和创造力也会受到极大的限制。\n那么，我们该如何挣脱“嘴替”的束缚呢？\n首先，我们要培养自己独立思考的能力。在面对各种信息和观点时，不要急于接受，而是要进行深入的分析和思考，从不同的角度去审视问题，形成自己的判断。\n其次，我们要勇于表达自己的真实想法和感受。不要害怕犯错或被他人批评，只有通过不断地表达和交流，我们才能逐渐完善自己的思维体系，找到真正属于自己的声音。\n最后，我们要保持开放的心态，积极倾听不同的声音和观点，从中汲取有益的营养，丰富自己的认知。\n“嘴替”的盛行，确实是时代的悲哀，也是我们每个人的悲哀。我们在这场虚幻的狂欢中，迷失了方向，失去了自我。但只要我们能够觉醒，勇敢地面对自己的内心，努力培养独立思考和表达的能力，我们就有可能摆脱“嘴替”的束缚，重新找回属于自己的声音和价值。在这个混沌的世界中，我们需要的不是虚假的“嘴替”，而是真实的自我和勇敢的探索精神。\n本文由人人都是产品经理作者【随心将夜】，微信公众号：【互联网菜鸟产品进阶之路】，原创/授权 发布于人人都是产品经理，未经许可，禁止转载。\n题图来自Unsplash，基于 CC0 协议。",
-          "link": "https://www.woshipm.com/share/6138840.html",
-          "publishedOn": "2024-11-10T04:58:48.000Z",
-          "wordCount": 333,
-          "title": "平等地想创si所有互联网嘴替",
-          "imageUrl": "https://image.woshipm.com/2024/11/10/48818fa0-9f20-11ef-8da6-00163e142b65.png"
-        },
-        {
-          "id": "https://www.woshipm.com/?p=6138279",
-          "author": "sailors",
-          "description": "AI现在已经这么火，以后可能会发展成什么样？这篇文章，作者从工具型产品的变化过程，以一个椅子为案例，为我们详细分析讲解了以后AI的可能，供大家参考。\n\n一、AI产品困境\n从2022年11月ChatGPT发布以来，全球迎来了一波AI热潮，模型厂商卷模型，应用厂商卷应用，市面上出现了各种各样不同模态的AI应用和服务，大家都想做第一个吃螃蟹的人。作为互联网从业者“AI会淘汰所有无法使用AI的人”的口号为我们带来了焦虑，大家一致的观点是AI成为了当前各行各业的突破式创新，不论你身处什么行业，都在筹划部署各种AI应用，好与时俱进，防止自己被科技的进步所淘汰。\n然而两年过去了，很多公司好像陷入了困境，市面上的大模型每隔一段时间性能就会大幅提升，企业自己大力投入的AI业务也有了很多技术上的进展，但始终无法成功变现，产品投入市场之后的反馈总是不达预期，加上开放的环境让每个竞争对手都可以很快地复制你的新奇创意造出比你更好的产品。在市场期望和用户反馈的双重压力下，大家都感到举步维艰。\n二、工具型产品演进过程\n从事工具型产品经理多年，我学习验证并且相信的一套工具类型的产品演进过程给我在产品规划和预测中提供很好的参考，我觉得这个规律大概也可以延伸至其他产品领域。这是一个综合用户和技术发展的角度总结出的发展规则，大致是这样的：\n固定形态（单一功能）→可调节（多功能化）→自适应调节（自动化）\n举个例子：\n起初市面传播较广的椅子可能是固定形态的，可能是单关节的折叠椅或者直接由圆钢焊接出来的固定形状的办公椅，它们所提供的就是单一的用来“坐”的功能。这一阶段是“固定形态”阶段。\n\n之后，随着用户的分群、场景差异化，不同的需求显现，加上技术的进步使得产品的成本降低，市面上开始流行多关节的人体工学椅，它能够支持在单纯坐的前提下更多的调节功能。例如扶手、靠背、高度、腰部支撑、腿托等附加的功能，从而满足用户更深层次…",
-          "link": "https://www.woshipm.com/it/6138279.html",
-          "publishedOn": "2024-11-10T03:46:30.000Z",
-          "wordCount": 326,
-          "title": "从产品演进过程猜测AI产品趋势",
-          "imageUrl": "https://image.woshipm.com/2023/04/13/dc50e0c4-d9e1-11ed-a8b0-00163e0b5ff3.jpg"
-        },
-        {
-          "id": "https://www.woshipm.com/it/6138810.html",
-          "author": "有新Newin",
-          "description": "在人工智能的浪潮中，OpenAI的CEO Sam Altman与YC总裁Garry Tan进行了一场深入的对话，探讨了AI技术如何塑造未来企业的格局。Sam Altman分享了他对AGI（人工通用智能）发展的看法，以及创业者如何利用AI技术在竞争中获得优势。\n\n近日，YC 总裁 Garry Tan 与 OpenAI CEO Sam Altman 展开了一场创业对话，Sam 强调了当前 AI 技术的发展还远未达到顶峰。他建议创业者积极拥抱 AI 这一新技术，在初创公司的早期阶段借助 AI 实现快速突破，以速度、专注力和适应力击败被规划周期束缚的大型企业，从而实现差异化和领先优势。\n在讨论 AGI 的发展路径时，Sam 描述了从“聊天机器人”到“智能体”再到“创新者”的发展阶段。他预测未来技术将赋予 AI 更强的创新能力，使其能长期探索复杂的现象并产生科学突破，从而推动科技进步。\nSam 鼓励初创公司利用 AI 赋予的创新力，实现小团队、高效率的运作模式。他设想未来将出现员工少于 100 人、甚至仅由一个人和强大算力组成的公司，这将为初创公司提供无与伦比的机会。\nSam Altman\n我们从一开始就说过，我们要追求 AGI，而在当时这个领域，你都不能提这个，因为那看起来简直是疯狂的。我。\nGarry Tan\n记得当时你们因为这个而受到一阵猛烈的批评。\nSam Altman\n我们确实想要推动这件事，而当时我们的资源远不及 DeepMind 和其他人。所以我们说，好吧，他们会尝试很多事情，而我们必须选择一个方向，集中精力。这样我们就能在这里取胜。\n\n现在大多数人仍然不了解在一个赌注上抱有相当极端的信念的价值所在。这也是我现在对创业公司如此兴奋的原因，因为全世界仍然对这些东西保持着惊人的冷漠。\nGarry Tan\n今天我们有一个真正的特别节目。Sam Altman，谢谢你的到来。谢谢…",
-          "link": "https://www.woshipm.com/ai/6138810.html",
-          "publishedOn": "2024-11-10T02:38:56.000Z",
-          "wordCount": 1184,
-          "title": "深度｜OpenAI Sam Altman 对话 YC 总裁：未来 1 个人+ 1 万块 GPU 就有机会创造年收入数十亿美元公司",
-          "imageUrl": "https://image.woshipm.com/2024/11/09/863be502-9e71-11ef-8da6-00163e142b65.png"
-        },
-        {
-          "id": "https://www.woshipm.com/it/6138806.html",
-          "author": "刘欣",
-          "description": "涨价后的价格竟然比之前更低，是老板的失误还是精心策划的营销手段？这篇文章，我们通过一个看似简单的臭豆腐定价变化，揭开营销策略的复杂面纱。\n\n前几天营销群看到张有趣照片，一家小餐馆里的标价牌很引人注意。\n有好事的小伙伴算了算，涨价前的臭豆腐折算下来是平均1.2元/片，但是在涨价后却变成了1.17元/片。\n看起来这家店的老板算错账？定了一个反而更赔本的“愚蠢价格”？估计店里很多消费者心里也是暗暗爽到，感觉靠着小学算数就轻松薅到了店家羊毛。\n\n但作为营销人，越仔细想就越觉得商家这事办得很妙，其中竟然还藏着不少营销知识。\n第一条定价营销知识线：固定成本、可变成本、边际成本\n这里并不是想老生常谈经济学的基本知识，而是希望大家作为营销人可以对成本和定价养成一种肌肉记忆，不要单纯以购买者的【比价思维框架】去评估价格是否“划算”，而是生意人去看成本到底发生在哪里。\n以这家臭豆腐小店为例。在一份臭豆腐的定价中，总有一部分成本是在某个周期内固定发生的，不管你是否生产，或是生产了多少块炸臭豆腐，这笔成本都会发生，这种成本就是固定成本，例如店铺的房租水电。\n同时价格中还有一部分叫做可变成本，就是随着产品的生产而产生变化的，比如每份豆腐块的成本，比如炸豆腐所用的油的成本，餐盒包装袋的成本等等。\n\n你看，若是具备了【固定成本&可变成本】的生意意识/卖家思维，你可能就会对臭豆腐涨价前后拆解列出一个方程组。\nA+10X=12\nA+12X=14\n继而计算出，涨价前后每一份臭豆腐的售价中，都包含2元的固定成本，每片臭豆腐也不是先前算出的1.2元/1.17元，而应该是1元。\n…… ……\n等等，事实真的如此吗？\n别忘了这组方程中还有一个重要未知数—每一单的利润。店家在涨价前后每一块臭豆腐到底都赚了多少钱，在价格照片上根本猜不出。\n所以，利润未知情况下你根本算不出每一片油炸臭豆腐的成本到底是多少。\n那么，上面的思考是不是就没价值了呢？\n当然不是！\n我们可以做一个大胆的假设，去判定一下每片臭豆腐食材成本的边界\n假设老板涨价前一份炸臭豆腐会赚B元，涨价之后每份臭豆腐会赚C元。但凡老板不是做慈善那么涨价后的利润一定应该大于等于涨价前利润，也就是C≥B。\n假如第一种情况，涨价后一份炸臭豆腐利润多赚了1元钱，那新方程组就是变成\nA+B+10X=12\nA+C+12X=14\nC-B=1\n从而算出，每一块炸臭豆腐的食材成本是0.5元。\n假设第二种极端情况，一份臭豆腐涨价2元后，商家额外怒赚1.99元（接近2元），那么套用方程组得出，每一块炸臭豆腐的食材成本就变成0.005元。\n这样看来，涨价后如果多赚1元钱时，可以估算出每片臭豆腐食材成本是0.5元，换算下就是你用14元买到了食材成本7元的臭豆腐；但如果涨价后利润多1.99元时，每片臭豆腐食材成本则变成0.005元，此时你花费的14元中，只买到了食材成本仅7分钱的臭豆腐。\n因此，老板哪怕在涨价之余“好心”多给你两片臭豆腐，成本增加可能只1分钱，与你消费的14元相比微不足道，老板再多送几片又何妨。\n像这样每新增一单位生产的产品就会给总成本带来的增量，被称为[边际成本]。一般来说，在营销中出现的[边际成本]案例都是递减的，甚至往往忽略不计。\n比如，在案例中美国麦当劳里的可乐是可以续杯的，因为麦当劳在卖给你第一杯可乐时就赚回了所有的成本（均摊的房租水电人工等），而续杯产生的额外成本也只不过是一杯水和一丢丢的可乐浓缩液而已。\n就像本文中老板一样，用同一锅油去炸臭豆腐，一次12片是炸，14片也是炸，整体制作时间和成本的增加微乎其微，日常操作中几乎无感。\n当然，现实中臭豆腐食材成本绝没有便宜到几分钱一片，在淘宝上搜商用大包臭豆腐生坯也差不多要0.15元/片，按照这价位14片臭豆腐食材的成本也只有2.1元，是不是手中这份薅老板羊毛的臭豆腐突然就不香了？\n为什么开始看到价格图时你会很开心，觉得老板挺良心甚至有点憨厚的笨，觉得自己赚到了。但读完上面文字后又觉得自己这钱花得有点不划算了？\n本文由人人都是产品经理作者【刘欣】，微信公众号：【舅讲营销】，原创/授权 发布于人人都是产品经理，未经许可，禁止转载。\n题图来自Unsplash，基于 CC0 协议。",
-          "link": "https://www.woshipm.com/marketing/6138806.html",
-          "publishedOn": "2024-11-10T02:19:16.000Z",
-          "wordCount": 324,
-          "title": "臭豆腐定价营销学（上）",
-          "imageUrl": "https://image.woshipm.com/2024/07/25/044dede8-4a51-11ef-a43d-00163e142b65.png"
-        },
-        {
-          "id": "https://www.woshipm.com/it/6138759.html",
-          "author": "接地气的陈老师",
-          "description": "在数据驱动的商业时代，数据分析成为了企业决策的重要工具。然而，面对众多复杂的数据分析方法，如何选择合适的工具来解决实际业务问题，成为了一个挑战。\n\n经常有同学疑惑：\n“什么是顶级的数据分析方法”\n“面试的时候，被人问：用过什么方法，怎么回答好?”\n“为什么我讲的分析方法，会被人嫌弃简单？”\n今天系统盘点下数据分析方法，大家也好对号入座，看看自己讲的水平如何。\n首先，并不是名字带“分析”俩字的，就是数据分析方法。有很多XX分析，是统计学、运筹学、数学的专业工具，并不直接指向业务问题的答案。当人们在问：“有什么分析方法”的时候，更多期望听到一个能给出结论的方法。\n所以想回答好这个问题，要回到：数据分析到底解决哪些业务问题上去。\n从业务用途上看，数据分析可以解决5大类问题\n1、是多少（数据描述状况）\n2、是什么（树立数据标准）\n3、为什么（探索问题原因）\n4、会怎样（预测业务走势）\n5、又如何（综合判断状况）\n围绕每个问题场景，有特定的方法组合（如下图）\n\n一、解决“是多少”的方法\n用数据描述状况，需要建立完善的数据指标体系。建立数据指标体系，则需要梳理清楚数据指标之间的逻辑。数据指标间有两种基本的逻辑：串行逻辑和并行逻辑，因此衍生出两种基本的分析方法：漏斗分析法&指标拆解法。\n\n拆解的业务多了，人们发现，某些数据指标可以固定的组合使用，比如：\n用户运营场景：AARRR指标、RFM指标\n零售门店场景：人、货、场指标\n商品管理场景：进、销、存指标\n这些也习惯性被称为：分析模型。\n但注意，这些都只是在展示数据。\n\n数据+判断标准，才有分析结论。有关判断标准的分析，就是：是什么类问题。\n二、解决“是什么”问题的方法\n判断标准可以很简单，比如领导的指令、KPI要求、过往同期数据，都能作为标准。这些统称为：简单标准。但很多时候，指标走势是否正常，并无明确的KPI约束，甚至KPI达标，但是走…",
-          "link": "https://www.woshipm.com/share/6138759.html",
-          "publishedOn": "2024-11-10T01:37:49.000Z",
-          "wordCount": 368,
-          "title": "什么是顶级的数据分析方法？",
-          "imageUrl": "https://image.woshipm.com/2024/06/26/1d1a9d46-33a2-11ef-a88c-00163e142b65.png"
         }
       ]
     },
@@ -4215,6 +4280,26 @@
       "feedUrl": "http://feed.iplaysoft.com/",
       "siteUrl": "https://www.iplaysoft.com",
       "articles": [
+        {
+          "id": "https://www.iplaysoft.com/?p=6100",
+          "author": "X-Force",
+          "description": "平时使用电脑，最频繁的需求之一就是文件管理，比如经常要来回整理文件/文件夹，进行移动复制重命名等等。然而 Windows 系统自带的 Explorer 资源管理器功能却非常有限。\n如果说有什么神器能大幅提升用电脑的效率，那么一款强大好用的文件管理器就必不可少了。除了老牌但又“特别难以上手”的 Total Comander 以外，在众多电脑高手圈里推荐得比较多的，还有 Directory Opus 这款同样经典强大，而又易于上手的增强型文件管理器……\n「 前往查看原文.... 」\n异次元还有这些值得一看：\n\nXYplorer - 碾压微软自带资源管理器！强大好用的 Win 多窗格分栏文件管理器\n比 Mac 访达强太多了！QSpace - 多窗格/多分栏的增强文件管理器 (支持连接服务器)\nListary 6.3 Pro - 能极大提高 Windows 文件浏览与搜索速度效率的“超级神器”\nFiles UWP 文件管理器 - 更优雅好用！替代 Win11/10 自带资源管理器 (开源/多标签/分栏)\n\n异次元首页  |  微信公众号  |  关注微博  |  软件精选  |  软件激活码折扣",
+          "link": "https://www.iplaysoft.com/directory-opus.html",
+          "publishedOn": "2024-12-09T08:00:38.000Z",
+          "wordCount": 1192,
+          "title": "Directory Opus 13 - 比微软自带强大百倍！全面碾压的增强文件管理器",
+          "imageUrl": "https://img.iplaysoft.com/wp-content/uploads/2024/directory-opus/directory_opus.jpg"
+        },
+        {
+          "id": "https://www.iplaysoft.com/?post_type=news&p=5120",
+          "author": "X-Force",
+          "description": "今年双十一像腾讯视频、哔哩哔哩都给出了不小的优惠力度，但爱奇艺却当时价钱并不低。而这次时间来到双十二，爱奇艺终于发力了！直接来到 5 折即可购买一年爱奇艺黄金 VIP 年卡！\n\n活动期间，黄金 VIP 会员 (支持手机电脑平板)、白金 VIP 会员年卡 (支持电视端+手机电脑平板) 均五折大促，价格比…… \n「 前往查看原文.... 」\n\n异次元首页  |  微信公众号  |  关注微博  |  软件精选  |  软件激活码折扣",
+          "link": "https://www.iplaysoft.com/news/5120",
+          "publishedOn": "2024-12-09T00:30:20.000Z",
+          "wordCount": 1079,
+          "title": "爱奇艺 VIP 限时半价！会员年卡 5 折入手 (白金也打折 / 含电视端)",
+          "imageUrl": "https://img.iplaysoft.com/wp-content/uploads/2020/news/5120/iqiyi_logo.jpg"
+        },
         {
           "id": "https://www.iplaysoft.com/?post_type=news&p=6271",
           "author": "X-Force",
@@ -4244,6 +4329,16 @@
           "wordCount": 1083,
           "title": "Everything 中文绿色版下载 - 免费极速文件搜索工具神器，绝对快得让你震惊！",
           "imageUrl": "https://img.iplaysoft.com/wp-content/uploads/2008/462/everything_image.jpg"
+        },
+        {
+          "id": "https://www.iplaysoft.com/?p=612",
+          "author": "X-Force",
+          "description": "Parallels Desktop 被称为 macOS 上强大的虚拟机软件，可以在 Mac 下同时模拟运行 Win、Linux、Android 等多种操作系统及软件而不必重启电脑，并能在不同系统间随意切换。\n最新版 Parallels Desktop 20 (PD20) 完全支持 macOS Sequoia、Sonoma 和 Windows 11 24H2 (ARM) 及 Ubuntu、Fedora 等，并充分优化！可不重启直接在 Mac 桌面上运行 Linux 和 Win 应用程序和游戏、使用如 Office、VisualStudio、AutoCAD、Matlab 等工具。新版 PD20 还支持 OpenGL 与 DirectX，大幅提升速度及 3D 游戏图形性能！！妥妥是 Mac 必备神器……\n「 前往查看原文.... 」\n异次元还有这些值得一看：\n\nVMWare Fusion Pro 13.6 苹果 Mac 免费虚拟机 (网盘下载) - 支持 M 芯片 / Win11 ARM\nVirtualBox 7 最新虚拟机软件下载 - 免费开源跨平台 (支持 Win/Mac/Linux 安装多系统)\nVMware Workstation Pro 17.6 最新免费虚拟机软件专业版(网盘下载) - 支持 Win11 / 免激活\n首款 iOS 虚拟机 UTM SE - 免越狱在 iPhone iPad 上安装 Windows / Linux / 安卓系统\n\n异次元首页  |  微信公众号  |  关注微博  |  软件精选  |  软件激活码折扣",
+          "link": "https://www.iplaysoft.com/parallels-desktop.html",
+          "publishedOn": "2024-11-29T07:20:40.000Z",
+          "wordCount": 2244,
+          "title": "Parallels Desktop 20 激活码 - 苹果 Mac 最新 PD 虚拟机下载 (支持Win11/macOS Sequoia)",
+          "imageUrl": "https://img.iplaysoft.com/wp-content/uploads/2015/pd11/pd20.jpg"
         },
         {
           "id": "https://www.iplaysoft.com/?p=4904",
@@ -4364,26 +4459,6 @@
           "wordCount": 1065,
           "title": "真实好友 5.0 - 批量检测找出微信删除或拉黑了自己的好友 (通讯录清理工具)",
           "imageUrl": "https://img.iplaysoft.com/wp-content/uploads/2022/zhen-shi-hao-you/zshy.jpg"
-        },
-        {
-          "id": "https://www.iplaysoft.com/?p=5348",
-          "author": "X-Force",
-          "description": "又是一年一度「双十一大促」了！无论是京东、天猫，还是「腾讯云、阿里云」等商家都会发力，这对买买党来说肯定特别幸福了。不过对于咱们而言，软件、游戏的促销同样值得关注！\n异次元特意收集了最近双 11 精选软件/会员等促销活动， 力度诚意都不错。包括哔哩哔哩、WPS会员、百度网盘、腾讯视频；还有正版软件打折比如数码荔枝、ApsGo软购、麦软等；另外还会收集一些值得入手的好价数码产品如 NAS、移动硬盘、Quest 3 等等……\n「 前往查看原文.... 」\n异次元还有这些值得一看：\n\n超值到爆的 BundleHunt 正版 Mac 软件套装 - 40 款正版应用 APP 优惠随意挑！\nQQ 音乐绿钻 VIP 会员年卡 12 个月优惠券后 ￥108 到手价\n苹果学生优惠 2024 官网促销打折启动！“返校季”买 Mac iPad 免费送 AirPods / Pencil\n返场！618 好价值得买汇总 - 各种低价视频 VIP / 网盘会员 / 打折软件 / 数码产品\n\n异次元首页  |  微信公众号  |  关注微博  |  软件精选  |  软件激活码折扣",
-          "link": "https://www.iplaysoft.com/1111.html",
-          "publishedOn": "2024-11-10T12:00:48.000Z",
-          "wordCount": 1688,
-          "title": "双 11 必买好价汇总 - 全网好价视频 VIP / 网盘会员 / 软件打折都在这了…",
-          "imageUrl": "https://img.iplaysoft.com/wp-content/uploads/2021/1111sale/d11_2024.jpg"
-        },
-        {
-          "id": "https://www.iplaysoft.com/?post_type=xpost&p=6030",
-          "author": "X-Force",
-          "description": "喜欢购物的朋友一定知道「京东 Plus 会员」的众多好处，不仅很多商品会有 Plus 的专享价格，而且还有一项非常非常实用的权益就是“全场零门槛包邮”，平日突然想起买点低价小物不必再苦苦凑单，或者出现运费比商品贵的尴尬了，购物体验绝对好多了。\n\n\n然而，直接开通或续费京东 Plus 会员的价格…… \n「 前往查看原文.... 」\n\n异次元首页  |  微信公众号  |  关注微博  |  软件精选  |  软件激活码折扣",
-          "link": "https://www.iplaysoft.com/p/jd-plus",
-          "publishedOn": "2024-11-09T19:42:02.000Z",
-          "wordCount": 986,
-          "title": "京东 Plus 会员年卡￥69 元开通 / 优惠续费方法 (省钱简单教程)",
-          "imageUrl": "https://img.iplaysoft.com/wp-content/uploads/2023/p/jd-plus/jd_plus.jpg"
         }
       ]
     },
@@ -4392,6 +4467,76 @@
       "feedUrl": "http://www.dayanzai.me/feed",
       "siteUrl": "https://www.dayanzai.me",
       "articles": [
+        {
+          "id": "http://www.dayanzai.me/?p=5222",
+          "author": "大眼仔~旭",
+          "description": "WinTools net Premium 24 中文版由大眼仔旭发布。WinTools.net 是一系列的系统 […]",
+          "link": "https://www.dayanzai.me/wintools-net.html",
+          "publishedOn": "2024-12-09T16:23:09.000Z",
+          "wordCount": 1003,
+          "title": "系统优化组合软件 WinTools net Premium 24.12.1 中文多语免费版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=40776",
+          "author": "大眼仔~旭",
+          "description": "免费开源菠萝看图 Pineapple Picture 中文版由大眼仔旭整理发布。尝试使用免费的，开源的，超轻量 […]",
+          "link": "https://www.dayanzai.me/pineapple-picture.html",
+          "publishedOn": "2024-12-08T16:34:10.000Z",
+          "wordCount": 923,
+          "title": "免费开源菠萝看图 Pineapple Picture 0.9.0 中文多语免费版",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.dayanzai.me/?p=73647",
+          "author": "大眼仔~旭",
+          "description": "NWinfo 中文版是一款专为 Windows 操作系统设计的 Win32 应用程序，旨在提供详尽的系统和硬件 […]",
+          "link": "https://www.dayanzai.me/nwinfo.html",
+          "publishedOn": "2024-12-08T16:30:54.000Z",
+          "wordCount": 966,
+          "title": "开源电脑硬件信息检测工具 NWinfo 1.0.5 绿色中文便携版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=1065",
+          "author": "大眼仔~旭",
+          "description": "文件哈希值验证工具 HashMyFiles 中文版由大眼仔旭（www.dayanzai.me）发布。HashM […]",
+          "link": "https://www.dayanzai.me/hashmyfiles.html",
+          "publishedOn": "2024-12-08T16:29:14.000Z",
+          "wordCount": 964,
+          "title": "文件哈希值验证工具 HashMyFiles 2.50 + x64 中文绿色免费版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=3988",
+          "author": "大眼仔~旭",
+          "description": "如果你正在寻找一款 Windows 或 Linux 平台下的手写笔记应用程序，请一定要试试 Xournal++ […]",
+          "link": "https://www.dayanzai.me/xournal.html",
+          "publishedOn": "2024-12-08T16:26:47.000Z",
+          "wordCount": 1058,
+          "title": "免费开源跨平台的 PDF 文档注释工具 Xournal++ 1.2.5 中文多语免费版",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.dayanzai.me/?p=73653",
+          "author": "大眼仔~旭",
+          "description": "PTE AV Studio 中文版是一款专业的电子相册和幻灯片制作软件，由 WnSoft 开发。它允许用户创建 […]",
+          "link": "https://www.dayanzai.me/pte-av-studio-pro.html",
+          "publishedOn": "2024-12-08T16:24:23.000Z",
+          "wordCount": 994,
+          "title": "电子相册制作软件 WnSoft PTE AV Studio Pro 11.0.15 绿色便携中文版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=40572",
+          "author": "大眼仔~旭",
+          "description": "RAM Saver Pro 中文版是一款易于使用的 RAM 优化工具，可以让您的计算机更快地运行。 RAM S […]",
+          "link": "https://www.dayanzai.me/ram-saver-pro.html",
+          "publishedOn": "2024-12-08T16:23:44.000Z",
+          "wordCount": 942,
+          "title": "计算机内存管理工具 RAM Saver Professional 24.12.1 中文多语免费版",
+          "imageUrl": null
+        },
         {
           "id": "http://www.dayanzai.me/?p=1850",
           "author": "大眼仔~旭",
@@ -6081,76 +6226,6 @@
           "wordCount": 1509,
           "title": "免费开源 Flash 反编译工具 JPEXS Free Flash Decompiler 22.0.0 中文免费版",
           "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=2415",
-          "author": "大眼仔~旭",
-          "description": "VSCodium 中文版由大眼仔旭（www.dayanzai.me）发布。VSCodium 是微软流行的 Vi […]",
-          "link": "https://www.dayanzai.me/vscodium.html",
-          "publishedOn": "2024-11-09T16:35:23.000Z",
-          "wordCount": 1028,
-          "title": "开源代码编辑器 VSCodium 1.95.2.24313 x64 中文多语免费版",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=10095",
-          "author": "大眼仔~旭",
-          "description": "DC++ 0.880 Stable + x64 中文版由大眼仔旭发布。DC++，一个开放源码的免费的 P2P  […]",
-          "link": "https://www.dayanzai.me/dc.html",
-          "publishedOn": "2024-11-09T16:24:25.000Z",
-          "wordCount": 1082,
-          "title": "免费开源的 P2P 软件 DC++ 0.882 Stable + x64 中文多语免费版",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=7244",
-          "author": "大眼仔~旭",
-          "description": "Joplin 是一个一款开源简单的、基于 Electron 的应用程序，它允许您添加和管理笔记和待办事项列表， […]",
-          "link": "https://www.dayanzai.me/joplin.html",
-          "publishedOn": "2024-11-09T16:23:21.000Z",
-          "wordCount": 974,
-          "title": "开源免费笔记应用程序 Joplin 3.1.24 中文多语免费版",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=3979",
-          "author": "大眼仔~旭",
-          "description": "开源 Windows 防火墙工具 Fort Firewall 中文版 由大眼仔旭发布。Fort Firewal […]",
-          "link": "https://www.dayanzai.me/fort-firewall.html",
-          "publishedOn": "2024-11-09T16:20:15.000Z",
-          "wordCount": 1106,
-          "title": "开源 Windows 防火墙下载 Fort Firewall 3.14.11 + x64 中文多语免费版",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=8637",
-          "author": "大眼仔~旭",
-          "description": "水狐浏览器 Waterfox 中文版由大眼仔旭发布。Waterfox 中文版是 Firefox 的 64 位版 […]",
-          "link": "https://www.dayanzai.me/waterfox.html",
-          "publishedOn": "2024-11-09T16:13:52.000Z",
-          "wordCount": 1082,
-          "title": "水狐浏览器 Waterfox 6.5.1/2022.11 Classic x64 中文免费版",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=41036",
-          "author": "大眼仔~旭",
-          "description": "MediaInfo 是视频和音频文件和标签数据的便捷统一显示的最佳工具。MediaInfo 是一款免费软件，包 […]",
-          "link": "https://www.dayanzai.me/mediainfo.html",
-          "publishedOn": "2024-11-09T16:10:37.000Z",
-          "wordCount": 957,
-          "title": "视频媒体信息检测工具 MediaInfo 24.11.1 中文多语免费版",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=17075",
-          "author": "大眼仔~旭",
-          "description": "VSCO Cam 中文版由大眼仔旭发布。VSCO Cam 来自 VSCO(Visual Supply Co.的 […]",
-          "link": "https://www.dayanzai.me/vsco-cam.html",
-          "publishedOn": "2024-11-09T16:03:51.000Z",
-          "wordCount": 1063,
-          "title": "文艺青年拍照工具 VSCO Cam 397 中文多语免费版",
-          "imageUrl": null
         }
       ]
     },
@@ -6165,6 +6240,76 @@
       "feedUrl": "http://feeds.feedburner.com/pfc",
       "siteUrl": "https://www.portablefreeware.com/",
       "articles": [
+        {
+          "id": "1535+1733766225",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=1535&ts=1733766225",
+          "publishedOn": "2024-12-09T17:43:45.000Z",
+          "wordCount": 1513,
+          "title": "[UPDATE] HashMyFiles v2.50",
+          "imageUrl": null
+        },
+        {
+          "id": "1398+1733755957",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=1398&ts=1733755957",
+          "publishedOn": "2024-12-09T14:52:37.000Z",
+          "wordCount": 1268,
+          "title": "[UPDATE] Revo Uninstaller Free v2.5.6",
+          "imageUrl": null
+        },
+        {
+          "id": "3116+1733745961",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=3116&ts=1733745961",
+          "publishedOn": "2024-12-09T12:06:01.000Z",
+          "wordCount": 490,
+          "title": "[NEW] System Informer v3.1.24298",
+          "imageUrl": null
+        },
+        {
+          "id": "2706+1733723615",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=2706&ts=1733723615",
+          "publishedOn": "2024-12-09T05:53:35.000Z",
+          "wordCount": 728,
+          "title": "[UPDATE] Text Editor Pro v31.0.1",
+          "imageUrl": null
+        },
+        {
+          "id": "1908+1733718940",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=1908&ts=1733718940",
+          "publishedOn": "2024-12-09T04:35:40.000Z",
+          "wordCount": 1159,
+          "title": "[UPDATE] i2pdf v1.0.52",
+          "imageUrl": null
+        },
+        {
+          "id": "2234+1733718667",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=2234&ts=1733718667",
+          "publishedOn": "2024-12-09T04:31:07.000Z",
+          "wordCount": 430,
+          "title": "[UPDATE] 4ur-Windows-8-Mouse-Balls v4.79",
+          "imageUrl": null
+        },
+        {
+          "id": "1691+1733718644",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=1691&ts=1733718644",
+          "publishedOn": "2024-12-09T04:30:44.000Z",
+          "wordCount": 966,
+          "title": "[UPDATE] Blank And Secure v7.91",
+          "imageUrl": null
+        },
         {
           "id": "287+1733679014",
           "author": null,
@@ -7183,16 +7328,6 @@
           "publishedOn": "2024-11-10T14:24:51.000Z",
           "wordCount": 1032,
           "title": "[UPDATE] TreeSheets Nov 10 2024",
-          "imageUrl": null
-        },
-        {
-          "id": "3113+1731180466",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=3113&ts=1731180466",
-          "publishedOn": "2024-11-09T19:27:46.000Z",
-          "wordCount": 460,
-          "title": "[UPDATE] LWServer v1.1",
           "imageUrl": null
         }
       ]
