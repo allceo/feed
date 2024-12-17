@@ -2,10 +2,248 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://allceo.github.io/feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-12-16T01:24:49.593Z</updated>
+    <updated>2024-12-17T01:22:06.797Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://allceo.github.io/feed/index.html"/>
     <link rel="self" href="https://allceo.github.io/feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[2025年还要做产品经理么？跳槽涨薪6K，我要继续做AI产品经理啦！]]></title>
+        <id>https://www.woshipm.com/?p=6157283</id>
+        <link href="https://www.woshipm.com/it/6157283.html"/>
+        <updated>2024-12-17T00:09:17.000Z</updated>
+        <summary type="html"><![CDATA[怎么样才能成功转型做产品经理呢？又该如何发挥原有工作的经验积累更好地转型呢？拿下新offer后，作者总结了这套 […]]]></summary>
+        <author>
+            <name>起点课堂</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Multiplicity 4 – 一套键鼠屏幕控制多台电脑]]></title>
+        <id>https://www.appinn.com/?p=50493</id>
+        <link href="https://www.appinn.com/multiplicity-4/"/>
+        <updated>2024-12-16T13:55:18.000Z</updated>
+        <summary type="html"><![CDATA[Multiplicity 是一款知名的 KVM 软件，可以帮助我们实现用一套键鼠、屏幕，去控制多台 Windows 电脑。 Stardock 公司于近期发布了 Multiplicity 4 的 Bet]]></summary>
+        <author>
+            <name>青小蛙</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] foobar2000 v2.24.1]]></title>
+        <id>184+1734355930</id>
+        <link href="https://www.portablefreeware.com/?id=184&amp;ts=1734355930"/>
+        <updated>2024-12-16T13:32:10.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[盒子应用——应用管家 v1.5.3（1530）]]></title>
+        <id>http://www.qiuquan.cc/?p=6601</id>
+        <link href="http://www.qiuquan.cc/androidsoft/yygj.html"/>
+        <updated>2024-12-16T12:32:16.000Z</updated>
+        <summary type="html"><![CDATA[应用管家TV版这款免费第三方实用工具，用于管理电视、车载娱乐系统和平板应用以及文件，同时支持提取电视应用并传输到电视上安装。这款工具无广告、无限制，可通过网盘链接安装应用，简便实用。]]></summary>
+        <author>
+            <name>泉</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[深度｜微软 CEO 纳德拉最新两万字洞察：C 端 Agent 商业模式仍需摸索，广告流量模式或面临转变，B 端关键在生态集成]]></title>
+        <id>https://www.woshipm.com/it/6157190.html</id>
+        <link href="https://www.woshipm.com/kol/6157190.html"/>
+        <updated>2024-12-16T09:54:13.000Z</updated>
+        <summary type="html"><![CDATA[AI领域的竞争不再是单一的赢家通吃局面，而是多个企业在不同技术层面的激烈竞争。在这篇深度文章中，微软CEO萨提 […]]]></summary>
+        <author>
+            <name>有新Newin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[好的产品规划让我们踏踏实实干一年]]></title>
+        <id>https://www.woshipm.com/it/6157188.html</id>
+        <link href="https://www.woshipm.com/zhichang/6157188.html"/>
+        <updated>2024-12-16T09:51:30.000Z</updated>
+        <summary type="html"><![CDATA[随着年末的临近，企业决策者和产品经理们开始着手规划新一年的产品设计和发展方向。本文深入探讨了如何制定有效的产品 […]]]></summary>
+        <author>
+            <name>简单有道</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[智能客服：这题又超纲了]]></title>
+        <id>https://www.woshipm.com/it/6157183.html</id>
+        <link href="https://www.woshipm.com/share/6157183.html"/>
+        <updated>2024-12-16T09:41:07.000Z</updated>
+        <summary type="html"><![CDATA[在数字化时代，智能客服系统以其24小时在线、礼貌热情的形象成为了许多企业的首选。然而，随着智能客服的普及，用户 […]]]></summary>
+        <author>
+            <name>张书乐</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[10个要点，看看大厂设计的奇思妙想]]></title>
+        <id>https://www.woshipm.com/?p=6157054</id>
+        <link href="https://www.woshipm.com/ucd/6157054.html"/>
+        <updated>2024-12-16T09:35:03.000Z</updated>
+        <summary type="html"><![CDATA[在当今的设计领域，大厂的创新实践总是走在前沿，不断探索和实现着令人惊叹的用户体验。本文将带您一探那些隐藏在大厂 […]]]></summary>
+        <author>
+            <name>姝斐suphie</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[比听快10倍！免费播客客户端 PodQuest AI 不止能翻译，还能读懂你的兴趣]]></title>
+        <id>https://www.appinn.com/?p=50484</id>
+        <link href="https://www.appinn.com/podquest-ai/"/>
+        <updated>2024-12-16T08:54:26.000Z</updated>
+        <summary type="html"><![CDATA[PodQuest AI 是一款全新的免费播客客户端，支持网页和 iPhone、iPad，它可以将长篇语音节目转化为清晰的文本内容（有时间线），并通过 AI 提取关键信息进行总结。支持英文播客变中文（文]]></summary>
+        <author>
+            <name>青小蛙</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[360压缩 4.0.0.1560 去广告精简版（支持压缩包内连续看图）]]></title>
+        <id>http://bak.qiuquan.cc/?p=4147</id>
+        <link href="http://www.qiuquan.cc/compress/360zip.html"/>
+        <updated>2024-12-16T07:10:46.000Z</updated>
+        <summary type="html"><![CDATA[360压缩是新一代的压缩软件，永久免费。360压缩相比传统压缩软件更快更轻巧，支持解压主流的rar、zip、7z、iso等多达42种压缩文件。360压缩内置云安全引擎，可以检测木马，更安全。大幅简化了传统软件的繁琐操作，还改进了超过20项的使用细节，拥有全新的界面。360压缩的主要特点是快速轻巧、兼容性好、更安全、更漂亮，而且是永久免费的。]]></summary>
+        <author>
+            <name>泉</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RICH设计范式，AI产品的人机界面设计范式？]]></title>
+        <id>https://www.woshipm.com/it/6157069.html</id>
+        <link href="https://www.woshipm.com/ucd/6157069.html"/>
+        <updated>2024-12-16T06:58:52.000Z</updated>
+        <summary type="html"><![CDATA[“RICH 设计范式：AI 界面设计新探索。” 在人工智能时代，人机界面设计面临新挑战。RICH 设计范式如何 […]]]></summary>
+        <author>
+            <name>林影落</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[开启数据治理实践之路]]></title>
+        <id>https://www.woshipm.com/it/6157052.html</id>
+        <link href="https://www.woshipm.com/share/6157052.html"/>
+        <updated>2024-12-16T06:53:26.000Z</updated>
+        <summary type="html"><![CDATA[“数据治理之路，探索前行方向。” 在数据驱动的时代，数据治理成为关键议题。然而，面对诸多困惑与挑战，如何开启有 […]]]></summary>
+        <author>
+            <name>数据小吏</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[即时零售：京东起了个大早，赶了个晚集！]]></title>
+        <id>https://www.woshipm.com/?p=6156784</id>
+        <link href="https://www.woshipm.com/it/6156784.html"/>
+        <updated>2024-12-16T06:52:36.000Z</updated>
+        <summary type="html"><![CDATA[在电商巨头的即时零售战场上，京东虽然早早布局，却意外地被后来者美团闪购迎头赶上，甚至在某些方面被超越。本文将深 […]]]></summary>
+        <author>
+            <name>即时刘说</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[祭天的支付故障：雪崩]]></title>
+        <id>https://www.woshipm.com/it/6157043.html</id>
+        <link href="https://www.woshipm.com/share/6157043.html"/>
+        <updated>2024-12-16T06:45:31.000Z</updated>
+        <summary type="html"><![CDATA[“支付故障之痛，雪崩教训深刻。” 在互联网支付领域，系统稳定至关重要。一次看似微小的问题，如何引发了灾难性的雪 […]]]></summary>
+        <author>
+            <name>隐墨星辰</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[中国软件为什么做不大？]]></title>
+        <id>https://www.woshipm.com/it/6157017.html</id>
+        <link href="https://www.woshipm.com/share/6157017.html"/>
+        <updated>2024-12-16T06:42:43.000Z</updated>
+        <summary type="html"><![CDATA[“中国软件之困，发展受限探因。” 在全球软件产业格局中，中国软件企业规模普遍偏小。为何中国软件难以做大做强？是 […]]]></summary>
+        <author>
+            <name>ToB老人家</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[多抓鱼，文艺版的「闲鱼」？]]></title>
+        <id>https://www.woshipm.com/it/6157012.html</id>
+        <link href="https://www.woshipm.com/share/6157012.html"/>
+        <updated>2024-12-16T06:39:28.000Z</updated>
+        <summary type="html"><![CDATA[“多抓鱼：二手交易中的文艺新宠。” 在二手交易市场，多抓鱼以独特的文艺风格崭露头角。它与闲鱼有何不同？又是如何 […]]]></summary>
+        <author>
+            <name>Vinky</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[本地生活：做抖音团购的逻辑已经改变了]]></title>
+        <id>https://www.woshipm.com/it/6157007.html</id>
+        <link href="https://www.woshipm.com/it/6157007.html"/>
+        <updated>2024-12-16T06:30:14.000Z</updated>
+        <summary type="html"><![CDATA[“抖音团购风云变，本地生活新挑战。” 在抖音本地生活领域，团购逻辑的转变引发诸多思考。竞争加剧、达人作用变化、 […]]]></summary>
+        <author>
+            <name>陈罡Pro</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[90%私域的个人IP其实只是一场自嗨]]></title>
+        <id>https://www.woshipm.com/?p=6156810</id>
+        <link href="https://www.woshipm.com/share/6156810.html"/>
+        <updated>2024-12-16T06:28:20.000Z</updated>
+        <summary type="html"><![CDATA[这几年特别流行打造个人IP，涌现了不少知名人物和课程、方法论等。而在作者的认知里，个人IP不是打造出来的，更多 […]]]></summary>
+        <author>
+            <name>私域何老师</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[生成式AI，企业赋能「五步法」]]></title>
+        <id>https://www.woshipm.com/it/6157003.html</id>
+        <link href="https://www.woshipm.com/share/6157003.html"/>
+        <updated>2024-12-16T06:26:58.000Z</updated>
+        <summary type="html"><![CDATA[“生成式 AI 赋能企业，五步开启新篇。” 在数字化浪潮中，生成式 AI 为企业发展带来新机遇。如何有效利用这 […]]]></summary>
+        <author>
+            <name>长弓PM</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[媒介丛林环境下，品牌social矩阵的基本功]]></title>
+        <id>https://www.woshipm.com/?p=6156824</id>
+        <link href="https://www.woshipm.com/marketing/6156824.html"/>
+        <updated>2024-12-16T06:23:21.000Z</updated>
+        <summary type="html"><![CDATA[前几年有个说法，品牌要做营销矩阵，就是所有的社交平台都要有声音。只是在执行过程中，已经沦为了一键内容同步，矩阵 […]]]></summary>
+        <author>
+            <name>小僧鲲鲲</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[QQ浏览器 10.9.4817.400 正式版 （77内核）+ 12.7.5769.400 正式版（94内核）+ 13.4.6233.400 正式版（116内核）（剔除驱动优化版）]]></title>
+        <id>http://bak.qiuquan.cc/?p=4247</id>
+        <link href="http://www.qiuquan.cc/browser/qqbrowser.html"/>
+        <updated>2024-12-16T05:45:11.000Z</updated>
+        <summary type="html"><![CDATA[QQ浏览器是腾讯公司开发的一款极速浏览器,支持电脑,安卓,苹果等多种终端;更快的浏览体验,更安全的浏览保护,全新主页,定制卡片,个性皮肤,兴趣世界,大有可玩]]></summary>
+        <author>
+            <name>泉</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] KeyNote NF v2.0.1.01]]></title>
+        <id>755+1734327245</id>
+        <link href="https://www.portablefreeware.com/?id=755&amp;ts=1734327245"/>
+        <updated>2024-12-16T05:34:05.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[蚂蚁下载器 Ant Download Manager Pro 2.14.2.88978 正式版 + 2.14.3.89067 测试版]]></title>
+        <id>http://www.qiuquan.cc/?p=7453</id>
+        <link href="http://www.qiuquan.cc/download/adm.html"/>
+        <updated>2024-12-16T05:20:50.000Z</updated>
+        <summary type="html"><![CDATA[蚂蚁下载器(Ant Download Manager)是一款简易实用，功能全面的下载工具，使用这款蚂蚁下载器可以让你自动获取所有种子，超链接等下载路径，一键高速下载您需要的资源。]]></summary>
+        <author>
+            <name>泉</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Win10数字权利激活神器——HEU KMS Activator 42.3.1 + KMSAuto Lite 1.99 b06 + Windows 10 数字永久激活工具 v1.5.3 汉化版 + Windows 10 Digital License C# v3.7]]></title>
+        <id>http://www.qiuquan.cc/?p=4926</id>
+        <link href="http://www.qiuquan.cc/systemtool/activation.html"/>
+        <updated>2024-12-16T04:40:04.000Z</updated>
+        <summary type="html"><![CDATA[数字权利激活”是 Win10新增的激活方法，无需输入产品密钥，数字权利激活会把当前电脑硬件信息上传到微软服务器中，以后重装系统时会自动与微软服务器中存储的激活信息相比对，信息相符即自动激活该设备，免去了用户记忆和输入产品密钥的麻烦。]]></summary>
+        <author>
+            <name>泉</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[余承东转战抖音，将与雷军“对决”？]]></title>
         <id>https://www.woshipm.com/?p=6156514</id>
@@ -53,6 +291,76 @@
         <updated>2024-12-15T17:27:52.000Z</updated>
         <author>
             <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Win10 数字权利激活工具 Windows 10 Digital Activation Program 1.5.5.4 中文版]]></title>
+        <id>http://www.dayanzai.me/?p=36697</id>
+        <link href="https://www.dayanzai.me/w10-digital-activation.html"/>
+        <updated>2024-12-15T16:36:31.000Z</updated>
+        <summary type="html"><![CDATA[W10 Digital Activation 是由俄国大佬 Ratiborus 开发的一款用于 Windows […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PCB 电路板设计软件 Altium Designer 25.1.2 Build 22 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=4691</id>
+        <link href="https://www.dayanzai.me/altium-designer.html"/>
+        <updated>2024-12-15T16:33:06.000Z</updated>
+        <summary type="html"><![CDATA[Altium Designer 25 Multilingual 中文版由大眼仔旭发布。Altium Desig […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[快速视频剪切合并器 Fast Video Cutter Joiner 6.2.0 中文绿色汉化版]]></title>
+        <id>http://www.dayanzai.me/?p=72480</id>
+        <link href="https://www.dayanzai.me/fast-video-cutter-joiner.html"/>
+        <updated>2024-12-15T16:30:51.000Z</updated>
+        <summary type="html"><![CDATA[Fast Video Cutter Joiner 绿色中文版是一款功能强大且易于使用的软件，专为高效地剪切和合 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[免费开源财务管理软件 GnuCash 5.10 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=12918</id>
+        <link href="https://www.dayanzai.me/gnucash.html"/>
+        <updated>2024-12-15T16:26:42.000Z</updated>
+        <summary type="html"><![CDATA[GnuCash 中文版由大眼仔旭（www.dayanzai.me）发布。GnuCash 是一个可以用于个人或小 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[强大的 FTP 服务器软件 Wing FTP Server Corporate 7.3.9 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=36864</id>
+        <link href="https://www.dayanzai.me/wing-ftp-server.html"/>
+        <updated>2024-12-15T16:26:41.000Z</updated>
+        <summary type="html"><![CDATA[Wing FTP Server 是一款专业的跨平台 FTP 服务器端, 支持可伸缩的处理器架构并采用异步IO处 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[优秀的数码相片处理软件 FotoSketcher 3.97 x64 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=665</id>
+        <link href="https://www.dayanzai.me/fotosketcher.html"/>
+        <updated>2024-12-15T16:20:05.000Z</updated>
+        <summary type="html"><![CDATA[今天小编大眼仔旭给大家分享的是 FotoSketcher 绿色便携版，FotoSketcher Protabl […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[批量重命名文件助手 Ant Renamer 2.13 中文便携版]]></title>
+        <id>https://www.dayanzai.me/?p=73686</id>
+        <link href="https://www.dayanzai.me/ant-renamer.html"/>
+        <updated>2024-12-15T16:18:33.000Z</updated>
+        <summary type="html"><![CDATA[Ant Renamer 中文便携版是一款强大且易于使用的软件，专为需要快速、高效地批量重命名文件和文件夹的用户 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
         </author>
     </entry>
     <entry>
@@ -7592,182 +7900,6 @@ Sunshine 基地版 - 魔改加强开源游戏串流工具 (支持 HDR / 自定�
         <link href="https://www.dayanzai.me/personal-backup.html"/>
         <updated>2024-11-17T16:26:04.000Z</updated>
         <summary type="html"><![CDATA[Personal Backup 6 中文版是一个用于将个人数据保存到任何目标文件夹的免费软件，由大眼仔旭提供中 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ubuntu 24.10 LTS 中文桌面版/服务器正式版ISO镜像下载 - 超流行易入门的 Linux 系统]]></title>
-        <id>https://www.iplaysoft.com/?p=452</id>
-        <link href="https://www.iplaysoft.com/ubuntu.html"/>
-        <updated>2024-11-17T07:03:00.000Z</updated>
-        <summary type="html"><![CDATA[说到最红火的 Linux 发行版当属 Ubuntu 了！它拥有漂亮的 UI 界面，跟 macOS 相比也有过之而无不及，而当你试过这款操作系统之后，可能会对 Linux 刻板枯燥的印象产生巨大的改变。
-在 Ubuntu 的世界里，已经不再只是简陋的界面+命令行，而是一款时尚易用同时又足够实用的操作系统，网上也有着最丰富的资料。对大多数没接触过 Linux 想尝鲜学习的话，Ubuntu 绝对是首选。那么，它究竟有什么魅力让那么多非技术爱好者也为之疯狂？我们一起来看看吧……
-「 前往查看原文.... 」
-异次元还有这些值得一看：
-
-《Linux 就该这么学》PDF 电子书下载 - 更适合零基础新手入门学习的书籍教程
-FreeBSD 13.1 系统镜像 - 体验与 Linux 不同的 UNIX 哲学
-Linux Mint 22 - 公认比 Ubuntu 更好用的个人桌面级 Linux 操作系统发行版
-Fedora 41 正式版镜像下载 - 更新快 / 软件包版本新 / 开放的 Linux 发行版系统
-
-异次元首页  |  微信公众号  |  关注微博  |  软件精选  |  软件激活码折扣]]></summary>
-        <author>
-            <name>X-Force</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[案例分享·电商商城分销机制设计]]></title>
-        <id>https://www.woshipm.com/?p=6139756</id>
-        <link href="https://www.woshipm.com/pd/6139756.html"/>
-        <updated>2024-11-17T05:34:15.000Z</updated>
-        <summary type="html"><![CDATA[在商城类产品中，分销机制是一个非常普遍的功能。本文作者从流程到页面，详细分享了电商商城类小程序中的分销机制，供 […]]]></summary>
-        <author>
-            <name>大脑袋瓜子</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[年轻人的失眠症，正在被包装成“熬夜经济”]]></title>
-        <id>https://www.woshipm.com/it/6141842.html</id>
-        <link href="https://www.woshipm.com/it/6141842.html"/>
-        <updated>2024-11-17T05:14:45.000Z</updated>
-        <summary type="html"><![CDATA[在当今这个快节奏的社会中，熬夜已成为许多年轻人的生活方式，而这种生活方式正在被巧妙地转化为一种新的经济现象—— […]]]></summary>
-        <author>
-            <name>道总有理</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[《半条命2》20 周年庆更新，在11月18日前限时免费]]></title>
-        <id>https://www.appinn.com/?p=50181</id>
-        <link href="https://www.appinn.com/halflife2-20th/"/>
-        <updated>2024-11-17T04:12:52.000Z</updated>
-        <summary type="html"><![CDATA[《半条命2》是2004年发布的一款第一人称射击游戏，在游戏商店 Steam 上好评如潮。最近发布了20 周年庆更新，包括「升级了游戏体验、推出了全新功能、翻出了往昔视频，还制作了纪录片」，还有一个壁纸]]></summary>
-        <author>
-            <name>青小蛙</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chatbot核心技术详解（1）：自然语言理解、对话管理和自然语言生成]]></title>
-        <id>https://www.woshipm.com/?p=6141538</id>
-        <link href="https://www.woshipm.com/ai/6141538.html"/>
-        <updated>2024-11-17T04:07:47.000Z</updated>
-        <summary type="html"><![CDATA[在人工智能的浪潮中，Chatbot技术正以其独特的交互方式改变着我们的生活和工作。它们不仅能够提供全天候的服务 […]]]></summary>
-        <author>
-            <name>Miaahaha</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[如何用用户任务思维做好B端业务调研？一篇文章给你讲清楚]]></title>
-        <id>https://www.woshipm.com/?p=6141745</id>
-        <link href="https://www.woshipm.com/class/6141745.html"/>
-        <updated>2024-11-17T04:04:45.000Z</updated>
-        <summary type="html"><![CDATA[业务调研是做B端产品的不可或缺的环节，缺少实际的业务调研而是凭空构思产品方案，对团队对公司都是灾难性的后果。  […]]]></summary>
-        <author>
-            <name>起点课堂</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[后Excel时代的产品设计——基于泵阀等制造场景的BOM管理分析和研发改进]]></title>
-        <id>https://www.woshipm.com/?p=6141377</id>
-        <link href="https://www.woshipm.com/it/6141377.html"/>
-        <updated>2024-11-17T04:03:14.000Z</updated>
-        <summary type="html"><![CDATA[一、从泵阀到隐形战机，贯穿工业产品的BOM管理 任何工业产品的设计和研发，都离不开对BOM（物料清单）的管理— […]]]></summary>
-        <author>
-            <name>鲍师傅 Mr.BOM</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[社群平均留存80+%，这个品牌是如何做私域会员积分的？]]></title>
-        <id>https://www.woshipm.com/?p=6141408</id>
-        <link href="https://www.woshipm.com/share/6141408.html"/>
-        <updated>2024-11-17T03:59:30.000Z</updated>
-        <summary type="html"><![CDATA[在竞争激烈的市场中，品牌如何通过私域运营提升客户忠诚度和品牌影响力？本文将揭秘一个儿童自行车品牌如何巧妙运用私 […]]]></summary>
-        <author>
-            <name>猫雯私域研究社</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] NewFileTime v7.37]]></title>
-        <id>1695+1731815504</id>
-        <link href="https://www.portablefreeware.com/?id=1695&amp;ts=1731815504"/>
-        <updated>2024-11-17T03:51:44.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] OneLoupe v5.91]]></title>
-        <id>1698+1731815485</id>
-        <link href="https://www.portablefreeware.com/?id=1698&amp;ts=1731815485"/>
-        <updated>2024-11-17T03:51:25.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] TakeStock v2.0 Release 73]]></title>
-        <id>1909+1731815465</id>
-        <link href="https://www.portablefreeware.com/?id=1909&amp;ts=1731815465"/>
-        <updated>2024-11-17T03:51:05.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[优秀的产品都具备哪些通用能力]]></title>
-        <id>https://www.woshipm.com/?p=6141030</id>
-        <link href="https://www.woshipm.com/share/6141030.html"/>
-        <updated>2024-11-17T03:46:32.000Z</updated>
-        <summary type="html"><![CDATA[作为产品经理无论是刚入行的还是已经有一段经验的伙伴其实都会出现一个问题，什么是好的产品经理，具备什么能力？这个 […]]]></summary>
-        <author>
-            <name>帅气滴呼呼</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[取代房地产，数字经济崛起，数据资产入表助力数字经济加速跑]]></title>
-        <id>https://www.woshipm.com/?p=6141335</id>
-        <link href="https://www.woshipm.com/it/6141335.html"/>
-        <updated>2024-11-17T03:34:41.000Z</updated>
-        <summary type="html"><![CDATA[近年来，随着房地产市场的逐渐疲软，关于「谁将成为新的经济支柱产业」的讨论愈演愈烈。那么，谁能真正担起这一重任？ […]]]></summary>
-        <author>
-            <name>同道说</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux Mint 22 - 公认比 Ubuntu 更好用的个人桌面级 Linux 操作系统发行版]]></title>
-        <id>https://www.iplaysoft.com/?p=3369</id>
-        <link href="https://www.iplaysoft.com/linux-mint.html"/>
-        <updated>2024-11-17T02:46:20.000Z</updated>
-        <summary type="html"><![CDATA[LinuxMint 是一款基于 Ubuntu 与 Debian 开发的 Linux 操作系统发行版，被很多爱好者誉为“最好的桌面应用系统”，就像是 Linux 世界中的 macOS，适合个人日常办公或开发使用。
-Linux Mint 的目标是为个人和企业客户提供免费/高效/优雅且真正「易于上手」的开源桌面操作系统。它继承了 Ubuntu 众多优点，集成大量「开箱即用」的软件包，加上良好的人机交互体验，使其自 2006 年发行后人气持续狂飙，长居 Distrowatch 全球 Linux 发行版排行榜的第一名，势头相当凶猛……
-「 前往查看原文.... 」
-异次元还有这些值得一看：
-
-Ubuntu 24.10 LTS 中文桌面版/服务器正式版ISO镜像下载 - 超流行易入门的 Linux 系统
-Arch Linux - 让无数高手着迷的极简轻量 Linux 操作系统发行版
-Fedora 41 正式版镜像下载 - 更新快 / 软件包版本新 / 开放的 Linux 发行版系统
-《Linux 就该这么学》PDF 电子书下载 - 更适合零基础新手入门学习的书籍教程
-
-异次元首页  |  微信公众号  |  关注微博  |  软件精选  |  软件激活码折扣]]></summary>
-        <author>
-            <name>X-Force</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] FileVoyager v24.11.1]]></title>
-        <id>2826+1731788996</id>
-        <link href="https://www.portablefreeware.com/?id=2826&amp;ts=1731788996"/>
-        <updated>2024-11-16T20:29:56.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows 11 Arm ISO 发布，支持最新 Snapdragon X 系列处理器]]></title>
-        <id>http://www.dayanzai.me/?p=73433</id>
-        <link href="https://www.dayanzai.me/windows-11-on-arm.html"/>
-        <updated>2024-11-16T13:35:33.000Z</updated>
-        <summary type="html"><![CDATA[近日，微软宣布正式发布 Windows 11 Arm ISO 文件，这标志着基于 ARM 架构的计算机在安装和 […]]]></summary>
         <author>
             <name>大眼仔~旭</name>
         </author>
