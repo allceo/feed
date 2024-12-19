@@ -2,10 +2,275 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://allceo.github.io/feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-12-18T01:19:00.002Z</updated>
+    <updated>2024-12-19T01:19:49.912Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://allceo.github.io/feed/index.html"/>
     <link rel="self" href="https://allceo.github.io/feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[中国移动广西公司“数字化运输”平台产品功能案例解析]]></title>
+        <id>https://www.woshipm.com/?p=6157449</id>
+        <link href="https://www.woshipm.com/pd/6157449.html"/>
+        <updated>2024-12-19T00:53:45.000Z</updated>
+        <summary type="html"><![CDATA[与常规的物流企业不同，中移动这种公司打造数字化运输平台，都有哪些需要注意的点？这篇文章，我们来看看作者的分享。 […]]]></summary>
+        <author>
+            <name>物流小兵说</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] Text Editor Pro v31.1.0]]></title>
+        <id>2706+1734556598</id>
+        <link href="https://www.portablefreeware.com/?id=2706&amp;ts=1734556598"/>
+        <updated>2024-12-18T21:16:38.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] RedNotebook v2.37]]></title>
+        <id>2086+1734556523</id>
+        <link href="https://www.portablefreeware.com/?id=2086&amp;ts=1734556523"/>
+        <updated>2024-12-18T21:15:23.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[安卓影视——视觉 v1.0.1.2 去广告优化版]]></title>
+        <id>http://www.qiuquan.cc/?p=8266</id>
+        <link href="http://www.qiuquan.cc/androidsoft/shijue.html"/>
+        <updated>2024-12-18T17:28:00.000Z</updated>
+        <summary type="html"><![CDATA[视觉影视app是安卓一款免费在线追剧软件，提供电影、电视剧、动漫和综艺等丰富影视内容。它以流畅的播放体验、智能推荐系统和高清画质选项著称，无论是最新的院线大片，还是经典老片，或是热门的电视剧集，视觉影视应用都能一网打尽，满足不同用户的观影需求。支持离线下载，界面简洁易用，让您有更便捷、高品质的免费影视观看体验。]]></summary>
+        <author>
+            <name>泉</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[远程协助工具——TeamViewer 15.61.3 便携版 + 单文件版]]></title>
+        <id>http://bak.qiuquan.cc/?p=4227</id>
+        <link href="http://www.qiuquan.cc/other/teamviewer-2.html"/>
+        <updated>2024-12-18T16:40:34.000Z</updated>
+        <summary type="html"><![CDATA[TeamViewer 是一个在任何防火墙和 NAT 代理的后台用于远程控制，桌面共享和文件传输的简单且快速的解决方案。为了连接到另一台计算机，只需要在 两台计算机上同时运行 TeamViewer 即可而不需要进行一个安装的过程。该软件第一次启动在两台计算机上自动生成伙伴 ID。只需要输入你的伙伴的 ID 到 TeamViewer，然后就会立即建立起连接。]]></summary>
+        <author>
+            <name>泉</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[福昕高级PDF编辑器 Foxit PDF Editor 13.1.5.23566 + 2024.4.0.27683 专业版直装破解版]]></title>
+        <id>http://www.qiuquan.cc/?p=8246</id>
+        <link href="http://www.qiuquan.cc/other/foxitpdfeditor.html"/>
+        <updated>2024-12-18T16:10:14.000Z</updated>
+        <summary type="html"><![CDATA[福昕高级PDF编辑器是一款功能强大、超级实用的PDF编辑软件，功能齐全，适合各种规模的企业组织，支持创建、编辑、注释、协作和共享、保护、页面管理、导出、扫描和光学字符识别(OCR)以及签署PDF文档和表单等。]]></summary>
+        <author>
+            <name>泉</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[万能解包工具 Universal Extractors v2024.12.18 汉化直装版 By：Koros]]></title>
+        <id>http://www.qiuquan.cc/?p=8255</id>
+        <link href="http://www.qiuquan.cc/setup/universalextractors.html"/>
+        <updated>2024-12-18T14:43:02.000Z</updated>
+        <summary type="html"><![CDATA[Universal Extractor是一款可以从任何类型的存档文件中提取文件的万能解包提取工具，只需指定待提取的文件与目标文件夹，Universal Extractor 会自动分析文件类型并提取完成。]]></summary>
+        <author>
+            <name>泉</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[硬盘低格工具 HDD Low Level Format Tool v4.50 汉化单文件版 By：大眼仔]]></title>
+        <id>http://www.qiuquan.cc/?p=8251</id>
+        <link href="http://www.qiuquan.cc/systemtool/hddllf.html"/>
+        <updated>2024-12-18T14:05:04.000Z</updated>
+        <summary type="html"><![CDATA[HDD Low Level Format Tool是一款小巧实用的硬盘低格修复工具，支持对硬盘、USB硬盘、SSD硬盘、U盘和闪存卡（SD、MMC、记忆棒和CF）等进行低级格式化操作，帮助用户轻松修复一些硬盘问题。]]></summary>
+        <author>
+            <name>泉</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[从零搭建增长框架：企业增长之路-下篇]]></title>
+        <id>https://www.woshipm.com/?p=6155193</id>
+        <link href="https://www.woshipm.com/share/6155193.html"/>
+        <updated>2024-12-18T09:09:00.000Z</updated>
+        <summary type="html"><![CDATA[传统企业的本质增长增长存在两种思维：一种是流量思维，另一种是超级用户思维。现在市面上有很多关于增长的书籍，它们 […]]]></summary>
+        <author>
+            <name>Sherryyyyy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PC Bio Unlock – 用安卓指纹解锁登录 Windows、Linux 系统]]></title>
+        <id>https://www.appinn.com/?p=50426</id>
+        <link href="https://www.appinn.com/pc-bio-unlock/"/>
+        <updated>2024-12-18T09:04:25.000Z</updated>
+        <summary type="html"><![CDATA[PC Bio Unlock 是一款用你的安卓手机（指纹）解锁 Windows 10、11，以及 Linux 系统的工具，支持蓝牙与 Wi-Fi 连接。Pro 版本还支持自动解锁、手表解锁。@Appin]]></summary>
+        <author>
+            <name>青小蛙</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[企业家 IP 要从“流量戏子”进化为“精神领袖”]]></title>
+        <id>https://www.woshipm.com/?p=6158171</id>
+        <link href="https://www.woshipm.com/share/6158171.html"/>
+        <updated>2024-12-18T09:02:21.000Z</updated>
+        <summary type="html"><![CDATA[在数字化时代，企业家个人品牌的影响力日益凸显，成为企业竞争力的新维度。本文深入探讨了企业家如何从追求流量的“网 […]]]></summary>
+        <author>
+            <name>梁将军</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] Agent Ransack Lite v2022 Build 3502]]></title>
+        <id>3006+1734502033</id>
+        <link href="https://www.portablefreeware.com/?id=3006&amp;ts=1734502033"/>
+        <updated>2024-12-18T06:07:13.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PowerToys v0.87.0 更新，新建+ 功能支持 Windows 10，预览窗格支持 .ahk 文件、高级粘贴的 AI 功能]]></title>
+        <id>https://www.appinn.com/?p=50521</id>
+        <link href="https://www.appinn.com/powertoys-v0-87-0/"/>
+        <updated>2024-12-18T05:46:48.000Z</updated>
+        <summary type="html"><![CDATA[PowerToys v0.87.0 例行更新，主要内容有 新建+ 功能支持了 Windows 10，资源管理器新增 .ahk 文件预览、高级粘贴的 AI 功能等。@Appinn PowerToys v]]></summary>
+        <author>
+            <name>青小蛙</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[祭天的支付故障：大促高峰运营后台操作拖死在线交易]]></title>
+        <id>https://www.woshipm.com/it/6158254.html</id>
+        <link href="https://www.woshipm.com/share/6158254.html"/>
+        <updated>2024-12-18T05:31:08.000Z</updated>
+        <summary type="html"><![CDATA[在支付系统的复杂世界里，一次不经意的后台操作可能引发灾难性的后果。本文回顾了一起发生在大促高峰期间的支付故障案 […]]]></summary>
+        <author>
+            <name>隐墨星辰</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[电商高手赚钱的秘密：顺势而为]]></title>
+        <id>https://www.woshipm.com/it/6158243.html</id>
+        <link href="https://www.woshipm.com/share/6158243.html"/>
+        <updated>2024-12-18T04:30:05.000Z</updated>
+        <summary type="html"><![CDATA[“电商赚钱之道，顺势方能有为。” 在电商竞争激烈的战场上，市场和用户需求瞬息万变。如何把握趋势，实现盈利？顺势 […]]]></summary>
+        <author>
+            <name>老虎讲运营</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[B站的MATES人群资产模型，有什么看头？]]></title>
+        <id>https://www.woshipm.com/it/6158242.html</id>
+        <link href="https://www.woshipm.com/user-research/6158242.html"/>
+        <updated>2024-12-18T04:25:34.000Z</updated>
+        <summary type="html"><![CDATA[“B 站人群资产模型，营销新利器。” 在营销格局不断演变的当下，B 站推出的 MATES 人群资产模型引发关注 […]]]></summary>
+        <author>
+            <name>寻空</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI智能体+小程序解决方案，扣子Coze智能体秒变小程序！]]></title>
+        <id>https://www.woshipm.com/it/6158241.html</id>
+        <link href="https://www.woshipm.com/share/6158241.html"/>
+        <updated>2024-12-18T04:24:51.000Z</updated>
+        <summary type="html"><![CDATA[本文深入剖析了算法在内容推荐、用户隐私和公平交易等方面引发的争议，并探讨了监管介入对平台算法带来的挑战。在这场 […]]]></summary>
+        <author>
+            <name>陈宇明</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] ThisIsMyFile v4.38]]></title>
+        <id>2877+1734495569</id>
+        <link href="https://www.portablefreeware.com/?id=2877&amp;ts=1734495569"/>
+        <updated>2024-12-18T04:19:29.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2024年的十个工作教训（二）]]></title>
+        <id>https://www.woshipm.com/it/6158236.html</id>
+        <link href="https://www.woshipm.com/share/6158236.html"/>
+        <updated>2024-12-18T04:17:42.000Z</updated>
+        <summary type="html"><![CDATA[从紧张的PPT任务到日常工作的重复性劳动，这些故事不仅是对过去一年的反思，也是对未来工作的启示。让我们一起探索 […]]]></summary>
+        <author>
+            <name>产品小球</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何用钉钉开一场高质量会议？]]></title>
+        <id>https://www.woshipm.com/it/6158235.html</id>
+        <link href="https://www.woshipm.com/share/6158235.html"/>
+        <updated>2024-12-18T04:15:15.000Z</updated>
+        <summary type="html"><![CDATA[日本的一项研究公式揭示了会议成本的惊人真相，而超过半数的会议时间被浪费的现象，更是让企业面临效率的挑战。本文将 […]]]></summary>
+        <author>
+            <name>钉钉用户体验</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[客户体验：做“体验”之前有必要先成为一名“幼师”]]></title>
+        <id>https://www.woshipm.com/it/6158234.html</id>
+        <link href="https://www.woshipm.com/share/6158234.html"/>
+        <updated>2024-12-18T04:09:38.000Z</updated>
+        <summary type="html"><![CDATA[“客户体验之基，幼师情商启示。” 在追求卓越客户体验的道路上，我们往往专注于技术与流程。然而，一个新的视角悄然 […]]]></summary>
+        <author>
+            <name>龙国富</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] CrystalDiskMark v8.0.6]]></title>
+        <id>1616+1734494308</id>
+        <link href="https://www.portablefreeware.com/?id=1616&amp;ts=1734494308"/>
+        <updated>2024-12-18T03:58:28.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[裂变营销设计，如何获取1000+精准客户的实战指南！]]></title>
+        <id>https://www.woshipm.com/?p=6158134</id>
+        <link href="https://www.woshipm.com/share/6158134.html"/>
+        <updated>2024-12-18T03:43:34.000Z</updated>
+        <summary type="html"><![CDATA[在当今营销领域，裂变营销以其独特的传播力和获客效率，成为企业增长的强劲引擎。本文将为您揭示裂变营销的核心秘诀， […]]]></summary>
+        <author>
+            <name>瑾益</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[销售组织目标达成的驱动力及影响因素——销售过程管理「8」]]></title>
+        <id>https://www.woshipm.com/?p=6158068</id>
+        <link href="https://www.woshipm.com/operate/6158068.html"/>
+        <updated>2024-12-18T02:49:39.000Z</updated>
+        <summary type="html"><![CDATA[在销售管理的复杂体系中，销售过程管理扮演着至关重要的角色。本文将深入探讨销售过程管理的驱动力及其影响因素，帮助 […]]]></summary>
+        <author>
+            <name>运营的不惑屋</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[用户真的不懂自己想要什么]]></title>
+        <id>https://www.woshipm.com/?p=6158036</id>
+        <link href="https://www.woshipm.com/share/6158036.html"/>
+        <updated>2024-12-18T02:45:35.000Z</updated>
+        <summary type="html"><![CDATA[在快速变化的市场环境中，企业常常依赖数据分析来指导产品战略，但用户的真实需求却往往被忽视。本文探讨了Nike前 […]]]></summary>
+        <author>
+            <name>都市摆渡人</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[极越夏一平犯过的错对创业者有哪些启示？]]></title>
+        <id>https://www.woshipm.com/?p=6158077</id>
+        <link href="https://www.woshipm.com/share/6158077.html"/>
+        <updated>2024-12-18T02:18:26.000Z</updated>
+        <summary type="html"><![CDATA[成功往往不可复制，但他人犯过的错误却可以避免，想要做成一件事，更多的是要学习他人失败的经验。失败乃成功之母，古 […]]]></summary>
+        <author>
+            <name>波叔爱这世界</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[月收入暴涨3092%，下载量激增1366%，社交出海再创文化社区新范式]]></title>
+        <id>https://www.woshipm.com/?p=6158009</id>
+        <link href="https://www.woshipm.com/share/6158009.html"/>
+        <updated>2024-12-18T02:17:56.000Z</updated>
+        <summary type="html"><![CDATA[在全球化的浪潮中，社交应用的出海之旅不断带来新的惊喜和挑战。近期，两款由中国香港开发者推出的社交应用在美国和中 […]]]></summary>
+        <author>
+            <name>扬帆出海</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[利润表取数规则]]></title>
         <id>https://www.woshipm.com/it/6158065.html</id>
@@ -62,6 +327,56 @@
         <updated>2024-12-17T17:29:40.000Z</updated>
         <author>
             <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[免费、开源 CMS 系统 Drupal 11.1.0 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=70388</id>
+        <link href="https://www.dayanzai.me/drupal.html"/>
+        <updated>2024-12-17T16:43:21.000Z</updated>
+        <summary type="html"><![CDATA[Drupal 是一个开源的内容管理系统（CMS），使用 PHP 编写。它由比利时学生创建，现在被用于构建各种类 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[开源软件包管理器 WingetUI 3.1.4 x64 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=44803</id>
+        <link href="https://www.dayanzai.me/wingetui.html"/>
+        <updated>2024-12-17T16:36:55.000Z</updated>
+        <summary type="html"><![CDATA[Winget 是一个很多人都非常熟悉的软件包管理器，但大多数休闲用户由于命令行界面而干脆放弃使用它，这可能看起 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[轻量级 BT 下载工具 qBittorrent 5.0.3 + x64 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=32988</id>
+        <link href="https://www.dayanzai.me/qbittorrent.html"/>
+        <updated>2024-12-17T16:33:26.000Z</updated>
+        <summary type="html"><![CDATA[今天大眼仔旭给大家推荐国外的一款优秀免费的 BT 下载工具 qBittorrent 中文版。qBittorre […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[硬盘低格工具 HDD Low Level Format Tool 4.50 中文汉化版]]></title>
+        <id>http://www.dayanzai.me/?p=31655</id>
+        <link href="https://www.dayanzai.me/hdd-low-level-format-tool.html"/>
+        <updated>2024-12-17T16:32:16.000Z</updated>
+        <summary type="html"><![CDATA[硬盘低格工具 HDD Low Level Format Tool 4.40 中文免费版由大眼仔旭汉化发布。HD […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[注册表清理优化工具 Wise Registry Cleaner X 11.1.8 Build 723 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=5557</id>
+        <link href="https://www.dayanzai.me/wise-registry.html"/>
+        <updated>2024-12-17T16:30:22.000Z</updated>
+        <summary type="html"><![CDATA[Wise Registry Cleaner 11 中文版 由大眼仔旭发布。Wise Registry Clea […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
         </author>
     </entry>
     <entry>
@@ -7623,256 +7938,6 @@ Free Download Manager (FDM) 中文版 - 替代迅雷的优秀免费开源下载�
         <link href="https://www.dayanzai.me/notepad-next.html"/>
         <updated>2024-11-19T16:24:16.000Z</updated>
         <summary type="html"><![CDATA[开源免费代码编辑器 Notepad Next 中文版由大眼仔发布。Notepad Next 是 Linux 上 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[为什么 IT 部门不喜欢 SaaS？]]></title>
-        <id>https://www.woshipm.com/it/6142868.html</id>
-        <link href="https://www.woshipm.com/share/6142868.html"/>
-        <updated>2024-11-19T10:14:08.000Z</updated>
-        <summary type="html"><![CDATA[SaaS（Software as a Service）模式作为云计算的代表，为企业提供了便捷的软件服务。然而， […]]]></summary>
-        <author>
-            <name>ToB老人家</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[用研｜CRF表单功能操作分析（一）]]></title>
-        <id>https://www.woshipm.com/it/6142865.html</id>
-        <link href="https://www.woshipm.com/share/6142865.html"/>
-        <updated>2024-11-19T10:06:39.000Z</updated>
-        <summary type="html"><![CDATA[在医疗领域，CRF（Case Report Form）表单是收集和管理患者数据的关键工具。随着技术的发展，数字 […]]]></summary>
-        <author>
-            <name>Ychen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[一篇短文，带你快速了解AI在零售行业的应用]]></title>
-        <id>https://www.woshipm.com/it/6142861.html</id>
-        <link href="https://www.woshipm.com/share/6142861.html"/>
-        <updated>2024-11-19T09:46:43.000Z</updated>
-        <summary type="html"><![CDATA[随着人工智能技术的飞速发展，AI在零售行业的应用已经从理论走向实践，深刻改变了零售业的运营模式和消费者体验。本 […]]]></summary>
-        <author>
-            <name>闯爷</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[为什么AI大模型更适合服务投顾这个群体？]]></title>
-        <id>https://www.woshipm.com/it/6142859.html</id>
-        <link href="https://www.woshipm.com/share/6142859.html"/>
-        <updated>2024-11-19T09:34:34.000Z</updated>
-        <summary type="html"><![CDATA[在金融市场的复杂多变中，投资顾问（投顾）扮演着至关重要的角色，他们不仅是投资者与市场之间的桥梁，更是专业知识的 […]]]></summary>
-        <author>
-            <name>数金杂谈</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[对话蔚来：超级小内容时代，汽车TVC怎么做？]]></title>
-        <id>https://www.woshipm.com/?p=6142829</id>
-        <link href="https://www.woshipm.com/it/6142829.html"/>
-        <updated>2024-11-19T09:20:54.000Z</updated>
-        <summary type="html"><![CDATA[上一篇文章我说，汽车品牌也开始拥抱种草了。 有一位汽车品牌的朋友过来和我说，认同我的观点，但也有些疑惑。 她说 […]]]></summary>
-        <author>
-            <name>刀姐doris</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[胖东来是最成功的私域！]]></title>
-        <id>https://www.woshipm.com/it/6142793.html</id>
-        <link href="https://www.woshipm.com/share/6142793.html"/>
-        <updated>2024-11-19T08:51:50.000Z</updated>
-        <summary type="html"><![CDATA[在数字化营销的浪潮中，私域流量的经营已成为企业竞争的关键。胖东来，一个非典型的私域案例，以其独特的经营模式，展 […]]]></summary>
-        <author>
-            <name>十里村</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[一面是明星呼吁观众去电影院，一面是“土味”短剧霸榜App Store]]></title>
-        <id>https://www.woshipm.com/it/6142790.html</id>
-        <link href="https://www.woshipm.com/it/6142790.html"/>
-        <updated>2024-11-19T08:48:08.000Z</updated>
-        <summary type="html"><![CDATA[在数字化娱乐的浪潮中，电影与短剧的较量愈发激烈。一边是明星大导呼吁回归电影院，一边是短剧App在应用商店的霸榜 […]]]></summary>
-        <author>
-            <name>郭静</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[拼多多突然断流了怎么办]]></title>
-        <id>https://www.woshipm.com/it/6142783.html</id>
-        <link href="https://www.woshipm.com/share/6142783.html"/>
-        <updated>2024-11-19T08:37:09.000Z</updated>
-        <summary type="html"><![CDATA[拼多多链接突然断流是常见问题，运营者应正确看待。解决时需先排查原因，常见原因包括隐形降权（可能是质量分问题，可 […]]]></summary>
-        <author>
-            <name>老虎讲运营</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[用户画像，如何真正赋能业务增长？]]></title>
-        <id>https://www.woshipm.com/it/6142781.html</id>
-        <link href="https://www.woshipm.com/share/6142781.html"/>
-        <updated>2024-11-19T08:23:36.000Z</updated>
-        <summary type="html"><![CDATA[在数字化营销的时代，用户画像已成为企业精准营销的利器。然而，许多企业在构建了庞大的用户标签体系后，却发现这些数 […]]]></summary>
-        <author>
-            <name>接地气的陈老师</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[如何提升市场洞察力？我花12年，观察5个行业，总结了这2点…]]></title>
-        <id>https://www.woshipm.com/it/6142771.html</id>
-        <link href="https://www.woshipm.com/share/6142771.html"/>
-        <updated>2024-11-19T08:11:43.000Z</updated>
-        <summary type="html"><![CDATA[在市场的波谲云诡中，洞察力是每位营销人的罗盘。本文作者，凭借十二年的行业观察和实战经验，跨越五个行业的沉浮，为 […]]]></summary>
-        <author>
-            <name>智卓见</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[用研｜CRF表单功能操作分析（一）]]></title>
-        <id>https://www.woshipm.com/?p=6142489</id>
-        <link href="https://www.woshipm.com/share/6142489.html"/>
-        <updated>2024-11-19T08:06:59.000Z</updated>
-        <summary type="html"><![CDATA[随着行业需求的动态变化和更新速度的加快，现有的问卷工具已难以满足专业、多样化和高频次的需求。本文深入分析了自研 […]]]></summary>
-        <author>
-            <name>Ychen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[专业注册表清理工具——Wise Registry Cleaner 10.9.2.709 + 11.1.8.723 去广告专业版（安装版 + 单文件版）]]></title>
-        <id>http://bak.qiuquan.cc/?p=4202</id>
-        <link href="http://www.qiuquan.cc/systemtool/wise-registry-cleaner.html"/>
-        <updated>2024-11-19T08:00:49.000Z</updated>
-        <summary type="html"><![CDATA[Wise Registry Cleaner是一款功能强大的磁盘整理软件，软件界面简洁，功能非常强大，支持简体中文多语言界面，还支持XP下透明界面，能够帮助用户快速清理系统垃圾、硬盘整理、注册表清理、查找重复文件、进程管理以及内存优化等等一系列优化工具。]]></summary>
-        <author>
-            <name>泉</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[产品经理进阶]]></title>
-        <id>https://www.woshipm.com/it/6142767.html</id>
-        <link href="https://www.woshipm.com/share/6142767.html"/>
-        <updated>2024-11-19T08:00:34.000Z</updated>
-        <summary type="html"><![CDATA[产品经理成长分阶段，初级要理解技术转化需求，中级需洞察行业变迁调整业务，高级应理解人性满足需求。AI 时代，技 […]]]></summary>
-        <author>
-            <name>蔡锦海</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[连续包年优惠服务可以随时取消，那优惠还有意义吗？]]></title>
-        <id>https://www.woshipm.com/it/6142765.html</id>
-        <link href="https://www.woshipm.com/share/6142765.html"/>
-        <updated>2024-11-19T07:57:10.000Z</updated>
-        <summary type="html"><![CDATA[双 11 渐冷清，但视频平台连续包年优惠仍吸引用户。此优惠有三大意义：低价引流吸引新用户，降低试用成本促其转化 […]]]></summary>
-        <author>
-            <name>一直在迭代</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[交易不只是简单的算账]]></title>
-        <id>https://www.woshipm.com/?p=6141924</id>
-        <link href="https://www.woshipm.com/pd/6141924.html"/>
-        <updated>2024-11-19T07:55:56.000Z</updated>
-        <summary type="html"><![CDATA[在商业世界中，交易是企业盈利的核心环节，而交易流程的复杂性往往被忽视。本文深入探讨了交易流程中的各种细节，揭示 […]]]></summary>
-        <author>
-            <name>半问</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[开源神器 PDFMathTranslate：轻松实现 PDF 全文翻译并保留排版样式]]></title>
-        <id>https://www.appinn.com/?p=50200</id>
-        <link href="https://www.appinn.com/pdf-math-translate/"/>
-        <updated>2024-11-19T06:42:22.000Z</updated>
-        <summary type="html"><![CDATA[PDFMathTranslate 是一个开源项目，它能够在保持原有格式与排版的基础上翻译 PDF 论文和电子书。它不仅完整保留 LaTeX 数学公式、PDF 索引目录和图表样式等文档内容，还能让译文]]></summary>
-        <author>
-            <name>青小蛙</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[产品经理必看：你的业务调研方法，真的高效且正确吗？]]></title>
-        <id>https://www.woshipm.com/?p=6142348</id>
-        <link href="https://www.woshipm.com/it/6142348.html"/>
-        <updated>2024-11-19T00:01:25.000Z</updated>
-        <summary type="html"><![CDATA[业务调研是做B端产品的不可或缺的环节，缺少实际的业务调研而是凭空构思产品方案，对团队对公司都是灾难性的后果。  […]]]></summary>
-        <author>
-            <name>起点课堂</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[文件下载大师 Download Master 7.1.3.1733 中文多语免费版]]></title>
-        <id>http://www.dayanzai.me/?p=1202</id>
-        <link href="https://www.dayanzai.me/download-master.html"/>
-        <updated>2024-11-18T16:36:05.000Z</updated>
-        <summary type="html"><![CDATA[Download Master 中文版 – 这是最流行的下载程序之一。 在 Download Ma […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[开源 3D 动画建模渲染软件 Blender 4.2.4 x64 中文多语免费版]]></title>
-        <id>http://www.dayanzai.me/?p=41982</id>
-        <link href="https://www.dayanzai.me/blender.html"/>
-        <updated>2024-11-18T16:33:43.000Z</updated>
-        <summary type="html"><![CDATA[Blender 4.2 中文版是一款免费的开源 3D 创作套件由大眼仔旭整理发布。Blender 支持整个 3 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[黑曜石 Markdown 笔记 Obsidian 1.7.7 x64 中文多语免费版]]></title>
-        <id>http://www.dayanzai.me/?p=366</id>
-        <link href="https://www.dayanzai.me/obsidian.html"/>
-        <updated>2024-11-18T16:32:23.000Z</updated>
-        <summary type="html"><![CDATA[黑曜石 Markdown 笔记 Obsidian 中文版由大眼仔旭发布。在日益拥挤的 Markdown 知识库 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[尼康相机图像处理软件 NX Studio 1.7.1 中文多语免费版]]></title>
-        <id>http://www.dayanzai.me/?p=6801</id>
-        <link href="https://www.dayanzai.me/nx-studio.html"/>
-        <updated>2024-11-18T16:28:46.000Z</updated>
-        <summary type="html"><![CDATA[尼康相机图像处理软件 NX Studio 中文版由大眼仔旭（www.dayanzai.me）整理发布。东京 & […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[开源跨平台交互式白板演示工具 OpenBoard 1.7.2 中文多语免费版]]></title>
-        <id>http://www.dayanzai.me/?p=6185</id>
-        <link href="https://www.dayanzai.me/openboard.html"/>
-        <updated>2024-11-18T16:20:55.000Z</updated>
-        <summary type="html"><![CDATA[开源跨平台交互式白板演示工具 文件同步工具 OpenBoard 中文版由大眼仔旭发布。OpenBoard 是一 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[免费 UI/UX 原型设计工具 Icons8 Lunacy 10.6 x64 中文多语免费版]]></title>
-        <id>http://www.dayanzai.me/?p=6282</id>
-        <link href="https://www.dayanzai.me/lunacy.html"/>
-        <updated>2024-11-18T16:18:08.000Z</updated>
-        <summary type="html"><![CDATA[免费 UI/UX 原型设计工具 Lunacy 中文版由大眼仔旭发布。Lunacy 中文版是一款由人工智能驱动的 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[多功能免费 PDF 工具箱 PDF24 Creator 11.21.0 中文免费版]]></title>
-        <id>http://www.dayanzai.me/?p=147</id>
-        <link href="https://www.dayanzai.me/pdf24-creator.html"/>
-        <updated>2024-11-18T16:08:56.000Z</updated>
-        <summary type="html"><![CDATA[多功能免费 PDF 工具箱PDF24 Creator 中文版由大眼仔旭（www.dayanzai.me）整理发 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[任务和规划时间工具 TickTick 7.4.2.2 中文多语免费版]]></title>
-        <id>http://www.dayanzai.me/?p=4254</id>
-        <link href="https://www.dayanzai.me/ticktick.html"/>
-        <updated>2024-11-18T16:06:02.000Z</updated>
-        <summary type="html"><![CDATA[任务和规划时间工具 TickTick 中文版由大眼仔旭发布。TickTick 是一个简单有效的待办事项列表和任 […]]]></summary>
         <author>
             <name>大眼仔~旭</name>
         </author>
