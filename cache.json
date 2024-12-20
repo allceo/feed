@@ -6,6 +6,16 @@
       "siteUrl": "https://www.appinn.com",
       "articles": [
         {
+          "id": "https://www.appinn.com/?p=50529",
+          "author": "青小蛙",
+          "description": "GitHub Copilot 是著名的代码托管平台 GitHub 发布的 AI 辅助编程工具，可在 GitHub 网页直接使用。它能根据你的需求，自动生成代码，还能检查代码错误、优化代码，并提供建议。",
+          "link": "https://www.appinn.com/github-copilot-free/",
+          "publishedOn": "2024-12-19T04:02:49.000Z",
+          "wordCount": 2718,
+          "title": "GitHub Copilot 面向所有用户免费开放，每月 2,000 条代码建议",
+          "imageUrl": "https://www.appinn.com/wp-content/uploads/2024/12/appinn-homework-47.jpg"
+        },
+        {
           "id": "https://www.appinn.com/?p=50426",
           "author": "青小蛙",
           "description": "PC Bio Unlock 是一款用你的安卓手机（指纹）解锁 Windows 10、11，以及 Linux 系统的工具，支持蓝牙与 Wi-Fi 连接。Pro 版本还支持自动解锁、手表解锁。@Appin",
@@ -454,26 +464,6 @@
           "wordCount": 2597,
           "title": "Bluesky 是什么？我们注册了一个账号",
           "imageUrl": "https://www.appinn.com/wp-content/uploads/2024/11/appinn-homework-1.jpg"
-        },
-        {
-          "id": "https://www.appinn.com/?p=50220",
-          "author": "青小蛙",
-          "description": "一直在帮小朋友写作业，最新的一次，是解释名言名句。想着把折腾的过程记录下来，就有了这个新系列 #帮小朋友写作业，至于能更新几次，看作业量。 解释名言名句  最新的任务，是小朋友有一个本子，很多页，上面",
-          "link": "https://www.appinn.com/doing-homework-help-student-1/",
-          "publishedOn": "2024-11-20T05:50:18.000Z",
-          "wordCount": 2909,
-          "title": "帮小朋友写作业[1]：解释名言名句",
-          "imageUrl": "https://www.appinn.com/wp-content/uploads/2024/11/appinn-homework.jpg"
-        },
-        {
-          "id": "https://www.appinn.com/?p=50213",
-          "author": "青小蛙",
-          "description": "MailCatcher 是一个超简单易用的 SMTP 邮件服务器，它能捕获所有通过其自身发送的邮件，并显示在网页上，支持 API。完全不需要邮件客户端，也不会到达任何公共邮箱，适合自己给自己发消息，适",
-          "link": "https://www.appinn.com/mailcatcher/",
-          "publishedOn": "2024-11-20T03:44:07.000Z",
-          "wordCount": 2940,
-          "title": "MailCatcher：超简单 SMTP 测试服务器，轻松捕获测试邮件（网页/API），但不真发邮件",
-          "imageUrl": "https://www.appinn.com/wp-content/uploads/2024/11/Appinn-Feature-images-2024-11-20T113940.399.jpg"
         }
       ]
     },
@@ -482,6 +472,156 @@
       "feedUrl": "http://www.woshipm.com/feed",
       "siteUrl": "https://www.woshipm.com",
       "articles": [
+        {
+          "id": "https://www.woshipm.com/it/6159077.html",
+          "author": "隐墨星辰",
+          "description": "在金融科技领域，支付账务系统的设计和实现是构建高效、安全支付平台的关键。本文深入探讨了支付账务系统的核心设计， […]",
+          "link": "https://www.woshipm.com/share/6159077.html",
+          "publishedOn": "2024-12-19T11:50:57.000Z",
+          "wordCount": 879,
+          "title": "图解支付账务系统核心设计（进阶版）",
+          "imageUrl": "https://image.woshipm.com/2024/10/23/8d1c3048-9133-11ef-b0a5-00163e142b65.png"
+        },
+        {
+          "id": "https://www.woshipm.com/it/6158965.html",
+          "author": "数据小吏",
+          "description": "在大数据和数字化转型的背景下，OLAP（在线分析处理）系统在企业中扮演着越来越关键的角色。本文深入探讨了面向O […]",
+          "link": "https://www.woshipm.com/share/6158965.html",
+          "publishedOn": "2024-12-19T10:11:17.000Z",
+          "wordCount": 716,
+          "title": "服务开发篇 | 面向OLAP的数据指标使用",
+          "imageUrl": "https://image.woshipm.com/2024/04/30/34d1d5ca-06cb-11ef-8ad3-00163e142b65.png"
+        },
+        {
+          "id": "https://www.woshipm.com/it/6158960.html",
+          "author": "壹叁零壹",
+          "description": "本文将带你深入了解数字化转型的“点、线、面、体”战略，从局部的点状实践到整体的生态构建，探索企业数字化转型的路 […]",
+          "link": "https://www.woshipm.com/pd/6158960.html",
+          "publishedOn": "2024-12-19T09:31:46.000Z",
+          "wordCount": 738,
+          "title": "数字化转型的点、线、面、体",
+          "imageUrl": "https://image.woshipm.com/2024/06/13/88bdeb10-294e-11ef-92f3-00163e142b65.png"
+        },
+        {
+          "id": "https://www.woshipm.com/it/6158958.html",
+          "author": "产品经理龙哥",
+          "description": "在短视频的江湖中，抖音以其算法和内容生态独领风骚，然而，腾讯的视频号正以其社交网络和内容生态的深度整合，成为抖 […]",
+          "link": "https://www.woshipm.com/share/6158958.html",
+          "publishedOn": "2024-12-19T09:25:12.000Z",
+          "wordCount": 675,
+          "title": "抖音劲敌已出现！",
+          "imageUrl": "https://image.woshipm.com/2024/11/19/b8ad34d6-a651-11ef-b0c4-00163e09d72f.png"
+        },
+        {
+          "id": "https://www.woshipm.com/?p=6158864",
+          "author": "灵美姐姐",
+          "description": "在团队里，产品经理和程序员就是一对相爱相杀的欢喜冤家，特别是在需求评审会上。但如果没有激烈的争论，反而没有产品 […]",
+          "link": "https://www.woshipm.com/share/6158864.html",
+          "publishedOn": "2024-12-19T08:57:47.000Z",
+          "wordCount": 701,
+          "title": "程序员与产品经理：需求评审桌上的智慧交锋",
+          "imageUrl": "https://image.woshipm.com/2023/08/28/80b91040-4554-11ee-9de9-00163e0b5ff3.jpg"
+        },
+        {
+          "id": "https://www.woshipm.com/?p=6158813",
+          "author": "知行之间",
+          "description": "微信昨晚上更新了一个很炸裂的功能——送礼物。之前的微信红包也是在节前更新的，一度让支付宝破防，这次的更新，有其 […]",
+          "link": "https://www.woshipm.com/share/6158813.html",
+          "publishedOn": "2024-12-19T08:14:49.000Z",
+          "wordCount": 676,
+          "title": "微信炸裂新功能",
+          "imageUrl": "https://image.woshipm.com/2023/04/14/e2a19322-da8d-11ed-b35a-00163e0b5ff3.png"
+        },
+        {
+          "id": "https://www.woshipm.com/?p=6158329",
+          "author": "武林",
+          "description": "今天，我想写一点不一样的东西。因为我发现，做产品，光提升硬的技能是不够的，还得在软的意识思维上也有变化，才有可 […]",
+          "link": "https://www.woshipm.com/zhichang/6158329.html",
+          "publishedOn": "2024-12-19T08:13:04.000Z",
+          "wordCount": 733,
+          "title": "我为什么可以做到半年升总监？到底做对了什么？",
+          "imageUrl": "https://image.woshipm.com/2023/07/07/47099fa8-1c97-11ee-816e-00163e0b5ff3.jpg"
+        },
+        {
+          "id": "https://www.woshipm.com/?p=6158793",
+          "author": "学江",
+          "description": "职场上都有完整的流程可以提高我们的工作效率，所以，在AI替代我们之前，我们可以设计一套系统，替代我们的部分工作 […]",
+          "link": "https://www.woshipm.com/share/6158793.html",
+          "publishedOn": "2024-12-19T08:09:15.000Z",
+          "wordCount": 782,
+          "title": "互联网运营修炼手册：打造一套完整的客户自助服务",
+          "imageUrl": "https://image.woshipm.com/2023/04/14/b6fa4d54-daa1-11ed-9b82-00163e0b5ff3.png"
+        },
+        {
+          "id": "https://www.woshipm.com/it/6158923.html",
+          "author": "数据小吏",
+          "description": "在数字化转型的浪潮中，数据已成为企业最宝贵的资产之一。本文将带你深入了解数据资产的运营和管理，探讨如何通过数据 […]",
+          "link": "https://www.woshipm.com/share/6158923.html",
+          "publishedOn": "2024-12-19T08:03:47.000Z",
+          "wordCount": 685,
+          "title": "数据运营篇 | 用户可以使用哪些数据的资产",
+          "imageUrl": "https://image.woshipm.com/2024/07/12/e85f0e00-401e-11ef-ba0b-00163e142b65.png"
+        },
+        {
+          "id": "https://www.woshipm.com/?p=6158720",
+          "author": "廖尔摩斯丨设计大侦探",
+          "description": "与Axure一样，Figma里面也有组件功能。而且Figma里面的组件更为重要，还会有对应的属性。这篇文章，我 […]",
+          "link": "https://www.woshipm.com/share/6158720.html",
+          "publishedOn": "2024-12-19T06:58:05.000Z",
+          "wordCount": 768,
+          "title": "Figma高阶技能卡①丨90%设计师都忽略的组件四大属性！",
+          "imageUrl": "https://image.woshipm.com/2023/04/13/f365af5a-d9dd-11ed-9d2f-00163e0b5ff3.jpg"
+        },
+        {
+          "id": "https://www.woshipm.com/?p=6158678",
+          "author": "小黑哥",
+          "description": "产品的用户越多就越赚钱吗？未必。很多产品陷入了疯狂烧钱拉新，结果赔本赚吆喝的怪圈。你需要从大量用户中精准圈定高 […]",
+          "link": "https://www.woshipm.com/operate/6158678.html",
+          "publishedOn": "2024-12-19T06:47:07.000Z",
+          "wordCount": 854,
+          "title": "用户生命周期管理实战：从获客成本CAC到用户价值LTV",
+          "imageUrl": "https://image.woshipm.com/2023/04/17/b3b34514-dcf5-11ed-ab4d-00163e0b5ff3.png"
+        },
+        {
+          "id": "https://www.woshipm.com/?p=6158676",
+          "author": "ux.ian",
+          "description": "随着人工智能的快速发展，人机对话已成为AI产品的标配功能。但如何让对话更高效、更自然、更智能，始终是AI-UX […]",
+          "link": "https://www.woshipm.com/ai/6158676.html",
+          "publishedOn": "2024-12-19T06:44:20.000Z",
+          "wordCount": 749,
+          "title": "AI对话新思维：线性往复模式设计解密",
+          "imageUrl": "https://image.woshipm.com/2024/11/04/178954bc-9a81-11ef-b0a5-00163e142b65.png"
+        },
+        {
+          "id": "https://www.woshipm.com/?p=6158653",
+          "author": "李白",
+          "description": "上篇我们以面试为话题切入，分享了如何以产品角度去分析新的领域。《如何100%通过面试》 虽然整篇文章是以“如何 […]",
+          "link": "https://www.woshipm.com/share/6158653.html",
+          "publishedOn": "2024-12-19T06:39:03.000Z",
+          "wordCount": 720,
+          "title": "案例分享：不空谈方法，0-1把业务方案落地的实例",
+          "imageUrl": "https://image.woshipm.com/2023/04/17/77683736-dcf5-11ed-897e-00163e0b5ff3.png"
+        },
+        {
+          "id": "https://www.woshipm.com/?p=6158636",
+          "author": "外贸小巨熊",
+          "description": "做产品推广时往往需要找大量的网红、KOL合作，与这些人合作时，提Brief都要注意哪些问题呢？本文作者整理了一 […]",
+          "link": "https://www.woshipm.com/operate/6158636.html",
+          "publishedOn": "2024-12-19T06:32:34.000Z",
+          "wordCount": 892,
+          "title": "如何给 KOL 提内容创作需求？超全指南",
+          "imageUrl": "https://image.woshipm.com/2023/04/13/edbbf7ba-d9ee-11ed-a6e8-00163e0b5ff3.jpg"
+        },
+        {
+          "id": "https://www.woshipm.com/?p=6158210",
+          "author": "人人都是产品经理",
+          "description": "上周末，人人都是产品经理联合腾讯大讲堂在深圳举办了一场「2024 AI产品经理大会」，阿里巴巴高级产品专家@冯 […]",
+          "link": "https://www.woshipm.com/kol/6158210.html",
+          "publishedOn": "2024-12-19T06:25:47.000Z",
+          "wordCount": 751,
+          "title": "Data×AI：智能时代做好用户运营的必备利器",
+          "imageUrl": "https://image.woshipm.com/wp-files/2024/12/T2NwHFXQkj1IcDmuhXhg.png"
+        },
         {
           "id": "https://www.woshipm.com/?p=6157449",
           "author": "物流小兵说",
@@ -4271,136 +4411,6 @@
           "wordCount": 675,
           "title": "产品经理还能赶上AI时代吗？",
           "imageUrl": "https://image.woshipm.com/wp-files/2024/11/r2PFJRtp6Dz3pqIZgmL0.webp"
-        },
-        {
-          "id": "https://www.woshipm.com/it/6143493.html",
-          "author": "刘志远",
-          "description": "在数字化浪潮席卷全球的今天，企业如何有效进行数字化转型成为了一个热门话题。这篇文章深入探讨了数字化转型的三个难 […]",
-          "link": "https://www.woshipm.com/share/6143493.html",
-          "publishedOn": "2024-11-20T11:14:14.000Z",
-          "wordCount": 700,
-          "title": "数字化转型其实难在这三点：从技术到认知，再到变革",
-          "imageUrl": "https://image.woshipm.com/2024/10/23/8d1c3048-9133-11ef-b0a5-00163e142b65.png"
-        },
-        {
-          "id": "https://www.woshipm.com/?p=6143007",
-          "author": "不展芭蕉",
-          "description": "根据费曼学习法，战胜遗忘曲线的最好方法就是把学到的东西用自己的语言简化后表述出来。我试图整理了下最近工作中对A […]",
-          "link": "https://www.woshipm.com/marketing/6143007.html",
-          "publishedOn": "2024-11-20T07:33:59.000Z",
-          "wordCount": 857,
-          "title": "探析AI+汽车数字营销赛道，2024年可能会解决什么问题？",
-          "imageUrl": "https://image.woshipm.com/2024/09/12/86714118-70b6-11ef-ab80-00163e142b65.png"
-        },
-        {
-          "id": "https://www.woshipm.com/?p=6142651",
-          "author": "郭寧",
-          "description": "国家卫健委倡导科技创新，以提升医疗服务品质和效率。在全球AI医疗市场蓬勃发展的背景下，我们迎来了前所未有的机遇 […]",
-          "link": "https://www.woshipm.com/share/6142651.html",
-          "publishedOn": "2024-11-20T07:21:15.000Z",
-          "wordCount": 710,
-          "title": "AI赋能医疗：场景应用实例",
-          "imageUrl": "https://image.woshipm.com/2023/04/17/381527c4-dcf5-11ed-9781-00163e0b5ff3.png"
-        },
-        {
-          "id": "https://www.woshipm.com/?p=6142973",
-          "author": "隐墨星辰",
-          "description": "在现代支付系统中，渠道路由扮演着至关重要的角色，它决定了支付请求在多个可用渠道中的最佳路径。本文将深入探讨渠道 […]",
-          "link": "https://www.woshipm.com/share/6142973.html",
-          "publishedOn": "2024-11-20T07:15:56.000Z",
-          "wordCount": 881,
-          "title": "图解支付系统的渠道路由设计",
-          "imageUrl": "https://image.woshipm.com/2023/05/29/bcfc14de-fdc0-11ed-9128-00163e0b5ff3.jpg"
-        },
-        {
-          "id": "https://www.woshipm.com/?p=6143231",
-          "author": "Aine",
-          "description": "本文将带您走进鸿蒙系统的世界，从用户量的增长、设备升级的顺利进行，到开发者的积极适配和应用生态的扩展，全面解析 […]",
-          "link": "https://www.woshipm.com/share/6143231.html",
-          "publishedOn": "2024-11-20T07:11:10.000Z",
-          "wordCount": 743,
-          "title": "跟踪 | 自主可控之鸿蒙产业进展",
-          "imageUrl": "https://image.woshipm.com/2024/09/30/d9fb1546-7f18-11ef-b388-00163e142b65.png"
-        },
-        {
-          "id": "https://www.woshipm.com/?p=6142876",
-          "author": "桃树窗前",
-          "description": "做Saas经常会遇到一个问题：我们希望功能做成标准化的产品，但客户总有自己的个性化需求。这种情况，如何解决？这 […]",
-          "link": "https://www.woshipm.com/pd/6142876.html",
-          "publishedOn": "2024-11-20T06:39:27.000Z",
-          "wordCount": 778,
-          "title": "如何解决产品标品与客户个性化需求之间的冲突问题？",
-          "imageUrl": "https://image.woshipm.com/2023/04/14/59cc8a24-da8e-11ed-aeb8-00163e0b5ff3.jpg"
-        },
-        {
-          "id": "https://www.woshipm.com/it/6143215.html",
-          "author": "小布Bruce",
-          "description": "OpenAI官方发布的12个ChatGPT写作秘诀，为学生和专业人士提供了一个全新的视角，如何利用人工智能来优 […]",
-          "link": "https://www.woshipm.com/ai/6143215.html",
-          "publishedOn": "2024-11-20T06:35:40.000Z",
-          "wordCount": 794,
-          "title": "Open AI官方发布12个ChatGPT写作秘诀",
-          "imageUrl": "https://image.woshipm.com/2023/05/29/bcfce10c-fdc0-11ed-88d8-00163e0b5ff3.jpg"
-        },
-        {
-          "id": "https://www.woshipm.com/?p=5650771",
-          "author": "INFP怡伶设计",
-          "description": "即便在电动车的智能座舱中，HUD功能也不是全部都具备的。要想让功能真正有帮助，信息布局的合理性至关重要。这篇文 […]",
-          "link": "https://www.woshipm.com/ucd/5650771.html",
-          "publishedOn": "2024-11-20T06:09:51.000Z",
-          "wordCount": 759,
-          "title": "AR-HUD 信息布局：优化驾驶体验与安全的关键",
-          "imageUrl": "https://image.woshipm.com/2023/04/14/b6fdec16-daa1-11ed-9b82-00163e0b5ff3.png"
-        },
-        {
-          "id": "https://www.woshipm.com/it/6143164.html",
-          "author": "寻空",
-          "description": "多年来，百事常挑衅可口可乐，像“百事挑战”等活动。此次旨在挽救颓势、吸引年轻人、引发话题传播。百事通过挑衅，强 […]",
-          "link": "https://www.woshipm.com/marketing/6143164.html",
-          "publishedOn": "2024-11-20T05:38:16.000Z",
-          "wordCount": 751,
-          "title": "百事可乐“卧底杯”引爆话题：百事为何总爱“挑衅”可口可乐？",
-          "imageUrl": "https://image.woshipm.com/2024/11/20/05e94d44-a700-11ef-a9b3-00163e09d72f.png"
-        },
-        {
-          "id": "https://www.woshipm.com/it/6143159.html",
-          "author": "诺儿笔记本",
-          "description": "海外 SaaS 产业起步早，已成熟。我国 SaaS 产业发展分四阶段：概念萌芽期（2004 - 2005 年） […]",
-          "link": "https://www.woshipm.com/share/6143159.html",
-          "publishedOn": "2024-11-20T05:01:50.000Z",
-          "wordCount": 703,
-          "title": "一文探究SaaS的发展历程",
-          "imageUrl": "https://image.woshipm.com/2024/11/06/faf2be94-9c0e-11ef-8da6-00163e142b65.png"
-        },
-        {
-          "id": "https://www.woshipm.com/it/6143158.html",
-          "author": "小布Bruce",
-          "description": "Anthropic 的 Claude Artifacts 随 Claude 3.5 Sonnet 推出，用户能 […]",
-          "link": "https://www.woshipm.com/pd/6143158.html",
-          "publishedOn": "2024-11-20T04:56:50.000Z",
-          "wordCount": 1116,
-          "title": "实战分享 | Anthropic 是如何构建Claude Artifacts的？",
-          "imageUrl": "https://image.woshipm.com/2024/09/07/a226d304-6ce8-11ef-ab80-00163e142b65.png"
-        },
-        {
-          "id": "https://www.woshipm.com/?p=6142460",
-          "author": "重生之我是项目经理",
-          "description": "制造业企业有个现场管理和看板管理，能知道整体进度。电商运营也是类似，通过一个完整的看板，可以了解项目的整体情况 […]",
-          "link": "https://www.woshipm.com/share/6142460.html",
-          "publishedOn": "2024-11-20T04:04:13.000Z",
-          "wordCount": 789,
-          "title": "电商运营如何通过看板管理提升效率？",
-          "imageUrl": "https://image.woshipm.com/2023/07/07/47125c56-1c97-11ee-a448-00163e0b5ff3.jpg"
-        },
-        {
-          "id": "https://www.woshipm.com/?p=6142933",
-          "author": "起点课堂",
-          "description": "2024年就剩最后一个月啦！很多想今年转岗、跳槽的同学要马上准备起来了啦！不过，如今整个互联网行业发展进步很快 […]",
-          "link": "https://www.woshipm.com/it/6142933.html",
-          "publishedOn": "2024-11-20T00:01:29.000Z",
-          "wordCount": 782,
-          "title": "没有产品经验，求职产品被拒N次，我终于上岸了！",
-          "imageUrl": "https://image.woshipm.com/2023/07/07/47099fa8-1c97-11ee-816e-00163e0b5ff3.jpg"
         }
       ]
     },
@@ -4415,6 +4425,16 @@
       "feedUrl": "http://feed.iplaysoft.com/",
       "siteUrl": "https://www.iplaysoft.com",
       "articles": [
+        {
+          "id": "https://www.iplaysoft.com/?p=6278",
+          "author": "X-Force",
+          "description": "各位技术大佬们，这两天估计都被一个重磅消息刷屏了？没错，就是一直都要付费的“高贵”的 GitHub Copilot 编程助手终于官宣正式免费啦！\n这款由 Github 官方出品的 AI 编程辅助工具自发布以来就备受关注，可惜 $10 美元/月定价一直让很多人感觉“高攀不起”，而今推出 Copilot 免费版绝对是每个程序员的福利！今天就来和大家聊聊这款 AI 编程助手神器在免费后，到底还香不香，以及怎么才能安装和使用起来……\n「 前往查看原文.... 」\n异次元还有这些值得一看：\n\n通义灵码 - 免费的 AI 智能编程助手插件！阿里云国内 GitHub Copilot 替代品\nCodeium - 让 AI 帮你编程！免费 Github Copilot 替代品 / 自动代码补全 / 智能编程插件\n免费 AI 写代码工具！豆包 MarsCode 编程助手 - 国产 Copilot 替代品 (代码智能补全)\n百度 Comate 代码 AI 编程助手 - 个人永久免费 / 还可薅羊毛\n\n异次元首页  |  微信公众号  |  关注微博  |  软件精选  |  软件激活码折扣",
+          "link": "https://www.iplaysoft.com/github-copilot.html",
+          "publishedOn": "2024-12-19T14:01:31.000Z",
+          "wordCount": 1266,
+          "title": "GitHub Copilot 免费了！白嫖 10 美元/月的 AI 编程助手，小白秒变代码大神",
+          "imageUrl": "https://img.iplaysoft.com/wp-content/uploads/2024/github-copilot/github_copilot.jpg"
+        },
         {
           "id": "https://www.iplaysoft.com/?p=6276",
           "author": "X-Force",
@@ -4522,6 +4542,46 @@
       "feedUrl": "http://www.dayanzai.me/feed",
       "siteUrl": "https://www.dayanzai.me",
       "articles": [
+        {
+          "id": "http://www.dayanzai.me/?p=6962",
+          "author": "大眼仔~旭",
+          "description": "圣诞节小礼物之圣诞树桌面小程序（christmas tree）小编大眼仔旭（www.dayanzai.me）提 […]",
+          "link": "https://www.dayanzai.me/christmas-tree.html",
+          "publishedOn": "2024-12-19T17:19:54.000Z",
+          "wordCount": 899,
+          "title": "圣诞节小礼物之圣诞树小程序 祝大家圣诞节快乐！",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=36536",
+          "author": "大眼仔~旭",
+          "description": "JetBrains CLion 是由捷克 JetBrains 公司开发的一款跨平台的 C++ IDE，风格接近 […]",
+          "link": "https://www.dayanzai.me/clion.html",
+          "publishedOn": "2024-12-19T16:16:59.000Z",
+          "wordCount": 961,
+          "title": "C/C++开发工具 JetBrains CLion 2024.3.1 x64 中文免费版",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.dayanzai.me/?p=73739",
+          "author": "大眼仔~旭",
+          "description": "Hello Kitty，这位全球知名的日本文化偶像，在 2024 年迎来了她的 50 岁生日。尽管已经半世纪高 […]",
+          "link": "https://www.dayanzai.me/hello-kitty.html",
+          "publishedOn": "2024-12-18T16:56:59.000Z",
+          "wordCount": 945,
+          "title": "Hello Kitty 五十周年，简约与可爱的成功故事",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.dayanzai.me/?p=73752",
+          "author": "大眼仔~旭",
+          "description": "在 Windows 操作系统中，有时我们需要批量提取文件的名称，例如在整理大量文档、图片或其他文件时，手动逐个 […]",
+          "link": "https://www.dayanzai.me/bat-extract-filen-ames.html",
+          "publishedOn": "2024-12-18T16:45:05.000Z",
+          "wordCount": 948,
+          "title": "Windows 中批量提取文件名的 BAT 脚本使用教程",
+          "imageUrl": null
+        },
         {
           "id": "http://www.dayanzai.me/?p=70388",
           "author": "大眼仔~旭",
@@ -6301,66 +6361,6 @@
           "wordCount": 1002,
           "title": "WP Fastest Cache：一款站长必备的 WordPress 页面缓存插件",
           "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=41336",
-          "author": "大眼仔~旭",
-          "description": "FireAlpaca 中文版是由日本绘画公司发布的免费绘画工具，支持 10 种语言版本，兼容 Mac 和 Wi […]",
-          "link": "https://www.dayanzai.me/firealpaca.html",
-          "publishedOn": "2024-11-19T16:34:37.000Z",
-          "wordCount": 1050,
-          "title": "日本免费绘画工具 FireAlpaca 2.13.2 + x64 中文去广告版",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=73434",
-          "author": "大眼仔~旭",
-          "description": "魔影工厂是一款功能全面且操作相对简单的多媒体格式转换软件。它支持多种常见的视频和音频格式，无论是将高清视频从一 […]",
-          "link": "https://www.dayanzai.me/modiac-factory.html",
-          "publishedOn": "2024-11-19T16:34:19.000Z",
-          "wordCount": 888,
-          "title": "魔影工厂下载 Modiac Factory 2.1.1.4225 官方宣布永久免费",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=6189",
-          "author": "大眼仔~旭",
-          "description": "WinCHM Pro 汉化版 优秀小巧的 CHM 编辑器由大眼仔旭汉化发布。一个 Html 帮助文档（CHM文 […]",
-          "link": "https://www.dayanzai.me/winchm.html",
-          "publishedOn": "2024-11-19T16:33:50.000Z",
-          "wordCount": 976,
-          "title": "优秀小巧的 CHM 编辑器 WinCHM Pro 5.54 中文汉化版",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=3060",
-          "author": "大眼仔~旭",
-          "description": "由大眼仔旭发布的 Freemake Video Converter 中文版是一款功能全面、易于使用的视频转换软 […]",
-          "link": "https://www.dayanzai.me/freemakevc.html",
-          "publishedOn": "2024-11-19T16:30:57.000Z",
-          "wordCount": 938,
-          "title": "视频转换工具 Freemake Video Converter 4.1.13.184 中文多语免费版",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=71189",
-          "author": "大眼仔~旭",
-          "description": "LizardSystems Change MAC Address 是一个超级易于管理的应用程序，适合任何想要更 […]",
-          "link": "https://www.dayanzai.me/change-mac-address.html",
-          "publishedOn": "2024-11-19T16:30:47.000Z",
-          "wordCount": 953,
-          "title": "MAC 地址更改工具 Change MAC Address 24.11 中文多语免费版",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=4803",
-          "author": "大眼仔~旭",
-          "description": "开源免费代码编辑器 Notepad Next 中文版由大眼仔发布。Notepad Next 是 Linux 上 […]",
-          "link": "https://www.dayanzai.me/notepad-next.html",
-          "publishedOn": "2024-11-19T16:24:16.000Z",
-          "wordCount": 1064,
-          "title": "开源免费代码编辑器 Notepad Next 0.9 中文多语免费版",
-          "imageUrl": null
         }
       ]
     },
@@ -6375,6 +6375,26 @@
       "feedUrl": "http://feeds.feedburner.com/pfc",
       "siteUrl": "https://www.portablefreeware.com/",
       "articles": [
+        {
+          "id": "2639+1734626666",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=2639&ts=1734626666",
+          "publishedOn": "2024-12-19T16:44:26.000Z",
+          "wordCount": 719,
+          "title": "[UPDATE] RSS Guard v4.8.0",
+          "imageUrl": null
+        },
+        {
+          "id": "2988+1734581033",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=2988&ts=1734581033",
+          "publishedOn": "2024-12-19T04:03:53.000Z",
+          "wordCount": 462,
+          "title": "[UPDATE] WinUpdatesView v1.19",
+          "imageUrl": null
+        },
         {
           "id": "2706+1734556598",
           "author": null,
@@ -7514,16 +7534,6 @@
           "wordCount": 1221,
           "title": "[UPDATE] UltraSearch Free v4.6",
           "imageUrl": null
-        },
-        {
-          "id": "3067+1732036072",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=3067&ts=1732036072",
-          "publishedOn": "2024-11-19T17:07:52.000Z",
-          "wordCount": 470,
-          "title": "[UPDATE] FreeCAD v1.0.0",
-          "imageUrl": null
         }
       ]
     },
@@ -7532,6 +7542,46 @@
       "feedUrl": "http://www.qiuquan.cc/feed",
       "siteUrl": "http://www.qiuquan.cc",
       "articles": [
+        {
+          "id": "http://www.qiuquan.cc/?p=6586",
+          "author": "泉",
+          "description": "影视仓是一款完全免费的高清影视盒子软件，适用于电视端和手机安装使用，它具有超高清画质、流畅不卡顿、无广告、全免费以及最新最全最广泛的影视资源等优势，支持手动添加播放源选择播放，各种配置接口源可自由选择任意线路，操作简单方便。",
+          "link": "http://www.qiuquan.cc/androidsoft/ysc.html",
+          "publishedOn": "2024-12-19T14:00:40.000Z",
+          "wordCount": 434,
+          "title": "盒子影视——影视仓 v5.0.46 电视版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.qiuquan.cc/?p=8285",
+          "author": "泉",
+          "description": "春盈天下app是一款拥有丰富影视资源的软件，用户可以在软件中快速地搜索到自己喜欢的任何一部影视作品，更好的满足不同用户的观影需求，软件还会实时记录用户观看的所有视频，方便用户下次观看。",
+          "link": "http://www.qiuquan.cc/androidsoft/cytx.html",
+          "publishedOn": "2024-12-19T13:41:09.000Z",
+          "wordCount": 431,
+          "title": "盒子影视——春盈天下 v7.1 纯净版内置直播源",
+          "imageUrl": null
+        },
+        {
+          "id": "http://bak.qiuquan.cc/?p=4202",
+          "author": "泉",
+          "description": "Wise Registry Cleaner是一款功能强大的磁盘整理软件，软件界面简洁，功能非常强大，支持简体中文多语言界面，还支持XP下透明界面，能够帮助用户快速清理系统垃圾、硬盘整理、注册表清理、查找重复文件、进程管理以及内存优化等等一系列优化工具。",
+          "link": "http://www.qiuquan.cc/systemtool/wise-registry-cleaner.html",
+          "publishedOn": "2024-12-19T08:25:49.000Z",
+          "wordCount": 482,
+          "title": "专业注册表清理工具——Wise Registry Cleaner 10.9.2.709 + 11.1.9.724 去广告专业版（安装版 + 单文件版）",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.qiuquan.cc/?p=8272",
+          "author": "泉",
+          "description": "4K Video Downloader是一款专业的高清视频下载软件，软件能够对于网络带宽的提高，视频的品质提高，支持HD 1080p，HD 720p，4K和8K分辨率视频下载",
+          "link": "http://www.qiuquan.cc/download/4kvideodownloaderplus.html",
+          "publishedOn": "2024-12-19T05:42:38.000Z",
+          "wordCount": 492,
+          "title": "高清视频下载工具——4K Video Downloader+ 1.10.3.161 专业版",
+          "imageUrl": null
+        },
         {
           "id": "http://www.qiuquan.cc/?p=8266",
           "author": "泉",
@@ -8010,16 +8060,6 @@
           "publishedOn": "2024-11-24T12:30:27.000Z",
           "wordCount": 675,
           "title": "微信电脑版 3.9.8.15 正式版（32位） + 3.9.12.17 正式版（64位）+ 4.0.0.35 测试版（64位）（可选多开 + 防撤回）",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.qiuquan.cc/?p=6682",
-          "author": "泉",
-          "description": "雷电安卓模拟器是可以在电脑上模拟安卓系统的软件，非常适合在电脑上玩手游，它支持市面上99%的游戏和应用，运行流畅，解决挂机烦恼，多开挂机流畅不掉线，拒绝手机发烫、电量不足、内存不足等手机端缺点，为玩家提供更好的游戏环境与操作方式。雷电拥有众多特色功能，游戏手柄即插即用、一键宏高端玩家必备、操作录制循坏操作、一键定位点哪定哪、超宽屏享受更宽视野、同步器操作一次操作多个窗口……下载安装雷电模拟器轻松玩转各种手游、应用。",
-          "link": "http://www.qiuquan.cc/systemtool/dnplayer.html",
-          "publishedOn": "2024-11-20T02:15:16.000Z",
-          "wordCount": 515,
-          "title": "雷电安卓模拟器 4.0.78 + 9.1.30.0 去广告优化版",
           "imageUrl": null
         }
       ]
