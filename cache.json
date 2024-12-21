@@ -6,6 +6,16 @@
       "siteUrl": "https://www.appinn.com",
       "articles": [
         {
+          "id": "https://www.appinn.com/?p=50550",
+          "author": "青小蛙",
+          "description": "有同学在求：有没有什么免费可用的 png 转矢量图工具？离线的，不要网站那种 这倒是一个好问题，虽然从开发者角度来讲，要免费，要离线，还要功能好，的确…挺难的 😂 但，还真是有啊。 早在2",
+          "link": "https://www.appinn.com/qa-convert-png-to-svg-tool/",
+          "publishedOn": "2024-12-20T09:27:44.000Z",
+          "wordCount": 2899,
+          "title": "有没有免费的、离线的、好用 PNG 转矢量图工具？",
+          "imageUrl": "https://www.appinn.com/wp-content/uploads/2024/12/Solana-1-1.jpg"
+        },
+        {
           "id": "https://www.appinn.com/?p=50529",
           "author": "青小蛙",
           "description": "GitHub Copilot 是著名的代码托管平台 GitHub 发布的 AI 辅助编程工具，可在 GitHub 网页直接使用。它能根据你的需求，自动生成代码，还能检查代码错误、优化代码，并提供建议。",
@@ -444,26 +454,6 @@
           "wordCount": 2636,
           "title": "AI 内容真假难辨？Mozilla 推出 Deep Fake Detector 扩展一键识别真伪",
           "imageUrl": "https://www.appinn.com/wp-content/uploads/2024/11/appinn-homework-4.jpg"
-        },
-        {
-          "id": "https://www.appinn.com/?p=50212",
-          "author": "青小蛙",
-          "description": "FastMove 是一款适合于新买电脑后，快速将旧电脑的数据转移到新电脑的工具，包括 Windows 的用户、电脑设置、文件、已安装软件，甚至同步驱动。目前正在限免中。@Appinn 这是一款挺老派的",
-          "link": "https://www.appinn.com/fastmove/",
-          "publishedOn": "2024-11-21T04:02:44.000Z",
-          "wordCount": 2574,
-          "title": "限时免费！FastMove：一键迁移文件、程序和设置到新电脑[Windows]",
-          "imageUrl": "https://www.appinn.com/wp-content/uploads/2024/11/appinn-homework-2.jpg"
-        },
-        {
-          "id": "https://www.appinn.com/?p=50229",
-          "author": "青小蛙",
-          "description": "Bluesky 是一个类似微博的社交媒体平台，有 300 个字符的限制。使用自有的 AT 协议（Authenticated Transfer Protocol）实现了去中心化，但又不与 Mastodo",
-          "link": "https://www.appinn.com/bluesky/",
-          "publishedOn": "2024-11-21T01:44:11.000Z",
-          "wordCount": 2597,
-          "title": "Bluesky 是什么？我们注册了一个账号",
-          "imageUrl": "https://www.appinn.com/wp-content/uploads/2024/11/appinn-homework-1.jpg"
         }
       ]
     },
@@ -472,6 +462,156 @@
       "feedUrl": "http://www.woshipm.com/feed",
       "siteUrl": "https://www.woshipm.com",
       "articles": [
+        {
+          "id": "https://www.woshipm.com/it/6159550.html",
+          "author": "Vic的营销思考",
+          "description": "在小红书这个内容与电商紧密相连的平台上，笔记的效果直接影响着品牌的营销成败。本文深入探讨了小红书“水下笔记”效 […]",
+          "link": "https://www.woshipm.com/share/6159550.html",
+          "publishedOn": "2024-12-20T08:59:40.000Z",
+          "wordCount": 692,
+          "title": "小红书水下笔记效果变差，报备笔记将成为趋势",
+          "imageUrl": "https://image.woshipm.com/2024/10/19/3302a57c-8dde-11ef-a842-00163e142b65.png"
+        },
+        {
+          "id": "https://www.woshipm.com/it/6159546.html",
+          "author": "隐墨星辰",
+          "description": "在软件工程和系统运维中，日志系统的重要性不言而喻，尤其是在支付交易系统中，它对于监控、故障排查和安全合规性起着 […]",
+          "link": "https://www.woshipm.com/pd/6159546.html",
+          "publishedOn": "2024-12-20T08:55:26.000Z",
+          "wordCount": 718,
+          "title": "支付交易系统日志设计最佳实践",
+          "imageUrl": "https://image.woshipm.com/2024/02/05/88a8f20e-c40a-11ee-9e19-00163e142b65.png"
+        },
+        {
+          "id": "https://www.woshipm.com/?p=6159347",
+          "author": "鲍师傅 Mr.BOM",
+          "description": "在对PDM系统选型时，大企业的解决办法不一定适用于小微企业，而小微企业恰恰占了多数。本文作者分享了自己对PDM […]",
+          "link": "https://www.woshipm.com/it/6159347.html",
+          "publishedOn": "2024-12-20T07:39:16.000Z",
+          "wordCount": 725,
+          "title": "产品经理选PDM软件的5个维度！阀门企业产品经理如何部署PDM",
+          "imageUrl": "https://image.woshipm.com/2023/08/22/2b5da51c-40df-11ee-98c9-00163e0b5ff3.jpg"
+        },
+        {
+          "id": "https://www.woshipm.com/?p=6159293",
+          "author": "瑾益",
+          "description": "在当前的商业环境下，实体店正面临着电商竞争和消费者行为变化的双重挑战。为了适应这些变化并寻求新的增长机会，实体 […]",
+          "link": "https://www.woshipm.com/marketing/6159293.html",
+          "publishedOn": "2024-12-20T07:28:34.000Z",
+          "wordCount": 859,
+          "title": "实体店经营新思路，如何有效挖存量，拓增量（存量增量方法论）",
+          "imageUrl": "https://image.woshipm.com/2023/04/13/613905b6-d9ef-11ed-889f-00163e0b5ff3.jpg"
+        },
+        {
+          "id": "https://www.woshipm.com/?p=6159277",
+          "author": "Amy不是阿米",
+          "description": "设计中的颜色一般是用十进制的RGB模式或者是十六进制的「#XXXX」之类的来表达，那如果两者要进行换算，如何处 […]",
+          "link": "https://www.woshipm.com/share/6159277.html",
+          "publishedOn": "2024-12-20T03:26:44.000Z",
+          "wordCount": 698,
+          "title": "互联网产品设计中的十进制&十六进制色值换算",
+          "imageUrl": "https://image.woshipm.com/2023/04/13/f7ba7e9c-d9e1-11ed-bd74-00163e0b5ff3.jpg"
+        },
+        {
+          "id": "https://www.woshipm.com/it/6159269.html",
+          "author": "钉钉用户体验",
+          "description": "在当今快节奏的商业环境中，企业如何提升效率、优化项目管理流程成为了一个关键议题。自动化技术的应用，作为这一挑战 […]",
+          "link": "https://www.woshipm.com/share/6159269.html",
+          "publishedOn": "2024-12-20T02:19:36.000Z",
+          "wordCount": 736,
+          "title": "钉钉项目自动化：企业效率的加速器",
+          "imageUrl": "https://image.woshipm.com/2024/05/06/6ec6c65a-0b99-11ef-b503-00163e142b65.png"
+        },
+        {
+          "id": "https://www.woshipm.com/it/6159268.html",
+          "author": "否定先生",
+          "description": "在年末的科技盛宴中，谷歌推出了其新一代AI模型，标志着AI技术的又一大飞跃。这款AI不仅能理解多模态信息，还能 […]",
+          "link": "https://www.woshipm.com/share/6159268.html",
+          "publishedOn": "2024-12-20T02:11:48.000Z",
+          "wordCount": 788,
+          "title": "谷歌发布 Gemini 2.0：AI 也开始提前“想几步”了！",
+          "imageUrl": "https://image.woshipm.com/2023/04/13/f3562a08-d9dd-11ed-9d2f-00163e0b5ff3.jpg"
+        },
+        {
+          "id": "https://www.woshipm.com/it/6159267.html",
+          "author": "接地气的陈老师",
+          "description": "数据指标和标签体系是两个核心概念，它们共同支撑着数据驱动决策的基石。然而，很多人对这两者的区别和应用场景仍然存 […]",
+          "link": "https://www.woshipm.com/share/6159267.html",
+          "publishedOn": "2024-12-20T02:08:16.000Z",
+          "wordCount": 713,
+          "title": "数据指标 VS 标签体系，到底有啥区别？",
+          "imageUrl": "https://image.woshipm.com/2024/09/12/ace4f910-70b7-11ef-ab80-00163e142b65.png"
+        },
+        {
+          "id": "https://www.woshipm.com/?p=6158934",
+          "author": "不是作家",
+          "description": "同样作为创意类岗位，UI设计师如何转岗成为产品经理？这篇文章，作者用7000余字，从技能到心态到思维，手把手教 […]",
+          "link": "https://www.woshipm.com/zhichang/6158934.html",
+          "publishedOn": "2024-12-20T02:01:00.000Z",
+          "wordCount": 837,
+          "title": "7000+字UI 转产品经理的全方位指南",
+          "imageUrl": "https://image.woshipm.com/2023/04/13/7f38f464-d9df-11ed-8d63-00163e0b5ff3.jpg"
+        },
+        {
+          "id": "https://www.woshipm.com/it/6159262.html",
+          "author": "长弓PM",
+          "description": "在人工智能的浪潮中，我们常常被其表面的智能和效率所吸引，却可能忽视了潜藏在算法背后的偏见问题。这篇文章将带你深 […]",
+          "link": "https://www.woshipm.com/ai/6159262.html",
+          "publishedOn": "2024-12-20T01:59:03.000Z",
+          "wordCount": 685,
+          "title": "技术无罪：「AI偏见」如何成为产品经理的“黑天鹅事件”？",
+          "imageUrl": "https://image.woshipm.com/2023/04/14/f972663a-da8d-11ed-b69c-00163e0b5ff3.jpg"
+        },
+        {
+          "id": "https://www.woshipm.com/it/6159257.html",
+          "author": "Peron用户研究",
+          "description": "在快速变化的市场环境中，追逐瞬息万变的热点似乎成了常态，但真正的洞察力来自于对消费者行为深层动机的理解。本文将 […]",
+          "link": "https://www.woshipm.com/share/6159257.html",
+          "publishedOn": "2024-12-20T01:50:06.000Z",
+          "wordCount": 730,
+          "title": "告别追逐热点，消费者行为的深层解读",
+          "imageUrl": "https://image.woshipm.com/2024/03/08/8de249f6-dd31-11ee-9846-00163e142b65.png"
+        },
+        {
+          "id": "https://www.woshipm.com/?p=6087058",
+          "author": "有趣的产品经理",
+          "description": "近年来，许多国家和地区开始探索如何通过延迟退休来应对劳动力短缺和社会保障持续性的问题，本文尝试以产品经理的视角 […]",
+          "link": "https://www.woshipm.com/chuangye/6087058.html",
+          "publishedOn": "2024-12-20T01:45:10.000Z",
+          "wordCount": 790,
+          "title": "“延迟退休”带来了哪些产品机会？",
+          "imageUrl": "https://image.woshipm.com/2023/05/06/69dea15c-ec01-11ed-96ae-00163e0b5ff3.jpg"
+        },
+        {
+          "id": "https://www.woshipm.com/?p=6159217",
+          "author": "产品方法论集散地",
+          "description": "在产品经理的职业生涯中，产品规划是一项至关重要的技能，它不仅决定了产品的方向和未来，还直接影响着产品的成功与否 […]",
+          "link": "https://www.woshipm.com/pd/6159217.html",
+          "publishedOn": "2024-12-20T01:42:37.000Z",
+          "wordCount": 793,
+          "title": "两次失败经历后，终于弄懂了产品规划",
+          "imageUrl": "https://image.woshipm.com/2023/08/23/d85640b2-4193-11ee-ada9-00163e0b5ff3.jpg"
+        },
+        {
+          "id": "https://www.woshipm.com/it/6159251.html",
+          "author": "蔡锦海",
+          "description": "本文将带您深入了解梁宁老师在《真需求》一书中提出的三个关键场景：黄金场景、中农场景和盐碱地场景，它们分别代表了 […]",
+          "link": "https://www.woshipm.com/share/6159251.html",
+          "publishedOn": "2024-12-20T01:40:41.000Z",
+          "wordCount": 688,
+          "title": "黄金场景、中农场景、盐碱地场景",
+          "imageUrl": "https://image.woshipm.com/2024/12/20/423d1318-be73-11ef-846f-00163e1bca14.png"
+        },
+        {
+          "id": "https://www.woshipm.com/?p=6157600",
+          "author": "物流小兵说",
+          "description": "在前面的文章中，我们分享了不少公司数字化的案例。但大多都是偏互联网企业，本文我们来看一个传统的煤炭交易平台，此 […]",
+          "link": "https://www.woshipm.com/pd/6157600.html",
+          "publishedOn": "2024-12-20T01:32:23.000Z",
+          "wordCount": 709,
+          "title": "陕西煤炭交易中心平台数字化建设案例分享",
+          "imageUrl": "https://image.woshipm.com/2023/04/13/cc6b4f5c-d9df-11ed-bd5e-00163e0b5ff3.jpg"
+        },
         {
           "id": "https://www.woshipm.com/it/6159077.html",
           "author": "隐墨星辰",
@@ -4241,176 +4381,6 @@
           "wordCount": 722,
           "title": "为什么做好B端产品设计这么难？我头秃了！",
           "imageUrl": "https://image.woshipm.com/2024/11/21/8ee61a72-a7fb-11ef-8196-00163e0b5ff3.jpg"
-        },
-        {
-          "id": "https://www.woshipm.com/?p=6143871",
-          "author": "刀哥",
-          "description": "我发现很多产品经理，都有个臭毛病，你跟他说任何话题，他都能接的住，但是当你让他真正去干的时候，却啥也干不出来。 […]",
-          "link": "https://www.woshipm.com/it/6143871.html",
-          "publishedOn": "2024-11-21T09:33:14.000Z",
-          "wordCount": 676,
-          "title": "产品经理，你别光说说说…",
-          "imageUrl": "https://image.woshipm.com/2023/04/13/bc685304-d9dd-11ed-9d2f-00163e0b5ff3.jpg"
-        },
-        {
-          "id": "https://www.woshipm.com/it/6144052.html",
-          "author": "火火品牌营销",
-          "description": "“营销世界，多元视角探本质。” 在商业的舞台上，品牌战略与营销策略如同灯塔，指引着企业前行的方向。然而，如何精 […]",
-          "link": "https://www.woshipm.com/share/6144052.html",
-          "publishedOn": "2024-11-21T09:29:06.000Z",
-          "wordCount": 703,
-          "title": "品牌战略、营销策略、多角度看营销本质",
-          "imageUrl": "https://image.woshipm.com/2024/07/24/9933f5aa-4994-11ef-8321-00163e142b65.png"
-        },
-        {
-          "id": "https://www.woshipm.com/it/6144037.html",
-          "author": "乌鸦智能说",
-          "description": "“技术浪潮涌，企业命运殊。” 在科技迅猛发展的时代，Chegg 曾是在线教育领域的耀眼之星。然而，ChatGP […]",
-          "link": "https://www.woshipm.com/share/6144037.html",
-          "publishedOn": "2024-11-21T09:22:20.000Z",
-          "wordCount": 745,
-          "title": "市值蒸发98%、用户被ChatGPT搬空！美股“作业帮”到底输在哪？",
-          "imageUrl": "https://image.woshipm.com/2024/09/03/22d79de0-69d2-11ef-9bc7-00163e142b65.png"
-        },
-        {
-          "id": "https://www.woshipm.com/it/6144032.html",
-          "author": "Vic的营销思考",
-          "description": "策略也好，打法也罢 最根本的还是要依靠内容，内容是最小的营销单元，内容质量越高，在公域获得的曝光也就越大 所以 […]",
-          "link": "https://www.woshipm.com/share/6144032.html",
-          "publishedOn": "2024-11-21T09:16:26.000Z",
-          "wordCount": 711,
-          "title": "爆文率30%的秘密：小红书爆文选题SOP",
-          "imageUrl": "https://image.woshipm.com/2024/09/26/e5c6effa-7bdd-11ef-8724-00163e142b65.png"
-        },
-        {
-          "id": "https://www.woshipm.com/it/6144027.html",
-          "author": "李明Bright",
-          "description": "“产品规划之道，引领成功之路。” 在产品管理的领域中，规划是确保产品持续发展、满足市场需求的关键。如何制定科学 […]",
-          "link": "https://www.woshipm.com/share/6144027.html",
-          "publishedOn": "2024-11-21T09:02:55.000Z",
-          "wordCount": 682,
-          "title": "怎样做产品规划？",
-          "imageUrl": "https://image.woshipm.com/2024/11/21/84c17ff0-a7e2-11ef-b44f-00163e09d72f.png"
-        },
-        {
-          "id": "https://www.woshipm.com/it/6144001.html",
-          "author": "接地气的陈老师",
-          "description": "“数据日报困局，破解之法何在？” 在数据驱动的工作场景中，数据日报如影随形，却又常常枯燥乏味。如何让它焕发生机 […]",
-          "link": "https://www.woshipm.com/share/6144001.html",
-          "publishedOn": "2024-11-21T08:26:51.000Z",
-          "wordCount": 741,
-          "title": "四个方法，拯救你枯燥的数据日报",
-          "imageUrl": "https://image.woshipm.com/2024/11/05/22c33abc-9b7d-11ef-b0a5-00163e142b65.png"
-        },
-        {
-          "id": "https://www.woshipm.com/it/6143997.html",
-          "author": "产品大峡谷",
-          "description": "“新产初评审，问题现原形。” 新入职的高产人员，在初次评审中就陷入困境。这其中究竟发生了什么？是经验不足还是另 […]",
-          "link": "https://www.woshipm.com/share/6143997.html",
-          "publishedOn": "2024-11-21T08:11:43.000Z",
-          "wordCount": 720,
-          "title": "新入职的高产，初次评审竟就被开发拿捏了！",
-          "imageUrl": "https://image.woshipm.com/2024/11/21/cf1aaae8-a7df-11ef-b44f-00163e09d72f.png"
-        },
-        {
-          "id": "https://www.woshipm.com/it/6143995.html",
-          "author": "罗福如",
-          "description": "在数字化时代，医疗行业的信息服务正在经历一场由传统搜索引擎向智能AI问答系统的重大转变。本文深入探讨了这一变革 […]",
-          "link": "https://www.woshipm.com/ai/6143995.html",
-          "publishedOn": "2024-11-21T08:06:46.000Z",
-          "wordCount": 716,
-          "title": "AI问答，将是患者接触医疗服务的主要方式",
-          "imageUrl": "https://image.woshipm.com/2023/04/14/02587262-da8e-11ed-b69c-00163e0b5ff3.jpg"
-        },
-        {
-          "id": "https://www.woshipm.com/?p=6143964",
-          "author": "Beyond",
-          "description": "昨天农夫山泉创始人钟睒睒的采访刷屏了，不仅点名了直播带货、拼多多、张一鸣等，而且言辞犀利，不少人直呼“太敢说了 […]",
-          "link": "https://www.woshipm.com/share/6143964.html",
-          "publishedOn": "2024-11-21T08:04:29.000Z",
-          "wordCount": 679,
-          "title": "钟睒睒怒斥短视频、直播带货，揭露中国商业环境的四大致命陷阱",
-          "imageUrl": "https://image.woshipm.com/2023/04/14/2ec81342-da8f-11ed-9503-00163e0b5ff3.jpg"
-        },
-        {
-          "id": "https://www.woshipm.com/it/6143969.html",
-          "author": "策略产品夏师傅",
-          "description": "在快速发展的数字时代，负反馈管理已成为推荐系统优化的重要环节。本文将深入探讨负反馈在SaaS产品中的作用，分析 […]",
-          "link": "https://www.woshipm.com/share/6143969.html",
-          "publishedOn": "2024-11-21T07:27:13.000Z",
-          "wordCount": 699,
-          "title": "我在大厂做负反馈总结出来的几个思路",
-          "imageUrl": "https://image.woshipm.com/2024/06/03/95684c38-2157-11ef-a1b5-00163e142b65.png"
-        },
-        {
-          "id": "https://www.woshipm.com/?p=6143281",
-          "author": "用户体验王叔",
-          "description": "对九类交互状态的深入理解和不断创新，将为产品设计带来更大的提升空间，为用户带来更加卓越的体验，推动产品在竞争激 […]",
-          "link": "https://www.woshipm.com/ucd/6143281.html",
-          "publishedOn": "2024-11-21T07:10:45.000Z",
-          "wordCount": 752,
-          "title": "深入剖析交互状态：设计与体验的关键",
-          "imageUrl": "https://image.woshipm.com/2023/04/14/a1aa684c-da9e-11ed-af94-00163e0b5ff3.png"
-        },
-        {
-          "id": "https://www.woshipm.com/?p=6143465",
-          "author": "ToB SaaS大D",
-          "description": "在中国SaaS行业的发展道路上，存在两个核心问题一直困扰着从业者：国内用户的付费意愿普遍较低，以及SaaS企业 […]",
-          "link": "https://www.woshipm.com/it/6143465.html",
-          "publishedOn": "2024-11-21T06:53:08.000Z",
-          "wordCount": 720,
-          "title": "国内SaaS企业的两大困惑：付费意愿与边界之难",
-          "imageUrl": "https://image.woshipm.com/2023/04/13/07803bcc-d9de-11ed-8fc2-00163e0b5ff3.jpg"
-        },
-        {
-          "id": "https://www.woshipm.com/?p=6143631",
-          "author": "数据小吏",
-          "description": "在数据驱动的商业世界中，数据权限管理是确保信息安全、合规性和数据治理的关键环节。本文深入探讨了数据权限的复杂性 […]",
-          "link": "https://www.woshipm.com/data-analysis/6143631.html",
-          "publishedOn": "2024-11-21T06:27:57.000Z",
-          "wordCount": 723,
-          "title": "数据管理篇 | 数据权限是个大问题",
-          "imageUrl": "https://image.woshipm.com/2023/04/14/259d4d24-da8e-11ed-9503-00163e0b5ff3.jpg"
-        },
-        {
-          "id": "https://www.woshipm.com/?p=6143609",
-          "author": "扬帆出海",
-          "description": "在数字化时代背景下，线上社交应用已成为连接全球用户、拓展社交网络的重要工具。特别是在美国，这一市场因其成熟度和 […]",
-          "link": "https://www.woshipm.com/share/6143609.html",
-          "publishedOn": "2024-11-21T06:25:06.000Z",
-          "wordCount": 702,
-          "title": "月收入暴增95%，主打真实交友，被百万美国人选择的出海社交应用什么样？",
-          "imageUrl": "https://image.woshipm.com/2023/08/11/307a5e3c-380b-11ee-a2f6-00163e0b5ff3.jpg"
-        },
-        {
-          "id": "https://www.woshipm.com/?p=6143497",
-          "author": "起点课堂",
-          "description": "最近看到脉脉社群有人问：B端，25K产品经理和35K产品经理的区别在哪里？部分脉友认为是：看运气，跟对老板会画 […]",
-          "link": "https://www.woshipm.com/it/6143497.html",
-          "publishedOn": "2024-11-21T00:38:03.000Z",
-          "wordCount": 748,
-          "title": "25K产品经理和35K产品经理的区别在哪里？",
-          "imageUrl": "https://image.woshipm.com/2023/09/26/150398ca-5c65-11ee-b266-00163e142b65.jpg"
-        },
-        {
-          "id": "https://www.woshipm.com/?p=6143477",
-          "author": "庄帅",
-          "description": "迪卡侬全国全量门店上线美团，覆盖80余项运动的上千款商品，可“最快30分钟”送达 文/钰鑫 即时零售正在摆脱品 […]",
-          "link": "https://www.woshipm.com/it/6143477.html",
-          "publishedOn": "2024-11-20T18:59:18.000Z",
-          "wordCount": 742,
-          "title": "即时零售拓品类，像点外卖一样“点服装”能否常态化？",
-          "imageUrl": "https://image.woshipm.com/wp-files/2024/11/xlmjTob1x6IPKdFhzOkV.jpeg"
-        },
-        {
-          "id": "https://www.woshipm.com/?p=6143645",
-          "author": "褚伟",
-          "description": "前几天，和一个在大厂做产品经理的朋友聊天，聊到当下的AI浪潮，他说了一句让我印象深刻的话： 「我们这一代产品经 […]",
-          "link": "https://www.woshipm.com/it/6143645.html",
-          "publishedOn": "2024-11-20T15:17:13.000Z",
-          "wordCount": 675,
-          "title": "产品经理还能赶上AI时代吗？",
-          "imageUrl": "https://image.woshipm.com/wp-files/2024/11/r2PFJRtp6Dz3pqIZgmL0.webp"
         }
       ]
     },
@@ -4550,6 +4520,46 @@
           "publishedOn": "2024-12-19T17:19:54.000Z",
           "wordCount": 899,
           "title": "圣诞节小礼物之圣诞树小程序 祝大家圣诞节快乐！",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=33672",
+          "author": "大眼仔~旭",
+          "description": "开源电子书管理软件 Calibre 中文版由大眼仔旭发布。Calibre 是一款非常好用的电子图书管理软件，通 […]",
+          "link": "https://www.dayanzai.me/calibre.html",
+          "publishedOn": "2024-12-19T16:36:41.000Z",
+          "wordCount": 1130,
+          "title": "开源电子书管理软件 calibre 7.23.0 x64 中文多语免费版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=1263",
+          "author": "大眼仔~旭",
+          "description": "优秀免费的字幕制作软件 Subtitle Edit 中文版由大眼仔旭（www.dayanzai.me）发布。S […]",
+          "link": "https://www.dayanzai.me/subtitle-edit.html",
+          "publishedOn": "2024-12-19T16:30:32.000Z",
+          "wordCount": 1393,
+          "title": "优秀免费的字幕制作软件 Subtitle Edit 4.0.9 中文多语免费版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=32705",
+          "author": "大眼仔~旭",
+          "description": "HopToDesk 是一款开源免费的远程桌面工具，允许用户共享他们的屏幕并允许远程控制访问他们的计算机和设备。 […]",
+          "link": "https://www.dayanzai.me/hoptodesk.html",
+          "publishedOn": "2024-12-19T16:29:42.000Z",
+          "wordCount": 935,
+          "title": "开源跨平台免费商用远程工具 HopToDesk 1.42.8 中文多语免费版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=12783",
+          "author": "大眼仔~旭",
+          "description": "开源非线性视频编辑器 Kdenlive 中文版由大眼仔旭（www.dayanzai.me）发布。Kdenliv […]",
+          "link": "https://www.dayanzai.me/kdenlive.html",
+          "publishedOn": "2024-12-19T16:26:10.000Z",
+          "wordCount": 913,
+          "title": "开源非线性视频编辑器 Kdenlive 24.12.0 中文多语免费版",
           "imageUrl": null
         },
         {
@@ -6291,76 +6301,6 @@
           "wordCount": 926,
           "title": "PowerShell 和 CMD 命令提示符你应该选择哪一个？",
           "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=41086",
-          "author": "大眼仔~旭",
-          "description": "美国 TechSmith 公司发布的 Camtasia 2024 中文版由大眼仔旭（www.dayanzai. […]",
-          "link": "https://www.dayanzai.me/camtasia-2019.html",
-          "publishedOn": "2024-11-20T16:37:20.000Z",
-          "wordCount": 1286,
-          "title": "屏幕录像课件制作工具 TechSmith Camtasia 2024 24.1.3.5321 x64 中文汉化版",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=35333",
-          "author": "大眼仔~旭",
-          "description": "医学 ROC 曲线统计软件 MedCalc 中文版由大眼仔旭（www.dayanzai.me）独家发布。Med […]",
-          "link": "https://www.dayanzai.me/medcalc.html",
-          "publishedOn": "2024-11-20T16:36:04.000Z",
-          "wordCount": 992,
-          "title": "医学 ROC 曲线统计软件 MedCalc 23.0.9 + x64 中文多语免费版",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=70921",
-          "author": "大眼仔~旭",
-          "description": "SQLiteStudio 中文版是一款强大的 SQLite 数据库可视化工具，它可以帮助用户管理 SQLite […]",
-          "link": "https://www.dayanzai.me/sqlitestudio.html",
-          "publishedOn": "2024-11-20T16:31:09.000Z",
-          "wordCount": 2082,
-          "title": "开源跨平台 SQLite 管理工具 SQLiteStudio 3.4.5 中文多语免费版",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=9191",
-          "author": "大眼仔~旭",
-          "description": "CrystalDiskMark 8.0 绿色中文版由大眼仔旭发布。在计算机硬件领域，存储设备的性能对于整体系统 […]",
-          "link": "https://www.dayanzai.me/crystaldiskmark.html",
-          "publishedOn": "2024-11-20T16:30:03.000Z",
-          "wordCount": 909,
-          "title": "绿色免费的硬盘检测工具 CrystalDiskMark 8.0.6 + x64 绿色中文版",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=3687",
-          "author": "大眼仔~旭",
-          "description": "CrystalDiskInfo 中文版 硬盘检测工具由大眼仔旭发布。硬盘里的数据至关重要，因此时常检查硬盘健康 […]",
-          "link": "https://www.dayanzai.me/crystaldiskinfo.html",
-          "publishedOn": "2024-11-20T16:26:44.000Z",
-          "wordCount": 974,
-          "title": "机械/固态硬盘检测工具 CrystalDiskInfo 9.5.0 + x64 中文绿色单文件版",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.dayanzai.me/?p=73463",
-          "author": "大眼仔~旭",
-          "description": "在游戏爱好者的世界里，模拟器扮演着重要的角色，它们让玩家能够重温经典游戏，体验那些曾经带给我们无数欢乐的美好时 […]",
-          "link": "https://www.dayanzai.me/duckstation.html",
-          "publishedOn": "2024-11-20T16:26:33.000Z",
-          "wordCount": 1368,
-          "title": "开源免费索尼 PS1 模拟器 DuckStation 0.1-7928 中文版下载",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.dayanzai.me/?p=73446",
-          "author": "大眼仔~旭",
-          "description": "WP Fastest Cache 是一款广受好评的 WordPress 缓存插件，旨在通过减少服务器负载和提高 […]",
-          "link": "https://www.dayanzai.me/wp-fastest-cache.html",
-          "publishedOn": "2024-11-20T14:11:09.000Z",
-          "wordCount": 1002,
-          "title": "WP Fastest Cache：一款站长必备的 WordPress 页面缓存插件",
-          "imageUrl": null
         }
       ]
     },
@@ -6375,6 +6315,46 @@
       "feedUrl": "http://feeds.feedburner.com/pfc",
       "siteUrl": "https://www.portablefreeware.com/",
       "articles": [
+        {
+          "id": "437+1734711074",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=437&ts=1734711074",
+          "publishedOn": "2024-12-20T16:11:14.000Z",
+          "wordCount": 763,
+          "title": "[UPDATE] CPU-Z v2.13",
+          "imageUrl": null
+        },
+        {
+          "id": "2119+1734709901",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=2119&ts=1734709901",
+          "publishedOn": "2024-12-20T15:51:41.000Z",
+          "wordCount": 1399,
+          "title": "[UPDATE] calibre v7.23",
+          "imageUrl": null
+        },
+        {
+          "id": "3087+1734702222",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=3087&ts=1734702222",
+          "publishedOn": "2024-12-20T13:43:42.000Z",
+          "wordCount": 391,
+          "title": "[UPDATE] SQLiteStudio v3.4.11",
+          "imageUrl": null
+        },
+        {
+          "id": "2904+1734673289",
+          "author": null,
+          "description": "",
+          "link": "https://www.portablefreeware.com/?id=2904&ts=1734673289",
+          "publishedOn": "2024-12-20T05:41:29.000Z",
+          "wordCount": 539,
+          "title": "[UPDATE] paint.net v5.1.2",
+          "imageUrl": null
+        },
         {
           "id": "2639+1734626666",
           "author": null,
@@ -7484,56 +7464,6 @@
           "wordCount": 581,
           "title": "[UPDATE] AutoRun LWMenu v1.6.4",
           "imageUrl": null
-        },
-        {
-          "id": "132+1732172175",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=132&ts=1732172175",
-          "publishedOn": "2024-11-21T06:56:15.000Z",
-          "wordCount": 5292,
-          "title": "[UPDATE] Mozilla Firefox, Portable Edition v132.0.2",
-          "imageUrl": null
-        },
-        {
-          "id": "133+1732172142",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=133&ts=1732172142",
-          "publishedOn": "2024-11-21T06:55:42.000Z",
-          "wordCount": 2611,
-          "title": "[UPDATE] Mozilla Thunderbird, Portable Edition v128.4.3",
-          "imageUrl": null
-        },
-        {
-          "id": "3087+1732171354",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=3087&ts=1732171354",
-          "publishedOn": "2024-11-21T06:42:34.000Z",
-          "wordCount": 377,
-          "title": "[UPDATE] SQLiteStudio v3.4.5",
-          "imageUrl": null
-        },
-        {
-          "id": "660+1732110663",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=660&ts=1732110663",
-          "publishedOn": "2024-11-20T13:51:03.000Z",
-          "wordCount": 599,
-          "title": "[UPDATE] Blender v4.3",
-          "imageUrl": null
-        },
-        {
-          "id": "2020+1732110177",
-          "author": null,
-          "description": "",
-          "link": "https://www.portablefreeware.com/?id=2020&ts=1732110177",
-          "publishedOn": "2024-11-20T13:42:57.000Z",
-          "wordCount": 1221,
-          "title": "[UPDATE] UltraSearch Free v4.6",
-          "imageUrl": null
         }
       ]
     },
@@ -7542,6 +7472,16 @@
       "feedUrl": "http://www.qiuquan.cc/feed",
       "siteUrl": "http://www.qiuquan.cc",
       "articles": [
+        {
+          "id": "http://www.qiuquan.cc/?p=6682",
+          "author": "泉",
+          "description": "雷电安卓模拟器是可以在电脑上模拟安卓系统的软件，非常适合在电脑上玩手游，它支持市面上99%的游戏和应用，运行流畅，解决挂机烦恼，多开挂机流畅不掉线，拒绝手机发烫、电量不足、内存不足等手机端缺点，为玩家提供更好的游戏环境与操作方式。雷电拥有众多特色功能，游戏手柄即插即用、一键宏高端玩家必备、操作录制循坏操作、一键定位点哪定哪、超宽屏享受更宽视野、同步器操作一次操作多个窗口……下载安装雷电模拟器轻松玩转各种手游、应用。",
+          "link": "http://www.qiuquan.cc/systemtool/dnplayer.html",
+          "publishedOn": "2024-12-20T11:35:16.000Z",
+          "wordCount": 549,
+          "title": "雷电模拟器 9.1.33.2 国内版 + 9.1.32.0 海外版&去广告优化版",
+          "imageUrl": null
+        },
         {
           "id": "http://www.qiuquan.cc/?p=6586",
           "author": "泉",
