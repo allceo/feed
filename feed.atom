@@ -2,10 +2,551 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://allceo.github.io/feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-01-17T01:13:22.736Z</updated>
+    <updated>2025-01-18T01:11:32.104Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://allceo.github.io/feed/index.html"/>
     <link rel="self" href="https://allceo.github.io/feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] Google Chrome Portable v132.0.6834.84]]></title>
+        <id>2074+1737147104</id>
+        <link href="https://www.portablefreeware.com/?id=2074&amp;ts=1737147104"/>
+        <updated>2025-01-17T20:51:44.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] Image Uploader v1.4.1]]></title>
+        <id>2585+1737125658</id>
+        <link href="https://www.portablefreeware.com/?id=2585&amp;ts=1737125658"/>
+        <updated>2025-01-17T14:54:18.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[猫眼浏览器 Catsxp Browser 132.5.1.2 Stable（x86 + x64）]]></title>
+        <id>http://bak.qiuquan.cc/?p=4233</id>
+        <link href="http://www.qiuquan.cc/browser/catsxp.html"/>
+        <updated>2025-01-17T14:15:17.000Z</updated>
+        <summary type="html"><![CDATA[一款以简约安全为目标Chrome内核增强版浏览器，支持基于chrome开发的所有扩展插件，内置增强的隐私保护设置让您远离被追踪和广告的烦恼。]]></summary>
+        <author>
+            <name>泉</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] Windows Registry Recovery v3.1.3]]></title>
+        <id>1147+1737123264</id>
+        <link href="https://www.portablefreeware.com/?id=1147&amp;ts=1737123264"/>
+        <updated>2025-01-17T14:14:24.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[轻闪PDF（原傲软PDF编辑）2.15.6.7 简体中文破解版]]></title>
+        <id>http://www.qiuquan.cc/?p=7864</id>
+        <link href="http://www.qiuquan.cc/other/lightpdf.html"/>
+        <updated>2025-01-17T14:12:10.000Z</updated>
+        <summary type="html"><![CDATA[轻闪PDF是一款AI智能PDF软件，为您提供便捷、功能丰富的PDF服务，让您随时随地高效办公、学习。 您可以使用此App进行阅读、编辑、合并、压缩，提取PDF扫描件中的文字，或是将纸质文件扫描成PDF文件，以及擦除扫描件手写笔记，还可以将PDF和微软Office、图片格式相互转换。轻闪PDF还支持AI文档阅读辅助，让您对话之间获取文档信息、梳理文档摘要、提取数据并结构化输出。]]></summary>
+        <author>
+            <name>泉</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[拆解汇付斗拱开放平台]]></title>
+        <id>https://www.woshipm.com/it/6172293.html</id>
+        <link href="https://www.woshipm.com/share/6172293.html"/>
+        <updated>2025-01-17T14:00:36.000Z</updated>
+        <summary type="html"><![CDATA[汇付斗拱平台2.0的发布在支付行业内引起了广泛关注。本文将深入拆解汇付斗拱平台，探讨其在开发者角色定位、端到端全流程服务、API First体系建设以及云服务转型等方面的创新与实践。
+
+24年底汇付的斗拱2.0发布后，引起了支付行业内不小的反响。我并没有第一时间就去发表什么意见，毕竟开放平台大多数支付公司都有，功能也比较雷同。所以需要一点时间观察下斗拱到底有什么深层次的改变。
+经过一段时间的调研分析和整理，我把对汇付斗拱平台做个介绍，并且也给大家分享斗拱平台给我带来的一些启示。
+一、如何看待开发者
+开放平台开发者到底是企业内部角色，还是一个独立角色，这个一直是做开放平台首先要回答的问题。
+1、传统视角下的开发者
+传统的视角下用户的角色一般都是“代理商、服务商、平台商、普通商户、操作员”等这样的角色划分，而开发者都是下沉到这个组织架构体系下的一个操作员。
+
+这种方式就是以业务为导向的管理方式，开发者就是一个辅助的角色，业务遇到什么问题开发者能够快速的给业务提供帮助和支持。
+
+说的大白话一点开发者就是个工具，既能服务客户，也能帮助支付公司填坑。并且这种实现上也是最经济的，一个操作权限的划分而已。
+2、端到端视角的开发者
+端到端视角下你就要考虑到客户所有合作的可能性，并且把每一类角色单独来服务，还能保障他们的全流程畅通且没有断点。
+
+从端到端的角度来看，支付公司对其产品的数字化有充分信心，相信用户在任何情况下都能通过该产品解决问题。即使遇到特殊需求无法立即满足，企业也能迅速感知并接入帮助解决。
+二、端到端全流程服务
+支付产品作为插件，需嵌入客户场景才能创造价值。不同于微信和支付宝，多数支付公司为满足特定行业的差异化需求，其产品较为复杂，对接过程多依赖线下或微信沟通。这导致审核不通过、理解偏差、产品不匹配等问题频发，增加了时间成本，进而影响了互联网公司的收入。
+
+在斗拱客户服务体系…]]></summary>
+        <author>
+            <name>刚哥</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[品牌2025：寻找高价值流量]]></title>
+        <id>https://www.woshipm.com/?p=6172372</id>
+        <link href="https://www.woshipm.com/marketing/6172372.html"/>
+        <updated>2025-01-17T13:53:28.000Z</updated>
+        <summary type="html"><![CDATA[在数字化营销时代，品牌面临着流量困局的挑战，流量成本不断攀升，效果却日益不佳。本文深入探讨了品牌如何寻找含金量更高、具备品牌与内容属性的高价值流量，以破解流量困局。
+
+流量困局。
+品牌方纷纷感叹，货卖不动了，流量越买越贵，效果越来越差，但是不买流量更卖不动货，陷入流量困局。这时候很多传统媒介又站出来说你们要做品牌，不能盯着卖货，任何时候做品牌都没有错，但历史不能开倒车，不能回到只做广告不管效果的传统时代。
+我们的洞察认为，流量并不是品牌的敌人，但流量与流量之间也有差别，要寻找含金量更高，具备品牌与内容属性的高价值流量，为品牌势能持续蓄水。
+接下来谈谈，品牌如何以高价值流量，破解流量困局。
+以下、Enjoy：
+一、以内容为标准，提升流量价值
+流量+卖货本质上是销售框架。十几秒的短视频，要么讲一个显著卖点，或者优惠折扣，最终导向销售，这跟柜台销售员的话术无异，我不认为这叫“内容”，这只是导购。
+内容+流量+卖货，则是品牌营销框架。内容产生深度品牌心智，让消费者更了解这个品牌的来处与过往，内在与外在，在品类中的生态位，更清晰为何要购买，甚至是对品牌产生拥趸与热爱，以此为基础的内容所产生的流量，就叫高价值流量。而即便是卖货，导购型消费者很可能不知道自己买的是什么品牌，有什么价值。品牌型消费者则更清楚自己买到的是什么，更利于产生口碑传播与复购。
+
+
+那么问题来了，什么是品牌内容，有没有标准？我们认为好的品牌内容至少有三点标准：
+一是非广告，不管是卖点还是折扣，口播还是露出，硬广不叫品牌内容；二是内容化，意思是用户知道这是广告也乐于观看，即便是广告用户看完也有收获；三是品牌化，用户看完对品牌产生好感，让品牌精神具象化，让品牌卖点知识化。
+在好内容标准下的流量，就是品牌的高价值流量，好内容充分释放品牌价值，流量的价值从导购变成热爱，转化卖货则成为结果。
+举例比如今年我在AD TALK 上…]]></summary>
+        <author>
+            <name>Aine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[揭秘：大厂的用户画像体系，有何特点]]></title>
+        <id>https://www.woshipm.com/it/6172340.html</id>
+        <link href="https://www.woshipm.com/share/6172340.html"/>
+        <updated>2025-01-17T09:48:56.000Z</updated>
+        <summary type="html"><![CDATA[在大数据时代，用户画像成为企业精准营销和产品优化的关键工具。本文将揭秘大厂用户画像体系的特点，从基础属性标签、关键行为标签到分层行为标签和兴趣偏好标签，详细解析如何构建全面而精准的用户画像。
+
+用户画像除了描述性别，年龄等基础情况，能不能指导运营策略，输出提升用户活跃/付费的方案？当然可以！只不过，必须结合具体业务情况。前几天有同学面试某大厂，光顾着背诵RFM指标，结果挂了……一起来复盘下，看大厂对用户画像的分析思路与要求。
+一、谈用户标签，先谈场景
+首先，每种分析方法，是有特定业务场景限制的。从本质上看，网上盛传的RFM做法，只适合高频互动的零售电商业务的场景，比如耐用品、母婴、医疗、保健、游戏、影视娱乐等，都不适合RFM。这位同学虽然有电商的经验，但忽视了：他面的是某厂的小说阅读APP。
+小说业务，其付费的动力是高度内容驱动的。想让用户掏钱，至少得有内容让用户看得爽。想让用户看得爽，得知道用户喜欢什么样的内容题材。并且，小说不同于短视频或者直播。用户的爽快感，不是被炫酷的视频瞬时刺激，而是在持续阅读过程中，在沉浸式的体验中获得的。
+
+这样就形成了一个逐步沉浸的转化过程：寻找内容→点击阅读→持续阅读→付费页面→付费→持续付费。因此，定位用户当前所处的阶段，引导用户向下一阶段发展，是用户画像最关键的问题。这需要丰富的用户标签，清晰用户的状态
+二、基础属性标签
+有些用户标签，可以用表单收集。比如：
+母婴产品：BB出生月份数、BB健康情况
+少儿教育：年龄、年级、科目（英语/语文/奥数）、目的
+物流货运：货物类型、货物重量、出发地、达到地、时间要求
+家政服务：家庭位置，服务内容（保姆/清洁/护理），上门时间
+医疗保健：年龄、性别、身体状况、病史
+注意！这些表单是建立在业务本身的刚需之上。比如没有地址信息，阿姨无法上门服务。所以这种表单信息能受到用户的理解和配合，采集难度低，标签准…]]></summary>
+        <author>
+            <name>接地气的陈老师</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[小红书流量爆炸，策略如何跟上？]]></title>
+        <id>https://www.woshipm.com/it/6172327.html</id>
+        <link href="https://www.woshipm.com/share/6172327.html"/>
+        <updated>2025-01-17T09:34:40.000Z</updated>
+        <summary type="html"><![CDATA[小红书近期迎来了流量的井喷式增长，尤其是大量国外用户的涌入，给平台带来了新的机遇和挑战。本文将从策略产品的角度，探讨小红书如何通过调整准入机制、优化内容理解和分发策略，来有效承接这波流量
+
+今天我跟大家简单唠唠小红书接下来如何去承接这波“井喷式”的流量，策略该如何做？
+其实，可能需要调整的不仅仅是策略。
+从策略产品的角度，对于这种问题的思考，大家很容易一上来就是想分发策略该怎么优化，召回该怎么优化，排序该怎么优化。
+
+这种做法有点太过直接了。
+针对巨大的增量，我觉得首先应该解决“行不行”的问题。
+这个问题我们不展开说了，简单讲就如同你在国内用google搜索，推特一样的道理。
+那么这么多国外普通民众（重点）入驻一个平台，首先解决的就是这种问题。
+假设这个可行。
+然后，我们从策略上简单说说。
+我会把整个过程可能会涉及到的策略分为三个部分：准入，理解和分发。
+一、准入
+当你的用户发生井喷式增长的时候，首先需要解决的就是准入门槛机制的问题。
+很简单，对于平台来说成也用户，败也用户，最直接的比如国外友人如何实名认证，注册流程的区别等等，都需要重新优化，甚至单独做。
+紧接着，用户的巨量增长就意味着内容增量的爆发性增长。
+那么，针对平台来讲，很自然的就需要解决内容风控安全策略的问题，内容安全审核，审核规则设定，审核流程的优化等等都是需要重新审视。
+听说小红书已经开始招聘英文审核员了，可能是动作之一，毕竟流程优化了，必然对应岗位的优化。
+二、理解
+假设一切可行的前提下。
+接下来针对策略来讲的话，首先就需要考虑完善基建设施。
+大家都知道在短视频领域，视频分发效率高的前提就是内容理解和用户理解。
+内容理解又跟不同的语言习惯，语法结构，表达逻辑息息相关。
+所以当前小红书如何在产生大量内容增量的前提下，怎么把新增不同文化，不同地区的内容理解到位，是一个非常大的挑战。
+如果这块没有做好，哪怕后续的策略做得再好也只是锦上添花。
+基建不到位，再好的规则逻辑也白搭。
+还有一个非常重要的点，就是用户理解或者叫用户刻画。
+很明显这也是一项大的工程，目前小红书肯定是不具备的。
+三、分发
+最后，当内容准备就绪，接下来就是如何让这些内容能够高效地分发给用户。
+这块就不用想了，简单的去复用目前的分发逻辑（召回，排序）是做不好的。
+有大量的外国友人进来意味着你的用户群体变了，而且不只是国内和国外这么简单，可能是全球N个国家、地区。
+不同群体的文化，观念决定了不同用户群体的需求是不一样的。
+这就是为啥目前很多大厂的国际化部门都要分国家去做，而不是简单的区分国内，国外两种群体对待。
+另外，组织架构，不同团队、人员的分工都需要做针对性的调整。
+所以，思来想去，单独做个APP可解，快刀斩乱麻不失为一种高效的解法。
+名字？”小绿书“也挺好（不认真）。
+本文由人人都是产品经理作者【夏唬人】，微信公众号：【策略产品夏师傅】，原创/授权 发布于人人都是产品经理，未经许可，禁止转载。
+题图来自Unsplash，基于 CC0 协议。]]></summary>
+        <author>
+            <name>策略产品夏师傅</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[35岁以上的产品经理转型能做什么？]]></title>
+        <id>https://www.woshipm.com/it/6172324.html</id>
+        <link href="https://www.woshipm.com/share/6172324.html"/>
+        <updated>2025-01-17T09:26:35.000Z</updated>
+        <summary type="html"><![CDATA[在职场发展的道路上，35岁以上的产品经理面临着诸多挑战，如新技术的学习压力、市场竞争的加剧以及个人职业规划的调整等。本文将深入探讨这一群体的职业转型背景、面临的挑战、具体的转型方向以及相应的策略建议
+
+35岁以上的产品经理，作为职场中的资深人士，拥有丰富的行业经验、深厚的专业知识以及广泛的人脉资源。
+然而，随着年龄的增长，他们可能面临一些职业转型的挑战，如新技术的学习压力、市场竞争的加剧以及个人职业规划的调整等。
+针对这一群体，以下将详细探讨其转型的可能性、面临的挑战、具体转型方向以及相应的策略建议。
+一、35岁以上产品经理的职业转型背景
+1、行业变化与技术迭代
+随着科技的飞速发展，新产品、新技术层出不穷，这对产品经理的专业技能和学习能力提出了更高要求。
+35岁以上的产品经理可能面临新技术学习压力，需要不断更新知识结构。
+2、市场竞争与职业发展
+市场竞争日益激烈，企业对于产品经理的要求也在不断提高。
+35岁以上的产品经理在职业发展上可能面临瓶颈，需要寻找新的增长点。
+3、个人生活与职业规划
+随着年龄的增长，个人生活压力（如家庭、子女教育等）可能增加，同时职业规划也可能需要调整，以适应个人生活节奏和职业发展需求。
+二、35岁以上产品经理转型面临的挑战
+1、技术更新速度
+
+新技术、新工具层出不穷，35岁以上的产品经理可能难以跟上技术更新的速度，导致在技术层面失去竞争力。
+2、体能与精力限制
+随着年龄的增长，体能和精力可能有所下降，难以长时间承受高强度的工作压力。
+3、职业规划迷茫
+面对职业发展的瓶颈，部分产品经理可能感到迷茫，不知道如何规划下一步的职业道路。
+4、薪资与待遇期望
+由于拥有丰富的经验和技能，35岁以上的产品经理可能对薪资和待遇有更高的期望，但市场可能无法满足这一需求。
+三、35岁以上产品经理的转型方向
+1、向管理层转型
+产品总监：负责整个产品线或产品部门的管理，制…]]></summary>
+        <author>
+            <name>伍德安思壮</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[产品ABC分类法]]></title>
+        <id>https://www.woshipm.com/it/6172295.html</id>
+        <link href="https://www.woshipm.com/share/6172295.html"/>
+        <updated>2025-01-17T09:21:56.000Z</updated>
+        <summary type="html"><![CDATA[在企业管理中，有效的产品分类对于优化库存管理、合理分配资源、指导采购决策以及提升销售策略的针对性至关重要。本文将详细介绍产品ABC分类法，探讨其在库存管理中的应用，以及如何通过具体的算法步骤实现产品的科学分类，帮助企业在竞争激烈的市场中提升运营效率和盈利能力。
+
+产品ABC分类法是库存管理的重要分析方法，在ERP系统中，经常会提到这个分类方法，对于库存管理可以起到参考借鉴的作用，提高库存周转。
+一、产品ABC分类法的作用
+1. 优化库存管理
+对于 A 类产品，企业可密切监控库存水平，采用如准时制（JIT）等先进的补货策略，确保低库存水平下的及时供应，减少库存积压资金和仓储成本，如电子芯片等关键零部件。
+B 类产品则按常规补货计划，保持适度库存。
+
+C 类产品可适当增加补货批量和延长补货周期，降低采购和管理成本，像一些低值易耗品。
+2. 合理分配资源
+依据分类结果，企业能针对性地分配管理资源。A 类产品获得更多人力、技术和资金投入，保障供应和质量，如安排专业采购人员与优质供应商合作。B 类产品保持适度关注和资源分配。C 类产品在满足基本需求前提下，简化管理流程，提高管理效率。
+3. 指导采购决策
+影响采购策略制定。A 类产品与优质供应商建立长期合作，争取优惠价格和供应保障，签订长期合同并加强合作。B 类产品按需采购，平衡成本和供应。C 类产品可批量采购或寻找低成本供应商，降低采购成本。
+4. 提升销售策略针对性
+助力销售部门制定策略。A 类产品重点推广，提供优质服务，满足高端客户需求，利用其高利润贡献提升企业效益。B 类产品按常规销售方式，拓展市场份额。C 类产品可通过促销活动、组合销售等方式加快周转，如日用品促销。
+二、产品分类的算法
+产品ABC分类法的作用这么大，那算法是什么？
+1.收集数据
+整理特定时间段内（通常为一年或三个月）每种产品的相关数据，包括产品的销量以及单价等信息。这些数据是后续计算和分类的基础。
+2.计算销售金额
+将每种产品的销量乘以其客单价价，得到每种产品的销售金额。公式为：销售金额 = 销量 × 客单价。
+3.排序
+按照计算得出的销售金额大小，对所有产品进行降序排列。确保销售金额高的产品排在前面，销售金额低的产品排在后面。
+4.计算百分比
+计算每种产品的销售金额占总销售金额的百分比。公式为：产品销售金额百分比 = （该产品销售金额 / 所有产品销售金额总和）× 100%。同时，计算累计百分比，即从第一个产品开始，依次将每个产品的销售金额百分比累加起来。
+5.分类
+根据累计百分比进行分类。一般将累计百分比达到 70% – 80%左右的产品划分为 A 类；累计百分比在 70% – 80%到 90% – 95%之间的产品划分为 B 类；剩余累计百分比在 90% – 95%之后的产品划分为 C 类。
+当然这个占比可以结合公司的实际情况做一些微调。
+本文由人人都是产品经理作者【蔡锦海】，微信公众号：【锦海说】，原创/授权 发布于人人都是产品经理，未经许可，禁止转载。
+题图来自Unsplash，基于 CC0 协议。]]></summary>
+        <author>
+            <name>蔡锦海</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[他们的ERP，属实有些另类]]></title>
+        <id>https://www.woshipm.com/it/6172260.html</id>
+        <link href="https://www.woshipm.com/share/6172260.html"/>
+        <updated>2025-01-17T09:12:51.000Z</updated>
+        <summary type="html"><![CDATA[在企业数字化转型的浪潮中，ERP系统作为核心工具被广泛应用，但不同企业对ERP的理解和应用却大相径庭。本文将探讨ERP系统在业务驱动、产品驱动和技术驱动下的多样化形态，分析企业如何根据自身需求选择合适的ERP建设模式，以及这些模式带来的不同效果和挑战。
+
+很多企业搞数字化转型，第一步就是上ERP，但这个“ERP”值得考究，可能他上的“ERP”和你上的“ERP”还不是一个东西，这个区别不仅仅是ERP产品选型上的，更多的是概念上的。
+企业虽然都叫自己的系统是ERP，本质上却大有不同。就好比说是干“骑手”的，但你也不知道是跑外卖的还是驯马的。
+
+为什么产生了这么大的偏差？归根结底还是建设ERP这个IT系统的出发点问题，是业务驱动、产品驱动还是技术驱动导致。
+业务驱动就是以企业的实际业务为导向，来推动IT系统的发展。听起来这是一个非常不错的想法，毕竟不和业务沾边建设出来的系统就是空中楼阁，不切实际。但是否和实际业务沾边就切实际了，我看也不是。
+要想确保业务驱动IT系统建设成功，必要前提条件是有一个真正即能懂业务，又能跳出业务框架思考的人，来重度参与和决策对应IT系统的设计工作。
+为什么这么说？这是由于很多IT系统建设，业务方往往疏忽，派出一些自认为业务专家的角色来指导方案，但这类“专”仅仅专在了自家企业的业务上，他没有办法跳出框架，所以提出的需求或方案也仅仅是浮于表面的，没有深层次的解决掉核心的问题。
+这个就叫“久病而不自知，自知而不能自治”，所以现在很多企业，如果自己有IT部门，他们在弄一个模式，就是IT人去学习业务，从而再结合IT去解决问题，至于成效嘛，先观望。
+然后是产品驱动，一般是本着打造通用化产品或标准化流程的角度出发。就拿ERP来讲，什么SAP、用友、金蝶他们都有自己的通用化ERP产品。这些产品的建设过程，那当然也是离不开业务驱动，但当产品建设完成，拿去给企业应用的时候，对于企业来讲那就是产品驱动。
+也就是企业要根据产品的标准应用流程去调整自己原有的管理方式。这种方式有好有坏，就像高速上换轮胎，换得好，那是技艺高超，换得不好，那得车毁人亡。
+最后是技术驱动，这种模式对业务细节无需特别关注，旨在打造泛化的解决方案，至于企业要怎么用，全凭他们的爱好，自己配置来决定，例如现在的低代码平台、开源ERP。
+那么企业用不用得好，得看企业对业务的掌握和对这套工具的熟悉程度，是否可以自己配置出来一套适配的系统。
+回到ERP，上面这三种驱动模式，企业都可能采用。那么通过不同的模式所搭建出来的“ERP”也就千姿百态，有真的ERP，也有处理订单的“ERP”、有处理仓储的“ERP”、有处理审批的“ERP”、还有可以搞直播的“ERP”……
+本文由人人都是产品经理作者【产品真经】，微信公众号：【产品真经】，原创/授权 发布于人人都是产品经理，未经许可，禁止转载。
+题图来自Unsplash，基于 CC0 协议。]]></summary>
+        <author>
+            <name>产品真经</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[本地生活：规模化还是信息差，服务商的盈利策略分析]]></title>
+        <id>https://www.woshipm.com/it/6172241.html</id>
+        <link href="https://www.woshipm.com/share/6172241.html"/>
+        <updated>2025-01-17T09:03:03.000Z</updated>
+        <summary type="html"><![CDATA[在本地生活服务领域，服务商们正面临着盈利模式的抉择与挑战。本文将深入探讨在业务开拓初期，品牌如何平衡线上内容投入与线下变现能力，以及如何通过明确收入准则、选择优质服务商、解决信息差问题等策略，实现从亏损到盈亏平衡的转变。
+
+1/在 0-1 的业务开拓阶段，不确定性显著，前期投入必不可少。对于品牌而言，如果缺乏线下基础门店，就需重新构建一套体系。该体系涵盖两个关键部分：门店或服务交付方，以及线上引流至门店的渠道。前者决定了品牌能够服务的潜在客群范围，后者则是将潜在用户转化为付费用户的关键。
+
+在前期，门店数量有限会制约内容转化效率，因为潜在转化的目标受众基数较小。所以，这一阶段线上的内容投入和线下的变现能力都相对受限。如今，能够在亏损 4 – 5 个月后就实现盈亏平衡的平台愈发稀少，除非品牌处于极具潜力的蓝海赛道。
+2/品牌应明确自身的收入准则，并非所有收入都要与门店共享。品牌可获取的费用主要分为三个层级。第一层是业务抽成与门店服务费。若业务模式以这两者为主，理想的收入模式是业务抽成能够覆盖内容制作成本，而门店服务费则成为利润来源。第二层是招商加盟费用，通过品牌授权快速吸引一批门店加盟，此时对于品牌的首次付费，需要审慎考虑是否收取。第三层是供应链费用，通过线上线下的产品服务进行供应链分成，此时则要权衡是否继续收取第一道钱，即业务抽成与门店服务费，做到有所取舍。
+3/对于众多品牌而言，在前期宁愿投入资金选择优质的服务商，即便费用较高，但他们能够助力品牌快速上线并开展运营推广。相较于费用，时间对于品牌更为关键。自行组建运营团队开展线上推广，可能投入了资金却无法达到预期效果，还会延误业务布局的时机。这就如同在战场上，优秀的枪手不会花费过多时间瞄准，而是迅速开枪，只有开枪速度够快，才有时间调整姿势，从而击倒敌人。
+4/信息差始终存在，并且呈现出不断扩大的趋势。在与一些门店老板交流业务时发现，他们渴望实现线上化转型，却因缺乏了解而无从下手，也没有人能给予他们详细的指导。很多在行业内看似常识的内容，对于线下门店来说却是难以解决的难题。解决信息差问题就如同 “卖铲子”，如果在 2025 年能够专注于帮助门店解决信息差问题，依然能够取得显著的成果。
+5/服务商究竟靠什么盈利？这是一个我多次探讨的话题。服务商的从业者必须深入理解自身业务，同时与品牌明确交付边界。服务商赚取的主要是三种类型的钱。
+第一类是规模化带来的收益。例如在加油站业务中，从套餐设计到内容交付都具备优势，承接加油站业务时能够以较低成本出色完成工作。若为一家加油站每月盈利 1 万，拓展到 100 家加油站并复制交付模式，就能实现规模化100万的盈利。
+第二类是信息差收益。以共管业务为例，在积累了大量经验、踩过诸多坑之后，对于没有共管资格且不了解业务问题的品牌，可通过收取服务费，帮助其加入共管模式来盈利。一般来说，业务前期靠信息差盈利，后期则需回归业务本质，通过规模化盈利。
+第三类是情绪价值收益。所谓 “酒喝好了，业务就有了”，并非毫无道理。
+本文由人人都是产品经理作者【陈罡Pro】，微信公众号：【陈罡Pro】，原创/授权 发布于人人都是产品经理，未经许可，禁止转载。
+题图来自Unsplash，基于 CC0 协议。]]></summary>
+        <author>
+            <name>陈罡Pro</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[8000字干货！深度解析AI在C/B端产品的应用实践]]></title>
+        <id>https://www.woshipm.com/it/6172237.html</id>
+        <link href="https://www.woshipm.com/ai/6172237.html"/>
+        <updated>2025-01-17T08:53:32.000Z</updated>
+        <summary type="html"><![CDATA[在数字化浪潮的汹涌澎湃中，人工智能（AI）宛如一颗璀璨的明珠，照亮了C端与B端产品的创新之路。从智能家居的便捷操控到企业决策的精准洞察，AI技术正以前所未有的深度和广度，重塑着我们的生活与工作模式。
+
+“设计师的岗位是否会被AI取代”这一疑问频繁被人们提起，成为了社会各界广泛讨论的热点话题。
+随着AI技术的日新月异，它不仅在设计流程中发挥着越来越重要的作用，还逐步融入C端与B端产品的各个环节，悄然改变着这些产品的面貌。那么，AI(人工智能)究竟是什么呢？它又为C端与B端产品带来了哪些前所未有的新机遇呢？接下来，让我们一同深入剖析这些值得深思的问题。
+本篇内容
+一、认识AI人工智能
+二、AI产品市场的分类
+三、AI如何与C端商业结合
+四、AI如何与B端商业结合
+五、结语
+一、认识人工智能
+AI (Artificial Imteligence，人工智能)，利用人工智能技术来创造艺术作品的过程。它涵盖了各种技术和方法，包括计算机视觉、深度学习、生成对抗网络等。具体而言，使计算机仿人类般进行创作活动，从而生成诸如文本、图像、音频、视频等各类丰富内容。通过对大量数据的学习与分析，仿效人类创作模式来生成新内容，能在短时间内产出大量内容，大幅提升了创作效率。
+1.1 了解AI绘画的定义
+
+AI绘画是利用人工智能技术进行图像生成的一种数字艺术形式，使用计算机生成的算法和模型来模拟人类艺术家的创作行为，自动化地生成各种类型的数字绘面作品，包括肖像画、风景画、抽象画等。
+
+AI绘画的原理涉及多个方面，例如风格转换、自适应着色、生成对抗网络等技术。用户可以通过对AI模型进行训练，让AI模型学习并模仿不同风格的艺术家，从而创造出具有新颖性和独特性的艺术作品。
+与传统的绘画创作不同，AI绘画的过程和结果都依赖于计算机技术和算法，它可以为艺术家和设计师工作更高效，更精准，更有创意的绘画创作体验。
+
+总…]]></summary>
+        <author>
+            <name>Clippp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI僚机火了！用AI教人谈恋爱，6个月爆赚千万]]></title>
+        <id>https://www.woshipm.com/it/6172229.html</id>
+        <link href="https://www.woshipm.com/evaluating/6172229.html"/>
+        <updated>2025-01-17T08:00:16.000Z</updated>
+        <summary type="html"><![CDATA[在AI技术日益渗透日常生活的当下，“恋爱输入法”这一独特的AI应用异军突起，成为市场上的新宠。这类应用通过智能算法为用户提供恋爱建议和回复模板，帮助用户在情感交流中更加得心应手。这篇文章，我们来分析其中几款比较有代表性的产品，看看它们的表现怎么样。
+
+人最会为什么样的AI应用花钱？还得是教人谈恋爱的。
+这事，放在全世界都一样。
+刚过去的一年，“恋爱输入法”产品彻底火了。这类产品的功能很简单，帮助用户利用AI调情、生成个性化的回复，从而在约会和社交中脱颖而出。
+去年，几个小团队做出来的“恋爱输入法”在流量和商业化上，吊打市面上大部分AI产品。
+在国内，Lovekey键盘、蜜小语、Love键盘均入围12月国内AI应用月活TOP20，年收入均在千万人民币以上，最高甚至能达到3100万。
+去年10月，海外“僚机”RIZZ也宣布，月活用户数达到150万，ARR达到450万美金，约3280万人民币。
+“恋爱输入法”到底有什么魔力？为什么能赚这么多钱？今天，乌鸦君就带你来看看。
+01 半年收入过千万，赚钱能力惊人
+2024年年末，“恋爱输入法”属实惊艳了一把AI产品人。
+去年12月，Lovekey键盘、蜜小语、Love键盘三个应用均进入国内AI产品TOP20，分别位列15名、17名和19名，月活基本和妙鸭相机和海螺AI一个水平。
+
+不仅月活表现不错，这些产品的商业化成绩也很“顶”。根据“AI产品榜”的数据，Lovekey键盘、蜜小语、Love键盘三个产品的收入均已经达到千万级：
+Lovekey键盘（2024年2月上线），年收入3100万元人民币。
+蜜小语（2024年6月上线），年收入2150万人民币。
+Love键盘（2024年6月上线），年收入1530万人民币。
+考虑到这些产品上线还不到一年，取得的成绩可以说是相当优秀了。要知道，去年7月上线的妙鸭相机至今累计收入也只在261万美元左右。…]]></summary>
+        <author>
+            <name>乌鸦智能说</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[支付宝打8折P0资损故障：再论防呆设计的重要性]]></title>
+        <id>https://www.woshipm.com/it/6172228.html</id>
+        <link href="https://www.woshipm.com/operate/6172228.html"/>
+        <updated>2025-01-17T07:52:42.000Z</updated>
+        <summary type="html"><![CDATA[昨天支付宝的P0事件不仅引发了网友的热议，也暴露了支付系统在资损防控方面的潜在问题。本文将深入剖析此次故障的原因，探讨防呆设计在支付系统中的重要性，并分享一些实用的防呆策略，以帮助支付行业从业者从此次事件中汲取教训，提升系统的健壮性和可靠性。
+
+今天聊聊支付宝昨天的全场打8折P0资损故障，除了看热闹，也尝试聊聊资损防控中的“防呆设计”。
+2025年1月16日下午14:40至14:45，支付宝平台出现重大故障。在这短短5分钟内，用户在进行个人转账、信用卡支付、缴费等操作时，订单支付页面均弹出“政府补贴”提示，直接享受到了20%的减免优惠。
+
+（图片来源于网络）
+关于支付宝是否补扣用户的钱，网友各种意见都有。我个人的观点：如果支付宝要扣，一定是在法律框架允许的情况下扣回，当然这不可避免带来网友们的口诛笔伐。如果不扣，也有很多先例，包括多多，企鹅等都曾出现过类似的事件，就直接送给用户。（支付宝官方已声明：不追回。）
+
+关于可能的原因，比较多的猜测，是测试环境配置问题：技术团队在进行国补测试时，没有完全隔离测试环境和实际交易环境，导致测试数据误操作进入了真实交易环节，从而出现全平台的减免现象。同时也暴露出审核机制不完善，缺乏自动熔断机制等不足的地方。
+凭心而论，支付宝处理的速度还是很快的，奈何交易量实在太大，才导致影响这么大。
+除了吃瓜，做为一个支付人，我们当然还要想想自己：换成是我，我怎么做？大部分人想的大概就是优化流程规范、强化审核制度、加强培训等。
+还有其它的吗？有的。
+我以前写过一篇“在支付系统中实施防呆设计的实践”，也是类似在测试环境调用了外部渠道的生产环境，出现资损。
+什么是防呆设计？
+“防呆设计”（日语：ポカヨケ poka yoke）是一种预防性设计策略，目的是通过限制方法减少错误的发生。用户在无需额外注意力、经验或专业知识的情况下，也能准确无误地完成操作。
+这个概念起源于日本，被广泛应用于丰田汽车的生产过程中，随着时间的推移，已成为全球范围内广泛采用的设计策略。
+在工业设计中，防呆设计的例子比比皆是。例如，USB接口的设计确保了只有正确方向才能插入，而Type-C接口则进一步简化，支持双面插入。
+下面是一个极简化的例子。
+第一版：使用字母标识，容易出错。
+
+第二版：使用颜色标识，减少出错。
+
+ 
+第三版（防呆）：不同形状只能插到不同的位置，想错都错不了。
+
+回到这个故障本身，具体怎么做呢？有下面几点供参考：
+环境隔离。在测试环境和正式环境之间设置严格的隔离机制，像采用不同的网络配置、数据库连接等，就可以有效防止测试参数误传入正式环境，从而避免此类配置错误引发的故障。
+自动熔断机制。所有的营销资金池强制设置最大金额，当补贴额度超出预设范围等情况时，自动熔断机制能够及时切断错误的交易流程，防止问题进一步扩大，避免给用户和平台带来更大的损失。
+系统默认兜底检查不符合常理或明显高风险的操作或配置。比如营销或补贴一定是有指定条件的，这次故障出现全类型可用。包括以前多多的故障，本来是拉新的，结果是全部用户可用。以前我们还出现过，客资手动重复上传两份一样的结算单，审核也通过，导致重复结算，而同一天同一个商户结算相同金额，明显也不符合常理。
+从业多年，见过太多的线上故障，得到一个朴素的道理：“人都是不可靠的，所以加再多的审批也是不可靠的，一定要想办法不要依赖人或流程来解决。”多引入一些防呆设计，让再“呆笨”的人都没有出错的可能性，那么系统就是健壮的，也就没有那么多的线上应急和复盘。
+阿里系最近几年时常处在风口浪尖上，但抛开情绪，支付宝仍然人才济济，技术仍然领先，内部的流程体系也仍然是完备的，不能因为几次故障就完全否定。
+每一次故障，背后都是一些鲜活生命高强度承压下的应急处理。还是希望大家少点故障，开心过个年。
+本文由人人都是产品经理作者【隐墨星辰】，微信公众号：【隐墨星辰】，原创/授权 发布于人人都是产品经理，未经许可，禁止转载。
+题图来自Unsplash，基于 CC0 协议。]]></summary>
+        <author>
+            <name>隐墨星辰</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[生产过程质量管理：一检、二督、三提、四跟、五验、六总]]></title>
+        <id>https://www.woshipm.com/it/6172220.html</id>
+        <link href="https://www.woshipm.com/pd/6172220.html"/>
+        <updated>2025-01-17T07:26:39.000Z</updated>
+        <summary type="html"><![CDATA[在当今商业竞争日益激烈的环境下，产品质量成为了企业生存与发展的关键。而生产过程质量管理则是确保产品质量的基石。本文将详细介绍一种系统的生产过程质量管理方法——“一检、二督、三提、四跟、五验、六总”，供大家参考。
+
+在当今竞争激烈的市场环境中，产品质量已成为企业立足的根本。
+而生产过程质量管理，作为保障产品质量的核心环节，其重要性不言而喻，不仅对生产过程的质量稳定与提升、质量管理改善成本管控具有非常大的作用，同时也可以有效提升客户对公司质量管理的满意度与信任度，强化客户与公司的合作广度与深度。
+今天，我们就来深入探讨一种行之有效的生产过程质量管理方法：一检、二督、三提、四跟、五验、六总。
+一检：检查生产过程产品质量
+“一检”，即对生产过程中的产品进行及时、全面的检查，确保其符合质量标准。
+在生产中，通过对原材料、半成品及成品的阶段性检查，我们能够及时发现潜在的质量问题，避免问题产品进入下一生产环节，从而减少后续的返工成本和资源浪费。
+在电子产品制造企业中，对每一批次的电子元器件进行进货检验，检查其规格、性能是否符合要求，确保从源头把控产品质量。
+
+在服装生产过程中，在裁剪、缝制等关键工序后，对半成品进行检验，查看是否存在针脚不匀、尺寸偏差等问题，及时调整，保证最终成品的质量。
+需要特别注意的是，在进行 “一检” 时，要制定科学合理的抽样方案，确保样本能够代表整体产品的质量状况。
+同时，检验人员要具备专业的技能和严谨的态度，严格按照检验标准和流程进行操作，不放过任何一个可能存在的质量隐患 。
+这就如同在建造高楼大厦时，对每一块基石都进行严格筛选，只有基石稳固，大厦才能屹立不倒。
+二督：双管齐下保合规
+1. 督促工艺标准操作的符合性
+工艺标准是产品生产的蓝图，详细规定了产品生产的各个环节、步骤以及所需达到的技术要求 。
+督促工艺标准操作的符合性，就是要确保生产过程严格按照这张蓝图…]]></summary>
+        <author>
+            <name>壹叁零壹</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[钉钉一个小小的创新：iOS双摄像头还能这么用？]]></title>
+        <id>https://www.woshipm.com/it/6172215.html</id>
+        <link href="https://www.woshipm.com/share/6172215.html"/>
+        <updated>2025-01-17T07:13:07.000Z</updated>
+        <summary type="html"><![CDATA[在音视频技术不断发展的今天，钉钉团队一直在探索如何通过创新技术提升用户体验。本文将介绍钉钉在iOS双摄像头技术上的最新应用，这一创新不仅解决了直播场景中的多画面需求，还为用户提供了更丰富的交互体验。
+
+钉钉一个小小的创新，分享给你大家～
+大家好，我是钧小鸿，是一名钉钉音视频直播 iOS 开发工作者。在日常工作中，我们除了支撑好业务工作外，我们音视频端团队还会实时关注 iOS 等苹果技术的发展动向：比如画中画、iPad 分屏、灵动岛、视频效果等等，并针对这些不同的新特性、新技术和相关业务结合，从而能做出更好的体验、更优秀的产品。比如去年钉钉和苹果合作适配 Apple Vision Pro（钉钉正式登陆苹果Vision Pro），结合这种新型设备，可以让虚拟人分身参与会议、观看大屏直播。那这次，我们还要进行哪些原生应用创新的探索呢？跟着我一起往下看👀
+
+一、双摄像头操作在直播场景的诉求
+考虑一个场景，在部门直播一场篮球赛的热场直播阶段，摄像头除了抓取球场的画面，主播也会去采访现场观众。我们收到同事的反馈，“我只有一个手机，没法直播拍摄两个画面”“多机位多画面的直播，那不得要用专业设备啊”。
+的确，现在在一些知名视频网站上，越来越多的解说视频里解说画面和视频画面同时出现的。观众对解说的诉求已经不仅仅停留在听声音，大家也喜欢看到解说的神态表情等肢体画面。那么这个问题是否能解决呢？
+用一个手机，既能充分进行赛事直播，又能看到主播酣畅淋漓地进行讲解。
+答案当然是可以的。
+二、苹果视频摄像头技术发展
+作为音视频的开发，我会重点关注苹果在视频相关的一些技术迭代，比如画中画、视频效果、摄像头等等。音视频中声音保证了最基本的沟通和传播，当然是首要保证的，但是在保证了声音的基础上画面能提供更优秀的体验，值得我们对其做相应的探索和研究。
+众所周知，单摄像头的处理方式是将摄像头采集到的一路视频帧经…]]></summary>
+        <author>
+            <name>钉钉用户体验</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[人在回路、AI上车——未来HMI新交互]]></title>
+        <id>https://www.woshipm.com/?p=6171929</id>
+        <link href="https://www.woshipm.com/ucd/6171929.html"/>
+        <updated>2025-01-17T06:29:59.000Z</updated>
+        <summary type="html"><![CDATA[随着人工智能技术的飞速发展，汽车行业的智能化转型正在加速。本文将探讨“人在回路”（Human-in-the-Loop, HITL）理念在汽车设计与体验中的应用，以及未来人机交互模式的演变。
+
+在 2025 年的国际消费电子展（CES）上，宝马以令人瞩目的创新展示了其对汽车智能化未来的构想。宝马亮相的核心技术之一是增强现实（AR）导航系统、全新的 HoloActive Touch 无触控显示界面，以及更加智能化的语音助手。这些技术不仅为驾驶者带来了更加沉浸式的体验，也为未来的智能驾驶舱描绘了全新蓝图。
+
+图：2025年CES展上BMW的未来座舱
+宝马的增强现实导航系统可以将导航信息直接叠加在挡风玻璃上，显示即将到来的转弯、限速提示和实时交通状况等关键信息，驾驶员无需频繁转移视线，即可获取关键信息，大幅提升行车安全性和驾驶体验。而 HoloActive Touch 技术则通过虚拟显示和手势控制，打破传统物理按键和触屏的限制，让用户能够轻松完成导航设置、娱乐操作和车辆功能调整。
+宝马的智能语音助手系统，实现了更加自然流畅的人机对话。不仅可以理解驾驶员和乘客的各种指令，还可以识别复杂语境，还能根据驾驶员的语气和用词判断当前需求。例如，驾驶员说“我有点累了”，语音助手可以推荐最近的休息区，播放舒缓音乐，甚至调整车内氛围灯光。
+
+图：《流浪地球2》剧照
+这一系列创新技术的背后，是“人在回路” （Human-in-the-Loop, HITL）理念的深刻体现。在电影《流浪地球 2》中，数字人类和 MOSS 的融合展现了人类智慧与算法协同的可能性。人成为智能算法应用的一个重要环节，使算法可以适应更多复杂的变化，并产生质的飞跃。而所谓人在回路AI上车，就是将人类驾驶员的智慧和决策与人工智能技术深度融合。它并非简单地用机器取代人，而是让人和AI相互协作，发挥各自的优势。
+一、AI 在汽车设计与…]]></summary>
+        <author>
+            <name>HMI怡伶设计心理</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] ocenaudio v3.14.9]]></title>
+        <id>2799+1737093945</id>
+        <link href="https://www.portablefreeware.com/?id=2799&amp;ts=1737093945"/>
+        <updated>2025-01-17T06:05:45.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[UPDATE] HiBit Uninstaller v3.2.50]]></title>
+        <id>3108+1737093895</id>
+        <link href="https://www.portablefreeware.com/?id=3108&amp;ts=1737093895"/>
+        <updated>2025-01-17T06:04:55.000Z</updated>
+        <author>
+            <name>The Portable Freeware Collection</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Raphael AI – 世界上首个无需注册、免费无限制的 AI 绘图工具，由 FLUX.1-Dev 模型驱动[早用早享受，晚了用不到]]]></title>
+        <id>https://www.appinn.com/?p=50771</id>
+        <link href="https://www.appinn.com/raphael-ai/"/>
+        <updated>2025-01-17T04:12:49.000Z</updated>
+        <summary type="html"><![CDATA[Raphael AI 是一款由 FLUX.1-Dev 模型驱动 AI 绘图工具，以青小蛙测试了20来张图片来看，的确无需注册、免费、即开机用。但注意这类服务属于早用早享受，晚了用不到类型，并无法确定能]]></summary>
+        <author>
+            <name>青小蛙</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一文搞懂企业架构与DDD的融合]]></title>
+        <id>https://www.woshipm.com/?p=6171770</id>
+        <link href="https://www.woshipm.com/pd/6171770.html"/>
+        <updated>2025-01-17T02:35:15.000Z</updated>
+        <summary type="html"><![CDATA[在当今数字化时代，企业架构（EA）和领域驱动设计（DDD）成为了构建高效、灵活且可扩展软件系统的关键方法论。本文将深入探讨企业架构TOGAF框架与DDD的融合之道，分析如何通过这种结合实现从业务战略到技术实现的无缝对接。
+
+今天聊聊企业架构与DDD如何进行融合。
+一、企业架构TOGAF
+什么是企业架构TOGAF？
+TOGAF（The Open Group Architecture Framework）是一个广泛采用的企业架构（Enterprise Architecture, EA）框架，由开放组（The Open Group）开发和维护。
+它为组织设计、规划、实施和治理企业信息架构提供了系统化的方法和工具。TOGAF旨在帮助企业通过高效的架构管理，实现业务目标、优化资源利用和增强灵活性。
+TOGAF发展历程
+
+如图展示了从1970年代至2012，企业架构框架和相关标准的演进历程，其中包括：
+C4ISR (Command, Control, Communications, Computers, Intelligence, Surveillance and Reconnaissance)
+TAFIM (Technical Architecture Framework for Information Management)
+Zachman Framework
+TOGAF (The Open Group Architecture Framework)
+FEAF (Federal Enterprise Architecture Framework)
+DoDAF (Department of Defense Architecture Framework)以及ArchiMate
+在此历程中，美国各组织和政府部门陆续制定并优化了各自的企业架构方法论和标准，携手推动了企业架构领域的蓬勃发展。…]]></summary>
+        <author>
+            <name>架构师汤师爷</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[被吹爆的 DeepSeek！拥有“东方神秘力量”强大推理能力的 ChatGPT 国产替代品]]></title>
+        <id>https://www.iplaysoft.com/?p=6289</id>
+        <link href="https://www.iplaysoft.com/deepseek.html"/>
+        <updated>2025-01-17T00:33:12.000Z</updated>
+        <summary type="html"><![CDATA[异次元曾经推荐过 Kimi (月之暗面) 的国产大模型，不错的综合能力算是可以作为 ChatGPT 的免费平替使用。然而，最近的新黑马 DeepSeek 不仅火遍全网，甚至在全球范围都一鸣惊人！
+DeepSeek v3 是一款开源国产 AI 大模型，被誉为“来自东方的神秘力量”。让全球惊讶的是它仅用 1/10 算力成本就训练出性能超越 Llama 3 的模型，出色的推理思考能力完全不输 ChatGPT，不仅开源免费，还将 API 价格彻底打下来碾压同行！满满良心+国产之光，绝对应该推一波……
+「 前往查看原文.... 」
+异次元还有这些值得一看：
+
+Kimi (月之暗面 Moonshot AI) - 爆火的免费国产大模型 (超长文 / 兼容 ChatGPT API)
+Claude 3 注册使用教程 - 全面超越 ChatGPT (GPT4) 的免费替代品！ AI “超级黑马”
+低调~ 免费无限白嫖 GPT4 方法！Coze 扣子 - 字节出品的超强 AI Bot 工具教程
+谷歌 Google Gemini 发布！号称超越 ChatGPT 3.5 的更强免费 AI (支持中文)
+
+异次元首页  |  微信公众号  |  关注微博  |  软件精选  |  软件激活码折扣]]></summary>
+        <author>
+            <name>X-Force</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[[UPDATE] Wireless Network Watcher v2.42]]></title>
         <id>2128+1737069866</id>
@@ -32,6 +573,66 @@
         <summary type="html"><![CDATA[WinRAR 是一款强大的压缩文件管理工具，界面友好，使用方便，采用先进的压缩算法，在压缩率和速度方面都有很好的表现。]]></summary>
         <author>
             <name>泉</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[专业像素画绘制工具 Aseprite 1.3.11.0 + x64 中文免费版]]></title>
+        <id>http://www.dayanzai.me/?p=42440</id>
+        <link href="https://www.dayanzai.me/aseprite.html"/>
+        <updated>2025-01-16T16:38:19.000Z</updated>
+        <summary type="html"><![CDATA[专业像素画绘制工具 Aseprite 中文版由大眼仔旭 整理发布。Aseprite 是由国外 David Ca […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[批量调整图像大小工具 Light Image Resizer 7.1.3.65 绿色中文免费版]]></title>
+        <id>http://www.dayanzai.me/?p=1082</id>
+        <link href="https://www.dayanzai.me/lightimageresizer.html"/>
+        <updated>2025-01-16T16:35:43.000Z</updated>
+        <summary type="html"><![CDATA[Light Image Resizer 绿色中文版 批量调整图像大小由大眼仔旭（www.dayanzai.me […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[免费批量图像格式转换工具 ImageConverter 1.4.9 绿色汉化版]]></title>
+        <id>https://www.dayanzai.me/?p=73045</id>
+        <link href="https://www.dayanzai.me/imageconverter.html"/>
+        <updated>2025-01-16T16:35:28.000Z</updated>
+        <summary type="html"><![CDATA[ImageConverter 中文版由大眼仔旭汉化，它能够让您一键转换多种图像格式。它支持使用 MozJPEG […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[优秀免费截图工具 Snipaste 2.10.4 + x64 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=27771</id>
+        <link href="https://www.dayanzai.me/snipaste.html"/>
+        <updated>2025-01-16T16:27:46.000Z</updated>
+        <summary type="html"><![CDATA[优秀免费截图工具 Snipaste + x64 绿色中文版由大眼仔旭发布。Snipaste 是一个简单但强大的 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[远程桌面控制工具 AnyDesk 9.0.2 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=2758</id>
+        <link href="https://www.dayanzai.me/anydesk.html"/>
+        <updated>2025-01-16T16:22:58.000Z</updated>
+        <summary type="html"><![CDATA[AnyDesk 中文版由大眼仔旭发布。AnyDesk 中文版是市场上最快的远程桌面软件。AnyDesk 允许新 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[免费实用的安装包制作工具 CreateInstall Free 8.11.1 中文免费版]]></title>
+        <id>http://www.dayanzai.me/?p=4116</id>
+        <link href="https://www.dayanzai.me/createinstall-free.html"/>
+        <updated>2025-01-16T16:02:59.000Z</updated>
+        <summary type="html"><![CDATA[CreateInstall Free 中文版 免费实用的安装包制作工具由大眼仔旭（www.dayanzai.m […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
         </author>
     </entry>
     <entry>
@@ -14239,293 +14840,6 @@ Codeium - 让 AI 帮你编程！免费 Github Copilot 替代品 / 自动代码�
         <link href="http://www.qiuquan.cc/androidsoft/cytx.html"/>
         <updated>2024-12-19T13:41:09.000Z</updated>
         <summary type="html"><![CDATA[春盈天下app是一款拥有丰富影视资源的软件，用户可以在软件中快速地搜索到自己喜欢的任何一部影视作品，更好的满足不同用户的观影需求，软件还会实时记录用户观看的所有视频，方便用户下次观看。]]></summary>
-        <author>
-            <name>泉</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[图解支付账务系统核心设计（进阶版）]]></title>
-        <id>https://www.woshipm.com/it/6159077.html</id>
-        <link href="https://www.woshipm.com/share/6159077.html"/>
-        <updated>2024-12-19T11:50:57.000Z</updated>
-        <summary type="html"><![CDATA[在金融科技领域，支付账务系统的设计和实现是构建高效、安全支付平台的关键。本文深入探讨了支付账务系统的核心设计， […]]]></summary>
-        <author>
-            <name>隐墨星辰</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[服务开发篇 | 面向OLAP的数据指标使用]]></title>
-        <id>https://www.woshipm.com/it/6158965.html</id>
-        <link href="https://www.woshipm.com/share/6158965.html"/>
-        <updated>2024-12-19T10:11:17.000Z</updated>
-        <summary type="html"><![CDATA[在大数据和数字化转型的背景下，OLAP（在线分析处理）系统在企业中扮演着越来越关键的角色。本文深入探讨了面向O […]]]></summary>
-        <author>
-            <name>数据小吏</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数字化转型的点、线、面、体]]></title>
-        <id>https://www.woshipm.com/it/6158960.html</id>
-        <link href="https://www.woshipm.com/pd/6158960.html"/>
-        <updated>2024-12-19T09:31:46.000Z</updated>
-        <summary type="html"><![CDATA[本文将带你深入了解数字化转型的“点、线、面、体”战略，从局部的点状实践到整体的生态构建，探索企业数字化转型的路 […]]]></summary>
-        <author>
-            <name>壹叁零壹</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[抖音劲敌已出现！]]></title>
-        <id>https://www.woshipm.com/it/6158958.html</id>
-        <link href="https://www.woshipm.com/share/6158958.html"/>
-        <updated>2024-12-19T09:25:12.000Z</updated>
-        <summary type="html"><![CDATA[在短视频的江湖中，抖音以其算法和内容生态独领风骚，然而，腾讯的视频号正以其社交网络和内容生态的深度整合，成为抖 […]]]></summary>
-        <author>
-            <name>产品经理龙哥</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[程序员与产品经理：需求评审桌上的智慧交锋]]></title>
-        <id>https://www.woshipm.com/?p=6158864</id>
-        <link href="https://www.woshipm.com/share/6158864.html"/>
-        <updated>2024-12-19T08:57:47.000Z</updated>
-        <summary type="html"><![CDATA[在团队里，产品经理和程序员就是一对相爱相杀的欢喜冤家，特别是在需求评审会上。但如果没有激烈的争论，反而没有产品 […]]]></summary>
-        <author>
-            <name>灵美姐姐</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[专业注册表清理工具——Wise Registry Cleaner 10.9.2.709 + 11.1.9.724 去广告专业版（安装版 + 单文件版）]]></title>
-        <id>http://bak.qiuquan.cc/?p=4202</id>
-        <link href="http://www.qiuquan.cc/systemtool/wise-registry-cleaner.html"/>
-        <updated>2024-12-19T08:25:49.000Z</updated>
-        <summary type="html"><![CDATA[Wise Registry Cleaner是一款功能强大的磁盘整理软件，软件界面简洁，功能非常强大，支持简体中文多语言界面，还支持XP下透明界面，能够帮助用户快速清理系统垃圾、硬盘整理、注册表清理、查找重复文件、进程管理以及内存优化等等一系列优化工具。]]></summary>
-        <author>
-            <name>泉</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[微信炸裂新功能]]></title>
-        <id>https://www.woshipm.com/?p=6158813</id>
-        <link href="https://www.woshipm.com/share/6158813.html"/>
-        <updated>2024-12-19T08:14:49.000Z</updated>
-        <summary type="html"><![CDATA[微信昨晚上更新了一个很炸裂的功能——送礼物。之前的微信红包也是在节前更新的，一度让支付宝破防，这次的更新，有其 […]]]></summary>
-        <author>
-            <name>知行之间</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[我为什么可以做到半年升总监？到底做对了什么？]]></title>
-        <id>https://www.woshipm.com/?p=6158329</id>
-        <link href="https://www.woshipm.com/zhichang/6158329.html"/>
-        <updated>2024-12-19T08:13:04.000Z</updated>
-        <summary type="html"><![CDATA[今天，我想写一点不一样的东西。因为我发现，做产品，光提升硬的技能是不够的，还得在软的意识思维上也有变化，才有可 […]]]></summary>
-        <author>
-            <name>武林</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[互联网运营修炼手册：打造一套完整的客户自助服务]]></title>
-        <id>https://www.woshipm.com/?p=6158793</id>
-        <link href="https://www.woshipm.com/share/6158793.html"/>
-        <updated>2024-12-19T08:09:15.000Z</updated>
-        <summary type="html"><![CDATA[职场上都有完整的流程可以提高我们的工作效率，所以，在AI替代我们之前，我们可以设计一套系统，替代我们的部分工作 […]]]></summary>
-        <author>
-            <name>学江</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数据运营篇 | 用户可以使用哪些数据的资产]]></title>
-        <id>https://www.woshipm.com/it/6158923.html</id>
-        <link href="https://www.woshipm.com/share/6158923.html"/>
-        <updated>2024-12-19T08:03:47.000Z</updated>
-        <summary type="html"><![CDATA[在数字化转型的浪潮中，数据已成为企业最宝贵的资产之一。本文将带你深入了解数据资产的运营和管理，探讨如何通过数据 […]]]></summary>
-        <author>
-            <name>数据小吏</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Figma高阶技能卡①丨90%设计师都忽略的组件四大属性！]]></title>
-        <id>https://www.woshipm.com/?p=6158720</id>
-        <link href="https://www.woshipm.com/share/6158720.html"/>
-        <updated>2024-12-19T06:58:05.000Z</updated>
-        <summary type="html"><![CDATA[与Axure一样，Figma里面也有组件功能。而且Figma里面的组件更为重要，还会有对应的属性。这篇文章，我 […]]]></summary>
-        <author>
-            <name>廖尔摩斯丨设计大侦探</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[用户生命周期管理实战：从获客成本CAC到用户价值LTV]]></title>
-        <id>https://www.woshipm.com/?p=6158678</id>
-        <link href="https://www.woshipm.com/operate/6158678.html"/>
-        <updated>2024-12-19T06:47:07.000Z</updated>
-        <summary type="html"><![CDATA[产品的用户越多就越赚钱吗？未必。很多产品陷入了疯狂烧钱拉新，结果赔本赚吆喝的怪圈。你需要从大量用户中精准圈定高 […]]]></summary>
-        <author>
-            <name>小黑哥</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI对话新思维：线性往复模式设计解密]]></title>
-        <id>https://www.woshipm.com/?p=6158676</id>
-        <link href="https://www.woshipm.com/ai/6158676.html"/>
-        <updated>2024-12-19T06:44:20.000Z</updated>
-        <summary type="html"><![CDATA[随着人工智能的快速发展，人机对话已成为AI产品的标配功能。但如何让对话更高效、更自然、更智能，始终是AI-UX […]]]></summary>
-        <author>
-            <name>ux.ian</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[案例分享：不空谈方法，0-1把业务方案落地的实例]]></title>
-        <id>https://www.woshipm.com/?p=6158653</id>
-        <link href="https://www.woshipm.com/share/6158653.html"/>
-        <updated>2024-12-19T06:39:03.000Z</updated>
-        <summary type="html"><![CDATA[上篇我们以面试为话题切入，分享了如何以产品角度去分析新的领域。《如何100%通过面试》 虽然整篇文章是以“如何 […]]]></summary>
-        <author>
-            <name>李白</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[如何给 KOL 提内容创作需求？超全指南]]></title>
-        <id>https://www.woshipm.com/?p=6158636</id>
-        <link href="https://www.woshipm.com/operate/6158636.html"/>
-        <updated>2024-12-19T06:32:34.000Z</updated>
-        <summary type="html"><![CDATA[做产品推广时往往需要找大量的网红、KOL合作，与这些人合作时，提Brief都要注意哪些问题呢？本文作者整理了一 […]]]></summary>
-        <author>
-            <name>外贸小巨熊</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Data×AI：智能时代做好用户运营的必备利器]]></title>
-        <id>https://www.woshipm.com/?p=6158210</id>
-        <link href="https://www.woshipm.com/kol/6158210.html"/>
-        <updated>2024-12-19T06:25:47.000Z</updated>
-        <summary type="html"><![CDATA[上周末，人人都是产品经理联合腾讯大讲堂在深圳举办了一场「2024 AI产品经理大会」，阿里巴巴高级产品专家@冯 […]]]></summary>
-        <author>
-            <name>人人都是产品经理</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[高清视频下载工具——4K Video Downloader+ 1.10.3.161 专业版]]></title>
-        <id>http://www.qiuquan.cc/?p=8272</id>
-        <link href="http://www.qiuquan.cc/download/4kvideodownloaderplus.html"/>
-        <updated>2024-12-19T05:42:38.000Z</updated>
-        <summary type="html"><![CDATA[4K Video Downloader是一款专业的高清视频下载软件，软件能够对于网络带宽的提高，视频的品质提高，支持HD 1080p，HD 720p，4K和8K分辨率视频下载]]></summary>
-        <author>
-            <name>泉</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] WinUpdatesView v1.19]]></title>
-        <id>2988+1734581033</id>
-        <link href="https://www.portablefreeware.com/?id=2988&amp;ts=1734581033"/>
-        <updated>2024-12-19T04:03:53.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub Copilot 面向所有用户免费开放，每月 2,000 条代码建议]]></title>
-        <id>https://www.appinn.com/?p=50529</id>
-        <link href="https://www.appinn.com/github-copilot-free/"/>
-        <updated>2024-12-19T04:02:49.000Z</updated>
-        <summary type="html"><![CDATA[GitHub Copilot 是著名的代码托管平台 GitHub 发布的 AI 辅助编程工具，可在 GitHub 网页直接使用。它能根据你的需求，自动生成代码，还能检查代码错误、优化代码，并提供建议。]]></summary>
-        <author>
-            <name>青小蛙</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[中国移动广西公司“数字化运输”平台产品功能案例解析]]></title>
-        <id>https://www.woshipm.com/?p=6157449</id>
-        <link href="https://www.woshipm.com/pd/6157449.html"/>
-        <updated>2024-12-19T00:53:45.000Z</updated>
-        <summary type="html"><![CDATA[与常规的物流企业不同，中移动这种公司打造数字化运输平台，都有哪些需要注意的点？这篇文章，我们来看看作者的分享。 […]]]></summary>
-        <author>
-            <name>物流小兵说</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] Text Editor Pro v31.1.0]]></title>
-        <id>2706+1734556598</id>
-        <link href="https://www.portablefreeware.com/?id=2706&amp;ts=1734556598"/>
-        <updated>2024-12-18T21:16:38.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] RedNotebook v2.37]]></title>
-        <id>2086+1734556523</id>
-        <link href="https://www.portablefreeware.com/?id=2086&amp;ts=1734556523"/>
-        <updated>2024-12-18T21:15:23.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[安卓影视——视觉 v1.0.1.2 去广告优化版]]></title>
-        <id>http://www.qiuquan.cc/?p=8266</id>
-        <link href="http://www.qiuquan.cc/androidsoft/shijue.html"/>
-        <updated>2024-12-18T17:28:00.000Z</updated>
-        <summary type="html"><![CDATA[视觉影视app是安卓一款免费在线追剧软件，提供电影、电视剧、动漫和综艺等丰富影视内容。它以流畅的播放体验、智能推荐系统和高清画质选项著称，无论是最新的院线大片，还是经典老片，或是热门的电视剧集，视觉影视应用都能一网打尽，满足不同用户的观影需求。支持离线下载，界面简洁易用，让您有更便捷、高品质的免费影视观看体验。]]></summary>
-        <author>
-            <name>泉</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hello Kitty 五十周年，简约与可爱的成功故事]]></title>
-        <id>https://www.dayanzai.me/?p=73739</id>
-        <link href="https://www.dayanzai.me/hello-kitty.html"/>
-        <updated>2024-12-18T16:56:59.000Z</updated>
-        <summary type="html"><![CDATA[Hello Kitty，这位全球知名的日本文化偶像，在 2024 年迎来了她的 50 岁生日。尽管已经半世纪高 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows 中批量提取文件名的 BAT 脚本使用教程]]></title>
-        <id>https://www.dayanzai.me/?p=73752</id>
-        <link href="https://www.dayanzai.me/bat-extract-filen-ames.html"/>
-        <updated>2024-12-18T16:45:05.000Z</updated>
-        <summary type="html"><![CDATA[在 Windows 操作系统中，有时我们需要批量提取文件的名称，例如在整理大量文档、图片或其他文件时，手动逐个 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[远程协助工具——TeamViewer 15.61.3 便携版 + 单文件版]]></title>
-        <id>http://bak.qiuquan.cc/?p=4227</id>
-        <link href="http://www.qiuquan.cc/other/teamviewer-2.html"/>
-        <updated>2024-12-18T16:40:34.000Z</updated>
-        <summary type="html"><![CDATA[TeamViewer 是一个在任何防火墙和 NAT 代理的后台用于远程控制，桌面共享和文件传输的简单且快速的解决方案。为了连接到另一台计算机，只需要在 两台计算机上同时运行 TeamViewer 即可而不需要进行一个安装的过程。该软件第一次启动在两台计算机上自动生成伙伴 ID。只需要输入你的伙伴的 ID 到 TeamViewer，然后就会立即建立起连接。]]></summary>
-        <author>
-            <name>泉</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[福昕高级PDF编辑器 Foxit PDF Editor 13.1.5.23566 + 2024.4.0.27683 专业版直装破解版]]></title>
-        <id>http://www.qiuquan.cc/?p=8246</id>
-        <link href="http://www.qiuquan.cc/other/foxitpdfeditor.html"/>
-        <updated>2024-12-18T16:10:14.000Z</updated>
-        <summary type="html"><![CDATA[福昕高级PDF编辑器是一款功能强大、超级实用的PDF编辑软件，功能齐全，适合各种规模的企业组织，支持创建、编辑、注释、协作和共享、保护、页面管理、导出、扫描和光学字符识别(OCR)以及签署PDF文档和表单等。]]></summary>
-        <author>
-            <name>泉</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[万能解包工具 Universal Extractors v2024.12.18 汉化直装版 By：Koros]]></title>
-        <id>http://www.qiuquan.cc/?p=8255</id>
-        <link href="http://www.qiuquan.cc/setup/universalextractors.html"/>
-        <updated>2024-12-18T14:43:02.000Z</updated>
-        <summary type="html"><![CDATA[Universal Extractor是一款可以从任何类型的存档文件中提取文件的万能解包提取工具，只需指定待提取的文件与目标文件夹，Universal Extractor 会自动分析文件类型并提取完成。]]></summary>
-        <author>
-            <name>泉</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[硬盘低格工具 HDD Low Level Format Tool v4.50 汉化单文件版 By：大眼仔]]></title>
-        <id>http://www.qiuquan.cc/?p=8251</id>
-        <link href="http://www.qiuquan.cc/systemtool/hddllf.html"/>
-        <updated>2024-12-18T14:05:04.000Z</updated>
-        <summary type="html"><![CDATA[HDD Low Level Format Tool是一款小巧实用的硬盘低格修复工具，支持对硬盘、USB硬盘、SSD硬盘、U盘和闪存卡（SD、MMC、记忆棒和CF）等进行低级格式化操作，帮助用户轻松修复一些硬盘问题。]]></summary>
         <author>
             <name>泉</name>
         </author>
