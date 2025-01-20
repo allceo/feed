@@ -2,10 +2,283 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://allceo.github.io/feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-01-19T01:19:11.106Z</updated>
+    <updated>2025-01-20T01:14:54.233Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://allceo.github.io/feed/index.html"/>
     <link rel="self" href="https://allceo.github.io/feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[盘点42个最受欢迎AI产品：18位硅谷顶级大佬强推，创意生成类最吃香]]></title>
+        <id>https://www.woshipm.com/it/6172780.html</id>
+        <link href="https://www.woshipm.com/share/6172780.html"/>
+        <updated>2025-01-19T14:17:08.000Z</updated>
+        <summary type="html"><![CDATA[在AI技术飞速发展的今天，各种创新的AI产品如雨后春笋般涌现，为我们的生活和工作带来了前所未有的便利和效率。本文将为您盘点42个最受欢迎的AI产品，这些产品涵盖了从通用助手到创意生成、从效率工具到学习工具的多个领域，得到了18位硅谷顶级大佬的强烈推荐。
+
+2024年，是AI应用全面落地的一年。
+很多人都有一个疑问，在这些AI产品里，谁是最受用户欢迎？
+不久前，硅谷知名投资机构a16z就做了这样一个调查，询问了18位不同行业的领导者，让他们分享各自最喜欢的AI产品。
+这些18位创业者总共分享了42个AI产品，其中涵盖通用助手（3个）、效率工具（7个）、内容创作工具（7个）、产品开发工具（4个）、创意内容生成工具（11个）、学习工具（6个）、娱乐休闲工具（4个）七大类别。
+
+最受欢迎的产品类型是创意生成类，有11个AI产品被提及，其中音乐生成器Suno被提及3次。在所有工具中，最受欢迎的是AI搜索Perplexity AI（被提及5次），其次是对话式机器人Claude（被提及4次）。
+除了这些耳熟能详的名字外，这个名单中还有一些有趣的AI产品，比如AI互动日记本Rosebud、AI育儿顾问GoodInside、AI心理医生Ash等等。
+在这份清单中，无论是追求高效办公的职场人士，还是专注内容创作的创作者；无论是探索前沿技术的开发者，还是渴望提升学习体验的学生群体，都能从中找到助力自身发展的得力工具。
+接下来，跟随乌鸦君一起来看看。
+一、通用助手
+1、Perplexity AI，实时响应的AI搜索
+Perplexity AI是一款AI驱动的智能搜索引擎，提供实时、准确的研究和信息检索服务。它利用包括GPT-4在内的大模型来生成实时、类似人类的答案。Perplexity AI提供每月20美元的专业计划，解锁GPT-4集成和每天最多300次搜索等功能。
+Perplexit公司由Ope…]]></summary>
+        <author>
+            <name>乌鸦智能说</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何减少干扰，精准给 AI 喂料？｜用 MarkDownload 将网站转换为 .md（纯净的）]]></title>
+        <id>https://www.appinn.com/?p=50764</id>
+        <link href="https://www.appinn.com/markdownload/"/>
+        <updated>2025-01-19T14:09:06.000Z</updated>
+        <summary type="html"><![CDATA[看到评论尸的一条微博： 日常给 AI 喂料的小技巧：如果你想丢给它的网页没有图表，那直接用 MarkDownload 插件剥离图片和链接直接把纯 Md 文件给它就行。 如果你想对给它的网页有图表，并且]]></summary>
+        <author>
+            <name>青小蛙</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[生产管理管好六点：重点、难点、盲点、薄弱点、问题点、变化点]]></title>
+        <id>https://www.woshipm.com/it/6172762.html</id>
+        <link href="https://www.woshipm.com/share/6172762.html"/>
+        <updated>2025-01-19T13:52:13.000Z</updated>
+        <summary type="html"><![CDATA[在生产制造领域，管理的精细程度往往决定了企业的生存与发展。面对复杂多变的生产流程，如何精准把控每一个环节，确保高效与质量并重？本文将深入探讨生产管理中的六大关键要点：重点、难点、盲点、薄弱点、问题点、变化点。
+
+生产管理是生产制造企业运营的核心环节，直接影响着企业的竞争力和可持续发展力。从原材料的采购，到产品的最终交付，每一个步骤都需要精心规划与严格把控。
+在生产管理的复杂棋局中，管理者如同运筹帷幄的将军，需精准把控关键“棋子”，才能确保生产流程顺畅、高效。其中，“重点、难点、盲点、薄弱点、问题点、变化点”这六点，是生产管理中不可忽视的关键要素，关乎生产全局，决定着企业能否在激烈的市场竞争中稳步前行。
+
+一、聚焦重点
+把握生产核心命脉
+生产重点是企业实现目标的关键环节，直接关系到产品的质量、成本、交付时间，也是制造业常关注的QCD。
+例如：在汽车制造企业中，发动机生产线就是重中之重。发动机作为汽车的“心脏”，其生产质量直接影响整车性能。管理者必须投入大量精力，确保发动机生产线的设备运行高效、工艺流程精准无误、人员操作熟练规范。
+质量是企业的生命线，是赢得客户信任和市场份额的关键。
+
+提升产品质量，需要从源头抓起，严格把控原材料的检验环节 。企业应建立完善的供应商评估体系，挑选优质的供应商，确保所采购的原材料符合高标准。在生产过程中，要不断优化生产工艺，引入先进的生产技术和设备，加强对生产流程的监控，设置多个质量检测点，对半成品和成品进行严格检测。还要加强员工的质量培训，让每一位员工都树立起强烈的质量意识，将质量理念贯穿于生产的每一个环节。
+成本控制直接关系到企业的盈利能力和市场竞争力。
+要降低成本，企业需全方位入手。在原材料采购方面，可通过与供应商建立长期稳定的合作关系、批量采购、优化采购流程等方式，降低采购成本。同时，注重节约原材料，避免浪费，提高原材料的利用率。在生产环…]]></summary>
+        <author>
+            <name>壹叁零壹</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[4k 投影仪和 1080p 差别大吗，在购买时你应该如何选择？]]></title>
+        <id>https://www.dayanzai.me/?p=73953</id>
+        <link href="https://www.dayanzai.me/4k-projectors-vs-1080p-projectors.html"/>
+        <updated>2025-01-19T13:41:32.000Z</updated>
+        <summary type="html"><![CDATA[随着家庭娱乐技术的不断进步，越来越多的消费者开始将目光投向了提供更高分辨率和更佳视觉体验的设备。从电视机到显示 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[盒子影视——影视仓 v5.0.48.1 电视版]]></title>
+        <id>http://www.qiuquan.cc/?p=6586</id>
+        <link href="http://www.qiuquan.cc/androidsoft/ysc.html"/>
+        <updated>2025-01-19T13:40:40.000Z</updated>
+        <summary type="html"><![CDATA[影视仓是一款完全免费的高清影视盒子软件，适用于电视端和手机安装使用，它具有超高清画质、流畅不卡顿、无广告、全免费以及最新最全最广泛的影视资源等优势，支持手动添加播放源选择播放，各种配置接口源可自由选择任意线路，操作简单方便。]]></summary>
+        <author>
+            <name>泉</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[你感兴趣的大厂“潜规则”]]></title>
+        <id>https://www.woshipm.com/it/6172756.html</id>
+        <link href="https://www.woshipm.com/share/6172756.html"/>
+        <updated>2025-01-19T12:00:13.000Z</updated>
+        <summary type="html"><![CDATA[在职场的江湖中，大厂一直是一个充满神秘色彩的存在。它们有着严格的选拔机制、庞大的员工队伍以及复杂的工作体系。对于许多职场人来说，进入大厂就像是开启了一段全新的冒险旅程。北沐而川健彬，一位资深的B端产品设计师，曾在小公司摸爬滚打，如今已跻身大厂行列。
+
+以前在小公司做UI时，我时常在好奇大厂与小厂的区别是什么？
+大厂的管理规则是不是没有小厂那么混乱？员工是否也像网上说的，只专精于某个领域？
+不知不觉7年过去了，自己也进入了10万+人的公司，随着在大企业中不断历练，当初的疑惑也被解开。
+所以今天想给大家分享一些我在大厂中了解到的“潜规则”，希望能够扩充同学们的视野，同时也希望能够给你们一些启发~
+
+一、能力决定下限，人脉决定上限
+说实话，一般能进大厂的同学基本职业能力都不会差，毕竟大多数员工都是经过了几轮面试选拔进来的。
+但大厂更像是一个“小社会”，能力决定了你能够成为社会中的一员，而帮助你往上爬的，除了职业能力外，更多的是交际。
+
+在这个庞大的体系里，内部人脉就像一张无形却强大的网络，连接着各个部门、各个层级。它是获取资源、把握机会的关键桥梁。
+举个例子，目前我负责的一个深圳系统项目，光是负责该项目的产品经理都四五十人，整个广州中心的产品经理人数超过了三四百。
+这意味着就算我不参加外面所谓的产品经理团建、不进入某些博主粉丝群，也能建立自己的人脉交际圈。
+这还没算上一起合作的前后端开发同学，这些人脉资源足以让我们在公司里面走得更远，因为我们会一起协作分享一些最前沿的资源、探讨技术、了解更多的用户需求。
+就算日后有人毕业离开，我们也会通过人脉圈进行内推就业，让别人推进另外的大厂。
+当然，除了公司以外，我相信你们每一个都是我最好的人脉，倘若有一天你们需要我的帮忙，我也会尽我所能，帮助你们~
+
+二、学习，是永恒不变的真理
+在互联网圈中，你们会发现马太效应十分明显。
+就是强的人会越来越强，弱的人会越来越弱。大厂的同学很容易进大厂，小厂的同学会一直被压制着，想翻身得付出加倍努力。
+大企业之所以能够越做越好，我觉得核心关键在于懂得沉淀方法论，并且能够让员工进行实践。
+从踏进公司开始，大厂同学每天都在遵循标准化的工作流程，例如工作管理，我们会每周一规划好本周的todolist、项目结束后会总结工作方法论，分享到其他项目组。
+规范的流程与方法论会不断push我们去工作、学习、总结，日积月累的就会与其他人拉开距离。
+说句不好听的实话，现在很多企业压根不在乎员工是否有知识沉淀，只希望不断压榨员工的价值，让他们没有时间去思考，最终演变成只会干活的“驴”。
+因此，学习是永恒不变的道理，规范自己的思维、流程，不懂就问，定期总结，这会让自己在职业道路中走得更远。
+三、30岁才刚刚开始，我的朋友
+给大家分享一组数据，以我司产品组三百多人为例，平均年龄在38左右，年龄最小的是27，最大的50岁左右。
+虽说不能以偏概全，但我能告诉你们的是，30岁不会是一个PM的终点，相反的，这才刚刚开始呢朋友。
+或许很多同学看了不少关于35岁裁员的消息，但一家有底蕴的企业，很少会在乎个人的年龄，更多的是你是否能够创造价值。
+而PM岗正是需要业务经验积累的岗位，30岁在这个行业才正是刚刚起步阶段，想要成为领域专家，我们还得继续沉淀十年、二十年、甚至更远。
+别担心因为年龄问题而导致的就业问题，那是企业配不上你，一个有底蕴的企业，能让你退休后还继续回来上班。（我公司超级多退休返聘的）
+干就完事了朋友。最后，想对你们说的话
+我常常秉承着一句话，想送给读到最后的你们：
+“如果今天的我与昨天一样，没有任何区别的话，那30岁与80岁也仅仅是时间不同而已，今天我头疼的问题，明天依旧会让我头疼。所以为何不试试努力一把，突破一下自己，或许会让以后过得更好”
+本文由人人都是产品经理作者【北沐而川】，微信公众号：【健彬的产品Live】，原创/授权 发布于人人都是产品经理，未经许可，禁止转载。
+题图来自Unsplash，基于 CC0 协议。]]></summary>
+        <author>
+            <name>北沐而川</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[怎么才能真正吃到 AI 红利，2025年应该怎么做？]]></title>
+        <id>https://www.woshipm.com/?p=6172600</id>
+        <link href="https://www.woshipm.com/aigc/6172600.html"/>
+        <updated>2025-01-19T06:34:30.000Z</updated>
+        <summary type="html"><![CDATA[你 2024 年的年度总结里，有没有复盘过自己过去一年错过了什么？
+应该没有，
+因为，对大部分人来说，只能根据自己的计划和经历来复盘得失。
+那些你没计划过、没有经历过的事情，不可能进入你的“复盘”里。
+这是很恐怖的事情，与“坐井观天”没有区别。
+如果是在平淡的日子里，大家都安安静静的“躺”或者毫无意义的“卷”，倒也没啥。
+但是如果，你正处在一个激流勇进的时代节点，只关注自己的一亩三分地，就可能导致“不进则退”了
+实际的情况是，我们确实正处在一个非常非常具备转折意义的时代节点。
+AI 这个技术太强了，它会像互联网一样彻底改变我们的工作和生活
+更关键的是，只有在这种转折点的“乱世”时代，才是普通人出人头地的时候。
+今天大家知道的“优哉游哉”的中产阶级都是在移动互联网、PC互联网时代抓住了转折机会逆袭的人。
+他们积累财富的过程，并不像你现在这么苦……
+在这种时代转折的节点，并不需要多么卷，就可以“四两拨千斤”拿到远超预期的正反馈。
+我上上周五跟阿星连麦，阿星分享了自己 2024 年取得的成绩：
+传统行业运营跳槽到大厂AI业务运营
+英伟达&火山引擎&扣子智能体大赛二等奖
+飞书AI字段模板大赛创意奖、阿里钉钉Agent助理大赛创新奖
+拿到了扣子智能体 Banner 位推荐
+成为了“AI独立开发者”，上架了多款 AI 插件/应用
+零帧起手搞了自媒体账号并跑通了商业闭环
+各种赛事奖金，累计拿了五位数
+另一个校友，前两天跟我“分享”自己要拿大礼包的喜悦。
+他现在一点也不怂，因为“有技傍身”完全不愁工作。
+
+以及另一个学员，在 2024 年最后一个月的《AI+小红书实践营》里“开了窍”，开拓了一条疯狂收钱的生意
+
+所以，在做年度复盘时，应该考虑一下：站在巨大的机会节点上，自己错过了什么。
+每天都在关注 AI 新闻了，也熟悉各种 AI 工具，为什么还是一无所获？
+
+因为这些都只是“过程”，最终…]]></summary>
+        <author>
+            <name>张佳的AI实战笔记</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[换个视角，再看互联网产品研发效率！]]></title>
+        <id>https://www.woshipm.com/?p=6172457</id>
+        <link href="https://www.woshipm.com/share/6172457.html"/>
+        <updated>2025-01-19T04:43:29.000Z</updated>
+        <summary type="html"><![CDATA[在团队中，研发团队都在想办法提高研发效率，可以快速抢占市场，快速降低成本。这篇文章，我们来看看为什么要提高研发效率的分析。
+
+研发效率为什么总是慢？
+开发资源怎么总是不够用？
+是不是哪里从一开始、从所有人就出错了？
+一、为什么产品研发都要特别重效率？
+任何研发团队，大概率都在绞尽脑汁想要提高研发效率，与时间赛跑，抢占短暂的市场高光窗口期、甜蜜空白期；资本或者vp圈的增长预期压迫；研发这个高成本的团队组织，不论从时间角度、成本角度上都要求必须研发需要高效运转起来。
+二、快砍需求！提升研发效率
+往往我们会因为研发效率的提升应该从需求管理入手，懂得“砍需求”，砍掉不必要的、没有性价比的、非真相的需求，抓住关键路径上的高价值需求，这样子我们就都是在做高价值的事情。
+
+这当然是需要的，是产品经理团队、开发团队都应该考虑的最基本的事情，可事实是大家仍会发现，为什么还是出现了研发效率低下呢？资源总是不够用，总是追着业务走。
+三、换成发展视角再看研发效率
+长焦变短焦，看更大的视野，我们很简单的看到，一个支持用户进行价值交易的产品，除了成品的皮肤、功能框架、产品逻辑、产品架构，背后更有技术架构。而技术结构并不是一开始就会有的，跟产品架构类似，开始的时候，没有架构，都是为了满足直接的业务需求，走着走着生态在变，架构也就需要逐渐形成。
+技术架构、产品架构他们都有共同的基准对象，就是业务架构的发展性，外部环境和约束的变动，导致业务发展的不确定性，从而驱动要求不论是组织结构还是信息化结构的同步迅速调整。
+用户规模、市场规模、产品功能规模不断变化，技术架构也同样需要跟着生态来成长甚至重构，不然怎么支撑不断庞大的产品架构。这时候，想一想，自己团队规划代码重构、技术重构是多久前的事情了。
+四、藏在水面下的效率阻碍冰山
+矛盾的地方在于，往往产品的功能框架、产品架构的升级是比较显性的，在业务上、管理者视角上，是和团队主价值链条直接相关的，也是更加紧迫的。必然不断导致，技术话语权被压制，疲于奔命的应对滔滔不绝的需求迭代，根本无暇考虑代码/技术层的优化。更时有发生的情况是，在破烂不堪的代码基础上，继续承接新的需求，硬着头皮构建这栋摇摇欲坠的大厦。
+短视的行为必然是，每个产品经理也都为了自己显性的产品成就和表现，哪管开发者的技术架构，恨不得24小时让程序员coding。这种做法很讨喜，管理者甚至认为这是个得力的助手，能够有效的推动项目的进展。很多简单的事情，这个时候变得迷雾重重，无人看清，叹息：可能团队里的vp也需要表现吧！
+然而，技术的重构和产品的成长必然是双螺旋结构，加上市场/商业，形成三螺旋合力一股绳。产品需要关注自己所依赖的强健的技术架构，技术结构背后也需要稳定的it架构。它们的前提又需要有清晰耐打的业务架构做支撑。
+工欲善其事，必先利其器，可是有多少大厂中厂小厂、有多少人愿意花时间去磨刀呢？
+产品经理们，你们一定要对开发者好一点，给他们主动挤出时间做技术的升级，和谐团队不说，产品也获得了健壮的技术架构支撑。
+本文由 @Kris_3zzz 原创发布于人人都是产品经理。未经作者许可，禁止转载
+题图来自 Unsplash，基于CC0协议
+该文观点仅代表作者本人，人人都是产品经理平台仅提供信息存储空间服务]]></summary>
+        <author>
+            <name>Kris_3zzz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[现代企业的价值链是什么？从生产到售后，拆解企业“赚钱的秘密”]]></title>
+        <id>https://www.woshipm.com/?p=6172462</id>
+        <link href="https://www.woshipm.com/share/6172462.html"/>
+        <updated>2025-01-19T03:22:48.000Z</updated>
+        <summary type="html"><![CDATA[现代企业的价值链，是一个全流程的协同运作系统，也是企业“赚钱的秘密”。这篇文章，作者用一杯咖啡的流程，给我们拆解价值链这个概念。
+
+想要搞清楚服务管理在企业中有多重要，先得弄明白一个基本问题：企业的价值链到底是怎么构成的？价值链的概念由迈克尔·波特提出，简单来说，就是企业从生产到销售、服务的一系列活动如何协同运作来创造价值。看似复杂，但归根到底就是一场接力赛，每个环节都在为客户满意度和企业利润贡献力量。
+下面，我们用一杯咖啡的视角，来拆解价值链的各个环节。你会发现，这不仅是企业经营的基础逻辑，也是很多优秀企业“赚钱的秘密”。
+一、产品：从原料到成品，价值链的起点
+企业的第一个环节是生产经营活动，简单来说就是“造东西”。无论是咖啡、汽车，还是电子产品，产品的生产都离不开以下几个关键环节：
+1.内部物流：原料进厂，流程要流畅
+就像一杯咖啡，原材料从咖啡豆到牛奶，再到糖包，如何以合适的时间和数量送进生产线？这就是内部物流要解决的问题。比如，一家汽车制造厂如果零部件供不上，整个生产线可能瞬间“停摆”，这就是物流断档的可怕之处。
+2.生产操作：让“原料”变成“产品”
+制造过程是价值链的核心环节。咖啡豆经过烘焙、磨粉、冲煮，再搭配牛奶或其他配料，就变成了一杯香气四溢的拿铁。企业的任务就是把控好每个步骤，确保产品质量。
+
+电子产品制造商需要做到精密加工；餐饮企业则要确保每杯咖啡的配方和口感一致。换句话说，生产就是把“原料+技术+工艺”变成客户愿意掏钱买的成品。
+3.外部物流：送货的“最后一公里”
+生产完的产品，要尽快送到客户手里。比如一杯咖啡，如果外卖小哥慢吞吞，客户可能就会差评，甚至退单。这也是为什么很多电商和外卖平台都花大力气优化物流配送。
+4.技术发展：让产品更有竞争力
+研发创新是企业长期发展的保障。就像咖啡品牌会推出风味特调、冷萃新品；汽车企业会研发电动车、自动驾驶技术。技术发展…]]></summary>
+        <author>
+            <name>化文龙</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[B端企业，怎么做私域营销？]]></title>
+        <id>https://www.woshipm.com/?p=6172350</id>
+        <link href="https://www.woshipm.com/operate/6172350.html"/>
+        <updated>2025-01-19T00:22:45.000Z</updated>
+        <summary type="html"><![CDATA[一直以来，好像私域运营都只是C端企业在做。如果B端企业做私域运营，有没有方法和经验可以借鉴的？这篇文章，作者分享的经验，希望可以帮到大家。
+
+不知道从什么时候开始，私域运营开始出现在越来越多领域和场景。收到包裹时，会看到一张扫码进群有优惠券的卡片；到餐厅吃饭，会被邀请扫码进群领取优惠券；看一场脱口秀，需要现场照片可以扫码入群领取……好像“私域”已经成了各类企业主的必备营销渠道。
+瑞幸，经历了2020年财务造假危机，在后续的自救过程中，以私域为阵地的营销策略效果显著。仅3个月，达成了“180万私域用户中，活跃用户达到60%”、“每日贡献超过3.5万杯，叠加促销活动甚至可以超过10万杯”、“用户入群后月消费频次提升 30%，周复购人数提升 28%，MAU 提升 10%”等一系列傲人成就。
+但是瑞幸在私域阵地的成功，真的可复制吗？
+若是大众消费类的C端的企业，在规模、资源、差异化抓手和转化链路足够强的情况下，尚可一试；但作为B端企业，瑞幸成功的私域营销策略，则难以被复制应用。
+那B端企业私域营销，能做吗？
+基于笔者5年的B端项目运营经验，把B端私域营销成功的关键要素，整理为以下几点：
+一、梳理清楚业务版图，清晰私域的定位
+私域转化的成功案例很多，但是也不能乱用，尤其是B端企业。B端企业的盈利模式大部分是在“客户量*客单价*复购次数”的基础上进行变化、叠加。所以当原本的业务拓展矩阵无法达成销售额的时候，需要清楚造成目标无法达成的问题出在哪里。
+
+若是客户量不足，需要结合当前获客方式、获客成本及客户决策成本，综合衡量是否可以通过私域营销策略，实现目标潜在客户的明显增长；
+若是复购客单价不足，要引导用户追加付费服务，需要考虑的就是私域投入的成本，以及转化周期，是否能带来符合预期的客单价增长；
+若是复购次数不足，在客户量稳定，客单价符合预期的情况下，是否需要通过投入私域营销成本，这一点也…]]></summary>
+        <author>
+            <name>啥都要运营</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[开源免费在线直播工具 OBS Studio 31.0.1 x64 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=34222</id>
+        <link href="https://www.dayanzai.me/obs-studio.html"/>
+        <updated>2025-01-18T16:36:30.000Z</updated>
+        <summary type="html"><![CDATA[开源免费在线直播工具 OBS Studio 中文版由大眼仔旭 发布。什么是 OBS? OBS 的完整名称是：O […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[免费开源媒体播放器 Kodi 21.2 + x64 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=892</id>
+        <link href="https://www.dayanzai.me/kodi.html"/>
+        <updated>2025-01-18T16:28:10.000Z</updated>
+        <summary type="html"><![CDATA[免费开源媒体播放器 Kodi 中文版由大眼仔旭（www.dayanzai.me）整理发布。Kodi（原名 XB […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[开源数据库管理工具 HeidiSQL 12.9.0.6999 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=4594</id>
+        <link href="https://www.dayanzai.me/heidisql.html"/>
+        <updated>2025-01-18T16:13:25.000Z</updated>
+        <summary type="html"><![CDATA[开源数据库管理工具 HeidiSQL  中文版由大眼仔旭（www.dayanzai.me）发布。HeidiSQ […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[蚂蚁下载器 Ant Download Manager Pro 2.14.2.88978 正式版 + 2.14.3.89202 测试版]]></title>
         <id>http://www.qiuquan.cc/?p=7453</id>
@@ -14918,163 +15191,6 @@ iFileSpace - 免费简单实用的私人网盘搭建工具 (多平台/个人团�
         <summary type="html"><![CDATA[Notepad3 中文版由大眼仔旭（www.dayanzai.me）发布。虽然 Windows 操作系统在过去 […]]]></summary>
         <author>
             <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[微信灰度测试“送礼物”功能：商业创新与用户体验的双重审视]]></title>
-        <id>https://www.woshipm.com/?p=6159566</id>
-        <link href="https://www.woshipm.com/share/6159566.html"/>
-        <updated>2024-12-21T09:11:43.000Z</updated>
-        <summary type="html"><![CDATA[前几天微信更新了一个送礼物功能，不少人认为这是一次类似于微信红包的功能更新。这次更新的意义和表现如何？我们来看 […]]]></summary>
-        <author>
-            <name>乱七八看</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Obsidian：一场来自意大利的”求爱”风波]]></title>
-        <id>https://www.appinn.com/?p=50555</id>
-        <link href="https://www.appinn.com/obsidian-and-bending-spoons/"/>
-        <updated>2024-12-21T03:20:00.000Z</updated>
-        <summary type="html"><![CDATA[想象一下，在一个平静的12月午后，Obsidian 的掌门人 kepano 打开邮箱，发现一封颇为特别的”求爱信”。发件人是欧洲最大的应用开发商 Bending Spoons]]></summary>
-        <author>
-            <name>青小蛙</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CPU检测工具——CPU-Z 2.13 中文绿色版]]></title>
-        <id>http://www.qiuquan.cc/?p=8328</id>
-        <link href="http://www.qiuquan.cc/systemtool/cpuz.html"/>
-        <updated>2024-12-21T02:47:16.000Z</updated>
-        <summary type="html"><![CDATA[CPU-Z 是一款免费的系统信息检测工具，专门用于显示电脑处理器（CPU）、主板、内存和显卡等硬件的详细规格。它以精准的硬件检测和轻量级运行著称，广泛应用于硬件爱好者、超频用户和系统诊断领域。通过 CPU-Z，用户可以快速了解当前计算机的硬件信息，确保系统性能最佳并诊断潜在问题。]]></summary>
-        <author>
-            <name>泉</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[盒子直播——即刻电视 v6.0.1 | 海量央视频道、卫视频道]]></title>
-        <id>http://www.qiuquan.cc/?p=8319</id>
-        <link href="http://www.qiuquan.cc/androidsoft/jikedianshi.html"/>
-        <updated>2024-12-21T02:31:49.000Z</updated>
-        <summary type="html"><![CDATA[软件功能： 1.直播与点播：用户可以选择观看实时直播节目，也可以选择点播已录制的节目，满足不同观看需求。 2. […]]]></summary>
-        <author>
-            <name>泉</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[掌握这 3 个原则，产品小白也能轻松驾驭 AI 能力！]]></title>
-        <id>https://www.woshipm.com/it/6159846.html</id>
-        <link href="https://www.woshipm.com/share/6159846.html"/>
-        <updated>2024-12-21T01:53:07.000Z</updated>
-        <summary type="html"><![CDATA[对于产品经理而言，掌握AI能力不仅是职业发展的需要，更是适应未来市场变化的必备技能。本文将为您揭示三个核心原则 […]]]></summary>
-        <author>
-            <name>好夕雷</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[小红书能做好本地生活吗？]]></title>
-        <id>https://www.woshipm.com/it/6159845.html</id>
-        <link href="https://www.woshipm.com/it/6159845.html"/>
-        <updated>2024-12-21T01:50:31.000Z</updated>
-        <summary type="html"><![CDATA[随着互联网平台的不断扩展，本地生活服务已成为各大社交平台关注的焦点。本文将带小红书在本地生活服务领域的探索与挑 […]]]></summary>
-        <author>
-            <name>陈罡Pro</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数据运营篇 | 数据运营中的权限问题]]></title>
-        <id>https://www.woshipm.com/it/6159844.html</id>
-        <link href="https://www.woshipm.com/share/6159844.html"/>
-        <updated>2024-12-21T01:48:17.000Z</updated>
-        <summary type="html"><![CDATA[在数字化时代，数据已成为企业最宝贵的资产之一。如何管理这些资产，确保数据的安全和有效利用，是每个企业都必须面对 […]]]></summary>
-        <author>
-            <name>数据小吏</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[都在教“做”项目，但有没有人教你思考？]]></title>
-        <id>https://www.woshipm.com/it/6159843.html</id>
-        <link href="https://www.woshipm.com/share/6159843.html"/>
-        <updated>2024-12-21T01:45:57.000Z</updated>
-        <summary type="html"><![CDATA[这篇文章深入剖析了当前设计领域中普遍存在的一个问题：在追求项目执行和作品集制作的同时，设计师们往往忽略了更为重 […]]]></summary>
-        <author>
-            <name>北沐而川</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[开源免费图像格式转换工具 Converseen 0.12.2.4-2 中文多语免费版]]></title>
-        <id>http://www.dayanzai.me/?p=72433</id>
-        <link href="https://www.dayanzai.me/converseen.html"/>
-        <updated>2024-12-20T16:33:32.000Z</updated>
-        <summary type="html"><![CDATA[Converseen 中文版是一款免费的跨平台批量图像处理器，适用于 Windows、Linux、macOS、 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[开源免费 Office 部署管理工具 Office Tool Plus 10.19.8.0 中文多语免费版]]></title>
-        <id>http://www.dayanzai.me/?p=8171</id>
-        <link href="https://www.dayanzai.me/office-tool-plus.html"/>
-        <updated>2024-12-20T16:25:32.000Z</updated>
-        <summary type="html"><![CDATA[开源免费 Office 部署管理工具由大眼仔旭（www.dayanzai.me）整理发布。免费 Office  […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[免费二进制新闻阅读器 SABnzbd 4.4.1 中文多语免费版]]></title>
-        <id>http://www.dayanzai.me/?p=5485</id>
-        <link href="https://www.dayanzai.me/sabnzbd.html"/>
-        <updated>2024-12-20T16:24:52.000Z</updated>
-        <summary type="html"><![CDATA[尽管社交媒体平台在过去一年不断发展，但许多人仍然更喜欢 Usenet 等经典平台。 Usenet 的工作方式与 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[开源 AI 图像绘画工具 InvokeAI 5.5.0 发布下载]]></title>
-        <id>http://www.dayanzai.me/?p=66339</id>
-        <link href="https://www.dayanzai.me/invokeai.html"/>
-        <updated>2024-12-20T16:24:29.000Z</updated>
-        <summary type="html"><![CDATA[如果您最近使用过互联网，那么您很可能已经见证了人工智能生成的作品不断涌现。 不管是好是坏，这标志着创意领域的新 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] CPU-Z v2.13]]></title>
-        <id>437+1734711074</id>
-        <link href="https://www.portablefreeware.com/?id=437&amp;ts=1734711074"/>
-        <updated>2024-12-20T16:11:14.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CPU-Z 硬件信息检测工具 CPU-Z 2.13 + x64 绿色中文版]]></title>
-        <id>http://www.dayanzai.me/?p=2422</id>
-        <link href="https://www.dayanzai.me/cpu-z.html"/>
-        <updated>2024-12-20T16:10:49.000Z</updated>
-        <summary type="html"><![CDATA[CPU-Z 中文版 硬件信息检测工具由大眼仔旭（www.dayanzai.me）发布。CPU-Z 是硬件网站  […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] calibre v7.23]]></title>
-        <id>2119+1734709901</id>
-        <link href="https://www.portablefreeware.com/?id=2119&amp;ts=1734709901"/>
-        <updated>2024-12-20T15:51:41.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[UPDATE] SQLiteStudio v3.4.11]]></title>
-        <id>3087+1734702222</id>
-        <link href="https://www.portablefreeware.com/?id=3087&amp;ts=1734702222"/>
-        <updated>2024-12-20T13:43:42.000Z</updated>
-        <author>
-            <name>The Portable Freeware Collection</name>
         </author>
     </entry>
 </feed>
