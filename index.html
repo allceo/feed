@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-01-31 datetime="2025-01-31T00:39:55.000Z">2025-01-31</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-01-31 datetime="2025-01-31T00:39:55.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-01-31 datetime="2025-01-31T14:09:14.000Z">2025-01-31</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-01-31 datetime="2025-01-31T14:09:14.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,322 @@
                   <a class="source-heading__link" href="https://www.woshipm.com">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/it/6175152.html"
+                        open
+                      >
+                        <summary class="article-expander__title">图解收银台：支付系统承上启下的关键应用</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/pd/6175152.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2024/06/17/9caf823a-2c8e-11ef-a13a-00163e142b65.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>收银核心和支付引擎是支付系统最核心的两个子系统之一。本篇主要讲清楚收银核心的设计与实现，包括收银核心如何渲染可用支付方式，如何做可支付检查，收银台核心的系统架构、领域模型，常见支付方式等。
+
+如果说电子商务是现代经济的繁华都市，那么在线支付系统无疑就是最繁忙的交通大动脉。
+在这个每年数十万亿规模的在线支付交易世界中，有两个默契十足的队友密切配合，确保每一笔交易都像优雅的华尔兹舞步一样流畅 — 那就是：收银核心和支付引擎。
+今天我们先讲“收银核心”。
+一、协同作战
+先给一个直观的协同作战的图，有一个整体的印象。
+
+二、收银核心：交易的军机处
+想象一下，你走进了一家精品咖啡店，在这里收银核心就好比是那位亲切的侍者，不仅为你呈上菜单上各式支付方式的大餐，还会确保核验你的身份，然后查出你留存在咖啡店的预存款。
+
+在支付你的账单时，还会偷偷做个背景调查（风控检查），以确保你不是正在洗钱或冒名顶替。
+三、收银核心在支付系统中的位置
+
+收银核心是支付系统的门面，负责处理用户的支付请求，核心能力就两个：
+1）支付方式咨询，告诉用户本次可以使用哪些支付方式。
+2）提交支付后的各种校验，比如订单是否有效，商户权限，用户身份，风控等。
+四、支付咨询
+
+上面的图分别是电商（京东）的收银台，支付平台（微信支付）的收银台。
+
+支付咨询阶段，需要做以下几个工作：
+基础检查：可支付检查（有可能订单已经已经被支付），用户检查，商户检查等。
+资产咨询：绑卡数据，账户余额，营销（比如满减、红包等）。
+渠道咨询：通过币种、金额、渠道开关等。
+额度咨询：单笔限额、日累计限额、月累计限额等。
+支付方式组装：把上面的资产、渠道等组装成用户方便理解的支付方式。
+支付方式排序：把用户可用支付方式做好推荐排序（既要考虑用户体验，又要考虑营销策略）。
+最后把支付方式返回给用户，供用户在支付时选择。
+五、支付受理
+
+用户选择支付…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/it/6175148.html"
+                        open
+                      >
+                        <summary class="article-expander__title">AI创业者的惨痛教训：押注模型准确性是产品陷阱，利用模型灵活性才是答案</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/aigc/6175148.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2024/08/01/0d28cbee-4fcf-11ef-a43d-00163e142b65.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>在AI创业领域，许多创业者曾将希望寄托于提升模型的准确性，试图通过复杂的工程设计来弥补模型的不足。然而，随着AI技术的飞速发展，这种策略逐渐暴露出其局限性。本文将探讨为什么押注模型的灵活性，而非单纯的准确性，才是AI产品成功的关键。通过分析不同类型的AI产品和应用场景，文章揭示了灵活性如何帮助创业者更好地适应模型的快速迭代，从而在竞争激烈的市场中脱颖而出。
+
+随着越来越多AI产品落地，很多投资人心中都有一个疑问：
+到底什么样的AI应用才值得投资？
+关于这个问题，我们或许能在Andon Labs联合创始人（YC 24W孵化）Lukas Petersson的一篇文章中找到答案。
+最近，Lukas Petersson在YC Hacker News发布了一篇文章，内容是其在调研了100多个YC校友项目并复盘了Richard Sutton著名的文章《痛苦的教训》后提出：
+现在大量AI产品在当前模型的局限性上投入过多精力，但从长期看，创业公司更应该押注那些能够充分利用大模型自主性与灵活性的机会。
+这个文章一经发布就引发了广泛的讨论。今天，乌鸦君就为您编译了这篇文章，以下是该文章的核心观点：
+1）从历史角度来看，通用方法总能在人工智能领域胜出。
+2）现在人工智能应用领域的创始人正在重蹈过去人工智能研究人员所犯的覆辙。
+3）更出色的人工智能模型将催生通用型人工智能应用。与此同时，围绕人工智能模型的软件附加值将会减少。
+01 通用方法总能胜出
+2019年，理查德·萨顿（Richard Sutton）以如下文章作为其著名文章《痛苦的教训》的开篇：
+“从70年的人工智能研究中可以得到的最大教训是，利用计算的通用方法最终是最有效的，而且优势巨大”。
+
+他提到，在人工智能的发展历程中，研究人员曾屡次尝试将人类领域的知识融入系统，进而推动AI技术进步。
+
+但后来大家发现，一个拥有更强算力的系统，效果远…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/it/6175147.html"
+                        open
+                      >
+                        <summary class="article-expander__title">搭建数据运营体系：从“跑数机”到“增长引擎”</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6175147.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/13/72369b4a-d9df-11ed-9d2f-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>在数字化时代，数据运营已成为企业增长的关键驱动力。然而，许多企业在搭建数据运营体系时，往往陷入“跑数机”的困境，无法充分发挥数据的价值。本文将深入探讨数据运营的本质，分析如何从数据指标的简单罗列，转变为一套能够驱动整体业务增长的运营机制。通过共识目标、分解任务、监控执行等步骤，企业可以将数据运营从后台支持转变为真正的“增长引擎”。
+
+很多同学搞不清楚数据运营和数据分析啥区别。一提起要“搭建数据运营体系”或者“建立数据运营机制”就懵圈：
+这跟我做一套数据指标有什么区别？
+为啥我做了数据指标，可运营部门根本不理我？
+好像每一种运营都有自己的指标体系了，还咋个数据运营法？
+今天我们系统解答一下。
+先问一个最关键问题：数据运营，重点在数据上，还是运营上？
+数据
+运营
+一
+屏
+幕
+思
+考
+时
+间
+01 运营与数据的关系
+注意，运营是个大工作，里边的分支非常多。单独看每一类运营，都有一套自己的指标体系。
+
+这就是开头说的：“运营已经自己有指标了，我做了指标他们不看”问题的本质所在。（如下图）
+ 
+因为从本质上看，运营是个辅助性工作。理论上，如果产品力足够强大，商品天下无敌，那根本没运营啥事。——用户自己就抢着买到断货，玩得乐不思蜀了，运营啥运营。
+可大部分产品、商品没有这么厉害，因此需要运营打辅助，通过用户激励、促销活动、内容传播、商品运作等等手段，来保持用户的新鲜感，促进用户持续活跃和付费。俗话说：“产品不够，运营凑”就是这个意思。
+因此运营会特别在意数据，并且特别在意数据里的“自然增长率”——他们的所有工作，都是在“自然增长率”之上做叠加。
+用户运营——用户自然转化率5%，通过激励提升至10%。
+活动运营——自然销量1000万，活动拉升到2000万。
+商品运营——尾货库存预计18周，通过运作9周清空。
+内容运营——自然阅读1万，笔下升仙写出百万级爆款。
+诸如此类 
+运营在体现自己功劳的时候一定会带上数据。因此往往各个部门已经建立了自己的数据指标。
+02 数据运营的破题关键
+如果数据运营把重点放在数据上，那最终就是沦为跑数机的命。运营自己已经有数据指标了，你就等着被他们催着取数好了，而且还是加急加急加加急。这根本不需要单独设一个岗位，只要花月薪6000招聘一个行走的sql机，让数据部门准备个大宽表即可。
+实际上，很多公司确实是这么干的，这也是为啥很多同学会有开头的疑惑。我们今天不谈这些low B公司，我们分享一下数据运营的真正目标，以及大厂们是拿它来干什么的。
+运营各自看数据，看似科学，实则带着原罪：运营工作本身需要相互配合，可各个部门的小团伙利益是天然冲突的。
+用户运营希望派优惠券吸引人，商品运营的利润直接被榨干。
+活动运营希望短期效益越大越好，用户运营的节奏直接被带垮。
+商品运营希望不打扰爆款，多出尾货，可活动、用户运营都要硬货支持。
+内容运营写《震惊！马云！华为！沸腾！》篇篇百万阅读，可最后没转化。
+
+在一个需要相互配合的工作里，各自考核数据，必然导致部门间相互拆台。因此数据运营的更好用法，不是拿来当跑数机，而是建立一套从整体目标出发的数据考核机制，让所有部门跳出小圈子，为整体利益服务。这才是设立这个岗位的初衷，和岗位的真正价值。
+所以开头的题目选B，数据运营本质是运营，是要建立一套从整体目标出发，引导各子运营小组工作的考核机制。它本质是个工作机制，因此需要部门间共识目标，协同配合，取代各自为战的状态，这样才能发挥作用。
+03 数据运营体系搭建方法
+第一步：共识整体目标，制定整体战术
+各个运营小组，共识年度大部门整体目标（比如DAU、转化率、销售金额等），并且选择落地大目标的战术，把大目标分解到各个月。注意：分解方法和不一定是按月平均，或按过往趋势分摊。分解方法可能和战术选择有关（如下图）
+
+第二步：设定阶段性重点，各小组分配任务
+
+第三步：分解阶段性指标，各部门执行、监测、反馈
+这一步就是常规运营数据指标的监控过程，不再赘述了。
+有了前两步，每阶段的运营工作就有了清晰的主任务，就不用纠结在“为啥短期类活跃率降了”“到底自然增长该写多少合适”“又有几个客户投诉很激烈”——整体目标达成就好。细节问题，可以在各小组自己复盘的时候，再找改进点。
+第四步：监控执行进度，从小到大检讨效果
+这时候要牢记检讨三原则：
+在执行到位前，不质疑策略
+在投入可调时，不修订策略
+在策略失效前，不质疑方向
+
+当所有部门在部门例会上共识目标，跟踪进度，反馈问题，协同工作的时候，这套机制就算正常运转起来了。这样能保证整体目标的最大化落地，也能提醒各小组关键任务是什么——不要被自己一亩三分地发生的破事淹没了。
+本文由人人都是产品经理作者【接地气的陈老师】，微信公众号：【接地气的陈老师】，原创/授权 发布于人人都是产品经理，未经许可，禁止转载。
+题图来自Unsplash，基于 CC0 协议。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/it/6175146.html"
+                        open
+                      >
+                        <summary class="article-expander__title">AI对内容创作者可能带来的影响？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6175146.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/05/06/e9debfa4-ec01-11ed-bbb6-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>随着AI技术的飞速发展，内容创作领域正经历着前所未有的变革。AI不仅能够快速响应用户的问题，还能提供高质量的实用型内容，这让许多内容创作者开始思考：AI将如何改变他们的工作方式和创作模式？本文将探讨AI对内容创作者的具体影响，分析哪些创作者最可能受到AI的冲击，以及内容创作者如何利用AI提升创作效率和质量。
+
+今天我们要谈个比较深刻的话题：AI对内容创作者可能带来的影响。
+起因是豆芽君发现自己有比较长一段时间没用百度这类搜索引擎，也没用知乎这种比较专业的内容平台。
+在写这篇文章时，豆芽君特意先不列框架，避免先有结论再堆积材料。我们就按想到啥，逐步推导的方式来细谈下AI对内容创作者的具体影响。
+注：我们以下谈的内容仅限非虚构内容，不考虑小说、诗歌、散文等，只考虑实用型内容。
+我们什么时候会去看非虚构的内容？
+多数人都是先有自己的问题，才有找答案的需求。嗯，这里就有一个获取答案的效率问题。而多数人都会选择效率最高的方式。
+豆芽君上周给自己立了一个目标：每周问AI不少于20个问题。在我使用AIGC产品的过程中，每次写完问题，按下发送键的那一刻，看着AI立马快速响应，瞬间输出回复的样子，我感到它比以前即时聊天工具QQ刚出来，QQ好友噼里啪啦的回复都还及时。这种体验是极棒的，因为没人喜欢等待。
+
+效率，这个词是速度和效果的结合体。AI除了响应的速度快，它输出的效果也是我们关注的重点。
+1年半以前，豆芽君就开始使用国外的AIGC产品。当时个人的评价是：在一些工作有关的问题上，其回答内容的专业水平，达到了8-10年职场人的平均水平。现在，国内的AIGC产品发展也很快，且使用的成本更低，豆芽君已经基本没用国外产品。在使用国内产品时，个人的评价是：只要你会提问，它现在的水平不输有15年以上工作经验的职场人。
+不信，我截图几个专业问题给你看看
+
+
+试问你有15年工作经验的话，能比它回答的更有水…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6175030"
+                        open
+                      >
+                        <summary class="article-expander__title">飞书的傲慢</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6175030.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/07/07/47087d62-1c97-11ee-94c6-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>飞书团队的“傲慢”态度和对自身定位的模糊认知，使其在激烈的市场竞争中面临诸多挑战。本文将深入剖析飞书的傲慢根源、其在市场竞争中的困境，供大家参考。
+
+01 飞书的傲慢
+不止一位朋友给我提起过飞书的傲慢。
+虽然我是一位飞书文档的忠实用户，但是也不得不承认：飞书团队的骄傲，是刻在骨子里的。
+比如，我曾经拿飞书和Salesforce、Oracle比较，后者的市值在 2 万亿人民币以上。
+但是我万万没想到，这个比较很快遭到了几个飞书朋友的鄙视，他们认为：这些都是传统软件，但飞书要做的是“一个全新的物种”。
+我随即请教道：这个全新的物种，是一个什么样的产品呢？
+然后就没有答复了。
+我猜他们自己也没想清楚。
+不屑于与 Salesforce、Oracle 比较，也许并不是飞书瞧不起他们，而是飞书团队真的想做出“独特的东西”。
+这种执念的根源，是飞书的高层，更确切的说，是飞书的 CEO。
+
+曾经有粉丝告诉我，飞书高层经常会因为一个体验细节问题，和团队讨论半个小时。
+这有没有错？当然没有错。
+这实际上也是飞书的用户体验如此之好的原因所在。
+但是，对于 B 端产品来说，体验细节问题，值得 CEO 这么沉浸式的投入吗？
+毕竟相对于用户体验，飞书有太多需要优先解决的问题。
+比如飞书的定位：除了少数功能，飞书并不是一个足够创新的产品。
+不管是作为一个办公协同产品，还是作为一个 people 产品，或者作为一个低代码产品，飞书都只是一个追随者。
+办公协同有钉钉，people 产品有北森，低代码产品更是一片红海，飞书在哪都是硬仗。
+再比如，飞书其实并没有充分利用好集团的资源。
+这方面飞书真的应该好好向企业微信学习。
+但是，这些飞书都看不到。
+本质上是因为，飞书根本没有把钉钉、北森和企业微信视为竞争对手。
+就好像他们也不屑于和 Salesforce、Oracle 比较一样——因为他们想做的根本不是 B 端软件，而是一个“全新的物种”。
+虽然他们自己也没搞清楚，这个全新的物种到底是一个什么东西。
+我一个朋友前段时间刚从飞书离职，他给我讲了一个故事：
+一个大客户他都快拿下来了，甚至标书都帮客户写好了。
+然后另一个大厂竞对了，用飞书几分之一的价格拿下项目。
+最搞笑的一点是：竞对直接 copy 了他写的方案，只是把‘飞书’改成了竞对的名字，居然毫无违和感！
+所以，飞书挫败的根源在哪里？
+其实就在于看不到竞争对手，在于瞧不起传统B 端软件，在于他们的傲慢。
+当然了，在飞书最近一次发布会上，我也看到了飞书 CEO 谢欣的改变。
+谢欣说：过去，大家通常认为飞书的用户体验良好，但很少有人提到它的强大。今年，我们希望改变这种印象，让大家感受到飞书的产品不仅美观，而且功能强大。
+从这个发言可以看出，谢欣正在跳出他内心的执念，开始用“B 端软件”的思维来运营飞书。
+02 飞书接下来仍然很难
+虽然飞书在改变，但是在很长一场时间内，飞书都要面对“红海的诅咒”。
+看看飞书最近发布的新版本，除了久负盛名的多维表格，项目管理、低代码都是红海产品。
+飞书一边说要做“一个全新的物种”，一边又投身于已经相当惨烈的竞赛。
+但是，飞书可能没有更好的选择了。
+曾经轰轰烈烈大干快上的 AI，谢欣也反思了：我感觉过去大家对AI过于上头了，而现在可能有些人开始意识到AI好像也就那么回事儿，实际应用并没有那么广泛。
+AI 肯定是未来，这条创新的路子还要持续走，但是短期肯定是不用指望了。
+还有一个选择就是出海。
+但是这条路也不好走，中国 SaaS 缺失的东西不少。
+缺好的产品定位，缺种子客户，更重要的是缺合适的人才。
+飞书这方面肯定好于一般的创业公司，但是至今也没有取得足以公开的成果。
+也就是说，飞书接下来仍然要靠“内卷”。
+当然了，谢欣已经接受了这个现实，他说：微软的 Office 做到今天 200 多亿美元的收入，用了 34 年。所以这是个需要用 10 年以上耐心和眼光来规划的行业。
+所以，接下来仍然会很难。
+本文由人人都是产品经理作者【王戴明】，微信公众号：【ToB老人家】，原创/授权 发布于人人都是产品经理，未经许可，禁止转载。
+题图来自Unsplash，基于 CC0 协议。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6175028"
+                        open
+                      >
+                        <summary class="article-expander__title">两个“开挂“的心理学小技巧，让工作更简单</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/zhichang/6175028.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/14/ca271712-da8e-11ed-b69c-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>在职场中，沟通技巧往往比专业技能更能影响工作成效。本文将介绍两个实用的心理学技巧——“拆屋效应”和“强迫选择”，并结合实际案例，展示如何通过这些技巧在工作中更高效地解决问题、推动项目进展。
+
+工作过一段时间的小伙伴不难发现，做任何事情都必须与人打交道。
+看到这个观点，你可能会持怀疑态度。
+你会觉得只要跑市场、做管理的，才需要和人打交道，例如：对齐项目目标、每天同步项目进展。
+其他岗位也同样需要打交道，只是被我们习惯性忽略了，我举几个例子：
+程序员写代码，前端与后端需要商议对接方式，接口参数；
+多个程序员之间，代码要更新到同一个仓库，需要考虑相互影响，做代码合并时，也需要讨论；
+程序员也需要与项目经理沟通，确保进度正常、做出来的效果与预期一致；
+诸如此类的事情，都需要打交道。
+既然打交道、沟通不可避免，那掌握一些沟通技巧、沟通心理学，对我们的日常生活与工作会有比较不错的帮助。
+这篇文章，我想分享几个技巧与案例，让你能通过有效沟通解决问题。
+一、拆屋效应
+简单介绍一下什么叫作”拆屋效应”。
+
+这个词汇出自鲁迅的《无声的中国》一文，他说：
+“中国人的性情总喜欢调和折中，譬如你说，这屋子太暗，需要在这里开一个窗，大家一定是不允许的。但如果你主张拆掉屋顶，他们就会来调和，愿意开窗了。”
+
+这种先提出一个很大的、难以被接受的要求，接着再提出一个相对较小、更容易被接受的要求，最终使较小的要求更容易得到满足的现象，就被称作”拆屋效应”。
+那应用场景在哪里？
+生活上很多地方都有应用，像以前去商场买衣服时，大家很喜欢讨价还价，最终一人退一步达成一致，这个过程就用了”拆屋效应”。
+人际交往里，张三想跟李四借一千元，这时张三提出要借一万元，李四可能会面露难色，借不出来，接着张三再提出借一千元，李四很大概率会帮忙，这也是”拆屋效应”。
+那在工作中，有哪些场景可以应用，并且能取得不错的效果呢？
+这里我…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -71,6 +387,60 @@
                 </section>
               </section>
             </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >小众软件</button>
+                  <a class="source-heading__link" href="https://www.appinn.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.appinn.com/?p&#x3D;50896"
+                        open
+                      >
+                        <summary class="article-expander__title">BoxPlayer – 又一款免费的类 Infuse 视频播放器</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.appinn.com/boxplayer-for-ios/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.appinn.com/wp-content/uploads/2025/01/Copy-of-appinn-homework-28.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>BoxPlayer 是一款目前仍在免费的 iPad、iPhone 视频播放器，支持海报墙，支持 Google Drive、Dropbox，以及常见的阿里云盘、百度网盘、WebDAV、Alist。甚至，</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.appinn.com/?p&#x3D;50891"
+                        open
+                      >
+                        <summary class="article-expander__title">泼凉水：我不配部署 DeepSeek R1</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.appinn.com/deepseek-r1-self/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.appinn.com/wp-content/uploads/2025/01/Copy-of-appinn-homework-26.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>DeekSeep 爆火，开源，超越 OpenAI o1，便宜（限量免费）、量足，目前已经有无数的教程教你在电脑上部署、在NAS 上部署，甚至在手机上部署。 不过，我不配去部署 DeepSeek R1&amp;</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
         </ul>
       </section>
       <section class="daily-content js-toggle-accordions-scope">
@@ -80,8 +450,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-01-30 datetime="2025-01-30T09:04:45.000Z">2025-01-30</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-01-30 datetime="2025-01-30T09:04:45.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-01-30 datetime="2025-01-30T16:32:23.000Z">2025-01-30</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-01-30 datetime="2025-01-30T16:32:23.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -96,6 +466,101 @@
                   <a class="source-heading__link" href="https://www.dayanzai.me">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://www.dayanzai.me/?p&#x3D;366"
+                        open
+                      >
+                        <summary class="article-expander__title">黑曜石 Markdown 笔记 Obsidian 1.8.3 x64 中文多语免费版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.dayanzai.me/obsidian.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>黑曜石 Markdown 笔记 Obsidian 中文版由大眼仔旭发布。在日益拥挤的 Markdown 知识库 […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://www.dayanzai.me/?p&#x3D;17699"
+                        open
+                      >
+                        <summary class="article-expander__title">Windows 文件管理器专业工具 Directory Opus Pro 13.13 中文免费版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.dayanzai.me/directory-opus.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Directory Opus 中文版由大眼仔旭发布。Directory DOpus(简称 DOpus)，是澳大 […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.dayanzai.me/?p&#x3D;73002"
+                        open
+                      >
+                        <summary class="article-expander__title">一站式音视频转换神器 XRecode 3 v1.162 x64 中文绿色便携版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.dayanzai.me/xrecode-3.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>如果您希望在计算机上享受多媒体内容，并且渴望将视频中的音频提取出来以 MP3 格式播放，或是转换常见的音频文件 […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://www.dayanzai.me/?p&#x3D;2273"
+                        open
+                      >
+                        <summary class="article-expander__title">YouTube 视频下载器  MassTube 2025 20.1.0.115 绿色中文版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.dayanzai.me/masstube.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>MassTube Plus 中文版 YouTube 视频下载器 支持 1080p 下载 （www.dayanz […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://www.dayanzai.me/?p&#x3D;5064"
+                        open
+                      >
+                        <summary class="article-expander__title">MP3 音频编辑器 mp3DirectCut 2.38 中文多语免费版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.dayanzai.me/mp3directcut.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>mp3DirectCut 是用于编码 MP3 和 AAC 的快速且广泛的音频编辑器。 无需重新编码，直接剪切、 […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -377,6 +842,39 @@ AI医疗不是风口，而是趋势。很多读者可能对AI医疗这个话题�
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
+                  >The Portable Freeware Collection</button>
+                  <a class="source-heading__link" href="https://www.portablefreeware.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="2832+1738216051"
+                        open
+                      >
+                        <summary class="article-expander__title">[UPDATE] PDF-XChange Editor v10.5.1.394</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.portablefreeware.com/?id&#x3D;2832&amp;ts&#x3D;1738216051">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >QiuQuan&#x27;s Blog</button>
                   <a class="source-heading__link" href="http://www.qiuquan.cc">Open</a>
                 </h3>
@@ -450,11 +948,158 @@ AI医疗不是风口，而是趋势。很多读者可能对AI医疗这个话题�
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-01-29 datetime="2025-01-29T17:19:04.000Z">2025-01-29</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-01-29 datetime="2025-01-29T17:19:04.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-01-29 datetime="2025-01-29T22:53:13.000Z">2025-01-29</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-01-29 datetime="2025-01-29T22:53:13.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >The Portable Freeware Collection</button>
+                  <a class="source-heading__link" href="https://www.portablefreeware.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="1692+1738191193"
+                        open
+                      >
+                        <summary class="article-expander__title">[UPDATE] DesktopOK v11.55</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.portablefreeware.com/?id&#x3D;1692&amp;ts&#x3D;1738191193">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="1431+1738191167"
+                        open
+                      >
+                        <summary class="article-expander__title">[UPDATE] Q-Dir v11.98</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.portablefreeware.com/?id&#x3D;1431&amp;ts&#x3D;1738191167">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;17
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="1721+1738191137"
+                        open
+                      >
+                        <summary class="article-expander__title">[UPDATE] SepPDF v3.86</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.portablefreeware.com/?id&#x3D;1721&amp;ts&#x3D;1738191137">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="44+1738180871"
+                        open
+                      >
+                        <summary class="article-expander__title">[UPDATE] AM-Notebook v7.1</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.portablefreeware.com/?id&#x3D;44&amp;ts&#x3D;1738180871">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="2074+1738166420"
+                        open
+                      >
+                        <summary class="article-expander__title">[UPDATE] Google Chrome Portable v132.0.6834.160</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.portablefreeware.com/?id&#x3D;2074&amp;ts&#x3D;1738166420">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="1365+1738157980"
+                        open
+                      >
+                        <summary class="article-expander__title">[UPDATE] Portable Start Menu v4.2</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.portablefreeware.com/?id&#x3D;1365&amp;ts&#x3D;1738157980">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="1430+1738157895"
+                        open
+                      >
+                        <summary class="article-expander__title">[UPDATE] AM-DeadLink v6.1</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.portablefreeware.com/?id&#x3D;1430&amp;ts&#x3D;1738157895">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -919,6 +1564,25 @@ DeepSeek是一家专注于人工智能开源大模型研发与应用的科技公
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="http://www.qiuquan.cc/?p&#x3D;4791"
+                        open
+                      >
+                        <summary class="article-expander__title">扫描仪增强工具——VueScan 9.8.44.01 简体中文专业版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://www.qiuquan.cc/image/vuescan.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>VueScan Pro是一款功能强大的扫描仪软件，支持市场可见绝大多数型号的底片扫描仪，可以更为灵活地控制扫描过程，更深入地发掘硬件潜力，获取色彩完美的高质量扫描结果。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="http://www.qiuquan.cc/?p&#x3D;8493"
                         open
                       >
@@ -1089,6 +1753,39 @@ DeepSeek是一家专注于人工智能开源大模型研发与应用的科技公
                             <span class="media-object__text">
                               <span>Windows 11 现代文件管理器 One Commander 中文版由大眼仔旭（www.dayanzai. […]</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >The Portable Freeware Collection</button>
+                  <a class="source-heading__link" href="https://www.portablefreeware.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="539+1738057711"
+                        open
+                      >
+                        <summary class="article-expander__title">[UPDATE] Notepad++ v8.7.6</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.portablefreeware.com/?id&#x3D;539&amp;ts&#x3D;1738057711">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;20
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1906,6 +2603,77 @@ UED团队
 类比大模型：就像AI在预训练前，需要先明确要学习什么样的数据和知识范围。我们也要先确定“想在哪些场景/任务中快速应对”，再集中火力投入。
 第二步：建立基础输入，像大模型的“预训练”一样广泛吸收
 核心价…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >The Portable Freeware Collection</button>
+                  <a class="source-heading__link" href="https://www.portablefreeware.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="2886+1737985058"
+                        open
+                      >
+                        <summary class="article-expander__title">[UPDATE] ClipAngel v2.16</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.portablefreeware.com/?id&#x3D;2886&amp;ts&#x3D;1737985058">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="3049+1737947422"
+                        open
+                      >
+                        <summary class="article-expander__title">[UPDATE] Shotcut v25.01.25</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.portablefreeware.com/?id&#x3D;3049&amp;ts&#x3D;1737947422">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="2826+1737947336"
+                        open
+                      >
+                        <summary class="article-expander__title">[UPDATE] FileVoyager v25.1.26</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.portablefreeware.com/?id&#x3D;2826&amp;ts&#x3D;1737947336">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;2
                                   min&hairsp;)</span>
                             </span>
@@ -2775,6 +3543,50 @@ Windows7 集成 SP1 补丁中文旗舰版光盘镜像下载 (微软MSDN官方原
                             <span class="media-object__text">
                               <span>No content preview</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >异次元软件世界</button>
+                  <a class="source-heading__link" href="https://www.iplaysoft.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.iplaysoft.com/?p&#x3D;6263"
+                        open
+                      >
+                        <summary class="article-expander__title">微软 Windows Server 2025 LTSC 最新正式版官方 ISO 镜像下载 - 服务器系统 MSDN 原版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.iplaysoft.com/windows-server-2025.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://img.iplaysoft.com/wp-content/uploads/2024/windows-server-2025/windows_server_2025.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>随着 Windows 11 新版本发布之后，微软终于也正式推出了 Windows Server 2025 服务器操作系统了！这是一款专门面向企业和服务提供商的先进可靠的服务器系统。
+Windows Server 2025 LTSC 是微软迄今为止成功的企业级服务器系统，它继承了 2022 的优点并基于 Win11 作为内核，进一步提升了安全性、性能、稳定性和灵活性，引入了许多服务器相关创新。无论是运行各类网络服务、Iot、大数据分析、虚拟化、AI 的支持，都提供了卓越能力...
+「 前往查看原文.... 」
+异次元还有这些值得一看：
+
+微软 Windows Server 2022 LTSC 最新正式版官方镜像下载 - 服务器系统 MSDN 原版 ISO
+微软 Windows Server 2019 服务器版操作系统 MSDN 原版 ISO 镜像下载
+Ubuntu 24.10 LTS 中文桌面版/服务器正式版ISO镜像下载 - 超流行易入门的 Linux 系统
+Win11 LTSC 2024 企业精简版 ISO 官方中文原版镜像下载 - 纯净稳定/适合低配置/虚拟机
+
+异次元首页  |  微信公众号  |  关注微博  |  软件精选  |  软件激活码折扣</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -21440,6 +22252,50 @@ C2C交易平台如何帮助卖家降低发货成本，提升买家购物体验�
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
+                  >异次元软件世界</button>
+                  <a class="source-heading__link" href="https://www.iplaysoft.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.iplaysoft.com/?p&#x3D;5244"
+                        open
+                      >
+                        <summary class="article-expander__title">最新 Windows 11 ARM 系统原版 ISO 镜像下载 - 支持苹果 M 芯片 Mac 安装 (PD 虚拟机)</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.iplaysoft.com/windows11-arm.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://img.iplaysoft.com/wp-content/uploads/2021/windows11-arm/windows11_arm.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>苹果在新款的 Mac 电脑上推出了 Apple M1/M2/M3 系列自研芯片处理器，出色的性能和功耗使其大获成功！然而苹果芯片采用的 ARM 架构与以往常用的 X86 / X64 架构软件并不兼容。
+想要在苹果芯片的 Mac 上安装 Windows，除了需要最新版的 Parallels Desktop 虚拟机外，还必须下载 Windows on ARM 版本镜像！目前微软已发布了 Windows 11 ARM 正式版和 Win10 ARM 的 ISO。我们终于能在一些 ARM 设备 / 服务器 / 手机和新款 Mac 上安装流畅运行 Win11 了……
+「 前往查看原文.... 」
+异次元还有这些值得一看：
+
+VirtualBox 7 最新虚拟机软件下载 - 免费开源跨平台 (支持 Win/Mac/Linux 安装多系统)
+最新 Windows 10 ARM 系统镜像下载 (VHDX) - M1 Mac 安装运行 Win10 (PD 虚拟机)
+Parallels Desktop 20 激活码 - 苹果 Mac 最新 PD 虚拟机下载 (支持Win11/macOS Sequoia)
+VMWare Fusion Pro 13.6 苹果 Mac 免费虚拟机 (网盘下载) - 支持 M 芯片 / Win11 ARM
+
+异次元首页  |  微信公众号  |  关注微博  |  软件精选  |  软件激活码折扣</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >QiuQuan&#x27;s Blog</button>
                   <a class="source-heading__link" href="http://www.qiuquan.cc">Open</a>
                 </h3>
@@ -22554,25 +23410,6 @@ anyway~
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.dayanzai.me/?p&#x3D;73816"
-                        open
-                      >
-                        <summary class="article-expander__title">在 Linux 上运行 Windows 应用程序时 Wine 与虚拟机谁更好？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.dayanzai.me/wine-vs-virtual-machines.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>当考虑在 Linux 操作系统上运行 Windows 应用程序或游戏时，用户有多种选择。其中两种最为简便的方法 […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -22606,1020 +23443,6 @@ anyway~
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://bak.qiuquan.cc/?p&#x3D;4037"
-                        open
-                      >
-                        <summary class="article-expander__title">安卓应用——Wifi万能钥匙 v5.1.05 会员版 + 6.8.27 极速会员版</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://www.qiuquan.cc/androidsoft/wifimasterkey.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>WiFi万能钥匙是一款WiFi网络连接管理软件，能够帮助用户自动查询周边开放免费公共Wi-Fi热点信息，并帮助用户便捷建立连接，同时提供WiFi省电功能、查看手机流量消耗情况、快速将手机转换成WiFi热点，以及实时测试当前网络的测速等功能。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://bak.qiuquan.cc/?p&#x3D;4245"
-                        open
-                      >
-                        <summary class="article-expander__title">万兴PDF专家 Wondershare PDFelement 7.6.8.5031 + 9.5.14.2360 + 10.4.10.2780 + 11.4.4.3286 简体中文破解版（精简版 + OCR增强版）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://www.qiuquan.cc/other/pdfelement.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Wondershare PDFelement是一款万兴公司推出的十分专业易用的pdf软件，这款PDF工具几乎包含了所有的PDF相关的功能，不论是什么PDF相关的功能在这里基本都能够找到，满足各种PDF的工作需要，为用户提供一个完美的PDF解决方案，不仅有PDF的阅读功能，还可以对 PDF进行随意编辑和修改， 且不改变格式和排版，你可以自由地编辑PDF文档按照你的需要，任意的编辑不受约束，提供了多种编辑的功能。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://bak.qiuquan.cc/?p&#x3D;4186"
-                        open
-                      >
-                        <summary class="article-expander__title">优捷易一键装机助理 V5.1.7 + 5.23.8.22 + 6.25.01.01 去广告版 | 解压版 + 单文件 | 去除浏览器推广行为</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://www.qiuquan.cc/systemtool/ujyqii.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>系统镜像安装工具，无需专业知识，对各系统镜像格式进行专门的安装解决方案优化，支持从ISO/wim/esd/gho/swm等格式安装系统。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >The Portable Freeware Collection</button>
-                  <a class="source-heading__link" href="https://www.portablefreeware.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="2962+1735822735"
-                        open
-                      >
-                        <summary class="article-expander__title">[UPDATE] OBS Studio v31.0.0</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.portablefreeware.com/?id&#x3D;2962&amp;ts&#x3D;1735822735">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="2531+1735809557"
-                        open
-                      >
-                        <summary class="article-expander__title">[UPDATE] QiPress Lite v1.077</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.portablefreeware.com/?id&#x3D;2531&amp;ts&#x3D;1735809557">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="816+1735804747"
-                        open
-                      >
-                        <summary class="article-expander__title">[UPDATE] ToDoList v9.0</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.portablefreeware.com/?id&#x3D;816&amp;ts&#x3D;1735804747">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >人人都是产品经理</button>
-                  <a class="source-heading__link" href="https://www.woshipm.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/it/6166091.html"
-                        open
-                      >
-                        <summary class="article-expander__title">2024的沉淀：创业第二年，磨出3条思考</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6166091.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2024/05/13/493b2f16-1120-11ef-8ad3-00163e142b65.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>在创业的征途上，每一年都可能带来新的挑战和深刻的洞见。这篇文章是作者在创业第二年的沉淀与反思，他分享了在动荡不安的市场中如何稳住阵脚，并从中提炼出三条宝贵的思考。
-
-这是我成立公司的第二年，但我真切地感受到，今年我才算是真正创业。
-过去的一年是不平静的一年，称之为兵荒马乱、鸡飞狗跳也不为过，在市场和客户的快速变化中，我也东奔西走，淹没在琐碎事宜的漩涡里。但幸好幸好，2024年的最后3个月，我在漩涡中稳住了身形，找到我这艘小船，应当坚持驶向的港湾。
-让我这艘小船稳住身形的铁锚，就是今年深刻体悟到的3条思考。这些思考可能过去在书中看过，甚至有一些是心知肚明的常识，但只有真正经历了，才知其中深刻内涵。
-01 每一句战略上轻飘飘的词，执行上都是无数细碎的细节
-我是一个非常擅长结构化的人，能够在纷纷扰扰的混乱中，找到秩序，所以我用这个能力，为自己公司，也为一些客户，梳理清楚第二曲线、业务模型、组织架构、协作SOP，让迷雾中的公司变得有序，让团队间的协作变得高效。
-但我可以很负责任地说，结构化抽象出来的战略方向，只是万里长征第一步，能不能走到终点，全看执行。
-为什么同样的业务，同样的业务模式，有的公司能做成，有的公司做不成，其实就是因为战略落地过程中，有太多的细节。
-
-这些细节，作为舵手的老板可能压根不知道，也不想知道。
-但我的理念是，好战略只是起点，能不能实现战略构思，要拼得是执行落地能力和组织能力。
-和“军师不上战场”的专业咨询公司不同，我们专门开拓了自营的产品作为试验田，自己从0到1做一遍，来获得最真实的体感，只有下场去做了，才能知道，一个战略方向在真正执行时，会遇到什么样的坑。
-我举个例子，最近为了深刻感受小红书商业化生态的特点，我作为一个投手的角色，在小红书电商乘风平台，做了一阵子投放。这个事儿，在战略上，就轻飘飘一句话：
-人：……（略）
-货：……（略）
-场：根据产品特点和目…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6165791"
-                        open
-                      >
-                        <summary class="article-expander__title">AI行动派：我写了一个解放双手的浏览器插件，更高效的使用腾讯文档</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6165791.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/14/91d37828-da9e-11ed-95a1-00163e0b5ff3.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>本文是「AI行动派」圈友投稿，这是他使用 AI 开发的浏览器插件，帮助你更高效的使用腾讯文档。
-所有在用 AI 实战、行动的历程和成果都值得被看到。如果你也正在行动，可以通过文末的渠道的联系我们。
-
-你有没有这个痛点？
-每次点开同事/朋友分享的文档链接，它都默认要跳转到客户端。
-虽然页面上有”使用浏览器打开”的选项，但每次都要手动点击。
-每一次点击都是对加班时长的累计！！！
-
-我开始思考：这个“点击”能不能省略，而不是接受这个设定？
-于是，我花了10分钟的时间，使用 AI 开发了这个小工具。
-我的解决方案
-这个工具的原理其实很简单：它会自动帮你点击”使用浏览器打开”这个按钮。
-装上之后，你再点击任何腾讯文档的链接，都会直接在浏览器中打开，再也不用手动点击了！
-工具效果：直接从原来的”点击链接→等待跳转→手动选择浏览器打开“三步变成了”点击链接→直接打开“！
-自从用上这个工具，我的文档处理效率直线上升。
-以前每天要点开十几个文档，每次都要手动点击”使用浏览器打开”。现在一切都是自动的，打开文档的体验顺滑得不可思议！
-我把这个工具分享给了团队的其他成员，他们的反应都是：”这太需要了！”，”总算不用每次都手动点了！”
-两个版本随你选
-考虑到不同的使用习惯，我做了两个版本：
-如果你和我一样装了油猴插件，可以安装脚本版。
-如果你更习惯用浏览器插件，我也准备了插件版。
-两版本在文章最后，你可以进入飞书文档下载/领取。
-为什么要开发这个工具？
-很简单：
-我觉得用户应该有选择权
-我现在有能力拥有这个选择权了
-后记：这是我的新年挑战第一弹
-这个工具是我 2025 年”100个效率工具开发计划”的第一个作品。
-为什么要定这个目标？因为我发现，工作中有太多小痛点，只要花点时间，都能用技术手段解决。与其抱怨，不如动手做点什么。
-这个系列后面还会有更多实用工具，都会是针对日常工作中的具体痛点，欢迎持续关注！
-最后：
-工具完全免费，代码也是开源的。
-不会收集任何用户数据，安全性有保障。
-如果你觉得好用，欢迎分享给同事和朋友。
-毕竟，提高工作效率这种好事，应该人人有份！
-工具领取链接：https://lwqqvywsrf.feishu.cn/docx/NnwIdEG4Fo8tSGxFdaHcbsK8nRf
-#关于「AI行动派」
-这是人人都是产品经理&amp;起点课堂发起的专题活动，我们寻找、记录、分享所有在 AI 的浪头冲浪的行动派，让他们的所思所想被大家看到。
-在 AI 汹涌迈进的时代，行动者的足迹需要被记录。
-如果你也正在行动，欢迎联系我们
-
-原作者：观澜，公众号：观澜话不多
-本文由 @观澜 原创发布于人人都是产品经理。未经作者许可，禁止转载
-题图来自Unsplash，基于CC0协议
-该文观点仅代表作者本人，人人都是产品经理平台仅提供信息存储空间服务</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/it/6166047.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Gartner揭晓2025年十大战略技术趋势</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6166047.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2024/06/05/d8d13bd0-2312-11ef-a5e1-00163e142b65.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>随着技术的飞速发展，我们正站在新一年的起点上，展望未来技术趋势的轮廓。Gartner公司最新发布的2025年十大战略技术趋势，为我们揭示了即将塑造企业未来的关键技术方向。
-
-近期，Gartner公司发布2025年十大战略技术趋势清单，为企业在未来一年内应重点关注的技术方向提供指导。这些趋势分析在Gartner IT Symposium/Xpo大会上首次公布。
-Gartner资深副总裁分析师Gene Alvarez表示：“今年的战略技术趋势涵盖了人工智能的核心需求与风险、新型计算领域以及人机协作的未来前景。这些趋势将帮助IT领导者通过负责任且富有道德的创新塑造组织的未来。”
-以下是2025年十大战略技术趋势的具体内容：
-1. 自主智能代理（Agentic AI）
-自主智能代理能够根据用户定义的目标自主规划并采取行动，展现出虚拟劳动力增强人类工作的潜力。Gartner预测，到2028年，至少15%的日常工作决策将通过自主智能代理完成，而2024年这一比例为0%。
-
-这一技术的目标导向能力将创造更具适应性的系统，有效执行各种任务，帮助企业大幅提升生产力。企业和技术提供商正在加速技术创新，致力于构建稳健、安全、值得信赖的智能代理。
-2. 人工智能治理平台（AI Governance Platforms）
-人工智能治理平台是Gartner提出的AI信任、风险与安全管理（TRiSM）框架的核心部分，用于管理AI系统的法律、伦理和操作表现。通过透明化机制，这些平台能够增强责任感和信任度。
-Gartner预测，到2028年，实施全面AI治理平台的组织，其AI相关伦理事件将减少40%。
-3. 虚假信息安全（Disinformation Security）
-虚假信息安全技术旨在提供系统化的信任验证机制，包括确保数据完整性、真实性评估、防范冒充行为以及跟踪有害信息传播。Gartner预测，到2028年，将有50%的企业采用相关技术，而目前这一比例不到5%。
-4. 后量子加密（Postquantum Cryptography）
-后量子加密技术提供抗量子计算解密风险的数据保护。Gartner预测，到2029年，量子计算的进步将使大多数传统非对称加密算法不再安全。
-5. 环境隐形智能（Ambient Invisible Intelligence）
-通过超低成本的小型智能标签和传感器实现的环境隐形智能将推动大规模跟踪与感知技术的普及。预计到2027年，这项技术将显著优化零售库存检查和易腐商品物流等领域的实时监控能力。
-6. 节能计算（Energy-Efficient Computing）
-节能计算技术针对AI训练、仿真、优化等高计算密集型应用，预计到2020年代末，光学、神经形态和新型加速器等新技术将显著降低能源消耗。
-7. 混合计算（Hybrid Computing）
-混合计算将多种计算架构（如中央处理器、图形处理器、边缘计算、量子计算等）融合，用于解决复杂计算问题。这一技术将推动AI等领域突破现有技术极限。
-8. 空间计算（Spatial Computing）
-空间计算利用增强现实（AR）和虚拟现实（VR）技术增强物理世界。Gartner预测，到2033年，空间计算市场规模将从2023年的1100亿美元增长至1.7万亿美元。
-9. 多功能机器人（Polyfunctional Robots）
-多功能机器人能够执行多项任务，取代了以往只能完成单一任务的定制机器人。预计到2030年，80%的人类将每天与智能机器人交互，而这一比例在2024年不到10%。
-10. 神经增强技术（Neurological Enhancement）
-神经增强技术通过读取和解码人类脑活动提升认知能力，主要应用于人类技能提升、下一代营销和性能优化领域。Gartner预测，到2030年，30%的知识工作者将通过脑机接口（BBMIs）等技术增强工作能力，而2024年这一比例不足1%。
-本文由人人都是产品经理作者【坤少说】，微信公众号：【坤少说】，原创/授权 发布于人人都是产品经理，未经许可，禁止转载。
-题图来自Unsplash，基于 CC0 协议。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/it/6166045.html"
-                        open
-                      >
-                        <summary class="article-expander__title">自检、转检、巡检、首检、中检、末检、全检、抽检、点检、免检，一文读懂产品质量检测</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/pd/6166045.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2024/05/07/fe2dac02-0c50-11ef-b503-00163e142b65.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>在制造业和质量控制领域，产品检测是确保质量、维护品牌信誉和保护消费者权益的关键环节。从自检到免检，每一种都扮演着独特而重要的角色。本文全面解读了十种不同的产品质量检测方式，帮助大家理解它们在生产过程中的重要性和操作细节。
-
-在产品的诞生之旅中，质量检测是一道不可或缺的关卡。从原材料进厂的第一刻起，到成品出厂交付至消费者手中，每一个环节都紧紧关联着产品质量。
-自检、转检、巡检、首检、中检、末检、全检、抽检、点检、免检，这十种检测方式，就如同生产线上的“火眼金睛”，精准识别产品质量的优劣，为企业信誉与消费者权益保驾护航。
-一、自检：生产者的自我审视
-自检，即生产者对自己所生产的产品，按照既定的作业指导书、工艺标准或合同规定的技术要求，自行进行检验，并对产品是否合格作出判断。
-这是产品质量把控的首道防线，具有至关重要的意义。
-小李在电子元件厂负责焊接电路板，他焊接的每块电路板，都会依据焊接工艺标准，仔细检查焊点是否饱满、有无虚焊漏焊、元件安装是否正确等。
-
-有一次，他在自检时发现焊点存在虚焊，倘若这个电路板流入下一道工序，极有可能在后续的通电测试中出现故障，甚至导致整个产品报废。小李立即返工，避免了不良品的流转，保障了产品质量。
-于生产者而言，自检不仅能及时察觉自身工作中的质量问题，还能促使主动探寻问题根源，进而采取改进措施。
-这样，既能减少次品率，提升产品的整体质量，又能增强生产者自身的质量意识与责任感，助力其积累经验、提升技能，实现自我成长与进步。
-二、转检：工序间的接力守护
-转检，是指下道工序对上一道工序的产品进行检查，以确保接收到的产品符合要求。其目的在于杜绝不合格产品流入下一道工序，进而保障整个生产流程的顺畅无阻。
-在电子元器生产线上，半成品需依次经过贴片、插件、焊接、检测等多道工序。当贴片工序完成后，即将转入插件工序前，转检人员会严格按照工艺标准，对贴片的位置精度、元…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/it/6165977.html"
-                        open
-                      >
-                        <summary class="article-expander__title">又出奇招，微信电商战略升级丨热点聚焦</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6165977.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2024/11/11/c145ce4c-9fd4-11ef-8da6-00163e142b65.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>随着微信小店“送礼物”功能的灰度测试启动，微信电商战略再次成为行业关注的焦点。这一新功能不仅为用户带来了全新的送礼体验，也为品牌商家打开了新的商业机会。
-
-上个星期，微信小店正式开启“送礼物”功能的灰度测试，除珠宝、教育培训两大类别和超过1万元的商品外，其余类型的商品，都可以开启“送礼物”功能。
-
-“送礼物”功能的出现，令人不禁回想起微信红包的诞生：都在节日期间推出以满足人们的社交需求，通过降低行动门槛来促进用户参与，并可能因便捷性和情感价值而在节日期间带来高频使用，增强用户间的情感联系。
-有媒体指出，这似乎是一次简单的产品迭代，却在悄无声息地改变电商的游戏规则。这一功能不仅让消费者与商家的关系变得更加亲密、互动频繁，让“社交电商”变得更有人情味，让未来电商与社交变得更有想象空间。
-
-而“送礼物”功能被推上热搜，也让一直很低调的微信电商，走进了大众视野，关于微信电商终局的预测，也纷至沓来。在日渐高涨的关注度下，品牌们也不约而同地将目光看向了微信小店，微信“送礼物”功能究竟能给它们带来哪些商业机会？在这背后，微信电商的想象空间有多大？接下来，我们将从以下几个方面来一一解答：
-01.“送礼物”功能为什么会引发如此大的关注？
-首先在体验感上，这一模式的出现，极大地引发了大众的好奇心，从众多体验过的用户反馈来看，“送礼物”功能无论是给送礼方还是收礼方，都带来了新奇和较为舒适的体验。
-用户可以在微信中搜索商品或店铺，通过选择“小店”进入微信小店页面，然后使用“送礼物”功能选择并发送礼物，保持了送礼的仪式感和惊喜，而且发送礼物后，在聊天界面展示的方式也类似于红包的形式；赠送方无法看到接收方的地址和订单信息，保护了双方隐私。另外，若接收方未填写地址，24小时后金额自动退回；质量问题退货也退款给赠送方。
-
-（送礼方的赠送流程截图）
-大家都知道，临近年底，是送礼物较为频繁的时间段，新加入的送…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/it/6165970.html"
-                        open
-                      >
-                        <summary class="article-expander__title">速递｜a16z 华裔合伙人 Jennifer Li 最新洞察：小模型 + 边缘 AI 将定义 2025</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6165970.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2025/01/02/e7cd8cb4-c8e0-11ef-a8b6-00163e09d72f.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>在人工智能的快速发展中，a16z的华裔合伙人Jennifer Li带来了她对生成式AI的最新洞察。她预测，小型模型结合边缘AI将在2025年成为定义技术发展的关键趋势。
-
-a16z 合伙人 Jennifer Li 最近分享了她对生成式 AI 的最新见解，特别提到了设备端运行的小型模型在未来的重要性。
-去年 4 月，Jennifer 升任为 a16z 第 27 位普通合伙人，并在 a16z 新成立的 12.5 亿美元 AI 基础设施基金扮演关键角色。
-Jennifer 表示，生成图像、语音和视频的生成式模型将在基础设施和设备计算能力方面变得更加普及，这为小型模型的崛起提供了绝佳条件，而在设备端运行的小型生成式 AI 模型将在 2025 年更加流行。
-许多日常使用的应用程序，比如Uber、Instacart、Lyft或Airbnb，已经在设备端运行了大量机器学习模型。然而，她特别想强调的是生成式模型，它们正在逐渐实现类似传统机器学习模型的设备端运行。
-Jennifer 表示，如今的智能手机计算能力相当于 10～20 年前的电脑，加上摩尔定律的作用，像 20 亿或 80 亿参数的小型模型，已经足够在设备端高效运行，并提供强大的功能，这一变化得益于设备计算能力的提升和模型优化技术的进步 。
-
-此外，她还提到蒸馏技术发展也是一大关键。这项技术可以将一个功能强大的大型模型压缩成较小的模型，同时保留大部分能力，这种技术结合设备计算能力的提升，为小型模型的广泛应用奠定了基础。
-相比云端运行，设备端运行生成式模型有许多显著优势。首先是实时性。用户希望与聊天机器人互动时能够立即收到响应，或者在社交媒体中添加滤镜时无需等待几秒钟加载。设备端运行能够显著减少延迟，为用户提供更加流畅和直观的体验。
-然后是隐私保护。如果数据处理可以完全在本地完成，比如会议记录功能，大多数用户会更加愿意使用这些应用，而不用担心隐私数据被上传到服务器进行处理。
-经济性和效率也是重要因素。虽然云端推理的成本正在下降，但设备端运行可以进一步优化开发者的效率，加快迭代速度，并降低一部分基础设施的依赖。
-某些计算密集型任务可能仍需要云端支持，但许多日常应用场景完全可以通过本地模型实现，从而减少对网络和服务器的依赖。
-她还提到，设备端模型的潜力正在释放，在未来我们可能会看到以下应用场景的广泛普及：
-实时语音助手与对话 AI：这些助手能够流畅地处理与用户的互动，例如个性化的AI教练或客户服务支持。
-增强现实（AR）体验：通过摄像头和生成式AI的结合，用户可以实时重新设计空间，例如更改墙纸、家具摆放等。
-混合现实与创意表达：生成3D模型和视频的新技术将改变我们与现实世界的互动方式，使得虚拟体验更加生动有趣。
-可穿戴设备创新：智能手表和其他可穿戴设备将通过小型化生成模型解锁更多个性化功能。
-虽然设备端模型带来了诸多可能性，但仍面临一些挑战。例如，设备端模型需要随着硬件和应用的更新而同步迭代，开发和部署成本也可能有所增加。
-另外，云端和设备端结合的经济模式需要重新设计，这将对整个供应链产生深远影响。
-Jennifer 认为生成式 AI 在设备端的普及正在重塑用户体验、隐私保护和开发生态。
-随着技术和基础设施的进一步发展，混合现实和生成式 AI 的结合将为我们创造前所未有的沉浸式体验，并开创全新的消费领域。
-本文由人人都是产品经理作者【江天 Tim】，微信公众号：【有新Newin】，原创/授权 发布于人人都是产品经理，未经许可，禁止转载。
-题图来自Jennifer Li 采访截图</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/it/6165937.html"
-                        open
-                      >
-                        <summary class="article-expander__title">轻松拿捏！7种数据分析报告写作模板</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6165937.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/14/71970436-da8e-11ed-b69c-00163e0b5ff3.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>报告写作是一项至关重要的技能。它不仅能够将复杂的数据转化为清晰的见解，还能帮助决策者理解数据背后的故事本文介绍了七种不同类型的报告模板，每一种都有其独特的结构和适用场景，供大家参考学习。
-
-“为啥我做的数据分析报告领导不满意？！”是困扰很多同学的问题。特别是，有时候领导会嫌弃“报告太细了，要有重点”。有时候领导又嫌弃：“太粗了，要细点”到底尺度是啥，该咋拿捏……
-问题的关键在于：数据分析报告，首先是一个报告，得有清晰的报告逻辑。至于数据，只是让报告更可信，更真实。那做报告到底有几种常见逻辑呢？根据一个人对报告内容的熟悉程度来分，有7种类型，一一介绍如下：
-类型一：介绍型报告
-介绍型报告适用于：向不了解情况的人，做第一次汇报时使用。介绍型报告一般采用总分式结构，分若干个角度进行介绍。比如介绍一下活动情况，介绍一些会员情况，介绍一下产品线情况。此时，报告框架如下图所示：
-
-注意！很多面向大老板的汇报，都会以一个介绍型报告作为开场，因为大老板很有可能不了解业务细节，所以需要先分几个角度讲清楚。这时候指标一定不能太细，否则就会被批“听不懂”“太细了”。
-类型二：监控型报告
-监控型报告适用于：向有一定了解程度的人，提示业务发展态势。监控型报告的内容长短，视领导需求而定，有些领导喜欢事无巨细，那监控内容就多，有些领导喜欢看重点，那监控内容就少，只保留关键指标。
-
-监控型报告的关键，在于：结合业务行动讲指标走势。监控型报告最忌讳写成数字流水账：本周同比涨了x%，环比涨了y%，时间进度比z%，KPI完成率xx%，看得人莫名其妙，完全没结论，在做监控型报告时，一定要监控指标波动同具体业务行为联系，方便阅读报告的人做判断。
-
-类型三：探索型报告
-探索型报告适用于：向有一定了解程度的人，提示下一步行动方向。注意！这里给的是“提示”，是“建议”，并非结论。因此探索型报告必须有较强的逻辑性，得解释清…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/it/6165935.html"
-                        open
-                      >
-                        <summary class="article-expander__title">抖音“新”玩法，让你轻松表达心意</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6165935.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/14/e2a19322-da8d-11ed-b35a-00163e0b5ff3.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>不仅是微信，抖音也有送礼物功能了。这篇文章将带你探索抖音的“新”玩法——送礼功能，它不仅让送礼变得更加便捷和个性化，还为用户间的互动增添了更多乐趣。
-
-在快节奏的现代生活中，送礼已经不仅仅是一种传统习俗，更成为了一种表达情感、传递心意的方式。
-随着短视频平台的兴起，抖音作为其中的佼佼者，不仅为我们带来了欢乐和创意，其曾经推出的送礼功能，让用户在轻松愉快的氛围中，向亲朋好友传递爱与关怀。
-抖音的送礼功能，简单来说，就是用户可以在抖音平台上购买商品，并将其作为礼物赠送给其他用户。这一功能不仅丰富了抖音的使用场景，也为用户提供了更多元化的互动体验。那么，抖音的送礼功能具体是如何操作的呢？接下来，就让我们一起了解一下。
-
-首先，在抖音上挑选一款心仪的商品。无论是美食、美妆、服饰还是家居用品，抖音都能满足你的需求。在商品详情页，你可以看到商品的详细介绍、价格以及用户评价等信息，从而帮助你做出更明智的购买决策。
-接下来，进入支付页面。在这里，你会看到一个醒目的“送礼”按钮。点击它，你就可以开始编辑礼物信息了。你可以选择一张精美的封面图片，附上一句温馨的祝福语，让礼物更具个性化和情感价值。同时，你还可以选择将礼物直接发送给指定的好友，或者分享到朋友圈，让更多的人见证你的善意和爱心。
-
-值得一提的是，抖音的送礼功能还支持多种支付方式，包括微信支付、支付宝支付等，让你可以随时随地轻松完成支付。此外，为了保障用户的权益，抖音还设置了严格的支付安全机制，确保每一笔交易都能安全可靠地进行。
-当礼物被送出后，接收者会在第一时间收到通知。他们只需点击通知链接，就可以进入礼物页面，查看礼物的详细信息和收货地址。如果他们对礼物满意，就可以填写收货地址并确认收货。整个过程简单快捷，无需繁琐的操作和等待。
-除了以上提到的基本功能外，抖音的送礼功能还有一些有趣的玩法和特色。例如，你可以参与抖音平台组织的各种送礼活动，与其他用户一起分享快乐和惊喜。此外，你还可以利用抖音的社交属性，将送礼作为一种社交方式，增进与好友之间的感情和互动。
-更有意思的是，抖音的送礼功能还支持“回赠”操作。好友在收到礼物后可以选择回赠，这种互动方式不仅加深了用户间的联系，还让送礼过程更加有趣。
-最后，我想说的是，送礼不仅仅是一种物质上的给予，更是一种精神上的交流和情感上的传递。通过抖音的送礼功能，我们可以更加便捷地将自己的心意传达给亲朋好友，让他们感受到我们的关爱和温暖。
-因此，不妨尝试一下抖音的送礼功能吧！也许你会发现，原来表达爱意可以如此简单而美好。
-本文由人人都是产品经理作者【产品经理龙哥】，微信公众号：【产品经理龙哥】，原创/授权 发布于人人都是产品经理，未经许可，禁止转载。
-题图来自Unsplash，基于 CC0 协议。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/it/6165934.html"
-                        open
-                      >
-                        <summary class="article-expander__title">第二章：数据治理的边界在哪里</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6165934.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/13/e51b1a86-d9ea-11ed-bd74-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>在数字化转型的浪潮中，数据治理已成为企业不可忽视的核心议题。然而，面对这一庞然大物，许多企业和数据管理者往往感到无从下手。本文深入探讨了数据治理的边界问题，分析了数据生产者、数据加工者和数据消费者三个参与方的角色与责任，以及数据治理的两种边界范围。
-
-面对数据治理，不知道其他人什么感受，我的感受好像面对一个庞然大物，无从下手。似乎有很多的事情需要做，但是具体做哪些？先做什么，再做什么？有没有牵一发而动全身的那个关键节点？如何能够做到有阶段性产出？怎么顺利进行推进？等等，似乎问题比答案要多。
-如果说第一个需要达成共识的，目前，个人认为，数据治理的第一步是确定要治理的边界。
-一、数据的三个参与方
-如果按照数据流向，数据一共有数据生产者、数据加工者、数据消费者，这三个参与方。
-数据生产者就是产生数据的业务系统。数据加工者，就是进行清洗、建模、加工的数据部门，一般是数据中台部门。数据消费者，就是最终使用清洗、加工好数据的部门，可以是业务部门，也可以是分析部门。
-二、数据治理的两种边界范围
-这里所说的确定数据治理的边界，是要确定，仅针对数据加工者所涉及的范围进行治理，还是也要包括数据生产者所涉及的范围。
-换句话说，是仅仅对业务系统产生数据后，导入到数据中台的数据进行治理，即入湖后的治理。还是对业务系统产生数据时，在导入数据中台之前就开始治理，即入湖前的治理。
-
-从名字上来说，要进行企业级的数据治理，那么我们当然既要入湖前的治理，又要入湖后的治理了。但是实例情况是这两种治理在难度上、流程的、沟通范围程度等等差别还是挺大的。都说数据像水流，这种入湖前的数据治理，就像一条河的下游，要求河上游进行治理，可想而知难度了。
-第一种，入湖后的数据治理，主要是数据中台（假设是数据中台进行牵头）为主，其他业务部门辅助。第二种包含入湖前的数据治理，却是真正的全公司都需要进行系统适配、改造了。华为据说已经…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6162276"
-                        open
-                      >
-                        <summary class="article-expander__title">从 0 到 1 剖析 OTWB 中的 W 系统：WMS实战分享</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/pd/6162276.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/13/8588b498-d9ef-11ed-9d7a-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>在前面的文章中，我们分享了OTWB的不同系统。本文继续分享其中的WMS系统的实战经验，从基础功能模块到核心设计要点，希望能帮到大家。
-
-一、OTWB 全景洞察：物流新基建之魂
-1.1 OTWB 系统架构总览
-在当今复杂多变且竞争激烈的物流领域，OTWB 宛如一座精密运转的智能中枢，掌控着物流链条的每一个关键环节。
-其中：
-O（订单管理系统 Order Management System）作为起始点，负责捕捉来自各个渠道的订单信息，无论是线上电商平台的海量碎片化订单，还是线下大客户的批量定制订单，它都能精准收集、整合，并开启后续流程的 “信号灯”。
-T（运输管理系统 Transportation Management System）则如同物流的 “动脉”，依据订单需求规划最优运输路线，调配合适的车辆、船舶或飞机等运输资源，实时监控在途货物状态，确保运输时效与安全。
-B（计费管理系统 Billing Management System）承担着精确核算物流成本的重任，根据货物重量、体积、运输距离、服务类型等多维度因素，生成清晰透明的费用账单，保障企业财务流的顺畅。
-而我们聚焦的核心 ——W（仓储管理系统 Warehouse Management System），是物流的 “库存心脏”，它不仅掌管着货物的存储、保管，更是连接订单与运输的关键纽带，通过高效的库存管理、精准的出入库流程把控，协同其他系统保障供应链以稳定、高效的节奏持续运行。
-这四大子系统相互依存、信息实时交互，犹如交响乐团的各个声部，共同奏响物流高效运作的华丽乐章。
-1.2 仓储管理系统（WMS）的关键角色
-WMS 系统在物流生态中有着不可撼动的关键地位。
-从库存管理层面看，它是库存数据的 “大管家”，实时记录各类货物的入库时间、批次、数量，精准掌控库存动态，确保库存数据的准确性达到 99% 以上，有效避免超卖或积压。…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6165709"
-                        open
-                      >
-                        <summary class="article-expander__title">产品经理视角下，捏脚服务的洞察与自我反思</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6165709.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/14/8815fb8c-da8d-11ed-8c17-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>如果用产品视角来看，我们的日常生活中，有哪些事情是可以优化的？这篇文章，作者就分享了自己在捏脚这件事的思考，供大家参考。
-
-对于初级产品经理而言，生活处处皆学问，一次看似平常的捏脚经历，却蕴含着丰富的产品设计与用户体验之道。在这次放松身心的过程中，我以专业视角审视了服务中的各个环节，收获了许多宝贵的经验与启示，这些发现不仅关乎服务行业的优化方向，更映射出产品经理所需具备的关键素养 —— 对痛点的敏锐感知。
-一、捏脚过程中的问题发现
-1. 服务细节的疏漏
-刚入座泡脚，水温过热且师傅力道偏大，起初我选择忍受，直至疼痛难忍才开口。这反映出在服务初期，顾客与服务者之间缺乏有效的沟通渠道，服务者未能及时察觉顾客的不适。随着时间推移，水温逐渐变凉，这明显是服务流程中的一个缺陷，未能充分考虑到顾客长时间泡脚的需求，缺乏对水温的动态调节机制。
-在卫生方面，师傅指甲较长，容易藏污纳垢，且在连续服务过程中，我未观察到明显的消毒流程，这无疑增加了顾客对卫生状况的担忧，特别是在涉及脚部接触的服务场景中，卫生问题是影响顾客体验的关键因素。此外，在头部按摩环节，由于心理作用，脑海中不自觉浮现师傅之前捏脚的画面，这是服务场景转换时没有做好顾客心理过渡的体现，导致了不必要的心理不适。
-2. 推销方式的优劣
-推销会员卡时，师傅先通过简单的询问了解我的情况，随后直截了当地提出办卡优惠，这种单刀直入的方式虽然简单直接，但也存在一定的问题。
-
-对于一些顾客来说，可能会觉得过于突兀，缺乏足够的情感铺垫和产品价值传递过程。然而，相较于软磨硬泡的传统推销手段，它给予了顾客明确的选择权利，没有给人造成过多的压力，在一定程度上尊重了顾客的自主意愿，避免了因过度推销而引发的顾客反感，这也为服务行业的推销策略提供了一种新的思考方向。
-3. 服务中的亮点
-值得肯定的是，该店的服务流程具有标准化的特点。墙上明确挂着每个部位的动作要领和时长要求，这一举措保证了不同员工在服务质量上的稳定性和一致性。无论哪位师傅为顾客服务，都能遵循统一的标准，使得顾客能够对服务质量有一个基本的预期，这是服务行业规模化、规范化发展的重要基础，也为提升整体服务水平提供了有力保障。
-二、从捏脚看产品经理的痛点敏感度
-1. 自我认知的新发现
-这次捏脚经历让我对自己有了更深层次的了解。我意识到自己对身体痛感的忍受度较高，这在产品设计中可能会成为一个潜在的问题，因为我可能会忽略用户在使用产品过程中产生的类似细微身体不适。例如，在设计一款手持设备时，如果我自身对长时间握持的疲劳感不敏感，就可能会忽视产品在人体工程学方面的优化，从而影响用户体验。
-然而，我也发现自己对心理上的不适感较为敏感，这在捕捉用户的心理痛点方面是一个优势。在产品使用过程中，用户的心理感受往往决定了他们对产品的忠诚度和口碑传播效果。能够敏锐地察觉到用户在使用产品时可能产生的焦虑、困惑、厌烦等心理情绪，并针对性地进行产品优化，如简化操作流程、优化界面设计、提供清晰的引导提示等，将有助于提升产品的竞争力。
-2. 痛点敏感分类的思考
-基于这次经历，我开始深入思考产品经理对痛点敏感的分类。对自身身体的敏感度，能够帮助我们在产品的物理属性设计上更加贴合用户的实际使用需求，如产品的材质选择、形状设计、舒适度等方面；对心理的敏感度，则有助于优化产品的交互设计、情感化设计以及品牌传播策略，满足用户在情感和精神层面的需求；对环境的敏感度，使我们能够考虑到产品在不同使用场景下的适应性和兼容性，例如一款户外电子产品在不同气候条件下的性能表现；对他人的敏感度，能够让我们站在用户的社交角度去设计产品的分享功能、社交互动功能等，增强产品的社交属性和传播力。
-3. 案例启示
-某公司在招聘产品经理时，通过一把不舒服的椅子来考察面试者的痛点敏感度。大部分面试者默默忍受，而只有一位面试者能够及时指出问题并提出更换要求。这一案例生动地诠释了在产品设计领域，对痛点的敏锐捕捉和反馈能力是多么的重要。作为产品经理，我们需要时刻保持这种敏感性，主动发现并解决用户在使用产品过程中可能遇到的各种问题，哪怕是最细微的痛点，都可能成为产品创新和优化的突破点。
-三、结语
-这次捏脚经历让我深刻认识到，无论是服务行业还是产品设计领域，用户体验始终是核心。对于初级产品经理来说，我们要善于从生活中的每一个细节中汲取灵感，不断提升自己对痛点的敏感度，精准把握用户需求，将这些感悟融入到产品的设计、开发和优化过程中。只有这样，我们才能打造出真正满足用户需求、具有竞争力的产品，在产品经理的道路上不断成长和进步，为用户创造更多的价值。
-本文由 @宇宙一建 原创发布于人人都是产品经理。未经作者许可，禁止转载
-题图来自Unsplash，基于CC0协议
-该文观点仅代表作者本人，人人都是产品经理平台仅提供信息存储空间服务</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6165735"
-                        open
-                      >
-                        <summary class="article-expander__title">个人小项目复盘：如何使用AI来帮你完成一个简单工具</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6165735.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2024/07/02/083e0566-386b-11ef-90af-00163e142b65.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>在文章里，作者分享了自己做这个项目的原因和整个过程。大模型的能力已经足够帮助我们完成不少工作，而这些经验，希望能给大家带来不少启发。
-
-其实做到现在这个程度，我的这个项目已经算是做完了，目前只剩下上传的问题。上传因为又要搞定服务器还要搞定域名，复杂程度有点超过我的预期了，所以就到这开始做复盘。
-其实做这个项目的最开始就是觉得自己没啥事干，而且之前也想过要做类似的东西，所以一时兴起开始做这个东西。因为知道GPT可以帮忙写代码，所以从一开始我就将GPT看做了我整个项目最重要的伙伴，在使用的时候它也米有辜负我的期望。
-
-项目最开始的时候，我按照自己对于这个项目大概的范围进行了判断，而且列举了几个我可能涉及到的会对自己有阻碍的项目，将复杂任务拆分之后，得到几个问题：
-数据来源
-技术实现
-上线配置
-然后针对以上几个问题，开始对互联网资源进行检索。
-
-检索的时候其实也尝试了chatgpt和copliot的搜索，感觉chatgpt虽然能给结果，但是因为给的结果不够我进行筛选，也有可能是我prompt给的比较简单所以它没有达到我预期的效果，而copliot的表现则是非常的糟糕，无法依据上下文反馈，查询的时候以生成逻辑为重而忽视了本身是作为搜索引擎的助理存在的本质，导致在查询的时候一点作用都灭有。
-
-我自己在通过互联网搜索找到了对应数据（bing，csdn）之后，就遇到了需要对大文件缩减体积以及对数据库进行清洗整合的任务，对于这些任务，通过GPT来写python其实体验还是很不错的，GPT对于数据库的理解很全，只要把字段名称、文件路径等等正确的给与GPT，它可以很快而且很准确的生成你需要的代码来帮你处理对应数据。不仅可以缩减体积，还可以把多个文件整合。
-
-
-而对我自己来说，在整合多个文件的时候其实最主要还是要记得把文件内的字段进行重命名，要按照一个标准去写字段名称，要不然就会碰到字段错误啊，大小写识别不出来啊之类的问题。还有就是最好能够整合出来一个数据处理的SOP，做这个项目主要就是做数据处理去了。
-数据处理结束，就是整个页面和功能的建设，其实这一步就相对来说简单了，只要和GPT说明清楚要实现什么，它很快就搞定了，甚至可以帮我做基础的设计，只要和它说明风格，它就可以按照要求生成一个简单的可以使用的网页。然后因为做的时候可以看到数据，也就可以进一步对数据进行筛选，所以多做了几个筛选功能，对于我来说应该是足够了，不过感觉应该还有什么可以做的事情，只是我暂时还没有想到。
-
-说到最后，也算是自己从0到1完成了一个小项目，这个小工具之后给佛哥来上线之后，可能会做一些维护，但是应该也不多。我在想要不要把之前的做点啥的数据库也整理一下，看看能不能有机会学一下python在互联网里面爬一下有些什么能做的事情做个简单数据库出来然后也支持掉。
-总的来说，GPT的存在真的在一定程度上对产品经理来说是个福报，想要做一点小功能，完全不用学习代码，可以用自然语言表达自己的需求然后GPT就会帮你完成你想要的代码，真的还挺爽的。
-本文由 @尉迟华承 原创发布于人人都是产品经理。未经作者许可，禁止转载
-题图来自Unsplash，基于CC0协议
-该文观点仅代表作者本人，人人都是产品经理平台仅提供信息存储空间服务</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/it/6165783.html"
-                        open
-                      >
-                        <summary class="article-expander__title">商品属性与规格管理：灵活应对多样化商品需求</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6165783.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2024/05/01/fb85a0e8-078e-11ef-8ad3-00163e142b65.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>商品属性与规格的管理是确保平台运营高效、数据准确和用户体验优化的关键。这篇文章将带你深入了解商品属性与规格的定义、区别以及管理策略，探讨如何通过精细化管理来应对多样化的商品需求。
-
-电商平台需要处理种类繁多、形态各异的商品，从服装鞋帽到电子产品，从生鲜食品到虚拟服务，如何有效管理这些商品的属性和规格，是提升运营效率、保障数据准确性以及优化用户体验的关键。
-一起探讨商品属性与规格管理的策略和方法，重点关注属性和规格的定义、管理、以及它们与其他系统模块（例如：商品信息管理、库存管理、搜索引擎等）的关联。
-一、商品属性与规格的定义与区别
-在电商商品管理中，属性和规格是两个重要的概念，它们之间既有联系又有区别：
-属性：是对商品内在特性和特性的描述，例如：颜色、尺寸、材质、品牌、重量、型号等。 属性是相对稳定的，通常用于商品的分类、搜索和筛选。 属性可以是单选、多选或者自定义输入。
-规格：指的是商品的不同版本，它由多个属性值的组合构成，例如：红色L码的T恤、64GB内存的手机等。 规格直接决定了SKU（库存量单位），是库存管理和销售的基础。
-两者关系：属性是构成规格的基础，多个属性值的组合构成一个规格，而一个规格对应一个SKU。
-
-二、商品属性与规格的管理策略
-为了有效管理商品属性和规格，需要采取以下策略：
-建立商品属性库：建立一个统一的商品属性库，对所有商品属性进行规范化管理。 属性库中应包含属性名称、属性类型、属性值等信息，并支持属性分组和层级管理，方便查找和使用。
-规范属性值：为每种属性定义规范的属性值，例如：颜色属性的值应该为“红色”、“蓝色”、“绿色”等，避免出现“深红”、“浅蓝”等模糊的描述。 规范的属性值能够提高数据的一致性和准确性，并方便数据分析。
-属性继承机制：设计属性继承机制，例如：父类目的属性可以继承给子类目，减少重复定义，提高效率，并保证数据一致性。 父类目下的属性可以被子类目继承。
-规格组合管理：设计高效的规格组合管理机制，方便商家快速创建和管理商品规格。 支持批量导入和导出规格信息。 通过组合不同的属性值来生成SKU。
-SKU管理：对SKU进行统一管理，包括SKU的生成、价格设置、库存管理等。 需要保证SKU数据的准确性和实时性，避免出现数据错误或缺货的情况。 SKU是库存管理和销售的基础。
-属性与规格的关联关系：清晰定义商品属性与规格之间的关联关系，保证数据的准确性和一致性。 一个规格由多个属性值组合而成，需要保证属性值与规格的正确对应关系。
-三、商品属性与规格与其他系统模块的关联
-商品属性和规格需要与其他系统模块进行集成，以保证数据的准确性和一致性：
-商品信息管理模块：商品属性和规格是商品信息的重要组成部分，需要与商品信息管理模块进行集成，保证数据的一致性。
-库存管理模块：规格直接决定了SKU，需要与库存管理模块集成，保证库存数据的准确性和实时性。
-搜索引擎模块：商品属性是商品搜索和筛选的重要依据，需要与搜索引擎模块进行集成，提高搜索效率。 关键属性应支持搜索。
-推荐引擎模块：商品属性是个性化推荐的重要依据，需要与推荐引擎模块进行集成，提高推荐精准度。 关键属性应作为推荐算法的输入特征。
-订单系统：订单中的商品信息需要包含属性和规格，需要与订单系统集成，保证订单信息的准确性。
-四、 处理不同商家上传的商品属性不规范的情况
-不同商家上传的商品属性可能存在不规范的情况，需要制定相应的策略进行处理：
-建立规范文档：制定严格的商品属性规范，并提供给商家参考。
-后台审核机制：建立后台审核机制，对商家上传的商品信息进行审核，对不符合规范的商品信息进行修改或驳回。
-自动纠错机制：使用机器学习技术等手段，对商家上传的商品属性进行自动纠错，并提示商家修改。
-商家培训：对商家进行培训，帮助商家理解和遵守商品属性规范。
-规范化的商品属性和规格管理是提升电商平台运营效率、保障数据准确性和优化用户体验的关键。 
-需要建立完善的商品属性库和规格管理机制，并与其他系统模块进行有效集成，才能最终提高运营效率和用户满意度。
-本文由人人都是产品经理作者【刘志远】，微信公众号：【远哥聊产品】，原创/授权 发布于人人都是产品经理，未经许可，禁止转载。
-题图来自Unsplash，基于 CC0 协议。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/it/6165775.html"
-                        open
-                      >
-                        <summary class="article-expander__title">「详细版」抖音本地生活2025年发展方向</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6165775.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2024/05/16/451dfca2-1363-11ef-b503-00163e142b65.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>2025年已经开始，抖音在本地生活服务领域的发展方向成为了众多商家和服务商关注的焦点。本文梳理了抖音的运营策略，供大家参考。
-
-如何找到平台2025年的发展脉络，相信没一个商家、服务商不会不关注这个话题。这段时间有很多人让我预测2025的抖音本地生活，我会很明确告诉他，我做不到。
-我只能基于现有的情况去按照业务逻辑去做推理，平台想要什么，那么它的政策方向就非常具有导向性：所有策略都会按照它既定的目标一步一步去实现。
-例如2024是本地生活商业化的元年，那么2025年商业化进行会继续加快，同时要能挣钱。
-按照挣钱的思路，你就发现平台会做出哪些策略？
-1. 首先我们对抖音的定位是本地生活广告平台，最有价值的就是流量。
-所以面对流量就会有两种策略：
-第一种是泛流量，策略是推高其成本。
-
-怎么做，引入更多有付费能力的商家，让他们去争夺流量。抖音的日活和用户时长都遇到天花板，所有商家其实都是在存量的盘子里来争夺用户，特别是对于推荐窗口占比高流量的情况下，商家要做的是如何占据到用户的推荐页需要想方设法，而付费就是最好的一种解法。
-第二种是精准流量，策略是智能化投放系统引导更多商家同时去抢夺流量。
-这里有两种方法，同一品类引入更多的商家，同一品类扶持更多有付费能力的商家。毕竟单店可持续性比较弱，付费也是阶段性的，而大的品牌可持续性强。所以你可以看到，云连锁、共管模式之下，会有一大批有付费能力的品牌在2025年闪耀出场。
-这几天很多品牌2025年的规划出来了，有些品牌对于2025年的规划就是首先拿到共管资格，然后投入1个亿到抖音去抢占市场。
-这样的现象，在2025年会屡见不鲜。
-2. 服务费：平台抽佣进行调整，有升有降
-调整平台佣金政策，有两个目的。
-第1，让自己的商家政策可以和其他业界佣金能拉齐，能留住商家，同时也要从商家里可以赚钱。
-第2，挤破水泡，加速不能持续给平台赚钱的商家，服务费只是平台做商家筛选的一种策略。
-当然挣钱是在符合平台红线以及用户利益的情况下做出的，所以2025年的另外两个方向也就明确了。
-方向1，内容是生命线。
-平台会持续通过策略打击影响用户体验的商家。例如同质化内容、矩阵、数字人等都可能是被关照的对象。
-方向2，服务履约。
-继续严格保证服务履约质量，对于三率高的行业肯定会持续治理，对于飞单的行为会持续打击，对于虚假引导好评让用户做错误决策的行为持续整治。
-拆解清楚之后，你就掌握整个业务发展的脉络，不一定全对，但也值得参考。
-本文由人人都是产品经理作者【陈罡Pro】，微信公众号：【陈罡Pro】，原创/授权 发布于人人都是产品经理，未经许可，禁止转载。
-题图来自Unsplash，基于 CC0 协议。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/it/6165741.html"
-                        open
-                      >
-                        <summary class="article-expander__title">2024 大模型年度五问：等不来GPT 5怎么过？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/aigc/6165741.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2024/05/07/8abd8308-0c57-11ef-b3fd-00163e142b65.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>这一年，AI领域经历了翻天覆地的变化，从大模型的分化发展到视频生成技术的突破，再到AI编程和智能助手的兴起，每一项进步都在推动着我们向更智能的未来迈进。在这篇文章中，我们将回顾2024年AI行业的五大核心问题，这些问题不仅定义了今年的技术趋势，也为2025年的发展方向提供了线索。
-
-2024这一年中，我们见证了AI行业诸多令人兴奋，却又有些坎坷的进步。
-从跳票一年终亮相的Sora，到o3掀开推理侧大发展的序幕，以及DeepSeek V3带来的惊喜与争议，这一切的繁荣，似乎让人觉得AGI似乎就在不远的前方。
-然而，另一方面，大模型商业化、落地的困境，却仍旧没有得到解决，众人期待中的SuperApp，也还是没有出现。
-与此同时，近乎耗尽的训练数据，以及Scaling Law 即将“撞墙”的传闻，也不由让人对AI的远大前景产生了一丝隐忧。
-
-今天，在2024行将结束之际，就让我们一一盘点今年AI行业的几大主要进展及趋势，并通过5个核心问题，探寻2025年大模型走向何方？
-一、要不要做预训练，Scaling Law是否还有效？
-当有人质疑本次的AI革命，是否会重蹈前两次革命失败的覆辙时，Scaling Law总能让人拾起信心。
-因为它让当前的AI，找到了一种基于“数据-规模-能力”的正向循环系统。这也是AI实现持续进化的根本所在。
-
-然而，这个让奇迹不断涌现的“黄金定律”，今年似乎不再那么灵了。
-
-今年11月，The Information的一份独家爆料声称，GPT系列模型改进缓慢，下一代旗舰模型Orion并不像前代实现巨大的飞跃。
-这篇文章直击OpenAI痛点，提出Scaling Law逐渐放缓，原因之一是高质量文本数据越来越少。
-此文一出，AI圈立刻炸了锅，众人对LLM能否通向AGI的质疑声此起彼伏。
-然而，没过多久，OpenAI研究员Adam称，Scaling刚刚找到了另一套…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >小众软件</button>
-                  <a class="source-heading__link" href="https://www.appinn.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.appinn.com/?p&#x3D;50640"
-                        open
-                      >
-                        <summary class="article-expander__title">2024 年，我最常用的 8 款小众软件</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.appinn.com/2024-my-eight-apps/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.appinn.com/wp-content/uploads/2025/01/appinn-homework-63.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>简单粗暴的总结一下，2024年我最常用的几款小众软件。这是问题提出后，脑海中第一时间想起的东西，外加随手翻了一下应用列表。@Appinn 当然肯定不止这些，想起来再推荐吧。 1. 猫抓：在线视频下载</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >异次元软件世界</button>
-                  <a class="source-heading__link" href="https://www.iplaysoft.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.iplaysoft.com/?p&#x3D;6283"
-                        open
-                      >
-                        <summary class="article-expander__title">OneQuick 10 - 让 Windows 用得更爽！操作效率起飞的热键工具</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.iplaysoft.com/onequick.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://img.iplaysoft.com/wp-content/uploads/2024/onequick/onequick.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>过去我以为 Windows 本身操作效率用着还行，但自从用了 OneQuick，才发现以前的操作简直太繁琐了！就像手动挡汽车，而用了 OneQuick 就像换成了自动挡，那叫一个轻松自在。
-OneQuick 10 是一款能让 Windows 效率起飞的 “快捷键” 效率增强工具！它利用鼠标和键盘简化各种复杂繁琐操作，包括屏幕边缘操作、文本快速搜索、剪贴板历史记录、窗口操作菜单等。比如当全屏游戏时，想要调节音量却不得不退出游戏？这时用 OneQuick 就能轻松丝滑搞定……
-「 前往查看原文.... 」
-异次元还有这些值得一看：
-
-Listary 6.3 Pro - 能极大提高 Windows 文件浏览与搜索速度效率的“超级神器”
-GestureSign - 免费开源 Windows 笔记本触控板手势控制增强神器 / 全局鼠标手势工具
-MyKeymap - 让键盘党狂喜的开源键盘增强工具！按键映射/系统操作/移动鼠标
-Synergy - 用一套键鼠同时控制多台电脑的软件！跨屏共享键鼠设置教程
-
-异次元首页  |  微信公众号  |  关注微博  |  软件精选  |  软件激活码折扣</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-01-01 datetime="2025-01-01T16:38:34.000Z">2025-01-01</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-01-01 datetime="2025-01-01T16:38:34.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >大眼仔旭</button>
-                  <a class="source-heading__link" href="https://www.dayanzai.me">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://www.dayanzai.me/?p&#x3D;351"
-                        open
-                      >
-                        <summary class="article-expander__title">磁盘分区工具傲梅分区助手 AOMEI Partition Assistant 10.6 中文免费版</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.dayanzai.me/partition-assistant.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>傲梅分区助手中文版由大眼仔旭（www.dayanzai.me）发布。AOMEI Partition Assis […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://www.dayanzai.me/?p&#x3D;4491"
-                        open
-                      >
-                        <summary class="article-expander__title">扫描仪增强软件 VueScan Pro 9.8.43 x64 中文多语免费版</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.dayanzai.me/vuescan-pro.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>VueScan Pro + x64  中文版 扫描仪增强软件由大眼仔旭（www.dayanzai.me）发布。 […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://www.dayanzai.me/?p&#x3D;6502"
-                        open
-                      >
-                        <summary class="article-expander__title">开源数字音频工作站 Tenacity 1.3.4 + x64 中文多语免费版</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.dayanzai.me/tenacity.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Tenacity 中文版由大眼仔旭（www.dayanzai.me）发布。Tenacity 是一个免费的开源数 […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://www.dayanzai.me/?p&#x3D;1029"
-                        open
-                      >
-                        <summary class="article-expander__title">开源免费高级专业字幕编辑器 Aegisub 3.4.1 中文免费版</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.dayanzai.me/aegisub.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Aegisub 3.4 中文版 您专业的影片字幕制作工具由大眼仔旭（www.dayanzai.me）发布。想制 […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://www.dayanzai.me/?p&#x3D;43241"
-                        open
-                      >
-                        <summary class="article-expander__title">多功能超级文件管理器 Total Commander Ultima Prime 9.0 中文多语免费版</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.dayanzai.me/total-commander-ultima-prime.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>多功能超级文件管理器 Total Commander Ultima Prime 中文版由大眼仔旭（www.da […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://www.dayanzai.me/?p&#x3D;769"
-                        open
-                      >
-                        <summary class="article-expander__title">开源待办事项列表 ToDoList 9.0.0 中文绿色免费版</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.dayanzai.me/todolist.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>开源待办事项列表 ToDoList 绿色中文版由大眼仔旭发布。ToDoList，顾名思义，是一款旨在帮助用户提 […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >The Portable Freeware Collection</button>
-                  <a class="source-heading__link" href="https://www.portablefreeware.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="1048+1735738814"
-                        open
-                      >
-                        <summary class="article-expander__title">[UPDATE] PeaZip v10.2.0</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.portablefreeware.com/?id&#x3D;1048&amp;ts&#x3D;1735738814">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -23627,8 +23450,8 @@ Synergy - 用一套键鼠同时控制多台电脑的软件！跨屏共享键鼠�
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/allceo/feed/actions/runs/13064422537">
-        <time id="build-timestamp" datetime="2025-01-31T01:14:08.284Z">2025-01-31T01:14:08.284Z</time>
+      <a class="footer-link" href="https://github.com/allceo/feed/actions/runs/13083584824">
+        <time id="build-timestamp" datetime="2025-02-01T01:17:55.698Z">2025-02-01T01:17:55.698Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
