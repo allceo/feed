@@ -22,11 +22,417 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-05-02 datetime="2025-05-02T03:05:29.000Z">2025-05-02</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-05-02 datetime="2025-05-02T03:05:29.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-05-04 datetime="2025-05-04T00:35:16.000Z">2025-05-04</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-05-04 datetime="2025-05-04T00:35:16.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >人人都是产品经理</button>
+                  <a class="source-heading__link" href="https://www.woshipm.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/it/6212601.html"
+                        open
+                      >
+                        <summary class="article-expander__title">阿里发布全球最强开源模型Qwen3，惊喜与现实并存</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6212601.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/14/89a13ea6-da9e-11ed-9b82-00163e0b5ff3.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>尽管Qwen3在多个基准测试中表现出色，但在实际应用场景中，它仍面临一些挑战，与顶尖闭源模型相比仍有差距。本文将深入探讨Qwen3的性能表现、优势与不足，以及其对AI行业的影响。
+
+作为2025年，国内巨头中第一家发布下一代大模型的玩家，阿里Qwen3吊足了AI圈的眼球。
+现在大模型更新基本集中在二代半，GPT-4.5和GPT-4o为代表，Claude 3.7 sonnet、近期刚更新的文心4.5 Turbo ，都具有非常显著的AI 特性，但并不足以称之为换代。
+阿里Qwen3则呈现了下一代模型的一些标准，具有以下四种特性：混合推理模型，实现自动快慢思考；模型内置Agent+MCP，垂直场景开发更易用；8款尺寸全覆盖，旗舰还是移动端都可适配；更多语言支持，真正支持全球化开源。
+
+鲸哥详细了解下这次发布的模型，一共有8款不同尺寸，分别是6款Dense模型以及2款MoE模型，Qwen3 模型以更小的规模实现了对更大体量上一代模型的超越，性价比强无敌。
+
+值得关注的是，旗舰模型Qwen3-235B-A22B在代码、数学、通用能力等基准测试中，超越了DeepSeek R1、OpenAI o1 o3mini、Grok 3等国内外顶尖大模型，和Gemini 2.5 Pro略有差距。
+
+然后Qwen采用 Apache 2.0 许可 ，模型能力已经超越 Meta Llama 和Mistral，而且Qwen系列衍生模型全球已经超过10万个，现在可以说是全球最好的开源模型。
+
+
+不过最强开源并非无敌，在强堆预训练数据下，Qwen3 使用的数据量是Qwen2.5两倍，达到了约 36 万亿个 token，实现了一些雄心壮志，但也有一些现实需要面对。毕竟在训练数据量同样是30T以上的级别中，Llama 4坊间评价已经扑街。
+Qwen3在很多方面，对最强闭源模型也没有优势。通过更多场景测评，我们能更了解这款“强大的模型”。
+首先是一个在DeepSeek中，很受大家喜欢的能力，就是制定学习计划表格并导出，通义也实现了相应的功能，从Html代码到预览呈现，以及Excel下载。
+
+在写作能力上，先点了深度思考模式，文章内容深度并没有体现，点击联网模式后，文章内容提到了很好的升级。这个主题下写作，Qwen也认为饿了么有边缘化的危机，就没截全。
+
+从结尾看总结写的也不错，在国产AI助手中写的算顶尖行列。在生成报告方面，要求Qwen3生成兼具美观的报告，它选择生成了Markdown格式，最终的效果如下图。
+从生成内容质量看，距离现在的Deepresearch产品也有距离。
+
+在可视化网页方面，此前鲸哥经常用一套优化的提示词做秀图。
+
+上面是DeepSeek V3生成的效果，下图是Qwen 3生成的效果，对文章结构处理和审美理解都差一点意思。
+
+在代码生成方面，也有很多的进步空间，这里是给了提示词：生成一个星级旅游网页，赛博朋克风格，背景是无垠宇宙，一艘飞船中间有输入旅行地址框。
+
+做高考数学题也不在话下，利用 Qwen2.5-Math 和 Qwen2.5-Coder 这两个数学和代码领域的专家模型合成数据，合成了包括教科书、问答对以及代码片段等多种形式的数据。
+
+Qwen3这次传说中的多模态没上，超长上下文还要补课。
+整体来看，Qwen更多的惊喜试是相较过去自己，能力差不多实现30%的升级，而且是全家桶便宜且开源，以及支持Agent和MCP，企业落地更多场景更方便，对于大模型再企业端落地有很大促进作用。
+但是在很多用户应用场景下，能力升级但没达到预期惊喜。尤其代码等场景下，举例DeepSeek V3和Claude 3.7还有不少的距离。没能全方位超越闭源模型，并不意味着通义App不好用。长短思考自动切换，内置APP生成，以及视频和图片生成能力，在一众国产AI助手中还，通义App还是那个更丝滑和更全能的助手。
+本文由人人都是产品经理作者【鲸选AI】，微信公众号：【鲸选AI】，原创/授权 发布于人人都是产品经理，未经许可，禁止转载。
+题图来自Unsplash，基于 CC0 协议。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-05-03 datetime="2025-05-03T16:53:51.000Z">2025-05-03</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-05-03 datetime="2025-05-03T16:53:51.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >QiuQuan&#x27;s Blog</button>
+                  <a class="source-heading__link" href="http://www.qiuquan.cc">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://www.qiuquan.cc/?p&#x3D;11009"
+                        open
+                      >
+                        <summary class="article-expander__title">看图工具 BandiView 7.14 Professional 直装破解版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://www.qiuquan.cc/image/bandiview.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="http://www.qiuquan.cc/wp-content/uploads/2025/05/BandiView-150x150.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>BandiView 是 Honeyview 的后续图像查看器,它继承了其前身的所有酷炫功能,并得到了进一步的改进。 快速轻松地查看各种格式的图像,从最常见的格式到最专业的格式。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://bak.qiuquan.cc/?p&#x3D;4112"
+                        open
+                      >
+                        <summary class="article-expander__title">猎豹浏览器 6.5.115.19871 正式版 + 8.0.0.22581 正式版 + 9.0.112.22614 正式版 - 剔除驱动优化版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://www.qiuquan.cc/browser/liebao.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="http://www.qiuquan.cc/wp-content/uploads/2025/02/Liebao-150x150.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>猎豹安全浏览器，是由猎豹移动公司（原金山网络）推出的一款浏览器，主打安全与极速特性，采用Trident和WebKit双渲染引擎，并整合金山自家的BIPS进行安全防护。猎豹安全浏览器对Chrome的Webkit内核进行了超过100项的技术优化，访问网页速度更快。其具有首创的智能切换引擎，动态选择内核匹配不同网页，并且支持HTML5新国际网页标准，极速浏览的同时也保证兼容性。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >人人都是产品经理</button>
+                  <a class="source-heading__link" href="https://www.woshipm.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/it/6212569.html"
+                        open
+                      >
+                        <summary class="article-expander__title">实体生意老板用这套方法，让业绩增长300%</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6212569.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2024/07/30/0b0a5ed0-4e22-11ef-8321-00163e142b65.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>在竞争激烈的商业环境中，许多实体生意老板尽管付出了大量努力，但业绩却始终难以突破瓶颈。本文将分享一套经过验证的方法，帮助实体企业老板实现业绩的显著增长。
+
+很多老板都有这样的困惑：明明很努力，业绩却像被施了”定身术”。其实问题往往出在三个方面：
+①没有清晰的增长公式：就像开车不看仪表盘，全凭感觉
+②缺乏系统拆解能力：把”我要增长”挂在嘴边，却不知道从哪下手
+③执行过程失控：定了目标就束之高阁，过程中不做动态调整
+平时还要重视”三级漏斗法”诊断你的业务，也就是：流量层→转化层→交付层。
+特别要注意要抓”数据关键点”而非”数据全面性”。
+接下来跟你分享一个企业业绩增长的方法。
+1.建模：搭建业务框架
+①明确业务流程：将业务解构为几个关键环节，如获客、转化、交付等。
+②分析数据：基于实际经营数据，分析每个环节的表现，找出增长空间。
+③达成共识：通过框架和数据，让团队成员对业务有统一的理解，避免各说各话。
+2.目标设定：基于数据制定目标
+①市场环境分析：评估市场是否支持增长目标，参考竞争对手的表现。
+
+②内部资源评估：考虑团队能力、资金等资源是否能支撑目标。
+③利益分配：确保目标达成后，员工和股东的利益都能得到提升。
+3.目标拆解：将目标落实到每个环节
+①流量获取：确定通过哪些渠道获取流量，如小红书、抖音、异业合作等。
+②转化率提升：分析如何提高成交转化率。
+③客单价提升：分析如何可以提升客单价，让客户消费更多。
+4.执行与调整：动态调整策略
+①月度目标分解：将年度目标分解到每个月，确保每个阶段都有明确的任务。
+②每周跟进：通过跟进进度，及时调整策略。
+③数据驱动：基于实际数据，动态调整目标，确保目标的可实现性。
+本文由人人都是产品经理作者【老陈的深度思考】，微信公众号：【老陈的深度思考】，原创/授权 发布于人人都是产品经理，未经许可，禁止转载。
+题图来自Unsplash，基于 CC0 协议。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >大眼仔旭</button>
+                  <a class="source-heading__link" href="https://www.dayanzai.me">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.dayanzai.me/?p&#x3D;74724"
+                        open
+                      >
+                        <summary class="article-expander__title">您的个人媒体中心 Emby for Android &amp; TV 3.4.65 中文多语免费</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.dayanzai.me/emby-for-android.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>在数字娱乐时代，管理并享受您的多媒体收藏从未如此简单。Emby for Android &amp; TV 提供 […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >小众软件</button>
+                  <a class="source-heading__link" href="https://www.appinn.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.appinn.com/bilibili-unlimited-history/"
+                        open
+                      >
+                        <summary class="article-expander__title">Bilibili 无限历史记录 – 每1分钟自动同步一次，手机观看也能记录[Edge/Chrome]</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.appinn.com/bilibili-unlimited-history/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.appinn.com/wp-content/uploads/2025/05/Copy-of-appinn-homework-2025-05-03T160925.343.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Bilibili 无限历史记录是一款 Edge、Chrome 浏览器扩展，它能够帮你永久、无数量限制的保存 B 站播放记录，支持视频标题关键词搜索，可以导出 csv 格式。数据保存在浏览器本地，无隐私</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-05-02 datetime="2025-05-02T16:38:55.000Z">2025-05-02</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-05-02 datetime="2025-05-02T16:38:55.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >大眼仔旭</button>
+                  <a class="source-heading__link" href="https://www.dayanzai.me">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://www.dayanzai.me/?p&#x3D;73115"
+                        open
+                      >
+                        <summary class="article-expander__title">打造个性 Windows 桌面体验 Seelen UI 2.3.2 x64 中文版发布</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.dayanzai.me/seelen-ui.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Seelen UI 中文版是一款专为提升 Windows 桌面体验而设计的工具，其主要特色在于提供高度的个性化 […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://www.dayanzai.me/?p&#x3D;4193"
+                        open
+                      >
+                        <summary class="article-expander__title">显卡驱动卸载工具 Display Driver Uninstaller (DDU) 18.1.1.1 中文多语免费版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.dayanzai.me/display-driver-uninstaller.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>显卡驱动卸载工具 Display Driver Uninstaller 中文版由大眼仔旭发布。Display  […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://www.dayanzai.me/?p&#x3D;7109"
+                        open
+                      >
+                        <summary class="article-expander__title">开源数据库管理工具 DB Browser for SQLite 20250503 中文多语免费版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.dayanzai.me/db-browser-for-sqlite.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>开源数据库管理工具 DB Browser for SQLite 中文版由大眼仔旭整理发布。DB Browser […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://www.dayanzai.me/?p&#x3D;35328"
+                        open
+                      >
+                        <summary class="article-expander__title">微软出品免费壁纸工具 Bing Wallpaper 1.1.403.0 中文多语免费版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.dayanzai.me/bing-wallpaper.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>微软出品免费壁纸工具 Bing Wallpaper 中文版由大眼仔旭发布。您很可能是其中一个非常强调自己计算机 […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://www.dayanzai.me/?p&#x3D;765"
+                        open
+                      >
+                        <summary class="article-expander__title">跨平台开源 SSH 桌面终端 Electerm 1.80.18 x64 中文免费版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.dayanzai.me/electerm.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>跨平台开源 SSH 桌面终端 Electerm 中文版由大眼仔旭整理发布。通常，终端仿真器用于为某些计算机用户 […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.dayanzai.me/?p&#x3D;73453"
+                        open
+                      >
+                        <summary class="article-expander__title">开源免费视频编码器 FastFlix 5.11.0 中文版发布下载</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.dayanzai.me/fastflix.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>FastFlix 是一款用于 H.264、HEVC 和 AV1 硬件和软件编码的免费 GUI！视频编码是内容创 […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -24645,158 +25051,6 @@ EXW Incoterm仅对卖方施加最低义务. 更特别地, 只需要求卖方在�
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="2900+1743770567"
-                        open
-                      >
-                        <summary class="article-expander__title">[UPDATE] CopyQ v10.0.0</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.portablefreeware.com/?id&#x3D;2900&amp;ts&#x3D;1743770567">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="2890+1743770524"
-                        open
-                      >
-                        <summary class="article-expander__title">[UPDATE] CudaText 1.223.0</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.portablefreeware.com/?id&#x3D;2890&amp;ts&#x3D;1743770524">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="2119+1743756671"
-                        open
-                      >
-                        <summary class="article-expander__title">[UPDATE] calibre v8.2.1</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.portablefreeware.com/?id&#x3D;2119&amp;ts&#x3D;1743756671">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="3104+1743740926"
-                        open
-                      >
-                        <summary class="article-expander__title">[UPDATE] Shutter Encoder v18.9</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.portablefreeware.com/?id&#x3D;3104&amp;ts&#x3D;1743740926">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="214+1743740575"
-                        open
-                      >
-                        <summary class="article-expander__title">[UPDATE] WinSCP v6.5</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.portablefreeware.com/?id&#x3D;214&amp;ts&#x3D;1743740575">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="2800+1743740536"
-                        open
-                      >
-                        <summary class="article-expander__title">[UPDATE] Digital Clock v5.1.4</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.portablefreeware.com/?id&#x3D;2800&amp;ts&#x3D;1743740536">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="1848+1743740511"
-                        open
-                      >
-                        <summary class="article-expander__title">[UPDATE] Advanced Renamer v4.11</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.portablefreeware.com/?id&#x3D;1848&amp;ts&#x3D;1743740511">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="3049+1743740468"
-                        open
-                      >
-                        <summary class="article-expander__title">[UPDATE] Shotcut v25.03.29</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.portablefreeware.com/?id&#x3D;3049&amp;ts&#x3D;1743740468">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -24944,25 +25198,6 @@ EXW Incoterm仅对卖方施加最低义务. 更特别地, 只需要求卖方在�
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.dayanzai.me/?p&#x3D;74525"
-                        open
-                      >
-                        <summary class="article-expander__title">如何在 Windows 11 上延长 SSD 的使用寿命的七种方法</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.dayanzai.me/extend-your-ssds-lifespan.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>随着固态硬盘（SSD）成为现代计算机的标配，如何有效延长其使用寿命成为了许多用户关心的问题。尤其对于使用 Wi […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -24999,678 +25234,12 @@ EXW Incoterm仅对卖方施加最低义务. 更特别地, 只需要求卖方在�
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >人人都是产品经理</button>
-                  <a class="source-heading__link" href="https://www.woshipm.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/it/6200946.html"
-                        open
-                      >
-                        <summary class="article-expander__title">同城生意老板必看，抖音获客其实很简单</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6200946.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/14/7affe4c6-da8d-11ed-915e-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>本文揭示同城生意老板如何通过“人设打造”建立信任感，用差异化内容吸引精准客户，并通过风格统一与目标人群界定，将流量转化为实际业绩。
-
-一、建立人设
-很多老板一提到抖音，就想着“拍产品、拍环境、拍自己”，结果呢？顾客看了，划走了，根本不会来。
-为什么？因为你的视频没有“人设”！
-什么是人设？就是让顾客觉得你是一个“有血有肉、有故事”的人，而不是一个冷冰冰的“抖音号”。
-人设视频的核心价值：
-差异化竞争：在海量内容中脱颖而出，让顾客记住你。
-建立信任：通过真实、有趣的内容，让顾客觉得你值得信赖。
-提升转化：顾客信任你，自然愿意为你买单。
-如何打造“高信任”人设视频？
-1. 明确定位：
-你是谁？顾客为什么关注你？
-很多老板拍视频，连自己是谁都没说清楚，顾客怎么可能关注你？
-怎么做？
-①职业身份标签化：比如，你不是“美妆博主”，而是“前专柜柜姐教你避雷”。
-②差异化记忆点：比如，母婴店的老板用“二胎妈妈小美”人设。
-2. 内容创作
-让顾客觉得你“有趣、有用、有温度”
-很多老板拍视频，内容干巴巴的，顾客看了就想划走。
-怎么做？ 
-①高质量内容：短小精悍、有趣有料。比如，一家餐饮店老板通过拍摄“厨房背后的故事”，让顾客觉得真实、有趣。
-②一致性：保持内容风格的一致性，让顾客快速识别出你的作品。
-③互动性：鼓励顾客参与评论、点赞、分享，提高粉丝粘性。
-3. 建立信任
-让顾客觉得你“真实、专业、靠谱”
-很多老板拍视频，内容虚假、夸张，顾客看了反而觉得不靠谱。
-怎么做？ 
-①真实可信：展示真实的自我，分享真实的经历和感受。比如，一家服装店的老板通过拍摄“试衣间实拍”，让顾客觉得真实、可信。
-②专业知识：如果你是某个领域的专家，分享你的知识可以增加权威性。比如，一家健身房的教练通过分享健身知识，吸引了大批粉丝。
-③正面形象：保持积极向上的态度，传播正能量。比如，一家咖啡店的老板通过拍摄“咖啡师的笑容”，让顾客觉得温暖、亲切。
-
-二、抖音获客必须知道3点
-1.看清抖音的本质
-抖音的本质还是娱乐平台，专业知识、广告营销其实对用户来讲都不是很受欢迎。所以要把知识说得通俗易懂，要把硬广做成软广。
-不要一直打广告，发营销内容，自嗨内容，而是要发他们想要看的、喜欢看的。
-2.风格统一，有利于引流获客
-在发视频之前，首先需要对自身账号的方向有一个宏观节奏把握。
-第一，账号风格需统一，包括整体风格和单个视频风格。比如每一个视频的封面大致需要是什么颜色，横屏还是竖屏，上面是否需要加标题或关键文字都是需要考虑的。此外，账号拍摄的形式也需要统一。
-值得注意的是，风格不用在一开始发布内容的时候就完全固定，前期可以多多尝试不同风格，摸索出观众最喜爱的一种风格，然后再稳定地延续这一种风格（直到遇到瓶颈期，考虑再换一种风格）。
-第二，内容风格上，账号的大体内容要垂直，不要当作朋友圈来发。视频话题涉猎太广反而给观众一种找不到重心的感觉，自然不会有足够的说服力去吸引关注。
-主页视频一定要风格统一、要有封面、标题，并且拍视频不要用抖音加号键去拍，这样子拍出来的不能剪辑，我们的视频一定是要经过剪辑的，要有封面和标题的。
-3.界定目标人群
-确定自己的目标人群是谁，他们有什么属性，（区域、兴趣、爱好、痛点等）
-做抖音就是经营人群，人群绑定了精准标签，绑定了变现等等。
-所以要确定你经营的人群是谁，你在做谁的生意，你要赚谁的钱，
-他们的年龄、收入、职业、痛点、需求、应用场景是什么， 全部列出
-要知道他们想看什么，想了解什么，他们有什么痛点、需求
-用户定位越精准，界定得越清晰，转化就越好。
-知道目标用户是谁，就发他们想看视频，感兴趣的视频，说他们感兴趣的话题。
-本文由人人都是产品经理作者【老陈的深度思考】，微信公众号：【老陈的深度思考】，原创/授权 发布于人人都是产品经理，未经许可，禁止转载。
-题图来自Unsplash，基于 CC0 协议。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/it/6200945.html"
-                        open
-                      >
-                        <summary class="article-expander__title">在AI儿童硬件产品赛道，人人都想抢学习机的饭碗</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6200945.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2025/04/04/736c3e3c-112a-11f0-8fbc-00163e09d72f.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>从AI玩具到学习机，产品形态日益多样化，但核心却始终围绕“教育”展开。本文深入剖析AI儿童陪伴产品为何更倾向于儿童市场、技术与教育功能如何平衡，以及行业未来可能面临的“品牌死亡潮”。当“陪伴”逐渐让位于“教育”，AI儿童硬件产品究竟能否在满足家长需求的同时，真正融入孩子的成长？
-
-AI技术正在硬件领域开花结果，走向更多人的现实生活，这其中有一个受关注度最高的话题：到底哪些人才是AI硬件现实生活中的受众？
-比如智能穿戴设备，这类产品受众以年轻人居多，但现阶段，价格和产品质量成正比，低价的电子垃圾仍很难打入广泛的消费市场。另一类当下比较热门的产品赛道，就是AI陪伴。
-AI陪伴也是当下大多数创业者比较热衷的赛道，在这个赛道中，人们大体上把受众分为三个群体：儿童、老人、女性，而这其中，又以儿童陪伴产品为重点市场，在对多款AI儿童陪伴产品进行关注之后可以发现，这些产品从技术，创意，再到核心产品优势，以及最终落地的方向上，本质上以“陪伴”为核心主题，但最终的落脚点都离不开教育。
-
-与其说AI儿童陪伴产品是想成为儿童的好朋友，家长的好帮手，不如说这些产品最终“被迫”会更贴近学习机。
-那么问题也就显现：为什么AI陪伴产品更倾向于儿童？AI儿童陪伴产品五花八门，最核心的竞争壁垒是什么？下一步，AI儿童陪伴产品会不会出现“品牌死亡潮”。
-儿童并不一定需要AI，但家长求之不得
-创业者一股脑的冲进AI儿童陪伴赛道，随之而来的是五花八门的儿童陪伴产品，AI玩具，AI手表，AI儿童相机等等，这每一个细分赛道，都跑出了成绩不错的优等生。
-比如AI玩具赛道的FoloToy，这是当下AI玩具市场表现比较突出的品牌，去年出货量为3万台左右，今年，FoloToy将目标出货量提升到30万台，且出货地区以中国为主。
-FoloToy旗下产品以玩具为核心载体，接入当下前沿的大模型产品如DeepSeek，可以实现AI玩具…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6200861"
-                        open
-                      >
-                        <summary class="article-expander__title">做自媒体怎么选择赛道？如何定位赛道舒适区，让做博主事半功倍</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6200861.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2024/07/24/41acd216-499e-11ef-a43d-00163e142b65.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>许多新手博主在面对众多领域时，常常感到迷茫：自己是否具备足够的技能？如何在众多赛道中找到适合自己的方向？本文将为你提供一套系统的赛道选择方法，供大家参考。
-
-如果让你选出一种能力，让你只能依靠它来赚钱，你会怎么选？
-我经常被学员问到最多的问题有三个：
-“我觉得自己没有一技之长，也不知道自己的优势，该怎么做博主？”
-“我很多方面都擅长，也都喜欢，那么该怎么做？”
-“感觉现在赛道都非常卷，做某个赛道还有机会吗？”
-前面两个问题都有一个共同指向，这也是做自媒体博主面临的第一道障碍，如何定位自己的赛道（领域）。
-从这三个问题上不难看出，要么是对自己认识不足，难以找到自己的核心竞争力。或许你没意识到，在你的角度看起来是常识的事情，对于很多人来说都是亟待解决的问题。
-之所以有这三个疑问，要么是想要的太多，不知道取舍，很难抓住核心重点，什么都想要注定什么都得不到。学会做减法能让你成长的更快，学会做乘法让你具备脱颖而出的竞争力。
-要么过于杞人忧天，根本没有认识到限制你把账号做起来的原因从来不是这个赛道有多卷有多拥挤，而是你能制造爆款的能力，没有制造爆款的意识和能力，即使是爆火的上升赛道，你的账号也做不起来。
-我给学员做陪跑的第一个流程就是用两三个小时与学员谈话，充分了解学员的想法、兴趣爱好、性格、职业、技能、发展方向、时间规划，以此来定制规划适合他们的赛道、人设、差异化优势、内容形式……
-
-自媒体“定位”是重新认识自己的过程，就是发掘自己的长处找到你擅长的领域，并将其放大，帮助有需要的人解决他们想知道却不知道的问题，让你自己成为这个领域的标杆（专家）。
-错误的定位做起来很痛苦，很容易让人半途而废，正确的定位做起来很轻松，让人能坚持的更久走的更远，成功的概率更高。
-所以，我们需要找到一个平衡点，定位出适合自己的赛道舒适区，让你的博主之路事半功倍。
-
-这是一个定位三叶草模型，它由兴趣、能力和需…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/it/6200942.html"
-                        open
-                      >
-                        <summary class="article-expander__title">软件行业的病根：客户配不上好产品</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6200942.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2025/04/04/3b25e3fc-1125-11f0-abee-00163e09d72f.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>从A集团6600万ERP项目的诡异中标，到“亲儿子”公司高价拿单、专业软件商沦为外包，中国软件行业的病根不只是低价竞争，更是客户与优质产品之间的系统性错配。当AI浪潮袭来，技术能否打破“关系至上”的行业潜规则？
-
-最近，一则 ERP 项目的中标公告把我彻底震惊到了：这种赤裸裸的“利益内循环”，已经连装都懒得装了。
-A 集团矿业公司预算6600 万招标 ERP系统，计划替换原有的 SAP系统。
-
-结果某数智矿业科技有限公司（简称 B 公司）以 6300 万的价格中标，但是这个中标，处处透着诡异。
-首先，这是难得的中标价接近预算价的软件项目。
-众所周知，中国软件行业竞争非常惨烈，而且甲方一贯喜欢利用招投标来压价，5000万的预算，经常被压到 3000 万甚至 2000 万，但这个 ERP 项目基本就是贴着预算价中标。
-第二，也是最诡异的地方：B 公司的成立时间是 2023 年 5 月，成立时间不到 2年，就能力压用友，拿下 6000 万的 ERP 项目。
-要知道，用友的报价整整比该科技公司低了 500 万。
-所以，这到底是替换 SAP 太简单，还是 B 公司的实力太强了呢？
-我查了一下 B 公司的股东背景，大股东是某资源有限公司，而这家公司则是由 A 集团 100% 控股，说白了，B 公司就是 A 集团的亲儿子，那么一切问题就都解释得通了。
-我在视频号讲了这个案例，有人在视频号辩解，说 B 公司可以起到管理项目的作用，是不可或缺的存在。
-这种鬼话也就只能骗骗外行了。
-实际上，这种千万级别的 ERP 项目，项目管理的难点主要是 2 个方面：
-1）协调甲方各部门
-毕竟千万级的 ERP 项目牵涉到的部门太多，必须有一个熟悉甲方各部门的角色负责协调。
-而这个角色，最合适的人选肯定是甲方的项目经理，根本不需要什么第三方项目管理团队。
-2）解决项目方案卡点
-ERP 项目最大的难点，还是确保需求梳理清楚，方案制定得当，避免不必要的需求和方案变更。
-因此，软件公司项目经理的专业性，在很大程度上决定了项目成败。和这种不专业的第三方项目管理团队基本没啥关系。
-所以在视频号辩解的人，要不就是蠢，要不就是坏。
-
-其实，为什么要专门成立一个公司来接手这个项目，然后（大概率）再外包给专业的软件公司，明眼人一看就明白，无非 2 个字：利益。
-有人说：AI 时代，中国软件行业的黄金时代来了！因为企业对软件价值的认可度提高了！
-说实话，如果软件公司还是在国内卷，我真心不觉得AI 能改变什么。
-有了 AI，软件公司就能获得公平的竞争环境了吗？
-有了 AI，企业就愿意为专业的服务付费了吗？
-如果有了 AI，仍然是“个人利益”大于“公司利益”；
-如果有了 AI，仍然是亲儿子高价中标，专业的软件公司只能沦落为外包公司，那中国软件行业的希望又在哪里呢？要我说，中国软件最大的问题，不是没有好产品，而是客户根本配不上好产品。
-本文由人人都是产品经理作者【ToB老人家】，微信公众号：【ToB老人家】，原创/授权 发布于人人都是产品经理，未经许可，禁止转载。
-题图来自Unsplash，基于 CC0 协议。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6200858"
-                        open
-                      >
-                        <summary class="article-expander__title">产品猎人：带你探索更多体验案例（三）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6200858.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/14/59d2a6fc-da8e-11ed-9503-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>在产品设计的世界中，好的用户体验不仅仅是锦上添花，更是产品成功的关键所在。在本篇文章中，我们将深入挖掘更多让人耳目一新的体验案例，从实际案例中汲取灵感，探索如何通过细节和创新来打动用户。
-
-心心念念的产品猎人第三期终于来了！本系列会挖掘与探索产品中的功能细节和体验亮点，让大家发现各种产品的另一面，同时也希望大家一起探讨这些体验细节，提高我们对产品的认知与设计思考能力
-1.网易云音乐-滑动切歌交互你发现了吗?
-网易云音乐的正在播放状态入口在页面最下方,点下播放键后曲目封面开始旋转，用户可直接通过左右滑动切换曲目，无需进入详情页，操作便捷流畅。当用户点进其他页面时,“正在播放”的缩略界面仅仅下移至底端，返回主页面时直接上移并带出底部模块列表，这种一上一下的交互设计给人流畅感，方便用户在不同页面间快速切换并查看播放状态。
-
-2.脉脉-筑牢隐私发言安全防线
-网易云音乐的正在播放状态入口在页面最下方,点下播放键后曲目封面开始旋转，用户可直接通过左右滑动切换曲目，无需进入详情页，操作便捷流畅。当用户点进其他页面时,“正在播放”的缩略界面仅仅下移至底端，返回主页面时直接上移并带出底部模块列表，这种一上一下的交互设计给人流畅感，方便用户在不同页面间快速切换并查看播放状态。
-
-3.夸克-搜图神器一键解锁明星表情包自由
-
-追综艺、刷剧集时，屏幕里明星们的搞怪瞬间、卖萌表情，是不是萌得你 “心痒痒”，迫不及待想收入囊中？可真到收集时，难题接踵而至：一会儿要在社交平台地毯式搜索，一会儿又得在表情包网站反复切换，花费大量时间，累得够呛，还常常遗漏，热情瞬间被浇灭。别让这些繁琐步骤，阻碍你收集快乐的脚步！夸克来拯救你啦！在夸克搜索框输入关键词，搜索结果自带表情包选项。一键点击图片搜索，系统就会精准定位，帮你快速筛选出最想要的明星表情包。不管是综艺里的爆笑片段，还是剧集中的名场面表情包，都能一网打尽，轻…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6200866"
-                        open
-                      >
-                        <summary class="article-expander__title">从“用户画像”到“价值观画像”，券业客群运营策略更新迫在眉睫（内附全新标签体系范例）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/user-research/6200866.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/14/a4ce8424-daa1-11ed-95a1-00163e0b5ff3.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>传统的用户画像方法，仅依赖于静态的年龄、资产规模和动态的交易行为数据，已无法满足客户日益复杂和多元的需求。本文将深入探讨如何从“用户画像”升级到“价值观画像”，通过构建“行为-心理-价值观”的三层穿透模型，深入挖掘客户决策背后的心理动因与价值取向。
-
-2024年以来，笔者观察到，证券行业的客户运营体系似乎正陷入一场“数据泡沫”的泥潭。从业者习惯性地将客户简化为年龄、资产规模、交易频次等静态标签，叠加持仓产品、APP访问时长等动态行为数据，试图以此构建精准的客户模型。这种二维标签体系的致命缺陷在于：它仅能回答“客户做了什么”，却无法解释“为什么这样做”。
-当“30岁互联网从业者”与“50岁企业主”同被标记为“高净值客户”，二者的本质差异被粗暴抹平。前者可能因“风险偏好极化”追逐高波动资产，后者则因“代际责任焦虑”执着于资产隔离架构。
-传统模型无法穿透的，是客户决策背后的心理动因与价值取向。高频调仓行为既可能是“过度自信偏差”的产物（误判信息处理能力），也可能是“羊群效应”的映射（受市场情绪裹挟）。
-标签的堆砌看似提升了数据厚度，实则加剧了服务错配——标准化产品推荐与客户真实需求的割裂，已成为客户流失的核心诱因。
-
-行为金融学早已揭示：70%的投资决策偏差源于非理性心理因素。当客户的需求从“财富增值”转向“价值认同”，当交易行为成为价值观的外显符号，传统用户画像的平面扫描模型注定失效。
-01 价值观画像的构建逻辑：穿透行为黑箱的三层手术
-价值观画像的构建绝非标签体系的简单扩容，而是对客户认知系统的深度解构。其核心在于建立“行为-心理-价值观”的三层穿透模型，将行为金融学理论转化为可编程的运营参数。
-第一层：行为数据的去魅
-交易记录、产品持仓、内容浏览时长等显性数据，仅是客户决策的“症状”而非“病因”。一个日均查看宏观政策3小时的客户，可能被误判为“保守型投资者”，实则暗藏“政策…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/it/6200922.html"
-                        open
-                      >
-                        <summary class="article-expander__title">实体老板必看，同样的店，为什么他能多赚3倍以上</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6200922.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2024/11/12/338dd4d2-a0a1-11ef-8da6-00163e142b65.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>本文深入探讨了如何通过提高人效、优化空间布局、减少浪费和提升投入产出比等策略，建立成本优势，从而在同行业中脱颖而出，实现更高的利润和更强的抗风险能力。
-
-你有没有想过，为什么有些生意看起来平平无奇，却能活得风生水起？而有些生意明明做得不错，却总是举步维艰？
-答案很简单：成本。所有生意的背后，都是一场效率和成本的比拼。
-谁能在同样的经营活动中，把成本压得更低，谁就能在这场竞争中胜出。
-今天，我们就来聊聊如何建立成本优势，让你在同一条赛道上跑得更远、更稳。
-所有生意背后，都是效率和成本的较量。
-同样的成本，你能提供更好的服务、体验、产品，你就赢了。
-同样的成本，你的效率更高、产出比更高，你就赢了。
-同一条街，两家差不多的店，都是做餐饮的，味道什么的都差不多，谁的成本更低谁就能撑得越久。
-
-如果一家店是一个老板，一家店是2个老板，那大概率是一个老板的能撑的久，因为比如一月赚1万，一个老板1万就都是他的，2个老板就只能分到5000，并且2个老板如果都在店里，他们每月工资也算成本。
-一、为什么成本优势如此重要？
-1. 成本越低，利润越高
-同样的收入，成本越低，利润自然越高。比如，同一条街上有两家店，味道、服务都差不多，但一家店的成本更低，它就能在价格上更有竞争力，或者赚得更多。
-2.成本越低，抗风险能力越强
-3.市场波动、经济下行时，成本高的企业往往最先撑不住。而成本低的企业，即使收入下降，也能靠低成本维持运营，甚至逆势扩张。
-3. 成本越低，竞争力越强
-成本优势不仅能让你在价格上更有竞争力，还能让你有更多的资源投入到产品创新、服务提升中，形成良性循环。
-二、如何建立成本优势？
-1. 提高人效：让每个人创造更多价值
-很多老板抱怨员工效率低，但问题可能出在管理上。
-一个人上班8小时，真正有效的工作时间可能只有4小时。如何提高人效？
-明确目标：让每个员工清楚自己的任务和目标，避免无效劳动。
-优化流程：把复杂的工作简单化，比如用扫码点单代替人工记录，效率提升50%。减少重复性工作，用工具或系统替代机械性任务。
-激励员工：通过绩效奖励、晋升机制，激发员工的积极性和创造力。
-减少浪费：库存周转率提高20%，就等于少养了一个仓库管理员！
-再比如很多时间不需要招那么多人，一个员工是可以干两个人的活，不是压榨他，你给他开1.5倍的工资，他是很愿意的，这样你的成本就可以节省很多。
-2. 提升坪效：让每一平米都赚钱
-坪效是指每平方米的营业额。很多店铺面积大，但利用率低，白白浪费了租金。如何提升坪效？
-优化空间布局：合理规划店铺布局，增加座位数或展示面积。
-延长营业时间：通过分时段经营，提高空间利用率。
-增加产品种类：在有限的空间内，提供更多元化的产品或服务。3. 减少浪费：每一分钱都要花在刀刃上
-浪费是成本的隐形杀手。无论是食材、材料，还是时间、人力，减少浪费都能直接降低成本。
-精细化管理：通过数据分析，找出浪费的环节并优化。
-库存管理：避免过度囤货，减少库存积压和损耗。4. 提高投入产出比：让每一笔投入都带来最大回报
-投入产出比是衡量资源利用效率的重要指标。如何提高投入产出比？
-精准营销：通过数据分析，找到最有效的营销渠道，减少无效投入。
-优化供应链：与供应商建立长期合作，降低采购成本。
-技术创新：通过技术升级，提高生产效率，降低单位成本。
-三、成本优势的底层逻辑：效率和资源利用
-1. 效率越高，成本越低效率是降低成本的核心。
-无论是人效、坪效，还是流程优化，最终目的都是提高效率，减少浪费。
-2. 资源利用越充分，成本越低资源包括人力、物力、财力。
-如何让每一份资源都发挥最大价值，是建立成本优势的关键。
-3. 持续优化，形成飞轮效应成本优势不是一蹴而就的，而是通过持续优化，形成良性循环。
-每一次优化，都会带来更高的效率和更低的成本，最终形成总成本领先。
-最后你可以：
-①效率诊断表：列出所有工作流程，标出“无效环节”。
-②成本清单：把成本分成固定成本和变动成本，逐个击破。
-③提升人效和坪效
-本文由人人都是产品经理作者【老陈的深度思考】，微信公众号：【老陈的深度思考】，原创/授权 发布于人人都是产品经理，未经许可，禁止转载。
-题图来自Unsplash，基于 CC0 协议。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/it/6200914.html"
-                        open
-                      >
-                        <summary class="article-expander__title">如何制定AI搜索策略：把SEO当成产品</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6200914.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2024/09/08/af95f08e-6da0-11ef-ab80-00163e142b65.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>在AI时代，搜索习惯和营销策略都在发生深刻变化。本文探讨了如何在AI驱动的搜索环境中，将SEO（搜索引擎优化）视为一种产品，通过用户需求洞察、内容质量和技术优化，重新定义SEO策略，以适应新的搜索生态。
-
-上篇《探讨:AI时代的营销获客，从SEO到GEO》谈到越来越多的人在DeepSeek等大模型上直接找答案，那SEO（搜索引擎优化）和SEM（搜索引擎营销）是不是就被淘汰了？
-这个话题我与业内不少技术派同行进行了深入的沟通，也查阅了不少国外的资料，得出的结论是在较长的一段时间内（也许是2-3年），SEO/SEM和GEO会同时存在。
-在这个新旧交替期，思考“如何优化用户的内容体验”是快速适应变化的必答题。
-这篇文章想从用户搜索习惯、内容产品的打造上说说我的建议：
-1. 用户搜索习惯在变化中
-PC时代，大众依赖搜索引擎寻找信息，常用百度、360、搜狗、谷歌…
-但无奈广告越来越多，本来是冲着搜信息去的，结果成了搜广告。原因是按点击付费的SEM比SEO更快见效（获客效果）。
-
-进入移动互联网时代，用户的搜索习惯在慢慢改变。
-比如想找旅游攻略，小红书、抖音更能找到精准信息；想要找日常用品，上电商平台上，还能带图搜；想要找吃喝场所，搜美团、大众点评更加直接；搜使用指南，上B站看up主手把手的教程…
-不过卖给企业的产品（B2B)，理解起来相对复杂，采购过程也复杂。
-就算决策者是在手机上刷到视频、看到报道，还是会用PC查查官网，看看产品演示，顺便了解下这家公司是不是靠谱。
-现在，AI来了，问deepseek一个问题，它思考、推理后会给直接的答案。比起在一堆网站链接、广告里爬信息，真是选择恐惧症和懒人的福音。
-
-但问题来了，AI给的答案也许是错的（幻觉严重）。即便有道理，也还很难直接购买，还是要再去搜索引擎、电商平台上找找。
-总而言之，过去大家获取信息搜索引擎是重要的入口，但现在情况变了。搜…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >小众软件</button>
-                  <a class="source-heading__link" href="https://www.appinn.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.appinn.com/?p&#x3D;51596"
-                        open
-                      >
-                        <summary class="article-expander__title">9 句话推荐 Zen Browser，基于 Firefox 的开源浏览器</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.appinn.com/zen-browser/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.appinn.com/wp-content/uploads/2025/04/Copy-of-appinn-homework-2025-04-03T150202.532.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Zen Browser 是一款基于 Firefox 浏览器的新开源浏览器，最大的相似产品就是之前已经宣布停更的 Arc 浏览器。青小蛙的好朋友 MT 同学总结了 9 句话，用来推荐 Zen Brows</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;10
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >异次元软件世界</button>
-                  <a class="source-heading__link" href="https://www.iplaysoft.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.iplaysoft.com/?p&#x3D;6323"
-                        open
-                      >
-                        <summary class="article-expander__title">Tuboshu - 将任意网站转换成桌面应用 APP！(开源免费 / 账号多开)</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.iplaysoft.com/tuboshu.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://img.iplaysoft.com/wp-content/uploads/2025/tuboshu/tuboshu.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>随着 AI 和 Web 技术的发展，像 ChatGPT、DeepSeek、Claude、Gemini 等网站，还有像 Notion、Draw.io、Figma、公司内部 OA 系统等网站，我们可能每天都要打开使用。
-相比用浏览器，独立的桌面版客户端会明显比网页更方便！但一个个去官网下载 APP 又太多太杂，有些网页也不提供桌面 APP。这时，用开源免费的 Tuboshu 可将任意 Web 网站转换成独立的桌面应用，使用体验就像本地软件一样！还支持将多个网站打包封装成合集，非常实用……
-「 前往查看原文.... 」
-异次元还有这些值得一看：
-
-FireFox 火狐浏览器中文版 - 性能狂飙的最新版本！(免费开源 / 跨平台)
-Brackets - 强大免费的开源跨平台Web前端开发工具IDE (HTML/CSS/Javascript代码编辑器)
-Google Web Designer - 谷歌出品免费HTML5网页开发制作工具与广告Banner动画设计软件
-ARC 浏览器 - 让人爱不释手替代 Chrome 的 “最新爆火” AI 浏览器
-
-异次元首页  |  微信公众号  |  关注微博  |  软件精选  |  软件激活码折扣</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-04-03 datetime="2025-04-03T23:44:11.000Z">2025-04-03</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-04-03 datetime="2025-04-03T23:44:11.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >人人都是产品经理</button>
-                  <a class="source-heading__link" href="https://www.woshipm.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6200777"
-                        open
-                      >
-                        <summary class="article-expander__title">做私域运营不会留钩子，难怪你不会线上引流！</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6200777.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/13/9b6937d0-d9de-11ed-8d63-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>本文将为你揭开私域运营中“留钩子”的奥秘，帮助你精准定位目标用户，提升私域流量的转化率。
-
-很多朋友说引流获客很难，不知道去哪里找客户，作为从业九年的新媒体运营，我从0-1陪跑了上百位客户，总结出来其实就是掌握一个底层逻辑：
-围绕你的业务模式和商业定位，搞清楚目标用户的需求和喜好，然后设置相应的诱饵，引诱他们添加好友就行。
-想明白这一点就不担心没客源，再冷门的赛道也是有受众的。
-今天老王给大家分享几个我实操有效的新媒体私域获客方法，觉得有用别忘记转发收藏。
-1.用服务
-这种类型的引流模式，适用于业务型、咨询型和售后型这三种。
-业务服务引流：比如买车、买房等，你只有添加销售人员，才可以根据你的需求和预算，进行一对一的咨询服务。
-我最近也在看新车，我发现汽车行业的新媒体运营太卷了，后面有空我单独讲讲。
-咨询服务引流：比如像我这种教运营的自媒体博主，会给粉丝免费做账号诊断和解答，只要内容和专业性获得粉丝的认可，也会有一定的引流效果。
-
-售后服务引流：很多品牌的售后维修，比如买家电、买呼吸机等产品，售后引流也是刚需。
-
-2.设置优惠券
-很多电商平台都用这个方法在引流，比如添加薇·可以领券立减XX元钱，或者好评后返现XX元，不过今年各大电商平台严打包裹卡片引流，有做电商运营的朋友可以分享下新玩法。
-设置优惠券浮力要注意三点：
-金额不能太小，否则没有动力。
-明确使用门槛，无门槛或者满减都行。
-不要设置类目或者仅限新会员，否则效果会打折扣。
-3.领资料
-如果你是做知识付费、社群、咨询、教培等方面的，可以设置免费领资料福利。
-比如添加微·领电子报告、操作手册、体验课程、电子书籍等。
-资料引流要注意，针对不同客群，要学会看人下菜。
-吸引普通用户：资料要落地实操可执行，目录越详细越好，比如《小红书常见100问》.
-
-针对高级客户：资料要更专业，更具有吸引力，比如产品分析报告、行业趋势报告等。
-4.抽奖机会
-线下做抽奖相关的活动，就可以设置加威获得抽奖机会;
-还有一种形式就是名额引流，类似于限量多少份，先到先得。
-像我之前陪跑的餐饮店、美甲店等，经常用朋友圈集赞、分享转发后凭截图可抽奖的形式来裂变转化。
-5.相关实物
-添加薇·后，发送相关暗号、口令，填写地址，就可以收到实物书籍、手写笔记等。
-这是我前两年参加蔡大胖的活动，抽中的新年礼盒。其实这也是品牌宣传的一种有效路径，粉丝收货后也会自来水的。
-
-6.资源分享
-定位目标受众，分享他们感兴趣的内容/资源，只要你分享的东西是他们需求的，或者感兴趣的，都会主动添加你。
-比如做教培的或者考公考研的企业新媒体账号，经常会分享学习资料;还有抖音讲个人IP、商业逻辑的博主，也会分享自己的渠道、人脉、商机。
-典型的用户路径，就是引导进粉丝群，埋个钩子假尾，再引导到私域反复转化成交。
-其实我上面说的这些方法，很多行业都适用。只是大部分人未必愿意付诸行动而已。
-本文由 @秃头老王聊运营 原创发布于人人都是产品经理。未经作者许可，禁止转载
-题图来自 Unsplash，基于CC0协议
-该文观点仅代表作者本人，人人都是产品经理平台仅提供信息存储空间服务</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >The Portable Freeware Collection</button>
-                  <a class="source-heading__link" href="https://www.portablefreeware.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="2853+1743708518"
-                        open
-                      >
-                        <summary class="article-expander__title">[UPDATE] MiTeC JSON Viewer v3.2.2</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.portablefreeware.com/?id&#x3D;2853&amp;ts&#x3D;1743708518">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >大眼仔旭</button>
-                  <a class="source-heading__link" href="https://www.dayanzai.me">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://www.dayanzai.me/?p&#x3D;72904"
-                        open
-                      >
-                        <summary class="article-expander__title">彩绘精灵 7 汉化版 ArtRage Vitae 7.1.7 x64 中文多语免费版</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.dayanzai.me/artrage-vitae.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>ArtRage Vitae 7 是最新款的自然绘画工作室 ArtRage 的最新版本，它提供了极其逼真的绘画体 […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://www.dayanzai.me/?p&#x3D;39529"
-                        open
-                      >
-                        <summary class="article-expander__title">微软开源免费代码编辑器 Visual Studio Code 1.99.0 + x64 中文多语免费版</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.dayanzai.me/visual-studio-code.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>微软开源免费代码编辑器 Visual Studio Code 中文版由大眼仔旭（www.dayanzai.me […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://www.dayanzai.me/?p&#x3D;2723"
-                        open
-                      >
-                        <summary class="article-expander__title">电脑磁盘清理工具 Wise Disk Cleaner 11.2.2 Build 841 中文免费版</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.dayanzai.me/wise-disk-cleaner.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Wise Disk Cleaner 中文绿色版由大眼仔旭发布。Wise Disk Cleaner 绿色中文版是 […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://www.dayanzai.me/?p&#x3D;32870"
-                        open
-                      >
-                        <summary class="article-expander__title">三维建模渲染工具 Maxon CINEMA 4D Studio 2025.2.0 中文多语免费版</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.dayanzai.me/cinema-4d-studio.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>三维建模渲染工具 Maxon CINEMA 4D Studio 中文版由大眼仔旭发布。Maxon CINEMA […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/allceo/feed/actions/runs/14806053166">
-        <time id="build-timestamp" datetime="2025-05-03T01:22:53.072Z">2025-05-03T01:22:53.072Z</time>
+      <a class="footer-link" href="https://github.com/allceo/feed/actions/runs/14816491155">
+        <time id="build-timestamp" datetime="2025-05-04T01:40:43.476Z">2025-05-04T01:40:43.476Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
