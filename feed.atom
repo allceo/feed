@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://allceo.github.io/feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-05-25T01:42:14.427Z</updated>
+    <updated>2025-05-26T01:37:52.191Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://allceo.github.io/feed/index.html"/>
     <link rel="self" href="https://allceo.github.io/feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[快图浏览“复活”后，发布首个 64 位版本，仅 2.4MB]]></title>
+        <id>https://www.appinn.com/qp-gallery-10-0-alpha/</id>
+        <link href="https://www.appinn.com/qp-gallery-10-0-alpha/"/>
+        <updated>2025-05-25T08:48:22.000Z</updated>
+        <summary type="html"><![CDATA[快图浏览在 @WSTxda 接手后，发布了复活后的首个 64 位版本，安装包仅仅 2.4MB，版本号 10.0 ALPHA，可以在更多现代安卓手机上安装了。@Appinn 在去年11月份，青小蛙介绍过]]></summary>
+        <author>
+            <name>青小蛙</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何安装 XAPK 文件？详解 ADB 安装 XAPK 应用的完整教程[安卓]]]></title>
+        <id>https://www.appinn.com/install-xapk-files-adb-tutorial/</id>
+        <link href="https://www.appinn.com/install-xapk-files-adb-tutorial/"/>
+        <updated>2025-05-25T08:11:55.000Z</updated>
+        <summary type="html"><![CDATA[XAPK 文件是一种安卓应用安装包格式，从第三方安卓应用分发平台流行起来，不同于普通的 APK，它包含了多个传统的 .apk 文件和 manifest.json 等文件，无法直接安装。@Appinn]]></summary>
+        <author>
+            <name>青小蛙</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[安卓应用——照片编辑 美易 Picsart v27.5.8 解锁会员专业版]]></title>
         <id>http://www.qiuquan.cc/?p=9808</id>
@@ -14,6 +34,66 @@
         <summary type="html"><![CDATA[美易 Picsart 是一款功能强大的摄影软件，在这里拥有超多质感滤镜，让你的照片一秒变高级，双重曝光，给你惊艳效果，炫彩笔刷，清新梦幻，功能强大的专业摄影软件。]]></summary>
         <author>
             <name>QiuQuan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[开源 PlayStation 3 模拟器 RPCS3 0.0.36-17966 x64 中文免费版]]></title>
+        <id>http://www.dayanzai.me/?p=71075</id>
+        <link href="https://www.dayanzai.me/rpcs3.html"/>
+        <updated>2025-05-24T16:36:22.000Z</updated>
+        <summary type="html"><![CDATA[RPCS3 中文版是一个多平台开源索尼 PlayStation 3 模拟器和调试器，用 C++ 编写，适用于  […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[音频文件标签编辑器 Metatogger 7.6.3.4 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=13327</id>
+        <link href="https://www.dayanzai.me/metatogger.html"/>
+        <updated>2025-05-24T16:34:18.000Z</updated>
+        <summary type="html"><![CDATA[音频文件标签编辑器 Metatogger 中文版 由大眼仔旭发布。功能强大且易于使用的标签软件，可让您分类和管 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[优秀代码编辑器 Sublime Text 4 Build 4200 x64 中文免费版]]></title>
+        <id>http://www.dayanzai.me/?p=2370</id>
+        <link href="https://www.dayanzai.me/sublime-text.html"/>
+        <updated>2025-05-24T16:33:17.000Z</updated>
+        <summary type="html"><![CDATA[Sublime text 4 中文版 代码编辑器由大眼仔旭发布。Sublime Text 中文版是一个代码编辑 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[开源免费绘图软件 LazPaint 7.3 + x64 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=45013</id>
+        <link href="https://www.dayanzai.me/lazpaint.html"/>
+        <updated>2025-05-24T16:32:27.000Z</updated>
+        <summary type="html"><![CDATA[开源免费绘图软件 LazPaint 中文版由大眼仔旭（www.dayanzai.me）发布。LazPaint  […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[YouTube 视频下载器  MassTube 2025 v20.1.6.131 中文免费版]]></title>
+        <id>http://www.dayanzai.me/?p=2273</id>
+        <link href="https://www.dayanzai.me/masstube.html"/>
+        <updated>2025-05-24T16:20:04.000Z</updated>
+        <summary type="html"><![CDATA[MassTube Plus 中文版 YouTube 视频下载器 支持 1080p 下载 MassTube Pl […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ryubing 1.3.1 发布，已关闭 Switch 模拟器 Ryujinx 的一个分支]]></title>
+        <id>https://www.dayanzai.me/?p=74089</id>
+        <link href="https://www.dayanzai.me/ryubing.html"/>
+        <updated>2025-05-24T16:06:29.000Z</updated>
+        <summary type="html"><![CDATA[随着原版 Ryujinx 模拟器在与任天堂进行讨论后被官方团队从 GitHub 撤下，Switch 模拟器社区 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
         </author>
     </entry>
     <entry>
@@ -14348,324 +14428,6 @@ NeRF (神经辐射场): 作为一种强大的场景表示和渲染技术，它�
         <summary type="html"><![CDATA[FreeCommander XE 2025 文件管理工具由大眼仔旭（www.dayanzai.me）发布。计算 […]]]></summary>
         <author>
             <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[历时 4 年，一名地理信息系统博士生，完成中国五级行政区划查询工具]]></title>
-        <id>https://www.appinn.com/ruiduobao-map/</id>
-        <link href="https://www.appinn.com/ruiduobao-map/"/>
-        <updated>2025-04-26T10:58:01.000Z</updated>
-        <summary type="html"><![CDATA[中国五级行政区划查询工具是一款可以查询中国省、市、县、乡镇和村的区划数据，看到各种隶属关系的网站。@Appinn 开发者 @ruiduobao 还说：省市县数据基于国家基础地理信息中心的2021年国家]]></summary>
-        <author>
-            <name>青小蛙</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[电商系统价格取值策略及购物车降价提醒方案]]></title>
-        <id>https://www.woshipm.com/?p=6210129</id>
-        <link href="https://www.woshipm.com/pd/6210129.html"/>
-        <updated>2025-04-26T08:10:54.000Z</updated>
-        <summary type="html"><![CDATA[商品价格体系的复杂性，如销售价、活动价、会员价等多种价格形式，给用户带来了选择困难，也给系统设计带来了挑战。本文作者从电商系统的价格取值策略出发，详细介绍了如何通过动态价格计算、降价提醒机制以及多价格体系的优先级管理，来优化用户体验并提升购物车的转化率。
-
-一、概述
-1.1 背景
-电商系统中，商品价格体系复杂（如销售价、活动价、会员价等），系统需根据用户属性动态计算匹配商品最低价，并在用户加购后跟踪价格变化，实时展示价格变动信息，通过降价提示提升转化率。
-1.2 目标要求
-1、设计价格取值策略及降价显示逻辑，确保用户体验与商业目标的平衡
-2、用户加购时取最低价，后续价格变动时动态更新并展示降价金额。
-3、系统需支持多价格体系（销售价、活动价、会员价等）的动态优先级计算。
-4、价格变动需实时触发降价提醒，提升用户感知。
-二、功能设计与实现方案
-2.1 价格取值策略
-目标：根据用户属性动态匹配最低价，实时响应价格变化
-当用户浏览商品并加入购物车时，系统根据用户的身份属性，从商品的多种价格体系中筛选出最低价格作为购物车中的商品价格。若之后商品出现价格低于加购时价格时，系统自动取最低价，并在购物车中显示比加入时降价的金额。
-1、价格优先级规则：
-活动价 > 会员价 > 销售价（默认价）
-2、动态价格对比：
-1）加购时：
-调用价格服务接口，根据用户身份（会员/非会员）、当前时间、活动状态，计算可选价格（销售价、活动价、会员价）
-按价格优先级排序，取最低价作为购物车展示价格，并记录该价格为基准价（如：用户为会员，会员价为80元，活动价为75元，则取活动价75元）
-2）后续价格更新：
-当商品价格因活动等变化时，系统需实时监听价格变动，重新计算用户当前可享受的最低价。
-若新价格低于基准价（如活动价降至70元），则更新购物车价格为70元，并触发降价提醒
-3、示例流程
-用户加购 → 查询活动价…]]></summary>
-        <author>
-            <name>pemg的笔记</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[产品心得：码住这个「315」法则，产品你算是玩明白了！]]></title>
-        <id>https://www.woshipm.com/?p=6209944</id>
-        <link href="https://www.woshipm.com/pd/6209944.html"/>
-        <updated>2025-04-26T06:46:19.000Z</updated>
-        <summary type="html"><![CDATA[在当今快速发展的数字化时代，产品经理的角色愈发重要，但如何高效地设计出既满足用户需求又符合企业目标的产品，一直是行业内的难题。本文作者结合自身从营养师跨界转型为产品经理的丰富经验，以及在电商前后端产品设计中的实践，总结出了一套独特的“315产品法则”，希望能帮到大家。
-
-承接前文总结我从「营养师到产品经理跨界转型」的经验，再结合这3年因工作分工调整，我从电商前转到后再到前后端串联的产品经历，细拆出一套「315产品法则」想分享给大家——分享给刚踏入产品经理行业的你、或是正负责前端的你、或是纠结是否要转后端的你。
-前面总结了一个通用的解题公式「角色+目标+策略+情绪价值=解题思路」，对于工作实操来说是有点太高度总结了，貌似放之四海皆可用。没关系，今天我以一个真实后端产品案例，再为大家剖析一层。
-01 弄清楚「我们」需要解决的问题
-「315」产品法则的「3」，代表2个角色+1个目标，这是每个项目启动之前都要定位清楚的，也是整个产品方案设计的起点。2个角色分别是：「我」是谁、「我」要服务的用户是谁/都有谁，而1个目标则是「我们」需要解决的问题是什么。我转向后端产品后接手的第一个项目是商品上下架流程优化。为了让大家更好理解明确好「3」的重要性，我先补充一些项目背景信息及痛点问题。
-如大家所见，电商平台最核心的就是商品，没有商品就没有所谓的电商平台。围绕商品最核心的链路是——前端商品上架售卖，用户在电商平台选购下单，最后到商品下架不卖了，用户也就无法再买到这款商品。而从后端角度，支撑前端这条核心链路就是商品上下架流程——该流程是否足够敏捷高效，反映了系统响应公司业务的速度快慢。
-
-打个比方，市场部捕捉到用户需求变强，需要比原计划提前一两周上架新品。假若上下架流程非常复杂，涉及很多人工处理的话，系统只能说「臣妾办不到啊」，又或者硬是加班加点赶上去，搞得大家都筋疲力尽。而我当时调研商品上下…]]></summary>
-        <author>
-            <name>产品妹吖维C</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[多多水印相机安卓版 1.1.5 一款完全免费的安卓水印相机]]></title>
-        <id>https://www.dayanzai.me/?p=74705</id>
-        <link href="https://www.dayanzai.me/dd-wmcamera.html"/>
-        <updated>2025-04-26T05:16:12.000Z</updated>
-        <summary type="html"><![CDATA[多多水印相机是一款专为满足现代职场需求而设计的高效水印相机应用。无论是用于工作考勤、工程记录还是旅行打卡，它都 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[从0构建大模型知识体系（4）：大模型的爸爸Transformer]]></title>
-        <id>https://www.woshipm.com/?p=6210144</id>
-        <link href="https://www.woshipm.com/ai/6210144.html"/>
-        <updated>2025-04-26T05:10:57.000Z</updated>
-        <summary type="html"><![CDATA[在人工智能领域，尤其是自然语言处理（NLP）的浪潮中，Transformer架构无疑是近年来最重要的突破之一。它不仅彻底解决了传统循环神经网络（RNN）的健忘和训练速度慢的问题，还开启了大语言模型的新纪元。本文将从机器翻译这一经典任务出发，深入剖析Transformer架构的核心原理，包括编码器-解码器架构、注意力机制的奥秘，以及它如何通过纯注意力机制实现高效的序列处理。
-
-按照惯例，结论先行
-这篇文章要讨论啥？
-讨论当前大语言模型的基石——Transformer。Transformer彻底解决了RNN健忘和训练速度慢的问题，实现性能和效率的飞跃，并成为自然语言处理的主宰。现在的大模型如DeepSeek、GPT都是在Transformer的基础上发展而来的，因此了解Transformer有助于理解大语言模型是如何理解自然语言的。
-我会以解决双语翻译问题为切入口，剖析Transformer是如何通过纯注意力机制构建起编码器-解码器架构来解决这个问题的
-文章讨论的核心问题和结论是啥？
-① 什么是编码器-解码器架构？
-这是一个用于解决翻译问题的经典架构，整个模型包含编码器和解码器两部分，编码器负责将原文转化成机器能高效理解的数字，解码器负责将数字转化为人类能理解的语言。
-② 什么是注意力机制？
-这是一种能让机器理解字词之间关联关系的方法。比如在“这老板真水”这句话中，只有注意到“水”和“老板”的修饰关系才能将这里的水理解为水平低下，而非物理意义上的水。
-
-③ 什么是Transformer？
-一个采用编码器-解码器架构并完全使用注意力机制构建起来的双语翻译模型
-④ Transformer是怎么训练的？
-不断的给它“原文→译文”语料对，通过这些语料来调整参数
-⑤ 怎么量化翻译质量？
-用BLEU评分。核心思想是看机器翻译结果和人工翻译结果的重合度有多高。
-⑥ Transformer和现…]]></summary>
-        <author>
-            <name>夜雨思晗</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[光影魔术手 0.4.5 安卓版来了，一款免费的手机智能修图工具]]></title>
-        <id>https://www.dayanzai.me/?p=74701</id>
-        <link href="https://www.dayanzai.me/neoimaging-for-android.html"/>
-        <updated>2025-04-26T04:35:35.000Z</updated>
-        <summary type="html"><![CDATA[光影魔术手，这款拥有超过二十年历史的经典图像处理软件，如今由其专业团队精心打造，推出了全新的光影魔术手安卓版本 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[设计师私藏20组海报提示词！即梦AI文字海报封神]]></title>
-        <id>https://www.woshipm.com/?p=6209685</id>
-        <link href="https://www.woshipm.com/ai/6209685.html"/>
-        <updated>2025-04-26T03:30:53.000Z</updated>
-        <summary type="html"><![CDATA[在设计领域，如何快速打造出令人眼前一亮的海报一直是设计师们追求的目标。随着AI技术的发展，设计师们有了更强大的工具来实现创意。本文作者精心整理了20组设计师私藏的AI海报提示词，涵盖多种风格和应用场景，从中国风到赛博朋克，从浪漫情感到科技未来，一应俱全。
-
-作为设计师，对于甲方要求的“高级感”像道玄学题，字体排版换了20版依然被批“没有网感”。
-最近即梦3.0的更新，直接把中文字体海报效果拉满，今天就给大家放出20+组AI提示词和字体海拔设计秘籍，涵盖多个行业哦。结尾还扩展了动态海报制作方式，可以一键三连点赞收藏关注哦～
-
-一、主题文字海报直出
-中文：春风始，万物生英文：Spring Begins, All Things Awaken
-
-创作一张中英文结合的海报，展现春天生发之气、自然萌动的诗意意象，风格建议为中国风+现代插画。
-文字“春风始 万物生” + 英文“Spring Begins, All Things Awaken”，中国风字体，水墨晕染风格，背景为抽象春天山水景色，柳树嫩芽、微风拂面、鸟语花香的意境，画面色调为绿色与淡粉色为主，光影柔和，画面右下角加入英文，高清插画风格
-
-
-🎨 风格建议关键词补充（你可以根据风格挑选加入）：
-墨韵中国风 / 节气感 / 清晨微光
-半透明汉字叠加 / 英文字体为 serif 高级感
-悬浮式排版 / 字体如从春风中“生长”出来
-文字“与你有关，皆是浪漫”，英文字体“Everything about you is romance.”，手写风情感字体，浪漫唯美风格，背景为粉色系天空、漂浮的爱心气球与云朵、梦幻光晕，构图为居中排版，文字为白色或淡金色，柔焦光效，适用于小红书封面或情感类海报，高清插画风
-
-
-文字“穿过时间的流岚，一起见证每一个精彩的十年”，英文字体为“Through the mist of time, we witne…]]></summary>
-        <author>
-            <name>yaoyao设计师</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[万字实战复盘，普通人电商创业，从0到稳定出单32天速通全流程实操]]></title>
-        <id>https://www.woshipm.com/it/6210357.html</id>
-        <link href="https://www.woshipm.com/chuangye/6210357.html"/>
-        <updated>2025-04-26T02:41:24.000Z</updated>
-        <summary type="html"><![CDATA[电商创业对于许多人来说既充满诱惑又充满挑战，尤其是对于没有经验的普通人来说，如何从零开始并实现稳定出单是许多人梦寐以求的目标。本文作者通过亲身指导一位电商小白（B妹）从0到稳定出单的全过程，详细复盘了仅用32天实现电商创业速通的实战经验。
-
-新的电商创业实战文章出炉，本篇文章将带大家看一个数码小配件品类的电商实战案例， 和之前一样，本文不带任何广告，请放心阅读。由于细节内容丰富，本文内容较长，适合一个午后静静阅读。
-
-你不是大厂程序员么？收入应该很高啊，确定要做电商这样的小生意么？
-我一边翻着【B妹】的资料，一边问。
-确认，冬哥！我一直有个开小店的梦想，写代码是工作，开小店才是生活！B妹回答我的时候，很兴奋，满眼憧憬。
-我只能把你带入门，我无法保证你做电商一定能赚钱。
-我劝B妹冷静，不要冲动。又补了一句：
-很有可能你做电商的收入，和你的工资收入，根本没法比。
-我说的是实话，对于年收入几十万的高级白领，我一般都劝他们老老实实上班，上班赚工资，对大多数普通人来说，永远是性价比最高的选择。
-那没事冬哥，我要求不高，先入行再说！以后慢慢来，多一个技能多条路，一旦哪天被裁员了，我也不心慌！
-B妹爽快的回我。
-很好！B妹很成熟，我就喜欢心态成熟的成年人。
-最后一个问题，我问B妹：
-你对电商业务有什么了解或者基础认知么？
-有没有做过一些淘宝拼多多小红书店铺？或者工作中有涉及到这块的内容？有没有一些基本的实操经验？
-B妹想了想，一脸正经的和我说：
-冬哥，我加了好多羊毛群，我特别会薅电商平台的羊毛，这算不算懂电商？
-很好，我在资料表上打了个叉：
-你对电商的了解约等于0。
-B妹听完努了努嘴。
-你有没有问题要问我？
-我放下资料表，接着问B妹。
-B妹想了想说：
-冬哥其实我有很多问题想问你，首先咱们这个…..
-我直接打断她回答：
-不需要你囤货！不需要你有货源！不需要你注册公司！不需要你全职投入！用下…]]></summary>
-        <author>
-            <name>刘玮冬</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[国补模式大盘点：订单、资金、发票、物流全链路深度拆解]]></title>
-        <id>https://www.woshipm.com/?p=6209626</id>
-        <link href="https://www.woshipm.com/pd/6209626.html"/>
-        <updated>2025-04-26T02:28:19.000Z</updated>
-        <summary type="html"><![CDATA[近年来，国家补贴政策成为拉动消费、促进经济增长的重要手段，而企业如何高效落地国补政策则成为竞争的关键。本文深入剖析了当前主流的三种国补落地模式：“一品多地”“借壳”和“京东供销”，从订单、资金、发票、物流等全链路角度拆解了各模式的运作逻辑、优劣势及实操要点。
-
-近年来，国家补贴政策持续释放消费潜力，成为拉动经济增长的重要引擎。在此背景下，如何高效落地国补成为企业竞争的关键战场。从“一品多地”的跨区域灵活布局，到“借壳”资质的低成本快速入场；从“京东供销”的电商渠道整合，到直营、代理商、平台合作等多元化路径，当下的国补模式玩法日益丰富，既考验企业对政策红利的敏锐捕捉，也依赖渠道资源的深度协同。
-本文将系统梳理当前主流的国补落地模式：解析“一品多地”如何通过区域化备案实现市场全覆盖，探讨“借壳”模式如何借力已有资质加速商品准入，揭秘“京东供销”等电商合作如何打通线上线下流量壁垒，并剖析直营、代理商、平台合作等模式的适用场景与核心优势。通过拆解不同模式的逻辑与实操要点。
-模式一：一品多地
-1、简述
-商家自行在各地区注册新主体，可通过“一品多地卖全国能力”关联已在平台运营的店铺，当用户在该店铺购买商品的时候，平台可自动路由至用户资格领取资格，享受当地的政府补贴。
-
-2、已实行的平台
-拼多多、天猫、抖音、快手
-3、优劣
-（1）优势：省去在多地主体下开设店铺的工作
-
-当前店铺只有一个主体，仅能参与店铺主体所在地区的政府补贴活动；若需要参与其他地区的政府补贴活动，需企业去当地注册新主体→开通新的抖店店铺，流程时间较长。为更灵活地参与多地的政府补贴活动，通过此模式，可实现企业注册新区域主体后，以当前已有店铺来承接。用户在店铺下单时，可根据用户所在地区灵活展示对应的国家补贴领取链路（若企业在该地已有对应主体）
-
-（2）劣势
-虽省去了在各地开设店铺的工作量，但一品多地模式仍要求品牌在各地注册主…]]></summary>
-        <author>
-            <name>日勿小姐</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[美业 IP 孵化实战：从 14W 粉丝到商业变现的深度复盘]]></title>
-        <id>https://www.woshipm.com/?p=6209191</id>
-        <link href="https://www.woshipm.com/share/6209191.html"/>
-        <updated>2025-04-26T02:13:58.000Z</updated>
-        <summary type="html"><![CDATA[在互联网时代，IP孵化已成为众多行业实现突破的关键策略。本文作者通过亲身操盘一个美业IP孵化项目，从最初的14万粉丝基础到逐步实现商业变现，详细复盘了整个过程中的经验与教训。
-
-在互联网浪潮下，IP 孵化成为诸多行业破局关键。去年底，我接手成都美业老板的 IP 孵化陪跑项目，在近期美博会深入交流后，对其商业化进程有了全新洞察，也愈发意识到前期规划与落地执行间的沟壑，今天分享下我做美业IP操盘的全程经验，希望对你有所帮助。
-一、项目起始：14W 基础粉丝与人设重塑
-该美业 IP 初期凭借与腰部美业博主内容共创，精准狙击美容、护肤、疗愈等热门话题，迅速积累起 14W 高度重合的粉丝群体。这些粉丝聚焦美业知识与女性成长，为后续的精细化运营奠基。
-但原始账号内容零散，缺乏固定标签，如同散沙，难以聚拢精准受众。我敏锐洞察到问题，果断重构人设，紧扣 “链接川渝新女性，挖掘女性成长中的小确幸” 标签，让账号有了灵魂支柱。
- 二、内容革新：从低效纪录片到流量故事矩阵
-早期编导团队以纪录片形式记录日常，内容平淡如水，完播率并不高。我接手后大刀阔斧改革，引入 IP 访谈与情景口播。
-
-精心策划流量故事，以美业行业趣闻为引，像讲述某知名美容院背后鲜为人知的创业秘辛，穿插行业数据：据艾瑞咨询统计，2023 年中国美业市场规模达23亿，年增长率超 65%，引得用户纷纷驻足。
-人设故事方面，深挖 IP的个人经历，从20年前初入美业的青涩学徒，到如今独当一面的老板，其间坎坷挫折，化作吸睛文案，配合 IP的真实访谈口播，粉丝黏性直线攀升。
-产品故事更是关键，以爆款美容仪为例，讲述研发团队如何耗费6 年，历经 上百次次试验，攻克干燥皮肤的提拉紧致，使其功效远超同行，搭配使用前后的对比图、用户真实好评，让产品自带话题，引导私域成交，水到渠成。
-三、商业征途：多元变现路径的曲折探索
-当初选择接手这个IP，也是看重她的商业模式极具潜力，开放品牌加盟，意向加盟商源源不断，产品分销网络遍布全国，带货合作一场直播销售额动辄20万。
-但落地过程荆棘遍布。IP 自身能力短板凸显，初期自信满满，但涉及深度访谈，表现得力不从心，输出内容说教意味浓重，我紧急调整选题策略，聚焦热门美业话题，如 “冬季护肤新趋势”，结合当下热点，降低口播难度，提升内容吸引力。
-变现路径更是数度变更。访谈形式遇冷后，转型记录 “美业女王的成都创业史”，办公区造景精致，从简约现代风的前台，到满墙荣誉证书的洽谈室，吸引无数同性取经，私信咨询装修、创业细节，单月的美业深度咨询费用，额外增收5万元。
-基于初期的内容冗长，我再次做了IP人设调整，突出 “疗愈师” 专业人设，展示其专业证书、手法特写，搭配舒缓音乐与治愈案例，引导精准客户到店消费。
-虽然账号的内容质量不断精进，却遭遇流量滑铁卢。点赞数、评论数同步下滑，早期粉丝因内容惯性仍留存，但新粉增长停滞。
-在成都美博会聆听导师分享后，我后续将锚定美好生活与轻奢感，打造 “美业女王的轻奢日常” 系列，从办公场景的轻奢摆件，到团队成员的精气神和细致服务入手，通过细节传递高端格调，期待更多的爆款短视频诞生。
-美业 IP 孵化之路满是挑战，但从不缺少机遇。成熟的IP操盘手，更应该不断去尝试新的项目，去破圈成长。
-本文由 @秃头老王聊运营 原创发布于人人都是产品经理。未经作者许可，禁止转载
-题图来自 Unsplash，基于CC0协议
-该文观点仅代表作者本人，人人都是产品经理平台仅提供信息存储空间服务]]></summary>
-        <author>
-            <name>秃头老王聊运营</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[关税战后，国内的直播间更热闹了]]></title>
-        <id>https://www.woshipm.com/?p=6210207</id>
-        <link href="https://www.woshipm.com/it/6210207.html"/>
-        <updated>2025-04-26T01:52:28.000Z</updated>
-        <summary type="html"><![CDATA[从外转内的过程中，外贸商家面临着激烈的市场竞争、品牌建设的挑战以及供应链和成本结构的转型等诸多问题。与此同时，国内电商平台和零售渠道纷纷伸出援手，积极扶持外贸商家转内销，试图借助其优质供应链和国际标准的产品来提升自身的竞争力。
-
-特朗普胡闹式“发疯”，让原本面临挑战的全球贸易再次动荡。如何规避这只乱飞的“黑天鹅”，正成为越来越多的外贸商家的首要考虑。
-“家人们，原本要出口欧美的订单，因为关税战卡在路上了，现在工厂直发直播间！”
-“姐妹们看清楚了！这件衣服的吊牌、洗标都是按出口标准做的。直播间4折，就当帮咱们外贸人渡个难关，买回去觉得不值，7天无理由退回来，运费我全包。”
-“说实话，做外贸10年，第一次这么直接面对国内的家人们。以前咱们的货都给老外赚差价，现在关税一涨，他们不要了，咱们自己人接盘！”
-“今天不为赚钱，就想让大家知道，咱们中国工厂做的东西，不比进口的差！支持一波国产外贸货，感谢家人们！”
-这段时间的直播间里，类似的桥段随处可见，尽管存在剧本的之流，但也不得不承认，一大批外商商家正疯狂涌入国内的直播间。
-就目前来看，由外转内也是整个关税战中的主流趋势。商务部数据显示，2024年中国社会消费品零售总额突破50万亿元，成为全球第二大消费市场，如此庞大的消费需求成了大部分外贸商家的退路和机会。
-
-当直播间越来越热闹，国内的消费环境或许将迎来新的竞合期，每个外贸商家都存在着巨大的机会，但同时，在奔向胜者的路上，也将面临重重考验。
-“自己人的地盘”真的好混吗？
-这不是外贸商家第一回尝试外转内。
-事实上，早在2008年金融危机年代，推动外贸企业转向国内市场就成了大势所趋，当年，国内的出口额同比下降16%，大量外贸企业把市场转移到国内。2020年，全球供应链受外部环境影响而被迫中断，当年第一季度，国内出口额同比下降11.4%，整个外贸市场又迎来一次外转内的浪潮。
-这也就意味着，…]]></summary>
-        <author>
-            <name>道总有理</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[16进制/文本编辑器 IDM UltraEdit 31.3.0.15 直装破解版]]></title>
-        <id>http://www.qiuquan.cc/?p=9942</id>
-        <link href="http://www.qiuquan.cc/other/ultraedit.html"/>
-        <updated>2025-04-26T01:10:19.000Z</updated>
-        <summary type="html"><![CDATA[UltraEdit 是一套功能强大的文本编辑器，可以编辑文本、十六进制、ASCII 码，可以取代记事本，内建英文单字检查、C++ 及 vb 指令突显，可同时编辑多个文件，而且即使开启很大的文件速度也不会慢。软件附有 HTML 标签颜色显示、搜寻替换以及无限制的还原功能，一般大家喜欢用其来修改EXE 或 DLL 文件。]]></summary>
-        <author>
-            <name>QiuQuan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[开源 PE 文件分析工具 PE-bear 0.7.1 中文绿色便携版]]></title>
-        <id>https://www.dayanzai.me/?p=74708</id>
-        <link href="https://www.dayanzai.me/pe-bear.html"/>
-        <updated>2025-04-25T16:41:06.000Z</updated>
-        <summary type="html"><![CDATA[PE-bear 是一个开源的、用于快速分析 Portable Executable (PE) 文件的工具，它为 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[批量调整图像大小工具 Light Image Resizer 7.2.0.100 绿色中文免费版]]></title>
-        <id>http://www.dayanzai.me/?p=1082</id>
-        <link href="https://www.dayanzai.me/lightimageresizer.html"/>
-        <updated>2025-04-25T16:35:43.000Z</updated>
-        <summary type="html"><![CDATA[Light Image Resizer 绿色中文版 批量调整图像大小由大眼仔旭（www.dayanzai.me […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[开源线谱打谱软件 MuseScore 4.5.2 x64 中文多语免费版]]></title>
-        <id>http://www.dayanzai.me/?p=5987</id>
-        <link href="https://www.dayanzai.me/musescore.html"/>
-        <updated>2025-04-25T16:35:00.000Z</updated>
-        <summary type="html"><![CDATA[MuseScore 中文版 打谱音乐软件由大眼仔旭发布。简谱打谱软件 MuseScore 中文版是一款类似于  […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[安卓应用——番茄免费小说 v6.5.3.32 去广告会员版 | 看书、看短剧免广告！]]></title>
-        <id>http://www.qiuquan.cc/?p=10742</id>
-        <link href="http://www.qiuquan.cc/androidsoft/fanqiexiaoshuo.html"/>
-        <updated>2025-04-25T16:01:33.000Z</updated>
-        <summary type="html"><![CDATA[番茄免费阅读小说app一款非常受欢迎的小说阅读应用，与各大内容商合作，也扶持了海量优质的原创内容，为用户提供海量正版高品质小说资源，涵盖了青春、言情、玄幻、校园、仙侠、都市、悬疑等所有主流网文类型，而且阅读是免费的，还可以赚钱，让你阅读更加尽兴。]]></summary>
-        <author>
-            <name>QiuQuan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[万兴数据恢复 Wondershare Recoverit 13.5.13.11 繁体中文直装破解版]]></title>
-        <id>http://bak.qiuquan.cc/?p=4048</id>
-        <link href="http://www.qiuquan.cc/recovery/recoverit.html"/>
-        <updated>2025-04-25T16:00:33.000Z</updated>
-        <summary type="html"><![CDATA[Wondershare Recoverit是万兴软件开发的一款功能强大的数据恢复软件，该软件采用了先进的算法，引用了强大的数据分析引擎驱动，能够恢复格式化的硬盘，不小心丢失的数据，误删除的分区，甚至是外置存储资料都可以恢复，其强大的扫描功能可以帮助用户轻松找到存储设备上的每个字节，高级文件恢复算法允许您在几分钟内恢复已删除。]]></summary>
-        <author>
-            <name>QiuQuan</name>
         </author>
     </entry>
 </feed>
