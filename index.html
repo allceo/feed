@@ -22,11 +22,1089 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-06-08 datetime="2025-06-08T12:46:08.000Z">2025-06-08</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-06-08 datetime="2025-06-08T12:46:08.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-06-10 datetime="2025-06-10T01:33:00.000Z">2025-06-10</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-06-10 datetime="2025-06-10T01:33:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >人人都是产品经理</button>
+                  <a class="source-heading__link" href="https://www.woshipm.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6227061"
+                        open
+                      >
+                        <summary class="article-expander__title">车联网产品经理需要知道的汽车名词</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6227061.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/13/c2a602ba-d9de-11ed-8440-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>对于车联网产品经理而言，掌握汽车领域的专业名词和相关技术细节至关重要。本文为车联网产品经理精心打造了一份全面的汽车名词指南，供大家参考。
+
+以下是对车联网远程控制业务各部件的完善补充，涵盖名词定义、功能拓展、技术细节及实际应用场景，帮助构建完整的车联网技术架构认知：
+一、云服务层
+1. TSP（Telematics Service Provider）远程服务提供商
+中文：远程服务提供商（通常属于车联网云平台核心模块）
+作用扩展：
+用户认证与权限管理：验证 APP 用户身份（如账号密码、生物识别），分配不同车辆控制权限（如主用户、子用户）。
+指令解析与路由：将 APP 的控制指令（如 “远程启动空调”）解析为车端可识别的协议（如 ISO 15118、自定义 CAN 指令），并路由至目标车辆。
+数据存储与分析：存储车辆状态数据（如里程、故障码）、用户操作日志，用于优化服务（如预测性维护）或用户画像分析。
+OTA 管理：协调车端软件升级（如 TBOX、THU 的固件升级），分批次推送升级包并监控升级进度。
+安全防护：部署防火墙、入侵检测系统（IDS），防止恶意指令攻击；对通信数据加密（如 TLS 1.3），保障用户隐私。
+典型架构：云平台通常包含用户中心、设备管理平台（DMP）、消息队列（MQ）、API 网关等模块，支持高并发指令处理（如百万级车辆连接）。
+二、车端通信与控制层
+2. TBOX（Telematics Box）远程通信终端
+技术细节：
+硬件组成：包含MCU（如恩智浦 S32G）、通信模组（5G/4G LTE，如高通骁龙汽车 5G 平台）、GNSS 定位芯片（北斗 / GPS）、CAN/LIN 总线接口。
+
+核心功能扩展：
+网络穿透：通过 NAT 穿越技术（如 STUN/TURN）实现车端与云平台的双向通信，解决公网 IP 分配问题。
+实时数据采集：周期性采集车辆 C…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6227930"
+                        open
+                      >
+                        <summary class="article-expander__title">从0到10万用户：互联网医院冷启动的“黄金三角模型”</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6227930.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/05/06/fefb4d8a-ec01-11ed-8df9-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>本文将深入剖析互联网医院冷启动阶段的底层逻辑，结合平安健康、京东健康等头部平台的成功经验，提炼出“黄金三角模型”，即精准定位、生态协同、数据驱动。
+
+互联网医院冷启动的“黄金三角模型”
+精准定位、生态协同、数据驱动，拆解互联网医院早期增长的底层逻辑
+一、互联网医院的“冷启动困境”
+“上线半年，用户不足5000，医生响应率低，流量成本居高不下……”
+“国企采购大单近在咫尺，却因服务能力不足错失机会。”
+在互联网医疗行业，冷启动阶段是决定平台生死的关键窗口期。数据显示，2024年互联网医院用户规模已突破3.6亿，但新平台获客成本同比上涨35%，超70%的初创项目因用户留存率不足20%而夭折。
+
+从 0 到 10 万用户，不仅需要明确的战略规划，还需要在产品、运营和营销三个方面形成协同效应。如何突破困局？本文结合平安健康、京东健康等头部案例，提炼出“黄金三角模型”——精准定位、生态协同、数据驱动，助你实现从0到10万用户的跨越式增长。
+黄金三角模型之【精准定位】——找准用户与场景的“破冰点”
+1. 用户分层：从“泛人群”到“高价值群体”
+核心策略：
+刚需场景切入：聚焦慢性病管理（如糖尿病、高血压）、术后康复等强需求领域，用户付费意愿提升40%。
+国企/企业合作：瞄准员工健康福利采购需求，如某健康管理公司通过“语音问诊+送药上门”服务拿下央企大单，复购率达45%。
+案例：某区域互联网医院锁定本地银发群体，推出“三高管理套餐”，3个月内签约5家养老机构，用户数突破80008。
+2. 需求洞察：从“功能堆砌”到“痛点狙击”
+关键动作：用户旅程地图绘制：梳理患者从症状发现到康复的全流程，识别关键触点（如用药提醒、报告解读）
+
+轻量化MVP测试：优先上线高频刚需功能（如AI智能导诊、电子处方流转），降低用户使用门槛
+二、黄金三角模型之【生态协同】：构建资源联动的“增长飞轮”
+1. 医生资源：从“单点签约”到“利益共同体”
+激励设计：
+三级分成机制：基础问诊费（50%）+用户复购奖励（30%）+数据增值分成（20%）；
+品牌赋能：为医生打造个人IP，提供科普内容生产工具（如短视频脚本库、直播培训）。
+案例：某平台通过“医生工作室”模式，吸引200+三甲医生入驻，问诊转化率提升至25%。
+2. 跨界合作：从“单打独斗”到“生态共赢”
+核心伙伴：
+药企：联合推出“慢病管理包”（如糖尿病患者的定制药膳+血糖仪+保险），用户LTV提升3倍；
+保险机构：嵌入健康险产品，实现“健康管理+风险对冲”闭环（如平安健康“易企健康”模式）。
+案例：京东健康与欧姆龙合作推出“血压管理计划”，用户留存率提升至60%。
+三、黄金三角模型之【数据驱动】：打造精细化运营的“决策引擎”
+1. 用户画像：从“模糊标签”到“动态洞察”
+数据采集：
+行为数据：问诊频率、药品复购周期、内容浏览偏好；
+健康数据：可穿戴设备监测的血糖、睡眠质量等指标。
+应用场景：
+分层营销：高净值用户推送“私人医生套餐”，普通用户推荐“家庭健康会员”；
+风险预警：通过AI分析异常数据，提前触发健康干预。
+2. 增长实验：从“经验决策”到“AB测试”
+关键指标：
+获客成本（CAC）：通过渠道效果分析，砍掉ROI&lt;1的广告投放；
+用户激活率：优化注册流程，将7日激活率从15%提升至35%。
+工具推荐：
+智能投放系统：基于LTV模型自动优化广告出价；
+用户分层工具：如企业微信SCRM，实现精准触达。
+
+四、实战案例：某互联网医院如何用“黄金三角”实现冷启动？
+背景：2024年新上线平台，初期用户不足1000，医生资源匮乏。
+破局动作：
+精准定位：聚焦本地慢性肾病患者，推出“透析居家管理套餐”（含药品配送、营养师咨询）；
+生态协同：
+与药企合作提供透析液折扣，降低用户成本；
+联合保险公司推出“并发症险”，提升付费转化；
+数据驱动：
+通过可穿戴设备监测患者体征，异常数据自动触发护士上门；
+利用企业微信社群运营，用户月均互动频次达8次。
+结果：6个月内用户数突破10万，复购率62%，客单价提升至1200元/月。
+
+五、冷启动的本质是“价值验证”
+互联网医院的早期增长，绝非依赖流量轰炸，而是通过“精准需求匹配-生态资源整合-数据闭环验证”的三维模型，快速证明商业价值。
+互联网医院的冷启动是一个复杂而艰巨的任务，但通过“黄金三角模型”的应用，可以在产品、运营和营销三个方面形成协同效应，快速积累用户，实现突破。
+未来竞争焦点：
+服务产品化：将非标医疗转化为可复制的标准化套餐；
+生态壁垒化：通过独家合作锁定药企、保险等核心资源；
+运营智能化：用AI预测用户生命周期价值，实现动态资源分配。
+本文由 @医链智核GHH 原创发布于人人都是产品经理。未经作者许可，禁止转载
+题图来自Unsplash，基于CC0协议
+该文观点仅代表作者本人，人人都是产品经理平台仅提供信息存储空间服务</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6227977"
+                        open
+                      >
+                        <summary class="article-expander__title">DeepSeek大模型打造 “搜、问、办” 一体化政务智能服务平台的实践分享</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6227977.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/14/2492d736-da8f-11ed-aeb8-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>本文将深入探讨如何借助DeepSeek大模型的强大能力，打破系统壁垒，构建“搜、问、办”一体化的政务智能服务平台，实现政务服务从“能办”到“好办”的质变，为政务服务的数字化转型提供有益的实践经验和深刻的启示。
+
+在政务服务领域，群众和企业经常面临两大核心痛点：“找不到”（信息分散、搜索不准）和“看不懂”（办事指南术语复杂、流程难理解）。
+同时，传统模式下，政务搜索、智能客服和办事服务又存在相互割裂的情况，这无疑增加了用户使用的难度。
+发现这些痛点之后，我们将用户在政务服务平台上的搜、问、办串联到一起，通过DeepSeek大模型能力实现办理过程中从“信息检索”到“问题解决”的无缝衔接。
+以打破系统壁垒，实现：当用户在搜索框输入“如何补办营业执照”、或在办事指南页面划选“需提交电子签名材料”时，系统可自动触发智能客服的精准应答或人工辅助。
+
+我来聊聊具体是怎么做的。
+01 痛点：传统服务模式下的壁垒
+先说说在政务服务数字化转型的过程中，一个长期被忽视的核心问题：搜索、问答、办理这三个关键环节，在传统模式下竟然是相互割裂的”信息孤岛”。
+这种割裂不仅存在于用户感知层面，更深植于系统底层架构之中。
+数据层的”三重隔离”困境
+让我们先看看数据底层的问题。在深挖到数据层的时候发现搜索的底层数据政务搜索库、智能客服的知识库、在线办事系统的事项库，这三个本应紧密关联的数据库，竟然由三个不同的团队维护，使用三套不同的数据标准。
+
+一个典型案例是”企业社保缴纳证明开具”服务：
+政策库中存放的是最新版《社会保险法》实施细则
+智能客服知识库却停留在两年前的操作指引
+在线申报系统要求的材料清单又额外增加了”法人授权委托书”
+这种数据不同步带来的后果是灾难性的。因为很多可能其问题的答案其实就藏在平台的某个数据库里，只是用户找不到，系统也不会主动关联。
+体验层的”断崖式服务”现象
+从用户视角来看，这种割…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-06-09 datetime="2025-06-09T16:31:26.000Z">2025-06-09</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-06-09 datetime="2025-06-09T16:31:26.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >大眼仔旭</button>
+                  <a class="source-heading__link" href="https://www.dayanzai.me">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://www.dayanzai.me/?p&#x3D;2210"
+                        open
+                      >
+                        <summary class="article-expander__title">全能系统维护军刀 Glary Utilities Pro 6.27.0.31 中文多语便携版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.dayanzai.me/glary-utilities.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Glary Utilities Pro 中文版  全能系统维护军刀由大眼仔旭。Glary Utilities  […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://www.dayanzai.me/?p&#x3D;41988"
+                        open
+                      >
+                        <summary class="article-expander__title">Nextcloud 集成的纯文本 Markdown 笔记 QOwnNotes 25.6.1 中文多语免费版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.dayanzai.me/qownnotes.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>QOwnNotes 中文版由大眼仔旭整理发布。QOwnNotes 绿色版是一款由 Patrizio Beker […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.dayanzai.me/?p&#x3D;74333"
+                        open
+                      >
+                        <summary class="article-expander__title">SVG 矢量图形编辑 GodSVG 1.0 Alpha 10 中文免费版本</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.dayanzai.me/godsvg.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>GodSVG 中文版是一款专注于可缩放矢量图形（SVG）文件编辑的创新软件。与其他同类产品不同，它直接呈现 S […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >异次元软件世界</button>
+                  <a class="source-heading__link" href="https://www.iplaysoft.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.iplaysoft.com/?p&#x3D;6336"
+                        open
+                      >
+                        <summary class="article-expander__title">ChatWise - 小巧速度快！全功能 AI 助手客户端 (支持 DeepSeek / OpenAI 等模型 API)</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.iplaysoft.com/chatwise.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://img.iplaysoft.com/wp-content/uploads/2025/chatwise/chatwise.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>最近 Claude 4、Gemini Pro 2.5 等大模型纷纷大升级，加上大家期待已久的 DeepSeek R1-0528 也迎来一波给力更新，加上各种开放的大模型 API 越来越多，AI 的用法和玩法也更多了。
+为了更好利用 AI 工作，一款好用的「通用 AI 助手客户端」就是必备的工具了！而 ChatWise 这个号称“第二快”的跨平台全能助手正是特色鲜明的一款！它速度很快，能将不同模型的“API 聚合到一处使用”，还支持预设提示词、联网搜索、文档附件、MCP 调用等，能力相当全面……
+「 前往查看原文.... 」
+异次元还有这些值得一看：
+
+Cherry Studio - 好用开源全能 AI 模型客户端！整合 DeepSeek / GPT 成桌面版 APP
+Monica 国内版免费用！带记忆+联网的满血 DeepSeek 万能 AI 助手 (流畅不卡顿)
+速度更快！免费使用 DeepSeek R1-0528 最新满血升级版方法 (第三方 API 接口汇总)
+被吹爆的 DeepSeek！拥有“东方神秘力量”强大推理能力的 ChatGPT 国产替代品
+
+异次元首页  |  微信公众号  |  关注微博  |  软件精选  |  软件激活码折扣</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >小众软件</button>
+                  <a class="source-heading__link" href="https://www.appinn.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.appinn.com/pixpin/"
+                        open
+                      >
+                        <summary class="article-expander__title">PixPin – 截图工具：贴图、截长图、截动图、OCR 文字识别｜618 限时 7 折促销</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.appinn.com/pixpin/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.appinn.com/wp-content/uploads/2023/11/Appinn-feature-images-2023-11-21T144225.949.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PixPin 是一款新晋 Windows、macOS 截图工具，拥有截图、贴图、截长图、截动图、OCR 文字识别几个功能，口碑非常不错，同时也是在线 OCR 工具 PearOCR 同款开发者。目前正在</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.appinn.com/windows-11-home-game-mode/"
+                        open
+                      >
+                        <summary class="article-expander__title">Windows 11 游戏模式？微软为新游戏掌机优化了更简洁、更快的 Windows 11 界面</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.appinn.com/windows-11-home-game-mode/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.appinn.com/wp-content/uploads/2025/06/Copy-of-appinn-homework-16.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>在宣布推出两款掌机 ROG Xbox Ally 和 ROG Xbox Ally X 的同时，微软也同时放出了专为掌机优化的 Windows 11 界面，更简洁、更快速。这是一个看起来很不错的 Wind</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.appinn.com/ai-search-now-available-in-microsoft-photos/"
+                        open
+                      >
+                        <summary class="article-expander__title">微软照片将支持自然语言搜索，需要 Copilot+ 电脑</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.appinn.com/ai-search-now-available-in-microsoft-photos/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.appinn.com/wp-content/uploads/2025/06/Copy-of-appinn-homework-15.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>微软照片是 Windows 11 自带的相册应用，在最近的 Insider 频道更新中，新版本 2025.11060.5006.0 带来自然语言搜索功能，对于 Copilot+ 电脑，只需要使用自然语</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >人人都是产品经理</button>
+                  <a class="source-heading__link" href="https://www.woshipm.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/it/6227633.html"
+                        open
+                      >
+                        <summary class="article-expander__title">数据×业务×场景：多维度分析的落地方法</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6227633.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2024/05/23/6b8a76fc-18d8-11ef-b3fd-00163e142b65.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>文章聚焦于如何将数据分析与业务场景深度结合，提出真正的多维度分析不仅需要数据拆解，更要理解业务背后的逻辑。通过具体步骤，如业务问题分类、排除借口、锁定关键问题等，帮助数据分析师提供更具业务价值的建议，避免与业务方的沟通误解。
+
+做数据分析的同学们都遇到过这个问题：从多维度分析问题，提出对业务有意义的建议。这个题目看起来很简单，可很多同学辛辛苦苦跑了一堆报表，结果只落得业务一堆抱怨：
+“你这一堆说明了啥！”
+“你的重点在哪里？”
+“你的维度太单一了！”
+好！冤！枉！
+明明出了那么多组数据，为什么还被说“分析维度不够多？”今天我们系统解答一下。问题的本质是：业务口中的“多维度”，完全不是你想的那个“多维度”。
+1 数据分析眼中的多维度
+对数据分析师而言，多维度，往往指的是数据指标的拆分维度。举个简单的例子：3月份销售额3个亿。这就是一个指标，没有拆分维度。如果加了分类维度，就是下边的效果：
+
+注意：比起只看总数，用多维度拆解数据，是能更精确地定位数据的。常见的方法有两种：一、添加过程指标；二、按业务管理方式添加分类维度。比如只看总销售金额，我们发现差3000万达标，可我们并不知道为什么不达标。这时候如果拆解细一点，比如：
+1、添加分类维度：看到哪个业务线没做好（如下图）
+
+2、添加过程指标：看到从用户意向到付费，哪个环节出了问题（如下图）
+
+增加过程指标+分类维度，就能更精准的定位问题。甚至一些简单的结论已经呼之欲出了。正因如此，很多数据分析师把业务口中的“多维度”，直接理解成了“维度多”。一听到要做分析，振臂高呼“拆！拆！拆！”层层叠叠做了一大堆交叉表，把各个分类维度的数据都做了出来（如下图）。
+
+然而，仅仅“多”，就足够了吗？
+2 业务眼中的多维度
+业务口中的“多维度”，完全不是这个意思。业务脑子里装的是不是数据库里的表结构，而是一个个具体的问题。当业务看到“3月份销售没有…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/it/6227583.html"
+                        open
+                      >
+                        <summary class="article-expander__title">【产业研究】AI Agent 产业前瞻及对大水务行业的影响</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6227583.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2024/05/10/501f1568-0e7d-11ef-b3fd-00163e142b65.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>本文基于作者在2025年数字水务创新论坛上的演讲，深入探讨了AI Agent产业的发展趋势及其对大水务行业的深远影响。文章详细阐述了AI Agent的定义、分类、产业生态，并分析了其在大水务行业中的具体应用场景和挑战，为读者呈现了AI Agent在水务领域应用的广阔前景。
+
+以下为本人在2025年数字水务创新论坛上的一个演讲稿，基于演讲PPT用AI 整理。特别感谢三峡智慧水务科技有限公司副总经理郭宇峰博士的邀请。
+大家好！特别感谢会议邀请，能和各位行业专家、伙伴们聊一聊 AI Agent 这个热门话题！说起来有点 “跨界”，我本科毕业后在水利局待过两年，但后来主要做产业研究和投资，这几年深度接触数据和 AI 后，对 AI Agent 有一点自己的看法。前不久宇峰总和我说，现在 AI 大佬们都盯上这个领域了，所以今天希望我从产业发展角度，和大家聊聊 AI Agent，更重要的是，看看它会给咱们大水务行业带来哪些变化！
+先唠唠 AI Agent 到底是啥？打个比方，它就像你身边突然多了个 “超级智能助理”—— 以大语言模型为 “大脑”，能自己 “听” 懂需求、规划行动，还自带 “记忆” 功能，随手调用各种工具把活儿干得漂漂亮亮。以后不用你反复叮嘱，它就能主动帮你解决问题，是不是想想都觉得爽？
+
+再看 AI Agent 的分类，门道可不少。按任务范围分，有啥都能搭把手的 “全能型选手”，也有专攻某个领域的 “行业专家”；按服务对象，有服务企业的 2B 模式，也有面向个人的 2C 模式；按任务内容，从陪聊解闷到销售客服，简直五花八门，只有你想不到，没有它做不到！
+说到 AI Agent 的产业生态，那简直像个庞大的江湖！上游是 “硬核玩家”，芯片巨头英伟达、AMD、华为，大语言模型开发者 OpenAI、Deepseek，还有云服务大佬亚马逊、阿里巴巴、微软，他们手握核心技术，就像江…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6227460"
+                        open
+                      >
+                        <summary class="article-expander__title">“盯上”年轻人的夜生活，闲鱼做夜市的基本逻辑</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6227460.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/10/11/74e783a8-67cf-11ee-9a4f-00163e142b65.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>闲鱼夜市通过多元娱乐性内容与创意，与用户共创独特休闲体验，成为年轻人的归属地。本文将带你深入了解闲鱼夜市的魅力，看看它是如何将社交与娱乐完美融合，成为年轻人夜生活的新宠。
+
+闲鱼，真的无边界。
+这次它“盯上”年轻人的夜生活。从6月6日起，闲鱼推出全新的内容频道“闲鱼夜市”，每晚20:00-24:00开市。开市时间内，用户只需要通过闲鱼首页顶部入口或者搜索“闲鱼夜市”，就可以进入“闲鱼夜市”。
+白天，用户也可以搜索“闲鱼夜市”，进入首页，获取当天夜市的节目单，看看会有哪些明星、摊主即将营业。我在体验中发现，在搜索框里输入“闲鱼直播”，也可以在直播页面找到闲鱼夜市的入口。
+闲鱼夜市节目单显示，每晚夜市都有不同主题的场景设置。比如周一是“开卷吧夜市”，提供技能服务和咨询，在夜市寻求能人答疑或者咨询一些专业问题。
+
+图源：唐辰截图
+根据官方介绍，闲鱼夜市初期，主打特色互动型直播及明星综艺等玩法，会把用户喜爱的好物鉴宝、情感相亲、技能咨询以及闲鱼自制综艺节目等生活娱乐化内容搬进频道内，打开一个神奇、热气腾腾、充满烟火气的夜生活。
+把“夜市”搬上“神奇的闲鱼”
+闲鱼把夜市搬到线上，打造自己的黄金档。在这里不仅有互动玩法、明星名人，更有一种扑面而来的“活人感”、“野生感”。
+首播当晚，我随机看了四场直播。简单概括一下就是：女律师直播间普法；男情感主播连麦开导出轨女网友；在线狗狗鉴定以及李维嘉做客闲鱼“神奇的朋友”。
+这几场直播，整体给人一种“不按套路出牌的抽象感”。下意识的，我仿佛看到“1818黄金眼”的网络镜像。这档节目之所以出圈，就在于它把镜头贴近真实的生活，产生娱乐效果，让普通民众仿佛看到自己，在一笑之间消弭烦恼。
+
+“神奇的朋友”则是闲鱼首档自制综艺，多位明星艺人将在节目中讲述闲鱼经历、与闲鱼的故事，也将在闲鱼夜市开启互动直播。将在浙江卫视、优酷同步上线。
+这里有一个细节，用户除…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6227264"
+                        open
+                      >
+                        <summary class="article-expander__title">写给短视频运营和编导：懂内容+会营销，才能拿高薪！</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6227264.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/13/2efb3e42-d9eb-11ed-a6e8-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>本文将深入探讨短视频运营和编导人员如何突破传统思维的局限，将内容创作与营销紧密结合，从而在激烈的市场竞争中站稳脚跟，实现个人价值与商业价值的双赢。
+
+懂内容又会营销，这样的短视频编导和运营，才能在竞争激烈的市场上 “活下去”。
+不懂自我营销的短视频运营，干活越多，越像是廉价的工具人。
+在短视频运营圈子混迹久了，我发现不少同行都陷入了一个死循环：选题、写脚本、跟拍、盯剪，忙得脚不沾地，恨不得天天爆款。
+可到头来，老板却只关心你发的视频，能消耗多少钱、能带来多少销售额。干得多，反而像 “工具人”，这背后的原因，就是不懂营销。
+一、内容不是王道？赚钱才是王道
+刚转行做信息流短视频运营那会儿，我也是 “内容至上” 的信徒，一门心思把视频拍得好看、画面拉满。
+可当我兴冲冲把第一批素材交上去，老板抛出的那句 “这批视频能消耗多少钱？产出多少销售额？我不看播放量，只看客资线索和成交金额”，直接把我浇了个透心凉。
+那时候，我天真地觉得，先把素材拍好，转化的事以后再说。后来才明白，老板的眼睛可都是盯着成本和收益的。
+在社会上摸爬滚打，可没游戏里那么轻松，输了还有重来的机会。公司要盈利，内容就得为赚钱服务，不然再好看也是白搭。
+如果编导不懂营销，只顾着闷头干，那老板拍一条赔一条，受累的不还是自己嘛？
+有些运营新人，可能会觉得，公司是老板的，自己干好手头的活就行，项目挣不挣钱和我有啥关系。
+
+但当你想在职业道路上更进一步时，就会发现，老板跟你聊的不只是视频本身，而是流量怎么带货、内容怎么转化、投流怎么放大……
+这时候，如果你脑子里还只有怎么留人、怎么玩反转，不懂短视频背后的营销逻辑，在老板眼里，你也就只是个拍视频的打工人。
+在老板看来，营销才是赚钱的手段，内容只是个工具。
+内容是 “壳”，营销才是 “核”。
+一个短视频运营，要是只懂内容不会营销，那大概率只能永远当执行的苦命人，干得再拼命，也只是…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/it/6227577.html"
+                        open
+                      >
+                        <summary class="article-expander__title">未来十年用户争夺战，美团向上，京东向下！</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6227577.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2024/08/12/5e0dc900-5877-11ef-b8a2-00163e142b65.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>本地生活战场再起波澜，美团和京东展开未来十年用户争夺战。美团向上攻，从学生市场向家庭场景扩展；京东向下抢，从家电主业向年轻群体渗透。这场“向上vs向下”的对决，谁能赢得用户未来？
+
+最近，沉寂多年的本地生活战场硝烟再起。表面上看，这场战争的攻方是京东，守方是美团，但这看似错位的竞争背后，实则藏着两家巨头对未来十年用户价值的终极押注。
+为何我会有这样的判断？因为我太了解这两家巨头的基本盘了。十多年前的千团大战，我是参与者；近些年，我又从事过生鲜电商、家电零售行业，而这两个市场当前的头部玩家，恰恰就是美团和京东。
+本质上来说，美团和京东这几年正朝着对方的基本盘市场疯狂扩张 ——美团向上攻白领家庭，京东向下抢年轻学生。接下来，我为大家详细剖析。
+一、美团的「向上战略」：从学生大本营杀进家庭主战场
+很多人不知道，美团的第一桶金其实来自「学生经济」。早在千团大战时期，王兴就精准锁定 20-28 岁年轻群体：大学生聚餐要便宜、情侣约会要省钱、朋友唱 K 要划算。
+在团购行业初期，”自助餐、KTV、电影院” 被业内视为三板斧。彼时消费者普遍担忧团购存在 “消费歧视”，例如菜品减量、服务缩水等问题。
+而这三类场景具备显著优势：自助餐通过不限量供应消除消费差异，KTV 与电影院以标准化服务规避体验落差，完美契合团购模式 “普惠让利” 的核心价值与规模化运营的底层逻辑。
+
+于是，美团市场团队就在大学城周边狂推 30-50 元的自助餐、9.9 元的电影票、下午场买一送一的 KTV——用低价高频场景撕开市场缺口，短短两年就拿下 60% 的校园市场。
+1. 用高频外卖做「流量底座」，向家庭场景渗透
+美团的基本盘仍是「吃吃喝喝」：每天超 6000 万笔餐饮订单，用户平均每周打开 5.2 次 APP。但光靠 20 元的炒饭炒面不够，必须让用户在同一个平台花更多钱。但学生终究会毕业，如何把「低价用户」变成…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6227418"
+                        open
+                      >
+                        <summary class="article-expander__title">聊聊设计领域的AI Agent：Lovart的产品交互与功能设计</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6227418.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/17/23993cea-dcf5-11ed-897e-00163e0b5ff3.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>号称第一个设计领域AI Agent的Lovart发布了，高低得尝尝咸淡。还是站在产品经理的视角上来评测，重点看三块内容：
+Lovart本身的产品引导设计怎么样，是否能让新用户快速入手？
+评价Loavrt提供的产品能力能否胜任真实工作场景要求；
+拆解下Lovart的功能。
+用户注销态介绍页
+在用户注销态的引导，Lovart做得还是不错的，主要得益于能力的强大，展示了很多创新的工作，能比较充分调动用户的兴趣。
+引导注册
+品牌非常风格化，让人印象深刻。页面交互的动效做得蛮酷炫的，我第一反应这果然是个设计软件。
+
+视频产品介绍
+视频展示了Lovart大部分的产品功能，作为一个宣传片来说不错，能激发用户的探索欲望。
+
+官方示例重播
+这一块区域主要展示了官方操作的几个Lovart设计实例，包含了平面设计、室内设计、插画、漫画等，但是UI、UX的实例不在其内，我猜可能是它的弱项吧。
+
+核心功能介绍
+用了三页来展示核心功能，我提炼为
+1.在同一个画布上与AI协同编辑设计
+2.支持自然语言微调设计、风格迁移、准确识别设计元素涂抹微调
+3.并发多任务，一次性产出一整套设计方案
+
+用户登录态的引导
+首页
+我的视觉动线是：
+1.问候语；
+2.对话框；
+3.新建项目
+感觉问候语无需这么醒目，下面那句“Ready to turn your ideas into art？”或许更重要才对。对话框和新建项目，原本让我以为是文件和文件夹的差异，但实际上在对话框中输入对话后，也是生成一个“Project”，有一点困扰。
+
+新建项目页
+1、2两个区域驱动我发送指令，于是我立即尝试发送指令
+同时在等待Agent执行任务的过程中，我尝试探索右上角的区域，发现可以同时在画布上操作。
+但或许可以根据用户对右上角区域的点击率情况，来决策是否要在Agent执行任务的时候，给一点小的引导，例如亮起的光标告知用户此处可点击操作
+
+
+新项目启动
+收到明确的指令后，同样地为了防止用户等待时间过长中间迷茫，Lovart和其他Agent的做法差不多，展示了自己的任务步骤，即 思考–&gt;计划–&gt;执行。
+整个过程同样不能中断，但可以继续对话。
+
+
+
+追加任务
+画布上的用户旅程地图绘制地并不让我满意，因此我给了一个模版来规范供它参考
+
+画布上笔刷+框选修改范围，add to chat
+体验一下Chat功能，告诉它笔刷部分和圈选部分分别有：换行、超出边界的问题，要求它修改。
+Agent针对制定区域修改，这个交互还是清楚的。
+
+画布上圈选修改范围，tab直接编辑
+这个tab键的交互有点别扭，并没有把修改内容过程展示在右侧聊天框，而是在图片上高亮了修改范围，图片底部展示修改进度。
+但实测修改进度会长时间卡顿在80%，用户会非常焦虑Agent是否还在正常运作。
+我到觉得如果做不到Cursor那种，tab键直接修改实时展示修改代码进度的话，可以不用硬凹一个tab编辑功能。
+
+功能拆解
+对Lovart做功能拆解，基本情况如下。
+
+
+另外，体验下来后，我认为Lovart的迭代方向有以下几条路径，按个人理解的优先级排序：
+支持将设计稿中的元素提取为独立的组件而非整张图片供用户编辑——设计需要细致细节，况且每次都用GPT Image成本也不低；
+支持更多模态的用户输入，例如Figma/Sketch设计稿、视频等；
+接入更多AI设计工具，扩展设计边界；
+优化Agent的意图识别、规划、检索能力，或许需要HITL（人在回路）用户干预确认AI的执行计划；
+优化用户交户，引导非设计师的小白用户——优先级取决于Lovart对目标人群的定义；
+新增对UI、UX设计领域的支持，成为一个更通用的Agent（目前UI、UX领域有太多竞品）
+本文由 @我叫徐知鱼 原创发布于人人都是产品经理，未经作者许可，禁止转载
+题图来自 Unsplash，基于 CC0 协议
+该文观点仅代表作者本人，人人都是产品经理平台仅提供信息存储空间服务。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6226802"
+                        open
+                      >
+                        <summary class="article-expander__title">AI大模型时代C端应用生态的变革与机遇-下篇</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6226802.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/14/4fd1eaa6-da8d-11ed-b334-00163e0b5ff3.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>本文将从生态格局、技术演进、商业模式、挑战机遇四个维度，全面剖析大模型时代C端AI应用的发展现状与未来趋势，为从业者提供战略思考框架。
+
+在《AI大模型时代C端应用生态的变革与机遇-上篇》我们探讨了AI大模型时代下C端应用生态的变革趋势，分析了不同类型AI应用的发展现状、资本布局重点及企业卡位策略。接下来继续聊聊这场持续的科技变革，根据最新统计数据2025年全球人工智能市场规模预计突破9000亿美元，中国AI核心产业规模已达6000亿元人民币，备案上线的大模型数量超过190个。在这一背景下，C端（消费者端）AI应用生态正在经历前所未有的重构与升级。
+一、生态格局：从单点突破到系统重构
+
+图片来自网络
+C端AI应用生态已形成多层次、多主体参与的复杂系统。从产业链视角看，这一生态包含基础设施层、模型层、工具层和应用层四个关键环节。
+基础设施层由云计算平台（如阿里云、AWS）、芯片厂商（如英伟达、华为昇腾）和算力中心构成；
+模型层则涵盖通用大模型（如GPT-4、文心一言）和垂直领域模型；
+工具层包括开发框架（如TensorFlow、PyTorch）和低代码平台；
+应用层则直接面向终端用户，提供各类AI服务。
+从参与者类型看，当前生态呈现“四足鼎立”格局：
+科技巨头（如谷歌、百度）依托全栈能力布局全产业链；
+垂直领域企业（如医疗AI公司）深耕专业场景；
+初创企业（如月之暗面）专注创新应用开发；
+传统应用厂商（如Adobe、Office）加速AI转型。
+这种多元化竞争格局既促进了技术创新，也加剧了市场分化。
+
+用户需求分层特征日益明显。调研显示，C端用户对AI应用的需求可分为三个层级：基础需求（如信息获取、简单任务处理）、进阶需求（如个性化推荐、专业辅助）和高级需求（如情感陪伴、创造性协作）。不同层级的需求催生了差异化的产品形态和商业模式，为企业市场细分提供了依据。
+
+表：C端AI应…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6226201"
+                        open
+                      >
+                        <summary class="article-expander__title">新零售2025-会员店鼻祖Costco为何不惧周期：忠诚于会员！</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/marketing/6226201.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/13/db5e4bc4-d9dd-11ed-8fc2-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>本文将深入剖析Costco的商业奇迹，从其“双稳+双低+四高”的独特模式，到“忠诚于会员”的核心理念，再到其在全球扩张过程中的战略抉择，一文带你读懂Costco如何在变幻莫测的市场中保持基业长青，以及它为新零售时代带来的深刻启示。
+
+Costco（开市客）2024财报数据表现耀眼，总营收飙升至2,544亿美元（相当于可口可乐、宝洁、奈飞、强生四巨头总和），其付费会员人数高达1.37亿人，堪称行业标杆。深入分析更发现，在2005至2024这二十年间，其营收复合增速始终保持在8%（Walmart与Target仅为3%）；更令人惊叹的是，在低于15%的毛利率框架下，Costco却创造了超过2%的净利润率。
+查理·芒格曾盛赞：“最理想的投资就是买入Costco这样伟大的公司，完全不用考虑退出时机”。
+这引发出三个核心思考：
+是什么因素支撑着 Costco 穿越二十余年经济周期，成功抵御宏观经济波动与消费周期轮转的冲击，并在消费习惯变迁与渠道革命挑战下，维持营收的稳健增长？
+在持续提升经营效率的同时，Costco又是如何实现费用占比的不断降低的？
+在毛利率长期保持稳定的战略定力下，Costco 依靠何种机制实现利润率的持续提升？
+本文将以 16000 字的篇幅，从一个核心八个角度对 Costco 进行深入剖析：
+一、Costco 的商业奇迹：双稳 + 双低 + 四高
+二、听听故事：溯源 Costco 商业基因的传承与演变
+三、简而不凡：忠诚于会员！
+四、忠诚于会员：价低质高，我承诺利润永不超过15%！
+五、忠诚于会员：精心精选，我保证“每个产品都是你想要的”。
+六、忠诚于会员：差别对待，我会让老会员尽享专属权益。
+七、忠诚于会员：必超预期，我确保自有品牌 Kirkland极致品质
+八、忠诚于会员：员工满意用户满意，我真诚对待每一位员工。
+九、后记与启示：穿越周期的经营智慧与普适价值
+…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6227402"
+                        open
+                      >
+                        <summary class="article-expander__title">瑞幸联名的两条丑鱼，让百万打工人疯狂上头!（一文讲透IP联名玩法）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/marketing/6227402.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/13/b40ea682-d9e1-11ed-bd74-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>当瑞幸咖啡与《海绵宝宝》联名推出两条“丑鱼”形象的周边时，谁也没想到这会成为一场现象级的营销事件。这两条看似“摆烂”的丑鱼，不仅迅速引发百万打工人的共鸣，还让相关周边产品火速售罄，甚至在二手市场被高价炒作。本文将深入剖析瑞幸这一波“反向营销”的成功密码，探讨IP联名的多种玩法、合作模式以及如何精准把握年轻消费者的情绪需求。
+
+没想到吧，丑到极致就是潮，瑞幸的“摆烂鱼”让百万打工人疯狂上头!
+最近，瑞幸咖啡的儿童节联名让消费者体验了一把“心情过山车”。当大家兴冲冲点开联名海报，期待看到海绵宝宝和派大星时，映入眼帘的却是两条画风清奇的“路人鱼”——一条躺平翻白眼，一条嘬手指装傻。
+更夸张的是，上线不到两天，50万件周边火速售罄。原价加10元换购的发条玩具，在闲鱼被炒到三四十元，满屏都是“蹲出鱼的好心人”。
+
+当打工人们看到努力鱼“已躺平，勿扰”的摆烂姿态，和聪明鱼“丁又丁不懂，鞋又鞋不废”的迷茫表情，瞬间破防：“这不就是每天被老板拧发条的我吗？”两条丑鱼凭实力演活了当代职场人的“活鱼微死”状态，成为新一代“工位顶流”。
+01 配角逆袭：为什么偏偏是这两条丑鱼？
+瑞幸这波操作堪称反向营销教科书。当所有品牌联名都盯着IP主角时，它却从《海绵宝宝》里挖出最没存在感的背景板角色——努力鱼和聪明鱼。
+“嘴上喊着努力，身体却很诚实；表面装得聪明，内心慌得一批。”当海绵宝宝还在坚持“我准备好了”的乐观主义时，这两条路人鱼早已看透现实——努力鱼全程划水，聪明鱼眼神涣散，荒诞反差感直击年轻人情绪G点。
+
+社交媒体瞬间变身二创工厂：美妆博主给聪明鱼贴上夸张假睫毛变身“Y2K辣妹”；网友把它们按在迷你工位上拍“社畜日常”；CP粉更是拉郎配出“没头脑和不高兴”组合……话题热度指数级裂变。
+
+
+
+
+
+“家里不乱的，可以买俩回家添点乱。”网友的自嘲道出真相：这届年轻人要的不是精致美学，而是情绪出口。当生活…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6227398"
+                        open
+                      >
+                        <summary class="article-expander__title">用简单的方式复刻AI生成PPT</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6227398.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/14/0637d336-da8f-11ed-9503-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>随着AI技术的不断发展，其在办公场景中的应用也日益广泛。本文将探讨如何利用AI工具更高效地生成PPT。从Genspark的最新功能更新，到通过HTML代码渲染网页并导出为PPT格式的创新尝试，再到利用AI将HTML代码转换为SVG代码以实现更精准的设计稿输出，我们将深入了解这些技术背后的原理、操作流程以及它们在实际应用中的优势与局限。
+
+最近在关注常用的几个AI Agent应用的动态，发现Genspark更新了个实用的功能：支持将HTML代码渲染的网页导出为PPT格式，从而支持用户自主修改PPT内容。此举将Genspark生成PPT的功能从玩具离实际可用的生产力工具又进了一步。
+首先让我们来看看本次更新的PPT生成效果，要求生成 BNPL 基本情况调研PPT，以下是HTML代码直出的网页，以及导出的PPT。
+
+虽然顺利导出了PPT，但是很明显PPT格式的效果远不及代码渲染的网页。主要的差距是以下几点：
+
+如果能接受这几个问题，或许Genspark可以帮助你更好更快地制作PPT，但其中也免不了大量的时间来调整恼人的这些小问题，况且Genspark一个月20美元的费用一点也不低，有没有办法做得更好？
+复刻AI生成PPT
+一起来尝试复刻Genspark生成PPT的效果，并且把它导出的PPT做得更好，避免Genspark的以上错误吧。
+
+首先理解一下Genspark的“AI幻灯片”的原理，本质上是给AI设定了一个生成“PPT”的专家身份，通过计划、思考调配任务后，调用工具并执行任务的助手。
+我们可以较粗浅地理解它的框架：
+
+即给LLM预设好了一个专家身份，由该LLM负责协调本次任务需要做哪些方面的研究，是否需要联网搜索、是否需要提炼用户知识库，研究结束后生成代码并调用代码渲染器在网页直出效果。并在依次执行完所有研究任务和代码渲染后，汇总代码内容返回Genspark的负责“代码转PD…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6227345"
+                        open
+                      >
+                        <summary class="article-expander__title">字节跳动的增长后台——豆包如何做增长</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6227345.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/13/e51f781a-d9ea-11ed-9d7a-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>在互联网竞争日益激烈的当下，字节跳动凭借其强大的增长中台和独特的运营策略，不断推出并成功推广新产品。本文将深入剖析字节跳动旗下豆包和红果短剧的增长引擎，探讨它们如何通过激进的广告投放策略实现用户增长，以及这些策略背后的逻辑与支持机制。
+
+思考：
+1、豆包、红果短剧是如何做用户增长的？
+2、豆包如何利用和反哺抖音？
+3、字节“激进的广告投放”背后的逻辑？
+序言
+研究背景
+作者发现字节跳动系列的新产品，广告投放非常多，而且是走很激进的投放策略，会在短时间投入大量的广告市场投放费用。他们对广告投放这件事是毫不含糊的，17-18年的抖音、18年的番茄小说、22-24年的红果短剧、23年的豆包，23-25年的抖音精选APP、都曾经市场投放投入大量的广告投放费用。
+研究目的
+研究了解字节跳动这些成功案例背后的逻辑。
+
+研究路线
+宏观视角：分析字节跳动系列产品的DAU、投放趋势、组织架构与预算机制
+微观视角：探讨字节如何立项做APP，以及其“激进买量”的逻辑基础
+个案拆解：选取红果短剧、豆包等典型产品作为代表，观察其从冷启动到爬坡的投放节奏和关键指标变化
+1 宏观视角——整体窥探
+1 .1 2025-Q2字节跳动系列产品数据整理
+DAU数据参考
+
+广告投放的费用和DAU增长数据
+豆包为例
+
+1.2 字节跳动的支持业务
+1.21 大中台
+字节采用大中台的形式避免每一个项目组重复工作量，且把专项交给更专业的人负责。中台内每个团队的定位很清晰
+用户增长：负责拉新
+用户增长为每一条产品线提供买量团队，例如豆包就会有一个专属的团队负责制定买量策略，进行内、外部买量，以及增长活动（裂变玩法、激励等）。
+增长团队直接与项目组挂钩，买量的数据可直接影响产品的迭代。例如，豆包的注册流程，欢迎语，功能顺序等
+技术团队：负责留存
+留存算法：字节内容系列产品最核心的指标就是用户停留时长，算法可以复用到很多APP
+增长算法：字节拥有大量的用户画像数据，在外部投放的时候，一般使用RTA买量。就是说在买量平台中先把用户返回到字节数据中心，字节进行用户筛选后再返回到买量的媒体。所以这里需要有一个增长算法团队支持。
+
+商业化：负责变现
+广告中台：目前字节的营收主要是来源于广告收入，广告收入除了有基础的一线销售团队外，还需要有研发等部门支持。
+
+2 微观视角——案例分析
+2.1 为什么字节跳动是如何立项做APP的？
+首先，先从营收的角度评估项目的天花板，评估用户量
+
+案例分析：豆包
+市场验证逻辑：
+潜在用户巨大：从chatgpt的日活在23年已经达到1亿人（2个月就100万MAU了），在国内更成熟的智能设备和网络环境下，中国还有巨大的市场
+国内市场空白：暂时缺乏成熟的AI对话产品（文心一言、通义）还不成熟
+商业化模式清晰：to C提供增值服务（订阅、功能、API等），to B企业服务（飞书积累的资源和工具很容易帮助其变现）
+
+豆包对于字节内部来说：
+第二增长曲线：抖音等内容平台红利结束（抖音DAU），需要脱离纯内容赛道，做其他增长；除此以为，豆包可以完美承接抖音搜索（知识类、问答类内容）、教育、职场、母婴等多垂类场景（海量的内容为豆包初期“问答对话”提供数据支持）
+外部竞争：与腾讯、阿里相比，字节的“操作系统级产品”长期缺失（豆包恰好有机会填补这个空缺）
+小步快跑，验证结果：采取“小团队+快交付”的机制启动新项目，豆包初期核心团队仅十几人
+
+2.2 为什么字节敢于用大手笔买量？
+历史原因：字节在“内涵段子”、“今日头条”积累了宝贵的用户增长经验，其中内容APP买量和裂变的经验是可复用的。14年“今日头条”买量走的是厂商合作的“预装”路线，下沉到手机专卖店进行预装。当时买量这一手段是非常有效的。因此头条是很敢于买量的。腾讯因为内部渠道太强大了，所以很多游戏、应用都走内部渠道。而且腾讯的社交应用发家史是靠着裂变而非买量，所以在买量上相对会保守一些。
+外因：抢占先机，抵御竞争对手
+核心原因：投放效果正向，成本和留存达标，所以才会持续投放。效果达标又源于成熟有效的增长方法论和投放策略。
+字节一直是一家数据驱动的公司，会把数据指标进行byte量化，效果正向才会继续投入资源。
+本文由 @摩尔研究院 原创发布于人人都是产品经理。未经作者许可，禁止转载
+题图来自Unsplash，基于cc0协议
+该文观点仅代表作者本人，人人都是产品经理平台仅提供信息存储空间服务</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6227339"
+                        open
+                      >
+                        <summary class="article-expander__title">Lovable：如何在6个月实现5000万美元ARR</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6227339.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/05/06/c5139db6-ec01-11ed-8df9-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>一家公司，仅18人团队，在6个月内实现5000万美元ARR，没有铺天盖地的营销，也没有明星融资。创始人Anton Osika说：“这些数字不重要，我们只专注于一件事——打造最令人喜爱的产品。”
+
+Lovable 是AI产品发展史上的一个罕见现象。它不是偶然崛起的幸运儿，而是AI工具新一轮范式转移中的代表性样本。本文将拆解Lovable如何从一个开源工具成长为商业化爆发的超级应用，深度分析其战略选择、产品策略与增长方法论，并总结对产品人的启示。
+
+一、从开源工具到爱用品牌：市场切入与重新定位
+洞察需求，精准切入
+
+Lovable最早的原型是GitHub上的开源项目 GPT Engineer，支持“通过一个prompt生成完整Web应用”。这个工具用极低的技术门槛，打开了“任何人都能用AI开发”的可能性，击中了一个被压抑的巨大需求：
+非工程师如何用AI落地自己的想法？
+
+
+而在进行品牌第三次升级后，“Lovable”这个名字精准完成了从“工具”到“产品”的跃迁：它不仅满足功能，还激发情感共鸣。定位于“AI时代的Webflow”，它将目标用户从泛开发者转向有创意、缺技术的专业人士，如设计师、产品人、创业者。
+
+这一策略绕开了GitHub Copilot、Replit主打的“AI辅助编程”红海，切入了一个增长空间广阔却长期被忽视的蓝海市场 洞察：新范式来临时，不争红海，不抢核心位置，而是找“非典型用户”的典型需求。
+二、从工具到体验：极简驱动的产品哲学
+极致简化，降低门槛
+Lovable的产品体验遵循一个核心逻辑：最大限度压缩“从想法到结果”的时间（Time to Value）。用户只需输入一句prompt，即可生成一个可部署、可修改、可分享的完整Web应用。 2025年初，Lovable上线了“Visual Edits”，支持用户在生成页面上直接拖拽、改文字、调颜色，无需重新pr…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >QiuQuan&#x27;s Blog</button>
+                  <a class="source-heading__link" href="http://www.qiuquan.cc">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://www.qiuquan.cc/?p&#x3D;11538"
+                        open
+                      >
+                        <summary class="article-expander__title">安卓影视——大海视频 4.0.0 + 大眼视频 4.0.0 + 蜗牛视频 4.0.0 + 星星视频 4.0.0 + 火焰视频 4.0.1 去广告优化版｜视频全聚合</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://www.qiuquan.cc/androidsoft/qjh.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="http://www.qiuquan.cc/wp-content/uploads/2025/06/dhsp-150x150.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>大海视频是一款汇聚了海量视频资源的观影软件，带来的影视分类也是超全的，热门、经典、火爆的影视资源都可以在这里找到，并且这些海量精彩的影视都可以实现高清免费播放。在首页上面观众可以看到最新最全的影视资源，真正的做到了资源每日更新，各大好剧能看不停。在播放影视做到免费高清在线观看不卡顿的同时，观众也不会看到任何的广告信息，为观众带来了最舒适的手机追剧新体验。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://www.qiuquan.cc/?p&#x3D;11098"
+                        open
+                      >
+                        <summary class="article-expander__title">安卓应用——星芽免费短剧 3.9.0 解锁会员版 | 免广告，新剧抢先看</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://www.qiuquan.cc/androidsoft/xingyaduanju.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="http://www.qiuquan.cc/wp-content/uploads/2025/05/xingya-150x150.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>星芽短剧是一款在线短剧平台，拥有丰富的短剧资源，免费短剧，尽在星芽，致力于为用户提供高质量短剧内容，轻松发现各种有趣视频。软件支持搜索、支持按分类筛选、支持查看排行榜等功能！</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-06-08 datetime="2025-06-08T16:49:42.000Z">2025-06-08</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-06-08 datetime="2025-06-08T16:49:42.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >大眼仔旭</button>
+                  <a class="source-heading__link" href="https://www.dayanzai.me">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://www.dayanzai.me/?p&#x3D;40808"
+                        open
+                      >
+                        <summary class="article-expander__title">Allround Automations PL/SQL Developer 16.0.5.2165 + x64 中文多语免费版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.dayanzai.me/plsql-developer.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>PL/SQL Developer 16 中文版是一个集成开发环境，专门用于开发 Oracle 数据库的存储程序 […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://www.dayanzai.me/?p&#x3D;2199"
+                        open
+                      >
+                        <summary class="article-expander__title">开源免费 Gif 录制工具 ScreenToGif 2.41.3 中文多语免费版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.dayanzai.me/screen-to-gif.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Screen To Gif 中文版 又一款超强开源免费的 Gif 录屏工具。前天小编大眼仔给大家发布了最新的  […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://www.dayanzai.me/?p&#x3D;21667"
+                        open
+                      >
+                        <summary class="article-expander__title">免费开源视频播放器 SMPlayer 25.6.0 + x64 中文多语免费版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.dayanzai.me/smplayer.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>免费开源视频播放器 SMPlayer 中文版由大眼仔旭（www.dayanzai.me）发布。MPlayer  […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.dayanzai.me/?p&#x3D;74991"
+                        open
+                      >
+                        <summary class="article-expander__title">Image Former Pro 2.012 汉化版，快速批量图像编辑与格式转换利器</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.dayanzai.me/image-former.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>在日常工作中，如果你经常需要处理大量的图片文件——无论是调整尺寸、旋转角度、裁剪区域，还是更改格式、优化质量， […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -214,39 +1292,6 @@ https://www.aicoding.help/cn
                             <span class="media-object__text">
                               <span>下图是挺早之前创建的自动更新发现频道项目的网页（ https://x.appinn.com ），由于没怎么宣传，以及连统计系统都没上，我也不知道是不是这个地球上只有我一个用户： 发现指数是反映该项目发</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >大眼仔旭</button>
-                  <a class="source-heading__link" href="https://www.dayanzai.me">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.dayanzai.me/?p&#x3D;74991"
-                        open
-                      >
-                        <summary class="article-expander__title">Image Former Pro 2.012 汉化版，快速批量图像编辑与格式转换利器</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.dayanzai.me/image-former.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>在日常工作中，如果你经常需要处理大量的图片文件——无论是调整尺寸、旋转角度、裁剪区域，还是更改格式、优化质量， […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -21938,508 +22983,12 @@ step4：视频剪辑
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >小众软件</button>
-                  <a class="source-heading__link" href="https://www.appinn.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.appinn.com/hyvector/"
-                        open
-                      >
-                        <summary class="article-expander__title">Hyvector – 免费在线 SVG 图片编辑工具</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.appinn.com/hyvector/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.appinn.com/wp-content/uploads/2025/05/Copy-of-appinn-homework-2025-05-11T164608.726.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Hyvector 是一款在线的 SVG 图片编辑工具，可以处理复杂的 SVG 图片。适合于桌面浏览器，虽然也可以在手机上使用，但用起来稍有不便。@Appinn Hyvector 支持新建图片，也可以打</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >人人都是产品经理</button>
-                  <a class="source-heading__link" href="https://www.woshipm.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/it/6215256.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Cursor CEO最新采访：后代码时代，产品品味是关键</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6215256.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2024/09/09/7d77dc9a-6e48-11ef-9237-00163e142b65.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>在人工智能飞速发展的今天，软件开发领域正迎来一场深刻的变革。Cursor CEO在最新采访中提出了“后代码时代”的概念，认为未来软件开发将不再依赖传统编程语言，而是通过自然语言描述意图来实现自动编程。这一理念不仅挑战了现有的开发模式，也为软件开发带来了全新的可能性。
-
-去年下半年以来，AI编程彻底火了。
-Anysphere被认为是这个领域最成功的公司，旗下的明星产品Cursor的成绩有目共睹，推出后仅20个月就达到了1亿ARR，仅两年就达到了3亿ARR（约人民币21亿）。
-5月1日，Lenny’s Podcast 采访了Anysphere的联合创始人兼首席执行官Michael Truell。
-在这次对话中，Michael分享了他对未来的愿景、经验教训以及为快速到来的AI未来做准备的建议。
-乌鸦君摘取了此次采访中的关键信息与观点，相信会给你带来启发：
-01.后代码时代是什么？
-02.后代码时代，品味最重要
-03.Cursor的起源故事
-04.为什么选择构建IDE
-05.人人都要成为工程经理
-06.快速迭代是Cursor成功的秘诀
-07.使用Cursor的建议
-08.招聘和建立强大的团队
-01 后代码时代是什么？
-我们创造Cursor的目标是创造一种新的软件构建方式。
-你可以只通过自然语言向计算机描述你的意图就可以自动生成编程。
-对于“新”，我想与几种未来软件形态的流行观点来来进行对比。
-有的人认为，未来的软件开发与现在大同小异，依然需要凭借正式的编程语言来书写代码，如TypeScript、Go、C和Rust等。
-
-有些人会认为只要输入指令，让机器人书写对应的代码就大功告成了。
-但这两种设想都存在问题。
-一切不变的观点是错的，因为技术会变化，而且会越来越好。
-而聊天机器人的问题在于它会缺乏精确性，你需要不断提示让它们进行修改，而不能笼统地说“帮我修改一下应用”。
-未来会呈现出以…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/it/6215248.html"
-                        open
-                      >
-                        <summary class="article-expander__title">爆火全网的城市胶囊，手把手教你用AI解锁N种逆天玩法！（附提示词）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6215248.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2025/05/11/718f1ec6-2e36-11f0-b56a-00163e09d72f.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>AI技术飞速发展的今天，创意与艺术的边界不断被拓展。最近，一种名为“城市胶囊”的创意内容在全网爆火，它将城市的标志性景观以微缩形式融入各种容器中，展现出独特的视觉魅力。这种新颖的创意不仅让人眼前一亮，更引发了无数创作者的模仿与创新。
-
-01 拆解案例
-大家最近刷到过这种内容吧：
-
-为什么这种内容能这么火？
-
-有一段绝美的话，送给大家：
-每个城市都藏着无数人的乡愁，而 AI让我们用一种浪漫的方式——把钢筋水泥的现实，变成掌心的童话。当你的家乡住进微缩容器，每一次分享，都是对这片土地最温柔的告白。
-
-除了胶囊以外，还有更多有意思的玩法：
-
-
-今天我们就来拆解这些怎么搞~
-02 制作工具
-今天我们不麻烦，教给大家，怎样用豆包全搞定：
-豆包地址：
-https://www.doubao.com/chat/?channel&#x3D;baidu_pz&amp;source&#x3D;dbweb_baidu_pz_pc_button&amp;keywordid&#x3D;weizhi7
-
-03 先模仿：生成竞品
-step1：反推提示词
-先在网上随便找一个，你认为不错的胶囊城市的图片，丢给豆包：（我用的是本文中的第一张图片）
-
-反正我是加上了“中文提示词”的“中文”二字，因为有时候，给我们反推出来的提示词是全英文的。。。
-我们得到这样一段提示词：
-一张展现郑州特色的创意图像，主体为一个绿色胶囊，胶囊表面印有白色的 “郑州” 及拼音 “ZHENGZHOU”。胶囊透明部分内包含一座塔楼微缩模型，塔楼周围点缀着绿色小树。背景是模糊处理的城市景观，可见多栋高楼，远处有一座与胶囊内微缩塔楼呼应的清晰塔楼。整体画面色调以绿色为主，风格写实且富有现代创意，色彩鲜艳，营造出精致的视觉效果。。
-
-然后呢，关键来了，接着在对话框里面，告诉豆包这样一段话：
-
-再然后，我们就得到5组提示词啦：
-
-当然，你如果想生成自己家乡的提示词，也可以这样告诉豆包：
-
-然…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/it/6215246.html"
-                        open
-                      >
-                        <summary class="article-expander__title">金融自媒体趋势！如何搭建一个高效的社交媒体矩阵？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/operate/6215246.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2025/04/14/a8539f24-1917-11f0-b222-00163e09d72f.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>随着视频化内容的兴起，传统图文阅读量逐渐下降，而短视频等新媒体形式则呈现出爆发式增长。证券行业也不例外，投顾IP化成为趋势，尤其在年轻一代投资者中，他们更倾向于信任“有血有肉”的理财顾问，而非传统的金融专家。
-
-随着视频化的加速，纯图文阅读量据统计下降达50%，而短视频则增长了300%。与此同时，在证券行业，投顾IP化的进程则一边步履维艰前行，一边又作为星辰大海向往之，尤其90后、00后们，在投资市场更加信任那些“有血有肉”的理财顾问、而非老学究。部分券商玩的溜的，理念引领前沿，大力应用虚拟人，开始用数字员工做7×24小时投教和服务承接。
-就证券行业在新媒体这块的发展和实践中遇到的掣肘而言，笔者认为，券商们需要看清楚的是，新媒体不是比谁更会玩、谁号更多、谁作品更专业，而是比谁能在合规框架内，把专业晦涩的内容讲得更有趣、更亲民、更吸睛。找准这个点，社交媒体矩阵才真正建立，也才真正带来价值。
-如近期对等关税席卷而来，随手打开任何一款自媒体社交平台，开口即是“出大事了！”、“关税风暴来袭！”、“超44万人爆仓！”……
-资本市场不缺乏新闻大事件，然金融机构比之于各类新闻媒体、尤其自媒体，在信源通道吸引、用户习惯养成上，明显不足。自媒体将信息平权后，金融机构不得不在五花八门的新型媒体上做品牌营销、声量曝光以及引流获客，但如只盯着一个平台玩，就真的有点落伍了。那些做得好的品牌，比如招商、众安、华泰、天天，哪个不是在微博、抖音、小红书、微信、B站等多个平台全面开花。这就是社交媒体矩阵的威力，通过多平台联动，让品牌曝光、用户互动和销售转化等等，效果最大化。
-那么，如何从0到1搭建一个高效的社交媒体矩阵，又如何少走弯路呢？这里，我们一起碰撞一下。
-什么是社交媒体矩阵？
-简单来说就是“多平台运营”。
-我们可以把社交媒体矩阵理解成品牌在各大社交平台的“分舵”。比如：在抖音发短视频吸引投资者用户、…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6193975"
-                        open
-                      >
-                        <summary class="article-expander__title">公司内部IT系统产品经理，需要懂PMF和GTM吗？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6193975.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/09/12/c3241b00-5116-11ee-8eef-00163e142b65.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>产品经理常常被要求掌握各种模型、方法，但针对内部IT系统的产品经理，也是要求如此吗？这篇文章，我们来看看作者的意见。
-
-什么是PMF和GTM，两者有什么区别？
-
-PMF：Product Market Fit，包含了Product、market和Product Market Fit 三部分，是产品和市场需求匹配的一个过程，关注匹配的契合度 （非常像IPD验证阶段要做的事情，只是IPD是针对硬件研发，所以验证必然在发布前，软件产品则可以更灵活的安排验证的节点，但是都是为了验证产品的可用性）
-
-GTM：Go to Market。 如果PMF在商业化中是0-1，那GTM是1-100，是一个复制爆发的过程（IPD的验证阶段，是还没有开始商业化的）
-目标差异
-PMF：聚焦验证产品是否真正满足市场需求，核心是回答”用户是否需要这个产品”）。例如，当40%用户表示”无法使用会非常失望”时，通常标志达成PMF。
-
-GTM：解决如何将已验证的产品规模化推向市场，涉及渠道选择、定价策略、营销战役设计等。例如，GTM需整合研发、市场、销售等部门资源，制定分阶段的推广计划。
-阶段关系
-PMF是GTM的前提。一般需先通过MVP验证PMF，再设计GTM策略。
-
-公司内部流程IT的产品经理，和商业化的TO B或者TO C有什么区别？
-内部IT产品经理更像是企业流程优化专家，需深耕业务逻辑，推动系统落地；
-外部To B产品经理需扮演行业顾问角色，平衡客户需求与产品通用性；
-To C产品经理则是用户代言人，依赖数据驱动快速迭代，争夺市场份额。
-内部IT产品并没有营收的目标，那自然也没办法用上商业化的这一套标准去制定节奏，更关键的是，就算能套进去，要不要把PMF和GTM套进去？
-换个角度理解PMF和GTM
-PMF是做正确的事，验证这个产品没问题
-PMF核心是，确保产品服务是满足需求的
-PMF只存在于早期的验证阶段
-PMF是为了避免大规模市场推广的资源浪费
-GTM是正确的做事，在产品没问题的基础上，复制成功
-跨部门协同：GTM的核心目标是确保研发、市场、销售、客服等部门对产品的理解、节奏和目标一致，达成商业目标
-全生命周期管理：GTM贯穿产品从立项到退市的完整周期
-降低不确定性：GTM通过明确产品定义、用户角色、优先级，减少执行中的风险
-把PMF和GTM抽象成验证和推广，那自然，无论产品面向什么对象，这个过程都是必不可少的了
-PMF和GTM体现在内部产品的什么阶段，是怎么体现的？
-大白话讲，很多事物的发展规律和底层逻辑是一样的，内部产品虽然一般是至上而下、业务驱动的，但是仍然面临验证和推广的问题。
-PMF在内部产品的实践
-1.需求验证：从市场（内部用户）出发
-PMF的核心是解决真实需求。通过员工访谈、流程痛点分析（如重复性工作、低效审批等），明确内部用户的“未被满足的需求”。例如，开发自动化工具前需确认员工是否真正需要减少手动操作。
-量化验证标准：参考《精益创业》提出的PMF三标准：是否解决用户问题（如效率提升30%）、是否具备推广渠道（如通过内部培训触达）、用户是否愿意“付费”（如主动使用并反馈）。
- 2. MVP（最小可行产品）迭代
-初期聚焦核心功能，例如开发一个仅包含报销审批和数据分析的财务系统，快速上线后收集反馈，避免过度定制化。
-3.持续监测指标
-内部PMF的指标包括：用户活跃度（如日登录率）、留存率（持续使用比例）、NPS（净推荐值）（员工是否愿意推荐给其他部门）。
-GTM在内部产品的策略
-1.定义目标用户与价值主张
-明确产品服务的部门或角色（如HR系统面向人力资源部），提炼核心价值（如“减少50%的简历筛选时间”）。
-2.分层推广与培训
-种子用户试点：选择关键部门（如IT部）作为早期使用者，快速验证效果。
-全员推广：通过内部邮件、培训会、操作手册等多渠道触达，降低使用门槛。
-3.建立反馈闭环
-设置内部产品经理角色，定期收集用户反馈并迭代。例如，通过企业微信建立“产品优化群”，实时响应问题。
-4.数据驱动的优化
-分析使用数据（如功能点击热图）识别瓶颈，例如发现某功能使用率低时，需优化交互或增加引导提示。
-PMF与GTM的协同
-PMF是GTM的基础：只有产品真正解决内部问题（如流程卡点），GTM的推广才能获得用户支持。
-GTM加速PMF验证：通过分阶段推广，快速扩大用户样本量，验证产品是否达到广泛匹配。例如，在推广知识库系统时，先覆盖销售团队，再扩展至全公司。
-从底层逻辑去理解事物的根本，或许很多方法论，本身根本都是一样的。
-本文由 @福田贝叶斯 原创发布于人人都是产品经理。未经作者许可，禁止转载
-题图来自Unsplash，基于CC0协议
-该文观点仅代表作者本人，人人都是产品经理平台仅提供信息存储空间服务</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6215089"
-                        open
-                      >
-                        <summary class="article-expander__title">从画原型到CEO思维：京东外卖PM的三级能力跃迁模型</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6215089.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/07/07/47099fa8-1c97-11ee-816e-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>作为产品经理或交互设计领域的一员，我们都渴望不断提升自己的能力，实现从普通从业者到拥有卓越思维的领导者的跨越。本文结合腾讯职级体系，深入解析战略规划与资源协调能力的培养路径，供大家参考。
-
-一、产品经理的成长困境与能力跃迁的必要性
-咱们先回顾一下过往的经历，是不是常常有这样的场景，“请问你的设计依据是什么？为什么A功能放在前面，B功能放在后面？这个功能的用户场景确定是这样的吗？你是否有明确的用户数据分析？”就像我们绞尽脑汁完成功能设计，满心欢喜地拉着团队开发、测试进行设计评审，可往往因为缺乏用户数据，设计方案就被开发人员质疑，最后可能方案就被推翻或搁置了。这其实反映出我们在工作中常常处于一种缺乏深度思考和战略规划的状态。
-对于产品经理来说，从最初只会画原型到具备CEO思维，这中间需要经历多个阶段的能力跃迁。以京东外卖的PM为例，他们面临着激烈的市场竞争和复杂多变的业务环境。如果仅仅停留在基础的功能设计层面，是远远无法满足业务发展需求的。就好比在电商领域，如果产品经理只关注页面的美观和交互的流畅度，而不考虑整个业务的战略布局和资源协调，那么这个产品很可能在市场上缺乏竞争力。据相关市场调研数据显示，在竞争激烈的外卖市场，那些具备战略规划能力的产品团队所打造的产品，其用户增长率和市场份额往往比只注重功能设计的团队高出30% – 50%。所以，实现能力跃迁，培养战略规划与资源协调能力是非常必要的。
-二、结合腾讯职级体系看能力跃迁阶段
-初级阶段：专注功能与数据，打好基础
-在腾讯职级体系里，初级产品经理相当于T1 – T2职级。这个阶段就像是在学习走路，要把基础打扎实。就如同我们前面提到的数据埋点知识，初级产品经理要学会通过数据来支撑自己的设计。比如京东外卖的初级PM，要深入了解用户行为数据，就像经营超市通过安装摄像头和传感器来了解顾客购物习惯一样。他们要在系统中进行数据埋点，记录用户…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6214962"
-                        open
-                      >
-                        <summary class="article-expander__title">谷歌NotebookLM深度评测：一款真正以“学习为核心”的AI学习和研究神器</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/evaluating/6214962.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/07/07/45438cd8-1c97-11ee-816e-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>此文本是对谷歌NotebookLM的一项深度评测，侧重于其作为一款以学习为核心的AI 研究助理的技术定位和实际应用。作者通过系统性实操与评估，详细分析了 NotebookLM 的产品定位、核心功能（如来源管理、聊天交互、音频概览和笔记模板）以及底层逻辑（特别是系统提示词）。评测指出，NotebookLM 在提升信息获取与整合效率方面表现出色，但认为其在支持从知识输入到知识输出的完整链路上仍有发展空间。文章还探讨了 NotebookLM 在学术研究、企业知识库以及个人学习等场景下的应用前景，并对比了其与传统笔记工具及其他AI产品的差异。
-
-近期，谷歌NotebookLM AI工具在AI圈引起了热议，特别是有些博主宣称其支持基于中文内容生成“中文播客”的功能，成功引起了我研究的兴趣。作为一名AI实战博主，长期关注并实践各类AI工具的分析者，我对 NotebookLM 进行了系统性的实操与评估。
-
-本文不仅是对 NotebookLM功能表象的梳理，更力求揭示其作为学习辅助工具的设计哲学与底层逻辑。我将分享在实际使用中对其功能定位、交互体验的观察，剖析其在辅助学习与知识构建上的真实效能及潜在边界。
-核心观点是：NotebookLM作为个性化AI研究助理，在信息获取与整合上已展现出强大实力，但在打通从“知识输入”到“知识输出”的完整链路上，仍有广阔的进化空间。
-我期待并探讨其未来如何深化知识管理与内容创作的融合，向真正的一站式知识工作平台迈进。
-音频概览初探：预期与现实
-前段时间接触 NotebookLM的原因，受到一些博主的分享了其“中文播客”的功能所吸引。我当时的想法是，若能将文章转为轻松愉快的播客，无疑能我的读者带来极佳的体验，也能增加文章曝光的流量。
-然而，在上传了我撰写的文章并生成“播客”后，实际效果与我最初设想的“内容生产辅助”存在一定偏差。生成的音频确实由两位AI语音合…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6214833"
-                        open
-                      >
-                        <summary class="article-expander__title">AI时代，产品经理能做什么</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6214833.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2024/09/24/72cc4586-7a66-11ef-b388-00163e142b65.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>在AI技术飞速发展的当下，DeepSeek等AI工具的爆火已经深刻地改变了我们的工作和生活方式。面对AI时代的汹涌浪潮，产品经理作为产品的设计者和引领者，应该如何抓住机遇、迎接挑战？本文将从AI对产品经理工作的影响出发，探讨产品经理如何通过体验和使用AI工具、学习AI技术原理，最终成为AI产品专家或利用AI赋能自身工作。
-
-2025年春节，我在老家过年，大年初一，出去拜年时，碰到一个朋友，年龄跟我差不多，非计算机专业毕业的。
-平常难得见面，简单寒暄后，他跟我抱怨说：“DeepSeek被吹的这么厉害，让它给我出一个拜年的祝福语，感觉非常一般，没有想象中那么惊艳。”
-当时我最大的反应，不是关心DeepSeek是否好用，而是惊叹DeepSeek的影响力，身边很多非计算机专业的朋友，都开始关注并使用DeepSeek。
-距离2025年1月底，DeepSeek登顶苹果应用商店免费APP下载排行榜，已过去3个多月了。
-DeepSeek刮起的这股风暴，对AI发展的推动意义非凡，影响深远。可以说，各个行业，各个领域，都受到了DeepSeek的影响，甚至冲击。
-对于非AI产品经理，面对已经到来的AI时代，我们能做什么，如何抓住这个机遇，并迎接可能存在的挑战，值得每一位产品人思考。
-AI时代已经到来，如果说ChatGPT的使用还有一点门槛，那么DeepSeek的爆火，让每个人都能便捷、无门槛地使用AI工具。
-AI已经开始影响我们工作和生活的方方面面。
-未来人工智能时代，无论是产品经理还是其他岗位的工作，真正拉开差距的，并不是谁的技术更厉害，谁更懂大数据，谁更懂大模型，真正拉开差距的是我们的认知。
-可以预见，未来几乎所有的行业都会受到AI冲击。马斯克预测：“2029年AI将超越人类智慧总和”。
-也有人预测，未来某一天，全球范围内约95%的人类职业以及绝大多数现有商业组织的经济价值，可能会因 AI …</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >QiuQuan&#x27;s Blog</button>
-                  <a class="source-heading__link" href="http://www.qiuquan.cc">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://bak.qiuquan.cc/?p&#x3D;4243"
-                        open
-                      >
-                        <summary class="article-expander__title">CR TubeGet 在线视频下载 0.9.2.3 + 1.9.4.4 | 支持腾讯、优酷、爱奇艺、B站、抖音、西瓜……（免费下载99个视频）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://www.qiuquan.cc/inside/crtubeget.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="http://www.qiuquan.cc/wp-content/uploads/2025/02/CRTubeGet-150x150.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>CR TubeGet是一款功能强大的视频下载工具，软件支持视频URL、文本文件拖放下载，支持剪切板视频URL监测功能，支持1000+站点视频下载，是一款非常优秀的软件。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://www.qiuquan.cc/?p&#x3D;6679"
-                        open
-                      >
-                        <summary class="article-expander__title">美颜相机(BeautyCam) v12.6.40 去广告解锁VIP会员版</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://www.qiuquan.cc/androidsoft/beautycam.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="http://www.qiuquan.cc/wp-content/uploads/2024/10/BeautyCam-150x150.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>美颜相机（BeautyCam）是一款专为追求完美自拍体验的用户设计的高级应用。它提供了全面的美颜功能，包括智能磨皮、美白、瘦脸等，让每张照片都焕发自然光泽。乐享网基于谷歌版解锁会员VIP功能，已经解锁了VIP功能所有高级滤镜和编辑工具，用户可以享受无限次使用，无需担心广告干扰。无论是日常分享还是专业摄影，美颜相机都能满足你的需求，让你的自拍更加出众。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-05-10 datetime="2025-05-10T16:34:01.000Z">2025-05-10</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-05-10 datetime="2025-05-10T16:34:01.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >大眼仔旭</button>
-                  <a class="source-heading__link" href="https://www.dayanzai.me">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://www.dayanzai.me/?p&#x3D;36041"
-                        open
-                      >
-                        <summary class="article-expander__title">音频标签编辑管理工具 TagScanner 6.1.20 + x64 中文多语免费版</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.dayanzai.me/tagscanner.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>音频标签编辑管理工具 TagScanner 中文版由大眼仔旭发布。TagScanner 是一个用于组织和管理音 […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://www.dayanzai.me/?p&#x3D;1442"
-                        open
-                      >
-                        <summary class="article-expander__title">智能磁盘整理工具 IObit Smart Defrag 10.4.0.441 中文多语优化版</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.dayanzai.me/iobit-smartdefrag.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>IObit SmartDefrag 中文版由大眼仔旭发布。随着电脑使用时间的增长，磁盘中往往会积累大量碎片，这 […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://www.dayanzai.me/?p&#x3D;3988"
-                        open
-                      >
-                        <summary class="article-expander__title">免费开源跨平台的 PDF 文档注释工具 Xournal++ 1.2.7 中文多语免费版</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.dayanzai.me/xournal.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>如果你正在寻找一款 Windows 或 Linux 平台下的手写笔记应用程序，请一定要试试 Xournal++ […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://www.dayanzai.me/?p&#x3D;8398"
-                        open
-                      >
-                        <summary class="article-expander__title">重复文件删除查找工具 Duplicate Files Search &amp; Link 10.6.3 中文多语免费版</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.dayanzai.me/duplicate-files-search-link.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Duplicate Files Search &amp; Link 中文版由大眼仔旭（www.dayanzai […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/allceo/feed/actions/runs/15524909937">
-        <time id="build-timestamp" datetime="2025-06-09T01:42:16.669Z">2025-06-09T01:42:16.669Z</time>
+      <a class="footer-link" href="https://github.com/allceo/feed/actions/runs/15548546262">
+        <time id="build-timestamp" datetime="2025-06-10T01:38:23.377Z">2025-06-10T01:38:23.377Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
