@@ -6,6 +6,26 @@
       "siteUrl": "https://www.appinn.com",
       "articles": [
         {
+          "id": "https://www.appinn.com/make-dongbei-great-again/",
+          "author": "青小蛙",
+          "description": "画风是这样的： 就…还真的能用！蛮离谱的。 开发者提供了一个例子：用东北话写的小游戏汉诺塔动唤： 源码如下，有没有东北开发者来解读一下： 😂 就这样吧。 获取 原文：https://www",
+          "link": "https://www.appinn.com/make-dongbei-great-again/",
+          "publishedOn": "2025-06-15T08:08:08.000Z",
+          "wordCount": 3084,
+          "title": "东北话编程：有人用东北话整了一套编程语言，东北人说看不懂！",
+          "imageUrl": "https://www.appinn.com/wp-content/uploads/2025/06/Copy-of-appinn-homework-33.jpg"
+        },
+        {
+          "id": "https://www.appinn.com/alibabacloud-esa/",
+          "author": "青小蛙",
+          "description": "阿里云国际前几日发布了免费的 CDN 产品：边缘安全加速 ESA，针对除中国以外的地区提供免费、不限流量、全球 CDN 服务。支持 NS、CNAME 接入，仅支持主域名。@Appinn 边缘安全加速",
+          "link": "https://www.appinn.com/alibabacloud-esa/",
+          "publishedOn": "2025-06-15T07:23:08.000Z",
+          "wordCount": 2602,
+          "title": "和 Cloudflare 硬刚？阿里云国际发布免费、不限流量全球 CDN 产品：边缘安全加速 ESA",
+          "imageUrl": "https://www.appinn.com/wp-content/uploads/2025/06/Copy-of-appinn-homework-32.jpg"
+        },
+        {
           "id": "https://www.appinn.com/openlist/",
           "author": "青小蛙",
           "description": "OpenList 是一个开源的网盘聚合工具，从 AList 分叉而来，支持在一个网页界面中操作多个网盘文件，可以进行文件管理、视频播放等。使用 AGPL-3.0 授权。目前已经有了新 Logo、新的",
@@ -564,16 +584,6 @@
           "wordCount": 2589,
           "title": "RackNerd 最新优惠 10.96刀/年，高性价比（廉价）VPS 提供商",
           "imageUrl": "https://www.appinn.com/wp-content/uploads/2025/05/Copy-of-appinn-homework-2025-05-19T113620.528.jpg"
-        },
-        {
-          "id": "https://www.appinn.com/tips-export-android-import-windows-default-app-file-associations/",
-          "author": "青小蛙",
-          "description": "有同学在小众软件的公众号中提问，寻找可以在 Windows 10 中备份扩展名关联程序的工具。 具体需求：使用多款便携软件与相应扩展名文件映射，如系统故障、重装后映射（即打开方式）失效。需要软件进行备",
-          "link": "https://www.appinn.com/tips-export-android-import-windows-default-app-file-associations/",
-          "publishedOn": "2025-05-17T08:06:08.000Z",
-          "wordCount": 2849,
-          "title": "绿色软件爱好者必备技巧：如何导出或导入 Windows 默认的应用程序文件关联",
-          "imageUrl": "https://www.appinn.com/wp-content/uploads/2025/05/qa5-9.jpg"
         }
       ]
     },
@@ -4101,6 +4111,26 @@
       "siteUrl": "https://www.iplaysoft.com",
       "articles": [
         {
+          "id": "https://www.iplaysoft.com/?p=6367",
+          "author": "X-Force",
+          "description": "苹果最近正式发布了 iOS 26、iPadOS 26 以及最新的 macOS Tahoe 系统。如果你手上有 iPhone、iPad 或 Mac，那么就可以立即升级尝鲜了。\n按惯例，每年 Apple 在发布新系统的时候，都会配上一套新的让人惊艳的壁纸，这次 iOS 26 和 macOS Tahoe 依然也不例外。如果你暂时没打算升级，或者正在使用 Android、Windows 或者 Linux 电脑的设备的话，也可以下载这些 iOS 26 / Mac Tahoe 壁纸来感受一下气氛……\n「 前往查看原文.... 」\n异次元还有这些值得一看：\n\n全套苹果 iOS 18 内置壁纸 / macOS Sequoia 超高清 6K 默认桌面壁纸打包下载\n苹果 iPhone 15 Pro 全套内置自带壁纸 + iOS 17 系统全新原生默认壁纸打包下载\n全套苹果 iOS 15 内置壁纸 / macOS Monterey 超高清 6K 默认桌面壁纸打包下载\n苹果 iOS 14.2 新增耳目一新的壁纸！全新风格 iPhone 12 桌面内置壁纸全套下载\n\n异次元首页  |  微信公众号  |  关注微博  |  软件精选  |  软件激活码折扣",
+          "link": "https://www.iplaysoft.com/ios26-macos-tahoe-wallpapers.html",
+          "publishedOn": "2025-06-15T14:00:23.000Z",
+          "wordCount": 1288,
+          "title": "全套苹果 iOS 26 内置壁纸 / macOS Tahoe 高清 6K 自带桌面壁纸打包下载",
+          "imageUrl": "https://img.iplaysoft.com/wp-content/uploads/2025/ios26-macos-tahoe-wallpapers/ios26_mac_tahoe_wallpapers.jpg"
+        },
+        {
+          "id": "https://www.iplaysoft.com/?post_type=xpost&p=6366",
+          "author": "X-Force",
+          "description": "每次谈起海外的 VPS 服务器，除了高性价比的 RackNerd、VirMach，常送代金券的 Vultr，还有一个绕不开的知名品牌——“般佤工”值得推荐的。它几乎就是优质高端 CN2 GIA 线路的代表之一，用过的人几乎都称赞它的稳定性以及其线路的质量。\n\n但其实除了直连美国的 CN2 线路外，般佤工还提供了中国香港、…… \n「 前往查看原文.... 」\n\n异次元首页  |  微信公众号  |  关注微博  |  软件精选  |  软件激活码折扣",
+          "link": "https://www.iplaysoft.com/p/bwh-japan",
+          "publishedOn": "2025-06-15T08:38:54.000Z",
+          "wordCount": 1071,
+          "title": "搬瓦工日本东京 VPS 限量上架！国内直连优化线路 $73/年",
+          "imageUrl": "https://img.iplaysoft.com/wp-content/uploads/2025/p/bwh-japan/bwh_vps.jpg"
+        },
+        {
           "id": "https://www.iplaysoft.com/?p=6363",
           "author": "X-Force",
           "description": "苹果发布了最新 iOS 26、iPadOS 固件。作为「Windows 11」的竞争对手，macOS Tahoe 26 系统也在生产力上发力，同时使用新的液态玻璃的设计，并全局整合了苹果 AI 到系统去。\n最新的 macOS Tahoe 26 官方测试版系统 在继承了 Sequoia 特性同时，也给 Mac 带来很多新功能，比如系统全面整合人工智能 Apple Intelligence，多功能化的“聚焦”Spotlight 搜索框、更强大的快捷指令、 iPhone 镜像控制功能等等，都让 Mac 变得更高效、更聪明好用……\n「 前往查看原文.... 」\n异次元还有这些值得一看：\n\n苹果 macOS Sequoia 15 正式版 ISO 镜像下载 - Mac 原版系统完整 PKG / IPSW (网盘地址)\n苹果 macOS Sonoma 14.1 最新官方正式版下载 - Mac 原版系统 ISO 镜像 (附网盘地址)\n苹果 macOS Monterey 最新官方正式版下载 - Mac 12.3 (21E230) 系统 ISO 镜像 (网盘地址)\n苹果 macOS Ventura 13.0 最新官方正式版下载 - Mac 系统完整原版 ISO 镜像 (附网盘地址)\n\n异次元首页  |  微信公众号  |  关注微博  |  软件精选  |  软件激活码折扣",
@@ -4307,6 +4337,56 @@
       "feedUrl": "http://www.dayanzai.me/feed",
       "siteUrl": "https://www.dayanzai.me",
       "articles": [
+        {
+          "id": "http://www.dayanzai.me/?p=12494",
+          "author": "大眼仔~旭",
+          "description": "PeaZip Portable 由大眼仔旭发布。PeaZip 中文版是可以在 Microsoft Window […]",
+          "link": "https://www.dayanzai.me/peazip.html",
+          "publishedOn": "2025-06-15T16:30:21.000Z",
+          "wordCount": 1148,
+          "title": "优秀免费压缩文档管理工具 PeaZip 10.5.0 + x64 中文多语免费版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=4691",
+          "author": "大眼仔~旭",
+          "description": "Altium Designer 25 Multilingual 中文版由大眼仔旭发布。Altium Desig […]",
+          "link": "https://www.dayanzai.me/altium-designer.html",
+          "publishedOn": "2025-06-14T16:33:06.000Z",
+          "wordCount": 966,
+          "title": "PCB 电路板设计软件 Altium Designer 25.7.1 Build 20 中文多语免费版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=2634",
+          "author": "大眼仔~旭",
+          "description": "MKVToolnix x64 中文版 MKV 封装工具由大眼仔旭发布。MKVToolNix 是一组用于创建，更 […]",
+          "link": "https://www.dayanzai.me/mkvtoolnix.html",
+          "publishedOn": "2025-06-14T16:31:08.000Z",
+          "wordCount": 1148,
+          "title": "MKV 封装工具 MKVToolnix 93.0.0 + x64 中文多语免费版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=8920",
+          "author": "大眼仔~旭",
+          "description": "Notepad2 + x64 中文绿色版由大眼仔旭（www.dayanzai.me）发布。“Notepad2” […]",
+          "link": "https://www.dayanzai.me/notepad2.html",
+          "publishedOn": "2025-06-14T16:23:21.000Z",
+          "wordCount": 958,
+          "title": "Windows 记事本替代软件 Notepad4 v4.25.06r5964 + x64 中文绿色版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=8926",
+          "author": "大眼仔~旭",
+          "description": "开源 Windows 搜索和启动工具 Flow Launcher 中文绿色版由大眼仔旭（www.dayanza […]",
+          "link": "https://www.dayanzai.me/flow-launcher.html",
+          "publishedOn": "2025-06-14T16:05:42.000Z",
+          "wordCount": 1287,
+          "title": "开源 Windows 搜索和启动工具 Flow Launcher 1.20.1 中文绿色免费版",
+          "imageUrl": null
+        },
         {
           "id": "http://www.dayanzai.me/?p=461",
           "author": "大眼仔~旭",
@@ -5926,36 +6006,6 @@
           "wordCount": 1014,
           "title": "数字音乐制作软件 BandLab Cakewalk 29.09.0.125 x64 中文离线安装包",
           "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=38760",
-          "author": "大眼仔~旭",
-          "description": "CLO Standalone 2025 中文版是由 CLO 3D 出品的一款功能强大的 3D 可视化服装设计软 […]",
-          "link": "https://www.dayanzai.me/clo-standalone.html",
-          "publishedOn": "2025-05-16T16:38:43.000Z",
-          "wordCount": 954,
-          "title": "3D 可视化服装设计软件 CLO Standalone OnlineAuth 2025.0.148 x64 中文多语免费版",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=41464",
-          "author": "大眼仔~旭",
-          "description": "使用下一代专业排版软件 Affinity Publisher 将您的愿景变为现实。从杂志，书籍，小册子，海报， […]",
-          "link": "https://www.dayanzai.me/affinity-publisher.html",
-          "publishedOn": "2025-05-16T16:36:44.000Z",
-          "wordCount": 984,
-          "title": "排版设计印刷工具 Affinity Publisher 2.6.3.3322 x64 中文多语免费版",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=41706",
-          "author": "大眼仔~旭",
-          "description": "轻量级开源图像浏览器 ImageGlass 中文版由大眼仔旭（www.dayanzai.me）发布。现在市面上 […]",
-          "link": "https://www.dayanzai.me/imageglass.html",
-          "publishedOn": "2025-05-16T16:16:17.000Z",
-          "wordCount": 995,
-          "title": "轻量级开源图像浏览器 ImageGlass 9.3.1.518 x64 中文多语免费版",
-          "imageUrl": null
         }
       ]
     },
@@ -5976,6 +6026,16 @@
       "feedUrl": "http://www.qiuquan.cc/feed",
       "siteUrl": "http://www.qiuquan.cc",
       "articles": [
+        {
+          "id": "http://bak.qiuquan.cc/?p=4179",
+          "author": "QiuQuan",
+          "description": "BurnAware Professional是一款强力的刻录工具，它支持CD，DVD，蓝光光盘和HD-DVD的媒体，支持所有标准的光存储介质包括CD- R/RW，DVD-R/RW，DVD+R/RW，BD-R/RE，HD-DVD-R/RW和DVD-RAM等，也支持相当多的刻录设备。",
+          "link": "http://www.qiuquan.cc/burn/burnaware.html",
+          "publishedOn": "2025-06-15T16:25:41.000Z",
+          "wordCount": 945,
+          "title": "光盘刻录 BurnAware Professional 18.7 破解版 | 安装版 + 单文件版",
+          "imageUrl": "http://www.qiuquan.cc/wp-content/uploads/2025/01/BurnAware-150x150.png"
+        },
         {
           "id": "http://www.qiuquan.cc/?p=11616",
           "author": "QiuQuan",
@@ -6005,6 +6065,16 @@
           "wordCount": 858,
           "title": "影视仓 6.1.3 电视版 + 多多影音 6.1.3 通用版 | 附可用接口链接",
           "imageUrl": "http://www.qiuquan.cc/wp-content/uploads/2025/02/ysc-150x150.png"
+        },
+        {
+          "id": "http://www.qiuquan.cc/?p=6601",
+          "author": "QiuQuan",
+          "description": "应用管家TV版这款免费第三方实用工具，用于管理电视、车载娱乐系统和平板应用以及文件，同时支持提取电视应用并传输到电视上安装。这款工具无广告、无限制，可通过网盘链接安装应用，简便实用。",
+          "link": "http://www.qiuquan.cc/androidsoft/yygj.html",
+          "publishedOn": "2025-06-14T15:35:16.000Z",
+          "wordCount": 912,
+          "title": "盒子应用——应用管家 1.6.4 正式版 +1.6.3 测试版 | 盒子车机应用管理",
+          "imageUrl": "http://www.qiuquan.cc/wp-content/uploads/2024/06/yygl-150x150.jpg"
         },
         {
           "id": "http://www.qiuquan.cc/?p=11604",
@@ -6635,16 +6705,6 @@
           "wordCount": 929,
           "title": "BT下载工具 qBittorrent 5.1.0.0 标准版 + qBittorrent 5.1.0.10 增强版",
           "imageUrl": "http://www.qiuquan.cc/wp-content/uploads/2025/04/qbittorrent-150x150.png"
-        },
-        {
-          "id": "http://www.qiuquan.cc/?p=10352",
-          "author": "QiuQuan",
-          "description": "UltraSearch是一款速度超快的本地硬盘文件搜索工具，软件采用了NTFS分区的主文件表（MFT）来进行快速索引，能够帮助用户在数秒内找到硬盘上的任意文件。而且ultrasearch界面美观实用，操作简单，用户只需输入查找的文件名，并设置好搜索的硬盘盘符，即可查找出所需的文件，秒杀系统自带的搜索工具。",
-          "link": "http://www.qiuquan.cc/other/ultrasearch.html",
-          "publishedOn": "2025-05-16T14:10:06.000Z",
-          "wordCount": 881,
-          "title": "文件搜索神器 UltraSearch 4.7.0.1164 Professional 直装激活专业版",
-          "imageUrl": "http://www.qiuquan.cc/wp-content/uploads/2025/04/UltraSearch-150x150.png"
         }
       ]
     }
