@@ -4319,16 +4319,6 @@
           "wordCount": 1098,
           "title": "京东 Plus 会员年卡￥49 元开通 / 优惠续费方法 (省钱简单教程)",
           "imageUrl": "https://img.iplaysoft.com/wp-content/uploads/2023/p/jd-plus/jd_plus.jpg"
-        },
-        {
-          "id": "https://www.iplaysoft.com/?p=6347",
-          "author": "X-Force",
-          "description": "如果你受够了电脑弹窗广告、开机卡成狗、右键菜单乱如麻、硬盘空间被垃圾占满，今天安利的这个 PC 优化神器小工具合集绝对能让你直呼“得救了”！\n这就是火绒 6.0 独立小工具绿色提取版——你无需安装完整的火绒安全软件，也不必长期驻留后台，就能直接使用这些实用功能，堪称“电脑优化急救包”。这些绿色版小工具包括：右键管理、启动项管理、垃圾清理、文件粉碎、流量监控等等，每一款都超级实用……\n「 前往查看原文.... 」\n异次元还有这些值得一看：\n\nContextMenuManager - 开源免费绿色 Windows 右键菜单清理管理工具 (隐藏删除菜单项)\nSandboxie 沙盘工具免费了！知名经典的沙盒虚拟环境软件/隔离测试/多开程序\nOpenHashTab - 我愿称为 Win 坠好用的右键查看文件 Hash 哈希值校验工具 (开源免费)\n是真货！微软电脑管家 3.0 下载 - 清爽无广告！支持 Win11/10 系统优化清理\n\n异次元首页  |  微信公众号  |  关注微博  |  软件精选  |  软件激活码折扣",
-          "link": "https://www.iplaysoft.com/huorong-apps.html",
-          "publishedOn": "2025-05-18T13:11:48.000Z",
-          "wordCount": 1033,
-          "title": "火绒 6.0 小工具合集 - 绿色单文件提取版 (垃圾清理/右键启动项管理/弹窗拦截等)",
-          "imageUrl": "https://img.iplaysoft.com/wp-content/uploads/2025/huorong-apps/huorong.jpg"
         }
       ]
     },
@@ -4338,6 +4328,76 @@
       "siteUrl": "https://www.dayanzai.me",
       "articles": [
         {
+          "id": "http://www.dayanzai.me/?p=66462",
+          "author": "大眼仔~旭",
+          "description": "Stellarium Plus 安卓版是一款功能强大的天文软件，为天文爱好者提供了丰富的功能和特色，使其能够更 […]",
+          "link": "https://www.dayanzai.me/stellarium-plus.html",
+          "publishedOn": "2025-06-16T16:33:51.000Z",
+          "wordCount": 909,
+          "title": "安卓手机版天文星空观测 Stellarium Plus 1.14.3 中文免费版",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.dayanzai.me/?p=73795",
+          "author": "大眼仔~旭",
+          "description": "Escrcpy 中文版是一款开源的 Android 设备远程控制和屏幕镜像软件，它基于 Scrcpy（Scre […]",
+          "link": "https://www.dayanzai.me/escrcpy.html",
+          "publishedOn": "2025-06-16T16:33:26.000Z",
+          "wordCount": 953,
+          "title": "开源远程控制和屏幕镜像工具 Escrcpy 1.29.7 中文免费版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=72444",
+          "author": "大眼仔~旭",
+          "description": "Adobe Photoshop，作为图像处理与设计领域的佼佼者，自 1987 年诞生以来，一直以其强大的功能和 […]",
+          "link": "https://www.dayanzai.me/adobe-photoshop.html",
+          "publishedOn": "2025-06-16T16:28:46.000Z",
+          "wordCount": 969,
+          "title": "图像处理与设计的标杆软件 Adobe Photoshop 2025 v26.8.0 中文版本发布",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=73228",
+          "author": "大眼仔~旭",
+          "description": "Adobe Illustrator 2025 是一款专业级别的矢量图形设计软件，被广泛运用于平面设计、插画创作 […]",
+          "link": "https://www.dayanzai.me/adobe-illustrator.html",
+          "publishedOn": "2025-06-16T16:20:44.000Z",
+          "wordCount": 967,
+          "title": "AI 矢量图形设计工具 Adobe Illustrator 2025 v29.6.0 中文版发布",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=4413",
+          "author": "大眼仔~旭",
+          "description": "开源免费无视觉桌面访问 NVDA 中文版由大眼仔发布。NVDA (NonVisual Desktop Acce […]",
+          "link": "https://www.dayanzai.me/nvda.html",
+          "publishedOn": "2025-06-16T16:12:26.000Z",
+          "wordCount": 1320,
+          "title": "开源免费无视觉桌面访问 NVDA 2025.1 中文多语免费版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=42962",
+          "author": "大眼仔~旭",
+          "description": "Mac 矢量绘图软件 Sketch 中文版由大眼仔旭整理发布。Sketch 是一款适用于所有设计师的矢量绘图应 […]",
+          "link": "https://www.dayanzai.me/sketch.html",
+          "publishedOn": "2025-06-15T23:20:10.000Z",
+          "wordCount": 898,
+          "title": "Mac 矢量绘图软件 Sketch 2025.1.2 中文多语免费版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=40823",
+          "author": "大眼仔~旭",
+          "description": "Maplesoft Maple 2025 中文版由大眼仔旭发布。Maplesoft 于 2025 年正式发布了 […]",
+          "link": "https://www.dayanzai.me/maplesoft-maple.html",
+          "publishedOn": "2025-06-15T16:43:03.000Z",
+          "wordCount": 952,
+          "title": "数学科学工程计算软件 Maplesoft Maple 2025.0 x64 中文多语免费版",
+          "imageUrl": null
+        },
+        {
           "id": "http://www.dayanzai.me/?p=12494",
           "author": "大眼仔~旭",
           "description": "PeaZip Portable 由大眼仔旭发布。PeaZip 中文版是可以在 Microsoft Window […]",
@@ -4345,6 +4405,16 @@
           "publishedOn": "2025-06-15T16:30:21.000Z",
           "wordCount": 1148,
           "title": "优秀免费压缩文档管理工具 PeaZip 10.5.0 + x64 中文多语免费版",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.dayanzai.me/?p=9191",
+          "author": "大眼仔~旭",
+          "description": "CrystalDiskMark 9.0 绿色中文版由大眼仔旭发布。在计算机硬件领域，存储设备的性能对于整体系统 […]",
+          "link": "https://www.dayanzai.me/crystaldiskmark.html",
+          "publishedOn": "2025-06-15T16:30:03.000Z",
+          "wordCount": 966,
+          "title": "绿色免费的硬盘检测工具 CrystalDiskMark 9.0.0 + x64 绿色单文件版",
           "imageUrl": null
         },
         {
@@ -5966,46 +6036,6 @@
           "wordCount": 1540,
           "title": "开源待办事项列表 ToDoList 9.0.13 中文绿色免费版",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.dayanzai.me/?p=74827",
-          "author": "大眼仔~旭",
-          "description": "LizardSystems Wi-Fi Scanner 是一款专为 802.11a/b/g/n/ac/ax 标 […]",
-          "link": "https://www.dayanzai.me/wi-fi-scanner.html",
-          "publishedOn": "2025-05-18T07:35:47.000Z",
-          "wordCount": 941,
-          "title": "无线网络扫描与分析工具 LizardSystems Wi-Fi Scanner 25.05 中文便携版",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=13990",
-          "author": "大眼仔~旭",
-          "description": "Fastcopy Pro 5 中文版由大眼仔旭（www.dayanzai.me）发布。Fastcopy Pro […]",
-          "link": "https://www.dayanzai.me/fastcopy.html",
-          "publishedOn": "2025-05-17T16:35:28.000Z",
-          "wordCount": 1061,
-          "title": "Windows 复制拷贝增强工具 Fastcopy 5.9.0 + x64 绿色中文版",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=71189",
-          "author": "大眼仔~旭",
-          "description": "LizardSystems Change MAC Address 是一个超级易于管理的应用程序，适合任何想要更 […]",
-          "link": "https://www.dayanzai.me/change-mac-address.html",
-          "publishedOn": "2025-05-17T16:30:47.000Z",
-          "wordCount": 959,
-          "title": "MAC 地址更改工具 Change MAC Address 25.05 中文多语免费版",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.dayanzai.me/?p=40815",
-          "author": "大眼仔~旭",
-          "description": "BandLab Cakewalk 29 中文版保留了SONAR 所有的核心功能，可以说是一个完整的数字音频工作 […]",
-          "link": "https://www.dayanzai.me/bandlab-cakewalk.html",
-          "publishedOn": "2025-05-17T16:29:32.000Z",
-          "wordCount": 1014,
-          "title": "数字音乐制作软件 BandLab Cakewalk 29.09.0.125 x64 中文离线安装包",
-          "imageUrl": null
         }
       ]
     },
@@ -6026,6 +6056,26 @@
       "feedUrl": "http://www.qiuquan.cc/feed",
       "siteUrl": "http://www.qiuquan.cc",
       "articles": [
+        {
+          "id": "http://www.qiuquan.cc/?p=11641",
+          "author": "QiuQuan",
+          "description": "万兴亿图图示 (Wondershare EdrawMax) 是一站式跨平台综合办公绘图软件。涵盖210余种办公绘图类型，流程图、思维导图、组织结构图、网络图、平面布置图，图文混排，一软搞定。",
+          "link": "http://www.qiuquan.cc/other/edrawmax.html",
+          "publishedOn": "2025-06-16T03:45:34.000Z",
+          "wordCount": 889,
+          "title": "万兴亿图图示 Wondershare EdrawMax 14.5.1.1300 直装破解版",
+          "imageUrl": "http://www.qiuquan.cc/wp-content/uploads/2025/06/EdrawMax-150x150.png"
+        },
+        {
+          "id": "http://www.qiuquan.cc/?p=11636",
+          "author": "QiuQuan",
+          "description": "Adobe Premiere Pro 是一款专业的视频编辑软件及影视、后期视频剪辑软件。Adobe Premiere Pro多国语言特别版可以在RGB和YUV色彩空间以高达32位色彩分辨率对4K超清视频及360/VR视频编辑,支持VST音频插件和5.1环绕声音轨，可以导入和导出QuickTime或DirectShow，支持所有音频及视频编码格式。",
+          "link": "http://www.qiuquan.cc/convert/premiere.html",
+          "publishedOn": "2025-06-16T02:10:27.000Z",
+          "wordCount": 932,
+          "title": "Adobe Premiere Pro 2025 v25.3.0.084 直装破解版 By：m0nkrus",
+          "imageUrl": "http://www.qiuquan.cc/wp-content/uploads/2025/06/premiere-150x150.png"
+        },
         {
           "id": "http://bak.qiuquan.cc/?p=4179",
           "author": "QiuQuan",
@@ -6695,16 +6745,6 @@
           "wordCount": 1416,
           "title": "扫描仪增强工具 VueScan 9.8.45.19 简体中文专业版 | 安装版 + 便携版",
           "imageUrl": "http://www.qiuquan.cc/wp-content/uploads/2024/12/VueScan-150x150.png"
-        },
-        {
-          "id": "http://www.qiuquan.cc/?p=10406",
-          "author": "QiuQuan",
-          "description": "qBittorrent 是一个新的轻量级 BitTorrent 客户端，可运行于 Linux 及其他可能系统，它简单易用，漂亮的外观，功能强大。现在它可以被视为一个良好的替代其他 BitTorrent 软件的客户端。",
-          "link": "http://www.qiuquan.cc/download/qbittorrent.html",
-          "publishedOn": "2025-05-17T16:00:46.000Z",
-          "wordCount": 929,
-          "title": "BT下载工具 qBittorrent 5.1.0.0 标准版 + qBittorrent 5.1.0.10 增强版",
-          "imageUrl": "http://www.qiuquan.cc/wp-content/uploads/2025/04/qbittorrent-150x150.png"
         }
       ]
     }
