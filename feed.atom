@@ -2,10 +2,423 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://allceo.github.io/feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-06-23T01:43:54.821Z</updated>
+    <updated>2025-06-24T01:38:40.479Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://allceo.github.io/feed/index.html"/>
     <link rel="self" href="https://allceo.github.io/feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[腾讯视频 11.123.3369 去广告精简版]]></title>
+        <id>http://bak.qiuquan.cc/?p=4260</id>
+        <link href="http://www.qiuquan.cc/inside/qqlive.html"/>
+        <updated>2025-06-23T16:02:19.000Z</updated>
+        <summary type="html"><![CDATA[腾讯视频播放器是腾讯视频旗下的客户端产品，是一款支持丰富内容的在线点播及电视台直播的软件。它采用了先进的P2P流媒体播放技术，可以确保在大量用户同时观看节目的情况下，节目依然流畅清晰；同时具有很强的防火墙穿透能力，为用户在任何网络环境下收看流畅的视频节目提供了有力保障。]]></summary>
+        <author>
+            <name>QiuQuan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[聊聊4个出海中最常见误解]]></title>
+        <id>https://www.woshipm.com/it/6234390.html</id>
+        <link href="https://www.woshipm.com/share/6234390.html"/>
+        <updated>2025-06-23T13:18:57.000Z</updated>
+        <summary type="html"><![CDATA[探讨中国企业在出海过程中常遇到的误解，分析成功出海的关键要素，助力企业更好地理解和应对海外市场的挑战与机遇。
+
+每次提到出海，很多人脑子里蹦出来的第一个词就是：
+成本战略。
+好像只要中国企业走出去，一定靠着“便宜”打天下。但问题是：这套打法，现在还管用吗？
+中国在人工和原材料方面确实还有一定优势，但早就不是“白菜价”了。
+过去10年，中国制造业的用工成本几乎翻了一倍，有些行业甚至涨得更多。原材料价格也受全球供应链、能源政策和环保要求的影响，一路上涨。
+这些变化倒逼企业必须升级，推动自动化、智能化技术的普及，而在海外，竞争也不再只是拼价格那么简单了。
+所以，如果还觉得“便宜就能赢”，那这条路只会越走越窄；我认为，真正推动中国企业走出去的，是供需错配带来的结构性机会。
+什么是供需错配？别着急，我跟你讲几个案例：
+
+2015年，一家叫影石的中国公司刚刚成立。那时，运动相机市场几乎被GoPro垄断；这家初创企业没有硬刚，也没有靠价格战去拼，而是找到了一个别人没做、但用户需要的场景缺口：滑雪拍摄。
+滑雪者高速滑行，动作剧烈，普通相机抖得根本没法看。而影石就抓住痛点，做出了全球第一款自带超强防抖功能的运动相机，这一下子戳中了Vlogger、极限运动爱好者的心窝。
+几年后，它不仅站稳了脚跟，还反向打入美国市场，成为GoPro的劲敌，这不是靠便宜赢的，而是靠“精准满足需求”。
+这就是我说的“供需错配”：国内积累的能力，刚好能解决国外市场的缺口。而这些缺口，要么别人没发现，要么比人做不了。
+所以，影石Insta360的开始，是利用“小切口”突围。
+从经济学角度来说， 供需错位指某个市场，存在明显的供给不足或需求没有被满足；这个时候，如果有外部力量带着更高效、更低成本、更懂用户的解决方案进入，就能迅速占据一席之地。
+这才是中国企业要在海外做的事情，不是说你有一瓶矿泉水，你带到国外去卖，是带着能…]]></summary>
+        <author>
+            <name>王智远</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[技术越强越没有选择权？]]></title>
+        <id>https://www.woshipm.com/it/6234389.html</id>
+        <link href="https://www.woshipm.com/share/6234389.html"/>
+        <updated>2025-06-23T13:04:56.000Z</updated>
+        <summary type="html"><![CDATA[在字节跳动等头部企业的引领下，求职市场风向加速转变，薪资与技能要求的匹配度成为关键。求职者需紧跟步伐，提升竞争力，以适应不断变化的职场环境。
+
+看了一个采访，是谷歌前CEO埃里克·施密特的。
+看完后，我挺震撼。他用一种特别系统、冷静的视角，把未来讲得既清晰又让人警觉。
+他说，技术带来的不只是机会，还有我们还没准备好应对的风险。所以，我认为内容很有价值，希望分享给你。
+我印象最深的，是埃里克讲到关于“价值观”的重要性。
+他说了一句话，很直接：
+如果你不知道自己为什么做一件事，那你就会很容易被别人的价值观带跑。
+
+这句话听起来简单，但特别有力。它其实在提醒我们：在这个技术爆炸、信息泛滥的时代，人最核心的东西，价值观，很最容易被冲散。
+现在每天都有新工具、新平台、新趋势冒出来。AI、算法、社交媒体……这些东西本身没有立场，它们是工具。真正决定这些工具走向的，是我们怎么用它们。
+所以埃里克说，一个人必须清楚自己的价值观是什么。
+他说他自己每天早上起床后第一件事，不是看手机，也不是开例会，而是花点时间静下来，问自己几个问题：
+我今天想成为什么样的人？我想坚持什么？这不是鸡汤，而是一种“锚定”；就像一艘船，风再大、浪再高，只要锚还在，就不会飘走。
+他还提到一个很有意思的观点：人生其实是分阶段的。
+0到25岁，是积累资源的阶段；25到50岁，是建立影响力的时候；50岁之后，就应该把重心转向回馈社会；这个阶段论，在西方很常见，但在我们这里听起来也不陌生。
+它有点像我们讲的“修身齐家治国平天下”，从小到大，从自我成长到社会责任。
+但他还补充了一句：
+价值观不是静态的，它是动态的；年轻时你可能更关注自由、成长、机会；到了中年，你会更看重责任、影响、传承，关键是你得主动去定义它、表达它、实践它，而不是等到别人替你决定。
+这让我想到一个问题：在这个越来越依赖算法和数据的时代，你还知道自己想要什么吗…]]></summary>
+        <author>
+            <name>王智远</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[苹果新设计活了！读懂Liquid Glass，看透未来十年]]></title>
+        <id>https://www.woshipm.com/it/6234385.html</id>
+        <link href="https://www.woshipm.com/share/6234385.html"/>
+        <updated>2025-06-23T12:50:02.000Z</updated>
+        <summary type="html"><![CDATA[苹果推出全新Liquid Glass设计哲学，带来未来十年设计新风向。本文深入剖析其设计理念及特性，助力设计师们把握前沿趋势。
+
+自从苹果发布了他们近些年来最重大的视觉风格更新，以苹果的影响力，已经带动了一波设计趋势，全球的设计师都在用液态设计作品。在设计平台和开发者平台上，都已经有了很多设计作品和开发工程，大家都在模仿学习以及实现。
+
+
+液态玻璃已然成为未来10年最重大的设计趋势，所以最近一周以来，我对它进行了比较深入的研究，我把苹果官网，Medium，Behance，Dribbble，优设之类的资料基本上都拿来研究学习。
+现在，我越来越觉得这套设计真的还不错，苹果依然是引领设计趋势的那个老大哥。所以，我想把我学习的笔记跟大家进行分享，不敢说多深入，毕竟还没有广泛被应用，但开始学习就是理解它的第一步。
+Liquild Glass的设计理念
+其实Liquid Glass 是苹果设计理念的一种延续，并非简单为了视觉效果而炫技，它为苹果生态系统中的应用和系统体验，引入了一个灵活、动态的设计表达。
+Liquid Glass 是苹果继扁平化、拟物化和空间玻璃之后，推出的全新一代设计哲学。它不仅仅是一种视觉风格，更是一套完整的、以物理光线和流体动力学为基础的交互体验框架。其核心在于模拟光线穿透不同密度、形态的玻璃介质时产生的折射、反射和焦散效果，并赋予界面元素以“液态”的流动性和响应性，创造出既清晰直观又富有生命力的沉浸式体验。
+这套设计语言旨在模糊物理世界与数字世界的边界，让用户感觉自己不是在“操作”界面，而是在与一个有质感、有回应的“材质”进行互动。
+设计上的延续性是从 Mac OS X 的 Aqua 用户界面开始的，
+
+到iOS 7 的实时模糊效果
+
+到iPhone X 的流畅性
+
+再到灵动岛的灵活性
+
+再到 visionOS 的沉浸式界面。
+
+在苹果所理解的设计中，延续性不只…]]></summary>
+        <author>
+            <name>彩云sky</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BT下载工具 qBittorrent 5.1.1.0 标准版 + qBittorrent 5.1.0.11 增强版]]></title>
+        <id>http://www.qiuquan.cc/?p=10406</id>
+        <link href="http://www.qiuquan.cc/download/qbittorrent.html"/>
+        <updated>2025-06-23T11:30:46.000Z</updated>
+        <summary type="html"><![CDATA[qBittorrent 是一个新的轻量级 BitTorrent 客户端，可运行于 Linux 及其他可能系统，它简单易用，漂亮的外观，功能强大。现在它可以被视为一个良好的替代其他 BitTorrent 软件的客户端。]]></summary>
+        <author>
+            <name>QiuQuan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI不是你的助理，是你的合伙人：副业搞钱者要精通的6个“指挥级”AI提示词]]></title>
+        <id>https://www.woshipm.com/it/6234304.html</id>
+        <link href="https://www.woshipm.com/share/6234304.html"/>
+        <updated>2025-06-23T11:28:59.000Z</updated>
+        <summary type="html"><![CDATA[在副业的浪潮中，AI可以成为你的得力合伙人，而非仅仅是工具。本文将为你揭秘如何通过6个“指挥级”AI提示词，精准高效地利用AI，为你的副业项目注入强大动力，实现从灵感枯竭到内容爆棚的转变。
+
+你是不是也觉得，你那个AI，不管是ChatGPT还是别的什么，就是个“人工智障”？让它写个文案，写得句子不通；让它想个点子，想得比白开水还淡。
+你折腾半天，最后还得自己上手改，累得半死，然后跟朋友吐槽：“AI也就图一乐。”
+大错特错。
+你的AI很笨，根源在于你是个糟糕的“老板”。
+你用对待Siri的口气去使唤一个潜力无限的“员工”，指望它给你惊喜？显然是不可能的！
+你得学会给它下“指令”，是那种让它没法偷懒、没法敷衍的、具体的、带着要求的指令。
+别再问“帮我写个XX”了。
+那是乞讨，不是命令。
+下面这6个提示词公式，把AI从一个“实习生”调教成你副业项目里核心“合伙人”的秘诀。
+1 别再瞎猜你的客户是谁
+搞副业最怕什么？一腔热血，全凭“我感觉”。
+我感觉这个产品会火，我感觉我的客户是年轻人…“感觉”一文不值。
+你需要知道你的客户到底是谁，他在为什么事睡不着觉。
+以前这事儿得花钱找咨询公司，现在，我让AI给我当免费的市场总监。
+我是这么跟它说的，你感受下这个口气：“听着，现在开始，你不是AI。你是一个在市场上混了十年的老手，做消费者洞察的，眼光毒辣，说话一针见血。
+现在我这有个想法，你给我把把脉。我想[在这里说你的副-业，比如：在网上卖我自己设计的、很简约的手冲咖啡壶]。
+我觉得这[说你的产品特色，比如：颜值高、有逼格]，应该能卖给[说你猜的客户，比如：城里那些爱装文艺的白领]。现在，你给我一份报告，别整那些虚头巴脑的，我要看干货：
+1.给我整三个人出来。不是“男，25岁”那种，是要有名字有职业有收入，连他妈的价值观和生活方式都要有。最关键的，他喝咖啡到底是为了啥？
+2.这三个人现在买同…]]></summary>
+        <author>
+            <name>抖知书</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[本地生活服务进化之路：一个内行人眼中的美团，早期地推蹲店擦桌换合作！]]></title>
+        <id>https://www.woshipm.com/it/6234303.html</id>
+        <link href="https://www.woshipm.com/share/6234303.html"/>
+        <updated>2025-06-23T11:26:26.000Z</updated>
+        <summary type="html"><![CDATA[在本地生活服务行业蓬勃发展的 15 年里，美团从团购时代一路走来，其发展历程极具代表性。早期依靠 “地推铁军” 在百团大战中脱颖而出，后续又通过 “服务商模式” 不断巩固优势，构建起庞大而稳固的商业生态。本文将带你深入了解美团本地生活服务的进化之路。
+
+自 2010 年美团、窝窝团、拉手等平台开启团购时代至今，本地生活商业模式已走过 15 年。不知大家是否还记得在团购网站购买的第一单商品或服务？作为从 2010 年便进入到这个行业的人，我见证了这本地生活个行业这段完整的发展历程。
+本地生活模式本身也经历了逐步的演变：从最初早期的 “每日一团”，逐渐发展为 “每日多团”，最终走向今天的生活服务商品常态化销售。
+而作为本地生活平台前台能够支撑多单、常态化的销售，核心基础在于庞大的本地生活服务商家签约密度。因此，昔日的 “百团大战”，争夺焦点不仅仅是用户，更是商户资源的签约覆盖密度。
+第一阶段（2010 – 2015）：百团大战里的 “地推铁军”，用脚步丈量城市版图
+那么，这些早期团购网站是如何实现商户规模化签约的呢？头部平台主要采取了自建地面推广团队的策略。这种模式很大程度上借鉴了阿里 B2B “销售铁军” 的经验。
+一线地面团队的商务拓展人员（BD），其核心职责是在所负责区域内拜访商户并完成签约。为了达到平台对商户签约密度的要求，地面销售团队的覆盖密度也必须下沉到街道级别。因此，这场竞争的本质演变为比拼谁家的地面团队规模更大、分布更广 —— 而这无疑需要投入巨额成本来支撑。
+标准化谈判手册：每一页印着 “商家三问”（线上曝光能多卖多少单？团购价如何保证利润？美团抽佣比对手低多少？），甚至连话术节奏都有讲究：先算线下租金成本，再摆竞争对手案例，最后掏出计算器演示团购引流的 ROI。
+地推铁军纪律：每天必须拜访 15 家新商家，签约率纳入绩效考核。曾有地推团队为拿下长沙某网红米粉…]]></summary>
+        <author>
+            <name>闯爷</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[为什么消费者爱晒labubu？]]></title>
+        <id>https://www.woshipm.com/it/6234287.html</id>
+        <link href="https://www.woshipm.com/marketing/6234287.html"/>
+        <updated>2025-06-23T11:04:57.000Z</updated>
+        <summary type="html"><![CDATA[从明星姚晨到普通消费者，Labubu的热度不断攀升，甚至引发了社交媒体上的广泛讨论。本文将深入探讨消费者为何热衷于晒Labubu，揭示其背后所蕴含的社交货币价值和社会价值，供大家参考。
+
+朋友圈最近的Labubu含量有点高，最近买了、家里有的朋友都在晒。
+就连明星姚晨昨天都晒出了她去年买的Labubu，并戏称是自己人生中唯一盈利的投资。于是，#姚晨晒去年买的限量版labubu#、#姚晨称labubu是人生中唯一盈利的投资#、#姚晨晒Labubu原价499元被炒至4999元#、#泡泡玛特回应姚晨晒限量版Labubu#连上好几个热搜。
+
+作为一个职业病经常发作的广告人，那么我就在想了——消费者为什么会晒某个品牌或产品？什么样的品牌拥有更高的被晒机率？
+对于现代营销来说，消费者购买之后的分享、推荐等行为对于品牌的价值毋庸置疑。这一点我就不论述了。
+据我分析，消费者之所以愿意晒，是因为晒单这种行为给消费者提供了两种价值：
+一是社交货币
+最近这个产品在风口浪尖上，话题热度非常高，大家都在关注和谈论，那么消费者如果购买了或者近距离接触了该产品，就愿意分享出来，就像最近的labubu，去年以来的小米SU7，再或者2023年茅台和瑞幸推出的酱香拿铁。
+
+这代表该消费者站在社会潮流第一线，及时拥抱新事物、新观念，且与社会流行保持一致。而如果该产品已经过气了，大家已经不再关注和谈论它了，这时消费者再购买该产品一般就不会晒了，因为这代表着自己落伍了。
+二是社会价值
+该品牌能够彰显消费者的身份、社会地位，或者展示消费者个人独特的个性态度、品味与审美、生活方式。消费者对该产品的购买和晒单，已经不再是单纯消费产品的物理属性，而是一种对于符号和意义的消费。
+社会价值又叫象征价值，是品牌的三大核心价值之一。当然这种价值也可以说是社交货币，但是上面那种行为更符合带来话题和谈资的社会货币属性。
+围绕社会价值的…]]></summary>
+        <author>
+            <name>空手</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[搜狐影音 7.2.5.0 去广告精简版]]></title>
+        <id>http://bak.qiuquan.cc/?p=4231</id>
+        <link href="http://www.qiuquan.cc/inside/shplayer.html"/>
+        <updated>2025-06-23T10:55:00.000Z</updated>
+        <summary type="html"><![CDATA[搜狐影音是搜狐视频官方推出的一款全新体验视频加速播放器。搜狐视频播放器支持本地主流音视频媒体格式播放及在线视频点播和近百个卫视和地方台直播。]]></summary>
+        <author>
+            <name>QiuQuan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[谈谈低空经济]]></title>
+        <id>https://www.woshipm.com/?p=6234110</id>
+        <link href="https://www.woshipm.com/share/6234110.html"/>
+        <updated>2025-06-23T09:38:39.000Z</updated>
+        <summary type="html"><![CDATA[低空经济在2024-2025年迅速崛起，成为全球关注的热点领域。它以低空飞行活动为核心，涵盖通用航空、无人机、电动垂直起降飞行器（eVTOL）等多个产业形态，应用场景广泛，包括交通出行、物流配送、农业植保等。本文将深入探讨低空经济的定义、主要特征、产业构成，以及其爆发式增长背后的原因，包括政策驱动、技术突破、市场需求和产业链协同等多重因素的叠加效应。
+
+低空经济在2024-2025年迅速崛起，成为全球关注的热点领域，那么为什么会突然爆火，其背后的原因是什么？在弄清楚之前，先弄明白什么是低空经济？
+定义
+低空经济（Low-altitude Economy）是一种新型的综合性经济形态。它以低空飞行活动为核心，以有人或无人驾驶飞行、低空智联网等技术组成的新质生产力与空域、市场等要素相互作用，带动低空基础设施、低空飞行器制造、低空运营服务和低空飞行保障等发展。
+低空经济包括低空制造、低空飞行、低空保障以及综合服务四个方面，横跨第一、第二、第三产业 。其相关产品主要有无人机、电动垂直起降飞行器（eVTOL）、直升机、传统固定翼飞机等，涉及市政管理、居民消费和工业应用等多种应用场景。低空经济的应用场景包括交通出行、物流配送、农业植保等方面，具有空间多维性、产业整合性、技术经济性的特征。
+主要特征
+根据产品类型不同，又可分为通用航空、无人机、eVTOL三个产业形态。低空经济的应用场景包括交通出行、物流配送、农业植保等方面，具有空间多维性、产业整合性、技术经济性的特征。
+空间多维性
+低空经济围绕低空空域这一立体化空间展开，蕴含巨大的经济价值。其既包括低空空域的飞行活动，又要与传统地面空间资源协同联动，低空制造、低空保障与综合服务主要在地面运作，为低空飞行提供产品、服务和基础设施支持。因此，虽然低空经济的关键资源和主要活动场所在低空空域，但这一综合性经济形态需要统合空间与地面资源，更好地做到…]]></summary>
+        <author>
+            <name>大厂毕业的厨子</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【超实用】B2B企业免费营销的8个策略、实战方法和成功案例]]></title>
+        <id>https://www.woshipm.com/?p=6234149</id>
+        <link href="https://www.woshipm.com/share/6234149.html"/>
+        <updated>2025-06-23T09:25:03.000Z</updated>
+        <summary type="html"><![CDATA[在经济下行的背景下，B2B企业面临着巨大的营销挑战。如何在有限的预算下实现有效的市场推广和客户增长，成为许多企业亟待解决的问题。本文将为你揭秘8种免费营销策略，以及4个国外知名SaaS公司的成功案例，帮助你在存量市场中精准触达客户、最大化现有资源价值、建立深层信任，并优化用户转化路径。
+
+当资源有限的时候，不要浪费任何一颗子弹。
+——题记
+在经济下行、存量市场为主的背景下，B2B企业进行免费营销的核心在于：精准触达、最大化现有资源价值、建立深层信任、并优化用户转化路径。以下是一些国外知名SaaS软件公司行之有效的8个策略和4个知名公司成功案例分析，希望对我国企业有帮助。真心说一句，希望我国的SaaS软件企业能好好向国外优秀SaaS企业学习，专注提升自己的产品价值和营销能力，不要再进行价格战的恶性竞争了！如下：
+B2B企业免费营销的8个核心策略
+1. 内容营销 & SEO (核心中的核心)
+* 策略：
+创作深度、有价值的内容，精准解决目标客户的痛点（尤其是在降本增效、风险管理、提升效率方面的痛点）。
+* 免费营销实战方法：
+深耕博客：发布问题解决方案、行业趋势洞察、最佳实践指南。针对长尾关键词优化。
+提供高价值资料：如电子书、白皮书、模板、清单。需要用户注册（邮箱）下载，用于线索捕获。案例：几乎所有成功的SaaS公司（如HubSpot, HubSpot Academy）都以此建立庞大的潜在客户池。
+客户案例证言：这是最强有力的信任状。详细描述客户如何使用你的产品在困难时期取得成果（如降低成本XX%、效率提升XX%）。发布在官网、博客、社交媒体。案例： Slack、Zoom、Notion的官网都有大量详实案例，是其销售过程中不可或缺的工具。
+SEO优化：确保网站、博客内容针对目标关键词优化，争取免费的自然搜索流量。这是一个需要持续投入但成本极低的获客渠道。
+2. 用户社区运营
+…]]></summary>
+        <author>
+            <name>flyfish315</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[京东正式开源Taro on HarmonyOS C-API 版本，为鸿蒙应用跨端开发提供高性能框架]]></title>
+        <id>https://www.woshipm.com/?p=6234219</id>
+        <link href="https://www.woshipm.com/share/6234219.html"/>
+        <updated>2025-06-23T09:00:12.000Z</updated>
+        <summary type="html"><![CDATA[近日，京东正式开源了Taro on HarmonyOS C-API 版本，为鸿蒙应用跨端开发提供高性能框架。这次版本的发布，带来了更丰富的样式适配、更高效的渲染性能、更全面的组件支持，让开发者以Web范式的方式来开发出媲美鸿蒙性能的应用，为鸿蒙应用生态的丰富注入强大的动力。
+
+图：京东鸿蒙版应用
+整体技术架构
+Taro on HarmonyOS 技术方案支持开发者使用 React DSL 来开发鸿蒙应用，在整体架构上可以简单分为三层：
+
+图：Taro on HarmonyOS React
+最上层是应用业务代码所在的 ArkVM 层，这一层在 C-API 版本中主要运行业务代码、React 的核心代码以及少量的 Taro 运行时代码。
+中间层是 Taro 的 CSSOM 和 TaroElement 树，负责处理上层 Taro 运行时代码传递下来的指令，比如 TaroElement 节点树创建，绑定关系以及设置属性等操作。
+最下层存放的是 TaroRenderNode 虚拟节点树，这棵节点树和真正的上屏节点树是一一对应的关系，同时在 TaroRenderNode 节点树内会创建对应的 Yoga 节点。
+
+图：Taro on HarmonyOS React DOM
+同时，Taro还基于鸿蒙提供的VSync机制设置一套任务处理管线，来处理中间层和下层节点树产生的样式匹配、节点测量、节点布局、样式设置以及节点上屏等任务，来保证任务的时序性和最后上屏渲染结果的正确性。
+重点特性
+在特性方面，Taro on HarmonyOS 技术方案具备“丰富的能力支持、媲美 ArkTS 的高性能、支持 C-API 渲染模式”等三大重点特性。
+（1）丰富的能力支持
+C-API 版本的 Taro on HarmonyOS支持常用组件和 API ，不仅支持React 18+，还支持View、Text、Im…]]></summary>
+        <author>
+            <name>华为开发者联盟</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[时隔 14 个月，Listen1 竟然更新了！]]></title>
+        <id>https://www.appinn.com/listen1/</id>
+        <link href="https://www.appinn.com/listen1/"/>
+        <updated>2025-06-23T08:03:35.000Z</updated>
+        <summary type="html"><![CDATA[Listen1 是一款可以搜索和播放来自网易云音乐，QQ音乐，酷狗音乐，酷我音乐，Bilibili，咪咕音乐、千千音乐歌曲的 Windows、macOS、Linux 开源项目，使用最宽松的 MIT 授]]></summary>
+        <author>
+            <name>青小蛙</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ideogram：唯一的限制是想象力]]></title>
+        <id>https://www.woshipm.com/?p=6234006</id>
+        <link href="https://www.woshipm.com/ai/6234006.html"/>
+        <updated>2025-06-23T06:49:52.000Z</updated>
+        <summary type="html"><![CDATA[在AI图像生成领域，一个新兴的工具正在迅速崭露头角，它就是Ideogram。这个由前Google Brain团队创立的文生图工具，以其强大的文本渲染能力和极低的使用门槛，迅速吸引了设计师、社交媒体创作者和普通用户的关注。本文将带你深入了解Ideogram的核心功能、技术亮点以及它的商业化策略，探索这个“唯一的限制是想象力”的AI工具如何在竞争激烈的市场中脱颖而出，成为创意设计领域的新宠。
+
+给大家推荐一个可以玩一天的AI 工具吧……亲测，超好玩！！
+今天的主角是：Ideogram，网址👉https://ideogram.ai/
+01 Ideogram 是什么
+简单来说，Ideogram 是一个文生图工具，它最大的特点是能准确的按你描述的文本生成图片，操作非常简单，会打字就行。这也是其他AI图像工具如 Midjourney 和 Stable Diffusion 的短板。
+你只要把想要的图片描述出来，不需要复杂的设置或者专业的prompt，Ideogram 就可以高度还原你描述的图片。
+我打开最近很火的“偷鱼小猫”的prompt，可以看到，Ideogram 的文字还原能力非常强，对用户来说，使用门槛更低，也支持中文输入。
+
+你也可以从其他人生成的作品中找灵感，或者干脆使用你喜欢的图片风格，然后使用相同的 Prompt 即可：
+
+（我直接使用了左图的prompt，生成右图）
+Ideogram由前Google Brain研究团队在2022年创立，2023年推出Ideogram。创始团队曾深度参与Google的Imagen图像生成系统开发，其技术基因奠定了Ideogram在文本渲染领域的突破基础。
+
+公司成立不足两年即跃升为AI生成领域明星企业，其核心定位是解决主流AI绘图工具（如Midjourney/DALL·E）长期存在的文字生成不可控问题，通过差异化技术路线打开市场缺口：
+种…]]></summary>
+        <author>
+            <name>张艾拉</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[新手抖店90%都踩过这几个坑，我在一次店铺诊断中全看明白了]]></title>
+        <id>https://www.woshipm.com/it/6234078.html</id>
+        <link href="https://www.woshipm.com/share/6234078.html"/>
+        <updated>2025-06-23T06:24:58.000Z</updated>
+        <summary type="html"><![CDATA[新手抖店普遍面临订单少、流量低等问题。作者通过诊断一个典型新手店铺，发现常见问题包括商品管理混乱、广告投放无效、商品信息未优化等。文章详细拆解这些问题，并给出从优化商品信息、精准广告投放到建立运营节奏的实用建议，帮助新手抖店找到破局之路。
+
+上周末，一个刚开抖店一个月的群友找到我，说抖店目前没有订单，让我帮忙看看。
+沟通好远程方式后进入了这位群友的抖音店铺，看完之后，我意识到，这不只是他一个人的问题，其实90%的新手电商，都会踩进这些坑。
+进入这位群友的店铺，我仿佛看到了我最开始做无货源店铺的情况。
+乱七八糟毫无章法的商品管理列表，企图通过批量铺货拉自然流量，商品基础信息一塌糊涂，图片视觉没有统一风格，一眼的无货源店铺调性。
+这几年，很多电商培训机构在教小白开店铺时，一般都从热门类目+无货源铺货开始，因为方式简单粗暴，又可以因为新店前期可以获得自然流量，所以一般都会建议新手每天至少铺20款商品。
+但是问题也随之而来，商品优化、售后客服等很多操作这都是需要人来投入精力去做的，如果没有多余的人力去做这些事情，那么还是趁早放弃这种”短期获利“的想法吧。
+因为不方便放图，整个店铺诊断过程，我就主要以文字形式描述了。
+一、看似开店，其实根本没开始
+我先大概看了下店铺的基本情况，店铺品类主打女装，再看店铺体验分、商品信息、订单信息、动销效果、广告投放、物流绩效、店铺装修等方面。基本情况如下：
+因为目前有广告投流，不是没单，是单量少，平均几天出一单的水平；
+跟自己亲戚工厂合作，为典型无货源亲属代发；
+
+所有商品图文均由工厂直接提供，自己没有重新拍照设计上传；
+有尝试投放广告，但无ROI，无有效数据记录；
+店铺有真实评论，但很少。
+二、5大模块拆解，找到“出不了单”的核心原因
+接着我又从各模块数据维度做了一些总结。
+1、搜索运营：仅有曝光，无点击转化
+近30天搜索曝光人数：2052；搜索点…]]></summary>
+        <author>
+            <name>曙欧巴</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[继Cursor、Devin和Claude Code之后，又一匹AI coding黑马正在快速崛起]]></title>
+        <id>https://www.woshipm.com/it/6234077.html</id>
+        <link href="https://www.woshipm.com/ai/6234077.html"/>
+        <updated>2025-06-23T06:19:45.000Z</updated>
+        <summary type="html"><![CDATA[最近，Sourcegraph 推出的 AI 编程工具 Ampcode 引发关注，成为继 Cursor、Devin 和 Claude Code 之后的新黑马。文章深入探讨 Ampcode 的技术特点、产品哲学及行业影响，指出其通过深度模型理解、反馈循环和子代理功能等创新，重新定义编程工作流，推动 AI 编程工具从同步向异步转变，引领未来编程趋势。
+
+最近这段时间又一匹AI coding黑马正在快速崛起，感兴趣的朋友可以先看下这个视频，在Every最新一期播客里，他们对当前所有AI coding产品做了一个评级分类，而跟Claude code共同排在S级的就是最近Sourcegraph刚推出的Ampcode，而爆火的Cursor也只排在了第二档次的A级。
+
+这其实代表的是一个未来的趋势，从同步的Coding工具转向异步的Agentic Coding，这一转变也完美符合了Andrej Karpathy前几天在YC创业营上演讲提到的LLM OS和Software 3.0的概念。这里再分享一个Claude code负责人的演讲视频，详细讲述了Agentic coding的进化。
+
+
+作为代码搜索和智能工具领域的资深玩家，Sourcegraph 已经深耕企业级开发者工具市场多年。这家成立于 2013 年的公司以其强大的代码搜索平台而闻名，帮助众多大型企业管理和理解复杂的代码库。然而，当 AI 编程工具的浪潮来临时，Sourcegraph 并没有止步于现有的成功，而是选择了一条更加激进的道路。他们的 CEO Quinn 和工程师 Torsten 开始了一场前所未有的实验：能否用短短几周时间，构建出一个完全不同的 AI 编程工具？这个实验的结果，就是现在让整个行业为之震惊的 Amp。
+很有意思的是，他们把整个做产品的过程都以播客系列《Raising an Agent》的形式开源了出来，从中…]]></summary>
+        <author>
+            <name>深思圈</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[当流量撞上私密赛道]]></title>
+        <id>https://www.woshipm.com/it/6234074.html</id>
+        <link href="https://www.woshipm.com/share/6234074.html"/>
+        <updated>2025-06-23T06:11:06.000Z</updated>
+        <summary type="html"><![CDATA[文章分析明星、网红和资本涌入卫生巾市场的原因，指出市场规模增长、高毛利率及信任危机带来的新机会，同时探讨了行业乱象与消费者面临的困境。
+
+看到黄青春写的关于卫生巾市场的文章。
+第一反应是：为什么现在连卖坚果的、做直播的、当明星的都开始抢着搞卫生巾了？
+黄子韬一场直播卖了几千万，东方甄选两天就把库存卖空，三只松鼠也宣布要做卫生巾品牌。这是在卖产品吗？还是都在蹭热度？
+去小红书搜一下，不少女性用户还在为卫生巾的质量提心吊胆：黑点、异味、标长实短……一边是流量狂欢，另一边却是信任危机。
+所以，一片卫生巾背后，藏着什么样的生意经？怎么突然从日用品，变成了明星、网红、资本扎堆的“流量印钞机”？
+01
+先看一组数据：2023年我国女性卫生用品市场规模达703.4亿元，同比增长8.2%。
+虽然2024年的官方数据尚未公布，但艾媒咨询和共研产业研究院等第三方机构普遍认为，市场规模已突破千亿。
+到2025年，各大预测报告一致预计市场将达1500亿元，年复合增长率约为9.5%。
+尽管不同机构采样口径略有差异，但多方交叉验证得出一个结论：卫生巾、护垫销售额每年都在增长。这说明它是一个典型的高频刚需消费品。
+不信的话，我们来算一笔账：
+一个女性从15岁到45岁，大约会经历30年经期时间，每年使用约360片卫生巾（每月30片）；粗略估算，一生要用掉10,800片，再加上产后特殊时期，这个数字可能超过15,000片。
+这种使用频率、用户粘性，几乎是所有消费品梦寐以求的特质，所以，从商业角度来说，这是一块非常诱人的蛋糕。
+但我觉得，真正吸引明星、资本和新品牌入局的还有一个更重要的因素：高毛利率。
+财报数据显示，恒安国际旗下七度空间毛利率高达63.7%，百亚股份自由点也有超过55%的毛利水平。
+这意味着一片出厂价0.3元的卫生巾，最终可能以1元的价格卖给消费者，中间有近40%的利润空间；而且，这个行业几乎…]]></summary>
+        <author>
+            <name>王智远</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[把AI agent用在这一垂直领域，这家公司拿到a16z领投的1700万美元，还让传统经销商预约量暴涨6倍]]></title>
+        <id>https://www.woshipm.com/it/6234071.html</id>
+        <link href="https://www.woshipm.com/ai/6234071.html"/>
+        <updated>2025-06-23T06:01:30.000Z</updated>
+        <summary type="html"><![CDATA[汽车经销商长期受电话漏接、客服高流失率等问题困扰，客户体验和业务发展受限。Toma公司深入行业一线，针对经销商痛点，凭借独特AI语音技术，为每家经销商定制专属AI代理，实现高效电话处理和优质客户服务。其AI系统能深度整合经销商多系统数据，通过不断学习提升服务能力。
+
+你能想象一个汽车经销商每天漏接45%电话的场景吗？这意味着几乎一半想要预约保养、询问配件或购车咨询的客户都被直接晾在了一边。在一个平均利润只有个位数百分比的行业里，这种损失简直是灾难性的。更让人头疼的是，经销商的电话客服部门（BDC）员工流失率接近50%，几乎是全国平均水平的两倍。当我深入了解这个问题时，我发现了一个正在彻底改变汽车零售业的创业公司：Toma。他们刚刚获得了由安德森·霍洛维茨基金（a16z）领投的1700万美元A轮融资，而他们的解决方案正在让全美超过100家经销商重新思考客户服务的本质。
+这个故事的开始很有意思。创始人Monik Pamecha和Anthony Krivonos原本并不打算进入汽车行业，他们在2024年初创立公司时，专注的是银行和医疗领域的AI语音产品。但一通来自俄克拉荷马州经销商的电话改变了一切：”我们快被电话淹没了，你们得过来看看。”就这样，两个硅谷工程师踏上了前往美国中部汽车经销商的旅程，而这趟旅程不仅让他们找到了真正的商业机会，也让我看到了AI如何在最传统的行业中创造最实际的价值。
+深入一线：硅谷工程师的汽车经销商修炼之路
+我觉得最打动我的，是Toma创始团队展现出的那种罕见的创业精神：他们没有坐在硅谷的办公室里闭门造车，而是真正走进了客户的世界。当那位俄克拉荷马经销商看到这两个明显带着硅谷工程师标签的年轻人时，他直接说：”你们看起来就像典型的硅谷工程师，根本不懂这里发生的事情。我给你们安排个计划。”接下来的几周里，Monik和Anthony被”扔”进了这个包含七家门店的…]]></summary>
+        <author>
+            <name>深思圈</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI的“自信”与“偏见”：它有多像人类？]]></title>
+        <id>https://www.woshipm.com/?p=6233800</id>
+        <link href="https://www.woshipm.com/ai/6233800.html"/>
+        <updated>2025-06-23T03:34:14.000Z</updated>
+        <summary type="html"><![CDATA[AI在回答问题时的“自信”与“偏见”引发了人们对它与人类相似性的思考。本文通过实验发现，反复询问AI同一个问题会导致其答案出现出入，甚至产生“幻觉”。这种现象背后，反映了AI在处理重复信息时的不确定性，以及它对人类输入数据的依赖。
+
+最近玩AI发现一个很有意思的事情，也就是反复询问AI同一个问题，比如说历史，它每次给出的答案都略有出入。
+并且在你不断追问的操作下AI会变得“犹豫不决”，重复发送同一个问题二三十次之后，基本上可以让AI开始胡说八道，也就是出现幻觉了。
+
+然后自己思考下为什么会这样，最后在看deepseek的思考链中发现它是在不断的猜测为什么用户又重复的发送同一个问题，它从各种可能性进去分享然后给出答案。
+这个过程就好像是用AI进行图生图一样，比如你一开始给它上传的是一张很普通也很丑的大货车照片。
+
+然后它生成的新图片会基于你发的这个照片有一些变化，但还是能认出来和原图之间的关系。
+可是当你不断重复地让它继续生成，你会发现后面生成的图片就和你刚的那张照片就完全对不上了，到最后都会变成一个人的图片了。
+
+这个原理和你重复问AI同一个问题会出现幻觉，我觉得原理是相同的，因为AI并不知道你真正想要的结果是什么。
+它被创造出来的规则就是满足用户的需求，而用户的需求往往多变又不确定，第一次没能回答出用户满意的答案，用户会继续提问，于是AI就发散它的思维在推演其他可能会让我们满意的回答，但最终可能回答的是更加荒谬的答案。
+
+我前几天在一个AI交流群看到有大佬说这是AI的“不自信”算法导致的，仔细想想也对，但是我又想到“不自信”的又何止是AI，其实我们人类也存在着很多“不自信”。
+
+比如三人成虎的例子，你在大街上散步，突然看到一个人跑过来和你说老虎要来了，你很自信的明白，老虎根本不会出现在城市里。
+可是立马第二个人又跑过来大声的和你讲，老虎来了大家赶紧跑，这时候你会有点怀疑自…]]></summary>
+        <author>
+            <name>镜子别酷</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[产品面试真题解析06：好的产品经理应具备哪些核心能力]]></title>
         <id>https://www.woshipm.com/?p=6233328</id>
@@ -73,6 +486,66 @@ T5 – Tone (自我修炼)：个人特质和持续成长能力
 题图来自Unsplash，基于CC0协议]]></summary>
         <author>
             <name>Kris</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[多系统安装环境 MultiOS-USB 0.9.9 更新发布下载]]></title>
+        <id>http://www.dayanzai.me/?p=70811</id>
+        <link href="https://www.dayanzai.me/multios-usb.html"/>
+        <updated>2025-06-22T16:57:53.000Z</updated>
+        <summary type="html"><![CDATA[目前在重装 Windows 系统中有很多第三方工具，比如一键重装系统软件、制作启动 U 盘工具以及各种开源的启 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[为什么所有浏览器的 User-Agent 都以“Mozilla/”开头？]]></title>
+        <id>https://www.dayanzai.me/?p=75220</id>
+        <link href="https://www.dayanzai.me/web-browser-usage-agents.html"/>
+        <updated>2025-06-22T16:48:59.000Z</updated>
+        <summary type="html"><![CDATA[在浏览网页时，您可能很少注意到浏览器发送给网站的 User-Agent（用户代理）字符串。但如果您查看过这些字 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[优秀免费截图办公工具 PicPick Pro 7.4.0 中文多语便携版]]></title>
+        <id>http://www.dayanzai.me/?p=1815</id>
+        <link href="https://www.dayanzai.me/picpick.html"/>
+        <updated>2025-06-22T16:35:35.000Z</updated>
+        <summary type="html"><![CDATA[PicPick 中文版 今天小编大眼仔旭给大家分享一款绿色免费的优秀截图工具。PicPick 中文版是一款体积 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[免费开源笔记应用程序 Trilium Notes 0.95.0 x64 官方中文免费版]]></title>
+        <id>http://www.dayanzai.me/?p=2056</id>
+        <link href="https://www.dayanzai.me/trilium-notes.html"/>
+        <updated>2025-06-22T16:34:32.000Z</updated>
+        <summary type="html"><![CDATA[免费开源笔记应用程序 Trilium Notes 中文版 由大眼仔旭整理发布。Trilium Notes 是一 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[轻量级 BT 下载工具 qBittorrent 5.1.1 + x64 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=32988</id>
+        <link href="https://www.dayanzai.me/qbittorrent.html"/>
+        <updated>2025-06-22T16:33:26.000Z</updated>
+        <summary type="html"><![CDATA[今天大眼仔旭给大家推荐国外的一款优秀免费的 BT 下载工具 qBittorrent 中文版。qBittorre […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[免费开源图像编辑器 GIMP 3.1.2 x64 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=41814</id>
+        <link href="https://www.dayanzai.me/gimp.html"/>
+        <updated>2025-06-22T16:25:23.000Z</updated>
+        <summary type="html"><![CDATA[GIMP 是一个跨平台的办公图像编辑器由大眼仔旭发布，可用于 GNU/Linux，OS X，Windows 和 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
         </author>
     </entry>
     <entry>
@@ -13306,106 +13779,6 @@ Win11 LTSC 2024 企业精简版 ISO 官方中文原版镜像下载 - 纯净稳�
         <summary type="html"><![CDATA[在数字化教育资源制作以及点读笔内容开发的领域中，OidProducer 凭借其强大的功能和便捷的操作，成为众多 […]]]></summary>
         <author>
             <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[快图浏览“复活”后，发布首个 64 位版本，仅 2.4MB]]></title>
-        <id>https://www.appinn.com/qp-gallery-10-0-alpha/</id>
-        <link href="https://www.appinn.com/qp-gallery-10-0-alpha/"/>
-        <updated>2025-05-25T08:48:22.000Z</updated>
-        <summary type="html"><![CDATA[快图浏览在 @WSTxda 接手后，发布了复活后的首个 64 位版本，安装包仅仅 2.4MB，版本号 10.0 ALPHA，可以在更多现代安卓手机上安装了。@Appinn 在去年11月份，青小蛙介绍过]]></summary>
-        <author>
-            <name>青小蛙</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[如何安装 XAPK 文件？详解 ADB 安装 XAPK 应用的完整教程[安卓]]]></title>
-        <id>https://www.appinn.com/install-xapk-files-adb-tutorial/</id>
-        <link href="https://www.appinn.com/install-xapk-files-adb-tutorial/"/>
-        <updated>2025-05-25T08:11:55.000Z</updated>
-        <summary type="html"><![CDATA[XAPK 文件是一种安卓应用安装包格式，从第三方安卓应用分发平台流行起来，不同于普通的 APK，它包含了多个传统的 .apk 文件和 manifest.json 等文件，无法直接安装。@Appinn]]></summary>
-        <author>
-            <name>青小蛙</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[安卓应用——照片编辑 美易 Picsart v27.5.8 解锁会员专业版]]></title>
-        <id>http://www.qiuquan.cc/?p=9808</id>
-        <link href="http://www.qiuquan.cc/androidsoft/picsart.html"/>
-        <updated>2025-05-24T17:25:33.000Z</updated>
-        <summary type="html"><![CDATA[美易 Picsart 是一款功能强大的摄影软件，在这里拥有超多质感滤镜，让你的照片一秒变高级，双重曝光，给你惊艳效果，炫彩笔刷，清新梦幻，功能强大的专业摄影软件。]]></summary>
-        <author>
-            <name>QiuQuan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[开源 PlayStation 3 模拟器 RPCS3 0.0.36-17966 x64 中文免费版]]></title>
-        <id>http://www.dayanzai.me/?p=71075</id>
-        <link href="https://www.dayanzai.me/rpcs3.html"/>
-        <updated>2025-05-24T16:36:22.000Z</updated>
-        <summary type="html"><![CDATA[RPCS3 中文版是一个多平台开源索尼 PlayStation 3 模拟器和调试器，用 C++ 编写，适用于  […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[音频文件标签编辑器 Metatogger 7.6.3.4 中文多语免费版]]></title>
-        <id>http://www.dayanzai.me/?p=13327</id>
-        <link href="https://www.dayanzai.me/metatogger.html"/>
-        <updated>2025-05-24T16:34:18.000Z</updated>
-        <summary type="html"><![CDATA[音频文件标签编辑器 Metatogger 中文版 由大眼仔旭发布。功能强大且易于使用的标签软件，可让您分类和管 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[优秀代码编辑器 Sublime Text 4 Build 4200 x64 中文免费版]]></title>
-        <id>http://www.dayanzai.me/?p=2370</id>
-        <link href="https://www.dayanzai.me/sublime-text.html"/>
-        <updated>2025-05-24T16:33:17.000Z</updated>
-        <summary type="html"><![CDATA[Sublime text 4 中文版 代码编辑器由大眼仔旭发布。Sublime Text 中文版是一个代码编辑 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[开源免费绘图软件 LazPaint 7.3 + x64 中文多语免费版]]></title>
-        <id>http://www.dayanzai.me/?p=45013</id>
-        <link href="https://www.dayanzai.me/lazpaint.html"/>
-        <updated>2025-05-24T16:32:27.000Z</updated>
-        <summary type="html"><![CDATA[开源免费绘图软件 LazPaint 中文版由大眼仔旭（www.dayanzai.me）发布。LazPaint  […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[YouTube 视频下载器  MassTube 2025 v20.1.6.131 中文免费版]]></title>
-        <id>http://www.dayanzai.me/?p=2273</id>
-        <link href="https://www.dayanzai.me/masstube.html"/>
-        <updated>2025-05-24T16:20:04.000Z</updated>
-        <summary type="html"><![CDATA[MassTube Plus 中文版 YouTube 视频下载器 支持 1080p 下载 MassTube Pl […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ryubing 1.3.1 发布，已关闭 Switch 模拟器 Ryujinx 的一个分支]]></title>
-        <id>https://www.dayanzai.me/?p=74089</id>
-        <link href="https://www.dayanzai.me/ryubing.html"/>
-        <updated>2025-05-24T16:06:29.000Z</updated>
-        <summary type="html"><![CDATA[随着原版 Ryujinx 模拟器在与任天堂进行讨论后被官方团队从 GitHub 撤下，Switch 模拟器社区 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Allavsoft Downloader 3.28.1.9274 注册版 | 安装版 + 便携版]]></title>
-        <id>http://bak.qiuquan.cc/?p=4157</id>
-        <link href="http://www.qiuquan.cc/download/allavsoft.html"/>
-        <updated>2025-05-24T16:00:58.000Z</updated>
-        <summary type="html"><![CDATA[Allavsoft 视频下载器 是一个流行的快速在线视频下载和转换器，以帮助用户快速下载和转换在线电影，让其能在PC、便携式设备，、手机、MP4播放器、电视上更轻松地播放。 强大的视频下载工具可以保存高清，HQ和3D电影在线视频，然后转换为MP4，AVI，WMV，MOV，MKV，FLV，MPG，VOB等，以在各种各样的数码设备播放，包括ipad mini， iPad，iPod，iPhone，谷歌Nexus，Microsoft Surface，Kindle Fire，黑莓，苹果电视，Zune，PSP，PS3，掌上电脑，创意Zen，Xbox，Archos等。]]></summary>
-        <author>
-            <name>QiuQuan</name>
         </author>
     </entry>
 </feed>
