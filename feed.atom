@@ -2,10 +2,329 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://allceo.github.io/feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-07-13T01:50:14.439Z</updated>
+    <updated>2025-07-14T01:46:13.692Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://allceo.github.io/feed/index.html"/>
     <link rel="self" href="https://allceo.github.io/feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[ERP 系统如何重塑库存管理：从数据展示到价值赋能]]></title>
+        <id>https://www.woshipm.com/?p=6241661</id>
+        <link href="https://www.woshipm.com/pd/6241661.html"/>
+        <updated>2025-07-13T13:33:54.000Z</updated>
+        <summary type="html"><![CDATA[在现代企业运营中，库存就像一面镜子，既映照出供应链的健康度，也折射出资金的使用效率。据统计，制造企业的库存成本通常占总资产的 20%-30%，零售企业更是高达 40% 以上。然而，传统库存管理中 “账实不符”“呆滞料堆积”“紧急缺料” 等问题频发，根源在于缺乏系统化的分析框架和数字化工具。ERP（企业资源计划）系统作为企业数字化的核心载体，其库存管理模块的设计逻辑，正是为了破解这些难题 —— 通过多维度数字化建模、智能化分析和跨模块协同，将库存管理从 “经验主义” 推向 “数据驱动”。
+
+库存分类：ERP 系统的多维数据骨架
+库存管理的第一步是 “看清库存”，而清晰的分类是基础。ERP 系统对库存的数字化建模，正是围绕货品类别、存货地点、账务状态、采购来源这四个核心维度展开，构建起立体的数据网络。
+货品类别维度的设计需兼顾行业特性与管理颗粒度。在 ERP 系统中，这通常体现为 “多级分类编码体系”：比如电子制造企业可按 “元器件 – 组件 – 成品” 三级分类，每个层级关联特定属性（如元器件的规格、耐受温度）。这种结构化设计既满足了财务核算的汇总需求，又支持仓储拣货的精细化查询。
+存货地点的数字化则突破了物理空间的限制。ERP 系统会将仓库、货位、区域等空间信息转化为编码，与货品信息绑定。例如，一个汽车零部件企业的 ERP 系统中，同一种火花塞可能同时存在于 “上海总仓 A 区货架 3”“武汉分仓临时周转区”“在途运输 B 批次” 三个地点维度，系统通过实时更新地点状态，避免了传统纸质记录中 “货在哪” 的模糊性。
+账务状态的设计是 ERP 系统连接财务与业务的关键。系统会实时同步 “可用库存”“已分配库存”“待验库存” 等状态：当销售订单生成时，系统自动将对应数量从 “可用库存” 转为 “已分配库存”；当采购货品入库质检时，先进入 “待验库存”，合格后才转为 “可用库存”…]]></summary>
+        <author>
+            <name>红岸小兵</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一年还清50万债务的可行性报告：知乎爆款改写小红书​​创业方案]]></title>
+        <id>https://www.woshipm.com/it/6241728.html</id>
+        <link href="https://www.woshipm.com/ai/6241728.html"/>
+        <updated>2025-07-13T13:27:39.000Z</updated>
+        <summary type="html"><![CDATA[把知乎万赞长文拆成小红书六张卡片，就能年入 50 万？这不是段子，而是正在被验证的“平台套利”玩法：用知乎权威人设做信任背书，把高密度干货改写成低门槛生活笔记，再让两端流量互洗，既吃搜索长尾也吃推荐爆量。
+
+今天说的项目用一句话总结就是：把知乎上那些被几千上万人点赞验证过价值的深度长文，拆碎了、揉烂了，重新包装成小红书上那种光鲜亮丽的图文笔记。
+你先别觉得这是简单的“Ctrl+C”和“Ctrl+V”。
+要是那样，这项目早烂大街了。
+这玩法的精髓，是利用两个平台之间巨大的用户心理和内容需求的“势能差”来套利。
+你在知乎建立一个深度的、让人信服的“专家”人设，再到小红书扮演一个时髦、接地气的“生活家”角色。
+两个账号同名，一个当“知识大本营”，一个当“流量展示窗”，互相引流，彼此背书。
+01 项目可行性逻辑
+这事为什么能成？因为它踩准了几个很多人没看透的点。
+1. 用户心态的“温差”：一边找答案，一边在逛街。
+你想想，你上知乎是干嘛的？
+大概率是带着问题去的，想找个彻底、详尽的解答。
+你的心态是“求解”。
+但你刷小红书呢？多半是无聊，想找点乐子，看看别人怎么生活。
+心态是“逛街”。
+
+知乎的万赞回答，证明了它内核的价值是过硬的。
+我们要做的，就是把这块营养丰富但难啃的“压缩饼干”，加工成小红书用户爱吃的、一口一个的“小蛋糕”。
+价值没变，但体验变了，钱就在这个体验差里。
+2. 信息密度的“落差”：从“万字论文”到“六张卡片”。
+知乎一篇长文，信息密度高，几千字里塞满了论证和数据，对普通人来说，阅读门槛不低。
+小红书笔记恰恰相反，它追求“视觉化”和“轻量化”，把复杂的逻辑打散成一张张卡片。
+比如，知乎500字讲“强制储蓄”，在小红书就能变成6张图：封面标题、为什么要存、532储蓄法、用什么工具、注意什么、总结互动。
+这个过程，你是在为用户“减负”，帮他们节省脑力，他们自然愿意用关…]]></summary>
+        <author>
+            <name>抖知书</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[又一个细分领域被AI颠覆，750万美元押注AI产品测试，这家公司让4-6周测试周期缩短至数小时]]></title>
+        <id>https://www.woshipm.com/it/6241721.html</id>
+        <link href="https://www.woshipm.com/ai/6241721.html"/>
+        <updated>2025-07-13T13:23:46.000Z</updated>
+        <summary type="html"><![CDATA[这家刚拿下 750 万美元融资的初创公司，用 AI 虚拟用户替代真人流量：上传事件日志→生成行为角色→模拟交互→输出预测报告，全流程零代码、零风险、零隐私触碰。在监管最严苛的金融、医疗场景里，Blok 已排起 60 家客户的候补名单——产品开发的下一幕，或许不再需要真人试错。
+
+当产品团队还在为等待 4-6 周的 A/B 测试结果而焦虑时，一家名为 Blok 的初创公司正在用 AI 虚拟用户彻底颠覆这一传统模式。他们让产品测试从”weeks”压缩到”hours”，从”reactive”转向”predictive”，这不仅仅是效率的提升，更是产品开发哲学的根本性变革。
+这款名为 Blok 的产品宣布完成 750 万美元融资，用于构建 AI 驱动的产品测试平台。但当我深入研究这家公司的技术架构和商业模式后，我意识到这远非一个简单的工具升级故事。Blok 正在解决一个困扰整个科技行业的根本性问题：如何在用户界面复杂度急剧上升的时代，让产品团队更快速、更准确地做出产品决策。
+更让我震撼的是，Blok 的创始人 Tom Charman 和 Olivia Higgs 并非技术新手，而是在数据科学、行为建模和产品开发领域有着深厚积累的连续创业者。他们曾为国家安全部门建模人类行为，发布过服务数百万用户的消费级应用，在行为科学、医疗健康和金融领域都有前沿研究经验。这种跨领域的深度背景，让他们能够从一个全新的维度来思考产品测试这个古老而又现代的问题。
+传统产品测试的深层困境
+当我深入了解 Blok 要解决的问题时，我发现传统的产品测试方式正面临着前所未有的挑战。这种挑战不仅仅来自技术层面，更来自用户期望和产品复杂度的根本性变化。
+
+首先是反馈循环过慢的问题。在许多组织中，实验周期极其缓慢，团队需要等待 4-6 周时间才能证明一个想法是错误的。等待统计显著性结果的过程让人抓狂，而且还要小心避免”…]]></summary>
+        <author>
+            <name>深思圈</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[文件快速复制工具——FastCopy 5.10.0 官方中文版（32位+64位）]]></title>
+        <id>http://bak.qiuquan.cc/?p=4130</id>
+        <link href="http://www.qiuquan.cc/other/fastcopy.html"/>
+        <updated>2025-07-13T12:00:08.000Z</updated>
+        <summary type="html"><![CDATA[FastCopy 是一款 Windows 上最快的文件复制/删除软件，它支持 UNICODE 和超过 MAX_PATH （260 个字符）的文件路径名。]]></summary>
+        <author>
+            <name>QiuQuan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Save Desktop – 保存你的 Linux 桌面环境配置，支持云同步]]></title>
+        <id>https://www.appinn.com/save-desktop-for-linux/</id>
+        <link href="https://www.appinn.com/save-desktop-for-linux/"/>
+        <updated>2025-07-13T07:36:30.000Z</updated>
+        <summary type="html"><![CDATA[Save Desktop 可以帮你一键保存 Linux 当前配置的工具，包括主题、图标、壁纸、所有桌面环境设置、扩展等，并且支持通过网络在不同计算机中同步这些配置。@Appinn 这是一个帮你备份 L]]></summary>
+        <author>
+            <name>青小蛙</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[从数据洞察到决策革命：大模型重构企业数字化运营新范式]]></title>
+        <id>https://www.woshipm.com/?p=6241349</id>
+        <link href="https://www.woshipm.com/share/6241349.html"/>
+        <updated>2025-07-13T07:32:31.000Z</updated>
+        <summary type="html"><![CDATA[在数字经济高速发展的今天，企业数字化转型已从技术工具的应用演变为核心竞争力的重构。基于大模型技术的深度赋能，我们通过构建智能化分析体系，实现了从数据洞察到决策执行的闭环升级，推动企业运营效率、决策精度和业务创新能力的全面提升。下面将结合具体实践，系统阐述大模型技术对企业数字化业务的重构路径与价值创造机制。
+
+一、数字化赋能的范式突破：从数据分析到智能决策
+在经销商经营分析场景中，大模型技术实现了三重能力跃迁：
+数据解析维度升维：通过NLP与深度学习的融合，系统不仅能处理结构化数据，更可解析非结构化文本（如客户反馈、市场报告），构建多模态分析模型。某区域经销商的库存周转异常案例中，系统通过关联分析销售数据、客服对话记录和社交媒体舆情，提前14天预警了潜在渠道危机。
+决策树模型的动态进化：传统决策树模型依赖人工规则维护，现采用强化学习机制，使模型能根据市场反馈自动优化判断阈值。在促销策略评估中，模型准确率从78%提升至93%，误判率降低67%。
+实时预测能力突破：通过时间序列预测与因果推理的结合，系统可动态预测未来3个月经销商业绩走势。实际验证显示，预测结果与实际数据的偏差率控制在5%以内，较人工预测精度提升40%。
+二、效率革命：从”人机协同”到”智能涌现”的效能重构
+在效率提升维度，大模型技术展现出指数级优势：
+数据处理效率：单月10万级经销商数据的处理时间从72小时压缩至45分钟，数据处理成本降低92%。
+异常检测能力：通过多层级异常检测算法，系统可识别传统方法忽略的隐性关联异常。例如某经销商表面业绩达标，但通过客户复购率、服务响应速度等18个隐性指标的关联分析，系统识别出客户流失风险，提前触发干预机制。
+决策响应速度：从数据更新到决策建议输出的端到端时延缩短至30分钟，较传统流程提速20倍。在618大促期间，系统实时调整2000+经销商的备货策略，避免库存积压。
+价值衡量体系创新：我们建立了EVI（Efficiency Value Index）评估模型，从时间成本（T）、决策质量（Q）、机会捕获（O）三个维度构建量化指标。实施大模型系统后，EVI综合指数提升3.8倍，其中机会捕获维度提升尤为显著，新业务场景发现速度加快5倍。
+
+三、大模型VS人工分析：智能时代的决策革命
+在经营分析领域，大模型技术展现出颠覆性优势：
+认知广度突破：单个模型可同步处理财务数据、市场动态、供应链信息等12类数据源，构建100+维度的关联分析网络，远超人工分析极限。
+模式识别深度：在客户分群场景中，系统通过无监督学习发现4类人工未识别的潜在客户群体，带来新增销售收入。
+持续进化能力：采用在线学习机制，模型每周自动更新知识库，在区域市场政策变动场景中，策略调整响应速度从2周缩短至6小时。
+风险预见能力：通过反事实推理技术，系统可模拟不同决策路径的潜在影响。在某渠道政策调整前，系统准确预测了3家核心经销商可能触发的连锁反应，避免损失。
+在同等分析任务中，大模型系统的综合决策质量超过资深分析师团队的1.7倍，且具备7×24小时持续运作能力，这在人工分析体系中根本无法实现。
+四、场景重构：从业务赋能到生态创新
+大模型技术正在重塑企业价值链：
+精准营销场景：通过客户旅程建模，实现“千人千策”的动态营销。某快消品牌应用后，营销响应率提升34%，单个客户LTV提升22%。
+供应链智慧化：构建供应链数字孪生体，实时模拟库存、物流、产能的联动关系。在芯片短缺危机中，系统通过动态寻源策略优化，保障了98%的订单履约率。
+组织能力进化：开发智能决策助手，将专家经验沉淀为可复用的知识图谱。某区域团队借助系统赋能，新人决策能力培养周期从6个月缩短至1个月。
+生态协同创新：打通上下游数据壁垒，构建产业协同智能体。在家电行业案例中，实现制造商-经销商-服务商的需求预测协同，整体库存周转效率提升28%。
+五、未来演进：构建企业智能体的三大方向
+认知智能深化：研发具备商业常识推理能力的行业大模型，实现从数据分析到战略推演的跃升。
+人机融合决策：构建“人类直觉+机器智能”的混合增强智能系统，在并购评估等复杂决策中发挥协同优势。
+价值创造闭环：将智能分析系统与业务执行系统深度集成，打造“感知-决策-执行-反馈”的自主进化体系。
+当前，企业数字化已进入”智能体驱动”的新阶段。通过大模型技术的深度应用，我们不仅实现了运营效率的量级提升，更重构了业务创新范式。这种技术驱动的价值创造模式，正在重塑行业竞争格局，为企业的可持续发展注入澎湃动力。未来，随着多模态大模型、因果推理等技术的突破，企业智能体将进化出更强大的商业洞察与创造能力，开启2025数字化发展的新纪元。
+本文由 @董方旭 原创发布于人人都是产品经理。未经作者许可，禁止转载
+题图来自Unsplash，基于CC0协议
+该文观点仅代表作者本人，人人都是产品经理平台仅提供信息存储空间服务]]></summary>
+        <author>
+            <name>董方旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【医美行业-医美机构】老顾客管理≠会员管理，正确策略才是破局最优解]]></title>
+        <id>https://www.woshipm.com/?p=6241437</id>
+        <link href="https://www.woshipm.com/it/6241437.html"/>
+        <updated>2025-07-13T06:13:01.000Z</updated>
+        <summary type="html"><![CDATA[当流量红利见顶、新客成本飙升，医美机构的第一反应往往是“把会员体系做大”。但残酷的数据摆在眼前：办了卡的老顾客照样流失，没办卡的偶尔消费却可能带来高复购。本文直击一个被90%机构忽略的认知误区——老顾客管理 ≠ 会员管理。作者用一张图厘清两者在范围、逻辑、目标上的七大差异，并给出可落地的“分层运营+情感连接+会员杠杆”组合打法：先让老顾客留下来，再用体系化权益把其中的高价值人群锁死。
+
+2025上半年，医美行业无论上游厂商还是中端机构，发展环境应该都是高压紧张同时无力又刺激的吧。“感觉今年特别难做“、“同比数据大幅下滑”、“客单价利润率明显降低”、“下半年应该怎么做”……。随着行业受众接纳度越来越广、社媒平台种草普及信息泛滥、加之用户选择更趋于智性化，作为行业从业者将会听到越来越多的焦虑发声与经营问题，当如何面对？焦虑无用，全力以赴，顺势而为，即可。
+当下，大家都在思考如何破局，如何经营致胜，从各方面了解到的信息来看，大方向的策略基本是从市场外营销主驱动转向内部精细化运营来寻变。关于内运营驱动求变，今天想与大家探讨的单元主题是：老顾客管理≠会员管理。
+
+一、直揭运营误区：老顾客管理＝会员管理
+在医美机构中，老顾客管理≠会员管理，二者既有用户属性重叠又有行为本质区别。理解这种差异，对医美机构精准运营、提升顾客生命周期价值至关重要。实际，很多机构的经营管理者及运营者对老顾客和会员认知是没有清晰区分的，粗糙归纳：都是老客＝都是会员。这就是前期市场有红利期的时候粗暴经营尚能存活，当红利期减退，拼的则是机构管理者运营者的认知格局。当外求不得，必向内看。向内看的关键：内部精细化运营管理，即老顾客管理及会员管理。
+简单梳理老顾客管理：
+针对所有有过消费记录的顾客（无论是否加入会员体系），通过持续的关系维护、需求挖掘、服务优化，实现 “复购提升、口碑传播、流失挽回” 的目标动作。
+
+其核心…]]></summary>
+        <author>
+            <name>艾克斯</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[新零售下的云店和C端商城的区别]]></title>
+        <id>https://www.woshipm.com/?p=6241565</id>
+        <link href="https://www.woshipm.com/newretail/6241565.html"/>
+        <updated>2025-07-13T05:11:42.000Z</updated>
+        <summary type="html"><![CDATA[导购直播带货正火，却频频出现“门店导购不肯把顾客导去总部官网”的怪象。问题根源在于：传统C端官网商城无法绑定门店与导购，订单也不给门店分账。本文用一张图+七个维度，把“云店”与“官网微商城”彻底拆解：从商业模式、货架形态、直播能力到财务分账，告诉你为什么“云店”才是新零售时代让总部、经销商、门店、导购四方共赢的那朵“云”。
+
+最近线下门店导购直播带货的事情火了，但同时也有很多企业却纳闷了。为什么我们门店的导购不愿意分享品牌总部的官网商城去朋友圈卖货呢？
+那是因为，一般导购属于门店，而不同地区的门店则是经销商开设的，所以是一些经销商不愿意将自己门店和导购手上的顾客，引流到总部的官网商城上去消费。因为传统的官网商城不支持顾客绑定导购和门店，商城订单也不支持门店发货，顾客线上成单后无法给门店和经销商做多层级的分账。
+一、云店模式的发展
+同样是线上交易渠道，当下热门的“云店”系统和传统的官网商城有什么区别呢？这是众多零售企业共同的疑问。
+“云店”概念由来已久，本质上是起源于“连锁企业实体店互联网化”的一种探索。但当时无论从IT系统、云计算、物流配送、消费习惯，还是企业自身的业务布局，都还不完善，所以“云店”模式一直处于探索阶段。但在近两年，云店模式已经开始成熟了。
+
+“云店”还有一些类似的表述，如“云门店”，“门店在线化”，“门店O2O”，或者很多连锁企业干脆就叫“新零售系统”等。商派去年服务的一些美妆、家居等企业，其升级的数字化系统就是“云店”模式。
+“云店”模式的成功，应该感谢微信商业化和小程序电商的高速发展。
+因为当下，整个腾讯微信生态具备了“社交互动功能，品牌私域流量运营，企业微信的串联，在加上“小程序电商+直播带货”等，微信已经逐步改变了消费者的购物习惯，此时连锁企业把线下门店嫁接到腾讯微信生态当中，已经是水到渠成，事半功倍的事情。
+二、云店的独特价值
+云店和官网商城的区…]]></summary>
+        <author>
+            <name>给我磨墨</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[实时验证中的认知心理与用户行为]]></title>
+        <id>https://www.woshipm.com/?p=6240250</id>
+        <link href="https://www.woshipm.com/pd/6240250.html"/>
+        <updated>2025-07-13T03:18:21.000Z</updated>
+        <summary type="html"><![CDATA[表单验证的事，说到底不只是“技术交互”，更是一次微妙的人机心理博弈。尤其是实时验证，它不像以前那样“填完再说”，而是边走边说、边输边评，信息更快，情绪也更容易“起波澜”。
+
+一、实时反馈
+1.1 正向反馈
+实时反馈对用户心理影响显著。正向反馈如 Instagram 注册时输入可用用户名，系统会附上有趣建议，这种“正反馈 + 小情绪颗粒”的组合，能瞬间建立用户信心、降低焦虑、激发行动欲望，心理学上称为“即时奖励”，靠认可产生动机。想象一下：用户在注册一个新账号，一边想用户名，一边紧张兮兮地敲下键盘。刚输完，系统“嗖”地在旁边冒出一句话：“✓ 用户名可用。”这一刻，用户内心的小剧场是这样的：“太好了，原来我这步走对了！”
+这种简单、温和的正向反馈，像老师在你肩膀上轻拍一下说：“嗯，干得好。” 它在心理上会瞬间建立信心 + 降低焦虑 + 激发行动欲望。
+案例：Instagram注册表单的“鼓励策略”
+Instagram 的注册页，当你输入用户名时，如果可用，它不止说“可用”，还附上一些有趣的建议，比如：
+“✓ 太棒了，这个名字没人用过哦！”
+“✓ 这个用户名看起来不错 👌”
+
+这种“正反馈 + 小情绪颗粒”的组合，就好像有人在旁边夸你一嘴：“选得妙！”——感觉好、效率高、用户愿意继续填下去。
+心理学上，这种机制被称为“即时奖励”：不是靠物质，而是靠认可，一样能产生动机。
+1.2 负向反馈
+负向反馈若处理不当，会成为用户情绪的“灭火器”。如某银行 App 设置交易密码时，用户刚输入简单密码就弹出一系列错误提示，且提示模糊、生硬，让用户摸不着头脑，最终导致用户放弃操作。因此，负向反馈要讲究节奏、余地和帮助性。用户内心的 OS 是：“我……还没输完你就开始骂我？”
+
+这其实就踩中了心理学中的一个“高频陷阱”：认知威胁感知。也就是说，即使系统没带任何情绪，它也很容易被用户“脑补”成一种…]]></summary>
+        <author>
+            <name>DesignLink</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[多模态提示词的设计（五）]]></title>
+        <id>https://www.woshipm.com/?p=6240652</id>
+        <link href="https://www.woshipm.com/ai/6240652.html"/>
+        <updated>2025-07-13T02:25:05.000Z</updated>
+        <summary type="html"><![CDATA[大型模型不仅仅只有“语言”模型，它们正演变为能够同时理解和处理多种信息类型（或称“模态”）的“多模态模型”。这为产品设计开辟了全新的维度，也对提示词工程提出了新的要求。
+
+什么是多模态提示词？
+多模态提示词是一种向AI模型下达的指令，其输入包含两种或两种以上的数据类型 。最常见的组合是文本和图像。
+但也可以扩展到视频、音频等多种模态的任意组合 。
+简单示例：
+用户上传一张卡通人物头像，并附上文本提示词：“把图中女孩的衣服换成带花朵图案的短袖”
+
+在这里，模型需要同时“看懂”图片内容和“读懂”文本指令，然后综合两种信息来生成回答。这种能力使得AI能够解决远比单一文本处理更复杂的现实世界问题。
+如何撰写多模态提示词？
+尽管输入的数据类型增加了，但设计多模态提示词的核心原则、技巧等与纯文本提示词一脉相承。
+关键在于通过文本指令，精确地引导模型如何去理解和关联不同模态的信息。
+指令要极其具体：避免使用模糊的指令。
+反例：“描述这张图片。” 附上一张机场航班信息屏的图片。模型可能只会简单回答“这是一张航班信息板” 。
+优例：“请分析这张机场航班信息屏的图片，并将所有航班号、目的地城市和计划起飞时间提取出来，以JSON格式返回。” 这个指令明确告知模型要“看”什么，以及“如何”输出结果。
+使用少样本示例：当需要模型输出特定格式或风格时，提供包含多种模态的完整示例。
+场景：你需要模型根据地标图片，返回“城市: [城市名], 地标: [地标名]”。
+优例：在提示词中，先给出几个范例，每个范例都包含一张图片和对应的标准答案文本，如：（罗马斗兽场图片）-> “city: Rome, landmark: the Colosseum”。 然后再附上新的待识别图片，模型便会遵循这个格式进行输出 。
+引导模型分步思考（思维链）：对于需要复杂推理的视觉问答任务，引导模型分步思考可以显著提高准确性。
+场景…]]></summary>
+        <author>
+            <name>Mrs.Data</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ByePhotos - “爽快”清理 iPhone 手机相册 (批量删除重复相似照片 / 划动整理 / 视频压缩)]]></title>
+        <id>https://www.iplaysoft.com/?p=6383</id>
+        <link href="https://www.iplaysoft.com/byephotos.html"/>
+        <updated>2025-07-13T01:11:50.000Z</updated>
+        <summary type="html"><![CDATA[放暑假了大家估计都准备旅游到处去玩了！如果你一开心就疯狂地拍照录视频，那么常常都会遇到手机存储不够用的情况，需要手工清理相册删除视频来腾出手机空间。
+即便你用 NAS 或网盘会员来备份相册再删除，但往往我们随手拍完后会有很多重复的/拍不好/或没用的相片混杂其中。ByePhotos 是一款 iOS 本地相册清理整理神器！支持相似图片批量删除；“左滑删除/右滑保留”一秒决定照片去留；压缩视频体积等；让你更畅快高效清理相册……
+「 前往查看原文.... 」
+异次元还有这些值得一看：
+
+Lomorage 免费无限制的私有相册云 - 手机照片视频自动备份到电脑/服务器/树莓派等
+Immich - 手机自动备份照片视频到 NAS！开源自部署私有云相册 (替代群晖谷歌)
+Slidebox - 手机相册整理本就该如此流畅酸爽 (快速分类/删除清理无用照片)
+微软照片伴侣 Photos Companion - 无线发送手机照片视频到电脑 Win10 PC
+
+异次元首页  |  微信公众号  |  关注微博  |  软件精选  |  软件激活码折扣]]></summary>
+        <author>
+            <name>X-Force</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[树莓派镜像烧录工具 Raspberry Pi Imager 1.9.5 发布下载]]></title>
+        <id>http://www.dayanzai.me/?p=69714</id>
+        <link href="https://www.dayanzai.me/raspberry-pi.html"/>
+        <updated>2025-07-12T16:49:40.000Z</updated>
+        <summary type="html"><![CDATA[当我们需要一台额外的计算机来为我们执行特定工作时，购买全新的个人电脑或笔记本电脑来完成这项工作有时太昂贵或太浪 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[开源 PlayStation 3 模拟器 RPCS3 0.0.37-18080 x64 中文免费版]]></title>
+        <id>http://www.dayanzai.me/?p=71075</id>
+        <link href="https://www.dayanzai.me/rpcs3.html"/>
+        <updated>2025-07-12T16:36:22.000Z</updated>
+        <summary type="html"><![CDATA[RPCS3 中文版是一个多平台开源索尼 PlayStation 3 模拟器和调试器，用 C++ 编写，适用于  […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows 复制拷贝增强工具 Fastcopy 5.10.0 + x64 绿色中文版]]></title>
+        <id>http://www.dayanzai.me/?p=13990</id>
+        <link href="https://www.dayanzai.me/fastcopy.html"/>
+        <updated>2025-07-12T16:35:28.000Z</updated>
+        <summary type="html"><![CDATA[Fastcopy Pro 5 中文版由大眼仔旭（www.dayanzai.me）发布。Fastcopy Pro […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[选项卡式文件管理器  Tablacus Explorer 25.7.1 + x64 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=42002</id>
+        <link href="https://www.dayanzai.me/tablacus-explorer.html"/>
+        <updated>2025-07-12T16:26:31.000Z</updated>
+        <summary type="html"><![CDATA[Tablacus Explorer 中文版由大眼仔旭（www.dayanzai.me）整理发布。Tablacu […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[多功能超级文件管理器 Total Commander Ultima Prime 9.2 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=43241</id>
+        <link href="https://www.dayanzai.me/total-commander-ultima-prime.html"/>
+        <updated>2025-07-12T16:23:22.000Z</updated>
+        <summary type="html"><![CDATA[多功能超级文件管理器 Total Commander Ultima Prime 中文版由大眼仔旭（www.da […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[安卓电子书阅读器 Librera PRO 9.0.8 中文多语免费版]]></title>
+        <id>http://www.dayanzai.me/?p=7344</id>
+        <link href="https://www.dayanzai.me/librera-pro.html"/>
+        <updated>2025-07-12T16:20:55.000Z</updated>
+        <summary type="html"><![CDATA[Librera PRO 绿色中版由大眼仔旭发布。凭借其简单而强大的界面，Librera Reader 使文档阅 […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Autodesk 草图本 Autodesk Sketchbook PRO 6.2.1 中文版]]></title>
+        <id>http://www.dayanzai.me/?p=9584</id>
+        <link href="https://www.dayanzai.me/sketchbook-2.html"/>
+        <updated>2025-07-12T16:20:12.000Z</updated>
+        <summary type="html"><![CDATA[Autodesk Sketchbook PRO 6 中文版由大眼仔旭发布。Autodesk SketchBoo […]]]></summary>
+        <author>
+            <name>大眼仔~旭</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[工作5年薪资翻3倍的产品经理，都做对了这件事：深挖洞、广积粮、不折腾！]]></title>
         <id>https://www.woshipm.com/it/6241609.html</id>
@@ -13553,76 +13872,6 @@ AI 正在重写 2C 商业模式
         <link href="http://www.qiuquan.cc/androidsoft/yygj.html"/>
         <updated>2025-06-14T15:35:16.000Z</updated>
         <summary type="html"><![CDATA[应用管家TV版这款免费第三方实用工具，用于管理电视、车载娱乐系统和平板应用以及文件，同时支持提取电视应用并传输到电视上安装。这款工具无广告、无限制，可通过网盘链接安装应用，简便实用。]]></summary>
-        <author>
-            <name>QiuQuan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Adobe Audition 2025 v25.3.0.071 直装破解版 By：m0nkrus]]></title>
-        <id>http://www.qiuquan.cc/?p=11604</id>
-        <link href="http://www.qiuquan.cc/convert/audition.html"/>
-        <updated>2025-06-14T07:25:33.000Z</updated>
-        <summary type="html"><![CDATA[Adobe Audition 2025破解版(Audition 2025最新版)是一款专业的音频编辑软件及音频制作软件。Adobe Audition 2025中文破解版具备音频录制、音频编辑、音频混合、音频降噪,、音频转码、多轨混音、母带处理、现场调音、视频音轨编辑等功能,频谱编辑工具支持自动语音,自动降噪和自动纠正,多音轨多声道的音频及多音频效果的混合。]]></summary>
-        <author>
-            <name>QiuQuan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[YouTube视频下载 Robin YouTube Video Downloader 6.12.8 直装破解版]]></title>
-        <id>http://www.qiuquan.cc/?p=11601</id>
-        <link href="http://www.qiuquan.cc/download/youtubevideodownloaderpro.html"/>
-        <updated>2025-06-14T07:06:10.000Z</updated>
-        <summary type="html"><![CDATA[Robin YouTube Video Downloader Pro是一款专业用于从YouTube、Facebook、Dailymotion和数千个其他视频共享站点下载和转换视频工具。它最多可将您的下载速度提高5倍。可让您一次下载多个视频。]]></summary>
-        <author>
-            <name>QiuQuan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[增强版命令提示工具 ColorConsole 7.24 + x64 绿色便携中文版]]></title>
-        <id>http://www.dayanzai.me/?p=461</id>
-        <link href="https://www.dayanzai.me/colorconsole.html"/>
-        <updated>2025-06-13T16:30:15.000Z</updated>
-        <summary type="html"><![CDATA[ColorConsole 绿色便携中文版 增强版命令提示工具由大眼仔旭发布。今天小编给大家分享一款增强版命令提 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[开源免费 DJ 混音软件 Mixxx 2.5.2 中文多语免费版]]></title>
-        <id>http://www.dayanzai.me/?p=52316</id>
-        <link href="https://www.dayanzai.me/mixxx.html"/>
-        <updated>2025-06-13T16:29:36.000Z</updated>
-        <summary type="html"><![CDATA[开源免费 DJ 混音软件 Mixxx 中文版由大眼仔旭发布。Mixxx 是免费的开源软件，并完全由社区推动的。 […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[360 全景图像制作工具 PanoramaStudio Pro 4.1.2.436 x64 中文汉化版]]></title>
-        <id>http://www.dayanzai.me/?p=43036</id>
-        <link href="https://www.dayanzai.me/panoramastudio.html"/>
-        <updated>2025-06-13T16:23:42.000Z</updated>
-        <summary type="html"><![CDATA[360 全景图像制作工具 PanoramaStudio Pro 4 中文版由大眼仔旭（www.dayanzai […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[开源渗透测试平台 Kali Linux 2025.2 + x64 官方原版镜像发布]]></title>
-        <id>http://www.dayanzai.me/?p=5209</id>
-        <link href="https://www.dayanzai.me/kali-linux.html"/>
-        <updated>2025-06-13T16:20:40.000Z</updated>
-        <summary type="html"><![CDATA[Kali Linux 2025 是基于 Debian 的 Linux 发行版， 设计用于数字取证操作系统。由  […]]]></summary>
-        <author>
-            <name>大眼仔~旭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[YouTube视频下载 Any Video Downloader Pro 9.2.8 直装破解版]]></title>
-        <id>http://www.qiuquan.cc/?p=11594</id>
-        <link href="http://www.qiuquan.cc/download/anyvideodownloaderpro.html"/>
-        <updated>2025-06-13T14:08:17.000Z</updated>
-        <summary type="html"><![CDATA[Any Video Downloader Pro 是一款相当优秀的视频下载工具。能够帮助用户从数千个其他视频共享网站下载视频。可以提高您的下载速度高达500%的速度，同时软件拥有视频转换功能。可以帮助用户从YouTube、Facebook、Dailymotion等数千个其他视频共享网站下载视频。]]></summary>
         <author>
             <name>QiuQuan</name>
         </author>
