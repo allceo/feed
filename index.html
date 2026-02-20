@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-02-19 datetime="2026-02-19T01:39:17.000Z">2026-02-19</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-02-19 datetime="2026-02-19T01:39:17.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-02-20 datetime="2026-02-20T01:42:12.000Z">2026-02-20</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-02-20 datetime="2026-02-20T01:42:12.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,423 @@
                   <a class="source-heading__link" href="https://www.woshipm.com">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6343005"
+                        open
+                      >
+                        <summary class="article-expander__title">乐观的人获得成功：放弃openclaw🦞前必看</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6343005.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/17/6f7da7ae-dcf5-11ed-9781-00163e0b5ff3.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>OpenClaw的调试过程充满挑战，但一旦掌握技巧，就能解锁其强大潜力。从模型分层到规则设定，从后台任务管理到结果存储，这些实战经验不仅让AI代理更稳定高效，更揭示了工具背后的设计哲学。本文将分享那些真正起作用的调试关键点，助你避开雷区，提升工作效率。
+
+我也差点把 OpenClaw 卸了。
+前两周，我每天都在“养龙虾”——
+一边烧额度，一边看 broker 连续八次给我同一个回答。
+折腾了无数次之后，现在终于跑得稳定了，而且确实开始有“好用”的感觉了。
+下面是对我来说真正起作用的几个关键点。
+如果有人需要更详细的版本，我也整理了完整配置示例、终端命令、模型对比表和 FAQ。
+1. 不要什么都用“最强模型”硬上
+这是我犯过的最大错误。
+心跳检查、日常任务、皇冠检查这种事情，真的不需要 Opus 或 Sonnet。
+一定要做模型分层。
+便宜模型（Haiku、Gemini Flash，甚至本地 Ollama）用来跑常规任务，把强模型留作备选。
+
+有些人通过更聪明的路由，把单次请求从 2–4 万 tokens 降到 1.5 万左右。
+而且你可以在流程中途用 /model 切换模型，不必一开始就 all-in。
+很多时候不是模型不够强，是你用错了地方。
+2. 你的 Agent 需要规则，而且是很多规则
+开箱即用的 OpenClaw，其实挺笨的。
+它会循环、重复、忘上下文，还会做出一些莫名其妙的决定。
+你必须给它加“护栏”。
+在 workspace/skills/ 里写好 SKILL.md，明确告诉它该怎么做。
+加 anti-loop 规则、压缩总结规则、提问前的任务检查规则。
+真正跑得顺的 agent，背后都是高度定制的 instruction set。
+不要假设它“懂”。
+你才是指挥，它只是乐手。
+3. “让它通宵干活”并不会自动发生
+很多人以为，只要让 agent 去做事，然后关掉聊天窗口，它会继续工作。
+不会。
+session 只有在打开时才是有状态的。
+后台任务必须用 cron job，而且要有独立的目标设定。
+它会启动一个新的 agent 会话，按计划执行，再把结果发回来。
+如果是一次性延迟任务，你需要一个队列（Notion / SQLite / 文本文件都可以）+ 一个 cron 去轮询队列。
+这部分不搞清楚，会一直误以为系统“不稳定”。
+4. 一次只打通一个完整流程
+不要一上来就接邮箱、日历、Telegram、爬虫、cron 全部一起。
+每个集成都是一个新的故障点。
+先把一个 workflow 跑通，比如一个早报 cron。
+让它稳定到你完全放心，再加下一个。
+另外，记得跑 OpenClaw Doctor。
+系统崩了它真的能救。
+5. 把“有效结果”存下来
+compacting 会慢慢丢上下文。
+用状态文件，把关键决策写进持久文档里：
+USER.md、AGENTS.md、HEARTBEAT.md。
+broker 每少一次“重新学习”，它表现就会好一点。
+很多人忽略了这一点，然后抱怨它“怎么又忘了”。
+6. 模型比你想象的重要
+很多挫败感，其实来自模型根本不擅长 tool call。
+聊天能力 ≠ 代理能力。
+Claude Sonnet / Opus、G
+PT-5.2、Kimi K2 这些 API 下 tool call 非常稳。
+DeepSeek Reasoner 要小心（推理没问题，但 tool call 格式经常不对）。
+GPT-5.1 Mini 虽然便宜，但不少人反馈“几乎无法做代理工作”。
+不要省错地方。
+7. 如果你觉得难，那是正常的
+OpenClaw 还没“成品化”。
+那些说“一夜生成完整 App”的人，背后可能 debug 了几周。
+演示和真实使用之间的差距是真实存在的。
+虽然在快速缩小，但还没完全消失。
+如果你现在觉得吃力，不是你不行。
+只是这个阶段本来就不容易。
+希望这些能帮到那些正在边烧 token 边怀疑人生的人。
+如果你卡在某个具体问题上，可以留言或者进群交流
+本文由 @PandorAI 原创发布于人人都是产品经理，未经许可，禁止转载。
+题图来自 Unsplash，基于 CC0 协议。
+该文观点仅代表作者本人，人人都是产品经理平台仅提供信息存储空间服务。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6342759"
+                        open
+                      >
+                        <summary class="article-expander__title">给AI造了1000个“楚门的世界”！Agent World Model如何引爆强化学习？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6342759.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2026/02/17/ab52fd78-0bdd-11f1-8399-00163e09d72f.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>从跨境电商的‘黑天鹅’测试到金融风控的‘高智商犯罪’演习，这套基于语义生成的虚拟世界模型正在突破传统模拟器的三大死穴——复杂度陷阱、时效性灾难和数据真空。本文将深入拆解 AWM 的三层核心架构，并通过电商、社交、金融三大实战案例，揭示 AI 如何通过‘1000种虚拟人生’实现商业场景的零成本试错。
+
+前言：AI 落地的“最后 1 公里”噩梦与“模拟器之墙”
+在 2025 到 2026 年的 AI 浪潮里，大模型产品经理（AIPM）们最怕听到的词，不是“幻觉”，而是“落地”。
+很多 Agent（智能体）在实验室环境或简单的对话 Demo 里，表现得简直像个天才——写代码、订机票，甚至做复杂的财务报表，样样都能拿得出手。可一旦把它们推入真实的 B 端业务系统，比如复杂的 ERP 供应链、实时波动的金融交易后台，或是规则细碎到让人头疼的跨境电商系统，这些原本“聪明”的 Agent，往往会瞬间“降智”，连基础操作都频频出错。
+为什么会这样？根本原因，在于“Sim2Real”（从模拟到现实）这条难以跨越的巨大鸿沟。
+在强化学习（RL）的传统范式里，AI 得在环境中靠不断“试错（Trial and Error）”来积累经验、学会决策。但在真实的业务场景中，试错的成本简直是天文数字。你不可能为了训练一个“库存优化 Agent”，就让它去真实仓库里乱改数据，搞乱整个库存体系；更不能让一个“金融交易 Agent”在真实市场里亏损上千万，就为了换一点所谓的“经验”。
+过去，我们只能靠工程师一行行代码硬写“模拟器（Simulator）”，试图用虚拟环境替代真实场景。可这又会撞上一道难以突破的“模拟器之墙”，具体来说，就是三个绕不开的难题：
+一是复杂度陷阱：真实世界的业务规则是发散且长尾的，客户需求、市场变化、系统异常，总有你想不到的情况，硬编码永远不可能穷举所有可能性。
+二是时效性灾难：业务逻辑…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >QiuQuan&#x27;s Blog</button>
+                  <a class="source-heading__link" href="https://www.qiuquan.cc">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://www.qiuquan.cc/?p&#x3D;7570"
+                        open
+                      >
+                        <summary class="article-expander__title">Inno Setup 解包工具（Inno Setup Unpacker）2.2.4 汉化版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.cc/setup/innounpacker.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.qiuquan.cc/wp-content/uploads/2025/02/InnoExtractor-150x150.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Inno Setup Unpacker 是一款强大且实用的工具，专为解析和处理由Inno Setup创建的安装程序而设计。这款软件能够深入挖掘Inno Setup安装包的内部结构，让用户可以访问并保存其中的所有文件和资源，包括图形、文档和其他媒体。其显著特点之一是能够处理加密内容，Inno Setup Unpacker 可以识别并解密被保护的文件和脚本，使隐藏或不可见的部分变得可读和可操作。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-02-19 datetime="2026-02-19T13:48:00.000Z">2026-02-19</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-02-19 datetime="2026-02-19T13:48:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >人人都是产品经理</button>
+                  <a class="source-heading__link" href="https://www.woshipm.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/it/6343093.html"
+                        open
+                      >
+                        <summary class="article-expander__title">风水轮流转，这次轮到蚂蚁阿福登顶App Store第一！</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6343093.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2024/07/02/5e19b834-3827-11ef-89ea-00163e142b65.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>元宝、千问、蚂蚁阿福相继登顶App Store免费总榜，背后是10亿红包与30亿免单的&#x27;撒币&#x27;大战。但下载量含金量几何？红包退散后留存率如何？当AI助手竞争从产品力转向补贴战，中尾部玩家还有生存空间吗？
+
+自从2026年2月1日腾讯的AI助手元宝登顶App Store免费总榜第一名后，元宝为其他AI助手提供了模版。
+此前App Store免费总榜第一名长期被抖音的AI助手豆包霸榜，其他AI助手产品并未认识到C端的重要性，元宝逆袭之后，越来越多的AI助手开始注重终端下载量。
+2026年2月6日，阿里巴巴旗下的AI助手千问，登顶苹果应用商店App Store免费总榜单第一名。
+
+风水轮流转，这次轮到蚂蚁阿福。
+2026年2月14日，蚂蚁集团旗下的AI助手产品蚂蚁阿福登顶App Store免费总榜第一。相对于豆包、元宝、千问而言，蚂蚁阿福并不主打“通用型”AI助手，而是以“健康”作为切入点，这在一定程度上呈现了它的稀缺性和特殊性，但在另一方面，也限制了它的使用场景，不管怎样，这次App Store免费总榜单第一名的位置终于轮到蚂蚁阿福来坐。
+可能外界对于“App Store免费总榜单第一名”的含金量有所质疑。根据七麦数据显示，元宝、千问以及蚂蚁阿福登顶App Store免费总榜第一的日下载量约为30万左右，也就是说，只要一天在App Store中下载量超过30万+，就有可能登顶免费总榜第一。
+若将这个下载量放在“11.25亿网民规模，80%互联网普及率”数据下，元宝、千问、蚂蚁阿福的“第一名”含金量确实没那么夸张，但是，需要考虑两个问题：
+下载量并非只有一天，而是连续性的，比如一个月、三个月、一年，其累计下载量数据就会很高。
+只要是移动互联网产品，那么最终必然是以App为基本载体，而App的下载量是靠一点一滴积累下来的，要想一天千万级别甚至亿级下载量，几乎不可能。
+无论是豆包、元宝、千问，还是蚂蚁阿福，当前的登顶，更多是受“撒币”行为驱动，比如，元宝的10亿红包，千问的30亿元免单，在实际利益的驱动下，用户下载了App。除非这类“撒币”活动一直持续，否则，后续的下载量必然会下跌。
+除下载量外，对豆包、元宝、千问、蚂蚁阿福的另一个影响是留存率和用户活跃度问题，这才是对AI助手最大的考验。用红包和免单确实会让下载量数据好看，但最终留存率会有多高，这很难说，有不少用户都在社交网络上表示，领到红包/免单后，就把App给卸载了。
+红包/免单的形式非常简单粗暴，同时也带来了一个不好的倾向，即用户会攀比，比如，同样是豆包、元宝、千问的“撒币”活动，用户可能会对比究竟哪个平台能获得红包金额更高，哪个更实在，用户的注意力完全被“红包”给吸引，而忽略了产品本身。再加上红包活动不只一轮，第一轮的红包金额确实比较高，但到了后面只有几角、几分，这对于受“撒币”因素而被吸引而来的人来说，几分钱红包就像“耍猴”一样，这让用户很容易恼羞成怒而直接卸载App。
+攀比也是个问题，用户看到平台有活动就兴冲冲去下载，但是一看到红包金额跟别的平台对比后，心理上的差异就会显现出来。
+AI助手更考验的点其实是用户活跃度，即用户会不会将某款AI助手当成一种长期的使用习惯来使用，就像用户网购、看小说、看短视频等一样，他会有一个长期使用的产品，而AI助手能帮助用户解决的问题其实非常非常多，它更像是一座包罗万象的“金矿”，但这更有赖于用户自己去挖掘，比如，有用户用它来写代码/解决代码疑问，有家长用它来帮助孩子学习，也有年轻人用他们来听歌，还有人用它来解决心理和职业上的困惑，它能做的事情太多了，但这需要用户主动与豆包、元宝、千问进行交互，用户与AI助手交流的越多，就越能发现它对人的帮助。
+若从具体使用场景来看，蚂蚁阿福反倒是切了一个非常垂直细分的场景——健康，只要是人，那健康肯定是第一位的，在这一领域里，也能衍生出非常多的东西来，而且与健康相关的内容，要想产生“用户付费”的概率更高。
+AI助手行业现在的问题是，那些没冲到App Store免费总榜前几名的产品该怎么办？它们如何解决下载量问题？如果豆包、元宝、千问等大厂在过年期间把下载量和用户习惯全给吸走了，那些中尾部的产品会不会被淘汰？
+本文由人人都是产品经理作者【郭静】，微信公众号：【郭静的互联网圈】，原创/授权 发布于人人都是产品经理，未经许可，禁止转载。
+题图来自Unsplash，基于 CC0 协议。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/it/6343090.html"
+                        open
+                      >
+                        <summary class="article-expander__title">产品经理如何进行A/B测试？从设计到分析</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6343090.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2024/12/20/21884f7e-be79-11ef-a06d-00163e1bca14.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>按钮配色被吐槽、新功能使用率惨淡？别再凭感觉做决策了。从目标设定到数据分析，本文拆解A/B测试全流程实战方法，教你用单一变量原则和统计显著性验证，让每次产品优化都有据可依，摆脱&#x27;拍脑袋&#x27;背锅体质。
+
+同学们，有没有遇到过这种破防时刻？改了3版的按钮配色，开发刚上线就被用户吐槽“像村口大红灯笼”；
+拍脑袋加的“一键直达”功能，数据出来发现使用率还不到1%？别再凭感觉做决策了！A/B测试才是产品经理摆脱“背锅体质”、用数据说话的YYDS神器！
+一、搞懂A/B测试：从“拍脑袋”到“用数据拍板”的进化
+很多人以为A/B测试就是“把两个页面扔给用户，看哪个数据好”，这可真是把它想简单了！其实它是一套严谨的对照实验逻辑：把用户随机分成两组，给A组看原版本，B组看优化版本，控制其他变量完全一致，最后通过对比核心数据，判断哪个版本更能实现业务目标。
+
+比如你想提升电商详情页的转化率，A组保留原来的“立即购买”按钮，B组把按钮换成橙红色+“手慢无”的文案，同时保证两组用户的流量质量、访问时间、设备类型都没有差异，最后看B组的转化率是不是显著高于A组——这才是有效的A/B测试，不是随便改个颜色就叫测试！
+为什么说它是产品经理的“保命符”？想想看：之前你说“我觉得这个设计好看”，运营怼你“用户根本不买账”，开发嫌你“天天拍脑袋改需求”；现在你掏出A/B测试报告说“数据显示这个版本转化率提升23%”，谁还敢质疑你？这波真是“用实力打脸，用数据封神”！
+
+二、A/B测试全流程：从设计到分析的步步为营明确目标：别啥都测，先抓核心痛点
+首先得搞清楚：你做测试是为了啥？是提升点击率？还是降低跳出率？或者提高复购率？目标越具体越好，千万别上来就说“我想提升用户体验”——这就像你去饭馆说“我想吃好吃的”，厨师根本不知道给你上啥！
+举个例子：如果你的外卖APP发现结算页面 abandonment rate（弃购…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6342998"
+                        open
+                      >
+                        <summary class="article-expander__title">康复诊所下半场拼的不是流量，是数据资产</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6342998.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2025/06/24/2c2f5652-50e1-11f0-95de-00163e09d72f.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>康复诊所的竞争早已超越流量与价格的表层较量，真正拉开差距的恰恰是看似不性感的『数据资产』。本文深度剖析如何将患者评估、训练计划、执行反馈等六大类数据转化为闭环系统，从经验驱动升级为可复制的标准化交付能力，彻底改变行业以『疗效交付』为核心的新竞争逻辑。
+
+在大家的认知里，康复诊所之间的竞争往往还停留在几个老问题上，流量贵不贵、价格卷不卷、项目有没有差异化、装修高不高端。这些都是看得见的表层，短则几个月长则一两年就会被同行学走，最终还是回到同质化里互相消耗。更有意思的是，当你的同行们还在这些维度内卷时，真正能把一家康复诊所拉开差距的，反而是一个看上去不那么性感的东西，数据资产。
+数据资产，不是多留存一点患者信息，更像是把康复这件事从经验驱动逐步升级为可计算，可复制，可迭代的系统能力。从某种意义上来说，这确实是一场商业上的革命，因为它改变的不是营销手段，而是生产关系。因为它决定了你能不能把疗效交付做得更稳，把复购与转介绍做得更自然，把门店扩张做得更可控。
+先把一个问题讲透，康复的本质是什么。最通俗的说法就是一段长期过程管理，高频训练，持续评估，阶段复评，不断调整。对患者来说，最怕的不是疗程贵不贵，而是花了金钱和时间却看不到进展，或者中途掉队又没人管。
+对医疗诊所来说，最怕的也不是某一天没客人，而是交付质量波动，疗程中断率高，员工依赖某个明星康复师，一旦换人就崩。也就是说，康复是一门典型的过程生意，过程越长，变量越多，越需要靠数据把它稳住。
+
+正因为如此，数据资产才会成为核心资产，它把每一次评估，每一次训练，每一次反馈沉淀下来，最终让康复从靠个人记忆走向靠系统运行。
+首先，数据资产里面究竟要沉淀什么。很多人以为数据资产就是把姓名，电话，病历，消费能力存起来，事实上这只是线索管理，离资产还差得远。
+康复诊所真正有价值的数据目录至少包括六类。
+第一类是基础画像与风险信息，包括年龄，职业，运动习惯，既往史，过敏史，疼痛部位与诱因这些是把关边界。
+第二类是评估数据，包括体态，关节活动度，力量，柔韧，疼痛量表等动作评估结论，这些决定了你给什么方案。
+第三类是处方与计划数据，包括训练目标，阶段目标，动作库组合，频次强度，注意事项，复评周期，这些决定了交付路径。
+第四类是执行数据，也就是每次到店做了什么，完成度如何，用时多少，关键动作是否达标，是否出现代偿或不适，这些决定了过程是否跑得稳。
+第五类是结果数据，包括阶段性变化、复评结果、主观体验、功能改善，复发与回流情况，这些决定了疗效是否可证明。
+第六类是运营数据，包括来源渠道，到店节奏，疗程中断节点，复购路径，转介绍，客单结构与退款原因，这些决定了生意能不能持续。
+要知道，真正的资产不是数据越多越好，而是数据能否形成闭环，能否支持下一步决策，否则只会导致系统越来越重，团队越来越累。对消费者来说，这样做的好处很直接，也更容易被理解。
+第一是确定性更强，用户知道自己处在什么阶段，下一步做什么，为什么这么做，短期目标是什么，复评节点在哪里。
+第二是连续性更强，哪怕换了康复师，评估结论，训练计划，执行记录都在，服务不会断。
+第三是结果更可解释，你能用阶段复评和数据变化告诉用户进展在哪里，为什么有效，哪里还需要调整，这会显著提升信任和依从性。
+换句话说，数据资产对用户最大的价值，是把康复从一段模糊的体验，变成一条看得见的路径。很多老板在单店阶段靠经验还能扛，一旦开到两家三家，问题就会发现，服务质量波动，员工培养慢，店与店之间标准不一，疗程中断率飘忽，最终扩张越快越痛。主要原因在于你没有把可复制的部分写进系统里，以及需要长期维护的三套资产。
+第一套是交付资产，把评估标准，动作处方模板，阶段目标，复评规则沉淀成门店可执行的标准化工具，这样新康复师也能快速上手，交付质量不会完全靠个人天赋。
+第二套是用户运营资产，把用户分层标签，触达节奏，疗程中断预警，续费与转介绍节点固化下来，这样门店的复购不再靠前台盯人。
+第三套是经营分析资产，把时间库存利用率，项目结构，客单与毛利，退款与中断原因，各渠道的LTV拆开来看，这样你才知道钱到底是怎么赚的，哪条渠道业务线在拖后腿。与之相对的，如果你只有流水和人数，没有过程数据，你会发现扩张越做越像开盲盒。
+所以把话说到底，康复诊所打造数据资产，表面是在做数字化，事实上是在重构自己的核心能力。它让你从一次性成交走向长期管理，从个人经验走向系统交付，从单店生意走向可扩张模型。
+对于很多经营者来说，这看上去不是最短期见效的事，但毕竟行业的下半场拼的从来不是谁更会投流，而是谁能把疗效交付跑稳，把用户关系沉淀成资产，把经营做成复利。只要这件事跑通，竞争逻辑就会被改写。
+作者：林裕虎，公众号：林裕虎
+本文由 @林裕虎 原创发布于人人都是产品经理。未经作者许可，禁止转载
+题图来自Unsplash，基于CC0协议
+该文观点仅代表作者本人，人人都是产品经理平台仅提供信息存储空间服务</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6342888"
+                        open
+                      >
+                        <summary class="article-expander__title">跨境支付入门（七）：调单、拒付、再请款、Pre-Arb、Arbitration 全流程详解</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6342888.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/14/2ec342a4-da8f-11ed-aeb8-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>信用卡争议生命周期是隐藏在支付链路中的风险风暴眼。从调单请求到最终仲裁，每个环节都牵动着商户的资金安全与收单资格。本文深度拆解Visa、Mastercard两大卡组织的争议处理机制，揭示拒付背后从调单到仲裁的九大关键节点，带你掌握跨境支付中最致命的资金追偿游戏规则。
+
+在授权、请款、清算、结算之外，信用卡体系还存在一条独立运行的链路——
+争议生命周期（Dispute Lifecycle）
+
+它不是商户主动发起，而是由持卡人通过发卡行启动。
+拒付的本质不是“退款流程”，而是一次由卡组织规则驱动的强制性资金追偿与责任重判机制。
+一旦进入拒付阶段：
+资金被强制扣回
+产生拒付手续费
+计入拒付率
+触发监控阈值
+严重时可能导致罚款、保证金提高、甚至收单资格受限
+拒付不是一笔简单的负向交易，而是对商户与收单体系风险评级的直接冲击。
+真正理解这条链路，才能看清信用卡收单的核心风险结构—— 支付的挑战，从来不只是“成功扣款”，而是在可控拒付率下维持稳定运营能力。
+一、争议体系核心
+1、Retrieval Request（调单）
+调单是指发卡行向收单行提出的非货币性请求，要求找回销售汇票（收据）。通常情况下，此类请求由持卡人提出。为了帮助持卡人确认交易，请提供所有相关文件，包括交易收据、合同和协议，以证明持卡人参与了该笔交易。
+
+特点：
+通常尚未扣款
+不一定计入拒付率
+若未及时回复，可能升级为拒付
+常见原因：
+持卡人不认识商户名称
+金额不清楚
+想查看订单详情
+调单阶段如果处理得当，可以避免后续拒付。
+一般要在十天内将证据提交给收单机构
+
+2、Chargeback（拒付）
+由持卡人通过发卡行发起的争议交易费用，发卡行会发起一个Case，最终形成一笔拒付。
+每次拒付都会关联一个拒付原因代码（每个卡组都有一套），该代码将决定提交此类争议申诉所需的信息。
+核心特征：
+资金从收单行强制扣回
+带有明确原因…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6340997"
+                        open
+                      >
+                        <summary class="article-expander__title">谷歌如何持续规模化打造现象级产品？深度解析其产品模型与组织能力</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6340997.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2026/02/18/336cea84-0c79-11f1-8399-00163e09d72f.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>从搜索引擎到自动驾驶，谷歌如何用产品模型征服每一个战场？这家科技巨头用持续的产品发现、严密的OKR体系与独特的赋能团队结构，构建了18万员工协作的底层逻辑。本文深度拆解谷歌产品战略从PageRank到Gemini的进化路径，揭示其如何在AI时代保持技术领先与商业成功的双重优势。
+
+谷歌是全球最具价值的企业之一，旗下拥有至少9款月活跃用户超过10亿的产品。这些产品早已超越了搜索和广告的传统业务范畴，涵盖了YouTube、Google地图、Gmail邮箱、Google照片、安卓系统以及Chrome浏览器等。
+值得注意的是，这些产品中没有一款是全新的品类——它们都立足于已有解决方案的领域，如互联网搜索、地图服务、照片管理、邮箱服务以及浏览器等。然而在每一个领域，谷歌都凭借其更卓越的解决方案能力取得了成功。
+谷歌的故事，本质上是一个选择最棘手的问题并致力于解决它们，甚至投入数年时间深耕其中的故事。由此获得的回报不只是“做得更好”，而是常常建立起绝对领先的市场地位。
+谷歌是最早践行产品模型的公司之一。在这篇文章中，我们希望展示这些模型的核心要素，揭示它们在谷歌内部的运作方式，以及这些模型如何成为谷歌规模超过18万员工的关键支撑。
+正如人们常被Spotify这个独特的专有名词所困惑，谷歌的某些文化也同样令人费解。我们的目标就是穿透这些杂音与表象，找到它持续成功的真正密码。
+讨论谷歌的一大挑战在于，它并非真正意义上的单一公司。它拥有众多独立的事业部，每个部门又有其独特的文化和制度，这既源于所开发产品的属性差异（平台服务、用户服务、商业服务），也可能受到早期领导人的影响。
+
+除此之外，即便在同一个部门内部，领导风格和岗位定义也存在多种形态。例如，我认识许多顶尖的产品经理在谷歌工作，但也偶尔会遇到一些谷歌的产品经理，他们不清楚如何开展工作，也不明白自己具体负责什么。
+但即便存在这些分歧，谷歌…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6342859"
+                        open
+                      >
+                        <summary class="article-expander__title">开源🦞OpenClaw 火了：一个 Gateway 接住所有聊天 App</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6342859.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/17/44ede800-dcf5-11ed-a8f2-00163e0b5ff3.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>OpenClaw以独特的「小龙虾」形象和「EXFOLIATE!」口号破圈，成为2026年最值得关注的开源AI助手项目。它通过单Gateway架构实现跨IM平台的无缝对话，嵌入式Agent技术与自研系统提示词体系，为追求隐私可控的用户提供了全新的AI交互范式。本文将深度解析其技术架构与核心设计理念。
+
+一、为什么叫「小龙虾」？为什么火？
+项目名 OpenClaw 直译是「开放的爪子」—— logo 是一只 小龙虾，slogan 是 「EXFOLIATE! EXFOLIATE!」（剥壳、剥壳），和「open」谐音，又带点梗。
+在 2026 年初，它之所以被频繁讨论，大致有这几类原因：
+定位清晰：不和你抢「手机里的另一个聊天 App」，而是接进你已经在用的 IM（WhatsApp、Telegram、Slack、Discord、Signal、iMessage、Teams、WebChat 等），你从哪个 App 发消息，助手就从哪个 App 回你。
+本地优先：Gateway 跑在你自己的机器上（本机或你控制的服务器），会话与配置都在你手里，适合在意隐私和可控性的用户。
+技术栈现代：TypeScript/Node 核心 + Pi 嵌入式 Agent + 多端（macOS 菜单栏、iOS/Android、Web 管理端），既有 CLI 又有图形界面，还有语音唤醒、Live Canvas 等玩法。
+开源可扩展：MIT 协议，渠道和技能都可扩展，社区有 Discord、文档齐全，适合二次开发和学习 Agent 架构。
+所以「火」不一定是体量最大，而是切中了「个人 AI 助手 + 多渠道 + 自托管」 这个需求，并且工程上足够完整、可拆可学。
+二、一句话：OpenClaw 是什么？
+OpenClaw 是一个以「Gateway」为中心的个人 AI 助手系统：
+
+
+你在本机（或自己的服务器）跑一个…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -69,6 +486,60 @@ Elys背后的团队叫“自然选择”，2024年才在深圳成立。（第一
 做着做着，有天晚上Tristan突然意识到：EVE的记忆系统，或者说它对context的处理，好像还有更大的价值。
 EVE需要给到用户长程陪伴，所以必须构建一个记忆系统。因为对EVE来说，用户对话可…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >小众软件</button>
+                  <a class="source-heading__link" href="https://www.appinn.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.appinn.com/tailscale-peer-relays/"
+                        open
+                      >
+                        <summary class="article-expander__title">Tailscale 对等中继正式发布：不用部署服务器，用自己的设备当中继｜提升10倍网络性能</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.appinn.com/tailscale-peer-relays/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.appinn.com/wp-content/uploads/2026/02/Copy-of-appinn-homework-65.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Tailscale 正式发布了对等中继（Peer Relays）功能，无需任何额外部署，只需要一行命令，就能使用已经在 Tailscale 网络中的设备充当中继服务，从而提高10倍网络性能。@Appinn Tailscale 有一个公共的中继网络，叫 DERP 服务器。但这是所有 Tailscale</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.appinn.com/10-tools-to-try-during-chinese-new-year/"
+                        open
+                      >
+                        <summary class="article-expander__title">10款值得在春节折腾的工具｜最后一个压轴</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.appinn.com/10-tools-to-try-during-chinese-new-year/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.appinn.com/wp-content/uploads/2026/02/cover-1771406280864-1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>如果春节里觉得无聊了，就试试下面的工具..吧。第一条第四条不算工具，算…通知吧。 好了，直接开始： 除了西部数据，希捷也宣布 2026 年硬盘卖完了。 昨天西部数据表示，2026年硬盘已经全年售罄，今天又获息：希捷也卖完了 😂 目前，全球能生产 HDD 硬盘的三家厂商中（是的，青小蛙确认</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -7429,6 +7900,45 @@ Aily 知识规范模板详情表
                             <span class="media-object__text">
                               <span>来自 @Ihtesham 分享的高质量提示词，青小蛙觉得写的非常赞啊，值得仔细学习一下。 重新整理过了。 注意，以下提示词虽然也适合于其他 AI 工具，但 NotebookLM 的与众不同之处在于： 你给它什么资料（文档、网页、视频、图片…），它就只在这些资料里思考，不会自由发挥，瞎编乱</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;11
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >异次元软件世界</button>
+                  <a class="source-heading__link" href="https://www.iplaysoft.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.iplaysoft.com/?post_type&#x3D;xpost&amp;p&#x3D;5215"
+                        open
+                      >
+                        <summary class="article-expander__title">115 网盘会员 “8 年卡 VIP” 限时大优惠 - 送不限速 40TB 空间 + 离线下载</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.iplaysoft.com/p/115-vip">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://img.iplaysoft.com/wp-content/uploads/2020/p/115vip/115.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>「115 网盘」是网盘界牛批也是神奇的存在！！它不会像百度网盘那样对用户限速，无论上传和下载都飞快。同时 115 还拥有着业界强大的杀手级“离线下载”功能，几乎所有 BT 资源、游戏、音乐、剧集、视频甚至各类动作片都能秒完成。
+
+加上 115 还提供了直接在线播放视频 (可加载字幕)、在线解压等…… 
+「 前往查看原文.... 」
+
+异次元首页  |  微信公众号  |  关注微博  |  软件精选  |  软件激活码折扣</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -21600,549 +22110,6 @@ a16z 的预测：创业机会在于“驯服多模态数据的混乱”。
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="1431+1768983266"
-                        open
-                      >
-                        <summary class="article-expander__title">[UPDATE] Q-Dir v12.46</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.portablefreeware.com/?id&#x3D;1431&amp;ts&#x3D;1768983266">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Q-Dir is a quad-pane file explorer that supports favorites, file/color filtering, export to XLS/CSV/TXT/HTML, screen magnifier, quick preview etc</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;17
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="1467+1768983243"
-                        open
-                      >
-                        <summary class="article-expander__title">[UPDATE] WordWeb Free v10.55</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.portablefreeware.com/?id&#x3D;1467&amp;ts&#x3D;1768983243">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>WordWeb is a one-click English thesaurus and dictionary that can look up words in almost any program</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >小众软件</button>
-                  <a class="source-heading__link" href="https://www.appinn.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.appinn.com/wake-move-iphone/"
-                        open
-                      >
-                        <summary class="article-expander__title">起床走动 – 关不掉的 iPhone 魔鬼闹钟</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.appinn.com/wake-move-iphone/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.appinn.com/wp-content/uploads/2026/01/Copy-of-appinn-homework-34.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>这是一款必须要走动20步才能停下来的 iPhone 闹钟应用。不理它？一直叫！ 来自发现频道，开发者自荐：https://meta.appinn.net/t/topic/79528 开发者说： 我一直觉得一天中最难的部分就是早上起床，所以我开发了“起床走动”来解决这个问题。它会强制用户起床才能关闭闹</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.appinn.com/jquery-4-0/"
-                        open
-                      >
-                        <summary class="article-expander__title">时代的眼泪！jQuery 4.0 发布，上一个版本还是2016年。但是，它2026年市场占有率 70%+</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.appinn.com/jquery-4-0/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.appinn.com/wp-content/uploads/2026/01/Copy-of-appinn-homework-33.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>来自无宝同学大半夜的消息，可能是曾经最为著名的小型开源 JavaScript 库，被无数网站使用的 jQuery 迎来了近10年以来的首次更新！ jQuery 是一个小型开源 JavaScript 库，它简化了网页开发，核心目标是“写更少的代码，做更多的事情”。 它可以让许多网页特效，只需要几行代码</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.appinn.com/discourse-self-hosting-2026/"
-                        open
-                      >
-                        <summary class="article-expander__title">英伟达、OpenAI 同款，Discourse 重大更新，安装难度骤降94.7%</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.appinn.com/discourse-self-hosting-2026/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.appinn.com/wp-content/uploads/2026/01/Copy-of-appinn-homework-32.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>英伟达、OpenAI 同款的社区程序 Discourse 终于在 2026 年迎来了一个史诗级更新：降低安装难度，只需要 1 行命令，就可以完成安装。域名？不用！邮箱服务？通通不用！ 今天，著名的开源社区程序 Discourse 发布重大更新，将安装难度从 100 分降低至 5.3 分，邮箱、域名通</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >人人都是产品经理</button>
-                  <a class="source-heading__link" href="https://www.woshipm.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6330349"
-                        open
-                      >
-                        <summary class="article-expander__title">鸿蒙开发：一键更新，让应用无需提交应用市场即可下载安装</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6330349.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/wp-files/2026/01/9JV47YlbWhJG6fPNVOdU.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>HarmonyOSNEXT以后，一直想做一件事情，那就是如何让鸿蒙打出的包，可以像Android安装apk那样简单便捷！如今，经过多天的开发，测试，验证，一个便捷的插件终于开发完毕，它只有一个特点，那就是一键打包上传，并最终生成下载地址和二维码，可以让您更灵活的发布版本和限定测试范围，助您提前发现问题，及时修复问题和优化版本体验。
-
-插件开发背景
-截止到当下，如何让打出的包安装到真机设备中进行测试，目前官方提供的有四种方式，第一种是直接运行安装或者hdc命令安装，这种方式，简单便捷，非常适合于测试人员较少的小团队进行，但是不适合测试人员多的团队，并且不适合异地的场景，测试人员多，意味着设备多，设备多，意味着需要一一运行安装，会耗费大量的时间用于设备安装，将会大大降低研发的开发效率；如果有研发团队在A地办公，而测试团队在B地办公，直接运行安装将更加不便。
-除了第一种安装方式之外，官方也提供了AppGallery邀请测试，也就是需要把打出的包，提交至AppGallery后台，流程和正式发布类似，这种方式，解决了测试人员多，设备多以及异地办公等等缺点，它可以让测试团队非常方便的进行测试验证，但是时效性很差，因为虽然是测试版本，但是也必须进行审核，虽然目前官方审核的速度加快了，但是仍然不及时，特别是需要紧急验证的时候，会十分抓狂！
-第三种方式就是AppTest邀请测试，但是目前是为受限开放，需要进行申请体验，即便日后全部放开，但最终也必须上架至AppTest客户端，并且仍然需要进行审核，所以和第二种一样，测试验证不及时。
- 
-第四种，也就是插件目前在使用的这种，叫做团队内部测试，使用内部测试方式，无需提交应用至华为应用市场，就可以实现下载安装，和Android的Apk安装一样便捷，达到测试验证的及时性。
-团队内部测试固然很好，但是流程十分繁琐，需要所有的模块一一打包，并且需要一一获…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6330260"
-                        open
-                      >
-                        <summary class="article-expander__title">Agent Skills 终极指南：入门、精通、预测</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6330260.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2026/01/13/bc2de7cc-f047-11f0-8f2f-00163e09d72f.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Claude Skills正悄然重塑AI应用开发的游戏规则——无需代码，仅凭自然语言文档就能打造专业级Agent。从PDF处理到品牌设计，从智能写作到个性化伴侣，一个Skill包就能解锁通用Agent的垂直能力。本文深度解析Skills的底层原理与技术优势，带你看懂这种模块化扩展如何实现零门槛开发、灵活应对复杂场景，以及为何它可能成为下一代AI产品的标配范式。
-
-Claude Skills 的价值，还是被大大低估了。
-一个好 Skill 能发挥的智能效果，甚至能轻松等同、超越完整的 AI 产品。任何不懂技术的人，都能开发属于自己的 Skills。
-比如我自己做的 Article-Copilot，一个 skill 就实现了从素材处理到正文写作的 Agent 应用；
-
-又如 AI Partner Skill，让通用 Agent 深度学习你的记忆，塑造懂你的 AI 伴侣，给到个性回应。
-
-在研读 Anthropic 官方技术博客，与持续 Agent Skill 实验之后，形成了这份全网最完整的 Skill 指南，包含：
-
-1.最容易读懂的 Skills 概念与原理介绍
-2.讨论 Skills 的真实价值、技术优势、对 AI 产品设计的影响
-3.非常完整的 Skills 使用与开发教程
-4.Skills 的场景识别，什么时候适合开发、使用 Skills？
-从概念澄清、运作机制，到实践教程、应用价值，与你在本期分享。
-一、Skills 是什么：从概念来源到运作原理
-2025 年 10 月中旬，Anthropic 正式发布 Claude Skills。
-两个月后，Agent Skills 作为开放标准被进一步发布，意在引导一个新的 AI Agent 开发生态。
-
-OpenAI、Github、VS Code、Cursor 均已跟进。
-
-为了更好的理解，你可以把Skills 理解为“通用 …</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6327438"
-                        open
-                      >
-                        <summary class="article-expander__title">深度解读大语言模型 (LLM) 训练全链路，看这篇文章就够了！</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6327438.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/13/f35c645e-d9dd-11ed-8440-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>ChatGPT等通用大语言模型为何在专业场景频频&#x27;翻车&#x27;？本文将深度剖析LLM从&#x27;全能博士生&#x27;到&#x27;资深老员工&#x27;的蜕变之路，揭示数据驱动的微调训练如何为AI注入行业灵魂，并提供从数据构建到模型选择的完整落地方法论。
-
-为什么 ChatGPT 这种“大神”到了具体业务里经常“翻车”？
-企业在引入通用大语言模型时，常常会遇到一系列令人沮丧的现象：客服AI听不懂行业“黑话”导致理解偏差，法务AI写不出符合格式要求的合同条款，甚至技术支持AI会一本正经地提供错误的解决方案，引发合规风险。这些问题的根源在哪里？
-根据定义，LLM是“能理解和生成人类语言的人工智能程序”。这个定义揭示了LLM的核心能力，但也隐藏了其应用边界——通用模型虽然具备强大的语言理解与生成能力，却缺乏对特定行业、特定业务场景的深度认知。
-通用基座模型（Base Model）就像一个“刚毕业的全能博士生”——博学但缺乏实战经验。它掌握了海量的通用知识，能够应对各种基础问题，但面对企业复杂多变的实际业务需求，就像博士生初入职场，虽然理论功底深厚，却缺乏行业经验、不懂业务流程、不熟悉公司规范。
-而企业真正需要的是一个“懂业务、守规矩的资深老员工”——熟悉行业术语、了解业务流程、遵守公司规范、能够高效完成特定任务。
-那么，如何将一个”全能博士生”培养成”资深老员工”？这个”入职培训”的过程，就是LLM训练（微调/SFT）。通过精心设计的训练过程，我们可以将通用基座模型打造成符合企业特定需求的专业模型。
-本文目标：拆解LLM应用落地的全链路，展示如何把通用基座注入行业灵魂，帮助AI产品经理掌握将通用AI转化为企业核心资产的完整方法论。
-第一章：筑基 —— 理解“含人量”与训练本质
-1.1 什么是 LLM？（从定义到直觉）
-要理解LLM训练的本质，首先需要对LLM本身有一个清晰的认识。很多人一听到LLM，就会联想到”张量”、”…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6329676"
-                        open
-                      >
-                        <summary class="article-expander__title">2B供应链平台：运营与落地实践的一些反思</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/pd/6329676.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2024/07/15/8d14c218-427d-11ef-93cd-00163e142b65.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>供应链平台的数字化转型正面临前所未有的挑战。当信息差红利消失、价格内卷成为常态，纯线上撮合模式已难以为继。本文通过半年实战复盘，深度剖析B2B撮合平台的价值重构路径——从账期、履约到服务的硬核升级，揭示线下运营与关键供应商背靠背合作的破局之道，为深陷转型困境的供应链从业者提供实战思考。
-
-又做了半年供应链。到了年底，对自己的业务做一些总结。
-这半年我们在做什么？简单直白来说，做的最多的还是交易撮合，只不过从纯线上的模式，转为引入了销售，开始从线下客情和服务切入。
-我们到底在数字化供应链这条路上走了多远，做的怎么样，我们目前在做的“信息撮合供应链平台”还是一个靠谱的商业模式吗，以及在这样的情况下，我们怎么做2B业务，怎么做2B撮合业务，怎么服务广大的用户？
-我们要基于交易做数字化
-交易在前，数字化在后。这其实是一道选择题。市面上有公司从交易平台起家，后续转为专业的供应链平台，比如1688、京东等。也有从数字化解决方案着手，逐步完善自己的供给体系，比如商越科技等。
-公司战略一直喊着，要基于交易做数字化，重点命题在于怎么做好交易？平台的价值直接决定了平台的规模，同样的，平台提供的价值也会限制平台的规模，怎么理解？
-单纯的信息撮合，在还存在信息差、人民群众日益增长的物质文化需求与当时社会生产力相对落后的零零年前后，通过互联网能极大提升信息撮合效率，实现信息平权，实现赚取差价的钱。而现在，信息的获取已经非常简单，几乎没有了信息鸿沟，整个生产环境演变到了供大于求，价格持续内卷，C端的价格不断在触及B端的底线，叠加百亿补贴、国补等活动，不少商品甚至出现了倒挂。这时候依然一股脑做信息撮合平台，平台是提供不了任何价值的。
-
-换句话说，没有找不到的货源，也没有找不到的价格，同样单纯的信息撮合极其容易飞单。只做交易撮合，就是不断的再给别人做嫁妆，看似红火热闹，忙忙碌碌，实则最后一地鸡毛。并且从经…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6329654"
-                        open
-                      >
-                        <summary class="article-expander__title">Vibe Coding：从0到0.5，互联网产品创新的“新基建”与人才范式转移</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6329654.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/14/f972663a-da8d-11ed-b69c-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Vibe Coding正在悄然重塑互联网行业的底层逻辑，它不再是简单的代码辅助工具，而是一场人机协作范式的革命。从产品构思到实现，这支&#x27;全栈智能体军团&#x27;让创新成本从&#x27;按月计算&#x27;骤降至&#x27;按天完成&#x27;，产品经理正在从文档撰写者转型为AI编排者。本文将深入解析这种新型生产关系如何突破传统研发流程的边界，以及从业者该如何构建&#x27;意图工程&#x27;这一核心能力护城河。
-
-最近总在想一个事，咱们这行，是不是又到了一个十字路口。每天刷着各种信息，看着一个个新概念冒出来，又消失掉。但这次这个叫 Vibe Coding 的东西，感觉有点不一样。它不像一阵风，刮过去就没了，更像空气，慢慢渗透到每个角落。我作为一个在这个圈子里混了些年头的AI产品经理，想聊聊我的观察和感悟，不一定对，就当是朋友间的闲扯吧
-第一章：风起于青萍之末：Vibe Coding为何成为2026年互联网的“新氧”
-
-“新氧”这个词，我觉得用得特别贴切。它不是那种轰轰烈烈的革命，不是说一夜之间把旧世界砸个粉碎。它更像是在一个密闭的房间里，悄悄给你注入了新鲜氧气。你一开始可能都没察觉，只是觉得呼吸顺畅了，头脑清晰了，干活有劲了。等回过神来，你已经离不开它了
-Vibe Coding 就是这种感觉。它让很多以前觉得憋屈、费劲、遥不可及的事情，突然变得触手可及
-1.1 从Karpathy的预言到行业标配
-我记得很早之前，Andrej Karpathy 就提过一个想法，大概意思是未来的编程会更像是在跟一个非常聪明、反应极快的实习生沟通。你不用再逐字逐句地教他怎么写代码，你只需要告诉他你想要什么，他就能帮你搞定。当时听着觉得挺科幻的，像是在看电影
-
-可你看看现在，2026年了，这事儿不就是正在发生吗。我身边的一些朋友，尤其是在那些科技巨头工作的，他们告诉我，现在团队里用AI辅助写代码的覆盖率，说80%都算保守了，很多核心团队几乎是100%全员在用。这…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6328922"
-                        open
-                      >
-                        <summary class="article-expander__title">腾讯元器大赛获奖名单揭晓！智能体时代的首批“探路者”，已绘就AI场景落地路线图</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/it/6328922.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/wp-files/2026/01/wlgfd2uGMfCYRLPupMT2.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>AI正在重塑世界，但真正的变革从不止于算法迭代，而在于技术扎根真实场景，解决具体问题的力量。腾讯元器作为一站式智能体创建与腾讯生态分发平台，始终相信：最好的智能体，生于场景，长于实践。
-在过去的两个月里，我们与数百名AI探索者一起，共同参与了「腾讯元器智能体创作与分享大赛」。这不仅仅是一场比赛，更是一次面向所有人的郑重邀请：邀请你成为智能体时代的”场景探路者”与”实践布道师”。
-今天，这场充满创意与智慧的探索之旅画上圆满句号，但AI智能体与真实场景融合的故事，才刚刚翻开第一章。
-一场关于AI落地的集体实践
-这不仅仅是一次技术竞赛，更像是一次打开AI应用大门的钥匙。当AI技术从概念走向实践，从实验室走向真实场景时，我们向各行各业的创新者发出了邀请：
-AI智能体真的能听懂业务需求，而不只是执行预设命令吗？
-普通人能否通过腾讯元器平台，轻松创建解决实际问题的智能体？
-这些智能体如何组合成解决复杂业务场景的”超能力”？
-从”搭建”到”布道”，AI实践的价值如何被最大化？
-来自互联网、金融、教育、制造、医疗等领域的参赛者，带来了鲜活的工作场景和真实痛点。他们的每一次点击、提问、尝试，都在为AI智能体生态添砖加瓦。
-我们也为大家搭建了专属的探索阵地：专属交流群成了创意的火花碰撞地，丰富的资料库提供了灵感源泉，实时答疑确保创作理解的准确性，而直达产品团队的反馈让每一个好想法都能被听见。
-在这场实践中，每位参赛者都是”共建者”，你们的每一个反馈都在塑造AI智能体的未来。
-
-获奖名单揭晓：看见AI智能体的无限可能
-经过腾讯元器专家团、人人都是产品经理专家团的三方评审，现正式公布「腾讯元器智能体创作与分享大赛」获奖名单。
-在数百份高质量作品中，以下参赛者凭借出色的实践成果脱颖而出：
-（注：各奖项下排名内不分先后）
-一等奖
-PM宣仔 让AI穿过自己，用腾讯元器召唤出平行世界专家的自己
-二等奖
-陈…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6329548"
-                        open
-                      >
-                        <summary class="article-expander__title">阿里千问不止点外卖，阿里生态闭环的真正杀伤力</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/it/6329548.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/17/776bfe52-dcf5-11ed-a8f2-00163e0b5ff3.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>阿里巴巴的通义千问远不止是一款聊天机器人，它正悄然成为阿里生态的智能中枢。这款大模型将电商、金融、物流等业务板块的数据金矿深度打通，推动阿里从‘数据互联’迈向‘智能涌现’的新纪元。本文揭示了通义千问如何通过重构用户体验与产业效率，打造出竞争对手难以复制的生态壁垒。
-
-2026年的今天，全球科技竞争的焦点已经从移动互联网的平台之争，全面转向了以大语言模型（LLM）为核心的人工智能之战。各大巨头纷纷推出自己的基础模型，应用层面的创新也层出不穷。然而，当我们审视这场竞赛时，一个关键问题浮出水面：决定最终胜负的，仅仅是模型参数的规模、算法的优劣，还是背后更深层次的商业结构与数据壁垒？
-阿里巴巴的“通义千问”系列大模型，自发布以来便备受瞩目 。市场最初的理解，往往将其与市面上的其他聊天机器人或内容生成工具对标，认为其主要应用场景是智能客服、文案创作等。这种看法，正如标题所隐喻的——仅仅看到了“点外卖”式的表层应用。然而，这种认知极大地低估了通义千问在阿里巴巴这艘商业航母中的真正战略意图。
-本报告的核心论点是：通义千问并非一个独立的产品，而是阿里巴巴生态系统进化到“智能纪元”的中央神经网络和操作系统。它的出现，旨在将阿里过去二十多年积累的、看似独立的业务板块（电商、支付、物流、云等）从“数据互联”的物理层，提升到“智能涌现”的化学层。这种由AI驱动的生态闭环所产生的“核聚变”效应，即是其“真正的杀伤力”所在，它不仅将重塑用户体验与产业效率，更将构筑起一个他人无法通过单纯复制模型技术来打破的竞争壁垒。
-本报告将通过对现有公开信息的梳理、结合对大型商业生态与人工智能技术融合趋势的深度推理，系统性地揭示这一论点。
-第一部分：阿里生态闭环——坚实的基础设施与沉睡的数据金矿
-在探讨通义千问的颠覆性潜力之前，必须首先理解其赖以生存和发挥作用的土壤——阿里巴巴的生态闭环。这个生态并非一日建成，而是经…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6329632"
-                        open
-                      >
-                        <summary class="article-expander__title">“死了么”的爆火是否人人可复制</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/it/6329632.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/wp-files/2026/01/swI3TjQekPQe5XyxwXdF.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>一款名为“死了么”的签到工具在短短几天内从爆火到消失，成为互联网圈的热议话题。这款由三名95后用不足1500元成本开发的应用，凭借极具争议性的命名和精准击中独居人群的安全焦虑，迅速冲上付费榜榜首，估值飙升至近亿。然而技术门槛的消失、竞品的闪电复制、商业模式的脆弱性以及舆论的反噬，让这场“情绪赌局”迅速落幕。本文深度拆解这场现象级爆款背后的DNA与教训，揭示在技术平权时代，创意与流量之外产品经理必须面对的生存法则。
-
-最近互联网圈子挺热闹的，尤其是做产品的朋友们，估计都在围观一个现象级的应用，就是那个名字听起来有点惊悚的签到工具
-这事儿太有戏剧性了，简直就是一部微缩版的互联网创业史，从全网热议到仓促地从商店里消失，前后也就那么几天时间。作为一个天天跟AI和产品打交道的从业者，这在我看来已经不只是一个新闻热点，更像是一次技术、传播和人性需求的“综合实验”
-我们来快速回顾一下它的关键节点，真的比坐过山车还刺激。三个95后，花了不到一个月时间，成本据说只有一千多块钱，就做出了这么个东西 。然后突然之间，它就火了，下载量暴涨几百倍，直接冲到了付费榜的第一名 。资本闻着味儿就来了，估值从最初计划的1000万，几天之内被炒到了接近一个亿 。这故事听着是不是特别梦幻
-可魔幻的还在后面。就在它最火的时候，各种模仿者，比如叫“活了么”之类的应用，几乎一夜之间就冒了出来，而且很多还是免费的 。舆论风向也开始变，一开始大家觉得这名字是黑色幽默，后来就有人说不吉利，觉得是在博眼球 。最后，团队顶不住压力，先是宣布改个全球化的名字叫Demumu ，没过多久，这个应用就在国内的应用商店里找不到了
-
-整个过程快到让人眼花缭乱。这就引出了一个我们这些产品人必须思考的问题：在这个人人都是产品经理，技术门槛越来越低的时代，一个爆款的诞生，是不是已经从过去那种拼技术、拼功能的“技术竞赛”，彻底变成了一场赌人性的“…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6329478"
-                        open
-                      >
-                        <summary class="article-expander__title">从千元成本到千万估值：“死了么”APP的极简主义胜利与商业变现迷局</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/it/6329478.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2026/01/21/084c9338-f674-11f0-9bc5-00163e09d72f.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>一款名为“死了么”的极简应用以千元成本撬动千万估值，引爆市场热议。这款产品精准捕捉了1.25亿独居人群的“失联恐惧”，通过签到打卡的极简设计击中核心痛点。本文深度剖析其从MVP到爆款的成长路径，并揭晓光环背后隐藏的商业变现迷局与生存挑战。
-
-一场“千元成本”与“千万估值”的极限反差
-最近互联网圈子里最魔幻的事，莫过于一个叫“死了么”的应用了。作为一名AI产品经理，我每天都在跟复杂的模型、海量的数据和无尽的需求搏斗，试图构建那些看起来“高大上”的产品。可就在我们绞尽脑汁做加法的时候，一个极简到堪称“简陋”的东西，却以一种匪夷所思的方式引爆了市场
-我看到的数据是，三个95后，花了不到一个月时间，成本一千多块钱，就做出了这个应用。然后，它登顶了付费榜，下载量暴涨几百倍。更夸张的是，资本闻风而动，创始人最初计划出让10%股份融资100万，几天之内，这个价格就被六七十家投资机构竞价到了近千万元，公司估值直接冲向一个亿
-登顶付费榜的“死了么”及其引发的用户反馈
-千元成本，千万估值。这个反差太强烈了，强烈到让很多从业者包括我都感到一丝恍惚。一个只有签到和邮件通知功能的应用，UI简单到几乎没有设计，技术上看起来也没什么壁垒，凭什么能获得如此巨大的成功。这事儿有意思不
-这背后到底是什么逻辑。是市场的偶然狂欢，还是某种被我们忽略的底层需求的集中爆发。今天，我就想以一个产品人的视角，聊聊我的观察和思考，试着去拆解这个产品从一个极致的MVP最小可行产品，到现象级爆款的路径，更重要的是，我想深入聊聊它光环之下，那个可能致命的商业变现迷局和它面临的重重挑战
-第一章：爆红的逻辑——以“极简MVP”撬动亿级情绪痛点
-任何一个爆款的出现，都不是偶然。我反复琢磨这件事，觉得它的成功，核心在于用一种极低的成本结构，精准地撬动了一个无比巨大的情绪痛点。它不是创造了需求，而是像在广袤的荒漠里插上了第一面旗帜，让所有…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6329435"
-                        open
-                      >
-                        <summary class="article-expander__title">千问破局：AI 产品的下一站，是 “能办事” 的生态闭环</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6329435.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2026/01/21/fb1afaf2-f672-11f0-9bc5-00163e09d72f.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>千问AI的突破性设计正在重新定义效率边界——从旅行规划到外卖下单，它不再只是建议生成器，而是直接打通执行闭环的产品革命。本文将拆解阿里生态如何通过动态响应、过程透明与全栈协同三大核心能力，率先实现AI从‘能聊’到‘能办’的质变，揭示下一代AI产品的关键胜负手。
-
-一、核心功能破局：从 “建议层” 到 “执行层” 的产品设计
-过去的 AI 产品，大多停留在 “给方案” 的层面：生成旅行攻略让你自己订酒店，列出购物清单让你跳转 APP 下单。千问的颠覆，在于把 “说” 和 “做” 做成了闭环，这背后是三个关键产品设计思路：
-对话即闭环：砍掉冗余环节，极致降低操作成本
-“多一步跳转，少一半用户”。千问的核心设计就是 “输入需求→确认结果→完成交付”，全程无额外跳转：
-订外卖：输入 “想吃牛肉炒饭”，系统自动叠加红包，比自己开会员下单省 22.7 元，确认地址就能坐等送达
-
-
-
-
-这种设计完美契合 “最小路径原则”，把用户从 “多 APP 切换、重复输入信息” 的繁琐中解放出来，这才是 AI 产品该有的 “效率感”。
-1. 动态迭代：接住用户的 “临时需求”
-好的产品从不是 “一次性交付”，而是能持续响应用户变化。千问在复杂任务处理上，把 “动态调整” 做到了极致：
-初始需求：“帮我做南京两日游规划，预算 2000，轻松一点”；
-
-
-
-
-AI 交付：调用高德规划路线、飞猪匹配酒店机票，生成可直接预订的结构化行程；
-后续调整：用户说 “第二天不想太累”“换性价比高的酒店”，AI 无需重新生成，直接在原有方案上迭代优化。
-这对产品人的启示是：用户需求从来不是一成不变的，设计 AI 产品时，要预留 “动态调整接口”，让产品能像 “真实助手” 一样灵活响应。
-2. 过程透明：用 “可见性” 构建用户信任
-AI 产品的 “黑盒焦虑” 一直是落地痛点 —— 用户不知道 AI 为什么这么推荐，也…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/it/6329355.html"
-                        open
-                      >
-                        <summary class="article-expander__title">靠1亿阅读赢马斯克1百萬，我把DanKoe人生指南做成了免费Skills</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6329355.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2024/08/24/41e107e2-61c3-11ef-9a04-00163e142b65.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>当Dan Koe的万字长文在X平台创下1.32亿阅读纪录，其爆款内容的生产逻辑正被AI工具解构。本文通过Coze平台将他的写作框架转化为可复用的翻译、选题与画风复刻技能，揭示创作者如何借助智能体实现从灵感到成品的效率跃迁，同时警惕在技术狂欢中保留独立思考的叙事内核。
-
-时势造英雄这句话还真不是白扯的，
-Dan Koe一篇文章在X上1.32亿阅读量，某鱼某书打开全是他的名字，马斯克的长文百万奖金基本就是归他了。
-围绕他的争议非常大，有人说他是新世界成功学大师，妥妥标题党，有人觉得他说的理论可复制性极高，足够让普通人活成一台印钞机。
-极与极。
-这两天我把他最近阅读量最多的4篇文章都读了一遍，1.32亿的那篇文章极长，属于是看一半断一半才勉强看完。
-🔗 https://x.com/thedankoe/article/2010751592346030461
-在他这篇长文火起来的时候，我对他的印象还是他的爆款内容产出系统，当时看了十几个拆解版本。
-
-所以我跟扣子2.0一拍即合，这次扣子支持了Claude Code同款的Skills，新增了长期计划功能（有惊喜到我，跟一般定时任务完全不一样）。
-我阅读理解Dan Koe文章的时候用到的翻译，文风复刻，每日选题和画风复刻都打包成了线上的，大家都可以使用的Skill（技能），自带版本回退，修改记录和线上发布。还有一个大招，可以把Claude Code目前6万多个技能安装到Coze上。
-Here we go！
-
-🔗 https://www.coze.cn/skills 右上角点创建技能，后面都是这界面开发了
-我们先从简单的翻译Skill开始做起。
-首先说说我的思路，我用的是@宝玉之前的科技文章翻译提示语作为骨架，结合了两个新的信息来源去生成一个新的Skill。
-第一个来源，是之前@赛博禅心翻译Dan Koe文章时，在评论区里收集到的读者反…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >QiuQuan&#x27;s Blog</button>
-                  <a class="source-heading__link" href="https://www.qiuquan.cc">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://bak.qiuquan.cc/?p&#x3D;4165"
-                        open
-                      >
-                        <summary class="article-expander__title">系统优化 Advanced SystemCare 19.1.0.176 专业版 + 18.1.0.87 旗舰版</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.cc/systemtool/advanced-systemcare.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.qiuquan.cc/wp-content/uploads/2024/11/AdvancedSystemCare-150x150.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>一键清理优化和修复、深度清理Windows注册表、自动在线反浏览器跟踪保护隐私，提速高达300％的互联网助推器。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://www.qiuquan.cc/?p&#x3D;11009"
-                        open
-                      >
-                        <summary class="article-expander__title">班迪看图 BandiView 7.24 Professional 直装破解版</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.cc/image/bandiview.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.qiuquan.cc/wp-content/uploads/2025/05/BandiView-150x150.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>BandiView 是 Honeyview 的后续图像查看器,它继承了其前身的所有酷炫功能,并得到了进一步的改进。 快速轻松地查看各种格式的图像,从最常见的格式到最专业的格式。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -26401,8 +26368,8 @@ Here we go！
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/allceo/feed/actions/runs/22165652363">
-        <time id="build-timestamp" datetime="2026-02-19T02:07:49.549Z">2026-02-19T02:07:49.549Z</time>
+      <a class="footer-link" href="https://github.com/allceo/feed/actions/runs/22208306631">
+        <time id="build-timestamp" datetime="2026-02-20T02:03:43.526Z">2026-02-20T02:03:43.526Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
