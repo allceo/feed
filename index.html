@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-03-31 datetime="2026-03-31T02:07:22.000Z">2026-03-31</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-03-31 datetime="2026-03-31T02:07:22.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-04-01 datetime="2026-04-01T02:07:57.000Z">2026-04-01</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-04-01 datetime="2026-04-01T02:07:57.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,588 @@
                   <a class="source-heading__link" href="https://www.woshipm.com">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6367191"
+                        open
+                      >
+                        <summary class="article-expander__title">Anthropic在51万行代码里偷偷养了只宠物</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/operate/6367191.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/13/080f5094-d9e0-11ed-8d63-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>当 Anthropic 的价值 3800 亿美元的 AI 编程工具 Claude Code 的源码意外泄露时，技术社区震惊地发现其中隐藏着一个完整的电子宠物系统。这个被称为 Buddy 的系统包含 18 种虚拟宠物、扭蛋机制、稀有度分级和五维属性，设计之精细令人惊叹。这不仅是工程师的彩蛋，更揭示了严肃工具中情感化设计的深层价值 - 如何在代码世界的孤独中创造陪伴感。
+
+2026年3月31日，安全研究员 Chaofan Shou 发现 Claude Code 的 npm 包里多了一个 59.8MB 的 source map 文件。这个本该在发布时删掉的调试文件，把 Anthropic 这款 AI 编程工具的全部源码暴露在了互联网上。51万行代码，1900个文件，一览无余。
+
+这件事本身已经够炸裂了。但真正让技术社区沸腾的，不是泄露本身，而是大家在代码里发现了一些奇怪的东西。
+在一个叫buddy/的目录下，注释写着 Companion sprite (Easter egg)。
+点进去一看：18种虚拟宠物，从鸭子到龙到水豚到蘑菇，完整的扭蛋抽取机制，1%的传说级掉落率，还有五维属性系统。
+更离谱的是，开发者用String.fromCharCode()把宠物的名字做了编码混淆。为什么？怕被 Anthropic 内部的代码扫描器发现，他们在一个严肃的命令行工具里，偷偷养了一只电子宠物。
+一个估值 3800 亿美元的 AI 公司，一款面向专业开发者的编程工具，51万行代码里藏着一只会冲你吐气泡的 ASCII 小动物。
+这不是实习生的恶作剧。打开代码你会发现，这个宠物系统设计得相当认真。
+问题来了：为什么？
+Buddy 长什么样？
+那这只宠物到底长什么样？
+
+从泄露的源码来看，Buddy 不是一个随手写的彩蛋，而是一个有完整设计的系统。
+物种体系。一共18种，画风非常混搭：鸭子、鹅、猫、…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/it/6367361.html"
+                        open
+                      >
+                        <summary class="article-expander__title">用户根本不想要“AI助手”，他们只想要结果</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6367361.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2026/04/01/419c0342-2d6c-11f1-8d93-00163e4b86a1.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>用户打开AI产品时，眼神里不是好奇而是期待。他们不需要一个对话框或一个助手，只想快速拿到结果。本文深入剖析了AI产品设计中‘能力导向’与‘结果导向’的根本区别，并提供了从需求到设计的三层框架，帮助产品团队从‘展示AI能力’转向‘交付用户价值’。
+
+你有没有观察过用户第一次打开你的AI产品时，眼神里的东西？
+不是好奇，是期待。他们在等一个结果。
+但很多AI产品递给他们的，是一个输入框，和一行提示语：“你好，我是你的AI助手，请问有什么可以帮你？”
+然后用户愣了一秒，开始打字，产品开始回答，对话进行了五轮——什么也没有完成。
+用户关掉了页面。产品团队在数据里看到“平均对话轮次提升”，以为这是好事。
+这不是用户不会用AI。这是产品设计错了方向。
+一个被反复犯的错误
+过去两年，我看过几十款所谓的“AI产品”，发现大多数都陷入了同一个陷阱：把“提供AI能力”当成了产品目标本身。
+表现在设计上，就是：
+界面的核心是一个对话框
+功能入口是“和AI聊聊”
+成功指标是对话轮次、会话时长、日活留存
+这套逻辑在内部自洽，却在用户侧完全跑偏。
+用户打开你产品的那一刻，他脑子里没有“我要用AI”这个念头。他有的是：
+“我要写完这封邮件”
+“我要把这份报告搞定”
+“我要知道这个问题的答案，然后去开会”
+AI只是他们达成目标的路径，不是目标本身。
+一个只会提供“AI能力”的产品，相当于开了家餐厅，门口招牌写的是“我们有最好的炒锅”——你给我看厨具干什么？我要吃饭。
+
+这个错误的根源，往往不是产品经理不懂用户，而是整个团队在“AI能力”这件事上太兴奋了。大模型能写代码、能分析数据、能翻译多国语言——每一个能力单拎出来都令人惊叹。于是产品的设计目标悄悄变成了“把这些能力展示给用户”。
+能力展示，和用户价值交付，是两件事。
+结果 vs 能力：一个根本性的区分
+在设计AI产品时，有一个问题可以帮你快速校准方向：…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6367110"
+                        open
+                      >
+                        <summary class="article-expander__title">生命可以被“重装”吗？从硅谷“无脑克隆”争议看 AI 医疗的终极边界</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6367110.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2026/03/31/9d3937b8-2d0a-11f1-aced-00163e09d72f.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>当AI医疗的触角伸向生物克隆领域，R3Bio的“无意识生物系统”正在颠覆传统医疗伦理框架。本文从产品经理视角，犀利剖析器官模块化背后的技术黑盒与伦理困境，揭示碳基克隆与硅基孪生的战略博弈，并给出AI医疗产品在生命尊严与技术狂热间的平衡之道。
+
+如果人类的身体可以像手机零件一样“模块化更换”，世界会变成什么样？
+最近，硅谷初创公司 R3Bio 尝试培育“无意识生物系统”（被外界戏称为“器官袋”或“无脑克隆人”）的新闻，在生物医疗和投资圈炸开了锅。这不再仅仅是科幻电影《逃离克隆岛》的现实映照，更是一场关于技术奇点、伦理红线与商业本质的终极博弈。
+作为 AI 产品经理，我们习惯了用算法优化转化率，用数据驱动增长。但当我们的“产品”变成了一个活生生的、或者说“半活”的生物系统时，我们该如何定义产品的边界？我们要修复生命，还是制造备件？
+01 欲望的奇点：硅谷的“长生不老”狂热与产品位移
+在硅谷，死亡被视为一个“可以被修复的 Bug”。
+从 Jeff Bezos 投掷重金的 Altos Labs 到 Sam Altman 关注的 Retro Biosciences，亿万富翁们对长寿的追求已经从单纯的“吃药”进化到了“换件”。R3Bio 的争议在于，他们试图通过 AI + CRISPR 基因编辑，直接跳过漫长的药物研发（修复逻辑），进入残酷但高效的硬件替换（更换逻辑）。
+从产品逻辑上看，这是一个极其诱人的“解决方案”：
+痛点：器官衰竭是高龄人群不可避免的死亡主因，而器官捐献库极其稀缺且伴随排异反应。
+解决方案：培育一个 100% 基因匹配、在无菌环境下生长、且“没有意识”的克隆实体作为备件库。
+
+这种将人体硬件化、模块化的思维，是技术奇点下的一种“激进产品观”。它试图将生命简化为一组可编程的生物代码。但作为 PM，我们必须追问：这个“产品”的代价，仅仅是金钱吗？
+02 技术验证的“黑盒…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6367087"
+                        open
+                      >
+                        <summary class="article-expander__title">IFS深度解析：产品经理视角下的业财融合破局之道</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/pd/6367087.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/14/76d86fe2-da9e-11ed-9b82-00163e0b5ff3.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>全球经济一体化与数字化浪潮下，大型企业的财经管理正面临前所未有的挑战。IFS集成财经服务应运而生，通过业财深度融合、全生命周期管理和数据驱动决策，为企业构建从规模扩张到精益经营的全新财经管理体系。本文将深入剖析IFS的理论内核、管理框架及在华为等企业的实践案例，揭示财经管理如何从后台支撑升级为价值创造的核心引擎。
+
+一、背景：从粗放扩张到精益经营，大型企业财经管理的时代之变
+在全球经济一体化与数字化浪潮双重驱动下，大型企业的经营环境正发生颠覆性变革。过去数十年，多数大型企业依托人口红利、市场扩张与政策机遇，实现了规模的跨越式增长，业务版图从单一区域拓展至全球，业务形态从单一品类延伸至多业态协同，组织架构从扁平式演变为多层级、多法人的复杂集团形态。
+以华为为例，2007年前后其海外业务营收占比已超70%，合同金额动辄数十亿，但任正非却直言“不知道这些单子赚不赚钱”，这并非个例，而是当时中国乃至全球大型企业的普遍困境。
+彼时，企业的核心矛盾已从“如何做大规模”转向“如何在规模扩张中实现盈利与风险可控”，传统财经管理模式的底层逻辑——“事后核算、被动监督、数据割裂”，已无法适配企业高质量发展的需求。
+从外部环境看，全球经济增速放缓、市场竞争白热化、监管政策趋严，叠加供应链波动、地缘政治风险等不确定性因素，企业的经营容错空间持续压缩。
+一方面，客户对交付效率、成本控制的要求不断提升，企业若无法快速响应市场、精准配置资源，将直接丧失竞争优势；另一方面，税务、外汇、合规等监管要求日益严苛，跨国经营中的财税风险、资金风险呈指数级增长，任何一处管控漏洞都可能引发巨额损失。
+从内部管理看，大型企业普遍存在“业务与财务两张皮”的顽疾：业务部门聚焦前端拓展，追求订单规模与市场份额，忽视盈利与风险；财务部门固守后端核算，专注数据记录与合规审查，脱离业务实际，导致流程审批僵化、数据滞后失真、决策支撑…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6367065"
+                        open
+                      >
+                        <summary class="article-expander__title">浅谈AI会替代和不会替代什么人</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6367065.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/13/37120104-d9de-11ed-8fc2-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>AI正在重塑职场生态，但它真正替代的是标准化能力而非岗位本身。本文深度剖析AI冲击下五类高危人群的生存困境，同时揭示定义问题者、AI生产力转化者、决策担当者等难以被替代角色的核心特质，为职场人提供从执行层向战略层跃迁的实战指南。
+
+AI会替代什么人
+最近“小龙虾”把“数字员工”这个概念点燃，本质上是把AI从“工具”推向了“劳动力替代”的叙事阶段。 在这种叙事下，公众FOMO情绪被迅速放大，很多公司开始下意识地做一件事：用AI去对标“人”，然后裁人。
+但这里有一个关键误区：AI替代的是“能力”，不是“岗位”。
+岗位的本质不是技能集合，而是责任、协同位置和结果承担。
+所以接下来发生的，不是“岗位消失”，而是岗位结构被重构 + 人数被压缩。
+可以预见，在未来1~3年内，AI会大规模冲击的是以下几类人：
+1. 中低级程序员
+他们的能力高度标准化，本质是“把明确需求转成代码”的执行层。这部分能力已经被AI大幅覆盖，未来会变成：少量核心工程师 + AI，替代一整个中低级开发团队。
+2. 纯执行型基础工种
+例如客服、剪辑、基础财务、基础运营等。这类岗位的问题不是“简单”，而是：不掌握决策权，也不沉淀不可替代的know-how。
+当企业完成一定程度的流程梳理和标准化后，这类岗位会快速被AI吞掉一大部分产能。
+
+但要注意一个现实：很多公司连流程都没梳清，所以短期不是“替代”，而是“人+AI混合阶段”。
+3. 低于行业平均水平的内容与创意岗位
+例如低级文案、基础视频创意、模板化素材制作。
+随着大模型能力提升 + 行业SaaS成熟，这类工作的产出会被：AI直接生成 或被工具链工业化替代 。
+最终结果是：企业不再需要为“平均水平”买单，只需要为“差异化和结果”付费。
+
+什么人较难被替代
+如果从“被替代的人”反推回来，会发现一个更清晰的规律：AI能做的是“确定性的执行”，而留下来的，都是“非确定性”…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/it/6367346.html"
+                        open
+                      >
+                        <summary class="article-expander__title">没有广告数据，但我的亚马逊店铺新品出了3单</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6367346.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2026/04/01/180be0ca-2d6b-11f1-aced-00163e09d72f.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>亚马逊新品上架，广告数据为零却迎来首单，这是偶然还是验证了某种产品逻辑？本文从一次“反常”的出单经历出发，深度剖析在没有广告助推的情况下，如何通过自然流量完成从Listing基础条件到产品需求的MVP验证，并重新思考广告在运营中的定位与价值，为创业者提供一种全新的测品与流量观察视角。
+
+今天我的亚马逊店铺里，新上的品开始出单了。一共两个订单，卖了三个。
+
+但有个点挺奇怪的，广告数据还是0。没有曝光，没有点击，也没有花费。
+一开始我有点懵。因为我之前理解的是：开广告→有曝光→有点击→才会有订单。这是一个线性的漏斗。
+但现在是：没广告数据，但有订单。这就像车子还没踩油门，它自己往前溜了一段。
+我想，这几单应该不是广告来的。更像是自然流量。
+我现在这个Listing，其实有几个基础条件：
+刚上架，有New标签；FBA发货，配送还可以，是次日达；；价格在正常区间；类目本身有搜索量。
+我觉得平台可能会先做一件事：给一点自然流量，看看你能不能卖。
+所以这3单，对我来说不算多，但挺关键。
+说明一件事：这个Listing，是有人愿意买的。
+我大概拆了一下，这3单其实验证了四件事：：
+主图至少没劝退，因为有人点了；
+标题是能看懂的，因为需求匹配上了；
+价格是能接受的，因为决策成本较低；
+产品需求是成立的，因为有人搜，有人买；
+在没有评论的情况下，有人愿意付9.99买单。我觉得这一步已经算是一个MVP验证了。
+然后我再看广告这件事，想法也有点变了。
+之前我还一直在想：为什么没曝光？是不是关键词不对？是不是竞价太低？
+
+但现在我反而理解了：广告不一定是用来带第一单的。更像是，放大已经能卖的东西。
+所以现在广告是0，我不太焦虑了。
+我猜可能是系统还在用自然流量测试。如果转化可以，后面才会慢慢给更多流量。
+还有一个细节。
+现在后台库存是：有货5，预留45，前端显示6。我理解是：一边在分仓，一边已经开始卖了。
+库存是动态的，生意是流动的。
+今天这一步，我觉得不是“开始赚钱”。更像是，确认这东西有人会买。
+顺带说一下，我前两天刚做了一个99块的文档。
+本来是想测试内容能不能变现。但今天这个订单出来之后，我反而更清楚一点：
+不管是电商还是内容，其实都一样：有没有人愿意付钱。
+今天就先记录这些。店铺运营暂且不做调整，先继续观察，看后面是否能继续稳定出单。
+这3单不多，但至少说明，这件事，不是完全没有人要。
+后续我会继续把这个项目的进展，记录在「创业日志」这个栏目里，从选品、测品、发货，到第一单，再到是否能跑出稳定现金流。
+如果你也在尝试做跨境电商，或者正在探索一人公司创业，也可以留言交流。
+本文由人人都是产品经理作者【曙欧巴】，微信公众号：【曙欧巴】，原创/授权 发布于人人都是产品经理，未经许可，禁止转载。
+题图来自Unsplash，基于 CC0 协议。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6367051"
+                        open
+                      >
+                        <summary class="article-expander__title">从“互联网+”到“AI+”：数字世界的二次觉醒</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6367051.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/08/22/2b3dad7a-40df-11ee-9458-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>本文系统梳理了从“互联网+”到“AI+”的演进脉络，深入底层逻辑、行业实践、转型路径、演进代价及未来机遇等核心维度，旨在全面解析这场智能革命的本质与趋势。
+
+如果说“互联网+”是物理世界向数字空间的大规模迁徙，完成了生产要素的“在线化”重构；那么“AI+”则是为这具数字躯体注入了自进化的灵魂，开启了一场关于“认知与决策”的深度革命。
+这绝非简单的工具更迭，而是生产力底层逻辑从“人力驱动”向“智能驱动”的范式重构。
+“AI+”并非“互联网+”的替代者，而是其进化的必然方向。
+作为推动新质生产力发展、重构价值体系的核心风口，它正在开启数字经济的下半场，重塑每一个参与者的生存边界与发展可能。
+一、底层认知：互联网+与AI+的本质分野
+要理解“AI+”的价值，必须厘清其与“互联网+”的本质分野。两者并非平行赛道，而是数字经济递进发展的两个阶段，在逻辑内核与价值增量上有着根本区别。
+1. 核心逻辑：从“连接”到“认知”的跃迁
+互联网+ 的内核是“连接与在线”：其本质是打破时空壁垒，实现人、信息、交易与流程的数字化串联。它解决的是“信息不对称”与“流转效率低下”的问题。无论是电商、移动支付还是社交软件，其本质都是“把线下的业务搬到线上做”。在这一阶段，人依然是决策与执行的唯一核心，技术仅作为降低连接成本的辅助工具。
+AI+ 的内核是“辅助认知与智能增强”：其本质是在数字化的底座上，赋予系统分析、推理、预测乃至生成的能力。它实现的并非决策权的更迭，而是“执行重心的位移”——通过海量数据训练，让系统自主完成高频、标准化的数据处理与预案筛选，实现“感知到建议”的快速闭环。
+
+从毫秒级的 AI 质检到自动生成的创意初稿，AI 正在承接大量冗余、重复的脑力劳动。在这一模式下，人类从繁琐的执行者进化为“战略决策者”与“终审仲裁者”。
+人机协同的新常态表现为：AI 基于概率模型提供“最优参考方案”，…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6367038"
+                        open
+                      >
+                        <summary class="article-expander__title">与Lovable CEO对话，120万用户增长秘籍</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6367038.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/wp-files/2026/03/JziDU1iHNtwBas5RvNKa.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>AI驱动的全栈开发平台Lovable正在改写创业规则，让不会写代码的99%人群也能快速构建商业应用。在这场与Stripe产品负责人的深度对话中，创始人Anton Osika揭示了如何通过极速原型、AI引导和反共识增长策略，在30人团队规模下实现令人惊叹的线性增长。更关键的是，他们正在突破工具边界，将获客能力直接赋能给创业者。
+
+今天这篇访谈是Stripe全球产品负责人Eeke de Milliano 与Lovable CEO Anton Osika 的对话，Lovable 是由瑞典开发者Anton Osika与Fabian Hedin于2023年创建的AI驱动全栈应用开发平台。
+初创企业的发展速度正在加快，因为较年轻的公司(成立于2020年至2023年之间的公司)已达到重大收入里程碑的速度大约是那些在2020年之前成立的公司的三倍。Lovable是历史上发展速度最快的初创公司之一。
+所以这场访谈不光是一次关于 AI 开发工具的创业访谈，还是一套完整的「产品驱动增长」与「一人公司/超级个体」的实操指南。
+在访谈的开始，Eeke de Milliano就表示非常激动能和Anton Osika 对话，因为几周前她的产品管理团队办了一场黑客马拉松，短短 3 小时，他们就做出了实打实、可落地的产品原型，这些产品她马上就愿意投资。
+全程没有引擎、没有设计支持，她很感谢Anton Osika 为这个世界带来了这么强大的产品。
+一、创业初衷是让 99% 不会写代码的人也能做开发
+如果把时间拨回五年前，Lovable 的诞生是不可能实现的，因为当时的技术底座根本无法支撑。
+Anton 的顿悟时刻发生在 2023 年初。当时，大语言模型（LLM）开始展现出惊人的推理能力。尽管当时业界对此还有争议，但 Anton 敏锐地察觉到，AI 已经能够理解复杂问题、拆解步骤，并将其直接转化为可运行的代码。…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6366963"
+                        open
+                      >
+                        <summary class="article-expander__title">从 Q1 刚融到钱的 7 家初创公司，看 AI 创业的新战场</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6366963.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/13/d34a618a-d9e1-11ed-9d7a-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>AI 正在悄然重塑传统行业的运营逻辑。本文精选 7 家 Q1 获得融资的 AI 初创公司，它们分别切入保险经纪、制造业采购、医院财务等看似平凡却痛点明确的领域，用系统化思维取代人工操作，在商业变现与客户留存上展现出惊人潜力。这些案例证明，真正的 AI 价值往往诞生在远离聚光灯的行业缝隙中。
+
+我梳理了7家 Q1 有新一轮融资，且觉得值得和大家分享的 AI 初创公司。
+这7家公司覆盖的领域包括：采购、保险经纪、制造业供应链、医院财务、企业知识管理，甚至垃圾清运这样的传统行业运营。
+这些方向看上去既不新潮，也不热闹，但我觉得确是真正能做出收入、能把客户留下来、能慢慢做出壁垒的。
+
+1. Kana｜AI 营销：从做内容，到结果优化
+数据2026 年 2 月，Kana 结束隐身状态，宣布拿到 1500 万美元种子轮融资。
+团队背景很强，创始人来自 Krux、Rapt 这些老一代营销科技公司。
+核心业务Kana 做的不是那种单点营销工具，也不是简单帮你写文案、出素材。
+它想做的是一套给营销团队用的智能系统，覆盖数据分析、用户分层、活动管理、客户互动、媒介规划，以及品牌内容在 AI 聊天入口里的呈现优化。
+业务价值过去一年，营销领域最常见的 AI 用法，还是写文案、做图片、改标题、出视频脚本。
+Kana 不满足于这些“外围工作”，而是往更接近结果的地方走：看数据、分人群、调活动、盯效果。
+说白了，它碰的已经不是“内容生产”，而是“营销运营”。
+
+use case一个品牌团队过去做投放，往往要人工盯各类数据，看哪类人群转化更高、哪个渠道效果更好、哪组活动该停、哪组该加预算。
+Kana 想做的，就是把这些本来要靠营销团队不断盯盘、不断调的工作，交给一套持续运行的系统去处理。
+
+2. Harper｜商业保险：从人工经纪，到系统化成交
+数据2026 年 2 月，Harper 宣布完成总额 46…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6360941"
+                        open
+                      >
+                        <summary class="article-expander__title">销量预测实战：用季节系数和活动系数，让库存预警不再“拍脑袋”</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/operate/6360941.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/17/b3b48884-dcf5-11ed-9781-00163e0b5ff3.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>库存预警不必再凭直觉拍脑袋！这套结合季节系数与活动系数的销量预测方法论，将彻底改变产品经理的备货逻辑。从汽车后市场到电商零售，文章手把手教你如何用历史数据剥离季节性波动、量化促销影响，最终构建出可动态调整的双轨预测模型，让库存管理告别盲目与浪费。
+
+产品经理做库存预警，最怕拍脑袋定安全库存。今天我们就用一套可落地的“季节系数+活动系数”法，手把手教你预测日均销量，告别缺货与积压的左右横跳。
+为什么销量预测这么难？
+汽车后市场、零售、电商……几乎每个行业的产品经理都会面临同一个灵魂拷问：“下个月该备多少货？”
+拍脑袋的后果很明显——备少了，车主到店没货，客户流失；备多了，资金压在库存里，老板心疼。
+那能不能用数据科学的方法，让预测变得有据可循？当然可以。今天我们就从零开始，用季节系数法和活动系数法，搭建一套可落地的销量预测模型。文中所有数据均为模拟，但方法可以直接复用。
+一、季节系数法：剥离季节性波动，还原真实需求
+很多商品有明显的季节性：防冻液冬天卖得好，空调滤芯夏天起飞。如果不考虑季节，直接用近期平均销量预测，旺季会低估，淡季会高估。
+核心思路：用历史数据算出每个月的“季节系数”，然后把所有销量“去季节化”，再乘以目标月份的系数，得到预测值。
+1.1 先算季节系数
+为了保证系数准确性，建议用2年的销售数据参与计算，下面我们来看下数据：一张2024年和2025年各月的月均销量表（单位：个/天）：
+
+计算方法：
+“每月的季节系数” &#x3D; (2025年某月销量 + 2024年同月销量) / (2025年总月均销量 + 2024年总月均销量)
+实际上，这个值就是各月销量在全年总销量中的比重，可以直接作为季节系数。
+
+例如：1月占比 0.157，意味着1月的销量只有全年平均水平的15.7%——确实很低。
+1.2 用季节系数对历史数据进行“去季节化”
+假设我们有一份2026年1月某SK…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6366803"
+                        open
+                      >
+                        <summary class="article-expander__title">京东搜索框的本质从来不是「找东西」</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6366803.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2024/02/05/88769dd6-c40a-11ee-9e19-00163e142b65.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>搜索框早已不再是简单的需求匹配工具，而是承载着用户、商家和平台三方博弈的复杂战场。当AI技术让搜索排序从透明规则变成黑箱模型，京东等电商平台正在经历一场关于搜索信任的隐形革命。本文深度解析了搜索框背后的商业逻辑演变，揭示了AI如何悄然改变流量分配规则，以及为什么这关乎所有互联网产品的底层生存法则。
+
+一、一个你每天在用、但从来没想透的东西
+打开京东，在搜索框里输入「充电宝」，按下搜索。
+你期待的是：屏幕上出现一排充电宝，按照和你搜索词的相关程度排列，最符合的在最前面。
+但你看到的是：广告，品牌推荐，「今日爆款」，直播间入口，「猜你喜欢」，各种捆绑套餐，还有一些和充电宝有点关系但你没想要的东西……
+很多人把这种体验归结为「京东越来越烂了」。
+这个判断不准确，或者说，它停在了现象层，没有触及原因。
+京东没有变烂，它在做一件所有电商平台到了一定体量之后都必然会做的事——重新定义搜索框的服务对象。
+
+这件事才是值得认真分析的。
+因为理解了它，你不只是理解了京东，你理解了一个在互联网产品里普遍存在、但很少被清晰说出来的底层逻辑：任何一个连接用户和内容（或商品）的入口，它的服务对象从来都不只是用户。入口越重要，它身上承载的利益方就越多，它离「纯粹服务用户」就越远。
+AI只是加速了这个过程，让它在更短的时间内变得更显著。
+二、搜索框的本质，不是你想的那个东西
+
+大多数用户理解搜索框的方式是：我输入关键词，系统返回匹配结果。
+这个理解描述了搜索框在做什么，但没有说清楚搜索框是什么。
+搜索框的本质，是一个需求捕获器。
+
+用户打开京东，在搜索框里输入关键词的那一刻，他把自己此刻最精准的购买意图，主动暴露给了平台。这是整个电商交易链条里信息密度最高、商业价值最大的一个瞬间——用户不只是在「逛」，他在告诉你「我现在想买什么」。
+这个瞬间，对三方同时有价值。
+对用户，这是找到目标商品的起点。对商家，…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6366929"
+                        open
+                      >
+                        <summary class="article-expander__title">李继刚：当我们输入prompt 时，我们在输入什么？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6366929.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/13/8582fabc-d9ea-11ed-a8b0-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>在这个AI工具泛滥的时代，我们收集了无数Prompt模板却依然无法真正驾驭AI。被称为&#x27;Prompt之神&#x27;的李继刚通过哲学思考，揭示了从&#x27;工具论&#x27;到&#x27;存在论&#x27;的认知跃迁。本文将带你探索乔哈里视窗、思维压缩和认知共振等核心方法论，重新定义AI交互的本质——这不是指令，而是对人类智慧的召唤。
+
+深夜，屏幕幽蓝的光打在你的脸上。
+光标在输入框里规律地闪烁，像某种无声的催促。
+你刚刚复制了一段长达千字的“神级提示词（Prompt）”，小心翼翼地粘贴进去，按下了回车键。几秒钟后，AI吐出了一篇看似完美、实则空洞的文章。
+你叹了口气。
+这已经是你这个月收集的第100个提示词模板了。
+你拥有了无数的框架、脚手架和咒语，但你依然觉得，自己并没有真正掌控这个强大的智能体。
+在这个AI狂飙突进的时代，我们每个人都像是一个突然获得了魔法棒的学徒，焦急地翻阅着《魔法大全》，试图找到那句能点石成金的咒语。
+但很少有人停下来问一句：当我们输入Prompt时，我们到底在输入什么？
+为了回答这个问题，我们需要认识一个人——李继刚。
+在中国AI提示词工程领域，他被称为“Prompt之神”。
+从火爆全网的prompt《公文笔杆子》到惊艳四座的ljg-skill-word《汉语新解》，他用极具个人风格的Lisp语言，开创了提示词的“压缩美学”。
+
+但今天，我们不谈代码，不谈语法。
+我们将跟随李继刚的思考轨迹，剥开层层包裹的技巧外衣，完成一次从“术”的困惑到“道”的追问。
+01 困境与破局：被困在“工具论”里的我们
+在接触AI的初期，绝大多数人都不可避免地陷入了一种“工具论”的思维惯性。我们将大语言模型视为一个更高级的搜索引擎，或者一个可以通过预设流程来操作的复杂软件（如Excel）。
+
+在这种认知下，Prompt被异化为一种“编程指令”。人们热衷于堆砌各种复杂的框架，试图用严密的逻辑把AI死死地框住。李继刚在2…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-03-31 datetime="2026-03-31T11:53:25.000Z">2026-03-31</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-03-31 datetime="2026-03-31T11:53:25.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >人人都是产品经理</button>
+                  <a class="source-heading__link" href="https://www.woshipm.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6367032"
+                        open
+                      >
+                        <summary class="article-expander__title">AI日报：OpenAI居然给Claude Code发插件了！两大AI巨头”化敌为友”</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6367032.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/wp-files/2026/03/jOBLk2W0I1uV43nwsCSA-scaled.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>晚上好！我是老曹。今天AI圈最值得关注的就是OpenAI居然主动给Claude Code发布了插件codex-plugin-cc，让两个竞争对手实现了互联互通——这件事的象征意义远大于技术本身。另外智元机器人第10000台具身机器人正式下线，标志着具身智能正式迈入规模化部署阶段。
+
+
+AI Coding 领域（5条）
+1. OpenAI发布codex-plugin-cc插件：Claude Code与Codex实现互联
+关键内容：OpenAI于3月31日正式发布codex-plugin-cc插件，使开发者能在Anthropic的Claude Code中直接调用OpenAI的Codex模型。这是OpenAI首次主动将自家工具集成到竞争对手平台。插件提供三大核心功能：代码审查、对抗性审查和任务移交。
+
+值得关注：OpenAI和Anthropic一直是AI编程工具领域的主要竞争对手，OpenAI主动发布支持竞争对手的插件，说明行业生态正在从封闭竞争走向开放。Claude Code年收入25亿美元、占46%开发者市场的份额，是OpenAI必须重视的竞争对手。
+2. 微软内部大规模推广Claude Code：鼓励非技术员工使用AI编程
+关键内容：据报道，微软正在鼓励多个核心团队的数千名员工使用Claude Code进行编程。微软甚至鼓励没有任何编程基础的员工尝试Claude Code，以便设计师、产品经理能够快速将脑海里的想法转化成可用原型。目前微软的软件工程师已被要求同时使用Claude Code与GitHub Copilot。
+
+值得关注：微软作为GitHub Copilot的东家，却大规模推广Claude Code，说明Claude Code在技术能力上确实有过人之处。这种”左右互搏”的策略也说明AI编程工具市场的竞争已经超越了简单的商业竞争关系。
+3. Claude Code在…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6366882"
+                        open
+                      >
+                        <summary class="article-expander__title">COZE 实战：从零搭建人物生平视频自动化生成流程</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6366882.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/14/2ecb8e6e-da8f-11ed-aeb8-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>AIGC时代，视频创作正经历从手工到自动化的革命性转变。字节跳动COZE平台通过可视化节点编排与AI插件协同，实现了从人物信息输入到完整视频输出的全流程自动化。本文将深度拆解如何利用COZE的循环体与循环体外设计逻辑，以人物生平科普视频为案例，展示从剧本生成、素材制作到剪映对接的一站式解决方案，让批量视频生产变得简单高效。
+
+作为 AIGC 时代的内容创作者，手动剪辑视频不仅耗时费力，批量产出时还容易出现格式不统一、节奏混乱等问题。而字节跳动的 COZE（扣子）平台，凭借可视化节点编排、丰富的 AI 插件和一站式的音视频生成能力，能完美解决这一痛点 —— 只需简单配置，就能实现从人物信息输入到完整视频草稿输出的全流程自动化。
+本文将以「人物生平科普视频」为核心场景，结合实战操作拆解 COZE 的使用逻辑，从核心概念理解到节点编排、参数配置，再到剪映对接落地，用 COZE 实现视频批量生成，新手也能快速上手，这里先抛砖引玉。
+
+一、先搞懂 COZE 核心逻辑：别再搞混循环体与循环体外
+很多人初次使用 COZE 会陷入操作误区，核心问题就是分不清循环体和循环体外的节点逻辑，这也是 COZE 可视化编排的关键核心，先把这个概念吃透，后续操作会事半功倍。
+
+
+循环体外：是整个流程的「总控台」，负责全局参数定义、基础素材生成、总时间线计算等一次性执行的操作，比如根据输入的人物姓名生成整体剧本、计算所有视频的总时长、生成统一的视频主图等，全程只执行一次。
+循环体：是处理「批量重复内容」的核心，需要将循环体外的全局变量引入内部，实现循环取值、逐个处理。比如人物生平有 N个关键阶段，循环体就依次读取每个阶段的剧本，依次为每个阶段生成对应图片、转场文案、单段视频，每个内容都会独立执行一次处理逻辑。循环体生成如下图所示。
+简单来说：一次性的全局操作放体外，需要批量重复的操作放体内，体外为体内提…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6366775"
+                        open
+                      >
+                        <summary class="article-expander__title">为什么有了MCP后，又出现了Skill？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6366775.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/wp-files/2026/03/r6s5EDkIp8pcks8MGsV0.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>AI工具的进化正在经历一场从MCP到Skill的范式转移。当MCP解决了AI与外部工具的标准化连接问题却引发上下文灾难时，Skill通过渐进式披露和预置脚本彻底重构了AI的认知逻辑。本文深度解析两种架构的设计哲学与技术差异，揭示AI工程从‘能做’到‘做得好’的关键跃迁，以及产品经理如何在这场变革中重新定义AI的工作方式。
+
+很多折腾过AI工具的人，最近大概都经历过这样一种微妙的迷茫：
+好不容易搞懂了MCP（模型上下文协议），把Claude Desktop配置妥当，装上几个热门的MCP Server，兴冲冲地准备大干一场——结果却发现，AI时不时选错工具，偶尔还会陷入死机般的卡顿，响应速度更是慢得让人抓狂。
+还没等你排查出究竟是哪行配置写错了，开发者社群里的风向已经变了：“Skill出来了！”“Skill才是未来！”“MCP要被淘汰了！”
+盯着屏幕，你可能满脑子问号：MCP不是号称终极解决方案吗？Skill到底在解决什么新问题？难道刚建好的基建又要推倒重来？
+要彻底理清这两者的关系，我们得先跳出代码，从AI工具演进的真实痛点聊起。
+MCP的诞生：终结AI工具的“充电线灾难”
+要理解MCP为什么会被捧上神坛，得先回到2024年之前的那段技术混沌期。
+那时候，AI工具的连接方式是一场彻头彻尾的灾难。每一个AI应用想要调用外部工具，都需要单独手写一套对接逻辑。你想让Agent读取GitHub仓库？写一套接口。想让ChatGPT查本地数据库？再写一套。想让Cursor发Slack消息？还得接着写。
+这个问题在工程界有个专门的数学描述，叫“M×N问题”。M个AI应用要连接N个外部工具，理论上需要M乘以N套定制集成。10个应用连20个工具，就是200套重复造的轮子。每家公司都在把大量精力消耗在毫无创造性的“接口适配”上。
+
+更要命的是，这些集成没有任何标准可言。整个生态系统就像一堆杂乱无…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -557,6 +1139,154 @@ Prompt约束有效性：只按知识库回答，不瞎编
 让它为一款产品设计包装方案，它会联动多款Agent工作，交付生产级产物。
 洞察研究…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >QiuQuan&#x27;s Blog</button>
+                  <a class="source-heading__link" href="https://www.qiuquan.cc">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://www.qiuquan.cc/?p&#x3D;14751"
+                        open
+                      >
+                        <summary class="article-expander__title">逍遥模拟器 9.5.1.0 海外版｜原生无广告</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.cc/systemtool/memu.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.qiuquan.cc/wp-content/uploads/2025/12/memu-150x150.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>逍遥模拟器是一款强大的安卓模拟器软件，软界面简，功能强大，完美适配键鼠，支持软件多开，流畅稳定，全面兼容安卓9，可以直接导入外部app格式的安装文件进行安装，安装软件更加自由，不在受手机存储空间的困扰。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://www.qiuquan.cc/?p&#x3D;10065"
+                        open
+                      >
+                        <summary class="article-expander__title">安卓应用——儿歌点点 1.1.2 + 4.8.8 解锁VIP会员版 | 超多儿歌童谣</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.cc/androidsoft/ergediandian.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.qiuquan.cc/wp-content/uploads/2025/03/ergediandian-150x150.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>儿歌点点是一款专为儿童设计的早教育儿软件，由北京萌宝科技有限公司开发。它旨在为孩子们提供一个充满乐趣和教育意义的学习环境，通过丰富的儿歌、动画、故事等内容，帮助孩子在语言、认知、音乐等方面得到全面的启蒙教育。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://www.qiuquan.cc/?p&#x3D;9384"
+                        open
+                      >
+                        <summary class="article-expander__title">B站视频下载工具 Bili23 Downloader 2.00.0 安装版 + 解压版 + 单文件版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.cc/download/bili23.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.qiuquan.cc/wp-content/uploads/2025/02/Bili23-150x150.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Bili23 Downloader是一款跨平台的 B 站视频下载工具，支持 Windows、Linux、MacOS 三平台，下载 B 站视频/番剧/电影/纪录片 等资源。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://www.qiuquan.cc/?p&#x3D;9347"
+                        open
+                      >
+                        <summary class="article-expander__title">安卓应用——下载工具箱 4.1.8 去广告解锁会员版 | 支持磁力、短视频解析</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.cc/androidsoft/downloadtool.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.qiuquan.cc/wp-content/uploads/2025/02/downloadtool-150x150.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>下载工具箱APP是一款下载神器，专门解决各种下载问题，不仅是短视频无水印，还有磁力下载、音乐下载、视频嗅探下载等丰富功能。一键登录就是永久会员，所有特权功能全部已解锁，支持超过56种下载协议，满足你们任何的下载需求。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://www.qiuquan.cc/?p&#x3D;14175"
+                        open
+                      >
+                        <summary class="article-expander__title">安卓影视——麦田影院（原影视工场）2.0.2 去广告版 | 影视短剧全聚合</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.cc/androidsoft/mtyy.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.qiuquan.cc/wp-content/uploads/2025/11/mtyy-150x150.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>麦田影院是一款最新上线的热门影片播放平台，支持主流热门的影视剧直接免费播放观看体验。观众可以在这里持续观看全网热门的影视剧作品，享受真正无卡顿的追剧播放观体验。超多热门的人气影视剧作品，全都可以直接观看更新。持续为所有观众朋友们打造真正高效可靠的追剧播放观看体验哦。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >小众软件</button>
+                  <a class="source-heading__link" href="https://www.appinn.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.appinn.com/qwen3-6-plus-openrouter/"
+                        open
+                      >
+                        <summary class="article-expander__title">Qwen3.6 Plus 预览版大模型在 OpenRouter 限免</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.appinn.com/qwen3-6-plus-openrouter/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.appinn.com/wp-content/uploads/2026/03/cover-1774936890100-1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Qwen3.6 Plus 预览版已经上线 OpenRouter，并且可以免费试用。 注意：该模型收集可用于改进模型的提示和完成数据。 Qwen3.6 Plus 预览版 目前 OpenRouter 刚刚上线了拥有 100 万上下文的 qwen/qwen3.6-plus-preview:free 模型，</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -22877,859 +23607,6 @@ Lazar 的成功提供了一个极具反直觉的洞察：缺乏传统编程背�
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-03-02 datetime="2026-03-02T12:15:08.000Z">2026-03-02</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-03-02 datetime="2026-03-02T12:15:08.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >QiuQuan&#x27;s Blog</button>
-                  <a class="source-heading__link" href="https://www.qiuquan.cc">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://bak.qiuquan.cc/?p&#x3D;4192"
-                        open
-                      >
-                        <summary class="article-expander__title">傲游浏览器 Maxthon Browser 5.3.8.2000 正式版 + 7.5.2.5600 正式版 + 7.5.2.5200 测试版</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.cc/browser/maxthon.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.qiuquan.cc/wp-content/uploads/2024/12/Maxthon-150x150.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>傲游云浏览器是国内具有独立内核的桌面浏览器产品，首创双核浏览模式，在安全、快速的基础上，保证了对网银、网购类网站的兼容性。傲游3浏览器内置云端广告过滤系统，强大而易用，确保用户在浏览网页时不受任何广告的骚扰。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://www.qiuquan.cc/?p&#x3D;6586"
-                        open
-                      >
-                        <summary class="article-expander__title">影视仓 6.1.9 官方版 + 好看影仓 6.1.8 内置版 + 幸福年年影视仓 6.1.7 内置版 + 多多影音 6.1.9 魔改内置版 | 附可用接口链接</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.cc/androidsoft/yingshicang.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.qiuquan.cc/wp-content/uploads/2025/02/ysc-150x150.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>影视仓是一款完全免费的高清影视盒子软件，适用于电视端和手机安装使用，它具有超高清画质、流畅不卡顿、无广告、全免费以及最新最全最广泛的影视资源等优势，支持手动添加播放源选择播放，各种配置接口源可自由选择任意线路，操作简单方便。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://bak.qiuquan.cc/?p&#x3D;4009"
-                        open
-                      >
-                        <summary class="article-expander__title">安卓应用——MX Player Pro 1.86.0 经典版 + 2.9.0 最新版｜解锁专业版</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.cc/androidsoft/mxplayer.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.qiuquan.cc/wp-content/uploads/2022/11/MXPlayer-150x150.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>MXPlayer是一款功能强大的支持多核解码的Android视频播放器，中文简称为MX播放器，软件界面直观，功能丰富，支持夜间模式、倍速播放、小窗模式、解码切换、字幕切换、字幕设置，还支持多种解码方式，如硬件解码、软件解码、硬件解码+等多种功能，同时支持3GP、AVI DIVX、F4V、FLV、MKV、MP4、MPEG、MOV、VOB、WMV、WEBM、XviD等绝大部分视频格式</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://bak.qiuquan.cc/?p&#x3D;4011"
-                        open
-                      >
-                        <summary class="article-expander__title">WPS Office 13.6.3 Pro 国内版 + 18.24.1555 Pro 国际版｜解锁高级会员版</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.cc/androidsoft/wpsoffice.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.qiuquan.cc/wp-content/uploads/2025/06/WPS-150x150.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>WPS Office 移动版是一款史上极其好用的安卓办公软件，个人版将永久免费，体积小、速度快；卓越的手机阅读模式，操作流畅；微软Office、PDF等23种文档格式都能在wps office中打开；文档带有漫游功能，不用电脑也能办公。金山wps office手机版是金山公司打造的、运行于Android 平台上的全方位全功能办公软件，国内同类产品常年排名第一，长期领先Google官方Android市场排名。全球220多个国家和地区都有wps office手机版的身影，用户在手机和平板上可以随意切换使用，提供随时随地办公需求给用户。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://www.qiuquan.cc/?p&#x3D;4791"
-                        open
-                      >
-                        <summary class="article-expander__title">扫描仪增强工具 VueScan 9.8.52.05 简体中文专业版 | 安装版 + 便携版</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.cc/image/vuescan.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.qiuquan.cc/wp-content/uploads/2024/12/VueScan-150x150.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>VueScan Pro是一款功能强大的扫描仪软件，支持市场可见绝大多数型号的底片扫描仪，可以更为灵活地控制扫描过程，更深入地发掘硬件潜力，获取色彩完美的高质量扫描结果。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;10
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >人人都是产品经理</button>
-                  <a class="source-heading__link" href="https://www.woshipm.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6347266"
-                        open
-                      >
-                        <summary class="article-expander__title">AI杀死媒体，专业主义永生</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6347266.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2025/08/19/f7d67978-7ccb-11f0-8601-00163e4b86a1.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>AI正在以近乎零成本的速度瓦解传统媒体的信息差壁垒，从线索抓取到标准报道撰写，古典式媒体作坊的生存根基已被击穿。当低附加值内容生产被AI接管，真正的新闻专业主义反而迎来重生契机——本文深度剖析媒体行业面临的基因级变革、转型困局与终极分化，揭示AI浪潮下那1%不可替代的媒体人将如何重构行业价值。
-
-在莎士比亚《哈姆雷特》第三幕第一场，有一句著名的台词：
-To be or not to be, that is a question.
-这句话用在 AI 冲击之下的媒体行业，想必再合适不过。
-当如今的 AI 能够以近乎零成本、秒级的速度，完成线索抓取、数据清洗乃至一篇标准行业报道的撰写时，传统媒体赖以生存的“信息差”，已经被击穿大半。
-在这场由 AI 主导的降维打击中，古典式的媒体作坊形态注定崩塌，低附加值的流水线撰稿人，也将被逐步替代，不过由于媒体形态的不同，过程有快有慢，如是而已。
-硬币的另一面，则是媒体行业的生门。当且仅当 AI 剥离了所有重复性的文字劳作之后，真正的新闻专业主义，才会迎来重塑内核的契机。
-这或许是一份面对现行所有媒体的“檄文”。但请你们相信，我比你们每个人，都期待 AI 时代的媒介形态真正到来。
-01 前 AI 时代的媒体形态
-我所说的媒体类型，是剔除官方媒体之后，以图文和视频为核心的市场化科技与财经媒体。尽管以下观察多源自我个人的从业经历，但管中窥豹，足以透视整个赛道的组织形态。
-我正式踏入这个行业是在2019年末。彼时，以咪蒙为代表的图文自媒体，刚刚吃完第一波流量红利，而半佛仙人、小约翰可汗等视频化博主，正处于起步阶段。
-
-我进入的科技行业媒体赛道，看似风头正盛，但站在7年后的今天回望，那其实已经是行业最后的拐点。
-我对于行业自媒体拐点的判断，跟一般行业拐点不一样。我的判断依据，不是针对某家具体媒体的营收或者整体行业的产值——
-而是这个行业，是否还能吸引…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/it/6347275.html"
-                        open
-                      >
-                        <summary class="article-expander__title">开工拉齐：OpenClaw，首个「一人独角兽」</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6347275.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2026/03/02/91e94fce-160d-11f1-acc3-00163e4b86a1.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>三个月，19.6万GitHub stars，一条完整产业链——这是OpenClaw交出的成绩单。从Kimi下场推出开箱即用的Kimi Claw，到阿里云、腾讯云、百度云同日上线一键部署；从华为昇腾、摩尔线程的国产芯片适配，到全球24城联动的Unhackathon。上一次行业以这种速度建立生态，还是2023年初的大模型——但那花了大半年。OpenClaw只用了两周。
-
-春节放了两周假，很多事情挤在一起发生了
-这篇文章，帮大家快速拉齐下信息，一句话总结：最近，Agent 行业的故事，都聚焦在了一只叫做 OpenClaw 的🦞上
-OpenClaw，应是人类史上，首个「一人独角兽」然后，围绕着诞生不到三个月的 OpenClaw，已经长出了一条完整的产业链：基金会、大厂产品、三大云一键部署、国产芯片适配、各种全球 Hackathon、两套平行的中英文社区生态…
-上一次看到这么快催生出产业结构的，还是 2023 年初的大模型。那一次，行业的建立花了大半年。而这一次…快了N 倍产业的形成速度，本身就是一种信号：万事皆备，只欠东风
-OpenClaw 是什么
-先统一做个科普：
-OpenClaw 是一个开源的 AI Agent。跑在你自己电脑上，接了十几个聊天平台，微信、飞书、Telegram、WhatsApp、Discord 都能用。你给它发一条消息，它调用大模型去思考，然后真的去「做事」：操作文件、跑脚本、管日程、发邮件、浏览网页…
-
-如果你要问：这东西跟 ChatGPT 或者 Claude 的区别在哪？
-它是住在你的电脑里的，你所有的本地文件它都可以去访问（如果你授权了），并且它是能够长程运行的，还可以让你通过手机或者其他方式远程遥控。
-
-创始人 Peter Steinberger 是奥地利人，之前做了 13 年 PDF 工具（PSPDFKit），拿过 Insight Partners…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6347241"
-                        open
-                      >
-                        <summary class="article-expander__title">这次不改按钮颜色了：用 AI 把体验问题“查清楚、改到位”（附可复用 Prompt）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6347241.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2024/09/30/da29e510-7f18-11ef-9237-00163e142b65.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>当团队陷入数据低迷的泥潭，AI能否成为破局利器？本文揭秘如何突破传统优化困局，将AI从&#x27;答案生成器&#x27;升级为&#x27;推理引擎&#x27;。通过真实ToB登录页重构案例，拆解如何在硬性约束下实现&#x27;无感安全&#x27;设计，更附赠一套可复用的UX诊断Prompt模板，让AI真正帮你把体验优化拆解为可执行的优先级清单。
-
-做产品的人都见过这种场景：
-你看着数据报表：跳出率高、转化率低。你也知道某个流程（注册、登录、支付）“体验很差”。
-但团队一开会，就变成大型“各说各话”现场：
-设计师：视觉太旧了，换套 UI 吧
-研发：接口慢，后端得优化
-产品：要不先把按钮颜色改一改？
-结果改了半天，数据一点没动。不是大家不努力，是没用一套系统把问题查清楚。
-而 AI 这几年很火，很多团队开始“拿 AI 来做体验优化”。但如果你只是丢给 AI 一张截图，问一句“怎么优化？”——它往往会回你一堆模板话：
-“按钮放大一点”“对比度提高”“布局更简洁”
-
-这类建议不是错，但基本等于没说，因为它不带你的业务约束，也不带你的用户心理，更不带落地路径。
-
-AI 不是算命先生，它更像一个外脑顾问：你给它边界、目标和材料，它就能帮你把逻辑推演走完，把方案拆细到可执行。
-一、为什么你用 AI 做不好体验诊断？
-核心原因就一句话：
-很多人把 AI 当“答案生成器”，但体验诊断其实更像“推理题”。
-体验优化的本质不是“好不好看”，而是：
-在业务目标、用户心理模型、技术/安全/合规约束之间，找到一个能跑起来的解法。
-你不给 AI 约束，它就会飞：
-给你画一个“理想互联网登录页”，但你这边可能根本没有短信验证码、没有微信登录、还必须上图形验证码……那 AI 的建议当然落不了地。
-所以你要做的不是“问 AI 要答案”，而是把 AI 拉进你的语境里，让它按你的框架推演。
-我用得最顺的一套结构是：
-全链路痛点提取 → 指标锚定 → 分级落地策略
-二、真实…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/it/6347258.html"
-                        open
-                      >
-                        <summary class="article-expander__title">经济学合谋 AI 掏空你的价值？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6347258.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2025/01/08/07bd085c-cd81-11ef-88ff-00163e1bca14.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>当新古典经济学的&#x27;理性人假设&#x27;遭遇AI革命，职场焦虑的根源并非技术替代，而是百年经济学范式对人性的系统性忽视。本文从布坎南的机会成本理论到马克思的异化劳动分析，揭示AI时代真正的危机：资本试图用硅基效率抹杀人类的情感连接与道德自觉。在算法统治的世界里，那些被经济学视为&#x27;外部性&#x27;的同情心与创造力，恰恰是人类最后的竞争壁垒。
-
-导读： 当 AI 步步逼近，职场人的焦虑并非源于技术进步，而是源于一套延续百年的“屁股坐歪了”的经济学范式。它在计算效率时，正试图抹杀人类最珍贵的特质。
-预设的陷阱：新古典经济学的“机器之心”
-经济学（新古典经济学）的大厦，建立的基石是：理性人假设（Homo Economicus）。
-1. 这种假设认为：
-人是孤立的原子，其行为仅由效用函数  驱动。
-所有的选择都是在既定约束下的最优计算。
-其致命的偏见：它预设人应该像机器一样精准、冷酷、可预测。
-2. 蓄意的“白嫖”：
-经济学故意忽视了人与人之间的利他行为、情感连接和道德自觉。
-
-在它的算法里，这些都是“免费”的外部性。AI 的出现，本质上是资本试图用一种真正的、不需要休息和情感投入的“硅基机器”，去替代那个“不够完美的碳基机器”。
-《成本与选择》
-诺贝尔奖得主詹姆斯·布坎南在《成本与选择》（Cost and Choice）中提出了一个观点：成本不是数字，而是“被放弃的选择的价值”。
-1. 机会成本的个体性
-当你被 AI 替代时，经济学只计算你失去了那份工资；但布坎南告诉我们，真正的成本是你为了留在那个“机器化”的岗位上，所放弃的作为人的创造性、自主权和生活意义。
-2. 被扭曲的选择
-在 AI 时代的职场，如果社会逼迫人去和 AI 竞速（比谁更像机器），那么人所放弃的“作为人的全面发展”的价值，就是这场经济实验中最惨痛的隐形成本。
-马克思认为，机器是**“死劳动”**（Dead Labor）。AI 也不例外，它是人类过去知识、数据和逻辑的凝结。
-当企业用 AI 替代人工，本质上是在提高资本的有机构成
-经济学欢呼效率的提升，却无视了 （活生生的人）在这一过程中被异化为工具的附庸。
-经济学希望你像 AI 一样稳定，因为它不想为你的情绪、你的疲惫、你的利他本能支付成本。它想白嫖你的社会属性，却只把你当成一个计算单元。
-需求变迁：从“填饱肚子”到“创造意义”
-AI 真的会让人失业吗？如果我们停留在旧的生产关系里，答案是肯定的。但如果我们看清需求的本质，AI 只是工具的又一次延伸。
-过去的替代：蒸汽机替代了肌肉，人转向了脑力。
-现在的替代：AI 替代了逻辑计算，人必须转向意义的赋予。
-人类对利他主义、深度链接、道德判断的需求反而会指数级增长。
-这些是 AI 永远无法通过梯度下降法（Gradient Descent）获得的灵性。
-经济学的屁股歪了，它为了数学的优美而阉割了人性的复杂。
-面对 AI，我们最应该做的不是去学习如何跑得比算法快，而是找回那些被经济学视为“废料”的特质：你的同情心、你的不可预测性、你对价值的主观定义。
-本文由人人都是产品经理作者【侠之大者】，微信公众号：【侠之大者】，原创/授权 发布于人人都是产品经理，未经许可，禁止转载。
-题图来自Unsplash，基于 CC0 协议。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6347210"
-                        open
-                      >
-                        <summary class="article-expander__title">为什么长辈用的最多的是豆包？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6347210.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/08/20/fd2b06ae-3f39-11ee-98c9-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>豆包的成功绝非偶然，这款国民级AI产品在中老年群体中掀起热潮的背后，是产品设计对用户习惯的深度洞察。从接地气的品牌形象到方言语音交互，从引导式聊天到抖音生态的无缝融入，豆包巧妙地完成了技术向生活的&#x27;翻译&#x27;。本文揭秘这款产品如何突破中老年用户的认知障碍，成为他们的&#x27;数字伴侣&#x27;。
-
-在家过年回家的那段时间，会习惯给我爸妈清理手机，无一例外他们都安装了豆包，在过年走亲戚的时候，变留心注意了一下家里的长辈，基本上都安装了豆包，有时候能听到长辈与豆包对话。问了长辈们还知道国内哪些 AI 产品，一个 DeepSeek，其他就没了。至于千问、混元、智谱、Kimi、MiniMax听都没听过。
-过年前的时间，元宝发的红包、千问送的奶茶。我用长辈们手机领元宝的红包，领完后眼看着元宝要么又被卸载，要么就放在那落灰。
-根据QuestMobile的数据，2025年豆包的月活跃用户已达2.26亿，其中中老年群体占比显著，成为真正的“国民级”AI应用。为什么长辈们特别钟情于豆包？不是因为它的模型最先进，而是因为豆包在设计上巧妙地“翻译”了AI技术，让它变得像一个亲切的“生活伙伴”。下面，我们从几个关键角度来剖析这个现象。
-1. 亲民的品牌形象：从名字到图标，都像个“老朋友”
- 
-
- 
-大多数AI产品命名追求高大上，比如“文心一言”或“通义千问”，听起来像学术工具，容易让长辈望而却步。但豆包的名字简单接地气，就像日常食物一样熟悉，没有任何科技门槛。图标设计也是关键：一个卡通大头人像，笑容可掬，既有AI的辨识度，又像邻家小孩般亲切。相比其他应用的极简科技风，豆包的反科技策略直接降低了心理障碍。
-长辈们常说：“豆包看着就亲切，不像其他AI那么冷冰冰。”这种“活人感”让AI不再是高冷的工具，而是随时可聊的“朋友”。传播学中的“数字鸿沟”理论指出，新技术往往加剧中老年人的信息落差，而豆包通过卡通形象和拟人化设计，…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6345091"
-                        open
-                      >
-                        <summary class="article-expander__title">开年重磅万字长文范式复盘：我们身在AI奇点之中</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6345091.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/13/a67a1648-d9ee-11ed-a8b0-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>AI 技术正以前所未有的速度颠覆传统行业。从 SaaS 崩塌到网络安全板块暴跌，Claude Code Security 的发布展示了 AI 如何直接替代人类专家的核心价值。本文将深入解析 AI 从模型能力跃迁到脚手架重构的范式演进，揭示行业崩塌背后的深层逻辑与未来趋势。
-
-2026年2月20日，Anthropic发布Claude Code Security，美股网络安全板块集体暴跌。CrowdStrike跌7.95%、Cloudflare跌8.05%、Okta跌9.18%，单日市值蒸发超100亿美元。Global X网络安全ETF创2023年11月以来新低。
-这是继2月3-4日”SaaSpocalypse”（SaaS崩塌）之后，48小时内第二次行业级崩塌。
-两次崩塌的共同特征是：AI不再是”辅助工具”，而是直接替代了整个职业类别的核心价值。Claude Code Security在内部测试中发现500+潜伏多年的高危漏洞，包括Ghostscript、OpenSC等开源项目，部分漏洞存在超十年未被人类安全专家发现。
-这是范式崩塌的信号。
-当一个AI工具能够超越整个行业数十年的专家积累，因为中间有段时间我没有紧密fellow，所以我特别想搞清楚的是：范式是如何演进到这一步的？
-
-第一阶段：模型能力的指数级跃迁（2018-2024）
-A. 核心特征：Scaling Law（缩放定律）的胜利
-从GPT-3到GPT-4，从Claude到Gemini，这一阶段的主旋律是模型能力的指数级增长。LLM在软件任务上的时间跨度每7个月翻倍，Claude Opus 4.6在METR软件任务上达到14.7小时，相比前代提升了近3倍。
-
-这个阶段的关键信念是：
-更大的模型 &#x3D; 更强的能力
-更多的数据 &#x3D; 更好的泛化
-更长的上下文 &#x3D; 更复杂的推理
-直到互联网数据被用完，蒸馏数据会引发崩溃。AI训练…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/it/6347249.html"
-                        open
-                      >
-                        <summary class="article-expander__title">品牌盘点：春节期间活跃的那些品牌</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6347249.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2025/03/19/d5632a3e-0486-11f0-885f-00163e09d72f.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>当豆包在春晚斩获19亿次互动、蒙牛以&#x27;要强&#x27;叙事登顶冬奥品牌榜，2026年春节营销正从流量争夺转向信息传递效率的比拼。本文通过春晚、冬奥会、电影春节档等五大场景的十个典型案例，揭示品牌营销的本质回归：有效信息比特数决定传播价值。从技术前台化到用户共创，看头部品牌如何通过精准的信息传递在混战中脱颖而出。
-
-春节假期过去了，但年还没过完，在这里祝你开工大吉！
-年前咱们聊过马年CNY营销（从马年新年营销，看品牌叙事走向新阶段），说春节前各个品牌新年营销，尤其是关于生肖的营销搞得很热闹。
-年后咱再一起来看看春节期间都发生了啥，哪些品牌在春节黄金档期砸了重金，效果如何？
-春节这场品牌的争奇斗艳，品牌方砸的是真金白银，外行老百姓看的是过眼的热闹，咱们，要看的则是这里面的“门道”。
-拿啥门道分析这些案例？还是回到品牌的第一性原理，用我们添梯的原创理论进行点评：品牌的本质是信息，判断一个品牌营销的好坏，我们就来看受众“真正“接收到的”有效信息量”（计算单位：比特）。
-不管多热闹，谁能把信息真正送到人们心里呢？
-今天，我挑了春节期间的：春晚、米兰冬奥会、电影春节档、民俗营销、城市文旅五个核心大板块里十个抢眼的品牌案例，咱们一起聊聊。
-01 春晚：机器人热闹但品牌名记不住
-今年的春晚你看了没？科技品牌取代白酒成了主角，但今年的机器人品牌在春晚的品牌营销我个人觉得不算成功。
-春晚就像个“带货的大平台”，其实跟电商直播带货是一个逻辑，很多人觉得被“带货”了甚至货卖光了就是好的品牌营销了，完全不是。
-进入春晚做营销，最主要的目的不是“露脸”，而是“露名”，如果受众只是看了你的热闹，记住了春晚本身的品牌，但没记住你，这就是子弹打偏了。
-
-所以这里我要说的反而不是那几家机器人公司的表现，虽然很多人都看到机器人跳舞翻跟头打醉拳觉得很热闹，但从“品牌是信息”的角度，机器人品牌并没有给大家传输更多关于品牌的信…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/it/6346962.html"
-                        open
-                      >
-                        <summary class="article-expander__title">AI+医疗又一笔4200万美金大额融资，让AI成为你的家庭医生</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6346962.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2026/02/28/3de88d32-14a4-11f1-acc3-00163e4b86a1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>35年误诊，6次手术，30多项检测——这是传统医疗系统交出的答卷。几小时AI分析，第二天症状缓解——这是同一位患者使用Lotus Health AI后的改变。当顶级风投集体押注&quot;AI+免费医疗&quot;，美国破碎的初级医疗体系会被重构吗？
-
-你能想象吗？一个人被误诊了35年，每天承受着不必要的痛苦，吃着错误的药物，而真正的病因其实可以用非处方药就能缓解。这不是什么罕见的医疗事故，而是美国医疗系统每天都在上演的真实故事。Nancy就是这样一位患者，她被诊断为狼疮长达35年，直到使用了Lotus Health AI几个小时后，系统发现她真正的病症可能是MCAS（肥大细胞活化综合征）。在医生确认并调整治疗方案后的第二天，她35年来第一次感到症状明显改善。
-这个故事让我深思。我们生活在一个医疗技术高度发达的时代，基因测序、靶向治疗、机器人手术这些听起来像科幻小说的技术已经成为现实，但为什么最基本的初级医疗服务却依然如此支离破碎？为什么患者的病历散落在不同医院的系统中，医生看诊时只有15分钟却要花大部分时间处理行政工作，而患者要等上几周甚至几个月才能预约到医生？
-2月初，一家名为Lotus Health AI的创业公司宣布完成了4100万美元融资，其中包括3500万美元的A轮融资和此前的种子轮。这轮融资由硅谷两家最负盛名的风投机构Kleiner Perkins和CRV共同领投。Kleiner Perkins曾投资过谷歌、亚马逊、基因泰克、Uber和Stripe等改变世界的公司，CRV则在DoorDash、Mercury、Patreon和Ring等公司的早期就押下了注。当这两家机构同时看好一家公司时，通常意味着这家公司正在做一些真正具有变革性的事情。而Lotus Health AI正在做的，就是用AI重新定义初级医疗服务的每一个环节。
-美国医疗系统到底出了什么问题
-在深入了解Lotus Hea…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6346594"
-                        open
-                      >
-                        <summary class="article-expander__title">AI+社交产品是伪需求吗？——当社交被效率化，我们到底在连接什么？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6346594.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/13/1011f38c-d9ea-11ed-a8b0-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>AI社交产品正在颠覆传统社交模式的认知边界。从Elys到Second Me，这类A2A工具正在通过剥离社交冗余环节、外包心理负担、提升连接效率，重塑&#x27;强目的社交&#x27;的底层逻辑。本文将深度解析AI如何拆解社交焦虑、优化关系建立路径，并探讨这种效率革命背后的产品哲学与伦理边界。
-
-最近一直在关注Elys、Second Me这类A2A（AI to AI）社交产品，也看了不少讨论。有意思的是，每当这类产品出现，总会有人提出一个灵魂拷问：让AI代聊，甚至让AI之间互相社交，这难道不是彻底违背了社交的本质吗？
-这个问题值得认真拆一拆。因为如果我们把“社交”这个词神圣化，那任何效率工具似乎都是对它的亵渎。但如果我们回到真实世界，看看人们到底在用社交软件做什么，答案可能没那么简单。
-一、社交软件的分类：我们到底为什么打开它们？
-先看一个现象：打开任何应用商店的社交类排行榜，排除掉微信、QQ这类底层国民级应用（它们已经是基础设施，不在讨论范围内），剩下的产品其实可以清晰地分为两类：
-第一类是“强内容”平台，典型代表是小红书。用户在上面是因为内容有价值——无论是图文、视频还是知识分享。社交是内容消费的副产品，是先有内容，再有连接。
-第二类是“强目的”平台，典型代表是Soul、陌陌、Tinder。用户打开它们是因为有一个明确的目的：认识新朋友、约会、寻找恋爱关系，甚至更直接的诉求。在这里，社交本身就是目的。
-AI社交产品，比如Elys这类A2A社交应用，大概率要走的是第二条路——强目的路线。事实上也确实如此，X上已经有人把Elys当作yp平台在用了，这虽然有点意外，但也恰恰说明：用户会用自己的行为，定义产品的真实用途。
-二、问题的重新定义：前期互动是必要的吗？
-于是，我们可以把那个灵魂拷问转化成一个更务实的问题：
-对于带着明确目的社交的人来说，在达成目的之前，那些认识、熟悉、试探、寒暄的前期互动过…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6346595"
-                        open
-                      >
-                        <summary class="article-expander__title">Nano Banana 2不仅有Pro级画质，还能秒出图，AI画图终于不用等了</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6346595.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/13/f7b9747a-d9e1-11ed-bd74-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>谷歌最新推出的Nano Banana 2（Gemini 3.1 Flash Image）以惊人的速度和高保真画质重新定义了AI图像生成。它不仅实现了Pro级的输出质量与Flash级的生成速度完美结合，更在多主体互动、叙事场景构建和4K商用画质上实现了突破。这款工具的普惠定价策略，让专业级创作能力真正触达个人和小团队。
-
-昨天谷歌悄悄上线的Nano Banana 2（官方名称：Gemini 3.1 Flash Image），直接把我盼了很久的东西，一次性全给了。今天我就以第一视角，和大家好好聊聊，这款新Banana到底有多香，和之前的Nano Banana Pro比，到底强在哪，普通人用起来到底爽不爽。
-
-Google DeepMind 在2026年2月27日官宣发布了Nano Banana2。
-
-这里先放两张官方的图片，现在支持这种原生超宽幅比例生成。
-
-提示词：一张我用手机拍的4:1全景照片，展示了我小屋里郁郁葱葱的丛林景色
-
-提示词：一张我用手机拍的4:1全景照片，展示了我公寓里的景色，夕阳完美，有一排排深红色的卷积云。
-想尝试的小伙伴在lovart中就可以使用。
-
-先说说最戳我的一点：速度。
-最直观的感受：快到离谱，快到忘了在等图。那种感觉就像：你刚说完需求，图已经摆在你面前了。
-
-做短视频封面、朋友圈配图、电商小海报，简直是即时反馈。想到什么就生成什么，不满意立刻改，创作流完全不被打断。对用户来说，不卡顿的节奏，比什么都重要。
-
-更绝的是，快不等于糙。很多工具一快就糊、一快就崩，但Nano Banana 2直接把Pro级画质塞到了Flash速度里。简单说：Pro的画质，Flash的速度，一半的价格。
-
-下面我带大家再看几个案例体现出模型的不同能力：
-
-这张漫画风格的科普图，用三栏对比的方式，清晰展示了三种最基础的云类型：积云（Cumulus）、层云（Stratus）、卷云（Cirrus），视觉和文字信息都非常直观。
-
-这张水循环示意图用手工拼贴形式。
-清晰展示了四大核心步骤：太阳加热引发蒸发，遇冷形成凝结，水汽落下成为降水，最终通过径流回归海洋，完成循环。
-
-相较于 Pro 版的古典城堡风，Nano Banana 2 在几何拼接风格下，能输出更灵动的乡村庄园场景，色彩层次更丰富，背景色块切割更具现代艺术感，在场景多样性与视觉表现力上实现了升级。
-
-Nano Banana 2 具有多主体互动生成与叙事化场景构建能力。
-仅输入 3 个独立的毛毡质感角色素材，产品即可自动生成 6 张连贯场景图，让角色在统一的森林环境中完成阅读、协作等互动，动作与场景高度适配，实现从单元素到完整叙事画面的跨越。
-
-Nano Banana 2 它精准复刻了苏格兰格伦科峡谷的核心景观 —— 云雾山峰、蜿蜒溪流与静谧湖泊，在保持 4K 超清画质的同时，完美传递出高地苍凉壮阔的氛围，体现了模型对真实世界地理与光影的深度理解。
-以及像这种相同人物但是不同比例的物料背景，非常方便。
-
-画质对标Pro：细节、光影、质感，一点没缩水。
-很多人会担心：这么快，画质是不是砍了？我拿Pro和2做了十几组对比，从人像、风景、产品到插画，结论很明确：Nano Banana 2的画质，完全对标Nano Banana Pro，甚至在细节上更稳。
-
-并且Nano Banana 2 的光影更通透：不再是平涂的塑料感，明暗层次、反光、阴影都很自然，照片级真实感拉满；
-纹理更细腻：布料、金属、木纹、皮肤，放大看都经得起考验，4K输出直接商用；构图更精准：透视、比例、镜头感，你说广角就是广角，说特写就是特写，不偷懒、不瞎改。
-
-如果你是画漫画、做分镜、写故事板，这一点会让你直接爱上它：主体一致性。Nano Banana Pro能做到单工作流保持5个角色+14个物体特征不变，Nano Banana 2不仅继承了这个能力，还更稳定。
-
-同一个角色，换场景、换动作、换服装，脸不崩、发型不变、标志性细节不丢；同一个道具，在不同画面里保持样式、颜色、质感一致；
-现在一套提示词走到底，角色全程长相统一。对内容创作者、IP设计师、游戏原画师来说，这简直是解放双手。
-最主要的提升是，好用还不贵，人人用得起，这件事对个人和小团队来说，成本永远是硬指标。
-大厂把专业能力下放，让普通人也能用得起顶级工具，这才是真正的普惠。
-本文由@为了罐罐 原创发布于人人都是产品经理，未经许可，禁止转载。
-题图来自 Unsplash，基于CC0协议。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6346591"
-                        open
-                      >
-                        <summary class="article-expander__title">一根纳米香蕉刷屏全网—Gemini 2.5 Flash 爆火的产品逻辑拆解</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6346591.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/05/06/27939582-ec01-11ed-bbb6-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Gemini 2.5 Flash以&#x27;Nano Banana&#x27;的代号席卷全网，成为现象级AI产品。这根&#x27;香蕉&#x27;的爆火背后，是产品定位、用户体验与传播策略的完美结合。本文将从代号传播、产品痛点解决到普惠策略，深度剖析AI产品如何实现从技术到大众的真正破圈。
-
-作为一名长期深耕AI领域的产品经理，我持续关注着国内外大模型的迭代与破圈路径。近期，谷歌Gemini 2.5 Flash凭借“Nano Banana（纳米香蕉）”的代号席卷全网，从科技社区火遍大众社交平台，成为现象级AI产品。
-这并非一次单纯的技术出圈，而是产品定位、用户体验、传播策略三者高度契合的结果。从产品视角复盘，这根“香蕉”的爆火，藏着AI产品破圈的核心逻辑。
-一、破圈起点：非正式代号，踩中互联网传播的产品心智
-很多人误以为“Nano Banana”是谷歌精心策划的品牌名，实则它只是研发阶段的匿名测试代号。“Nano”对应模型轻量高效的特性，“Banana”则是团队随手拟定的趣味称呼，无复杂寓意，却意外成为破圈关键。
-从产品传播角度看，这个代号完美踩中了大众心智，因为它降低了认知的门槛，对比“Gemini 2.5 Flash Image”的官方命名，Nano Banana无专业术语，朗朗上口、极易记忆；可爱无厘头的代号，自带社交属性，天然适合玩梗、分享、二次创作，降低用户传播成本；匿名测试阶段来制造神秘感，这个代号引发行业猜测，形成自发酵的讨论氛围，为正式上线积累热度。
-
-谷歌产品团队的聪明之处，在于没有强行纠正用户习惯，而是顺势接纳这个民间代号，在产品中加入香蕉视觉元素，官方下场玩梗。这种以用户心智为核心的做法，打破了科技大厂高冷的刻板印象，让技术产品有了温度，快速完成从专业圈到大众圈的渗透。
-二、核心底气：直击行业痛点，用产品力解决真实需求
-代号只是引流钥匙，Gemini 2.5 Flash能留住用户，核心是解…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6346432"
-                        open
-                      >
-                        <summary class="article-expander__title">非技术实测：产品经理如何被 AI「骗」进去，6 小时落地月费 ¥0 的小程序 AI 客服</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6346432.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2026/02/28/9eb8d990-147d-11f1-8399-00163e09d72f.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>当AI实习生坚持认为一个「永远不会推进」的客服需求可以实现时，一场零成本的技术冒险就此展开。本文将揭秘如何利用腾讯云函数和RAG技术，在没有技术团队和服务器的情况下，打造出24小时在线的AI客服系统，并分享产品经理在与AI协作过程中那些令人意外的发现与成长。
-
-一、一个「永远不会推进」的需求
-我们公司的客服负责人有个需求：给小程序装一个能 7×24 小时值班的 AI 客服。
-需求背景很简单：每天询问量不超过 100 条，但时间分布散，人工覆盖 24 小时至少需要 5 个客服轮班。客服部已经沉淀了一套非常成熟的问答 SOP，传统客服简单培训就能上手——理论上 AI 也可以。
-但问题来了：我们公司的技术开发全部外包，内部不存代码资产，开发资源极其有限。这类需求的排期现实是 1-3 个月，而且大概率让位给更紧急的业务需求。
-用产品经理的话说：这是一个「永远不会被推进的项目」。
-本着「事事有回音」的原则，我没有直接拒绝，而是打开了和 AI 的对话框，开始做 research——本意是找到一堆无法落地的客观理由，给需求方一个有据可查的回复。
-结果 Claude 告诉我：这是个可以实现的需求。
-我内心 OS：这 AI 实习生怎么读不懂画外音呢？非要逼人进步。
-二、架构选型：怎么做到月费 ¥0
-既然 AI 坚持说能做，那就只能一步步往下走。
-第一个决策：用什么来跑这个服务？
-
-买云服务器？最便宜的也要 ¥40-100/月，而且要运维。对一个没有技术团队的产品经理来说，服务器崩了根本不知道怎么办。
-AI 给出的方案是腾讯云函数（SCF）——用事件驱动的 Serverless 架构，只有真正收到消息时才运行代码，其余时间完全不计费。
-对照我们的实际用量算一下：
-
-结论：长期在免费额度内，月费约 ¥0（一次性SCF投入￥40+少量模型MAAS费用）。
-整体架构链路如下：
-用户发消息
-→ 微信服…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6346530"
-                        open
-                      >
-                        <summary class="article-expander__title">通用大模型 vs. 垂直医疗模型 —— 全才与专家的博弈</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6346530.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/05/06/c97d24e0-ec00-11ed-96ae-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>AI医疗正站在技术与伦理的十字路口，通用大模型的创造力与医疗场景的确定性需求形成剧烈冲突。本文将深入剖析全才型GPT-4与专业型Med-PaLM两条技术路径的优劣，揭示医疗AI领域正在上演的深层次博弈，以及产品经理在商业化与合规化过程中面临的终极挑战。
-
-一、引言：AI 医疗的“十字路口”
-正如我们在 2026 年所切身感受到的那样，全球 AI 医疗市场已经跨越了早期狂热的炒作期，正实打实地迈向数百亿美元的市场规模。无论是在北京的三甲医院，还是在硅谷的创新药企，生成式 AI（Generative AI）都已经成为了高频词汇。
-然而，在这个看似繁花似锦的赛道里，所有 AI 医疗产品经理和创业者都面临着一个极其棘手的核心矛盾：大模型天生的“概率性”与医疗场景要求的“确定性”之间的剧烈冲突。
-通俗点说：通用大模型（以 GPT-4为例）的底层逻辑是“文字接龙”，它通过计算概率来预测下一个词是什么。这种机制让它极具创造力，能写诗、能写代码。但在医疗领域，创造力有时候是致命的。医生不需要 AI 去“创造”一个不存在的罕见病历，或者“幻觉”出一种并不存在的靶向药组合。医疗对错误的容忍度极低，也就是所谓的“高容错成本”。
-
-在这个十字路口，AI 医疗行业分化出了两条截然不同的技术与商业路径：
-一条路，是直接站在 GPT-4 这样知识渊博的“全科医生（全才）”肩膀上，通过提示词和插件快速构建应用； 另一条路，则是花费巨资和时间，用海量专业医疗数据，从头喂养出一个类似 Google Med-PaLM 2 这样严谨的“专科主任（专家）”。
-
-企业究竟该如何选择？这场全才与专家的博弈，才刚刚开始。
-二、全才之路：GPT-4 在医疗领域的“降维打击”
-如果把 GPT-4 比作一个人，他绝对是一个智商超群、博览群书的超级学霸。在医疗领域，这位学霸展现出了令人惊叹的“降维打击”能力。
-1. 卓越的推理与…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6346529"
-                        open
-                      >
-                        <summary class="article-expander__title">一文通：全面初识AI，以点外卖场景为例</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/pd/6346529.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/10/31/97195bfc-77e9-11ee-be6e-00163e142b65.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>AI点餐系统正在重构外卖体验的核心逻辑——从自然语言处理、接口调用到智能决策的全链路闭环。本文将深度拆解AI如何通过语言大模型解析&#x27;三杯去冰伯牙绝弦&#x27;这样的复杂指令，如何在多平台间执行&#x27;货比三家&#x27;的决策算法，以及怎样平衡自动化与用户控制权的哲学命题。
-
-从命令点餐到下单成功的AI执行全流程：
-
-自然语言处理
-如图“1、点三杯去冰伯牙绝弦”，AI接受指令后，需要对用户语言进行翻译处理，即处理成系统能够理解的输入项。
-拆解结果，（意图）任务 “点餐”，（信息）数量“三杯”，冷热“去冰”，品名“伯牙绝弦”。
-语言类型：文字输入、音频输入、支持多个语种。
-根据系统版本迭代和实际需求情况，先从文字输入中文，再逐步优化是合理的。解读文本含义，提取文本信息是基础的AI工作内容。需要利用调整过的语言大模型AI完成。
-扩展思考1
-假设，外卖平台点餐必须填写甜度“三分糖，七分糖，标糖”。①AI可能追问，甜度信息（也可能是其他信息，如小料）。②在获取店铺菜单信息后，再追问用户，供用户选择。③AI根据用户点餐历史、偏好设置等判断用户高概率决策结果。
-
-①与②，追问用户没有提供的信息，追问时机不同，AI与系统处理方式、工作方式不同。
-如，一种是AI已熟悉各平台对菜单参数值，拆解用户语言后，对未明确的信息-“甜度”-追问用户，此时AI未调用平台接口，而是经过前期训练、熟悉外卖平台各菜单的结果。此方式，前期需要训练AI，后期根据平台迭代不断更新，而且AI追问的信息不一定全用，比如“小料”，此项可能有、可能没有；
-一种是AI找到平台店铺并调用了店铺菜单信息，发现有些信息-“甜度”-用户未提到，针对缺失信息询问用户；一种是AI根据用户历史及偏好全权代理用户点餐。
-另（反思）：点餐过程中，未明确的条件项是否交由AI全权决策？可能问题，用户通常喜欢甜度“标糖”，今天只接受“无糖”或“三分糖”。
-调用接口
-AI作…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6346521"
-                        open
-                      >
-                        <summary class="article-expander__title">工单系统的状态流转设计</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/pd/6346521.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/13/280e0b6c-d9de-11ed-8fc2-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>工单系统的状态设计为何屡遭用户吐槽？从只有进行中和已完成两种状态的简陋逻辑，到多角色协同下的状态流转难题，本文深入剖析工单系统设计的核心痛点，揭示状态流设计如何影响任务监管效率，并提供兼顾通用性与易用性的解决方案。
-
-上周跟同事聊天，说到我们公司目前的工单系统，他抱怨说：“这个工单系统的状态设计的太不合理了，只有进行中和已完成两种状态，用户在追踪进展的时候根本无法了解更详细的内容，害的我们在项目中经常被客户质疑，经常被要求做定制化需求……”
-这里先说一下我们公司工单产品的设计背景，我们部门设计输出的工单产品其实是基于多个不同的项目需求提取出来的通用化需求，为了满足不同项目上的不同的定制化需求，往上提取聚合，形成了一套满足大部分项目需求的一套解决方案，但由此产生的问题也显而易见，那就是逻辑太抽象，用户一时理解不了；或者就是易用性太差，看似满足了大部分项目需求，实际使用起来，非常难用。
-同事反馈的问题，就是由此忽略了任务监管者一个最重要的业务场景，就是任务进度的查看和跟踪，这在任务跟进的过程中是一个核心的业务需求，“当前任务到哪一步了？”“卡在哪里？负责人是谁？是否需要进行催办等”，因此对于任务的监管者来说，状态流的详细展示就是一个很重要的信息要素来帮助用户识别具体的任务执行进度以及是否有必要进行进一步的催办协调。
-当然这里同时还隐藏着一个隐含的逻辑，那就是是否有超时机制，正常来说，任何一个任务的完成都有明确的时间要求，除非特殊情况，否则不会一直卡在一个环境不动。因此，若当任务即将超时或已超时时，任务负责人是需要进行相关的催办、协调等一系列操作来帮助任务的正常流程的。
-
-很多团队在设计工单状态时，常常都会陷入以下误区：
-状态太少：只有进行中和已完成两种状态，当一条工单任务下发下去之后，作为监督者进行进度跟踪和把控时，无从下手，进行到哪一步了？卡在哪一步了？无从知晓，也无法进行相…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6346119"
-                        open
-                      >
-                        <summary class="article-expander__title">商业Apple Search Ads白皮书</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/marketing/6346119.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/13/a614cdae-d9eb-11ed-a6e8-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>App Store的竞争早已超越单纯的产品优劣比拼，Apple Ads正成为开发者突围的核心武器。本文将深度解析Basic与Advanced两大广告方案的差异化优势，揭秘‘今天’标签页、搜索结果等四大黄金广告位的战略价值，并拆解Apple如何在隐私保护前提下实现精准效果衡量，为开发者提供从曝光到转化的全链路增长方案。
-
-Apple App Store 是全球应用经济的核心，也是用户发现、下载和体验应用的首要渠道。然而，在这个充满活力的生态系统中，开发者和营销人员面临着前所未有的激烈竞争。
-要在数百万款应用中脱颖而出，仅仅拥有一个出色的产品是远远不够的。此时，Apple 广告平台便成为一项不可或缺的战略工具，它使广告主能够在用户决策的黄金窗口，通过精准投放捕获高价值用户，从而直接驱动业务增长。
-本文将深入探讨 Apple 全面的广告解决方案，剖析其多样的广告展示位置如何覆盖从品牌初次曝光到主动搜索的完整用户旅程，并介绍其以隐私保护为核心的效果衡量工具。理解并善用这些工具，对于任何希望在 App Store 上取得成功的开发者和营销人员而言，都是制定成功应用增长策略的关键一步。
-1. Apple Ads 解决方案：Basic 与 Advanced
-Apple 提供了两种截然不同的广告解决方案—Apple Ads Basic 和 Apple Ads Advanced，旨在满足不同水平的营销专业知识、资源和业务目标。选择正确的解决方案是成功投放广告、实现业务增长的第一步。
-1.1 Apple Ads Advanced：为专业营销人员打造的强大工具
-Apple Ads Advanced 专为开发者、广告主或代理商设计，其核心价值在于提供一套强大的营销工具，帮助营销专家实现并超越其投资回报率 (ROI) 目标。它赋予广告主极高的控制力和灵活性，以执行复杂的、大规模的营销活动。
-
-其关键…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6346717"
-                        open
-                      >
-                        <summary class="article-expander__title">AI产品经理操盘实录（一）：从商业痛点到AI原生产品的7步架构法</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6346717.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2026/03/01/de20cc68-14c4-11f1-987c-00163e09d72f.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>跨境电商商拍成本居高不下？SmartPhoto AI系统用工业化思维打破僵局！本文深度还原从¥65/张到¥0.5/张的颠覆性实践：如何用LoRA微调+场景封装攻克光影重构难题，为何72%可用率才是商业临界点，以及高阶AI产品经理必备的6份核心文档。看透大模型落地从技术选型到灰度放量的全周期操盘逻辑。
-
-随着大模型技术的演进，企业级 AI 应用的落地已进入深水区。当前行业内的普遍痛点是：大量 AI 产品停留在“套壳调用 API”的玩具阶段，缺乏与核心业务流的深度耦合，导致研发 ROI 难以打平。
-本文为连载系列开篇。我将以公司内部真实落地的“SmartPhoto 跨境电商 AI 商拍系统”（2023年立项）为例，以第一视角复盘：在面对明确的业务降本增效需求时，高阶 AI 产品经理如何跨越“画原型”的执行层，从技术可行性边界、商业算账到架构设计，完成从 0 到 1 的工业化构建全流程。
-( 作者注：本文的技术选型与数据基准基于项目立项期的真实业务环境。底层模型虽有代际更迭，但基于“第一性原理”与“商业风控”的架构推演逻辑，具有跨越周期的通用性。)
-业务基准与痛点定义
-项目发起的背景，源于跨境电商核心履约链路中的“商品视觉资产生产”瓶颈。在立项前，我们对现有的传统商拍工作流进行了精确的数据测算：
-成本基准： 包含样品物流、影棚排期、实景搭建、摄影与后期精修，单张 SKU 主图的综合分摊成本约为 ¥65/张。
-周期基准： 端到端平均耗时 3～5 天，大促旺季极值达 9 天。
-产能与损耗： 受限物理瓶颈，每月最大出图量约 1 万张，直接硬性支出超 60 万。更隐性的灾难是，极慢的上新节奏导致高频测款的红利期大量流失。
-立项核心命题： 构建一套自动化系统，将单图综合成本压降至 ¥1.0 以下，交付周期压缩至 分钟级，且“图片真实感”必须达到甚至超越原有的商业投放转化基线。
-第一步：需求…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6345858"
-                        open
-                      >
-                        <summary class="article-expander__title">货代WMS实战：预约与ASN怎么做，才能把“到货”从随机事件变成可控产能？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/pd/6345858.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/14/e76bcac0-da8e-11ed-aeb8-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>在货代仓里，到货不是“车来了就卸”这么简单：供应商直送、承运商配送、客户自送、跨仓转运同时发生；旺季车辆扎堆、月台排队、资料不全、到货差异频发，最终会把收货、质检、上架乃至截仓/截关节奏全部打乱。本文结合货代仓储业务特性，拆解预约与ASN（Advance Shipping Notice）模块的关键设计：多渠道ASN接入、预约时窗产品化、月台动态调度、到货登记与任务触发、以及把“责任边界”和“可对账指标”内置到流程里，让到货计划真正成为仓库的可执行排产。
-
-一、货代仓的到货为什么更“不可控”？
-如果把电商仓的到货比作“固定班车”，那货代仓的到货更像“多方临时拼车”：
-上游角色复杂：供应商、工厂、代理、卡车队、快递、客户自送都可能发起到货。
-到货目的多样：集货拼箱（LCL）入仓、整箱装货前配套入仓、跨境电商中转入仓、退货/返修入仓等混在一起。
-时间窗口更敏感：截仓、截补料、截关、提箱装柜排期，一旦收货端失控，会连锁影响出运与客户承诺。
-数据口径更容易漂移：上游通过邮件/微信/电话说一套，司机到门口又说一套，现场才发现少条码、缺批次、箱唛不一致。
-所以，预约与ASN模块的目标不是“做一个预约页面”，而是把到货变成一条可管理的产能链路：可计划、可排产、可校验、可留痕、可对账。
-二、顶层原则：把“预约确认”定义成一次产能承诺
-很多仓库把预约当成“登记簿”，结果出现两个典型问题：
-确认不等于承诺：口头确认、群里确认、系统里没记录，月台资源无法真实排产。
-异常无法归因：迟到/爽约/超时卸货到底是谁的问题，最后只能“仓库背锅”。
-更合理的做法是：把“预约确认”定义成一次可追溯的产能承诺（承诺什么、谁承诺、基于什么信息承诺）。
-
-
-承诺对象：到货时窗 + 月台/道口 + 必要资源（人力/叉车/地牛/称重/质检位）。
-承诺前提：ASN关键字段齐全且通过校验（订单/PO/SKU/货主/仓型/特殊…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >小众软件</button>
-                  <a class="source-heading__link" href="https://www.appinn.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.appinn.com/inxunoffice-263/"
-                        open
-                      >
-                        <summary class="article-expander__title">无需联网，这款离线办公软件——【鹰迅批量处理工具】直接封神！</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.appinn.com/inxunoffice-263/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.appinn.com/wp-content/uploads/2026/01/IMG_0526.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>你是不是也想找一款功能齐全，又不用联网的办公软件？你是不是也经常为同时处理大量文档而烦恼？ 今天青小蛙给大家推荐一款强大的离线文档批量处理工具——「鹰迅批量处理工具箱」，就算在没有网络的情况下也可以正常使用。它是一款非常强大的办公工具合集，专注于提高办公效率，汇集了近200种非常实用的功能。 点击访</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.appinn.com/openclaw-synology-chat/"
-                        open
-                      >
-                        <summary class="article-expander__title">OpenClaw 支持群晖 Chat 渠道进行对话：@openclaw/synology-chat 简易教程</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.appinn.com/openclaw-synology-chat/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.appinn.com/wp-content/uploads/2026/03/cover-1772415235914-1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>通过群晖 Chat 使用 OpenClaw，这大概是群晖 Chat 套件最有用的一集。 OpenClaw 新版本新增了 Synology Chat 渠道，对于各大群晖用户，这是一个好消息。因为可以捡起来曾经装过的群晖 Chat 套件，虽然从来没用过，但在 Telegram 配置不了，飞书超额度的情况</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;10
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-09-24 datetime="2025-09-24T16:45:02.000Z">2025-09-24</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-09-24 datetime="2025-09-24T16:45:02.000Z"></time>
           </button>
@@ -27976,8 +27853,8 @@ Apple Ads Advanced 专为开发者、广告主或代理商设计，其核心价�
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/allceo/feed/actions/runs/23777459190">
-        <time id="build-timestamp" datetime="2026-03-31T02:25:11.807Z">2026-03-31T02:25:11.807Z</time>
+      <a class="footer-link" href="https://github.com/allceo/feed/actions/runs/23829156954">
+        <time id="build-timestamp" datetime="2026-04-01T02:35:32.186Z">2026-04-01T02:35:32.186Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
