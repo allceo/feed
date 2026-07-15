@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-07-14 datetime="2026-07-14T01:57:17.000Z">2026-07-14</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-07-14 datetime="2026-07-14T01:57:17.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-07-15 datetime="2026-07-15T02:06:58.000Z">2026-07-15</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-07-15 datetime="2026-07-15T02:06:58.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,643 @@
                   <a class="source-heading__link" href="https://www.woshipm.com">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6429484"
+                        open
+                      >
+                        <summary class="article-expander__title">Artificial Societies和Aaru的产品逻辑差在哪？预测 vs 涌现的产品设计差异</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6429484.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/14/7121359a-da8d-11ed-8198-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>当AI产品从预测型升级为涌现型，整个产品逻辑正在发生根本性变革。本文深度解析涌现型产品的四层架构设计，揭示其如何通过十亿级数字分身的交互运行，突破传统预测型产品无法解决的&#x27;未知的未知&#x27;困境。从社交传播模型到群体动态算法，从冷启动策略到PM能力升级，带你看懂下一代AI产品的范式革命。
+
+一、为什么预测型产品的天花板不够高
+Artificial Societies和Aaru做的是预测型产品——用户输入一个场景，系统输出一个预测结果。
+这类产品的产品逻辑是：Query-Response（查询-响应）模式。
+你问”用户会不会买”，系统给你”76%会考虑购买”。
+Query-Response模式的天花板在于：它只能回答用户已经想到的问题。
+但产品决策中最大的风险不是”你问的问题答案不准”——而是”你根本没想到该问这个问题“。
+这就是unknown unknowns（未知的未知）——你不知道自己不知道什么。
+预测型产品无法解决unknown unknowns，因为它只能响应Query，无法主动发现Query之外的东西。
+二、涌现型产品的范式差异
+涌现型产品的逻辑是：Introduce-Run-Observe（引入-运行-观察）模式。
+用户不问问题。
+
+用户引入一个元素（一个AI公司、一个政策、一部电影），系统让十亿个数字分身自由交互运行一段时间，然后用户观察”系统长出了什么”。
+三种模式对比如下：
+
+核心区别：预测型产品的Agent是independent reactor（独立反应器），涌现型产品的Agent是interconnected agent（互联智能体）。前者只对刺激做反应，后者彼此影响、彼此改变。
+三、涌现型产品的四层架构
+第一层：数据采集与分身引擎。
+和预测型相同。端侧AI基于用户全维数据训练数字分身。核心产品指标：分身行为一致性（分身预测行为与真实用户行为的吻合度）。
+第二层：Agent交互引擎。
+这是涌现型产品的核心差异层。需要设计Agent之间的交互机制：
+社交传播模型：分身之间通过社交网络传播信息（口碑、推荐、评价）。传播速度和路径取决于社交网络拓扑。
+市场博弈模型：分身之间可以模仿、竞争、合作。一个AI公司的服务模式可能被其他Agent模仿，自发形成竞争对手。
+群体动态模型：从众效应、极化效应、共识形成、圈层分化。这些群体行为是Agent交互的涌现结果。
+产品设计的核心挑战：如何让十亿级Agent的交互在可接受的时间内完成？ 这需要分布式仿真和交互近似算法。
+第三层：涌现检测系统。
+系统运行过程中，如何发现”出现了设计之外的新东西”？
+新竞争对手检测：监测是否有Agent自发开始提供与引入元素类似的服务
+口碑网络检测：监测信息传播是否形成了稳定的网络结构和情绪模式
+新需求检测：监测是否出现了引入元素之前不存在的需求信号
+社会现象检测：监测是否形成了新的群体行为模式（消费文化、身份认同、社交仪式）
+产品形式：时间轴可视化——”第3个月：检测到口碑传播网络成形””第6个月：检测到2个自发竞争对手””第9个月：检测到新需求涌现”。
+第四层：用户授权与隐私层。
+每次涌现模拟调用用户分身需获得授权。核心技术原则：数据不出手机、调用需授权、输出仅聚合、用户可随时退出。
+四、冷启动策略
+涌现型产品是双边平台——用户端（提供分身）和需求方端（品牌/政府/机构）。
+用户端冷启动：不要求用户主动”生成我的数字分身”。在用户使用手机AI助手过程中自动积累行为数据。当分身”成熟”后，推送轻量邀请——”你的AI分身已可以参与模拟，每次参与可获得X元”。
+需求方冷启动：找到第一个愿意为”涌现结果”付费的客户。关键验证点：涌现跑出的结果是否具有商业参考价值。如果涌现检测到”一年后可能从方向X出现竞争对手”，这个预警是否帮客户规避了真实风险？
+可信度建设：引入第三方审计，验证涌现结果与真实世界后续发展的吻合度。建立”涌现准确率”的长期跟踪数据库。
+五、产品经理的能力升级
+如果涌现模拟成为主流，产品经理的工作方式将发生根本变化：
+从”验证假设”到”发现未知”。 预测型产品的PM工作流是：提出假设→设计测试→获取预测结果→决策。涌现型产品的PM工作流是：引入元素→运行系统→观察涌现→发现未知→决策。
+从”问题驱动”到”观察驱动”。 预测型PM的起点是”我想知道X”。涌现型PM的起点是”我想看看系统会长出什么”。
+从”精度导向”到”广度导向”。 预测型PM追求”答案准不准”。涌现型PM追求”系统有没有给我看到我没看过的东西”。
+产品经理的核心竞争力将从”问对问题”转向”看得见长出来的东西”。
+本文由 @森林雨 原创发布于人人都是产品经理。未经作者许可，禁止转载
+题图来自 Unsplash，基于CC0协议</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6429434"
+                        open
+                      >
+                        <summary class="article-expander__title">AI到底能不能取代产品经理？我拿自己做了半年实验</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6429434.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/wp-files/2026/07/I5pD7bxrum9F6tuhwfad.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>AI正在重塑产品经理的工作边界，它已经能完美处理会议纪要、周报撰写等执行层任务，但在定义问题与战略决策等核心领域仍无法替代人类。本文通过半年实战验证，拆解AI与PM的能力边界差异，并给出三条关键生存法则：从执行层超越AI、刻意训练问题定义能力、掌握人的连接艺术。产品经理真正的竞争力，正从工具使用转向价值判断。
+
+你有没有发现，最近朋友圈里”AI要取代XX岗位”的帖子越来越多了？先是客服，然后是翻译，现在枪口对准了产品经理。
+说实话，第一次看到这个话题，我心里也咯噔了一下。不是因为不知道答案，是因为答案不太好听。
+所以我干了一件狠事：把自己工作的每个环节都丢给AI跑一遍。半年下来，结果挺打脸的——有些事AI做得比我好，我已经彻底不自己干了。但有些事，AI连门都摸不到。
+今天不聊概念，不聊趋势预测。就摊三件事：AI已经替代了我什么、AI绝对替代不了什么、以及你怎么活。
+我已经被AI替代的那些活儿
+先别嘴硬。我给你列一个”已被替代清单”，这是我近半年真实的工时变化。
+
+已经彻底替代、零修改、直接交付的：
+第一名是会议纪要。飞书妙记跑完录音，AI出的纪要结构比我记的还清楚——决策项、待办事项、风险点，三段式，准确率95%以上。我已经半年没自己记过会议笔记了。第二是周报月报。原来写周报20分钟，现在3分钟。把本周工作事项列表扔进去，30秒出一份结构完整的周报，30秒微调措辞发出去。第三是竞品功能清单。原来要半天，现在让AI抓取竞品官网整理成对比表格，30分钟。还有PRD里”背景与目标”那个章节，把会议录音、需求邮件、相关数据丢进去，AI出初稿我只微调。
+这些事，AI已经比我做得好。更快、更全、格式更统一。不承认不行。
+
+已经显著辅助、但人工还是主力的：
+用户故事拆分，AI能出基础版列表，颗粒度和优先级得人工调。原来拆一个模块2小时，现在AI 15分钟出初稿，我花45分钟调整。SQL生…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6429521"
+                        open
+                      >
+                        <summary class="article-expander__title">解读“九部门新政”，你必须重塑的3种新能力！</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6429521.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2024/09/30/da29e510-7f18-11ef-9237-00163e142b65.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>国家九部门联合印发零售业新政，这份文件远不止是行业支持政策，而是正在重构中国零售业的底层逻辑。从货架争夺战到系统价值战，从通道费模式到深度联营，政策正在推动零售商、品牌商和平台方共同转向商品经营、场景创新和供应链效率的新赛道。本文深度解读新政三大核心变化，揭示未来零售业竞争的全新规则与生存法则。
+
+国家出台政策下场调改实体零售，线下实体零售的春天要来了？
+最近，国家商务部印发了一份关于零售业发展的《意见》，值得注意的是九部门联发，这对零售行业释放了什么信号？
+
+（完整版文件见文末）
+做品牌的，做渠道的，做商超的，或者正在关注新零售变化的人，我建议你一定要认真看一遍这个视频。因为过去，零售业最重要的能力是什么？这份文件，表面上看是在支持消费、支持零售，但底层真正释放的信号是：重写中国零售业未来的底层规则。
+过去，零售业最重要的能力是什么？
+三个字：抢位置。
+商场抢地段。
+超市抢货架。
+平台抢流量。
+品牌抢坑位。
+谁的位置好，谁的流量大，谁的促销猛，谁就更容易赢。所以过去很多零售商的经营逻辑，本质上不是经营消费者，而是经营货架。不是把商品卖给消费者，而是把货架卖给品牌商。
+品牌想进场，要交进场费。
+想要好位置，要交陈列费。
+想要活动资源，要交促销费。
+想要平台流量，要买广告、抢排名、卷低价。
+结果是什么？
+零售商看起来很热闹，消费者却未必买得更舒服。品牌商看起来卖得更多，利润却越来越薄。平台看起来效率很高，但很多商家被低价和流量绑架。
+
+这就是中国零售过去很长一段时间的底层矛盾：
+大家都在抢流量，抢货架，抢价格。但真正创造出来的新需求，并没有那么多。所以这次九部门的文件，最值得关注的，不是某一条具体措施，而是它在重新定义零售业。
+
+零售业不再只是卖货的地方。零售业正在被重新定义为扩大内需的基础设施。
+什么意思？
+过去我们理解零售，觉得它是商业的最后一环。工厂生产商品，品牌做营销…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6428590"
+                        open
+                      >
+                        <summary class="article-expander__title">从财务转 AI 产品经理：我用 AI 视角复盘 2 个数字化老项目，梳理出 3 条落地方法论</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/zhichang/6428590.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/14/91d37828-da9e-11ed-95a1-00163e0b5ff3.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>从财务跨界到AI产品经理，最有效的转型方式是用项目说话。本文通过复盘智能发薪系统、绩效数智化等真实案例，揭示了AI落地的三大核心逻辑：先规则后智能、数据治理优先、三角翻译能力。这些来自实战的经验总结，将帮助你在AI时代把过往经历转化为独特优势。
+
+在转型 AI 产品经理的时间里，最常被问到的问题是：
+“你之前做财务的，怎么做 AI 产品经理？”
+
+以前我会讲一堆概念。后来发现，最好的答案是：讲项目。
+我工作了 7 年，从财务基础岗位做到综合管理岗，其间主导过多个数字化项目。那几年做数字化，一直专注于流程梳理，数据清洗。这篇文章，是一次重新审视：如果用 AI 产品经理的视角复盘，那些项目可以怎么做得更好。
+01 智能发薪系统：需求采集比技术更难
+当时的情况
+集团有 4000 多名员工，每月发薪日之前，HR 要在 5 个系统之间切换导数据、核人员、对金额。每个系统之间的数据口径并非完全统一，口径统一的数据，数据标签不一致。
+我的方案是：打通 HR 系统、考勤系统、财务系统的数据链路，自动生成薪资基础数据，最终确认的数据直接推送到银行。
+
+听起来是个 ERP 集成项目，但真正卡住我的环节是：
+各子公司算薪规则不同（有的按课时、有的按课时+绩效）
+考勤数据和绩效数据口径不一致
+银行接口要求的数据格式和内部格式要一一映射
+最终落地的效果：发薪核对时间从 3 天缩短到 1天（月末发薪核对流程口径，主要指数据核对 + 差错回溯环节，不含最终审批签发）。
+如果重来一次：AI 可以解决什么问题
+当时我处理这些规则差异的方式是：写 Excel 映射表 + 人工维护。
+现在回头看，这里有巨大的 AI 优化空间：
+场景一：规则不一致 → 用 LLM 做自然语言规则提取
+子公司算薪规则散落在邮件、Excel、绩效考核文件里，靠 HR 手工整理。如果当时有 AI 工具：
+输入：各子公司的薪资规则文档
+…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6429208"
+                        open
+                      >
+                        <summary class="article-expander__title">【全球视野篇01】别再用肉型扒差评了：如何搭建一个 24小时为你打工的“AI 选品 Agent”？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6429208.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/13/6ff02bfe-d9de-11ed-9d2f-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>传统跨境选品中的VOC分析正面临效率瓶颈，AI Agent与多维表格的结合正在颠覆这一领域。本文揭秘了一套24小时自动运行的跨境选品分析系统，它能精准识别隐藏痛点、消除翻译失真、实现标准化标签，将原本耗时一周的分析缩短至5分钟完成。从架构设计到提示词模板，带你掌握降维打击的实战利器。
+
+在第一轮的 10 篇实战笔记中，我们建立了一套完整、规范的跨境产品全生命周期 SOP。很多兄弟和我说，流程是拉通了，但在第一步“VOC 用户之声分析”上就遇到了瓶颈：
+举例：亚马逊一个细分类目 Top 50 的链接，积攒了上万条 Review 和 QA。如果靠初级产品经理（PM）用肉眼去一条条复制、翻译、分类、打标签，往往需要耗费整整一周的时间。最后整理出来的 Excel 报告，不仅主观性极强，时效性也早就过了。
+站在产品总监的视角，2026 年你如果还在让你的员工用这种原始方式选品，那就是在浪费公司的核心人力资产。
+今天作为新篇章的开首，我们聊点高效的：如何利用 AI Agent（智能体）结合多维表格，搭建一套全自动、24 小时不停歇的跨境选品与痛点分析流。
+一、传统选品的“三大人力黑洞”
+在推行 AI 选品流之前，我让团队评估了传统人工看差评的效率，发现了三个无法调和的黑洞：
+样本量不足：人类精力有限，PM 往往只看最近的 50 条或只看 1-2 星差评，忽略了 3 星（纠结款）和 4 星（有瑕疵的赞美）中隐藏的真实机会。
+翻译失真：欧美的俚语和特定场景表达（例如：“It’s a hot mess” 并不是指天气热，而是指极其糟糕），外贸业务员很容易用四六级英语字面翻译，导致痛点误判。
+标签主观化：同样一条“质量不好”，PM A 归类为“材质问题”，PM B 归类为“品控问题”，导致最后生成的词频聚类图毫无指导意义。
+二、核心架构：AI 选品 Agent 的“流水线”是怎么跑的？
+
+在我…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6429089"
+                        open
+                      >
+                        <summary class="article-expander__title">AI时代最大的幻觉：技术正在解决一切问题，但真正的问题是没人理解业务</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6429089.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/13/3712e2a4-d9de-11ed-9d2f-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>AI行业正面临一场深刻的认知革命——技术能力与商业价值的鸿沟从未如此明显。从95%的企业Gen AI项目零回报，到FDE岗位激增729%背后的行业矛盾，再到Token经济与垂直场景的价值之争，本文直击AI落地的八大认知误区，揭示真正决定AI成败的关键：不是模型参数或技术demo，而是对业务流程的重构能力与行业理解的深度。
+
+最近几年，AI行业出现了很多看似正确的判断：
+“AI应用落地很难。”
+“未来需要大量FDE。”
+“大模型公司卖Token才是最大的生意。”
+“应用层没有壁垒。”
+“软件会越来越没有价值。”
+“硬件才是AI时代最大的机会。”
+这些观点单独来看，都有一定合理性。
+但是，如果把这些观点放到整个AI产业链里观察，会发现一个问题：
+很多讨论依然停留在单一视角。
+技术人员从技术角度解释AI。
+资本从市场规模解释AI。
+创业者从商业模式解释AI。
+但真正决定AI价值的，是：业务流程是否因为AI发生改变。
+一、AI落地难，不是因为AI不够强，而是因为企业的问题没有被重新定义
+现在行业里最常听到的一句话：AI落地很难。
+为什么难？
+很多人的答案是：模型不稳定、数据质量差、企业系统复杂、权限管理困难、成本太高。
+这些都是事实。但是这些只是表层原因。
+更深层的问题：很多AI项目根本没有找到真正值得自动化的业务环节。
+
+数据可以说明问题的严重性。MIT 2025年的NANDA调研显示，95%的企业Gen AI项目没有产生可衡量的商业回报。
+RAND同年访谈65位资深数据科学家，结论是超过80%的AI项目失败，是普通IT项目的两倍。Deloitte 2025年的数据更直接——42%的企业砍掉了至少一个AI项目，每个被砍项目的平均沉没成本是720万美元。
+牛津大学研究团队发布的《AI初创企业价值创造白皮书（2025）》显示，全球AI年度投资总额已超过4000亿美元，但仅有约33%的…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6429576"
+                        open
+                      >
+                        <summary class="article-expander__title">从考研数学痛点出发：一个新人的首款AI答疑社区产品构想</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6429576.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/14/7cb3fbe4-da8e-11ed-a86f-00163e0b5ff3.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>深夜卡在二重积分题？这位产品经理用AI重构考研数学答疑场景。从RAG技术落地到人工兜底机制，从马甲运营到精准商业模式，一场关于垂直社区、AI赋能与产品全生命周期的实战推演正在展开。
+
+其实对于“产品经理”到底是个什么角色，我最近有了一些属于自己的理解：它的日常就是发现问题，把问题转化为需求，再把需求转化为任务去发动大家执行，最后以“Owner（主人翁）”的心态去跟踪、完善、维护这个产物的全生命周期。
+前几天我翻看手机里的录音，点开了一个名为 答疑网站 的文件，里面记录了我最初关于解决“考研数学答疑难”这个痛点的碎碎念。今天，我想把这个初步的想法整理出来，和大家分享我的第一个产品构想——一个专为考研党打造的AI赋能高数答疑社区，我给它起名叫“高斯刷怪笼”。
+一、真实场景与痛点：深夜11点的二重积分
+今年6月的一个晚上，快11点多的时候，我的室友小陈子正在死磕《张宇1000题》强化篇里的一道二重积分。官方给的答案步骤非常模糊跳跃，他卡了半个多小时都没搞懂。想去问人，但大半夜根本找不到人；想去各类答疑群，又往往石沉大海；找专门的辅导机构或者学长学姐，价格又太贵。
+
+这就是目前考研党面临的普遍痛点：遇到难题响应慢、效率低、获取优质解答的成本太高。如果当时有个产品，小陈子拍下题目，能瞬间从知识库里找到别人问过的相同问题，并且给出三种不同的详细解法，他对比学习一下几分钟就能搞定。
+二、MVP规划：克制与聚焦
+因为目前只有我一个人在推进（或者说哪怕加上几个开发），想要快速跑通这个想法，第一版（MVP）必须极其克制。所以 V1.0 我只打算上最核心的三个功能：
+规范化的问答发帖：全面支持 LaTeX 公式渲染，并出一篇新手排版指南，保证社区内容的高质量和规范化。
+RAG检索与AI秒回：这是核心竞争力。利用RAG（检索增强生成）技术沉淀社区历史上下文。用户发帖后，AI不断学习之前的帖子，瞬间…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6429481"
+                        open
+                      >
+                        <summary class="article-expander__title">编译管线是语义一致性的”机器翻译层”</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6429481.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/14/91d2911a-da9e-11ed-95a1-00163e0b5ff3.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>AI能生成符合规范的代码，却无法自主判断&quot;这个场景下必须表达什么语义&quot;——设计师的角色正从&quot;视觉生产者&quot;转向&quot;语义翻译者&quot;。Schema-As-Code编译管线的核心，是把YAML契约自动编译为Prompt前缀、JSON Schema、Checklist和CI规则，让设计意图从&quot;人脑中的想法&quot;到&quot;机器执行的约束&quot;不丢失、不漂移。
+
+本文是 Schema-As-Code 治理框架的关键设计，与阶段一”结构化诊断”方法论平行。
+阶段一（结构化诊断）的核心路径是 Token → 字段 → 快照 → 模式，回答”怎么发现语义断层”；阶段二（语义契约）的核心路径是 YAML 契约 → 编译管线 → 消费格式，回答”怎么把修复规则翻译成机器可执行的约束”。阶段二由三部分组成：语义契约、编译管线、语义字典与操作手册。
+本文聚焦阶段二（语义契约）的编译管线的核心机制：如何把设计意图从YAML翻译为不同角色可直接消费的机器约束。
+快速阅读：
+阶段一：组件语义快照与模式诊断：AI 生成界面的第一道检查
+阶段二：设计师作为”语义翻译者” 当AI生成界面时我怎么用规则锁住设计意图
+方法论总纲与开源仓库：把设计规范写成代码格式，是所有 AI 工具的上游约束方法论
+一、编译管线全景：四个阶段与一条流水线
+Schema-As-Code 治理框架不是一套分散的文档，而是一条结构化编译流水线。每个阶段的上游产出，自动成为下游的输入，最终确保设计意图从”人脑中的想法“到”机器执行的约束“不丢失、不漂移。
+
+编译管线的核心机制：
+阶段一（结构化诊断）产出模式库，6个跨产品的通用漂移模式
+阶段二（语义契约）将模式写成YAML契约，机器可读的设计意图定义
+阶段二（编译管线）将YAML编译为4种消费格式，Prompt前缀、JSON Schema、Checklist、CI规则
+阶段二（语义字典与操作手册）提供配套资产，…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-07-14 datetime="2026-07-14T10:49:32.000Z">2026-07-14</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-07-14 datetime="2026-07-14T10:49:32.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >人人都是产品经理</button>
+                  <a class="source-heading__link" href="https://www.woshipm.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/it/6429463.html"
+                        open
+                      >
+                        <summary class="article-expander__title">AI搜索监测平台Profound是如何成为GEO赛道独角兽的？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6429463.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2024/06/04/380f84e6-2221-11ef-9148-00163e142b65.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Profound 以黑马姿态闯入 GEO 监测赛道，成立仅 18 个月便跻身独角兽行列。这家神秘公司如何通过 AI 搜索效果可视化工具俘获 Target、沃尔玛等巨头？其核心产品 Prompt Volume 数据库又藏着哪些商业密码？本文将揭开 Profound 从数据监测到营销平台进化的秘密，并探讨国内企业的替代方案。
+
+国外很多AI引用源研究和行业报告，都采用或引用过Profound的数据，知名“信源”Reddit在股东信中直接采用了它的统计结果。
+国内谈论的人少，再加上Profound本来在互联网上信息不多，除了融资信息、创始播客采访之外，就只剩官网了。
+
+（可以测DeepSeek，估计信源只有海外媒体）
+整体黑乎乎的，和AI公司紫色、明亮的形象有反差，而且内容偏概念，产品Demo也没有….
+那这家公司到底什么来头？为啥刚成立不到两年，就成了GEO领域的独角兽？
+他们的测量结果是否可信？
+更重要的是国内有没有替代产品？中小企业能不能自己来做GEO效果监测？
+带着这几个问题，我深入研究了这家公司，信息未必准确，但观察和思考也许对你有帮助。
+一、Profound是怎么火起来的？
+根据官网介绍，Profound成立于2024年。
+这一年正好是大模型从“疯狂烧钱”到“商业化”的转折点。
+各路投资人满世界寻找AI落地的应用，当时GEO这个词刚开始在学术圈有点影响力，但AI搜索、AIGC已经非常火了。
+
+创始人的James Cadwallader是连续创业者，曾经经营一家网红营销公司。他发现500强大客户当时开始讨论“如何让ChatGPT推荐我们品牌？”这燃起了他对AI营销的热情。
+正好他遇到了Dylan Babbs，Uber的前设计工程师，两人一拍即合，决定从CMO最看中的AI搜索效果可视化工具入手。
+他们很快拿出产品Demo，在那之后刚刚好GEO/AEO概念火爆。
+之后短短1…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6429204"
+                        open
+                      >
+                        <summary class="article-expander__title">【跨境产品实战笔记10】大结局：从“做产品”到“带兵打仗”，产品总监的团队绩效与跨部门协作天条</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6429204.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/17/77683736-dcf5-11ed-897e-00163e0b5ff3.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>产品团队从3人扩到10人，PM和运营开始互甩锅——这是跨境电商从&quot;草台班子&quot;到&quot;产品铁军&quot;的必经阵痛。作者用爆款存活率、生命周期总毛利、退货率控制、节点准时率四个硬性KPI，把PM从&quot;开发工具人&quot;变成&quot;商业价值负责人&quot;；再用&quot;无数据不立项&quot;&quot;产销对赌&quot;&quot;库存熔断&quot;三大天条，终结结构性内耗。
+
+过去几个月，我们从选品的蛛丝马迹聊到合规生死线，从写一份滴水不漏的 PRD 聊到成熟期的 VAVE 成本重构。通过这套方法论，很多兄弟的公司已经完成了从“拿货贸易型”向“产品驱动型”的初步转型。
+但随着产品团队规模从 3 个人扩张到 10 个人甚至更多，很多产品总监开始面临新的夜不能寐：
+产品经理（PM）吐槽运营不会卖、瞎提需求，KPI 盯着销量不合理。
+运营团队抱怨 PM 闭门造车，开发出来的产品没利润、交期慢、退货率高。
+老板天天在中间和稀泥，库存积压了，两边都在疯狂甩锅。
+作为本系列的终章，我们不聊产品本身，聊聊“人和制度”。我们要聊聊如何通过机制和考核，把一个草台班子，打造成一支目标一致、能打胜仗的跨境产品铁军。
+一、破除“产销对立”：跨境产品经理的 KPI 到底该怎么背？
+在很多跨境公司里，PM 的绩效挂钩“上架新品数”，运营的绩效挂钩“店铺销售额”。这是典型的结构性内耗。 PM 为了完成指标疯狂上新，根本不管市占率和利润；运营为了冲销售额拼命降价、烧广告，最后库存堆积如山。
+我们要把产品经理从“开发工具人”解脱出来，让他们成为“产品商业价值的终极负责人”。
+
+在我的团队中，跨境产品经理的绩效考核（KPI）由以下四个硬性指标构成，权重各有侧重：
+1. 爆款存活率 (Weight: 30%)
+定义： 上架 6 个月内，日均销量达到 Target（如 30 单以上）且毛利率达标的新品比例。
+目的： 逼着 PM 在立项和选品阶段就做好宏观验证，宁缺毋滥，扼杀“拍脑袋立项”。
+2. …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/it/6429282.html"
+                        open
+                      >
+                        <summary class="article-expander__title">AI 时代更值钱的 5 种能力</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6429282.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2025/05/03/ab132c88-27c8-11f0-892e-00163e09d72f.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>数字素养帮你识破AI包装的专业感，问题定义能力决定AI建议有没有用，创造力重新定义价值而非增加产量，推理能力守住&quot;看起来有道理&quot;和&quot;真的有道理&quot;之间的防线，韧性让你在熟悉的技能突然贬值时重新锚定自己。当工具越来越强，人的核心竞争力，只剩判断力。
+
+AI 变得越来越强，很多人都有一种很强的危机感：
+我的工作会不会被 AI 替代？
+公司会不会用 AI 把我裁了？
+我现在学的这些技能，还能撑几年？
+说实话，我也有这种焦虑。
+因为 AI 真正吓人的地方，是它会把很多以前看起来很值钱的动作，突然变得很便宜。
+以前你会写报告，会做 PPT，会整理数据，会生成方案，这些都算能力。现在把需求扔给 AI，它也能给你一份看起来还不错的东西。
+那问题来了：当工具越来越强，人的价值到底在哪？
+最近，看麦肯锡发布的《2026年人力资源监测报告》，里面有句话很值得琢磨：未来技能将从基于常规任务的能力，转向侧重于分析和解释 AI 输出的技能。
+
+以前拼的是谁能产出，以后拼的是谁能判断、能选择、能定义问题、能承担结果。
+基于这份报告，结合我做数据分析和用 AI 的体感，聊一聊 AI 时代更值钱的 5 种能力。
+
+1. 数字素养
+很多人以为，数字素养就是会用 Excel、会做图表、会写提示词。
+其实不是。
+真正的数字素养，是你能不能判断工具给出的结果是否可信。
+比如，AI 给你生成一份市场分析报告，说「某类人群正在快速转向某个新品类」，建议公司加大投入。
+缺乏数字素养的人，可能看见图表挺漂亮，结论挺完整，就直接拿去汇报。
+但真正有数字素养的人，会多问几句：
+数据来源是什么？
+样本量到底有多大？
+时间范围是过去三周，还是过去三年？
+所谓「快速转向」，是真金白银的购买行为，还是社交媒体上的讨论声量？
+这几个问题一问，结论可能就完全不一样了。
+我做数据分析这些年，越来越有一个感受：最危险的不是没有数据，而是你拿到…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6429135"
+                        open
+                      >
+                        <summary class="article-expander__title">拆解爆款：多模态内容理解流水线的设计、选型与落地</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6429135.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/14/db9691cc-da8d-11ed-aeb8-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>竞品内容拿回来了，怎么拆？作者搭了一条从mp4到结构化知识库的流水线：ASR转写、动态抽帧、LLM标注、交叉互动数据——但核心不是&quot;哪个模型更好&quot;，而是&quot;产出形态决定管线选择&quot;。端到端做深度拆解，解耦做批量知识库；评测不看benchmark分，看标签能不能区分爆款和平款。验证不是一次性打分，是管线自己的反馈循环。
+
+这篇文章回答：数据拿回来了，怎么拆。文章一讲了三层架构。这一篇以某小红书AI博主71条口播视频为例，搭一条从mp4到结构化知识库的内容理解流水线。
+一、拆竞品内容到底在拆什么
+感知系统最核心的信号来自竞品内容——对手在发什么、什么内容在跑量、为什么。
+
+
+我们能做到 L1 + L2。L3 产出的是统计规律——存为假设，不存为结论。
+做到L3的精确归因，需要AB测试+用户画像数据——这是只有平台方（字节、小红书）才有的数据。
+个人创作者或投放团队能做的，是在统计学规律的基础上，用自己的经验和同理心对受众做假设。比如”这条视频收藏率120%，说明用户把它当工具用”——这是假设，不是因果。但假设足够好的时候，已经比盲做强得多。
+二、先想清楚知识库怎么查，再决定管线怎么搭
+知识库有两个主要使用场景：
+
+
+管线设计是一个倒推过程。你先想清楚”谁在什么时候查什么”，管线需要产出什么自然就出来了。
+三、拆还是不拆：管线的取舍
+
+内容理解实际上是两种不同的任务，需要两种不同的工具。把它们混在一起比较”谁更好”是没有意义的——应该比较的是”谁适合干什么”。
+
+选管线不看质量分，看产出形态——你需要的是可检索的数据库，还是一次性报告？端到端产出写得再好，70条之后就变成一堆无法查询的PDF。解耦虽然抽帧漏了点视觉细节，但每条都留下了可检索的数据资产。
+两种任务，两种工具。端到端做单条深度拆解，解耦做批量知识库。取舍的不是质量，是产出形态。
+四、选模型的标准不仅是 benchmark…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/it/6429214.html"
+                        open
+                      >
+                        <summary class="article-expander__title">是时候该给Token算算ROI的账了</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6429214.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2024/06/06/654f7cf6-23af-11ef-8e4c-00163e142b65.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>从创新指标到成本黑洞，Token正成为企业AI部署的痛点。德勤数据显示年收入130亿美元的企业AI投入或达7亿美元，而Jellyfish调研揭示高Token消耗与生产力提升严重失衡。当OpenAI等厂商的收费模式遭遇CEO集体质疑，模型分层与成本效率正重塑行业格局。
+
+谁能想到，AI时代最先爆炸的，不是员工的生产力，而是老板的账单。
+去年，Token 消耗还是企业拥抱 AI、代表创新能力的指标。结果到了今年，风向全变了。
+腾讯开始收紧 AI 预算，Palantir CEO 开始公开吐槽模型厂商收费太贵。AI 还没把员工替代，老板已经先开始研究怎么省 Token 了。
+原因很简单，Token这个玩意儿，是真的贵啊！
+德勤测算，一家年收入约 130 亿美元的企业，每年 AI 投入可能高达 7 亿美元。而且，这还只是开始。
+根据国外研发管理平台Jellyfish的数据，在过去9个月内，每位开发者的人工智能支出增长了约 18.6 倍。
+但老板的钱，向来不是白花的。既然钱花这么多，但产出呢？
+Jellyfish数据显示，使用 Token 最多的工程师，生产力大约是低使用者的2倍，但消耗的 Token 却高达后者的10倍。
+
+也就是说，Token 的增长速度，已经开始跑赢价值的增长速度。
+或许，在奔向 AI 的星辰大海之前，企业也该给Token算算账了。
+01 从“Token最大化”，转向“Token纪律”
+去年，硅谷有很流行一个词，叫Tokenmaxxing。
+意思很简单：鼓励员工尽可能多地使用 AI，甚至很多公司把 Token 消耗，当成 AI 采用程度和创新能力的代理指标。
+但到了今年，画风突然变化，越来越多的企业开始算Token账了。
+最近，Palo Alto Networks CEO Nikesh Arora最近接受CNBC采访时表示：Token价格还需要再下降90%，企业才…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/it/6429200.html"
+                        open
+                      >
+                        <summary class="article-expander__title">品牌内容高ROI增长，先清晰 3 个顶层思路（01）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6429200.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2024/05/06/e082e25a-0b95-11ef-b3fd-00163e142b65.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>内容电商的竞争已进入深水区，但中低预算品牌仍有机会破局。本文直击小红书运营三大核心命题：如何提炼用户买点而非产品卖点、如何聚焦高价值人群、如何构建内容矩阵体系。揭开99%品牌内容失效的真相——不是执行不够努力，而是顶层设计出了错。
+
+内容电商，中低预算依然可以实现高增长。
+聊过不少老板：手里攥着预算，身边围着一圈人——各种朋友当军师打法建议抖音小红书视频号社群，服务商说你要投信息流，达人要直播带货，代运营说你得交给我全权打理，员工说老板这个选题肯定爆。
+每个人说的都好像有道理，每个人都能拿出几个案例给你看。到最后老板自己懵了：到底听谁的？到底怎么做才对？
+钱花了不少，试了一圈，结果小红书还是没做起来。然后所有人都告诉你：是标题不够抓眼球，是首图不够吸引人，是你家产品不够”小红书”。
+但我想说实话：绝大多数品牌小红书做不好，根本不是写文的问题。
+问题出在顶层，不是执行层。
+
+不少团队，笔记发了上百篇，效果写的天花乱坠，数据还是一塌糊涂。为什么？因为方向错了，越努力越跑偏。
+一篇内容的标题好不好，决定的是这篇笔记的打开率。但你的品牌能不能在小红书跑通，决定的是整个生意的转化率和复购率。这根本不是一个量级的问题。
+很多老板本末倒置了。天天盯着单篇笔记的数据焦虑，却从来没想清楚3个最根本的问题：
+产品到底该怎么讲？
+应该先打哪群人？
+内容体系应该怎么搭？
+这三个问题想不明白，写10000篇标题都是白搭。
+01 产品到底该怎么讲？
+我常说一句话：卖点是品牌的自嗨，买点才是用户的买单理由。
+很多品牌做内容，一上来就讲成分、讲技术、讲参数、讲工艺——”我们99%高纯度””我们独家配方””我们德国进口原料”。
+但用户根本不关心这些。
+用户关心的是：涂完我脸能不能不泛红？用了我能不能睡得着？穿上我能不能显瘦十斤？
+这就是”卖点”和”买点”的区别：卖点是”我有什么”，买点是”你能得到什么”。
+…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6425432"
+                        open
+                      >
+                        <summary class="article-expander__title">没人逃得过Token账单</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6425432.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/14/98e35220-daa1-11ed-9b82-00163e0b5ff3.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>从腾讯员工被砍的Token额度，到豆包收费引发的争议，再到硅基流动的亏损上市，Token经济正以惊人的速度重塑AI产业的商业逻辑。这场从技术狂欢到全面结算的转型，不仅暴露了算力成本与商业化之间的尖锐矛盾，更揭示了产业链各环节残酷的利润分配法则。
+
+六月的第二周，一名腾讯员工像往常一样打开内部管理看板，准备调用AI处理工作，却发现自己此前每月2000美元的Token额度，变成了1400元人民币，只用了两天就额度见底。
+据不完全统计，调整后腾讯不同部门员工月Token额度从1000元到7000元不等。在AI需求较大的混元大模型团队，员工月额度约7000元；而在腾讯娱乐，外包员工的额度仅1000元。
+六月的第三周，豆包正式推出专业版付费订阅，连续包月68元、200元、500元三档。
+消息一出，争议迅速席卷社交媒体。网友翻出两个月前9.1万人参与的投票，8.8万人反对收费，纷纷质疑豆包的底气从何而来。更多人担心：免费版会不会被降智？以后还能不能随心所欲地问问题？
+豆包官方反复强调基础功能永久免费，但几乎没有用户真的相信。过往互联网产品的历史反复证明，付费体系一旦建立，免费的蛋糕只会越切越小。
+六月的最后一天，硅基流动向港交所递交了招股书。
+这家成立仅35个月的公司不造大模型，不做应用，只做一件事：把英伟达、华为昇腾、壁仞等不同厂商的芯片通过自研引擎统一调度，让DeepSeek、Qwen等模型跑起来，按Token量卖给开发者和企业。
+招股书显示，2025年其营收5533万元，同比增长653%。但招股书还显示，净亏损3.45亿元，是收入的6倍多。毛利率从2024年的39.4%直接降到-24%，每赚1块钱倒贴2毛4。
+公有云MaaS业务的毛利率更是惨烈到-119%，每收入1块钱，倒贴1.19元。
+有人额度被砍，有人开始掏钱，有人上市融钱。从打工人的工作台，到普通用户的手机屏幕，再到港交所…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -263,6 +900,94 @@ AI能听懂，代码能跑起来
 AirPods 是我见过跨得最干净的一个。现在有多少人出门忘带耳机会专门折回去拿？它已经变成身体的一部分了，不戴反而别扭。但你回想一下，它当年凭什么？不是音质。有线耳机音质更好、还便宜。
 …</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >QiuQuan&#x27;s Blog</button>
+                  <a class="source-heading__link" href="https://www.qiuquan.org">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://bak.qiuquan.cc/?p&#x3D;4157"
+                        open
+                      >
+                        <summary class="article-expander__title">Allavsoft Downloader 3.29.4.9686 直装破解版 | 安装版 + 便携版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.org/download/allavsoft.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.qiuquan.org/wp-content/uploads/2025/01/Allavsoft-150x150.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Allavsoft 视频下载器 是一个流行的快速在线视频下载和转换器，以帮助用户快速下载和转换在线电影，让其能在PC、便携式设备，、手机、MP4播放器、电视上更轻松地播放。 强大的视频下载工具可以保存高清，HQ和3D电影在线视频，然后转换为MP4，AVI，WMV，MOV，MKV，FLV，MPG，VOB等，以在各种各样的数码设备播放，包括ipad mini， iPad，iPod，iPhone，谷歌Nexus，Microsoft Surface，Kindle Fire，黑莓，苹果电视，Zune，PSP，PS3，掌上电脑，创意Zen，Xbox，Archos等。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.qiuquan.org/?p&#x3D;19193"
+                        open
+                      >
+                        <summary class="article-expander__title">CorelDRAW Technical Suite 2026 v27.1.0.129 直装破解版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.org/image/coreldraw.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.qiuquan.org/wp-content/uploads/2026/07/CorelDRAW-150x150.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>CorelDRAW Technical Suite 是加软件拿大 Corel 公司推出的专业技术绘图与文档编制套件，面向机械、电子、航空、汽车等领域，用于制作高精度技术插图、装配图、用户手册及服务文档，以精准矢量绘图、3D CAD 深度兼容与行业标准支持为核心优势。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >小众软件</button>
+                  <a class="source-heading__link" href="https://www.appinn.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.appinn.com/colibri-run-glm-5-2-744b-on-25gb-ram/"
+                        open
+                      >
+                        <summary class="article-expander__title">colibri – 在 25GB 内存电脑上运行 GLM-5.2 (744B MoE)</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.appinn.com/colibri-run-glm-5-2-744b-on-25gb-ram/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.appinn.com/wp-content/uploads/2026/07/Copy-of-appinn-homework-2026-07-14T125922.212.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>colibri 是一个非常实用的开源项目，它能让普通电脑也能运行超大语言模型（GLM-5.2（744B），并且可以在无显卡的情况下，仅使用 CPU，但需要至少25G 内存。@Appinn 普通电脑跑 GLM-5.2（744B）模型 colibri 使用纯 C 语言，零依赖。可以按需从硬盘加载 Exp</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -20027,816 +20752,6 @@ Harness 工程结构化的是能力、环境与约束：一具配好了工具、
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >小众软件</button>
-                  <a class="source-heading__link" href="https://www.appinn.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.appinn.com/script-forging/"
-                        open
-                      >
-                        <summary class="article-expander__title">剧本锻造 – 将一个想法，变成真正可以拍出来的剧本[Skill]</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.appinn.com/script-forging/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://static1.appinn.com/stwww/wp-content/uploads/2026/06/Copy-of-appinn-homework-2026-06-15T190035.605.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>不要相信一句话生成剧本，然后拍成视频这种骗AI的话，要拍视频，就专业点。摇摆时间线ZHLMI同学开源了自己的剧本锻造 Skill：我花了三周，教会 AI 写剧本。 剧本锻造 Skill 的核心功能 你需要先有一篇短篇小说（最理想）、中长篇片段、剧情大纲 / 故事梗概，长会话角色扮演记录、已有剧本初稿</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;10
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.appinn.com/115-26618/"
-                        open
-                      >
-                        <summary class="article-expander__title">115 网盘特价：2年150（无空间），3年498，8年800｜比买硬盘划算</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.appinn.com/115-26618/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://static1.appinn.com/stwww/wp-content/uploads/2026/06/Copy-of-appinn-homework-2026-06-15T111458.665.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>现阶段，这个价格比买硬盘划算太多了 😂 神奇的「永久网盘」115 还没倒闭，而且看起来活的还挺好。2026年618活动出来了，在京东的115 网盘官方旗舰店： 2年150元（可叠加） 这是一个看起来很不错的价格，但不额外赠送空间。 如果你的账号中无空间，那么比较遗憾也没有空间（比如注册有15G，买了</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.appinn.com/faxian-top10-2624/"
-                        open
-                      >
-                        <summary class="article-expander__title">发现频道：最近10日的热门排行榜[2026年第24期]</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.appinn.com/faxian-top10-2624/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://static1.appinn.com/stwww/wp-content/uploads/2026/01/Copy-of-appinn-homework-16.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>最近10日，来自小众软件论坛的发现频道的热门排行榜，由系统自动生成，直接列出来： 序号 主题 1️⃣ 【开发者自荐】Ameow0.3.0 一个常驻桌面的悬浮窗，把拖拽、粘贴和浏览器发送的内容统一收进来。 2️⃣ 【开源自荐】AI修仙模拟器 3️⃣ FusionCloud：把天翼 / 百度 / 夸克网</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >异次元软件世界</button>
-                  <a class="source-heading__link" href="https://www.iplaysoft.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.iplaysoft.com/?post_type&#x3D;xpost&amp;p&#x3D;6558"
-                        open
-                      >
-                        <summary class="article-expander__title">没显卡没资源？复旦 NLP 直接把免费 GPU 塞进 AI，科研全自动时代来了！</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.iplaysoft.com/p/qiewenpaper-agent">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://img.iplaysoft.com/wp-content/posts/6558/qwxs_agent.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>科研圈最大的谎言，就是只要 Idea 好，手里没卡也能发顶刊。显卡被大组垄断；实验室同门天天抢集群；自己卡在环境配置里动弹不得……没有资源、没有算力，这才是绝绝大多数科研狗的真实写照吧？看着同门天天有实验数据汇报，自己只能抱着几篇 PDF 干瞪眼。
-
-别慌，复旦 NLP 张奇团队这把直接开…… 
-「 前往查看原文.... 」
-
-异次元首页  |  微信公众号  |  关注微博  |  软件精选  |  软件激活码折扣</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >人人都是产品经理</button>
-                  <a class="source-heading__link" href="https://www.woshipm.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6413632"
-                        open
-                      >
-                        <summary class="article-expander__title">酒店民宿仅退款，木鸟联合美团要掀桌子了？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/it/6413632.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/13/38050e18-d9e2-11ed-bd74-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>住宿行业的服务战正在升级！木鸟民宿和美团先后推出&quot;仅退款&quot;服务，前者以平台兜底重构房东生态，后者则将成本转嫁商家引发争议。这场围绕卫生标准的服务变革，不仅考验平台的规则设计与风控能力，更将重塑行业竞争格局。本文深度解析两大平台的战略差异与潜在风险，揭示住宿市场从规模扩张转向服务深耕的行业拐点。
-
-仅退款，成为当下酒店民宿行业热议的关键词之一。
-6月5日，木鸟民宿悄然上线了“卫生不达标仅退款”服务，据相关报道，首批开启六个试点城市。房客发现卫生不达标即可向平台申诉，核查后平台直接兜底退款，不需与房东拉扯。
-6月8日，美团酒店“仅退款”正式实施。其中明确规定，平台可以绕过酒店的申诉，直接将房款先退还给客人。但将成本转嫁给商家的做法，在行业内掀起一片骂声。
-尽管这可能不是美团想要的声音。但显而易见，木鸟和美团，寄希望以“掀桌子”的姿态，打一场漂亮的服务战。
-国内住宿市场发展到现在，已经过了十余年。以前在快速发展阶段，供应链和服务侧的不足可以被快速扩张和增长业绩掩盖；但现在的阶段，不得不承认，硬仗打得差不多了，对头部这些平台而言，现在是打相持的阶段。木鸟、美团今天的状态，正在加速这一变化的到来。
-“仅退款”的风，吹到了住宿界
-6月5日，木鸟民宿APP首页，“卫生不达标退全款”出现在最显眼的位置。这个动作背后，是木鸟民宿的一场豪赌。它赌的是，当其他平台还在为更快的发展速度打得头破血流时，存量用户能孕育出下一个十年的增长奇迹。它不再追求GMV的数字游戏，而是追求每一单背后的履约质量和服务深度。
-
-过去提到木鸟民宿，大家的标签是“网红民宿”“年轻用户喜欢”。但现在，看法应该变一变了。木鸟民宿真正的护城河，正在从“房源优势”向“服务深度”迁移。
-做重服务，本质上是在重构平台核心的体验和关系。更重要的是，木鸟民宿正在通过“仅退款”把“质检权”下放给用户。每一次申请“仅退款”的背后，都在给平台…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6413584"
-                        open
-                      >
-                        <summary class="article-expander__title">语音房流水，为什么就是起不来（一）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6413584.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/14/4fd03ab2-da8d-11ed-8198-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>语音房流水的真正困境，往往不是冷启动期的艰难，而是表面热闹却难以变现的尴尬。当房间人声鼎沸、主播持续开播、活动频繁上线，流水却迟迟不见起色时，问题往往出在底层逻辑的错位。本文将深度拆解语音房的两大变现模式——买量盘与挖猎盘的本质差异，从CAC回收、7日付费窗口、复购承接等关键节点，揭示那些被热闹表象掩盖的变现真相。
-
-做语音房，最怕的不是一开始没流水。
-一开始没流水，问题反而清楚。
-用户没进来。主播没起来。房间没氛围。付费场景没跑通。
-这些问题都摆在明面上。
-真正难受的是另一种情况：
-人进来了，房间也开着，主播也在播，活动也没少做，但流水就是起不来。
-这类问题，在复盘会上最常见。
-新增有。进房有。主播开播也正常。活动榜单也在跑。几个房间看起来甚至还挺热闹。
-但最后一看流水，还是没达到预期。
-这时候，团队就会开始找原因。
-投放会看渠道：这个国家还能不能放？这个campaign带来的用户质量怎么样？注册便宜，但后面到底付不付费？
-运营会看房间：主播是不是没接住？活动节点是不是没打透？榜单是不是刺激不够？
-产品会看链路：新用户进来有没有进入核心场景？首充有没有转起来？复购是不是断了？
-这才是语音房流水最麻烦的地方。
-它不是一个完全没有动作的盘子。
-恰恰相反，很多时候是所有人都在动：
-投放在买人。运营在催房间。主播在麦上带气氛。产品在改首充、任务、礼物和推荐链路。活动也一场一场往上推。
-
-但结果还是没有真正起来。
-所以我后来越来越觉得，语音房流水起不来，不能一上来就问：
-是不是主播不行？是不是活动不够猛？是不是用户质量差？是不是礼物刺激不够？是不是首充礼包不够低？是不是大R太少？
-这些问题都可能存在。
-但它们不是第一层问题。
-第一层问题应该是：
-流水，到底应该从哪里长出来？
-语音房的流水，表面上都叫房间流水。
-但底层通常是两种完全不同的盘子。
-一种是买量盘。
-一种是挖猎盘。
-买量盘…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6413433"
-                        open
-                      >
-                        <summary class="article-expander__title">Manus事件之后，AI PM职业画像可能正在重写</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6413433.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/13/d6ba736e-d9eb-11ed-9d7a-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Manus事件揭示了AI产品经理的全新能力清单——不仅要关注功能和增长，更要掌控技术来源、数据流向与实质控制权。这场监管风暴暴露出AI产品的核心挑战：当产品能力与地缘政治、数据主权深度绑定，产品经理必须成为能解读技术资产、预判政策风险、设计商业路径的多面手。
-
-过去判断一个产品经理够不够好，我们大致看几件事：需求抓得准不准，体验顺不顺，数据涨没涨，商业模式跑不跑得通。这套标准用了很多年，基本够用。
-但Manus这件事之后，我越来越觉得，AI产品经理的能力清单上，正在多出来一栏过去不太归我们管的东西：产品的技术从哪里来、数据从哪里来、核心能力到底由谁控制，以及万一哪天要出海、融资、被收购，或者合作突然谈崩，这套能力能不能被解释清楚、拆得开、带得走，也退得回来。
-先从Manus说起。但我想聊的不是这笔交易值不值，而是它顺手暴露出来的、一整代AI产品经理的能力盲区：不能只盯着界面、流程、指标和增长曲线，还要看见产品背后的资产、边界、归属和路径。
-先把Manus这三年捋清楚：爆红、出走、被收购、红牌落地
-
-这件事的时间跨度不长，但每一步都踩在后来的关键点上。把这条事件线展开看，几个节点的味道很不一样：
-2022年，肖弘在北京创立蝴蝶效应科技，开始做AI Agent方向的产品。这是故事的起点，也是后来争议的源头：技术和团队，最早是在北京长起来的。2025年3月，Manus打着”全球首个通用AI智能体”的标签迅速爆红，邀请码一度被炒到很高的价格，它成了那阵子AI圈讨论最密集的产品之一。到这里，它还是一个标准的明星产品故事：好概念、强增长、高关注。
-然后，方向变了。
-据公开报道，2025年7月前后，在律师团队的建议下，Manus开始把运营重心从北京往新加坡迁，并搭起开曼控股架构；也有媒体称，公司在这个过程中辞退了约七成中国员工。这个细节，后来变得很重要。因为当监管开始追问“这家公司的技术…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6413541"
-                        open
-                      >
-                        <summary class="article-expander__title">从“事后报警”到“提前 42 秒”：一个大学生团队如何重做电动车充电棚的火灾预警</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/pd/6413541.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/10/31/97195bfc-77e9-11ee-be6e-00163e142b65.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>电动自行车火灾频发背后，隐藏着一个致命的时间差——传统烟感报警时，热失控早已不可逆。火眼哨兵团队用边缘AI重构消防逻辑，通过多模态传感器+TinyML模型，在温度异常拐点就实现预警，将黄金救援时间提前42秒。本文深度拆解这个从技术突破到产品落地的完整历程，揭示边缘AI在消防领域的革命性应用。
-
-一、我们为什么不想再做”烟感”
-3.8 亿辆。这是 2025 年 7 月工信部公布的我国电动自行车社会保有量。2.1 万起——这是 2023 年国家消防救援局接报的电动自行车火灾事故数，其中 80% 发生在充电过程中。
-我们（西藏大学火眼哨兵团队）一开始想做这件事，是因为一条 2024 年的新闻：广州某充电棚凌晨 3 点起火，4 辆电动车连锁爆燃，停放在棚内的 12 辆全部烧毁。烟感报警器响了，但当烟感响的时候，电池内部温度已经超过 800°C——热失控早已不可逆。
-传统点型烟感探测器的原理是”烟雾颗粒物理接触触发”。它等待的是明火产生后的浓烟。从传感器原理上看，它根本看不到”温度在异常爬升”这个阶段。这就是我们看到的产品机会——不是做一个更好的烟感，而是把检测时间往前推 30-60 秒。
-二、我们怎么把”检测”变成”预测”
-火眼哨兵（FireGuard AI）核心想法只有一句话：用边缘多模态传感器 + TinyML 时序模型，在电池热失控爆发的”温升拐点”就报警。
-具体到架构上，分三层：
-感知层（单价 ≤ 200 元的边缘节点）：MLX90640 红外热阵列（32×24 像素）+ MQ-2 烟雾 + MQ-135 VOC 气体 + DHT22 温湿度 + ESP32-CAM 视觉。节点用 433MHz LoRa 自组网，地下车库也能穿墙。
-边缘计算层（ESP32-S3，45 元的 MCU）：在上面跑一个 1D-CNN 时序模型，只用 226K 参数，INT8 量化后 268KB。模…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6413538"
-                        open
-                      >
-                        <summary class="article-expander__title">微信Agent开启测试，张小龙能否再赢一次？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6413538.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2024/11/04/17845944-9a81-11ef-8da6-00163e142b65.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>微信AI智能体终于浮出水面，开启内测标志着国民应用正式进军AI战场。从Foxmail到微信，张小龙的第三次产品战役如何应对算力、商业化与生态协同的挑战？本文将深度解析微信Agent的战略布局与潜在困局，揭示这场决定腾讯AI命运的关键之战。
-
-犹抱琵琶半遮面的微信AI智能体，终于露出了冰山一角。
-
-图源：微信开发者
-2026年6月8日，微信开发者官方微信公众号发布《关于开发者接入微信AI生态的指引》，确认微信AI已开启内测。开发者可通过自动模式或开发模式将小程序接入微信AI生态。
-微信AI自动模式服务条款显示，“微信AI”是微信软件内运行的人工智能助手，可与用户进行自然语言对话交互，执行具体的任务。
-Agent路上，微信并不孤独。2025年下半年以来，随着AI技术逐渐成熟，OpenAI、阿里巴巴、字节跳动等科技公司正积极布局可执行具体任务的AI智能体。
-比如，据《金融时报》报道，ChatGPT即将迎来上线以来最大改版，从聊天机器人转型为集成编程工具和智能体能力的“超级应用”。一位OpenAI资深员工甚至放言，“Chat is dead”。
-同处一片Agent战场，相较大部分科技公司，微信的优势不仅体现在坐拥14亿月活，以及成熟的内容与服务生态，更在于背后站着张小龙。
-作为一个跨越PC、移动互联网时代的超级产品经理，张小龙见证了多轮产业兴衰，先是靠Foxmail、QQ邮箱打赢邮箱之战，后又推出微信，打赢移动互联网之战，持续屹立于时代的潮头。
-那么问题来了，AI时代正加速到来，张小龙能否打赢第三次产品战争，继续书写传奇？
-元宝“漏水”，张小龙再成“救火队长”
-微信Agent之所以备受关注，不光是因为其内置在国民社交软件之中，将影响数十亿用户的日常使用，更承载着腾讯、微信拿到AI船票的“野望”。
-2025年上半年以及2026年春节，为了推动旗下AI助手元宝打开市场，腾讯先后两次进行…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6413412"
-                        open
-                      >
-                        <summary class="article-expander__title">99.2% 的满分大模型，被用户一句“破玩意儿”干懵了</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6413412.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2026/06/12/17dc9d18-6616-11f1-b422-00163e09d72f.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>我们曾把一个AI客服模型的离线准确率做到99.2％，但上线不到一周，真实用户就给它上了一课。模型能看懂标准测试题，却看不懂用户口中的“那个带轮子的破玩意儿”；能在评测集上拿高分，却在真实场景里频繁翻车。本文记录了一次完整的项目复盘：从数据清洗、模型训练，到线上事故、策略调整和系统重构。回头来看，真正决定项目成败的，或许从来都不是模型分数。
-
-做AI训练师这两年，我参与过不少模型训练和落地项目。大多数时候，项目遇到的问题都在预期范围内：数据质量不足、标注标准不统一、模型效果达不到预期，或者需求在交付过程中不断变化。这些问题虽然麻烦，但至少方向明确，知道该往哪里解决。
-真正让我印象深刻的一次经历，发生在一个消费电子行业的AI客服项目里。当时我们把模型的离线评测准确率做到了99.2％。从指标上看，这已经是一个相当漂亮的成绩。项目组内部普遍认为，模型已经具备上线条件，后续更多是运营和流程层面的工作。然而上线不到一周，我们就发现一个尴尬的事实：模型在测试集上的表现，和它在真实环境中的表现，完全不是一回事。
-后来复盘整个项目时，我逐渐意识到，很多AI项目的问题并不是出在模型能力上，而是出在我们对真实场景的理解上。模型能够在实验室里拿高分，并不代表它已经准备好面对真实用户。那些看起来优秀的离线指标，有时候更像是在验证测试集本身，而不是验证系统是否具备落地能力。
-这次项目最终并没有失败。相反，它后来成为客户内部使用效果最稳定的一套AI系统之一。但在达到这个结果之前，我们踩过不少坑，也推翻过很多原本深信不疑的判断。
-一、一个“高分模型”的上线事故
-项目客户是一家消费电子厂商，希望通过AI客服系统承接部分售后咨询、退换货申请以及投诉处理工作，以降低人工客服压力。
-项目采用的是行业内比较成熟的SFT方案。为了保证训练效果，我们在数据准备阶段投入了大量精力。原始语料经过多轮清洗，统一表达方式，修正…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6413061"
-                        open
-                      >
-                        <summary class="article-expander__title">当 AI 生成界面时，谁在守住设计意图？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6413061.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/17/23993cea-dcf5-11ed-897e-00163e0b5ff3.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>AI工具正在重塑产品开发的workflow，但语义层的缺失正成为新的挑战。当AI能够自动生成界面元素时，如何确保设计意图准确传递？本文通过四个真实领域的对比案例，揭示了语义漂移带来的隐性成本，并提出了用Schema-As-Code构建语义约束层的创新解决方案，让AI在生成内容前就理解&#x27;不能做什么&#x27;的关键界限。
-
-一、AI 压缩了传统 workflow，但语义层尚未被覆盖
-传统产品团队的 workflow 通常包含多个翻译环节：
-PM 写文档 → 设计师出图 → 前端写代码 → 走查发现不一致 → 再改一遍
-每个环节都是一次翻译，每次翻译都有损耗。
-当前 AI 工具正在压缩这些翻译环节。PM 可以直接输出原型，设计师可以在真实代码上工作，AI 可以生成可运行页面。形态层（长什么样、用什么组件、怎么写代码）的效率问题，已基本被各类 Design-to-Code 工具覆盖。
-但还有一层翻译，当前工具链尚未系统化覆盖：
-设计意图 → AI 生成内容
-当 AI 用概率生成文案、按钮样式、错误状态时，它理解”这里需要一个按钮”，但不理解”这个按钮按下去会删除用户数据，因此必须是红色描边，必须有二次确认”。
-形态层解决”长什么样、怎么写”，语义层解决”意味着什么、不能突破什么”。
-当前者被各类工具覆盖时，后者尚未建立系统化的约束机制。
-二、形态层 vs 语义层：一张分工图
-
-[图1：形态层-语义层分工示意图]  工具在形态层竞争，语义层是空白。
-我通过两年时间验证了一个假设：当界面从”人画”变成”AI 生成”，语义层比视觉层更容易产生漂移。
-传统设计流程中，语义是”隐性共识”——设计师和前端通过面对面沟通约定”这个场景下用 Critical 不用严重”。但 AI 不接收这些口头约定，它从训练数据中进行概率推断，而推断结果是随机的。
-
-这种漂移的代价，视觉走查通常无法发现。 一个按钮颜色正…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6412047"
-                        open
-                      >
-                        <summary class="article-expander__title">AI 的价格战，为什么只能由豆包喊停？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6412047.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2026/06/14/0d2462ba-6798-11f1-b9ac-00163e09d72f.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>豆包专业版预计 6 月下旬正式上线，68 / 200 / 500 三档（原定）。这篇拆的是那条收费线本身：为什么是豆包先收费、豆包要怎么收费、以及&quot;陪伴免费，干活付费&quot;一旦成立，C 端 AI 会从拼补贴转向拼什么。
-
-6 月 10 日前后，不少豆包用户在专家模式里收到了同一个弹窗：专业版订阅提醒。叠加 5 月初 App Store 页面曝光的三档价格——标准版 68 元、加强版 200 元、专业版 500 元——以及”6 月下旬正式上线”的消息，讨论很快聚到一个方向：豆包要收钱了，贵不贵，是不是要割用户。
-
-这个反应不难理解。过去两年国内 C 端 AI 几乎全员免费，普通用户已经默认 AI 生来就该免费。但只盯着68 元贵不贵，会错过这件事真正的看点：这是国内头部 C 端 AI 第一次认真回答一个被免费竞争掩盖的问题——哪些能力继续免费，哪些能力必须开始计价。
-豆包的答案写在功能划分里：搜索问答、写作生图、语音视频对话留在免费侧；软件开发、数据分析、专业设计、金融分析进专业版。一句话：陪伴免费，干活付费。6月3号在公众号发文特别强调了这一点（划重点—依然免费的的豆包）。这篇文章拆的就是——为什么是豆包来收费，为什么也只能豆包来收费，C 端 AI 的竞争规则会变成什么样。
-
-一、AI 产品和互联网产品，不是一套账
-传统互联网产品当然也有服务器、带宽和运营成本，但它的基本结构是：产品做出来之后，多服务一个用户的边际成本很低，用户规模本身可以变成资产——流量、广告库存、后续变现空间都随规模增长。免费模式能跑通，靠的是这个结构。多一个用户，他的边际成本很低。
-而AI 产品的账不一样。用户每问一次，背后是一次真实的模型推理；让它写长文，消耗更多 token；让它分析文件、跑多步骤任务，成本继续往上走。消耗的实打实的token，实打实的服务器电力。它不是把做好的页面复制给下一个用户，是…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6413493"
-                        open
-                      >
-                        <summary class="article-expander__title">怎么判断自己的笔记是否被收录、怎么提高跟小红书博主的直播带货合作率……</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6413493.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/14/8815fb8c-da8d-11ed-8c17-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>小红书运营中的常见困惑终于有了系统解答！从数据统计口径差异到私信屏蔽判断，从笔记收录标准到与博主合作的实战技巧，这篇文章用8个高频问题拆解了小红书平台的核心运营逻辑。尤其对直播带货合作率的提升策略，给出了从建联话术到人情维护的全套解决方案。
-
- Q1.
-为什么小红书蒲公英平台的阅读量和小红书 App 的小眼睛数据不一致？
-原因有 2 个，01. 小红书蒲公英平台的数据是 T+1 更新，但是小红书 App 的数据是实时更新；
-02. 小红书蒲公英平台的阅读量和小红书 App 的小眼睛数据统计口径不一样；
-小红书蒲公英平台的数据统计会更严谨一些，一般只统计有效数据，所以可以把小红书蒲公英平台的阅读量理解成阅读人数；
-而小红书 App 的小眼睛统计的就是纯粹的阅读量。
- Q2.
-怎么判断自己在小红书上发的私信有没有被屏蔽？
-01. 可以先给自己的其他账号发 1 条私信测试一下，看看自己能不能收到；
-02. 可以通过查看消息有没有“撤回”这个功能来判断，如果长按消息没有“撤回”的话，就说明私信被屏蔽啦。
- Q3.
-怎么判断自己的笔记是否被收录？
-在回答判断标准之前，先拉齐一下我们对于“收录”的定义；
-
-一般来说，小红书“收录”指的是笔记在小红书上可以被搜索到。
-所以基于定义，我们怎么判断自己的笔记是否被收录呢？
-01. 可以在小红书上搜索自己的小红书号，查看搜索结果页里有没有这篇笔记，有的话，就代表这篇笔记被收录啦；
-02. 可以在笔记发布后的第 2 天下午 15 点以后，在小红书创作中心查看这篇笔记的观众来源分析，如果观众来源分析有“搜索”的话，就代表这篇笔记被收录啦。
-当然，笔记没有被收录不代表它有问题，也不代表它没有流量，可能只是没有做好关键词植入而已。
-而且小红书的搜索算法在不断调整，也会出现今天这篇笔记可以被搜索到，但是明天又搜索不到了之类的情况，所以放平心态，做好每一篇…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6413419"
-                        open
-                      >
-                        <summary class="article-expander__title">从 0 到 1 搭建 Agent 产品的全链路地图</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6413419.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/14/91c50a22-da9e-11ed-af94-00163e0b5ff3.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Agent产品开发正陷入集体性误区——团队往往沉迷于调模型、接工具，却忽视了产品系统的底层设计。从场景判断到自主边界划定，从评估体系到回滚机制，每个环节的缺失都将让AI的不确定性演变为产品灾难。本文揭示Agent项目最易踩中的十大深坑，并给出从Demo到产品的六道关键门禁体系，带你重构AI产品的工程化思维。
-
-很多同学还没想清楚这个场景该不该做 Agent，就已经开始调模型；还没定义哪些动作不能让它自主，就已经开始接工具；还没建立评估体系，就已经准备灰度上线。
-最后产品看起来像是“有一个 AI 能自动做事”，但一到真实用户面前，问题就开始排队出现。
-用户问法稍微变化，Agent 就走偏。工具调用偶尔成功，偶尔失败，没人知道原因。生成质量看起来不错，但没有稳定指标证明它真的更好。成本、延迟、安全风险都在上线后才被发现。出问题时只能人工停服，没有清晰的回滚路径。
-这不是 Prompt 工程的问题，这是产品系统的问题。
-
-一、很多 Agent 项目不是写坏了 Prompt，而是起点就错了
-很多人第一次做 Agent，很容易把它理解成一个运行过程：
-用户提问，大模型思考，调用几个工具，最后返回结果。
-这个理解不能说错。它描述了 Agent “怎么动”。但它没有回答另一个更重要的问题：这个东西怎么稳定进入业务场景。
-一个能上线的 Agent 产品，至少要同时回答六类问题：
-场景是否值得做：不是所有 AI 场景都需要 Agent。简单问答可能只需要 RAG，固定流程可能只需要 Workflow，单次生成任务可能只需要一次 LLM 调用。
-自主边界是否清楚：哪些动作可以自动执行，哪些动作必须让人确认，这是 Agent 产品设计里最早要回答的问题。
-能力边界是否可控：工具、Memory、Prompt、安全规则和失败处理，不是上线后再补的细节，而是产品边界本身。
-质量是否能被证明：如果没有 …</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6413415"
-                        open
-                      >
-                        <summary class="article-expander__title">项目型产品经理如何判断：客户说的功能，背后到底要解决什么问题？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/zhichang/6413415.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2026/06/14/a7720ee4-67ac-11f1-b9ac-00163e09d72f.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>项目型产品经理如何在功能需求已经固化的场景中，穿透表象挖掘真实业务目标？本文通过能源驾驶舱、异常预警等典型案例，拆解如何将客户提出的功能需求转化为目标、问题和解决口径三句话，避免项目陷入‘功能假共识’陷阱。
-
-在上一篇文章里，我们聊到一个观点：项目型产品经理的基本盘，不是记录需求，而是在项目里看懂真实问题。这句话放在概念里看，并不难理解，很多产品经理都知道，客户说出来的不一定就是真需求，功能背后还有场景、角色、目标和业务问题。真正难的是，当你已经坐在项目会议室里，客户在说功能，项目经理在催范围，研发在等页面，销售又提醒你“这个前面方案里讲过”，你还能不能把这句话落到具体工作里。
-真实项目不会给产品经理一张干净的白纸，在我们日常的工作场景中来看，有些功能，是客户在调研会、启动会、方案沟通会上临时提出来的，比如“这里最好能加一个预警”“领导希望有个驾驶舱”“这张报表能不能自动生成”。还有些功能，在产品经理真正介入之前，就已经写进了售前方案、合同范围或者项目清单里。能源驾驶舱、能耗统计报表、异常预警、设备台账、移动端填报、审批流程、数据分析报告……这些名字看起来都很明确，甚至每一个都能很快拆成页面、字段、流程和权限。
-这里其实有两种不同的场景，一种是功能还停留在客户刚刚说出口的阶段，产品经理还有机会顺着往下问：谁用、什么时候用、用完以后要发生什么动作。另一种是功能已经进入项目材料，变成客户看过的方案、合同里的范围、项目经理手里的计划和研发等待细化的任务。前一种更像是在功能被固化之前做判断，后一种则是在项目推进过程中做校准。场景不一样，但有一点是相同的：产品经理不能只停留在功能名上。
-客户领导说“驾驶舱”，脑子里想的是以后开会能看到管理结果；业务部门说“驾驶舱”，想的是每天能发现异常；销售说“驾驶舱”，想的是方案里有一个能打动客户的大屏；项目经理说“驾驶舱”，想的是合同里有这个模块…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6413401"
-                        open
-                      >
-                        <summary class="article-expander__title">Axure教程：一种全新的绘制折线图的方法</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6413401.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/17/38117a34-dcf5-11ed-9781-00163e0b5ff3.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>在Axure中绘制可自由调整的折线图不再困难！本文揭秘了一种巧妙的方法，通过连接柱状图顶部节点，实现折线的灵活变形。无论是单系列还是多系列数据，都能轻松应对。跟随详细步骤，你将掌握这一提升原型设计效率的实用技巧。
-
-这是一种在Axure中绘制折线图的方法，绘制完成后通过简单拖动就可以快速任意调整折线图的形状。本文仅适用于具有一定Axure使用经验的用户阅读。
-Axure版本：11.0
-制作步骤为：
-绘制柱状图à绘制折线à设置X轴和Y轴标签à绘制坐标轴
-1. 绘制柱状图
-1）在页面中手工绘制柱状图，设置每个柱子的宽度为30，高度任意，数量根据需求确定（示例中为12个）。
-注意：这里不能使用中继器生成柱状图。
-2）设置每个柱子底部对齐，水平间距相等，效果如下：
-
-3）调整每个柱子的高度，让其有高低起伏感，调整完成后效果如下：
-
-2. 绘制折线
-在Axure顶部工具栏中选择“绘制连接线”工具，如下图所示：
-
-
-此时将鼠标移动到柱子上面后，柱子的周围会显示四个空心连接点，如下图所示：
-
-鼠标移动到第一个柱子顶部的连接点，此时连接点变为蓝色实心，按住鼠标左键将鼠标拖动到第二个柱子顶部的连接点，此时释放鼠标左键，两个柱子之间的连接线就画完了，如下图所示：
-
-特别说明：
-当鼠标移动到第一个柱子顶部时，默认会出现一个虚线框，此次不能单击鼠标左键，而是要按住鼠标左键拖动，如图：
-
-当鼠标拖动到第二个柱子的顶部时，一定要保证鼠标的位置与第二个柱子的顶部连接点重合，否则会导致后一根线条和前面的线条接头错位，示意图如下：
-
-
-错误  正确
-如果折线图需要显示数据点，可以设置连接线的箭头，操作方法如下图：
-
-按照上述步骤继续绘制第二个柱子到第三个柱子之间的连接线，依次类推，直到绘制完所有的连接线，效果图如下：
-
-参考上述步骤4的方法，设置最后一条连接线的末端箭头形状为空心圆。
-至此一条可以任意变换形状的折线图就绘制完成了。选中某个/某些柱子，拖动顶部中间的点可以任意改变折线图的形状，效果如下：
-
-3. 设置X轴和Y轴标签
-添加一个中继器，在中继器中分别添加一个标签（命名为xValue），和一条短竖线（作为X轴刻度线），并为中继器添加X轴的刻度数据（此处以月份为例），如图所示：
-
-设置中继器布局方式为水平，列距46（根据实际效果调整），完成后效果如下图：
-
-再添加一个中继器，分别添加一个标签（命名为yValue），和一条短横线（作为Y轴刻度线），并为中继器添加Y轴的刻度数据：
-
-设置中继器布局方式为垂直，行距32（根据实际效果调整），完成后效果如下图：
-
-4. 绘制坐标轴
-画一条水平线作为X轴，设置线条末端形状为箭头，设置方法如下：
-
-再画一条垂直线，用同样的方法设置末端箭头，然后调整X轴和Y轴到合适的位置，再将X轴标签和Y轴标签移动到合适的位置，完成后效果如下图：
-
-将所有的柱子的填充设置为透明，效果如下：
-
-至此，整个折线图就设置完成啦，最终预览效果如下：
-
-5. 进阶内容
-这样实现的折线图仅有一个系列，如果想要添加多个系列怎么办？
-其实方法非常简单，只要将原系列再复制一份，修改每个柱子的颜色和高度，然后调整到合适的位置即可，详细的操作方法如下：
-1）将原红色系列复制一份并修改新系列的颜色，完成后效果如下：
-
-2）调整每个柱子的高度，或整体选中蓝色系列的柱子后整体调整高度，让线条看起来区别于红色系列，调整之后效果图如下：
-
-3）最后，将蓝色系列的每个柱子与红色系列的每个柱子左侧对齐即可，最终实现的效果图如下：
-
-本文由 @互联科技 原创发布于人人都是产品经理。未经作者许可，禁止转载
-题图来自Unsplash，基于CC0协议</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6413285"
-                        open
-                      >
-                        <summary class="article-expander__title">小程序正在从页面入口变成 Agent 能力网络</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6413285.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/14/b6fdcf88-daa1-11ed-aaf8-00163e0b5ff3.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>微信AI正在重塑小程序生态的游戏规则——从用户主动点击页面转向AI智能调度能力网络。当你说出&quot;来杯少糖拿铁&quot;，背后是一套完整的调用契约在运转：原子接口处理功能逻辑、mcp.json提供AI说明书、卡片组件负责交互呈现。这场变革不仅是技术升级，更是微信为守住服务触达权打响的入口保卫战，将彻底改变开发者对流量的获取方式和商业变现逻辑。
-
-从”用户点页面”到”AI 调能力”——小程序正从页面入口，变成微信 AI 可以调用的能力网络。
-先讲个你马上能懂的场景。以前你想喝杯咖啡：打开微信 → 搜到那家咖啡小程序 → 点进页面 → 一层层选规格 → 下单。现在微信想做的是：你直接说一句”来杯少糖拿铁”，剩下的全交给 AI——它自己找到对应小程序、调好接口、把一张订单卡片摆到你面前，你点一下确认支付就行。
-这件事表面是”微信加了个 AI”，底下改的是更根本的东西：小程序的角色，正从”用户主动打开的页面”，变成”微信 AI 能理解、选择、调用、渲染，并继续推进交易的能力单元”。以前拼的是页面能不能被搜到、被点开，现在拼的是能力能不能被 Agent 选中、被调用。
-
-这背后有一套调用契约、一条迁移工具链和一个模型底座撑着，也是一场守住服务触达权的战争。下面分八层来看。
-01 交互层：从打开小程序，到对微信 AI 提需求
-微信 AI 不是替代 GUI，而是重新调度 GUI。过去你得先想到某个服务，再去搜或扫码、翻出小程序、进页面一步步操作；现在是对微信 AI 说一句需求，它就调用小程序的某个能力，把结果以卡片摆回对话流。
-
-但它不是简单替你”点页面”。官方 demo 的 WeStoreCafe 点单里，业务被拆成一连串可控的中间状态：模糊意图先出推荐卡，点选某款再出详情卡，确认规格出订单卡，缺地址卡片内补，最后才到支付。所以微信没把小程序改成 chatbot，而是重新分工：自然语言负责表达需求…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6413394"
-                        open
-                      >
-                        <summary class="article-expander__title">手感终会过时，但求真的能力不会：从《置身钉内》提炼的6个产品思维启示</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/pd/6413394.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/13/db601224-d9dd-11ed-8fc2-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>钉钉内部AI项目ONE的溃败，揭示的不只是一次产品失利，更是一场关于定位摇摆、决策异化与组织缺陷的深度解剖。从‘每日一包’的表演式敏捷到‘已读焦虑’的权力失衡，这篇文章通过6个思维维度，犀利拆解了产品经理如何在复杂组织环境中保持清醒——当成功经验成为枷锁，当用户需求被权力审美扭曲，我们该如何识别系统性陷阱并跳出思维惯性？
-
-《置身钉内》是一篇近7.5万字的项目复盘，记录了钉钉内部AI项目ONE从高调到溃败的全过程。作者滕雅辛（花名幽素）以罕见的诚实，剖开了一个失败项目的每一个截面。本文不分析作者本人，而是从ONE项目的实际走向中，提炼出6个对产品人具有普遍参考价值的思维维度——它们关乎定位、决策、敏捷、同理心、成功经验的反噬，以及组织如何将自己编码进产品。
-一、产品定位的摇摆与用户的迷失
-ONE项目在“服务谁”这个问题上从未真正锚定。
-钉钉的付费决策者（企业管理者）与核心使用者（普通员工）之间存在天然的利益冲突。项目最初的构想是“让人找事变成事找人”，为员工减负；但在实际推进中，却被“说服老板买单”的逻辑带偏，最终落地的功能变成了一套为管理者设计的监控及可视化工具。
-产品思维启示：定位的本质是取舍。一个产品同时服务于利益冲突的两类用户，结果往往是两边都不真正满意。产品经理需要在立项之初就明确回答：当管理者与员工的诉求矛盾时，产品站在哪一边？含糊其辞会带来内耗，而内耗会写进每一行代码。
-二、决策机制的异化：“权力美学”与需求的失真
-ONE项目的决策过程出现了典型的“权力审美”现象。
-
-高层曾否决团队从碧桂园调研带回的一线员工排班需求，理由是“ONE不服务保安保洁，只服务老板和高净值人群”。此后，产品方向频繁因高层的个人偏好而改动——LOGO、视觉体系、核心定位不断“改元”。真实用户的反馈很难向上传导，团队被迫将精力转向满足内部汇报，而非解决用户痛点。
-产品思维启示：当决策依据…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6412539"
-                        open
-                      >
-                        <summary class="article-expander__title">一个大学生做的简单 App，怎么靠短视频卖到 220 万美元</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/chuangye/6412539.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/13/2413a510-d9ef-11ed-889f-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>从AI写作到游戏化健身再到圣经学习，大学生Daniel Kwon的连续创业案例揭示了消费级App的冷启动黄金法则。通过精准捕捉社交平台上的现成需求、打造极致简单的核心功能、用短视频测试可复制的传播模版，他的三个产品都在极短时间内实现了百万级用户或数万美元月收入。本文深度拆解这套方法论背后的5个关键步骤，为初创团队提供可复制的增长框架。
-
-今天分享的是大学生Daniel Kwon如果做产品冷启动和推广的案例。
-现在很多人做 AI App，第一步是想功能。
-写作、健身、学习、陪伴、记账、冥想、占卜、日程管理，什么方向都能做。AI 编程工具出来以后，做一个 App 的门槛也低了很多。
-但 App 能做出来，不等于能卖出去。
-Daniel Kwon 的案例有参考价值，是因为他连续做了几个很简单的消费 App，而且每次都用很短的时间验证市场：
-Conch AI：AI 写作和学习工具，累计约 170 万用户、约 200 万美元收入，后来被收购；
-Arise：受《我独自升级》启发的健身 App，做到约 5 万美元月收入；
-Shepherd：游戏化圣经学习 App，两周超过 10 万用户，一个月收入超过 5 万美元。
-他的打法总结下来，也并不复杂：
-选一个已经有明确用户需求的方向，做一个很简单的 App，再用短视频快速测试内容格式。哪个视频能带来下载和付费，就把这个格式复制到更多账号和创作者那里。
-
-01 Conch AI，靠一条课堂视频起量
-Daniel Kwon 不是传统技术创始人。
-
-从公开履历看，他更早的身份是内容创作者。2019 年开始做个人社交账号，累计超过 100 万粉丝。后来，他进入 App 和消费品牌增长领域。
-
-Conch AI 是 Daniel 的第一个 AI 产品。
-当时是 2022 年底到 2023 年初，ChatGPT 刚起来，Daniel 的两个大学朋友在做一…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-06-14 datetime="2026-06-14T16:10:00.000Z">2026-06-14</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-06-14 datetime="2026-06-14T16:10:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >QiuQuan&#x27;s Blog</button>
-                  <a class="source-heading__link" href="https://www.qiuquan.org">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.qiuquan.cc/?p&#x3D;16629"
-                        open
-                      >
-                        <summary class="article-expander__title">免费远程协助 HopToDesk 1.46.2 单文件版</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.cc/other/hoptodesk.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.qiuquan.cc/wp-content/uploads/2026/02/HopToDesk-150x150.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>HopToDesk是一个免费的远程桌面工具，允许用户分享他们的屏幕并允许远程控制访问他们的电脑和设备。 与TeamViewer或AnyDesk等其他类似工具不同，HopToDesk对个人和企业使用都是免费的，为所有同行通信提供真正的端到端加密，并且是开源的。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://www.qiuquan.cc/?p&#x3D;5159"
-                        open
-                      >
-                        <summary class="article-expander__title">DiskGenius 6.2.0.1829 汉化破解版（32位 + 64位）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.cc/inside/diskgenius.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.qiuquan.cc/wp-content/uploads/2026/06/DiskGenius-150x150.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>DiskGenius是一款专业级的数据恢复软件，算法精湛、功能强大，用户群体广泛；支持各种情况下的文件恢复和分区恢复，恢复效果好；文件预览、扇区编辑、加密分区恢复、Ext4分区恢复、RAID恢复等高级功能应有尽有，满足个人用户及企业用户对数据恢复的各种需求。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.qiuquan.cc/?p&#x3D;18590"
-                        open
-                      >
-                        <summary class="article-expander__title">数据恢复 UltFone Data Recovery 10.9.2.1 中文破解版</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.cc/recovery/ultfonedatarecovery.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.qiuquan.cc/wp-content/uploads/2026/06/UltFoneDataRecovery-150x150.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>UltFone Windows Data Recovery 是一款专注于数据救援的专业工具。它支持从电脑硬盘、U盘、移动硬盘、存储卡，甚至是那些已经被删除的分区里，恢复丢失的文件。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://www.qiuquan.cc/?p&#x3D;11726"
-                        open
-                      >
-                        <summary class="article-expander__title">安卓应用——Solid Explorer 文件管理 3.5.7 解锁高级版</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.cc/androidsoft/solidexplorer.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.qiuquan.cc/wp-content/uploads/2025/06/solidexplorer-150x150.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Solid Explorer 是一款功能强大的安卓文件管理工具，采用现代化设计风格，支持双窗口浏览、云存储集成（Google Drive/Dropbox等）、压缩文件处理及局域网文件传输。提供Root访问、加密存储、主题自定义等高级功能，兼顾美观性与实用性，是高效管理手机/平板文件的专业选择</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://bak.qiuquan.cc/?p&#x3D;4009"
-                        open
-                      >
-                        <summary class="article-expander__title">安卓应用——MX Player Pro 1.86.0 经典版 + 2.14.0 最新版｜解锁专业版</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.cc/androidsoft/mxplayer.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.qiuquan.cc/wp-content/uploads/2022/11/MXPlayer-150x150.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>MXPlayer是一款功能强大的支持多核解码的Android视频播放器，中文简称为MX播放器，软件界面直观，功能丰富，支持夜间模式、倍速播放、小窗模式、解码切换、字幕切换、字幕设置，还支持多种解码方式，如硬件解码、软件解码、硬件解码+等多种功能，同时支持3GP、AVI DIVX、F4V、FLV、MKV、MP4、MPEG、MOV、VOB、WMV、WEBM、XviD等绝大部分视频格式</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
       <section class="daily-content js-toggle-accordions-scope">
@@ -25092,8 +25007,8 @@ Conch AI 是 Daniel 的第一个 AI 产品。
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/allceo/feed/actions/runs/29301049850">
-        <time id="build-timestamp" datetime="2026-07-14T02:26:57.464Z">2026-07-14T02:26:57.464Z</time>
+      <a class="footer-link" href="https://github.com/allceo/feed/actions/runs/29383984118">
+        <time id="build-timestamp" datetime="2026-07-15T02:24:44.427Z">2026-07-15T02:24:44.427Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
