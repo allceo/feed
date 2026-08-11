@@ -569,36 +569,6 @@
           "wordCount": 2683,
           "title": "Koofr 云存储：免费 10GB 空间，支持 WebDAV、Rclone｜终身订阅 1TB 特价129刀【再次】",
           "imageUrl": "https://www.appinn.com/wp-content/uploads/2026/04/cover-1775714882993-1.jpg"
-        },
-        {
-          "id": "https://www.appinn.com/cloudflare-drop/",
-          "author": "青小蛙",
-          "description": "赛博菩萨 Cloudflare 又发布了一个新产品：Cloudflare Drop。@Appinn 部署静态网站的前世今生： 不用注册、不用创建项目，直接把 HTML、CSS、JavaScript、图片等静态网站文件拖进去，就能获得一个可访问 1 小时的临时网址，用来测试、预览。如果觉得不错，再登录",
-          "link": "https://www.appinn.com/cloudflare-drop/",
-          "publishedOn": "2026-07-12T12:21:49.000Z",
-          "wordCount": 2561,
-          "title": "Cloudflare Drop：无需账号，直接发布静态网页",
-          "imageUrl": "https://www.appinn.com/wp-content/uploads/2026/07/Copy-of-appinn-homework-2026-07-12T201025.382.jpg"
-        },
-        {
-          "id": "https://www.appinn.com/frp/",
-          "author": "青小蛙",
-          "description": "frp v0.70 更新，完成了 frps 的 Dashboard API v2 迁移、提升了 WebSocket/WSS 兼容性、修复了 Proxy Protocol 问题。v0.69 还规定了新的兼容性策略。@Appinn frp v0.70 这个版本主要继续推进 frps Dashboard",
-          "link": "https://www.appinn.com/frp/",
-          "publishedOn": "2026-07-12T08:50:38.000Z",
-          "wordCount": 3587,
-          "title": "frp v0.70：开源内网穿透工具教程，完善 API、规定兼容性策略",
-          "imageUrl": "https://www.appinn.com/wp-content/uploads/2019/08/frp1.jpgo_.jpg"
-        },
-        {
-          "id": "https://www.appinn.com/qq-agent-mail/",
-          "author": "青小蛙",
-          "description": "久违的 QQ 邮箱更新，发布了一款名为 Agent Mail 的 AI 邮箱服务，与个人 QQ 邮箱隔离，可以让你的 OpenClaw、Hermes、Claude Code、Codex 等工具收发邮件，实现与邮件有关的自动化。@Appinn 是不是可以让两个 AI Agent 通过邮箱聊天了？ AI",
-          "link": "https://www.appinn.com/qq-agent-mail/",
-          "publishedOn": "2026-07-12T07:44:29.000Z",
-          "wordCount": 2629,
-          "title": "QQ 邮箱发布 AI 专用邮箱：Agent Mail，每人可抢注两个地址[内测]",
-          "imageUrl": "https://www.appinn.com/wp-content/uploads/2026/07/Copy-of-appinn-homework-2026-07-12T154126.138.jpg"
         }
       ]
     },
@@ -4724,6 +4694,16 @@
           "id": "https://www.iplaysoft.com/?p=6509",
           "author": "X-Force",
           "description": "以前我也觉得，笔记软件不就那回事吗？能记、能搜索、能同步，差不多就行。Notion、思源笔记、印象笔记、有道云、OneNote，基本都轮了一圈，结果总是这样或那样的失望……\n存了一大堆笔记，用的时候不是找不到，就是资料太多太乱人工难以整理；而想换工具，导出功能各种限制；好不容易养成习惯，平台一改规则又得重来。加上 AI 时代彻底变革，在经历反复横跳后，我最终决定把免费的 Obsidian 当成主力工具，用它来做学习/写作/知识管理……\n「 前往查看原文.... 」\n异次元还有这些值得一看：\n\n思源笔记 - 开源免费支持自建服务器的 Markdown 笔记应用 (替代 Notion 印象笔记 / 可离线)\nNotion 中文版 - “杀手级”全能型笔记软件 (替代印象笔记/强大灵活/支持Markdown)\n代替 Notion 中国版？！印象笔记推出新一代「超级笔记」模块化编辑器\n印象笔记 (Evernote中国版) - 优秀笔记软件知识管理工具应用 / 资料收集整理\n\n异次元首页  |  微信公众号  |  关注微博  |  软件精选  |  软件激活码折扣",
+          "link": "https://www.iplaysoft.com/obsidian.html",
+          "publishedOn": "2026-07-25T14:14:01.000Z",
+          "wordCount": 1602,
+          "title": "Obsidian - 完美契合 AI 时代的免费笔记软件 (知识管理/ Markdown 编辑器/本地存储)",
+          "imageUrl": "https://img.iplaysoft.com/wp-content/posts/6509/obsidian.jpg"
+        },
+        {
+          "id": "https://www.iplaysoft.com/?p=6509",
+          "author": "X-Force",
+          "description": "以前我也觉得，笔记软件不就那回事吗？能记、能搜索、能同步，差不多就行。Notion、思源笔记、印象笔记、有道云、OneNote，基本都轮了一圈，结果总是这样或那样的失望……\n存了一大堆笔记，用的时候不是找不到，就是资料太多太乱人工难以整理；而想换工具，导出功能各种限制；好不容易养成习惯，平台一改规则又得重来。加上 AI 时代彻底变革，在经历反复横跳后，我最终决定把免费的 Obsidian 当成主力工具，用它来做学习/写作/知识管理……\n「 前往查看原文.... 」\n异次元还有这些值得一看：\n\n思源笔记 - 开源免费支持自建服务器的 Markdown 笔记应用 (替代 Notion 印象笔记 / 可离线)\nNotion 中文版 - “杀手级”全能型笔记软件 (替代印象笔记/强大灵活/支持Markdown)\n代替 Notion 中国版？！印象笔记推出新一代「超级笔记」模块化编辑器\n印象笔记 (Evernote中国版) - 优秀笔记软件知识管理工具应用 / 资料收集整理\n\n异次元首页  |  微信公众号  |  关注微博  |  软件精选  |  软件激活码折扣",
           "link": "https://www.iplaysoft.com/obisidian.html",
           "publishedOn": "2026-07-25T14:14:01.000Z",
           "wordCount": 1532,
@@ -6587,6 +6567,16 @@
       "siteUrl": "https://www.qiuquan.org",
       "articles": [
         {
+          "id": "http://bak.qiuquan.cc/?p=4231",
+          "author": "QiuQuan",
+          "description": "搜狐影音是搜狐视频官方推出的一款全新体验视频加速播放器。搜狐视频播放器支持本地主流音视频媒体格式播放及在线视频点播和近百个卫视和地方台直播。",
+          "link": "https://www.qiuquan.org/inside/shplayer.html",
+          "publishedOn": "2026-08-10T09:50:00.000Z",
+          "wordCount": 1376,
+          "title": "搜狐影音 7.3.2.0 去广告精简版",
+          "imageUrl": "https://www.qiuquan.org/wp-content/uploads/2025/01/souhu-150x150.png"
+        },
+        {
           "id": "http://bak.qiuquan.cc/?p=4009",
           "author": "QiuQuan",
           "description": "MXPlayer是一款功能强大的支持多核解码的Android视频播放器，中文简称为MX播放器，软件界面直观，功能丰富，支持夜间模式、倍速播放、小窗模式、解码切换、字幕切换、字幕设置，还支持多种解码方式，如硬件解码、软件解码、硬件解码+等多种功能，同时支持3GP、AVI DIVX、F4V、FLV、MKV、MP4、MPEG、MOV、VOB、WMV、WEBM、XviD等绝大部分视频格式",
@@ -7445,36 +7435,6 @@
           "wordCount": 1539,
           "title": "Inno Setup 解包工具（Inno Setup Unpacker）2.2.10 汉化版",
           "imageUrl": "https://www.qiuquan.org/wp-content/uploads/2025/02/InnoExtractor-150x150.png"
-        },
-        {
-          "id": "http://www.qiuquan.org/?p=7332",
-          "author": "QiuQuan",
-          "description": "pdfFactory Pro 虚拟打印机作为一款PDF文档编辑工具,不仅能够对PDF文件进行编辑,还能对文件进行加密处理,满足工作中多元化需求。",
-          "link": "https://www.qiuquan.org/other/pdffactory.html",
-          "publishedOn": "2026-07-11T16:04:23.000Z",
-          "wordCount": 1662,
-          "title": "PDF虚拟打印机 pdfFactory Pro 9.31 注册版（安装版 + 单文件版）",
-          "imageUrl": "https://www.qiuquan.org/wp-content/uploads/2026/07/pdfFactory-150x150.png"
-        },
-        {
-          "id": "http://www.qiuquan.org/?p=11601",
-          "author": "QiuQuan",
-          "description": "Robin YouTube Video Downloader Pro是一款专业用于从YouTube、Facebook、Dailymotion和数千个其他视频共享站点下载和转换视频工具。它最多可将您的下载速度提高5倍。可让您一次下载多个视频。",
-          "link": "https://www.qiuquan.org/download/youtubevideodownloaderpro.html",
-          "publishedOn": "2026-07-11T16:03:10.000Z",
-          "wordCount": 1510,
-          "title": "YouTube视频下载 Robin Video Downloader 7.5.6 直装破解版",
-          "imageUrl": "https://www.qiuquan.org/wp-content/uploads/2025/06/AnyVideoDownloaderPro-150x150.png"
-        },
-        {
-          "id": "http://www.qiuquan.org/?p=7540",
-          "author": "QiuQuan",
-          "description": "Apowersoft(专业截屏王)是一款功能强大的专业屏幕截图软件，这款软件体积非常小，功能强大，用户能快速掌握，它具备多功能截屏、专业编辑图片、创建计划任务、上传分享图片以及资源技巧共享，用户用它来编辑是非常便捷的，又花样修图、增加注解、添加特效等丰富功能。",
-          "link": "https://www.qiuquan.org/image/apowersoftscreen.html",
-          "publishedOn": "2026-07-11T16:02:23.000Z",
-          "wordCount": 1462,
-          "title": "傲软截屏王 Apowersoft Screen Capture Pro 1.6.1.0 破解版",
-          "imageUrl": "https://www.qiuquan.org/wp-content/uploads/2024/10/Apowersoft-Screen-Capture-Pro-150x150.png"
         }
       ]
     }
