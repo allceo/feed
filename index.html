@@ -22,11 +22,645 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-08-24 datetime="2026-08-24T01:00:33.000Z">2026-08-24</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-08-24 datetime="2026-08-24T01:00:33.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-08-25 datetime="2026-08-25T00:47:40.000Z">2026-08-25</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-08-25 datetime="2026-08-25T00:47:40.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >人人都是产品经理</button>
+                  <a class="source-heading__link" href="https://www.woshipm.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6453421"
+                        open
+                      >
+                        <summary class="article-expander__title">内部系统 Agent 化生产实战：从自动生成 CLI 到跑通 Skill Eval</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6453421.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/14/f972663a-da8d-11ed-b69c-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>存量系统进入 Agent 生产链路，不必从零开始。飞书开放的 Agent Skills 给出启发，用 CLI-Anything 自动生成 CLI 骨架，再用 skill-up 把 Skill 变成可评测资产，打通命令生成到 Skill Eval 全链路。
+
+最近我拆了一遍飞书开放出来的 Agent Skills（lark-cli）。原本我以为，最值得研究的会是那些 Skill 文件：里面是不是藏了复杂的提示词、工作流编排，或者某种特别的 Agent 框架？
+结果看完以后，Skill 本身反而很朴素。主体仍然是 Markdown，写清什么时候使用、调用什么命令、遇到异常怎么办。真正让我停下来的是它下面那层 CLI。
+飞书没有让 Agent 直接面对数量庞大的 OpenAPI，而是先把能力整理成稳定的命令，再让 Skill 告诉 Agent 如何组合这些命令。这给了我一个很直接的启发：我们的内部系统也有 API，也有完整的业务能力，为什么 Agent 每次还要重新理解接口、参数和返回值？它缺的可能不是另一个聊天入口，而是一层稳定的执行接口。
+也正是从这个问题开始，我想做的就不再只是给内部系统补一个 CLI，而是让它的业务能力真正进入 Agent 的生产链路：模型能理解，CLI 能执行，结果还能被验证。（假装一下）更巧的是，这条链并不需要从零搭起——CLI-Anything 帮我从现有系统生成 CLI，skill-up 帮我把 Skill 变成可以反复运行的评测对象。原来从 CLI 生成到 Skill 评测，已经有一组相对成熟的工具可以串起来。
+
+01 飞书让我看见的，不是一份 Skill，而是一层执行接口
+如果是第一次接触这些概念，可以先记住四个分工：Agent 负责理解目标，Skill 告诉它什么时候做、按什么顺序做，CLI 负责确定地执行动作，Eval 则检查整套过程有没有…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-08-24 datetime="2026-08-24T11:06:22.000Z">2026-08-24</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-08-24 datetime="2026-08-24T11:06:22.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >人人都是产品经理</button>
+                  <a class="source-heading__link" href="https://www.woshipm.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/it/6453768.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Huashu-Excel正式发布！可能、也许、大概是最好用的Excel数据处理和分析skill</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6453768.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://tu.aixq.cc/wp-content/uploads/2026/08/20260824190306206.png!ys" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>我已经3年多没工作过了，按理说呢，我其实没那么多数据分析需求了，那我为啥要做这么个skill？
+在我从某团离开前，有段记忆我印象很深。当时我们业务在特殊的冲刺时期，每天上班前都要开线上早会，大概9点左右。而我作为某个业务方向新用户运营的负责人，需要每天提前2小时从后台取前一天的运营数据，做完分析，然后在早会上同步运营进展，解释昨天数据为什么波动，再据此调整当天的运营策略。
+说实话，那么短周期的数据，归因其实挺无聊的，但没办法，必须做。这些数据的变化可能跟天气有关，跟我们自己的运营动作有关，跟竞争对手的策略有关，跟周中周末有关，你每天都要在这一堆因素里给出一个说得过去的解释，第二天再来一遍。
+现在想来也有点烦。如果那个时候有agent，有好用的AI帮我把这些活干了就好了。
+所以，虽然我自己现在基本没这类问题了，但我估计还有大把职场人每天在被数据折磨着。于是我把我对现在agent能力的理解，加上我以前做运营时攒下的数据处理和分析经验，做成了这份skill，今天正式开源：
+https://github.com/alchaincyf/huashu-excel
+MIT协议，随便用。
+
+一、它能帮你干嘛
+你丢一份Excel或者CSV给它，然后说人话就行：
+「帮我分析下这份销售表」：它会走完整个流程，最后交你一份报告
+「这两个数怎么对不上」：它会先查口径差异，而不是先查算错（对不上十次有八次是两边分母不一样）
+「这个数靠谱吗」：对账加独立复核，告诉你哪一条最脆弱
+「帮我把这份表洗干净」：洗完还附一份可回放的清洗脚本，每一步影响了多少行都有记录
+「这个数你怎么算出来的」：口径回溯
+它大体的工作流程是八步：体检→清洗→对齐→分析→对账→交付→验图→质控。听起来挺重，但真用起来是按需走的：查一个数就直接查，要报告才全走。这八步里我觉得最值得说的是三个地方。
+第一步是体检。大部分工具拿到表的第一…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/it/6453762.html"
+                        open
+                      >
+                        <summary class="article-expander__title">这才是真正的“业务预测模型”，而不是让codex算一下</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6453762.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2025/01/16/0397f6cc-d3e6-11ef-9675-00163e09d72f.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>业务预测模型如何终结“预测不准”与“业绩不好”的循环？本文以toB原料企业为例，拆解构建业务预测模型的四步法：梳理流程、区分稳定因素、输出预测假设、跟踪纠正。强调业务行为与算法结合，让预测真正指导销售行动。
+
+做预测模型，难；
+做完预测，让业务知道下一步干什么，难上加难。
+今天带大家看一下，如何将业务与算法结合，做出可靠的预测。
+一、为什么要做业务预测模型？
+上述问题，是预测方法选择不佳导致的。算法模型类预测，无论算法的简单或复杂，都有一个通病：无法反应业务过程。导致业务方想基于预测调整业务行为的时候，不知道从哪里下手。
+在这种情况下，就需要构建业务预测模型。今天，我们就系统讲解一下。首先看个具体问题场景——
+
+某toB类原料供应企业，下游需求方包括：
+大型客户，且签订框架合同，循环采购
+大型客户，无框架合同，每月分批采购
+中小型客户，无固定合同，有需求就采购
+每个月新开发客户（以中小型客户居多）
+每个月有主动开发的客户/被动上门的客户
+现在业务方需要预测下个月客户采购量，并且希望指导到大客户销售/中小客户销售/新客户广告投放等部门的具体工作。问：该如何预测？
+二、业务预测模型，该怎么做?
+业务预测模型，即把业务假设作为输入变量，预测业务走势的方法。这和算法模型不同，算法模型的输入特征，常常是没有业务含义的，因此无法指导具体业务操作，业务预测正是为弥补这个缺憾而设计。
+比如本场景中，客户需求的最大影响因素，是客户本身的生产计划/我司与客户关系这两个维度。
+但这两个维度很难拿到准确数据，如果是中小型客户，很有可能根本就没有生产和采购计划，他们自己就是风雨飘摇，有单子就做。如果是没有签框架合同的大型客户，每一期采购都得重新走招标流程，很有可能被其他供应商半路截胡。因此如果想直接从两个方面进行预测，是很难下手的。
+此时要做的工作，分为三个部分：
+第一：梳理业务流程，找可监控的数据…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6453588"
+                        open
+                      >
+                        <summary class="article-expander__title">在 vibe coding 里，唯一真正重要的，是管理好文档</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6453588.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2026/08/24/111eb656-9f90-11f1-b8bd-00163e09d72f.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Vibe coding 时代，代码不再是项目的唯一核心，文档管理才是决定成败的关键。本文深入剖析为何文档比代码更重要，并给出五类关键文档的维护策略，帮助你在 AI 协作中避免上下文失真，提升开发效率与系统稳定性。
+
+这两年，越来越多人开始讨论 vibe coding。
+有人把它理解成一种更轻松的开发方式：先把想法说出来，让 AI 帮忙生成代码；有人把它理解成一种新的协作方式：人负责方向、判断和取舍，模型负责实现、试错和补全；也有人干脆把它理解成一句大白话：先别纠结，先把东西做出来。
+这些理解都没错。
+但如果真的在项目里长期使用 AI 写代码，很快就会发现一个比“会不会写 prompt”更关键的问题：代码未必是最难管理的，文档才是。
+在 vibe coding 中，真正决定产出质量、迭代速度和系统上限的，往往不是模型有多聪明，而是文档有没有被管理好。甚至可以更直接一点说：
+vibe coding 里，唯一真正重要的事情，就是管理好文档。
+一、为什么不是“管理代码”，而是“管理文档”
+传统开发中，代码通常被视为唯一事实来源。功能如何运行，看代码；接口怎么调用，看代码；出了问题怎么排查，也看代码。
+但在 AI 参与开发之后，情况发生了变化。
+因为 AI 并不是像人类工程师一样，长期、稳定、持续地记住整个项目上下文。它每次生成内容，本质上都依赖于你当前提供给它的上下文：需求、约束、已有实现、命名规则、平台限制、历史决策、边界条件。
+这些东西，如果没有被写进文档，那么它们实际上就是“不可继承的隐性知识”。
+
+结果会非常明显：
+这次让 AI 改对了，下一次又改歪
+今天补了一个 feature，明天又把旧约束打破
+模型能写出可运行代码，但写不出符合项目共识的代码
+同一个问题，反复解释三遍、五遍、十遍
+项目越做越快，系统却越来越乱
+很多人以为这是模型不稳定，其实更常见的原因是：上下文没有被…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6453589"
+                        open
+                      >
+                        <summary class="article-expander__title">GitHub上一个”技能包”月增5万星：Agent Skills正在抢走程序员的饭碗</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6453589.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/wp-files/2026/08/Yw3NETnFmF7KwwT7wuKW.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>GitHub 日榜上，Skills 类项目正以惊人速度抢占原本属于大模型新版本的位置。SKILL.md 文件让 Agent 即插即用，一次编写处处复用，成为团队资产。本文拆解 Skills 爆火背后的经济学，揭示三大踩坑点，并给出消费者、创作者、团队负责人的上手路径。
+
+上周刷到 GitHub 日榜的时候很震惊，感觉AI的发展太疯狂了。因为三件事同时挤进了同一个榜单的顶部，而它们不是一个东西，是一类东西。
+obra/superpowers，GitHub 总星 27.49 万，单日新增 749。JuliusBrussee/caveman，GitHub 总星 9.95 万，单日新增 309。almendili/skills，新建仓库前 25。
+共同点是格式。三家都用同一种结构打包”技能”，一个叫 SKILL.md 的文件，让 Claude Code、Codex、Cursor、Gemini CLI 这些工具即插即用。
+而就在 8 月 21 日同一天，稀土掘金一篇拆解文章里提到一个更狠的数字：mattpocock/skills 单月增星 50,486。一个月 5 万。
+我不知道你有没有意识到这个数字意味着什么。意味着 GitHub 全站的月榜 TOP 里，有一种东西正在吃掉原本属于”大模型新版本”、”Agent 框架”、”AI 工具新特性”的位置。它，叫Skills。
+为什么 Skills 突然在 8 月集体爆了
+回头看 8 月，Skills 类项目组成了 GitHub 的”技能星光谱”。
+
+“给 Agent 的提示词工程”，正在从一段随手粘贴的 system prompt，演化成一个有生产、分发、消费、复用链条的”技能生态”。
+8 月 11 日，Anthropic 官方 skills 仓库（约 17 万星，2025 年 9 月创建）和 Addy Osmani 的 agent-sk…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6453567"
+                        open
+                      >
+                        <summary class="article-expander__title">产品已经稳定，客户差异到底怎么接：项目交付中的标准与差异边界</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/pd/6453567.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2026/08/24/14501b3c-9f8e-11f1-b8bd-00163e09d72f.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>当产品方向稳定后，客户差异不会消失，反而成为产品演进的关键考验。本文提出一套判断链：先明确产品真正要守的标准，再识别客户差异触及的层级，最后决定差异应如何承接。结合能源管理与设备维修场景，帮助产品经理在标准化与定制化之间找到平衡。
+
+上一篇讨论项目交付中的产品演进时，核心问题是：产品已经形成以后，项目仍然会带回来新的需求和新的业务证据，产品不能拒绝真实修正，也不能让每一个项目重新定义产品。再往后走一步，问题会变得更具体——当产品方向已经相对稳定、目标客户没有发生根本变化、很多能力也经过多个项目验证以后，后续项目到底应该越来越标准，还是继续为不同客户保留差异？
+真正做过一批项目以后会发现，客户差异不会因为产品成熟而消失。同样做设备维修，有的企业报修后直接派工，有的要部门负责人审核，有的达到一定金额还要增加审批；同样做能源管理，有的按部门核算，有的按成本中心，有的又按楼宇和经营单元核算。解决的是同一类问题，但对象关系、管理规则、流程责任和业务口径都可能不同。
+麻烦不在于承认这些差异存在，而在于判断它们应该怎么被产品承接。有些差异是目标客户中长期存在的，产品如果不承接，就只能适配最早那批客户；有些只是当前客户的历史条件，硬做进标准产品，只会留下越来越多特殊逻辑；还有一些看起来只是字段、流程上的“小改动”，实际上已经开始改变产品原有的业务结构和责任边界。
+团队最容易走向两个极端：一个是“这是标准产品，客户尽量按产品来”，另一个是“客户业务确实如此，那就想办法支持”。前者把早期项目经验固化成标准，后者则会让配置、开关和例外越来越多。久而久之，表面上仍然只有一个标准版本，内部却装满了不同项目留下来的特殊逻辑。
+所以这篇文章真正要解决的，不是“客户差异怎么配置”，而是配置之前的一整条产品判断链。 面对一句“我们这里不一样”，先判断产品真正要守什么，再判断客户到底改了什么；然后判断这个位置…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6452463"
+                        open
+                      >
+                        <summary class="article-expander__title">AI智能体在企业怎么落地？关键看这5个核心工作流</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6452463.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/14/ecedfcb2-da8d-11ed-b35a-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>企业为AI智能体付费，并非因其聪明，而是因其能嵌入工作流。本文聚焦内容、销售、客服、知识库四大场景，解析智能体如何串联流程、提升效率，为企业带来实际价值。
+
+过去一年，很多人都在讲智能体。
+有的人讲Agent，有的人讲多智能体协作，有的人讲自动执行任务，也有人讲AI员工。
+但如果你真的和企业客户聊过，就会发现一个很现实的问题：
+企业并不会因为一个AI“看起来很聪明”就买单。
+它们真正关心的是：
+这个东西能不能减少重复工作？
+能不能让销售更快跟进线索？
+能不能让客服少处理一部分重复问题？
+能不能让新人更快找到资料？
+能不能让管理者更快看到业务问题？
+所以，智能体真正有价值的地方，不是“会聊天”，而是“能进入工作流”。
+也就是说，它不是坐在一个对话框里等你提问，而是能围绕一个具体目标，帮你完成一连串动作。
+
+比如：
+不是“帮我写一篇文章”，而是从选题、素材、脚本、发布、复盘一路往下走。
+不是“帮我写一段销售话术”，而是从线索整理、客户分层、跟进节奏、话术生成一路往下走。
+这才是企业愿意为AI智能体付费的原因。
+所以这篇文章不讲智能体概念，也不讲模型参数。
+我们只讲一个更具体的问题：
+哪些工作流，最容易让企业看到AI智能体的价值？
+一、内容工作流：从选题到复盘
+
+图：内容工作流（从客户问题到下一轮选题）
+很多企业做内容，最大的问题不是不会写，而是内容生产流程太散。
+选题靠运营拍脑袋，素材靠临时翻资料，脚本靠个人经验，发布之后复盘又只看几个表面数据。
+如果只是让AI帮你写几篇文章，价值其实很有限。
+真正值得做的是，把AI放进整个内容工作流里。
+它要解决的不是“写得快一点”，而是让内容生产从个人经验变成团队流程。
+举个例子：
+一家做企业服务软件的公司，准备运营一个面向老板和管理者的视频号。
+过去他们的流程是：
+运营每周想10个选题，老板挑几个，内容同事写脚本，剪辑发出去。发完之后看播…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6453622"
+                        open
+                      >
+                        <summary class="article-expander__title">声网姚光华：企业级Agent的关键，不是自治，而是可控的结果生意</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6453622.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/wp-files/2026/08/XzUHb35ju6KVCSMRhpo0-scaled.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>企业不应只看模型能力或单轮回答，而要围绕真实业务结果建立评测、回归和责任机制。本文整理了Agent的托付梯度、结果付费、架构围栏、语音交互规则，以及产品经理、FDE、CEO和组织分别需要做的调整，供大家参考。
+
+在 2026 AI产品大会现场，声网 AI 产品线负责人姚光华老师在AI产品大会2026分享了对话式智能体从“像人”走向“能解决问题”的变化：企业不应只看模型能力或单轮回答，而要围绕真实业务结果建立评测、回归和责任机制。文章整理了Agent的托付梯度、结果付费、架构围栏、语音交互规则，以及产品经理、FDE、CEO和组织分别需要做的调整。
+以下内容根据现场音频和演示材料整理，Enjoy：
+ 
+第一次变化：我不再只看它像不像人
+大家好，今天我想和大家聊聊企业级对话式智能体的构建，以及我们在实践中的一些经验。
+这个话题我已经连续聊了三年。2024年，我讲生成式AI和实时互动的结合；2025年，我讲“活人感”的构建；到2026年，我更想把问题往企业侧推一步，聊对话式智能体如何真的被托付，以及它怎么和人进入一种共事关系。
+我先从一段去年放过的录音讲起。
+2025年，我们交付过一个面向拉美电商平台的电话智能体。当时团队的聚焦方向，是怎么把Voice Agent做得更有活人感。录音里有一个用户在一分多钟时吐槽：为什么你像真人，却假装自己是机器人，还不帮我解决问题。那时我把它当成一个很好的正面案例，因为用户已经听不出来它是AI了。
+但一年之后再回听，我发现这其实是一个很典型的反面案例。它再像真人，只要没有帮用户解决问题，就没有完成自己的工作。2025年我听到的是体验断层，2026年我听到的是身份断层。变的不是录音，而是我判断它的尺子。
+
+今年还有一个更能说明问题的生产案例。
+在美国医疗行业里，保险方的Agent给医院方的Agent打电话，核对用户保单和实际医疗账单是否匹配。保险方的…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6453498"
+                        open
+                      >
+                        <summary class="article-expander__title">90%传统行业，都该被PM思维改造1次（与AI无关）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/it/6453498.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/09/26/150bae48-5c65-11ee-b266-00163e142b65.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>从一线城市回到省会，观察传统行业创业项目，发现许多仍沿用传统思维而非产品思维。本文选取三个代表性案例，剖析其定位、盈利模式与运营痛点，并提出破局建议，为传统行业转型提供参考。
+
+本人从一线城市回到家乡省会后，相比互联网，传统行业显然更常见，所以看到各种创业者和项目（从0到1为主）。作为运营惯性，过程中不断观察发现：其实很多项目，依然是用传统行业思维，而非PM思维（此处泛指互联网思维）办事，于是困难重重。于是选取身边3个具有代表性的案例进行总结分析，当然个人思考有限，也欢迎评论指点留言。
+*标题中“与AI无关”，主要指2件事：1、文章没有借助AI写作；2、关注传统行业项目（投资最高百万级别）。所以如果您对AI更感兴趣，或者更关注1-10和10-100的项目，那么这篇文章不会很合适，或许可以直接右上角关掉。
+一、项目A：邻里社区空间（开业时间：不到半年）
+项目定位：邻里（邻居）社区活动和服务中心，面积500㎡
+主要目标人群：周边小区业主（30-55岁）、年轻人（90、00后居多）
+盈利模式：1.活动门票售卖：分自营和合作。自营有音乐会、牛人分享等（50元内，一般每周3次）；合作则是和各类咖啡、戏剧、音乐、英语等主理人联合，进行活动门票售卖；2.会员卡：基于一推出的会员卡（99/3个月），除享受3次自营免费活动，还有免费茶饮和工位；3.场地租赁及合作等：如生日派对、公司团建培训、粉丝应援音乐会等。
+前期成本预计投入30W左右（空间装修、小程序等），中后期主要是场地租金+人力成本（全职员工支出），目前空间暂未盈利。
+
+*关键问题1：摊子铺的太大
+虽然本人所在省会房价为南方省会最低，空间虽没在市中心寸土寸金，但500㎡下来，也不是小数目。空间分为共享大客厅、音乐舞蹈室、会议室、自习室等，但这就导致一个很大的问题：别说3次，哪怕一周7次活动+租赁，空间场地利用效率依然较低。说白了营收还…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6449291"
+                        open
+                      >
+                        <summary class="article-expander__title">【售前行业解密】一张表看懂ToB（G）公司：角色分工，售前在什么位置</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6449291.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/07/07/47087d62-1c97-11ee-94c6-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>售前岗位在ToB业务中承上启下，既是客户需求的翻译官，又是技术价值的传递者。本文从价值交付链条出发，剖析售前与销售、产品、售后等角色的协同关系，揭示售前岗位的核心价值与存在条件，为理解这一关键角色提供清晰视角。
+
+售前行业解密，第一篇还是想先写一下做ToB（G）业务的公司，参与到价值产生的链条中的各种角色，因为单说售前的定义可能还是没办法让大家明白这个岗位的意义，但是放到整个链条中看，这个承外启内的岗位，对于客户复杂的公司，至关重要。
+ 可以说越依赖投标的公司，就越依赖售前技术支持。
+ToB业务核心角色分析图：
+
+如上就是一个ToB（G）公司，站在产品价值推广链上的角色按项目落地顺序从前到后的排位（除去硬件生产体系）。当然，不同体量和性质的公司的不同角色有合并的情况，售前和解决方案经理时常合并，甚至有些公司售前和产品经理也是合并的，项目经理和项目集经理可以合并，客户成功经理和销售可以合并，还有一些角色被兼任或者消失，这些就是具体公司的个性化设置了。另外产品经理和项目（集）经理这两个角色其实贯穿前后，不止在开发阶段。
+
+ToB业务不只是“卖东西”，而更是一条“价值交付流水线”，这些角色各有分工，又有机的配合在一起：
+销售和售前，最前端的一对好搭档，人情和技术各管一摊，发掘商机，拆解需求，以客户为中心，向客户之所想，做客户之想做，售前把客户需求翻译成技术需求，把技术反馈翻译成业务反馈，中译中，双向翻译。
+产品团队接收来自市场、售前、客户成功等多方的需求输入，把产品打磨出来。售前是其中离客户最近、最懂真实场景的一路输入。
+售后人员其实离客户也很近，甚至相当一部分会驻场，技术支持工程师沉淀的是故障模式和部署痛点，运维沉淀的是稳定性和性能瓶颈，客户成功沉淀的是使用习惯和未满足的业务场景。这些一线情报，是产品迭代和售前方案优化的宝贵弹药，反哺售前和产品经理完善产品。
+这样一看，售前这个岗位的作用就显而易见了，客户“真”需求传入公司的一道关口，公司技术材料向外输出的一道闸门。
+那么，最终得出售前技术支持/售前工程师/售前支持经理的岗位定义：清华大学出版的《售前之道：销售工程师手册（第4版）》，该书对售前工程师的定义是：售前是一类工作岗位和角色的总称，是指直接参与销售过程，支持销售人员获得客户采购合同的技术人员或专业人员。
+不过呢，反过来看，售前不是个普遍的岗位，起码不如产品经理，做ToC业务的公司没有售前，但产品经理地位很高；规模不够大，产品线不够丰富的公司也没有售前；当客户单一、需求明确时，售前的工作量不足以支撑一个专职岗位，这时往往由销售兼任方案讲解，或者由售前顺带承担商务推进，角色边界变得模糊。
+那么，要不要入行售前，售前的工作sop，什么样的人适合做售前，接下来的篇章我将细细讲述，敬请期待~
+本文由 @钟溯/trace 原创发布于人人都是产品经理。未经作者许可，禁止转载
+题图来自Unsplash，基于CC0协议</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6453241"
+                        open
+                      >
+                        <summary class="article-expander__title">我对管理的理解：从自己拿结果，到设计生产力</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/zhichang/6453241.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/wp-files/2026/08/20260824103824534184-01.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>作者以产品Owner向正式管理者转型为切入点，梳理管理本质：从自己拿结果到设计生产力。围绕定目标、做取舍、建团队、拿结果，以及激励与协作等维度，提出团队结果由方向、意愿、能力、协作效率、人岗匹配共同决定，值得产品从业者细读。
+
+做产品 Owner 时，我已经花了大量时间沟通、协调和推动：把目标解释给不同角色，在没有直接汇报关系的情况下争取资源、处理分歧，让事情继续往前走。
+这和管理并不是两套完全不同的工作。相似之处，是都要通过别人拿结果；不同之处是，产品 Owner 更多依靠专业判断、信任和非正式影响力，正式管理者还要对人员配置、培养、激励、绩效和团队结果承担明确责任。
+也因为如此，我会经常读一些管理方面的书，反过来问自己：如果有一天从非正式影响转向正式管理，原来的做法哪些还能继续，哪些必须改变？这篇文章不是一份管理经验总结，而是我目前对这个问题的一次梳理：
+先把两个角色放在一起看，会更容易理解这种转换为什么不是从零开始，却也不能把过去的做法原样放大：
+
+两者共享目标对齐、解决分歧和推动协作这些核心动作。真正新增的，是配置岗位、培养成员、进行评价并对团队整体结果负责。也正是在这里，非正式影响开始变成一套正式的责任系统。
+
+
+团队结果 ≈ 方向 × 意愿 × 能力 × 协作效率 × 人岗匹配
+
+把个人贡献者和管理者的结果系统放在一起看，这种变化会更直观：
+
+这不是一个可以拿来计算的数学公式。它只是提醒我，团队结果不是某一个动作单独决定的。方向错了，跑得越快可能偏得越远；有意愿但没能力，投入未必能变成产出；流程完整却人岗错配，机制只会稳定地产生低效。
+对应到管理，就是五个持续要回答的问题：团队往哪里走？人为什么愿意走？有没有能力走？一群人怎么稳定地走？谁适合承担什么责任？
+01 职责：从个人成功到团队成功
+个人贡献者通常对任务、方案或者具体产品负责，管理者则需要对团队目标负责。…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6453428"
+                        open
+                      >
+                        <summary class="article-expander__title">todo记下来了，就一定会do吗？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6453428.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/13/7320bd46-d9ef-11ed-a6e8-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>漂亮的界面会让人脑补功能。一个只能记todo的静态页面刷屏，恰恰暴露了效率工具的错觉：记录不等于执行。本文结合作者自建系统的踩坑经历，论证个人工作站的核心是输出结论与优先级建议，而非信息陈列。
+
+最近抖音上有个视频挺火的。
+一个博主用workbuddy搭了个个人工作台，界面是真的漂亮，模块整整齐齐，配色也舒服，看着就有一种「这就是我想要的工作站」的冲动。评论区一水的「求教程」「求开源」「我也要搞一个」。
+我也点进去看了。
+说实话，第一眼我也心动了一下。谁不想要一个好看的个人工作站呢。
+但多看了两眼，我就开始觉得哪里不对劲。
+
+我又仔细扒了扒，发现它那个工作站，扒开漂亮的外壳，其实就是一个静态的HTML页面。不能存数据，不能跑复杂逻辑，它能干的事，就是记todo。
+对，就是记todo。
+然后我就开始想一个问题。
+工作站的本质，真的是因为我们不会记todo吗。
+你想想看， todo这个功能，从纸质手账，到手机自带备忘录，到滴答清单，到Notion，到飞书任务，到一堆一堆的效率工具，哪一个不能记todo。哪一个记todo比那个静态HTML差。
+那为什么大家看到那个视频还是激动。
+我后来想明白了。因为好看。好看会让人脑补功能。你看到界面里有个todo模块，你脑子会自动补全「这玩意儿肯定还能提醒我」「这玩意儿肯定还能联动日程」「这玩意儿肯定还能分析我的完成率」。
+但其实它都不能。
+它只是把todo记下来，摆在那。
+01 我的踩坑经历
+我为什么对这个事这么敏感。因为我自己踩过一模一样的坑。
+我自己做工作站做了很久，换过好几个版本。我管我的工作站叫管家，不叫工作站，但逻辑是一回事。
+我最早的版本，也是这个思路。搞个漂亮的界面，模块摆好，todo，日程，备忘，笔记，记忆，一堆功能往上堆。做完看着特有成就感，觉得自己搞了个挺牛的东西。
+然后用了两天就放下了。
+因为该不干的还是不干。todo记…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6453437"
+                        open
+                      >
+                        <summary class="article-expander__title">90%的人对着AI许愿，但不愿意给菩萨交订阅费</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6453437.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/13/612ecbfa-d9ef-11ed-9d7a-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>两个微信群里，同一套AI工具呈现出完全不同的使用方式：技术从业者讨论模型、论文和工作流，普通用户却更关心报价单、竞品分析和岗位替代。文章由这组反差出发，拆解AI能力、用户认知与付费意愿之间的距离。
+
+前两天晚上我同时开着两个微信群。
+一个是我的AI技术群，里面全是从业者。那天讨论的是Claude Code的新版本跟Codex到底该选哪个，有人贴了一篇刚发的论文说找到了新的推理范式，有人分享了自己搭的Agent工作流跑通了，还有人甩了一个新框架的链接问值不值得花时间去研究。
+消息密度极高，每条都是干货，刷屏速度快到你晚看十分钟就跟不上话题了。你随便截一段发到外行群里，对方一个字都看不懂。
+另一个群是我大学同学拉的生活群。里面的人各行各业，做销售的，做行政的，开店的，当老师的。那天不知道谁提了一嘴AI，话题就拐过去了。
+一个做销售的同学说，他把客户发的一堆报价单拍照扔给豆包，让它帮忙看看价格合不合理。
+
+另一个说，他让AI给他写了个竞品分析报告，直接丢了个文档压缩包过去，然后等着AI吐结果。
+还有个开店的哥们来了一句，说听说AI能替代好多岗位了，以后是不是连店员都不用请了。
+我当时夹在两个群中间，左眼看一行行技术讨论，右眼看一句句AI许愿。
+那种割裂感特别强。
+强到什么程度呢，就像你左边坐着几个工程师在讨论怎么造火箭，右边坐着几个人对着天空许愿说能不能明天下钱。他们聊的是同一个东西，但完全是两个物种。
+这种割裂感其实不是第一次有了。但那天晚上特别强烈，强烈到我放下手机愣了一会儿。
+我想到一个事。
+01 AI的两个极端
+AI这波发展到现在，作为从业者我每天看到的是什么？是两个极端。
+狂奔的一端：技术狂奔，应用缺位
+一个极端在狂奔。
+专业人员不停地探索，新概念层出不穷。今天某个团队搞了个新推理范式，明天某个公司开源了一个跑分炸裂的模型。大模型从GPT-3到GPT-4到GPT-5，参…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6453422"
+                        open
+                      >
+                        <summary class="article-expander__title">用了一周后，来深入聊聊GLM-5.3</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6453422.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/13/37033ad4-d9de-11ed-8d63-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>国产模型冲进全球前十的案例又添一个。作者用一周真实体验拆解GLM新旗舰：从安全审查、Skill开发到3D游戏与写作四大场景实测，并解读其以最小参数量跻身头部榜单背后的后训练故事。
+
+最新的AA（Artificial Analysis）榜单出来了，前十里出现了三个国产模型。尤其是，Kimi K3和GLM-5.3直接干到了全球第四、国产第一的位置，仅次于Claude Fable 5、Opus 5、GPT-5.6 Sol和Grok 4.6。
+
+抛开分数，还有一个细节可能很多人都没注意到。在前十模型里，只有GLM-5.3的参数量不是T级，仅744B（激活40B）。
+
+看完榜单和参数，你可能更想关心：它实际用起来，到底行不行？我想结合这几天的真实体感，用四个具体Case跟大家聊聊，以及这个参数体量背后的故事。
+01 实测体感与真实case
+1）安全审查
+我之前开源过一个Markdown编辑器，几乎没做任何安全审查就传到了GitHub。当时没多想，可真要把它部署上线，这里面的坑就大了。
+
+我把代码整个丢给GLM-5.3，它一口气帮我揪出了6个漏洞。
+
+看到它对每个问题的描述，看得我后背发凉。不是那种模棱两可的「可能有风险」，而是精准指出问题出在哪、会被怎么利用。
+
+最后，它顺手给了两条方案：一是把DOMPurify集成和SRI直接写进HTML，二是重写一版加固过的代理脚本，然后反问我一句「要不要做」。这还用问吗，必须做。
+
+建议大家的真实项目，在上线真实环境前，很有必要让GLM-5.3先扫一遍。
+这不是玩笑，最近黑灰产相当嚣张，已经有不少政企网站中招了。一次疏忽的代价，可能远比你想的大。
+GLM-5.3在安全攻防上的实力，也不是我一个人的错觉。在CyberGym这项测试里，模型需要从白盒源代码出发，通过触发程序故障来识别并验证漏洞，GLM-5.3拿到了84.5%，超过了Mythos 5…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6453459"
+                        open
+                      >
+                        <summary class="article-expander__title">一个项目管理软件的诞生（五）：工作项关系模型设计，层级、依赖、关联与追踪路径</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6453459.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/wp-files/2026/08/20260824130752579124-01.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>项目管理里，工作项拆得再细，也无法自动说明谁依赖谁、谁负责验证以及哪些工作共同构成交付。文章从账号安全验证需求出发，拆解层级、依赖与具名关联三类关系的产品模型，并讨论怎样让协作路径可计算、可追踪。
+
+我在做内部项目管理软件时，曾经以为工作项拆得足够细，团队协作自然就会变清楚。
+一条需求进入研发阶段后，我们会在它下面建立产品、策划、前端、后端、测试等多个工作项。每个工作项都有负责人、状态、优先级和计划完成时间，看起来已经足够完整。但到了真正推进交付的时候，团队仍然要在群里反复确认：
+后端任务是不是前端联调的前置条件？
+测试工作项验证的是整条需求，还是其中一个实现分支？
+某个缺陷会不会阻塞当前版本发布？
+需求已经标记完成，下面还有两个子工作项没有结束，应该相信哪个状态？
+后来我才意识到，问题不在于工作项还不够多，而在于系统只记录了一个个对象，却没有准确记录这些对象为什么会同时出现、谁属于谁、谁等待谁，以及谁在验证谁。
+工作项描述一个对象，关系描述对象之间的业务事实。 单个工作项解决“这件事由谁负责、现在进展怎样”，关系模型解决“这些工作如何共同完成一次交付”。
+这就是第五篇要讨论的问题。它不是教人在详情页增加一个“关联工作项”控件，也不是研究树形视图怎样画得更漂亮，而是拆解一个更基础的产品模型：项目管理平台如何用层级、依赖和具名关联组织工作项，并沿这些关系形成可解释、可计算、可追踪的交付路径。
+
+01 工作项之间没有关系，拆得再细也只是几张卡片
+假设团队要交付一项“新增账号安全验证”的需求。
+产品经理补充交互和规则，前端开发验证页面，后端开发风控接口，测试设计异常场景，发布负责人安排上线窗口。五条工作项都可以独立分派和流转，但它们并不是五件偶然同时发生的事。
+产品和研发任务来自同一条需求，这是 层级关系 ；前端联调必须等待后端接口，这是 依赖关系 ；测试用例用于验证需求，缺陷由…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >异次元软件世界</button>
+                  <a class="source-heading__link" href="https://www.iplaysoft.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.iplaysoft.com/?p&#x3D;6593"
+                        open
+                      >
+                        <summary class="article-expander__title">Tessoa - 极致性能的 Win / Mac / Linux 跨平台文件管理器 (分栏/分屏/键盘/文件标签)</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.iplaysoft.com/tessoa.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://img.iplaysoft.com/wp-content/posts/6593/tessoa.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Windows 上有 File Pilot，macOS 上有 QSpace，都很好用，可惜各自只有一个平台。我三个系统都在用，来回换机器就得完全换一套操作习惯，非常烦！！所以决定自己开发 Tessoa。
+技术上：全 Rust 开发追求性能优先！界面直接调 GPU 绘制，没有 Electron、没有 WebView、没有 Qt/GTK。单文件，解压就能跑，性能卓越。最重要的是，Tessoa 在 Win / Mac / Linux 三个平台同一套代码，操作习惯完全一致！而且在功能和追求效率上也完全不妥协……
+「 前往查看原文.... 」
+异次元还有这些值得一看：
+
+Directory Opus 13 - 比微软自带强大百倍！全面碾压的增强文件管理器
+XYplorer - 碾压微软自带资源管理器！强大好用的 Win 多窗格分栏文件管理器
+比 Mac 访达强太多了！QSpace - 多窗格/多分栏的增强文件管理器 (支持连接服务器)
+Files UWP 文件管理器 - 更优雅好用！替代 Win11/10 自带资源管理器 (开源/多标签/分栏)
+
+异次元首页  |  微信公众号  |  关注微博  |  软件精选  |  软件激活码折扣</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -70,11 +704,125 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-08-23 datetime="2026-08-23T12:27:06.000Z">2026-08-23</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-08-23 datetime="2026-08-23T12:27:06.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-08-23 datetime="2026-08-23T16:08:26.000Z">2026-08-23</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-08-23 datetime="2026-08-23T16:08:26.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >QiuQuan&#x27;s Blog</button>
+                  <a class="source-heading__link" href="https://www.qiuquan.org">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://www.qiuquan.org/?p&#x3D;10921"
+                        open
+                      >
+                        <summary class="article-expander__title">安卓应用——万年历 2.3.7 + 中华万年历 9.9.5 解锁会员版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.org/androidsoft/wannianli.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.qiuquan.org/wp-content/uploads/2025/04/wannianli-150x150.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>万年历APP是一款融合传统黄历与现代日历功能的生活工具，主打精准择吉、日程管理、天气查询等实用服务。采用传统算法与专业命理师合作，确保黄历信息准确性。融入每日一言、传统节气解读等内容，增强用户对中华文化的认知。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://www.qiuquan.org/?p&#x3D;7453"
+                        open
+                      >
+                        <summary class="article-expander__title">蚂蚁下载器 Ant Download Manager Pro 2.17.1.95441 x86 正式版 + 2.17.8.96712 x64 正式版 + 2.17.3.95658 x86 测试版 | 安装版 + 便携版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.org/download/adm.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.qiuquan.org/wp-content/uploads/2025/02/ADM-150x150.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>蚂蚁下载器(Ant Download Manager)是一款简易实用，功能全面的下载工具，使用这款蚂蚁下载器可以让你自动获取所有种子，超链接等下载路径，一键会员下载您需要的资源。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://www.qiuquan.org/?p&#x3D;9510"
+                        open
+                      >
+                        <summary class="article-expander__title">YouTube视频下载 MediaHuman YouTube Downloader 3.9.23 (2008)  中文直装破解版 + 便携版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.org/download/youtubedownloader.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.qiuquan.org/wp-content/uploads/2026/05/YouTubeDownloader-150x150.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>YouTube Downloader 是一款功能强大的视频下载工具,它让您可以轻松从多个网站(包括YouTube、Vimeo、Dailymotion和SoundCloud等)下载您喜爱的视频内容。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.qiuquan.org/?p&#x3D;15132"
+                        open
+                      >
+                        <summary class="article-expander__title">安卓应用——玩美相机 YouCam Perfect 6.20.3 解锁高级会员版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.org/androidsoft/youcamperfect.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.qiuquan.org/wp-content/uploads/2025/12/YouCam-150x150.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>玩美相机app是一款超受女性用户喜爱的手机相机应用，英文名称YouCam，与其他相机相比，该款相机不仅能自拍还能给你上妆，同时其中还包括磨皮、美白、祛斑、祛痘，还是腮红、美瞳、长腿，瘦身等众多美颜效果，用户只需用手指轻触屏幕即可实现脸型优化、眼睛美化，腿部拉长等特效功能，让你的照片拍出来更加动人。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://www.qiuquan.org/?p&#x3D;11636"
+                        open
+                      >
+                        <summary class="article-expander__title">Adobe Premiere Pro 2026 v26.3.2.2 直装破解版 By：m0nkrus</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.org/convert/premiere.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.qiuquan.org/wp-content/uploads/2025/06/premiere-150x150.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Adobe Premiere Pro 是一款专业的视频编辑软件及影视、后期视频剪辑软件。Adobe Premiere Pro多国语言特别版可以在RGB和YUV色彩空间以高达32位色彩分辨率对4K超清视频及360/VR视频编辑,支持VST音频插件和5.1环绕声音轨，可以导入和导出QuickTime或DirectShow，支持所有音频及视频编码格式。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -680,40 +1428,6 @@ Function Calling：把模型的决定转换成结构化调用请求，例如“�
 为5类服务编写 API 适配代码。
 处…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >QiuQuan&#x27;s Blog</button>
-                  <a class="source-heading__link" href="https://www.qiuquan.org">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://www.qiuquan.org/?p&#x3D;11636"
-                        open
-                      >
-                        <summary class="article-expander__title">Adobe Premiere Pro 2026 v26.3.2.2 直装破解版 By：m0nkrus</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.org/convert/premiere.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.qiuquan.org/wp-content/uploads/2025/06/premiere-150x150.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Adobe Premiere Pro 是一款专业的视频编辑软件及影视、后期视频剪辑软件。Adobe Premiere Pro多国语言特别版可以在RGB和YUV色彩空间以高达32位色彩分辨率对4K超清视频及360/VR视频编辑,支持VST音频插件和5.1环绕声音轨，可以导入和导出QuickTime或DirectShow，支持所有音频及视频编码格式。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -20038,592 +20752,6 @@ curl -o ~/.claude/skills/create-an-asset/SKILL.md --create-dirs \
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6435474"
-                        open
-                      >
-                        <summary class="article-expander__title">客户不成交，不是没需求，而是你从来没激活过他</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6435474.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2025/08/19/edd7c02e-7caf-11f0-8601-00163e4b86a1.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>私域转化率低？别只盯着那3%的成交客户，97%的沉默客户才是被浪费的金矿。本文揭示客户沉默真相，提出“剧本营销”三阶激活法，并指出AI可系统化跟进，让沉睡客户重新被唤醒。
-
-你有没有想过一个问题：
-那些加了微信、发了资料，然后就再也没有然后的客户，他们是真的没需求，还是只是被你遗忘了？
-我做私域这么多年，发现一个特别扎心的真相：
-3%的转化率背后，藏着97%被闲置的沉默客户。
-他们不是不需要你的产品。
-既然能被你吸引进来，至少在某个时刻，是有过兴趣、有过问题想解决的。对吧？
-只是后来，你没有能持续把他唤醒。
-什么叫没被激活？
-很简单。
-加了微信，发了资料，然后就再也没有然后了。
-这才是很多私域转化做不起来的真相。
-你天天盯着转化率，1%、3%、5%、觉得是销售能力不行、话术不行、产品不行。
-
-但你有没有想过：那些沉默的客户，从加上微信那天起，你真正有效地激活过他几次？
-所谓激活，不是你给客户发过一次消息，而是你有能力持续让他重新想起你、重新理解你、重新产生行动。
-为什么销售跟进不了？
-传统销售跟进，表面上靠的是勤奋，实际上还高度依赖精力、节奏、经验和临场发挥。
-所以，靠销售个人自觉跟进客户，这件事从底层来讲就不靠谱。
-第一，人的精力有限。
-一个销售手上几百上千个客户，能盯住的就那么二三十个意向高的，其他的根本顾不上。
-不是不想顾，是顾不过来。
-第二，更难的是，很多销售根本不知道该怎么跟进。
-他们也尝试过：
-发节假日祝福、发笑脸、发广告、问在不在、问考虑怎么样？
-结果往往得不到任何回复，反而被客户拉黑。
-所以最后他们选择不跟，因为真的不知道怎么跟。
-而客户就彻底沉默了。
-惊人的真相
-你会发现一个惊人的真相：
-3%的转化率背后，往往是大量没有被持续唤醒、没有被继续推进的沉默客户。
-这97%的客户，对很多企业来说，其实就是被闲置、被浪费、被放弃的资产。
-你看看电话销售团队是怎么做的？
-一批客户没转化，不会直接放弃，而是进入下一轮继续跟。
-但很多做私域的人，没有这样的机制。
-放着大量已经加到微信里的潜在线索不去激活，反而不断花更多的钱去买新流量，就为了那少量转化。
-除去成本，你本质上是在给平台打工。
-大多数私域，少了关键的中间一步
-我观察了上百家企业的私域，发现一个共性问题：
-他们做私域的链路是这样的——
-加微信 → 直接转化
-中间没了。
-而真正能跑出高转化的私域，链路是这样的——
-加微信 → 筛选 → 培育 → 激活 → 转化
-中间这三步——筛选、培育、激活——才是决定私域转化率的真正变量。
-大多数人跳过了这三步，直接做转化。所以他们能成交的，永远只是少数本来就要买的人。
-这不叫做私域，这叫捡漏。
-为什么必须是”剧本”，而不是”话术”？
-这两年我一直在做一件事——把”激活”这件事系统化，变成一套可以反复复用的方法。
-我把它叫做：剧本营销。
-为什么是“剧本”，而不是“话术”？
-因为话术是单点的——你说一句、客户回一句、就结束了。
-而剧本是有节奏、有阶段、有钩子、有伏笔的——它会持续30天、90天、180天，把客户从陌生、到信任、到主动来找你。
-
-一个完整的剧本营销，分三个阶段：
-第一阶段 · 筛选（前30天）：高密度触达，把高意向客户快速识别出来
-第二阶段 · 培育（31-90天）：故事化、共鸣型内容，让中低意向客户对你建立信任
-第三阶段 · 激活（90天后）：低频、触发式触达，把沉睡客户在合适的时机唤醒
-三层叠加，才是真正的“激活系统”。单做哪一层都没用。
-他们不是死了，只是沉默了
-以前你推不动，是因为人不够、精力不够、方法不够。
-但现在不一样了。
-AI可以帮你把这件事系统化。
-它不是替你群发广告，而是持续去做那些人做不到的事：
-反复建立认知，慢慢激发兴趣，一点点积累信任，在合适的时候筛选意向、推动回应。
-我们这套系统，每天都在发生这样的激活——
-有的客户1天被激活，有的3天被激活，有的30天被激活，有的甚至一年后才被激活
-只要客户还没有删你，只要触达通道还在，你就还有机会重新激活他。
-回到开头那句话
-客户不成交，很多时候不是没需求，而是你从来没激活过他。
-他们不是死了，只是沉默了。
-不是没有机会了，而是一直没人把这件事持续做下去。但它又非常重要。
-现在有了AI，客户跟进、客户激活可以很好地交给它。
-把重复的、琐碎的、需要耐心的跟进工作以及人做不好的事，交给AI，让人去做更有温度、更有价值的成交。
-这才是我看到的，未来私域该有的样子。
-本文由人人都是产品经理作者【大江吴】，微信公众号：【大江吴】，原创/授权 发布于人人都是产品经理，未经许可，禁止转载。
-题图来自Unsplash，基于 CC0 协议。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6435562"
-                        open
-                      >
-                        <summary class="article-expander__title">老板想搞死我：逼疯PM的宇宙工程笔记（2.6 流程站点）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6435562.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/14/7cac432c-da8e-11ed-a86f-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>当老板用“宇宙重启”砸场子，产品经理如何接招？本文用“列车时刻表”拆解宇宙业务运行，从八卦站点到微积分引擎，将玄学转化为可验证的数学方程。137.031的精细结构常数、1/49.83的暗能量漂移，都在证明：五行八卦不是算命，而是宇宙的架构蓝图。
-
-设计步骤十二：流程核心——用“列车时刻表”拆解宇宙业务运行
-一、老板的杀招：拿宇宙重启砸场子
-老李今天没带任何文档。他盯着上一章“1/49残差驱动螺旋演化”的截图，眉头紧锁，像是在看一个鬼故事。
-“小蒋，小锋。服务器重启有残差，我认了，毕竟代码是人写的。但你们上次说，这个残差驱动了进化，别认为我好忽悠……那放到宇宙尺度呢？”
-他抬起头，眼神里透着一丝较真：
-“宇宙也有崩溃重启的循环吗？如果有，我们现在在第几轮？你们别给我扯什么’道生一一生二’的玄学，我要能跑出数据的方程！”
-小锋在旁边听得直冒冷汗，这种搞死人的节奏真是不逼疯我们才怪，以为我要被这终极哲学问题逼入绝境。我推了推眼镜，走到白板前。没有画太极图，而是画了一条从高到低的阶梯，一共7个台阶。然后在阶梯的最顶端写了三个字：宇宙呼吸。
-“老板，宇宙不仅崩溃重启，而且它一直在呼吸。牛顿把宇宙看成一台机械钟，爱因斯坦看成一块弯曲的膜。太极说，宇宙是一只风箱——挤出来是实体，吸回去是虚波。”
-老李冷笑：
-
-“楼梯，你怎不给宇宙装个电梯呢，风箱？你怎么不给宇宙装个空调呢，少给我废话，说点人话，我倒要看你小子用什么数学方程，我看你我没搞死你，你就先把我搞疯了！”
-二、产品的拆招：从“玄学算命”到“微积分列车时刻表”
-我在阶梯上标了两个箭头：一个向下，写着“求导降维”；一个向上，写着“积分升维”。
-
-“老板，要把宇宙讲清楚，得看两张表。第一张是’站点表’，第二张是’行程表’。看懂了这两张表，你就知道宇宙怎么呼吸的。”
-1. 第一张表：站点表（停在哪一维）
-我在白板上画了八个格子，对应八个卦…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6435133"
-                        open
-                      >
-                        <summary class="article-expander__title">Agent跑完任务算成功？PM必须建的3层评估体系</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6435133.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2025/08/19/edd7c02e-7caf-11f0-8601-00163e4b86a1.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Agent跑完任务不等于做对事。传统测试逻辑在Agent面前失效，任务完成、业务价值、用户信任三层独立。本文拆解三层评估体系，帮助PM建立从完成率到采纳率再到信任度的完整评估闭环，避免做出“跑通了但没人用”的产品。
-
-很多团队上线Agent之后，第一个问题不是”用户喜不喜欢”，而是——它到底做对了没有？
-这个问题比听起来难得多。
-Agent跑完了，日志是绿色的，没有报错。但用户投诉说结果不对。开发说“模型输出就是这样”，业务说“反正没达到预期”，PM夹在中间，不知道该怎么定义“对”。
-这就是Agent评估的核心困境：传统软件的测试逻辑在Agent面前基本失效。
-传统测试为什么失效？
-传统软件的测试逻辑是确定性的：输入A，期望输出B，一致就过，不一致就失败。
-Agent不一样。同样的输入，每次输出可能都不同。Agent可能走了不同的推理路径，调用了不同的工具组合，最终得到了“语义上正确但字面上不同”的结果。你很难用一个assert语句判断它对不对。
-更复杂的是，Agent的“正确”有多个层次：
-它有没有按预期完成操作？（任务层）
-它的输出有没有推动业务目标？（业务层）
-用户有没有信任并采纳它的结果？（信任层）
-这三层是独立的。任务层通过≠业务层有价值，业务层有价值≠用户层会信任。
-
-PM如果只盯着任务层，就会做出“Agent跑通了但没人用”的产品。
-
-第一层：任务评估——Agent做完了吗？
-这是最基础的一层，也是大多数团队唯一在做的一层。
-核心指标：
-完成率：Agent是否执行完了整个任务流程，没有中途崩溃或放弃
-步骤准确率：Agent执行的每一步是否符合预期路径（尤其是工具调用顺序）
-幻觉率：Agent是否编造了不存在的信息、URL、数据
-PM的关注点：
-不要只看成功/失败的二元结果。要看失败在哪一步。
-一个典型的Agent任务可能有8个步骤，Agent在第7步失败。如果…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6435209"
-                        open
-                      >
-                        <summary class="article-expander__title">微信更新，导航栏和阅读模式大改版</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6435209.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/05/06/e303c1ac-ec01-11ed-8df9-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>微信PC版4.1.12迎来重大改版：导航栏精简为四个主入口，娱乐功能折叠至「发现」，强化办公属性；阅读模式改为四级目录平铺显示，提升大屏效率但小屏体验存疑。这次调整在简化界面与挑战用户习惯间博弈，值得产品人关注。
-
-微信 PC 版更新到最新版的4.1.12后， 页面导航栏和阅读模式迎来大变，还伴随多个功能更新。
-1、导航栏改版
-更新后打开微信发现，页面突然简洁了很多。
-
-改版前，左侧的导航入口，有七八个，消息、通讯录、收藏、朋友圈、视频号、搜一搜、小程序、小游戏，所有APP 中发现里的功能入口，都罗列显示。见左图。
-改版后，导航入口只显示四个，分别是消息、通讯录、收藏、发现。见有图。
-而朋友圈、视频号、搜一搜、小程序、小游戏等入口，全部折叠到「发现」中显示。
-
-这个显示逻辑，基本和微信 APP 保持了一致。4 个主tab，其他功能的入口收在「发现」里。
-
-同时，可以在设置中，设置发现页的红点标记提醒。
-
-
-开启后，有朋友圈、游戏内容更新时，发现页会出现红点标记提醒。
-
-关闭后，不会有红点标记，非常清爽。减少你的红点的焦虑。
-
-微信把偏个人娱乐的功能，都收入到发现里。
-其实是在强调PC 端微信的办公属性，减少PC 端娱乐内容的打扰。
-因为PC 端微信，越来越成为企业内部沟通工具。
-但是这样调整，会挑战用户的使用习惯。原来一次点击可进去的操作，现在变成了要点两次。
-预计不少用户，又要吐槽了。
-2、阅读模式改版
-除了导航入口的变化，微信这个版本最大的变化是阅读模式的调整。
-以前，打开微信中的公众号、服务号、收藏、朋友圈等的详情内容，是单独弹窗显示。像这样。
-
-现在，所有的内容详情打开，都平铺显示在最右侧。像这样。
-
-这样，就形成了微信的四级目录，就像电脑里找资料一样，一层一层打开。知道把你的窗口直接铺满。
-
-如果你要回到原来的体验，你可以点击四级详情页的「弹窗显示」按钮。
-
-点击后，会打开弹窗，在弹窗浏览器中显示。
-
-但是比较难受的是，下次打开文章，仍然是展开在最右侧显示，如果想弹窗显示，只能每个文章点「弹窗显示」按钮。
-也就是，微信没有记住你的这个操作，也没有提供设置入口。只提供一种显示模式。
-还有一个比较尴尬的问题是，如果你喜欢把微信右侧靠边显示。
-这时你点击公众号文章、聊天中链接、收藏中文章时，点半天，看不到页面打开，很崩溃。
-
-你还以为微信出 bug 了。
-其实是，你要的看的内容，在屏幕外展示了。
-你只能把窗口拖过来，才看得到。
-
-微信 PC 端这样多层级展开的阅读设计，其实是想提高了阅读效率，提升阅读体验。
-这样你不用频繁在微信主窗口和浏览器弹窗之间切换，操作更顺畅。
-对于大屏幕来说，确实能提供效率。
-但是小屏幕来说，会存在大面积占用屏幕，并且会触发各种内容显示不出、显示不全的情况。
-需要来回拖拽主窗口来适配，这算不得好的阅读体验。
-这个功能，预计不少用户，又要开骂了。
-专栏作家
-产品笔记，微信公众号：产品笔记（ID：cpbiji），人人都是产品经理专栏作家。10年产品工作经验，前网易、陌陌高级产品经理。任何商业进化的方向是效率的提升，喜欢用产品思维挖掘事物本质。相对擅长产品分析、产品设计、逻辑思维等。
-本文原创发布于人人都是产品经理。未经许可，禁止转载。
-题图来自Unsplash，基于CC0协议。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6435295"
-                        open
-                      >
-                        <summary class="article-expander__title">a16z 最新一批 AI 项目：AI 创业，开始往脏活、累活里卷了</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6435295.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/wp-files/2026/07/ttITq0ekpV7txFO29lby.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>a16z最新投资的AI项目正悄然改造那些传统软件难以渗透的行业——从报税、建筑投标到老人护理和家庭机器人。这些项目不追求炫酷技术，而是专注解决繁琐、依赖人工判断的流程。本文梳理了这批项目的核心逻辑，揭示AI从&quot;回答问题&quot;到&quot;执行任务&quot;的转变中，哪些底层能力正变得不可或缺。
-
-简单梳理了一下最近 a16z Speedrun的一批项目，分享给大家。
-这些项目覆盖报税、建筑投标、诉讼、会计、商业贷款、农业采购、保险经纪、老人护理、房地产投资、家庭机器人。
-很明显，这些都是过去很难被标准软件完全改造的行业，因为这些行业的工作太琐碎、太依赖沟通、经验和判断。
-我们一起看看，a16z 的这批 AI 项目怎么切入这些行业。
-01 税务、投标、诉讼、会计：AI 开始抢最耗人的后台活
-Grove Tax 做的是税务公司的 AI 劳动力。
-Grove Tax 瞄准的不是普通个人报税，而是税务从业者每天的重复工作：追客户文件、录入数据、整理材料、准备申报、交付结果。
-Grove Tax 官方页面提到，报税人员有 65% 的时间并没有花在真正的税务判断上，而是在处理这些杂活；它希望用智能体覆盖从信息录入、文件提取到申报准备和交付的完整流程。
-公司还提到，早期客户通过 Grove 处理报税的速度提升到原来的 3 倍。
-
-Piper-ai 做的是建筑投标。
-总包公司做投标时，往往要在很短时间里读完大量招标文件、图纸、合同、补充说明和报价材料。
-问题不是“有没有文档”，而是这些文档之间经常有遗漏、冲突和隐藏风险。
-
-Piper-ai 的定位是建筑行业的 AI 劳动力，帮助总包公司理解自己到底在投什么项目，哪些范围必须计入报价，哪里可能有风险，哪些矛盾以后可能变成成本。
-
-Concorda 做是诉讼流程。
-Concorda 把自己定义为“审判律师的 AI 操作系统”，创始团队有律师和工程背景，官方页面披露…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/it/6435578.html"
-                        open
-                      >
-                        <summary class="article-expander__title">AI互联网日报：DeepSeek宕机考验服务稳定、携程停止独家合作、华为AI眼镜接入支付、特斯拉收购AI硬件企业</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6435578.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://tu.aixq.cc/wp-content/uploads/2026/06/20260602104616197.png!ys" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>看似只是几项功能更新，其实平台和设备都在重新争夺用户愿意交出的那一步操作。华为AI眼镜把支付放到视线里，穿戴设备开始接管原本属于手机的服务入口。微信还在补齐鸿蒙体验。携程则被要求把定价与流量选择还给商家，我想提醒老朋友们，方便不是让人更难离开，而是每次点击、授权和消费都清楚、可退，也经得起一次故障。
-一起来看看这两天发生的AI和互联网赛道的大事件吧！
-
-📌 今日AI互联网大事件速览
-1，Anthropic发布Opus 5，能力逼近Fable 5并降低安全拦截频率
-2，OpenAI加入开放权重公开信，签署组织增至35家
-3，DeepSeek服务宕机超过12小时，修复后稳定性仍待观察
-4，豆包上线边听边说能力，语音交互从轮流对话走向实时交流
-5，华为AI眼镜接入支付宝小蓝环，抬眼即可发起支付
-6，特斯拉近20亿美元收购AI硬件企业，关键专利指向芯片需求
-7，特斯拉FSD v15早期版上路，Robotaxi累计无人监督行驶超38万英里
-8，Anthropic为自研AI芯片寻找存储供应，已接洽SK海力士
-9，宇树G1被日本团队拆解，人形机器人量产工程能力受关注
-10，Debian讨论是否允许AI参与开发，开源社区面临贡献规则重写
-11，AI嫁接旧素材冒充暴雨灾情，多名造谣者被警方查处
-12，欧美多所高校停用AI检测工具，误判风险倒逼考核改革
-13，3吉瓦数据中心同时脱网引发电压波动，AI算力考验电网韧性
-14，我国服务机器人年产量达1858.1万套，数字经济核心产业继续扩张
-15，五大半导体设备商交付周期延长50%至100%，AI扩产遭遇装备瓶颈
-16，携程公布19项整改措施，停止独家合作与不合理最低价要求
-17，苹果推动长鑫与长江存储进入供应链，美光公开反对
-18，国内多家头部手机厂商抵制内存涨价，存储成本占比超过20%
-19，高通9月起上调芯片价格，骁龙8 Elite Gen…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6435225"
-                        open
-                      >
-                        <summary class="article-expander__title">AI时代，投60个简历难中1个，怎么找实习机会？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6435225.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/wp-files/2026/07/eEF8kGBVPB736GshOn9d.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>实习岗位缩减，申请量暴增，应届生陷入AI求职误区。避开大公司、针对性投递中小企业，用真诚沟通代替海投，反而成功率更高。本文拆解求职新策略，教你如何利用AI优势而非依赖AI偷懒。
-
-据《彭博商业周刊》引述德雷塞尔大学年度大学招聘趋势研究：
-约20%的公司表示今年将减招实习生或完全取消实习项目，这一比例自2022年ChatGPT推出以来持续上升。
-计划扩大实习项目的公司比例略高于30%，虽比去年有所增加，但与2022年前相比大幅下降。
-
-部分公司减少实习，是默认未来不会有相应的全职入门岗位，从而不再把实习作为人才储备渠道。
-雇主对高校就业市场景气的预期是：
-
-实习招聘平台Handshake显示，2022年以来，每个实习岗位收到的申请中位数增长了3倍。有的应届生申请了60-70份实习，只能拿到1-2个机会。
-
-
-一些学生更早启动申请，1/4的大三学生在九月底之前就已开始申请暑期实习。
-
-学生应对冲击的错误方式，例如
-大量使用LinkedIn等平台的一键申请功能，不提交有针对性的求职信；
-用AI生成和修改简历、求职信，进行模拟面试只为应付AI筛选，忽视对岗位的真正兴趣表达和人际沟通能力的培养。
-职业顾问发现，学生比以往更需要被教授基本沟通礼节，因为很多学生习惯在Zoom上课、用ChatGPT写论文，把找实习也当成可以无摩擦完成的流程。
-如果（利用AI工具）挖掘符合自身兴趣的小公司，然后给招聘人（更好的是直接给高管）发送简短、真诚的邮件和信息，期望获得一对一指导，成功率会更高。
-中小企业正接替巨头成为事实上的实习机会蓄水池。2022年，大型企业收到的申请数量约为小企业的8倍。去年这一比例已缩小至约3比1。大型企业仍然备受关注，但小型企业的竞争力远胜于几年前。
-
-前述德雷塞尔大学报告发现，雇主更愿意看到求职者在与其沟通时不借助AI（这是显而易见的）。
-
-部分企业专门招收具备AI技能的实习生，希望从年轻人身上学习AI用法，也不妨一试。2022年以来，实习岗位描述提及AI的比率翻倍达到接近10%。
-
-这些岗位可以更着重提及AI能力试试：
-产品管理
-数据分析
-战略咨询
-软件工程
-科研
-
-当然，你能想到的别人也能想到。2025年，凡是提及AI的实习岗位，平均收到78份申请，而非AI岗位的申请量仅为32份。
-再有，发出申请后不用等太久。在投递简历后第一周获得录用与否反馈的，从2022年约有四分之一提升到去年的44%。提及AI的实习岗位中，46%的申请在发布后的前7天内送达，而其他岗位的这一比例为40%。
-本文由人人都是产品经理作者【航通社】，微信公众号：【航通社】，原创/授权 发布于人人都是产品经理，未经许可，禁止转载。
-题图来自作者提供</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >小众软件</button>
-                  <a class="source-heading__link" href="https://www.appinn.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.appinn.com/open-minis-open-source/"
-                        open
-                      >
-                        <summary class="article-expander__title">Open Minis 宣布开源：比 Siri 更像 AI 助手，让手机帮你完成任务。支持 iOS、Android</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.appinn.com/open-minis-open-source/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.appinn.com/wp-content/uploads/2026/07/Copy-of-appinn-homework-2026-07-26T172328.677.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Open Minis 是一款在手机上的 Agent 应用。昨天，开发者 @Ethan 宣布 Open Minis 开源，支持 iOS 与 Android。@Appinn 经过 3-4 个月的迭代，Open Minis — “可能是你手机上最好的 Agent 应用” — 已稳定为成熟架构，现在为数万用</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.appinn.com/fluentcleaner-classic/"
-                        open
-                      >
-                        <summary class="article-expander__title">CCleaner 复刻版：3.57MB，开源清理工具 FluentCleaner Classic 发布</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.appinn.com/fluentcleaner-classic/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.appinn.com/wp-content/uploads/2026/07/Copy-of-appinn-homework-2026-07-26T143902.035.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>随着越来越多的 Windows 老用户对经典系统清理工具 CCleaner 的不满，比如广告、推荐、优化建议等，有开发者使用与 CCleaner 早期相同的 winapp2.ini 应用清理规则数据库，开源了一个新的项目：FluentCleaner。@Appi</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-07-25 datetime="2026-07-25T16:04:55.000Z">2026-07-25</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-07-25 datetime="2026-07-25T16:04:55.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >QiuQuan&#x27;s Blog</button>
-                  <a class="source-heading__link" href="https://www.qiuquan.org">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://www.qiuquan.org/?p&#x3D;12701"
-                        open
-                      >
-                        <summary class="article-expander__title">安卓应用——傲软抠图 1.8.6 解锁VIP会员版｜手机专业抠图工具</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.org/androidsoft/aoruankoutu.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.qiuquan.org/wp-content/uploads/2025/08/aoruankoutu-150x150.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>傲软抠图是一款专为抠图打造的智能App，它可以自动识别图片中的人物或物体，并从原图中抠出透明背景图像，同时提供抠图工具进行精确修剪，是您抠图的最佳选择。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://bak.qiuquan.cc/?p&#x3D;4165"
-                        open
-                      >
-                        <summary class="article-expander__title">系统优化 Advanced SystemCare 19.5.0.221 专业版 + 18.3.0.103 旗舰版</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.org/systemtool/advanced-systemcare.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.qiuquan.org/wp-content/uploads/2024/11/AdvancedSystemCare-150x150.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>一键清理优化和修复、深度清理Windows注册表、自动在线反浏览器跟踪保护隐私，提速高达300％的互联网助推器。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >异次元软件世界</button>
-                  <a class="source-heading__link" href="https://www.iplaysoft.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.iplaysoft.com/?p&#x3D;6509"
-                        open
-                      >
-                        <summary class="article-expander__title">Obsidian - 完美契合 AI 时代的免费笔记软件 (知识管理/ Markdown 编辑器/本地存储)</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.iplaysoft.com/obsidian.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://img.iplaysoft.com/wp-content/posts/6509/obsidian.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>以前我也觉得，笔记软件不就那回事吗？能记、能搜索、能同步，差不多就行。Notion、思源笔记、印象笔记、有道云、OneNote，基本都轮了一圈，结果总是这样或那样的失望……
-存了一大堆笔记，用的时候不是找不到，就是资料太多太乱人工难以整理；而想换工具，导出功能各种限制；好不容易养成习惯，平台一改规则又得重来。加上 AI 时代彻底变革，在经历反复横跳后，我最终决定把免费的 Obsidian 当成主力工具，用它来做学习/写作/知识管理……
-「 前往查看原文.... 」
-异次元还有这些值得一看：
-
-思源笔记 - 开源免费支持自建服务器的 Markdown 笔记应用 (替代 Notion 印象笔记 / 可离线)
-Notion 中文版 - “杀手级”全能型笔记软件 (替代印象笔记/强大灵活/支持Markdown)
-代替 Notion 中国版？！印象笔记推出新一代「超级笔记」模块化编辑器
-印象笔记 (Evernote中国版) - 优秀笔记软件知识管理工具应用 / 资料收集整理
-
-异次元首页  |  微信公众号  |  关注微博  |  软件精选  |  软件激活码折扣</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.iplaysoft.com/?p&#x3D;6509"
-                        open
-                      >
-                        <summary class="article-expander__title">Obisidian - 完美契合 AI 时代的免费笔记软件 (知识管理/ Markdown 编辑器/本地存储)</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.iplaysoft.com/obisidian.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://img.iplaysoft.com/wp-content/posts/6509/obsidian.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>以前我也觉得，笔记软件不就那回事吗？能记、能搜索、能同步，差不多就行。Notion、思源笔记、印象笔记、有道云、OneNote，基本都轮了一圈，结果总是这样或那样的失望……
-存了一大堆笔记，用的时候不是找不到，就是资料太多太乱人工难以整理；而想换工具，导出功能各种限制；好不容易养成习惯，平台一改规则又得重来。加上 AI 时代彻底变革，在经历反复横跳后，我最终决定把免费的 Obsidian 当成主力工具，用它来做学习/写作/知识管理……
-「 前往查看原文.... 」
-异次元还有这些值得一看：
-
-思源笔记 - 开源免费支持自建服务器的 Markdown 笔记应用 (替代 Notion 印象笔记 / 可离线)
-Notion 中文版 - “杀手级”全能型笔记软件 (替代印象笔记/强大灵活/支持Markdown)
-代替 Notion 中国版？！印象笔记推出新一代「超级笔记」模块化编辑器
-印象笔记 (Evernote中国版) - 优秀笔记软件知识管理工具应用 / 资料收集整理
-
-异次元首页  |  微信公众号  |  关注微博  |  软件精选  |  软件激活码折扣</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -24882,8 +25010,8 @@ Notion 中文版 - “杀手级”全能型笔记软件 (替代印象笔记/强�
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/allceo/feed/actions/runs/32679066052">
-        <time id="build-timestamp" datetime="2026-08-24T01:13:40.390Z">2026-08-24T01:13:40.390Z</time>
+      <a class="footer-link" href="https://github.com/allceo/feed/actions/runs/32796550712">
+        <time id="build-timestamp" datetime="2026-08-25T01:11:54.249Z">2026-08-25T01:11:54.249Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
