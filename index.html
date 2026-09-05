@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-09-04 datetime="2026-09-04T02:56:59.000Z">2026-09-04</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-09-04 datetime="2026-09-04T02:56:59.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-09-05 datetime="2026-09-05T02:21:41.000Z">2026-09-05</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-09-05 datetime="2026-09-05T02:21:41.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,815 @@
                   <a class="source-heading__link" href="https://www.woshipm.com">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6459890"
+                        open
+                      >
+                        <summary class="article-expander__title">AgentLoop数据飞轮，怎么持续调优</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6459890.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/13/07803bcc-d9de-11ed-8fc2-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Agent 上线后如何持续优化？AgentLoop 提出数据飞轮七步法，从接入、观测到经验库，将调优从零散修补升级为可复现、可验证的系统工程。本文拆解每一步的产品逻辑与 PM 落地要点，助你构建自进化 Agent。
+
+Agent 的难点不是说“造出来”就好，主要在“上线后持续变好”。
+开发期靠几十条样例和人工试聊能糊弄过去；一旦进生产环境，用户问法发散、工具会超时、模型会漂移、业务规则会改，原来那版 Prompt 会慢慢变质。这时候如果调优方式还是“看几条客诉 → 手动改几句 Prompt → 凭感觉发版”，就会出现原文说的三个毛病：
+零散：只处理了刚好被看到的 case；
+不可复现：下次换个人改，标准就变；
+无法证伪：“这次改动到底变好还是变坏”答不上来。
+AgentLoop 给出的解法是把调优做成数据飞轮：
+接入真实 trace → 观测 → 审计 → 沉淀 badcase 到数据集 → 建 Rubric 评估 → 开实验回测 → 经验库自动反哺。每转一圈，Agent 的起点都比上一圈高。
+
+作为PM，你不用立刻会写探针代码，但你必须看懂这条链上每一环在产品里是什么对象、产出什么资产、下一环怎么消费它。
+1. 从一个客服 Agent 与工作空间（AgentSpace）说起
+1.1 为什么先讲“工作空间”而不是“接模型”
+很多PM容易一上来问“接哪个 LLM”，但企业级 Agent 平台的第一个边界概念是资源租户边界：
+数据（trace、会话日志）
+数据集（badcase 集、golden set）
+评估器（Rubric、Judge Prompt）
+实验（版本、回测结果）
+经验库（Skill、经验规则）
+这些都挂在 AgentSpace 下。
+
+为什么要强调这个？因为生产环境里“客服 Agent”和“报销 Agent”不能共用同一份 badcase 集，也不能互相污染评估…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6459502"
+                        open
+                      >
+                        <summary class="article-expander__title">offer咋选？我26岁选了’所有人都说错’</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6459502.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/07/07/4732f132-1c97-11ee-94c6-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>两个 offer 怎么选，一位带过数十人的产品老兵没讲正确的废话。她 26 岁放弃更高薪的信息部负责人，去当最普通产品经理。文章给三个判断问题：攒本事还是消费学历、十年价值、心力够不够。
+
+最近校招季，今天一个实习的产品小伙子找我解惑，简单聊了聊，过程的互动，让我也满触动的，想着提笔写写……
+小伙子，二十出头，拿到两个产品offer，意气风发又满眼困惑。
+“姐，我怕选的行业五年后就没了——AI这么猛，产品经理这个岗，还能进吗？”
+
+还有一个：
+“手上两个offer，一个是听起来特别光鲜的大厂螺丝钉，一个是小公司、钱少一点，但说能跟着做核心项目；还有家里人，也劝我是不是去考公，我心里有点迷茫”
+
+两个问题其实都不小。今天挺晚的了，先聊聊选择。至于“AI来了，产品经理还能不能做”，话太长，一篇说不透，等周末有空再把和他聊的也写写。带过这么多年轻人，我有个习惯：不讲正确的废话。我给他讲了个我自己的故事。
+01 我26岁那年，选了”所有人都说错”的选项
+01我26岁那年，选了“所有人都说错”的选项
+26岁，我已经在一家物流公司管信息部，带三四十号人。后来离开时，摆在面前两条路：
+1-去另一个城市的物流公司做信息部负责人——头衔更高，薪水更可观。身边所有人都劝我去：这是往上走啊，傻子才不去。
+2-去一家互联网公司，做一个最普通的产品经理。从头做起，薪水低不少。
+我选了第二条。
+所有人都觉得我疯了。
+但只有我自己知道那个晚上的感觉：回想26岁信息部负责人的工作，我白天很坚强，所有事处理得滴水不漏；可每天晚上回家，关上门，抱着家人掉眼泪。
+那个位置要求的心力，26岁的我，真的拿不出来。白天硬撑、夜里崩溃，不是脆弱，是你的心力在报警——只是白天人多，你不肯听。
+
+我想得很清楚：地基没打够的时候接一个大位置，不是晋升，是透支。标题写得越大，将来摔得越狠。我还得脚踏实地，一步一步往上走。后来的路证明，那个所有人都看衰的选择，是我之后一切往上走的地基。
+02 选offer，别只看标价签，问三个问题
+我把这些年的想法，给小伙子总结成三个问题。
+第一问：这个岗位，是给你攒本事，还是只消费你的学历？
+光鲜的核心岗要问一句：我进去是真的接手事情、背结果，还是只当个螺丝钉转流程？判断标准很简单——面试时请对方讲清楚：我第一年具体做哪几件事、跟谁汇报、怎么考核。含含糊糊答不上来的“好平台”，往往是拿你当装饰。
+反过来，小公司也别只看“能做项目”四个字，要问：项目的规模、数据、用户量级到什么程度？你带的东西，三年后写进简历，行内人认不认？
+第二问：这个选择的“十年价值”是什么？
+薪酬的差距，在十年尺度上衰减得很快。起薪差三千，三年后没人记得；但这三年你练出的判断力、攒下的作品、跟过的硬仗，跟你一辈子。
+项目是公司的，本事是自己的。凡是只增加你名片厚度、不增加你能力厚度的选择，都是亏本买卖。
+第三问（也是最重要的）：这个位置要求的心力，你现在拿得出来吗？
+注意，是心力，不是能力，也不是意愿。能力可以学，意愿可以培养，唯独心力骗不了人——它取决于你的阅历、承压经验、还有你现在生活里有多少可以回血的空间。
+接住超出心力的机会，不是勇敢，是消耗。 真正的勇敢，不是敢选最贵的那条路，是敢承认自己此刻的承重，然后选那条让你地基变厚的路。
+小伙子听完，把两个offer来回比了比，说：姐，我知道怎么选了。聊完，小伙子眼睛是亮的。那一刻我也特别感慨。做了18年产品，从写代码、画原型、搭系统，到带团队、扛项目、做变革，我攒下的这些东西，原来真的能接住一个人的迷茫。
+选offer的问题，他心里有了底。但他还没起身，又把开头那个问题问了一遍：“姐，那AI呢？产品经理这个岗，五年后还在吗？“，18年里我亲眼看过三轮”技术要吃人”的戏码，每一轮活下来的都是同一批人。周末吧，得空了，我我把和小伙聊的点，写写，供大家思考。
+最后的最后，写给自己，我希望自己能坚持沉淀起来，不写新闻里的二手道理，只写我18年里踩过的坑、做过的选择、验证过的方法。从校招择业、AI冲击、职场委屈、转型迷茫，产品人的真问题，当是39岁送给40岁自己的礼物。赋能别人也在回馈自己！
+作者：曼话产品  公众号：曼话产品
+本文由 @曼话产品 原创发布于人人都是产品经理。未经作者许可，禁止转载
+题图来自Unsplash，基于CC0协议</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6459798"
+                        open
+                      >
+                        <summary class="article-expander__title">B端可视化大屏性能治理：从需求定义开始</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/pd/6459798.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2025/08/19/edd9a20e-7caf-11f0-9e45-00163e4b86a1.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>B端系统的可视化大屏，常常是 &quot;演示时惊艳、上线后崩溃&quot; 的重灾区。作为产品经理，可以不懂前端渲染原理，但必须在需求阶段就把性能问题设计掉。本文从指标收敛、查询粒度、交互降级三个维度，分享几个能直接落地的产品侧解法。
+
+去年做一个交易系统的工作汇报，客户领导要求现场用数据大屏演示过去一年的交易表现，页面转了整整15秒圈才加载完。会议室里没人说话，但气氛已经说明了一切。会后复盘，开发说 “数据量太大，查询慢”，运维说 “服务器配置不够、网络不好”，最后绕了一圈，结论是需求里没写性能要求，谁都没把这当回事。
+这在B端项目里太常见了。产品经理画原型时，总觉得 “性能是技术的事”，把大屏堆得满满当当，图表一个接一个。等到上线用户抱怨加载慢，才发现技术能优化的空间其实很有限，数据大屏的性能问题，其实80%在需求定义阶段就埋下了。
+一、指标减法，别把大屏当成指标仓库
+这是最容易被忽略，但投入产出比最高的一件事。
+设计大屏时，很多产品经理生怕漏掉什么，恨不得把所有能想到的指标都堆上去，例如交易额、完成率、趋势图、占比图、排行榜等等，一个首页放十几个指标和图表是常态。当然，这未必全是产品经理的想法，很多客户自己也希望大屏尽量多放指标，把领导可能关注的数据全部铺开，一屏看全。
+但真正观察用户的使用行为就会发现，大屏查阅是有一条业务逻辑线的，大多数人日常只盯着核心的几个指标，当这些指标出现异常才会有顺着业务逻辑去追看下游的图表。
+其实，做数据大屏和做PPT是一个路子。放在PPT上的，永远是这场汇报最核心、领导最关心的指标，整个演示有先后顺序，不是把内容随手堆上去。而那些领导可能追问、又并非本次重点的明细数据，通常的做法是提前备好附件材料，问到了再拿出来，大屏的下钻页面正是起这个作用。反过来想，如果PPT内容塞满十几个图表，领导根本没耐心听完，大屏堆满指标用户同样没有耐心看完。
+
+所以，我建议在…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6459785"
+                        open
+                      >
+                        <summary class="article-expander__title">豆包Agent最系统手把手教程，从入门到精通（附完整PDF）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6459785.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/wp-files/2026/09/20260904171946928881-01.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>字节豆包联合飞书打造的桌面 Agent 助手，把群聊纪要、浏览器操作、数据透视这类办公活全部交给它跑。20 个核心功能加 4 个真实场景教程，从下载安装到解放双手，一文打通 WorkAgent 上手路径。
+
+最近这几个月，WorkAgent成了兵家的必争之地，真的卷疯了，今天一个发布，明天一个更新，我勒个豆。
+腾讯出了workbuddy，阿里出了千问办公，紧接着字节联合飞书、豆包，打造了豆包Agent：也就是豆包工作。
+至此，你可以把电脑完全包外给豆包了，效率飞升～
+这几天我也看到很多朋友开始使用豆包工作，分享一些豆包工作的使用经验，诸多信息综合下来看，我感觉这是字节押注必须要做好的产品。
+
+而且，豆包本身就是一款国民级的 AI 产品了。甚至我周围的很多人提到AI，只知道豆包。
+我觉得，豆包工作今后是有机会像抖音一样普及的存在。
+所以，我们才又肝了七天开源了豆包工作蓝皮书。
+
+我们还成立了AgentWork社区，意在把 Agent 用进真实工作。社区使命是： 把一人的用法，变成百业的方法。
+
+写蓝皮书的过程，也是我重度使用豆包工作的过程，群聊、开会、爬数据全都拿它跑过，可以帮助省下不少时间，不得不说真有点东西。索性写一篇保姆级教程，给它讲透。
+具体的，我们一步一步来说。
+01 下载与安装
+第一步很简单，先把东西装上，「工欲善其事，必先利其器」嘛。
+官网 doubao.com/work，点「下载豆包工作」，它会自己认你的设备是 Mac 还是 Windows，直接下对应版本。
+
+下载完安装好，恭喜你，得到了一个能深度联动飞书生态的 Agent 助手。
+接着登录。这步稍微停一下讲讲，因为选哪种账号是有讲究的：豆包账号，或者飞书账号。
+我自己用的是飞书登录。好处是团队的群聊、文档、会议、审批这些数据它都能拿到，干活时上下文足，它知道去哪儿找东西。你要是不用飞书，拿豆包账号登也行，它…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6459698"
+                        open
+                      >
+                        <summary class="article-expander__title">中国大模型的集体隐形出海</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6459698.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/14/81ad6c74-da9e-11ed-9b82-00163e0b5ff3.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>美国商务部出口管制令Anthropic最强模型全球下线18天，监管总开关从理论变现实。Cursor、Harvey、汤森路透等硅谷公司集体转向中国开源模型，连OpenAI投资的Harvey也自建底座——租来的智能有开关，下载的才真正属于自己。
+
+2026 年 6 月 12 日，美国商务部给 Anthropic 发了一份出口管制指令。
+指令要求，Fable 5 和 Mythos 5 两款最强模型，从当日起不允许任何外国国籍的人访问，Anthropic 自己非美国籍的海外员工也不行。
+Anthropic 没法在几秒钟内查清每个用户是哪国人，干脆做了个更彻底的决定，全球下线，谁都别用。
+这个信息我估计前段时间都看到了吧？
+当天，这款全球最强模型，全世界都进不去了。企业客户看到的是，核心服务一夜消失，没有预警，没有申诉渠道，金融、医疗、软件服务商，全在里面。
+
+18 天后，管制解除，模型重新上线，回来是带条件的，Anthropic 承诺配合政府的新模型发布审查，主动报告安全风险，商务部保留随时再次拉闸的权力。
+美国媒体复盘这次事件，用了一个词，regulatory kill-switch，监管总开关，一个下午，它就从理论变成了运营现实。
+当时一批网络安全研究者联名公开反对过这纸指令，说一刀切下去，先伤的是自家做防御的人。还有一层账算得更冷，拉闸这些天，等于把时间窗口递给了大洋彼岸搞开源的同行。
+有意思的是，Anthropic 旗下其他模型全程没受影响，只有最强的两款被关了 18 天。开关要拉，就挑最强的拉。
+讲这件事，是因为接下来要说一个更大的变化。
+过去半年，几家全球最贵的 AI 公司，Cursor、Harvey、汤森路透，陆续把自家模型的底座，从美国闭源模型换成了中国开源模型。
+其中 Harvey 是 OpenAI 投资的公司，估值 110 亿美元，服务两千多家机构。
+理解这个集…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-09-04 datetime="2026-09-04T16:12:23.000Z">2026-09-04</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-09-04 datetime="2026-09-04T16:12:23.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >QiuQuan&#x27;s Blog</button>
+                  <a class="source-heading__link" href="https://www.qiuquan.org">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://bak.qiuquan.cc/?p&#x3D;4145"
+                        open
+                      >
+                        <summary class="article-expander__title">7-Zip 26.03 Final + 24.03 Beta + 21.02 Alpha｜美化版｜32&amp;64位整合版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.org/compress/7-zip.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.qiuquan.org/wp-content/uploads/2024/11/7-Zip-150x150.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>7-Zip是一款免费的文件压缩/解压软件，拥有极高的压缩率。
+它特有的高解压速率，是其它的压缩软件难以相比的。它源自 LZ77 的优化改进的 LZMA 算法，具有高压缩率、可变的字典大小、高解压速率、低解压内存消耗等优点，现已被很多脚本安装程序作为默认的压缩算法。LZMA 算法在 GNU LGPL 协议下开放源代码，您可以从 7-Zip 官方网站或者 SF 服务器下载使用。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.qiuquan.org/?p&#x3D;19369"
+                        open
+                      >
+                        <summary class="article-expander__title">阿香婆截图 Ashampoo Snap Pro 26.0.6 直装破解版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.org/image/snappro.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.qiuquan.org/wp-content/uploads/2026/07/SnapPro-150x150.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Ashampoo Snap 捕获截屏或视频几乎就像魔法一般！您在屏幕上看到的任何东西都会被忠实地捕获下来，并且有大量智能设置。内置编辑器负责后期处理和文件管理。无论是在家工作，需要解释一个过程或计划创建一个完整的教程，Snap 都有您需要的工具！</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.qiuquan.org/?p&#x3D;18409"
+                        open
+                      >
+                        <summary class="article-expander__title">安卓应用——酷狗音乐概念版 5.2.1 养老版 + 5.2.7 去广告版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.org/androidsoft/kugouapp.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.qiuquan.org/wp-content/uploads/2024/11/kugou-150x150.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>酷狗概念版，是酷狗音乐旗下推出的一款全新设计、功能更加丰富和先进的音乐播放软件。它不仅继承了酷狗音乐强大的在线音乐库、高品质音乐播放功能，还在界面设计、用户体验和个性化推荐等方面进行了大胆的创新和优化。无论是在通勤路上，还是休闲娱乐时，酷狗概念版APP都能为用户提供一站式的音乐服务，让用户的音乐生活更加丰富多彩。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://bak.qiuquan.cc/?p&#x3D;4258"
+                        open
+                      >
+                        <summary class="article-expander__title">PotPlayer 1.7.23122 正式版 + 23118 测试版｜美化增强安装版 (禁止程序联网&amp;禁止强制升级)</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.org/media/potplayer.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.qiuquan.org/wp-content/uploads/2025/02/potplayer-150x150.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PotPlayer 是 KMPlayer 的原制作者姜龙喜先生（韩国）进入 Daum 公司后的新一代作品。PotPlayer 的优势在于强大的内置解码器；而 KMPlayer 的优势在于强大的定制能力和个性化功能。PotPlayer 使用 VC++ 编写， KMPlayer 为 Delphi 编写。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.qiuquan.org/?p&#x3D;19397"
+                        open
+                      >
+                        <summary class="article-expander__title">安卓应用——小飞机网盘 1.6.0 去广告版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.org/androidsoft/feijipan.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.qiuquan.org/wp-content/uploads/2026/07/FeiJiPan-150x150.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>小飞机网盘是一款功能强大的云存储和文件分享应用。它提供了海量存储空间，支持用户上传、下载、存储和分享各种文件，包括图片、视频、文档等。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.qiuquan.org/?p&#x3D;16879"
+                        open
+                      >
+                        <summary class="article-expander__title">安卓应用——XRecorder 录屏大师 2.5.4.4 解锁专业版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.org/androidsoft/xrecorder.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.qiuquan.org/wp-content/uploads/2026/03/XRecorder-150x150.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>XRecorder录屏大师是inshot软件公司的一款高清录屏工具，让您轻松录制超清无卡顿的视频录像，一键快速截屏。小巧便捷的悬浮窗让您摆脱繁琐的步骤，一键开启录制。录制高清视频、视频电话、捕捉精彩的游戏画面、游戏直播，让你不错过任何一个精彩瞬间。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://www.qiuquan.org/?p&#x3D;8080"
+                        open
+                      >
+                        <summary class="article-expander__title">翔基视频剪切合并 Fast Video Cutter Joiner 7.2.1.0 汉化破解版 | 安装版 + 便携版 + 单文件版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.org/convert/videocutjoin.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.qiuquan.org/wp-content/uploads/2026/03/VideoCutJoin-150x150.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>这是一款简单快速的视频剪切合并工具。 支持高速无损剪切合并模式，剪切合并视频只需几秒钟时间，保持原有视频画质。 同时也支持编码模式进行剪切合并，转换为不同的视频格式。 可从视频中提取MP3音频文件。 操作非常简单，仅需三步就可轻松编辑视频。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://www.qiuquan.org/?p&#x3D;11726"
+                        open
+                      >
+                        <summary class="article-expander__title">安卓应用——Solid Explorer 文件管理 3.5.20 解锁高级版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.org/androidsoft/solidexplorer.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.qiuquan.org/wp-content/uploads/2025/06/solidexplorer-150x150.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Solid Explorer 是一款功能强大的安卓文件管理工具，采用现代化设计风格，支持双窗口浏览、云存储集成（Google Drive/Dropbox等）、压缩文件处理及局域网文件传输。提供Root访问、加密存储、主题自定义等高级功能，兼顾美观性与实用性，是高效管理手机/平板文件的专业选择</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://www.qiuquan.org/?p&#x3D;6682"
+                        open
+                      >
+                        <summary class="article-expander__title">雷电模拟器 9.5.36.0 + 14.0.25.1 国内版 | 9.5.32.0 + 14.0.25.1 海外版 | 去广告版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.org/systemtool/dnplayer.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.qiuquan.org/wp-content/uploads/2026/06/LDPlayer-150x150.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>雷电安卓模拟器是可以在电脑上模拟安卓系统的软件，非常适合在电脑上玩手游，它支持市面上99%的游戏和应用，运行流畅，解决挂机烦恼，多开挂机流畅不掉线，拒绝手机发烫、电量不足、内存不足等手机端缺点，为玩家提供更好的游戏环境与操作方式。雷电拥有众多特色功能，游戏手柄即插即用、一键宏高端玩家必备、操作录制循坏操作、一键定位点哪定哪、超宽屏享受更宽视野、同步器操作一次操作多个窗口……下载安装雷电模拟器轻松玩转各种手游、应用。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >人人都是产品经理</button>
+                  <a class="source-heading__link" href="https://www.woshipm.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6457134"
+                        open
+                      >
+                        <summary class="article-expander__title">两个斯坦福毕业生做了个女性健康手环：不用抽血，也能连续看激素变化</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/chuangye/6457134.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/05/06/13e09912-ec02-11ed-adbb-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Clair 想做“女性版连续血糖仪”，不扎针，用10类生物传感采集130多项指标，由机器学习反推激素与周期变化。文章拆解两位斯坦福毕业生如何用生理痕迹替代抽血，并规划 FDA 许可的两代产品。
+
+今天分享的产品我很喜欢：Clair，https://wearclair.com/
+如果一个人想知道自己的血糖变化，现在已经有连续血糖监测仪。
+但女性身体里另外一组同样重要、而且一直在变化的数据：激素。
+想知道雌激素、孕酮、LH、FSH，通常意味着：
+抽血、验尿、或者根据月经日期和症状大致推测，而且测出来的往往只是那一个时间点。
+
+两个斯坦福毕业生 Jenny Duan 和 Abhinav Agarwal 因此提出了一个很大胆的问题：
+能不能做一个“女性版连续血糖仪”，不用扎针，也能一直看身体里的激素变化？
+
+他们做出来的产品叫 Clair。
+
+外观看起来就是一只很普通的手环。
+但里面放了10类生物传感方式，持续采集130多种生理指标，再用机器学习模型判断女性处于月经周期的哪个阶段，以及身体正在发生什么样的激素变化。
+今年6月，Clair Health 完成 1160万美元种子轮融资。
+融资公布时，公司已经有 2.5万人候补名单，第一批5000台预售设备很快售罄。
+01 Clair 到底在测什么？
+看到“连续激素监测”，很多人第一反应可能是：手环直接穿过皮肤，检测到了血液里的雌激素。
+不是，至少 Clair 现在的产品不是这样工作的。
+连续血糖仪是在皮下放置传感器，直接检测组织液里的葡萄糖。
+Clair 完全不刺破皮肤，它走的是另外一条路线：
+不直接抓激素分子，而是观察激素在整个身体里留下的生理痕迹，再用 AI 反推。
+例如孕酮升高以后，会影响体温。
+月经周期不同阶段，静息心率、HRV，也就是心率变异性、皮肤温度等指标，会出现规律性变化。
+这并不是 Clair 自己发明出来的关系。
+…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6459774"
+                        open
+                      >
+                        <summary class="article-expander__title">AI 带货视频竖转横，不用重拍不用裁：一段提示词重构画面</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6459774.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/05/29/bcfce10c-fdc0-11ed-88d8-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>带货视频常因画幅比例不匹配而影响投放效果，裁剪又容易丢失关键画面。本文分享一段提示词，让AI在理解画面元素后自动重构构图，将9:16竖版转为16:9横版，并实测短分镜与长视频的转换效果，附完整可复制的提示词。
+
+我刷 X 的时候看到海幸分享了一个帖子，说可以用一段提示词把视频的画幅比例转换——9:16 的竖版变 16:9 的横版，不是裁剪，不是拉伸，是让 AI 重新理解画面然后重构构图。
+提示词原作者是 @Framer_X。
+
+我正好在小云雀里做了几条带货视频，刚好有这个需求，马上就去试了。
+文末附了完整的提示词，复制就能用。
+01 做带货视频的人都碰到过这个问题
+有的平台要竖版，有的要横版，有时候还得来个正方形。
+同一条素材，在不同平台下播放效果不好。
+
+以前的做法要么重新拍，要么让剪辑师手动裁——费时间不说，裁完的画面经常不对劲，该看到的东西被切掉了。
+我最近在小云雀里做了几条带货视频。
+一条是紫水晶手串的，16:9 横版。
+
+给了一张产品图，小云雀直接生成了一条带货短片。
+还做了一条冰淇淋广告，9:16 竖版，三段分镜自动生成。
+
+视频做出来效果还行，但画幅的问题马上就来了——竖版的想投横屏渠道，横版的想发竖屏平台，来回都卡在比例上。
+02 一段提示词，让 AI 重构画幅
+这段提示词不是简单裁剪。它的核心逻辑是告诉 AI：
+理解原始视频里所有的画面元素——人物、动作、背景、光影
+在新画幅里重新排布这些元素
+原来画面之外的区域，AI 自己补出来，跟原画面无缝衔接
+最终效果：看起来就像一开始就是这个比例拍的
+说白了就是让 AI 把画面“想象”成另一个比例拍的样子，把缺失的部分补全。视频的每一帧都这么处理。
+03 实测：短分镜能转，长视频翻车
+我拿冰淇淋广告试了一下。这条广告是三段分镜，每段只有几秒钟。
+用提示词一转——成了。9:16 的竖版变成了 16:9 的横版，画面重…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6459718"
+                        open
+                      >
+                        <summary class="article-expander__title">OpenViking 实战：把知识库、长期记忆和 Agent 技能统一到一个上下文文件系统</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6459718.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/14/91d2911a-da9e-11ed-95a1-00163e0b5ff3.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>火山引擎开源OpenViking，以虚拟文件系统统一知识库、记忆与技能，通过L0/L1/L2分层加载优化Agent上下文检索。本文详解其设计思路、部署流程及Claude Code等工具接入实测，展示如何提升Agent信息利用效率。
+
+最近在整理 Agent 的知识库和长期记忆时，我发现一个很有意思的开源项目：OpenViking。它来自火山引擎团队，定位是面向 AI Agent 的开源上下文数据库——解决一个越来越明显的问题：资料、记忆、技能和项目文件分散在不同工具里，Agent 虽然“能搜到”，却未必知道应该先看什么、为什么找到这些内容。我用它搭了本地知识库，又接入了 Claude Code、WorkBuddy、Cherry Studio，实际体验下来，它更像一套 Agent 的上下文基础设施，而不只是一个向量数据库。
+项目地址：github.com/volcengine/OpenViking
+01 OpenViking到底是什么？
+
+OpenViking 把三类内容统一放进一个虚拟文件系统：
+Resources · 知识资料：项目文档、网页、代码和其他知识资料，是 Agent 工作时的“参考资料库”。
+Memories · 用户记忆：用户偏好、历史事件、实体信息和 Agent 经验，跨会话长期存在。
+Skills · 技能工作流：Agent 可以按需调用的技能和工作流，多个 Agent 共享同一套定义。
+这些内容使用 viking:// URI 统一表示。对 Agent 来说，它们不再是散落在向量库、Markdown 文件和插件配置里的几套数据，而是可以通过类似文件系统的方式浏览、搜索和读取的上下文资源：
+
+
+viking://
+├── resources/
+│　　└── my_project/
+│　　　　├── docs/
+│　　　　└── src/
+└── user…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6458368"
+                        open
+                      >
+                        <summary class="article-expander__title">即时零售火了以后，最先撑不住的往往不是配送</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6458368.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/10/31/971ffb1a-77e9-11ee-be6e-00163e142b65.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>即时零售增长迅猛，但“小时达”并非简单加个标签。本文从库存、订单、门店、运力四维拆解订单承诺的构建，指出真正的挑战在于付款前完成四重校验，并明确责任边界。适合电商产品经理深入理解即时零售的系统逻辑。
+
+最近一组数据很扎眼：2025 年，餐饮、生鲜等即时配送平台交易额同比增长 30.3%；到了 2026 年上半年，即时零售交易额仍保持两位数增长。
+增长落到需求群里，通常会被翻译成一句话：
+“竞品都上小时达了，我们也得尽快接。”
+听起来像是多一种配送方式，再给商品加个“小时达”标签。
+但我做电商第 8 年，折腾过品牌、跨境和新零售之后，对“只加一个标签”的需求已经有点条件反射了：页面上多四个字，后面通常不是多四个字段。
+说明：下面是把多类项目中的常见矛盾揉在一起的脱敏综合场景，不对应某一家真实公司，也不冒充我的亲历案例。
+
+大促前一周，品牌运营希望在周五前把 300 多家门店接入小时达。
+商品产品说：“门店库存大于 0，我就展示小时达。”
+库存产品提醒：“门店收银系统每 15 分钟才做一次全量校准。样品、店员留货、刚卖掉还没扫码的货，不一定已经扣掉。”
+门店负责人接着说：“晚上 6 点到 8 点只有两个人值班。就算货还在，每小时超过 12 单，也拣不过来。”
+客服最后问：“那用户付完款才发现缺货，算谁的？换一家店继续送，还是取消赔券？谁决定？”
+五个角色都在说“能不能送”，说的却不是同一件事。
+
+即时零售最先暴露的，往往不是骑手够不够，而是系统能不能在用户付款前，给出一个库存、门店、订单、运力和客服都认账的承诺。
+本篇拆什么：只拆“承诺”这一件事
+前面我分别写过库存、订单中心和履约售后。如果这篇只是把旧知识换成“小时达”的例子再讲一遍，就没有必要了。
+
+这次我只沿着三个视角往下拆：
+对象：用户买到的是一个 SKU（也就是具体到规格的商品单位），还是“某个地址、某件商品、某家门店…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6459627"
+                        open
+                      >
+                        <summary class="article-expander__title">谷歌真的急了！Gemini 3.8 Flash 刚发布，Google Harness 就跟随其后</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6459627.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/05/06/27820d80-ec01-11ed-bbb6-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Google 发布 Gemini 3.8 Flash 的同时，深入探讨了 Harness Engineering 的重要性。本文对比 OpenAI、DeepSeek、Google 三大厂商的 Harness 路线，解析如何通过工程架构让 Agent 稳定、安全地完成复杂任务，并揭示未来企业评估 Agent 的关键指标。
+
+9 月 2 日，Google 正式发布 Gemini 3.8 Flash，这是目前 Google 最强的 Flash 模型。同一天，Google AI 的开发者账号发布了一篇值得看的技术文章：《What is harness engineering and why should I care?》。
+一边继续升级模型，一边讲 Harness Engineering，比单看某个 benchmark 更有意思。整个 Agent 行业越来越清楚地认识到一件事：模型决定 Agent 有多聪明，Harness 决定这份智能能不能持续、稳定、安全地完成工作。
+这也是为什么今年 OpenAI、DeepSeek、Google，甚至 NVIDIA，都开始把大量工程资源投到模型架构。
+一、Harness等同于Agent 的运行系统
+如果 Agent 是一匹能力很强的赛马，Harness 就是赛道、缰绳和护栏。模型负责跑，Harness 决定它往哪里跑、能跑到哪里，以及冲出赛道的时候怎么把它拉回来。
+从工程角度看，一个典型 Harness 可拆成几个部分：Model → Context → Tools → Execution → State → Verification → Repair Loop
+Model 是 Gemini、Claude、GPT 或 DeepSeek等模型；Tools 负责文件、浏览器、数据库和 MCP；Execution 负责真正运行命令；State 记录任…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6459633"
+                        open
+                      >
+                        <summary class="article-expander__title">能摸鱼了！我把一周的周报、表格、PPT全丢给了豆包工作</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6459633.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/wp-files/2026/09/20260904150506316705-01.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>豆包工作Agent把周报、表格、PPT和定时Skill整合进一个入口，实测可用性测试数据清洗、9页汇报PPT生成和竞品追踪日报都能连续完成。相比多工具拼接，它的价值在于任务云电脑执行、多端共享上下文，以及关键操作再确认的可控性。
+
+8月份国内多家大厂把自己的招牌产品整合为办公 Agent 产品向个人和企业开放公测。一个信号已经很清楚：办公 Agent 的竞争，不再是谁会多写一段文案，而是谁能把文件、数据、协作和定时任务接成完整工作流。
+豆包全新推出的独立端「豆包工作」也是沿着这条路往前走：一句话派活，自动完成写周报、整表格、数据分析、做 PPT、调用 Skill 等复杂办公任务。
+但这次更值得看的，不是电脑里又多了一个 Agent，而是同一个入口能不能接住一周里的不同工作。文字、CSV、图片、PPT 和 Skill 不需要在多套工具之间来回搬；重任务可以放在云电脑里继续执行，手机、PC、Web 多端协同共享上下文。
+豆包工作Agent有何不同之处？
+第一个差别是任务不必跟着电脑走。不少“手机操控电脑”的方案，本质上仍要求那台电脑保持开机；一旦合盖或断线，定时任务也跟着停。豆包工作采用本地电脑和云电脑结合的方式，任务可以在云端推进，Web 端完整交付，并在手机、PC、Web 之间查看同一任务。
+第二个差别是不用为每类工作单独养一个工具。周报要文档能力，测试数据要表格与分析，PPT 要版式和配图，竞品追踪还需要搜索、Skill 和定时执行。豆包工作把这些能力放进同一工作入口，云电脑处理重任务也不侵占本机资源，减少多个 Agent 同时运行带来的负担。
+
+对于原本就在使用豆包的人，也不必为了办公 Agent 再搭一套新工具栈，直接开启 Agent 功能即可开始派活。
+第三个差别是“交出去”以后仍然可控。任务可以在小窗后台运行，需求变化时随时插话；遇到删除文件等动作再请求确认。它像…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6459630"
+                        open
+                      >
+                        <summary class="article-expander__title">FDE：产品经理管不了的我要管，管得了的我也要管</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6459630.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/08/28/80b91040-4554-11ee-9de9-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>一个经营分析的 AI 智能化需求背后，产品负责人与 FDE 负责人争论不断。拆解 B 端 Agent 产品如何分层：规则、Workflow、LLM 节点、Agent 各司其职，产品守住稳定解，FDE 承接边界外问题，让共性能力在真实业务里回流产品、沉淀底座。
+
+前段时间在一家做数字员工公司的咨询过程中，我旁听了他们 FDE 负责人和产品负责人一场挺激烈的争论。
+他们的问题是：AI 时代下，B 端的 Agent 产品到底应该做成什么形式？以及如何设计才能兼顾可处理问题难度、结果确定性和灵活性？
+一个业务的复杂度低的时候，可以保证它的确定性足够高，但当一个业务的复杂度过高的时候，使用工作流缺少灵活性、已经很难维护了，但是 Agent 驱动又很难保证结果确定性。
+
+一开始聊技术，争论的是业务理解到底应该在什么载体上面，Workflow 在哪里承载？数字员工应该怎么定义？
+慢慢地聊到产品边界，产品负责人认为，产品一定要有边界，什么能做、什么不能做，必须定义清楚。否则客户每来一个需求，就得重新开发一次，最后做出来的不是产品，只是一套越来越复杂的项目平台。
+而 FDE 负责人的观点正好相反，现在的大量 AI 项目本就在产品边界之外，客户不会因为产品只能做到这里，就只提这些问题。
+
+甚至说出了：产品要是实在做不到，我可以不用你的产品来交付。
+
+再往后，一路聊到了交付方法论、平台架构设计、Agent 的商业模式和团队投入。
+听起来很散，但背后其实一直是同一个问题：一个复杂、模糊、不确定的客户问题，究竟要怎样才能变成可以规模化交付的产品能力？
+这可能也是今天很多 AI 公司需要回答的问题。
+压缩不确定性
+先回到最传统的软件逻辑。为什么软件企业一定要产品化？
+一个业务如果复杂度很低，规则能够说清楚，输入输出明确，异常情况也能够被枚举，那么最好的实现方式就是写程序。
+
+因为程序最大的价值就是确定…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6457276"
+                        open
+                      >
+                        <summary class="article-expander__title">一个项目管理软件的诞生（十）：企业级配置中心设计，作用域、复用与变更治理</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/pd/6457276.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/wp-files/2026/08/20260831144557755980-01.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>配置中心若只是一组后台菜单的集合，能建东西却答不了被谁引用、改了影响多少、如何回滚。企业级配置中心应是平台业务规则的治理系统：追踪配置的身份、绑定范围、传播方式与版本，配置才从功能变成可治理的模型。
+
+项目管理平台刚建起来时，配置通常是一组后台页面：工作项类型、字段、流程、角色、权限、视图，各自有一个新建按钮。管理员配置好“需求”复制给第二个团队，改几个字段再复制给第三个。一开始这种方式很快，真正的麻烦会在一年后出现：公司想给所有缺陷增加“根因分类”，管理员却发现系统里已有大量同名字段、相似类型和只差少数步骤的流程；直接删除“待验证”状态，所有引用它的空间、看板、工作项和自动化都可能同时受影响。
+这时再打开“配置中心”，你会发现它只是把所有配置页面集中放在一起，能创建东西，却回答不了“这项配置被谁引用、修改影响多少数据、如何验证和回滚”。
+企业级配置中心不是后台菜单的集合，而是平台业务规则的治理系统。 只有继续追踪配置的身份、绑定范围、传播方式、版本和存量数据，配置才真正从“功能”变成可治理的产品模型。读完这篇，你可以回去检查自己的配置后台：哪些“复制”按钮其实欠了一个绑定关系，哪些删除按钮欠了一张依赖图。
+第九篇决定资源放在哪个长期空间；这一篇继续回答：一套规则如何被很多空间复用，又怎样在复用时避免“一处修改、全局事故”。
+01 先区分配置数据与业务数据
+普通用户创建一条需求，这是业务数据；管理员定义“需求有哪些字段、走什么流程”，这是配置数据。业务数据描述已经发生的事实，修改一条需求通常影响一个对象；配置数据定义未来允许产生什么事实，修改一个字段、状态或关系类型，可能改变成千上万条对象的解释方式。
+
+一句话：配置的威力与风险来自同一件事——一份定义会被一批实例共同使用。修改配置不是只改一行记录，而是改变命中范围内既有与未来数据的解释方式。
+所以这篇文章不按后台菜单展开，…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6458058"
+                        open
+                      >
+                        <summary class="article-expander__title">别急着做产品，一个公式做对文化转译：理念×符号×情绪</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6458058.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/13/3aec73ce-d9eb-11ed-9d7a-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>文化IP不是加法，是乘法：一个核心理念×一组最强符号×一组用户情绪入口，任何一个环节为零，结果就是零。飞天不是古代壁画，是当代人&quot;想逃离KPI&quot;的情绪出口。文化只是入口，情绪才是连接。
+
+我做了十几年品牌设计，参加过海昏侯刘贺IP设计，看到了这个行业太多有资源没IP的困局。
+现在我认为，文化IP转译的核心公式只有一句话：
+文化IP &#x3D; 一个核心理念 × 一组最强符号 × 一组用户情绪入口
+不是加法，是乘法。
+任何一个环节为零，结果就是零。
+
+下面拆开说。
+
+第一步：先别看我们有什么，先问用户要信什么
+大多数博物馆、景区的文化品牌的第一步就错了。
+他们打开文化素材库，看的是我们有什么？
+比如，敦煌有飞天、九色鹿、藻井、壁画、纹样、色彩、乐器、神话……
+于是，只要是文物，每一个都做成产品。
+但其实，等于什么都没有。
+用户心智的容量极其有限，你不能同时塞给他十个信息，指望他记住你。
+品牌不是我有什么就给你什么，品牌是我选择让你记住什么？
+可口可乐不是“我们有很多种汽水”，它是“快乐”。
+耐克不是：我们有很多运动鞋，它是“Just Do It”。
+迪士尼不是：我们有很多卡通角色“，它是”快乐与梦想”。
+
+文化IP也一样。
+文化素材不是IP，素材只是资源库。
+IP是从资源库里做减法，选出一个最值得被记住的核心理念。
+第二步：找到核心精神，提炼为符号，把古代资源变成一组当代情绪
+确定核心理念之后，下一步不是找产品，而是做“精神翻译”。之前我分析过爆款对应的8大情绪密码：8大情绪密码
+
+同样，提炼出这个文化的核心理念后，我们找到，对今天的人意味着有哪些情绪出口？
+以敦煌为例。
+素材层面，敦煌有几百个洞窟、几万平米壁画、无数人物和纹样。
+但如果我要做一个面向当代年轻人的敦煌IP，我不会把这些都塞给用户。
+我会问：飞天到底是什么？
+飞天是向天空飞翔，是摆脱地心引力，是轻盈，是自由。
+
+今天的…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6459603"
+                        open
+                      >
+                        <summary class="article-expander__title">数据分析 Agent 的命门不是模型，是你没写下来的口径</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/data-analysis/6459603.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/07/07/472aba94-1c97-11ee-ac15-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>当分析工作从三天压缩到五分钟，关键不在于AI取代人，而在于把口径标准沉淀为可复用的资产。本文作者以产品经理视角，分享如何通过线下共识、项目宪法和四层资产架构，将数据分析流程Agent化，实现结论一致性与可追溯性。
+
+一个人三天，五分钟
+以前，关于对业绩达成评价的放款指标分析工作，都是散在各个关联团队里，由各个团队专门的分析角色负责：一个人，一轮周度分析，从准备数据到分析，再到验证后出结论，前前后后大概要三天。大家关注点不一样，各个团队的结论差异往往还要在汇报当天掰扯半天，才能对齐。
+现在集中到一个人身上：我统一收口跑分析 Agent，五分钟出一致性结论。
+从每团队投入三人天到集中五分钟，不是因为我更快或更权威。那三天本来就不是花在分析上——花在前置动作上：不同源数据抽取、逻辑自洽性验证、口径维度拉齐、结论修饰和建议组装，每周基本从零开始，力气全砸在不同视角下对「标准要归一」的重复劳动上。现在这些前置动作资产化了：标准一旦确立，初始数据验证完成，后续的周度分析就是按部就班的输出。人只需要看结论、做判断。
+我做的，其实是把自己日常用的一套数据分析方法论，沉淀成一个可执行的套件：一套工作流、一套规范、一套可沉淀复用的资产，可以架在任何大模型上。它干的事，是把已知的分析流程嵌进 Agent 的执行里——每一步都有固定规程，每一步都有围栏，不是让模型自由探索。这是一次把分析工作 Agent 化的 PM 实践。但重点不在 Agent 化本身，而在于统一口径标准。
+口径，就是一个指标的计算规则——分子是什么，分母是什么，哪些场景计入，哪些剔除。同一个「放款成功率」，在两个人嘴里可能是两个完全不同的公式。业界给这种「唯一正确的参照」起了个名字，叫 Ground Truth（简称 GT，可以理解为标准口径基线）。我做的，说到底就是两件事：先联合各方达成一致意见，再把放款分析的 GT 交到 A…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -444,84 +1253,24 @@ YAML 契约 白纸黑字写着7个字段必须齐全，编译管线 明确约定
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >QiuQuan&#x27;s Blog</button>
-                  <a class="source-heading__link" href="https://www.qiuquan.org">Open</a>
+                  >小众软件</button>
+                  <a class="source-heading__link" href="https://www.appinn.com">Open</a>
                 </h3>
                 <section class="articles-per-source">
                     <article>
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.qiuquan.org/?p&#x3D;16879"
+                        data-accordion-key="https://www.appinn.com/eggs-2694/"
                         open
                       >
-                        <summary class="article-expander__title">安卓应用——XRecorder 录屏大师 2.5.4.4 解锁专业版</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.org/androidsoft/xrecorder.html">
+                        <summary class="article-expander__title">本周赛博领鸡蛋（9.4~9.10）：《与你独处》《寻找埃文》</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.appinn.com/eggs-2694/">
                           <div class="article-summary-box-inner media-object">
-                              <img src="https://www.qiuquan.org/wp-content/uploads/2026/03/XRecorder-150x150.png" loading="lazy" class="media-object__media article-image" />
+                              <img src="https://www.appinn.com/wp-content/uploads/2026/08/12.jpg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>XRecorder录屏大师是inshot软件公司的一款高清录屏工具，让您轻松录制超清无卡顿的视频录像，一键快速截屏。小巧便捷的悬浮窗让您摆脱繁琐的步骤，一键开启录制。录制高清视频、视频电话、捕捉精彩的游戏画面、游戏直播，让你不错过任何一个精彩瞬间。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://www.qiuquan.org/?p&#x3D;8080"
-                        open
-                      >
-                        <summary class="article-expander__title">翔基视频剪切合并 Fast Video Cutter Joiner 7.2.1.0 汉化破解版 | 安装版 + 便携版 + 单文件版</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.org/convert/videocutjoin.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.qiuquan.org/wp-content/uploads/2026/03/VideoCutJoin-150x150.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>这是一款简单快速的视频剪切合并工具。 支持高速无损剪切合并模式，剪切合并视频只需几秒钟时间，保持原有视频画质。 同时也支持编码模式进行剪切合并，转换为不同的视频格式。 可从视频中提取MP3音频文件。 操作非常简单，仅需三步就可轻松编辑视频。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://www.qiuquan.org/?p&#x3D;11726"
-                        open
-                      >
-                        <summary class="article-expander__title">安卓应用——Solid Explorer 文件管理 3.5.20 解锁高级版</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.org/androidsoft/solidexplorer.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.qiuquan.org/wp-content/uploads/2025/06/solidexplorer-150x150.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Solid Explorer 是一款功能强大的安卓文件管理工具，采用现代化设计风格，支持双窗口浏览、云存储集成（Google Drive/Dropbox等）、压缩文件处理及局域网文件传输。提供Root访问、加密存储、主题自定义等高级功能，兼顾美观性与实用性，是高效管理手机/平板文件的专业选择</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://www.qiuquan.org/?p&#x3D;6682"
-                        open
-                      >
-                        <summary class="article-expander__title">雷电模拟器 9.5.36.0 + 14.0.25.1 国内版 | 9.5.32.0 + 14.0.25.1 海外版 | 去广告版</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.org/systemtool/dnplayer.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.qiuquan.org/wp-content/uploads/2026/06/LDPlayer-150x150.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>雷电安卓模拟器是可以在电脑上模拟安卓系统的软件，非常适合在电脑上玩手游，它支持市面上99%的游戏和应用，运行流畅，解决挂机烦恼，多开挂机流畅不掉线，拒绝手机发烫、电量不足、内存不足等手机端缺点，为玩家提供更好的游戏环境与操作方式。雷电拥有众多特色功能，游戏手柄即插即用、一键宏高端玩家必备、操作录制循坏操作、一键定位点哪定哪、超宽屏享受更宽视野、同步器操作一次操作多个窗口……下载安装雷电模拟器轻松玩转各种手游、应用。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
+                              <span>本周赛博领鸡蛋 Epic Games 商城共有 1 款电脑游戏、1 款手机游戏限时免费领取，分别是电脑端的《与你独处》，以及手机端的《寻找埃文》。其中《寻找埃文》同时提供 Android 和 iOS 版本。截止 9 月 10 日 09:00。 《与你独处》/ Alone With You 《与你独处</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -19750,368 +20499,6 @@ Claude Fable 5 跑完，花 3.15 美元。
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >小众软件</button>
-                  <a class="source-heading__link" href="https://www.appinn.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.appinn.com/ms-ai-for-beginners/"
-                        open
-                      >
-                        <summary class="article-expander__title">微软：人工智能初学者课程，一共12周、24节课</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.appinn.com/ms-ai-for-beginners/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.appinn.com/wp-content/uploads/2026/08/Copy-of-appinn-homework-2026-08-06T163454.486.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>这是微软开源的人工智能初学者课程，目前已经获得了 6万多颗 Star，拥有好几十种语言，包括简体中文、繁体中文，非常受欢迎。@Appinn 课程一共12周、24节课，适合初学者，涵盖了 TensorFlow 和 PyTorch 等工具，以及 AI 伦理。 课程内容 课程链接 PyTorch/Kera</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.appinn.com/nightrun/"
-                        open
-                      >
-                        <summary class="article-expander__title">NIGHTRUN – 无需操作系统，用 U 盘启动的的本地大模型客户端</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.appinn.com/nightrun/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.appinn.com/wp-content/uploads/2026/08/Copy-of-appinn-homework-2026-08-06T163045.839-1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>NIGHTRUN 是一个能直接 UEFI 启动的 LLM 终端。无需操作系统、在电脑中插入启动 U 盘，立即进入本地大模型对话界面。@Appinn 感谢 @Andrue 同学的推荐： 就是完全不用操作系统，直接打开电脑的电源，就是本地大模型终端： UEFI 固件 → NIGHTRUN → 本地模型</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >人人都是产品经理</button>
-                  <a class="source-heading__link" href="https://www.woshipm.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6441308"
-                        open
-                      >
-                        <summary class="article-expander__title">AI 时代，软件交付逻辑也要改变了，技术不再是重点，一切回归业务本身</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6441308.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/13/2804a00e-d9de-11ed-8d63-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>智能问数产品如何真正落地？本文指出，软件行业比拼的早已不是技术，而是对业务场景的深度理解。通过剖析企业不同岗位的真实需求，提出“框架通用、业务定制”的架构思路，强调技术必须嵌入组织体系，才能避免项目失败。
-
-在我看来现在的软件行业比拼的早就不是基础技术能力，而是对算法底层逻辑、技术原理，以及客户业务场景的深度的理解：是否吃透客户的业务场景、能否跟客户的业务动作及指标口径对齐，是否沉淀同场景行业实操经验，这有点偏向商业咨询顾问的技能。
-客户请服务商过来，本质是解决业务问题，服务商对业务的理解，不能弱于企业内部人员。拔高一层来讲，我们更要思考如何让AI与技术深度嵌入到企业组织体系中，重构原有管理协作模式，而不是将技术、软件单纯当作一款办公工具给客户使用。
-
-近几年，我走访调研了国内大量企业，发现不少管理层对数字化、智能化的认知，始终停留在工具应用的浅层阶段。在与企业高管、决策领导层交流时，我常会问个问题，公司是否会常态化运用数据开展分析、支撑决策，我这里得到的答复大多是数据不全、报表缺失、无法导出数据等问题，这类情况在国内企业中也是十分普遍的现象。
-我也与各条线业务主管做过深度沟通，在他们理解的认知里，数字化是使用钉钉、飞书等工具完成线上沟通协作，将文档、数据表格存放在云端网盘实现共享，部门之间依旧依靠线下表格来回传递数据、同步各部门的数据业绩情况，其实这类工具在企业内部使用既没有打通、重构底层数据体系，也没有改变业务流程、协作逻辑与决策模式，本质上只是从传统的电话、Excel、word更换了成了在线软件。
-
-站在企业老板这边的视角，他们常会出席各类国内行业峰会和数字化论坛，也接触过很多知名软件厂商推出的 MA、CDP、智能问数等数字化工具，老板也在这方面预留了专项采购预算。当 IT 部门选型采购系统后，常常遭到业务端吐槽不好用，同时难以获得管理层认可，最终项目被废弃掉。
-
-这…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6441217"
-                        open
-                      >
-                        <summary class="article-expander__title">FDE为什么突然火了？AI落地缺的不是工具，而是能进现场的人</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6441217.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2025/08/19/edd7c02e-7caf-11f0-8601-00163e4b86a1.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>FDE（前线部署工程师）正成为AI落地的新关键词。它并非新岗位，而是企业软件交付模式的回摆，折射出AI竞争从模型能力转向现场能力。本文深入解析FDE如何弥合产品与业务断层，并探讨其在银行等复杂场景中的关键价值。
-
-最近 FDE 这个词出现得越来越多。
-FDE，全称是 Forward Deployed Engineer，通常翻译成“前线部署工程师”或“前置部署工程师”。如果只从字面看，它像是一个新岗位；如果往深一点看，它其实反映了 AI 落地中的一个老问题：
-工具可以标准化，但现场永远是复杂的。
-
-过去几年，很多企业都在试 AI。演示会上效果很好，文案能生成，知识库能问答，代码能补全，会议能总结，智能体还能模拟执行任务。但真正上线到企业内部，问题往往不在模型，而在现场。
-
-一家银行上线 AI 客户经理助手，Demo 阶段看起来很顺：输入客户信息，AI 能总结客户画像，生成沟通话术，推荐下一步跟进动作。到了真实环境，情况马上变复杂。
-客户画像来自多个系统，字段口径不一致；客户经理能看到哪些信息，取决于权限；理财推荐涉及适当性和合规审核，AI 生成的话术不能直接发给客户；客户经理每天用的是移动端还是 PC 端，也会影响产品入口；触达之后有没有成交、有没有资产留存、有没有客户反馈，还要能回流到系统里。
-这时候你会发现，AI 并不是没有能力，而是没有进入业务真实运转的地方。
-FDE 的走红说明，企业 AI 的竞争正在从模型能力，转向现场能力。谁能进入客户真实流程，谁才更可能把 AI 变成业务结果。
-
-FDE不是新岗位，而是企业软件的一次回摆
-FDE 最容易被讲成一个岗位介绍。但如果只停在岗位介绍，那就浅了。
-它更像是企业软件交付模式的一次回摆。
-早期企业软件很重。每个企业都有自己的流程、系统和组织结构，所以大量软件都是项目制、定制化、系统集成。好处是贴业务，坏处是周期长、成本高、难复…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6441229"
-                        open
-                      >
-                        <summary class="article-expander__title">AI信息茧房：对话式AI的隐性风险与产品设计的伦理边界</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/pd/6441229.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/13/db5a6f0e-d9dd-11ed-bd5e-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>AI 越来越懂你，但你可能正在被它悄悄圈养。从搜索引擎到对话式 AI，信息茧房已从行为匹配升级为认知塑造。本文剖析 AI 信息茧房的形成机制与产品设计逻辑，并提出四大干预框架，帮助产品经理在“让用户满意”与“帮助用户成长”之间找到平衡。
-
-你以为AI很懂你，但其实它只是挑你喜欢的立场跟你说你爱听的话而已。——它吃得越多，给你的世界越小；你们聊得越久，你离真实世界越远。用你最舒服的方式，把最“对你胃口”的结论递到你嘴边。
-AI信息茧房
-信息茧房概念提出于2006年。
-在此后的近二十年中，这一概念经历了三个技术阶段的演变：
-搜索引擎时代（基于关键词的主动过滤）
-推荐算法时代（基于行为数据的被动匹配）
-对话式AI时代（基于语义理解的认知塑造）
-前两个阶段的茧房效应，作用于信息消费行为层面——影响用户”看什么”。
-第三阶段的茧房效应，作用于认知方式层面——影响用户”怎么想”。
-
-这一范式跃迁的核心驱动力是AI技术从”信息检索工具”向”对话式认知助手”的转型。
-随着大语言模型的商业化落地，AI不再只是内容分发链条中的一环，而是成为用户获取信息、形成判断、甚至构建认知框架的核心中介。
-对话提取倾向性
-从产品逻辑角度分析，AI信息茧房的形成不是技术缺陷，而是商业设计的系统性必然。
-满意度优化驱动的内容窄化。 对话式AI产品的核心指标之一是用户满意度。满意度的关键影响因素是”AI回应与用户既有认知的一致性”——当AI的回答符合用户已有观点时，用户满意度更高，使用时长更长，留存率更好。
-这意味着，在产品优化的目标函数中，”让用户满意”的权重天然高于”提供多元视角”。市场竞争会淘汰那些”不够贴心”的AI产品——不是因为它技术差，而是因为用户不喜欢被挑战。
-对话深度的双刃剑效应。 对话式AI的核心优势是”越用越懂你”。但这个优势的另一面是：AI对用户画像的深度积累，使得个性化过滤的精度不断提升，…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6441231"
-                        open
-                      >
-                        <summary class="article-expander__title">巴西支付为什么曾经贵还降不下来？-Pix的破局之道</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/pd/6441231.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/wp-files/2026/08/LihpK8mfm4wmd3bEopHP.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>巴西支付曾因信用卡高费率而“贵”得离谱，市场失灵背后是银行、卡组织与收单机构的利益共谋。巴西央行推出Pix，以非营利基础设施打破僵局，降成本、提效率、破垄断，重塑支付格局。本文拆解Pix的破局逻辑与高明之处。
-
-在《巴西支付曾经的“贵”和“慢”》中，我们了解到巴西支付曾经有多贵。
-“贵”只是表象，更本质的问题是，在一个市场经济国家，既然有”贵”，为什么没有”便宜”的选项通过竞争把它打下来？
-巴西2017年及之前的支付方式
-按照支付媒介的物理形态，巴西2017年及之前的支付方式可以分为现金支付和非现金支付。非现金支付按照“资金划转的指令载体”细分：
-卡基支付（通过银行卡发起）：主要是刷信用卡、借记卡
-账基支付（通过银行账户直接发起）：主要是传统银行转账TED、DOC
-凭证支付（通过离线凭证完成）：银行付款单支付
-各支付方式的支付成本差异较大
-现金支付：一手交钱一手交货，无直接手续费
-非现金支付中：
-卡基支付：信用卡支付，商户成本MDR 平均 2.34%；借记卡支付：商户成本MDR 平均 1.13%。（数据来源：IMF Country Report No. 23/289, 2023）
-账基支付：TED、DOC每笔 都会收取0–11 雷亚尔。（数据来源：Brazil Counsel, 2020，该来源为巴西商业信息咨询网站，非官方机构）
-凭证支付：固定费约 1.5–5 雷亚尔/笔。（数据来源：CR Inf, 2021; original data: Banco Central do Brasil, 2017）
-TED/DOC主要面向大额转账，固定费用高、到账时效慢，不适合零售场景；现金没有数字记录；凭证支付本质是离线的账单式支付，在零售即时消费场景中用户体验差、转化效率低。
-在2017年及之前，对于商户来说，能数字化收款且消费者愿意用的选项，几乎只有信用卡/借记卡。
-
-2017年…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6440530"
-                        open
-                      >
-                        <summary class="article-expander__title">把我的价值赋能给 AI，那我还值什么？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6440530.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/13/60e81e3c-d9de-11ed-9d2f-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>AI 工具正在重塑产品经理的工作方式，但效率提升的背后，是个人价值与判断力的重新定位。本文通过微信会员卡对接的实战案例，探讨如何将经验迁移给 AI，以及在 AI 协作中如何守住核心决策权，为产品人提供了一套可复用的思考框架。
-
-近期茶余饭后的闲谈，聊得最多的，还是各自最近的 AI 应用进展。
-拿最近手头的工作来说，微信会员卡对接就是一个很直观的例子。
-以前遇到这类需求，我需要自己啃官方接口文档，梳理不同版本的能力和体验差异，再和业务讨论应用场景、确认前置流程和材料，最后整理出交互 Demo、待讨论问题和需求文档。
-现在，我已经可以把这类工作拆进一套相对稳定的 AI 协作流程。
-AI 负责消化官方文档、整理接口能力、生成 HTML 交互 Demo、汇总待讨论问题，再形成需求文档初稿；我负责和业务讨论、复核信息，以及判断当前阶段究竟应该选择哪条路。
-比如这次对接，微信会员卡有 1.0 和 2.0 两种版本，体验、接入流程和前置准备都有差异。完整体验当然更好，但结合当前目标、材料准备和综合成本，最后的判断是先简单接通。
-AI 可以帮我把信息铺开，把差异列清楚，甚至推演几种方案。但它不能替我决定：此时此刻，什么才是合适的。
-
-HTML Demo 也不是为了直接交付，而是为了快速聚焦视觉表达。在大家已经基本同频的情况下，拿着具体页面讨论，比围绕抽象文字来回确认高效得多。
-
-类似的流程跑顺以后，原本需要 3 天沟通、1 天输出的工作，最快可以压缩到 1 小时。我也可以同时并行推进 4 个需求。
-工作时长没有增加，产能却被明显放大了。
-但新鲜感过去之后，另一个问题也慢慢浮了出来。
-我像是把自己逼成了流水线上的螺丝钉，来回奔波在不同 AI 流程的输入、复核、修改和确认环节中。并行的需求越多，每天需要接收的信息量就越大，甚至到了过载的边缘。
-结果是，效率更高了，人却更累了。
-
-歇下来的时候，…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6439010"
-                        open
-                      >
-                        <summary class="article-expander__title">AI眼镜进入公共空间前，产品经理要补一张“旁观者旅程图”</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/it/6439010.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2025/08/19/edd9a20e-7caf-11f0-9e45-00163e4b86a1.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>AI眼镜的体验不只发生在镜片内。当设备看向他人、调用视觉AI或保存现场信息时，没有购买产品的旁观者也进入了产品流程。本文用一次会议室场景，拆解旁观者从发现、理解、表达异议到事后处理的完整旅程，以及产品经理可以写进PRD的公共状态与验收指标。
-
-先看一个很普通的会议场景。
-讨论结束后，佩戴AI眼镜的同事看向白板，说：“把刚才的内容整理成待办。”
-眼镜开始识别白板，也收进了站在旁边的几个人和桌上的材料。镜框亮起一盏白灯，但会议室里没人确定：它是在拍照、录像，还是只做一次临时识别？内容会不会保存？会不会同步到其他应用？
-佩戴者觉得自己只是少拍了一张照片。旁观者面对的却是一套完全不可见的处理流程。
-这就是AI眼镜与手机最不同的产品问题之一。手机举起来时，周围人通常能判断镜头正在工作；眼镜一直戴在脸上，感知状态却很难仅靠姿势理解。
-过去做智能硬件，团队主要研究购买者的激活、留存和佩戴时长。AI眼镜进入公共空间后，还需要增加一个角色：没有账号、没有App，却会被产品能力直接影响的人。
-一、AI眼镜多了一类“没有注册的用户”
-旁观者不是传统意义上的用户，却会直接影响产品能否长期使用。
-他可能是会议中的同事、家庭成员、餐厅服务员，也可能只是街上的路人。他不熟悉产品说明书，看不到镜片内提示，更没有机会在首次使用流程里配置权限。
-对佩戴者而言，眼镜是私人助手；对站在镜头另一侧的人而言，它首先是一台可能正在采集信息的设备。
-两种认知一旦错位，就会出现三类后果。
-第一，旁观者因为不确定而提高警惕，减少交流或要求摘下设备。
-第二，佩戴者不知道该怎样解释当前状态，只能用“它没在拍”反复口头保证。
-第三，场所直接选择最简单的管理方式：全面限制使用。
-
-所以，旁观者体验不是隐私条款的补充页，而是影响佩戴时长、场景覆盖和社会接受度的核心产品流程。
-二、先画一张旁观者旅程图
-传统用户旅程从“发现产品”开始，旁…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6441073"
-                        open
-                      >
-                        <summary class="article-expander__title">上周，我直播讲了这个用户旅程地图 的 skills，一键出用户旅程图</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6441073.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/05/06/02b16dac-ec01-11ed-adbb-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>用户旅程地图最容易做成一张漂亮表格，却把推断写成事实。我用一个 Skill 跑完 6 个阶段，同时生成 JSON、交互 HTML 和 PNG，重点看它怎么守住证据边界。
-
-上周直播时，分享过一个产品经理的 Skills，主要是做用户旅程地图的，简单分享下思路。
-简单说就是：把“产品经理拿到研究材料，到评审前形成下一轮研究问题”画成一张用户旅程地图。
-咱们输入只需要是研究材料，执行过程包括锁定任务、拆阶段和标证据，最终得到1 份 JSON、1 个可交互 HTML、1 张 PNG。
-大家可以先看下完整结果。
-比如，地图里有 6 个阶段，每个阶段都带目标、动作、触点、情绪、痛点、证据状态和产品机会。
-
-6 阶段用户旅程地图完整结果
-当然，这是个测试案例，所以图里的体验描述只标记为“合理推断”或“待验证假设”，可以理解在思路。
-一张地图，只解决一个核心任务
-大家做 skills，一定要围绕场定位和场景特点着手。比如，大家都知道，用户旅程地图更关注用户如何进行旅程体验。
-
-公司部门和产品菜单，都不能直接拿来当阶段。这个 Skill 的第一道门槛，是先确认一个具体用户、一个场景、一条从开始到结束的任务链。
-
-目标用户、场景与核心任务被明确写入地图
-范围确定后，再拆成 5 到 7 个用户阶段。
-比如，收拢材料、锁定任务、拆分阶段、标注证据、生成地图、评审验证。阶段沿着用户动作走，没有按“数据组、产品组、设计组”设定。
-
-完整任务被拆成 6 个连续用户阶段
-说实话，前两步看似简单，却决定了后面的图是不是用户视角。因为，先收拢材料，才能知道手里有什么；然后再紧接着把任务压窄，才不会一张图塞进三个用户、四条流程。
-
-收拢材料阶段的目标、动作与证据说明
-
-锁定任务阶段明确一张地图的范围
-最难的不是画图，是明确功能定位
-事实上，我上周还在内部分享会上提到，做 skills 的几个经验，其中之一就是要描述清楚场景和定位。
-阶段拆分最常见的偏差，是把功能菜单当旅程。Skill 会要求每个阶段对应用户目标和动作，同时检查起点、终点是否闭合。
-
-拆分阶段时保留“待验证假设”标签
-更关键的一步，是给每条体验结论标注证据状态：已验证事实、合理推断、待验证假设。
-没有材料就保留“待验证”，表格再完整，也不能替代研究。
-
-标注证据阶段逐项区分事实、推断与假设
-比如，这一步的情绪值落到 -2，是整条旅程的低点，并给到清晰的原因。
-
-证据标注是本次示例的情绪最低点
-说实话，一张旅程地图有没有用，先看假设有没有被诚实地留下。
-情绪最低点，不等于最高优先级
-地图用 -2 到 2 记录情绪，但机会排序另算。默认公式是：影响 × 频率 ×（6－当前解决程度）。
-所以“用户最难受”只能提示断点，不能直接替团队决定先做什么。
-
-6 个阶段的情绪变化从 0 降至 -2，再回升到 2
-
-评审验证阶段同时检查优先级与证据边界
-这次地图里，证据标注是情绪低点，机会优先级也高；但这只是本次评分的结果，不是规则。换一批材料，排序可能完全不同。
-
-评审阶段显示情绪与机会优先级是两套指标
-交付物要能改，也要能回到证据
-user-journey.json是唯一结构化数据源，交互 HTML 从它生成，PNG 再从 HTML 截取。
-这样改阶段、调情绪或补证据时，不会出现表格一版、汇报图又一版。
-
-生成地图阶段保持 JSON、HTML 与 PNG 同源
-最后，这个 Skill 并不是替产品经理做用户研究，用户旅程图其实是提升产品体验的关键载体之一，而是更好的来辅助产品同学来完善需求设计。
-本文由人人都是产品经理作者【产品大峡谷】，微信公众号：【产品大峡谷】，原创/授权 发布于人人都是产品经理，未经许可，禁止转载。
-题图来自Unsplash，基于CC0协议</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
       <section class="daily-content js-toggle-accordions-scope">
@@ -24367,8 +24754,8 @@ user-journey.json是唯一结构化数据源，交互 HTML 从它生成，PNG �
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/allceo/feed/actions/runs/33831892776">
-        <time id="build-timestamp" datetime="2026-09-04T03:08:44.641Z">2026-09-04T03:08:44.641Z</time>
+      <a class="footer-link" href="https://github.com/allceo/feed/actions/runs/33940977215">
+        <time id="build-timestamp" datetime="2026-09-05T03:08:22.970Z">2026-09-05T03:08:22.970Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
