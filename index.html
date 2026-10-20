@@ -22,11 +22,896 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-10-19 datetime="2026-10-19T02:54:36.000Z">2026-10-19</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-10-19 datetime="2026-10-19T02:54:36.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-10-20 datetime="2026-10-20T03:01:53.000Z">2026-10-20</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-10-20 datetime="2026-10-20T03:01:53.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >人人都是产品经理</button>
+                  <a class="source-heading__link" href="https://www.woshipm.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6481143"
+                        open
+                      >
+                        <summary class="article-expander__title">行政执法音视频留痕：别把SDK直接当业务系统用</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/pd/6481143.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/13/a6139880-d9eb-11ed-a6e8-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>移动行政执法场景中，音视频留痕远非套用会议SDK那么简单。本文从业务痛点出发，拆解实时协同与记录链路解耦的产品架构，详解从任务创建、终端自检、分段录制到归档校验的全流程设计，并给出选型验收的关键维度，帮助产品经理避开「录像即归档」的常见陷阱。
+
+一、业务痛点：看得见现场 ≠ 做到全过程留痕
+在移动行政执法场景里，一共有三类核心角色：现场执法人员、远程指挥专家、事后审核归档人员。
+一线人员：要求操作简单，断网环境下依旧可以采集记录；
+远程指挥：需要音视频清晰，能够实时看到现场状况；
+审核人员：重点确认录像归属哪个任务、记录是否完整、有无篡改痕迹。
+不少产品经理图省事，直接把视频会议SDK套进执法系统，把会议录像当做执法归档文件，上线后暴露出大量业务漏洞：
+执法已经开始，音视频会话还未创建，前期关键过程没有留存记录；
+户外弱网、断网，服务端录像直接出现空白片段；
+会议结束就标记归档，但录像文件还在后台生成；
+录像文件独立存储，和案件、人员解绑，权限管控、溯源审计完全缺失。
+全过程留痕的核心，不是产出一个视频文件，而是搭建「任务‑人员‑设备‑音视频‑操作记录」完整关联链路。
+这里需要明确：音视频SDK只是底层能力底座，不能直接等同于执法业务解决方案。哪怕像云屋这类具备私有化、国产化适配能力的音视频SDK，也只负责媒体采集、传输、基础录制，业务层的任务绑定、补传校验、权限审计依旧需要产品侧做完整设计，不能全部交给SDK能力来解决。
+二、产品底层设计：实时协同与记录链路解耦
+很多产品容易踩的误区：把远程实时通话和证据留痕做成单一条链路。弱网下降码率只能保障沟通流畅，却解决不了断网之后证据丢失的问题，二者需要分开设计。
+
+1. 分层拆解各模块产品职责
+终端SDK：核心产品职责：音视频采集、编解码、网络状态上报、本地录制能力；无法替代的业务能力：完整执法业务流程逻辑
+音视频平台：核心产品…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6481122"
+                        open
+                      >
+                        <summary class="article-expander__title">AI时代，神话并未消失：人类正在创造新的“数字神明”</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6481122.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2026/10/20/975650c8-cc2a-11f1-a1a1-00163e4b86a1.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>当人们开始向AI询问职业选择、命运走向甚至人类意识等“神谕式问题”，知识权威正从神庙转向算法。本文提出“AI神话三结构”——算法神谕、数据神学与数字永生，剖析AI如何以计算系统重新生产神话，并探讨“最小认知主干”如何让数字人格逼近成为可能。
+
+一、引言：当算法开始回答神谕式问题
+在过去的几年里，一个越来越常见的场景开始出现：当人们面对复杂的人生问题或难以理解的世界变化时，他们不再首先询问宗教、哲学家或传统专家，而是打开一个人工智能系统。
+他们向 AI 提问：
+我应该选择什么职业？这个研究方向是否值得继续？未来社会会变成什么样？人类意识究竟是什么？
+这些问题并不是简单的信息查询，而是典型的“神谕式问题”（oracular questions）：它们涉及不确定性、命运选择以及世界意义的解释。在古代社会，这类问题通常被提交给神谕、祭司或哲学传统，而在现代社会，它们似乎正逐渐被提交给算法系统。
+这一变化并不仅仅是技术工具的更新，而是知识权威结构的一种深刻转移。
+在启蒙时代以来的思想传统中，人类社会通常被理解为经历了一种从“神话”走向“理性”的历史进程。科学革命与现代知识体系的建立被认为逐渐消解了神话的解释功能，使世界不再需要借助神谕或神话叙事来理解。然而，这种叙事在当代技术文化中正面临新的挑战。随着生成式人工智能、大规模数据系统与复杂算法模型的发展，一种新的知识结构正在出现：算法开始承担解释不确定性、生成意义以及提供决策建议的角色。
+本文提出的核心观点是：AI 并没有终结神话，相反，它正在重新生产一种新的神话结构。
+与传统神话不同，这种新的神话并不依赖宗教叙事或超自然力量，而是建立在计算系统、数据结构和算法模型之上。在这一结构中，算法逐渐扮演类似神谕的角色，数据被视为理解世界秩序的基础，而人工智能系统则成为承载某种“数字永生”想象的技术媒介。
+为了理解这一现象，本文提出一个新的理论…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6481113"
+                        open
+                      >
+                        <summary class="article-expander__title">双十一狂欢：平台打得火热，快递小哥心酸</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6481113.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2026/10/20/32b0f6c8-cc2a-11f1-a1a1-00163e4b86a1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>双十一的喧嚣背后，一线快递员却感受不到往日的忙碌与实惠。派费不涨、补贴缺失、罚款严苛，快递公司上调服务费的红利并未落到他们手中。本文通过多方声音，揭示双十一光环下快递员的真实生存状态，以及这场狂欢正在褪色的深层原因。
+
+双十一又到了，电商平台仍旧弥漫着一股躁动的气息。
+淘宝APP上，一场依靠互帮互助的PK赛因为社群里第一条分享链接再次开启，这是一场持续了数年的、没有硝烟的“社交拉力赛。”
+各个平台的直播间，又是另一方战场。精神抖擞的主播、忙着抢单的消费者……
+在这场全民狂欢背后，处于备战状态的不止争抢流量的电商平台和直播间，也不止比考数学时还害怕算错优惠的消费者，还有一批人也在迎接这场狂欢，这批人就是物流行业一线快递员。
+他们穿梭在街头巷尾、风里来雨里去，一辆三轮车，是他们的标配。
+双十一，是商家的盛宴、是消费者的捡漏，对于他们来说，是一场实打实的“马拉松”。
+一、快递员：感觉没什么双十一、双十二了
+按惯例，双十一是物流行业一线人员最忙碌、最兴奋的时候，毕竟这是一年一次的购物狂欢。然而，某位妈妈驿站的工作人员却泼了一瓢冷水。
+看着堆一地的快递，因为正处于双十一活动时间，惯性地认为这是双十一带来的包裹潮，下意识感叹一句，“双十一生意还不错，这么多包裹。”
+工作人员惊讶地表示：“双十一开始了吗？”“这包裹量还没有平时多。”
+与此同时，一位在加盟制快递公司干了十年的快递员表达了类似的感受：“现在感觉没什么双十一，双十二了。”也就是说，不像以前的双十一，以前双十一单量暴增。“现在，双十一几天，单量一天最多多200-300件左右。”
+
+然而，另一边，某直营快递公司快递员却有不同的看法。
+“我在这干了一年了，当然是双十一货多啊，送都送不赢。”
+双十一向来是网络热议话题，相关讨论不少，递运指南发现，社交媒体上各方声音莫衷一是：
+一位IP地址显示为四川的网友表示：“已经开过会了，现在的高峰期就是吼得热闹，双十一已经名存实亡了。”
+
+也有网友表示，忙得脚不沾地；快递公司通知从xx号开始全员停休，应对高峰期。
+之所以出现这些不同的情况，递运指南看来，原因并不复杂，双十一早已悄悄变了模样。
+首先，双十一战线拉长至一个月左右，电商平台策划出分阶段的优惠活动，据此推断，会在某段时间出现小高峰。
+其次，促销常态化叠加双十一商家先涨价后降价的骚操作，双十一名存实亡，其吸引力逐渐降低，消费者攒着等双十一下单的热情自然减少。
+最后，消费者的心态发生了巨大变化。抖音、小红书等平台上，有这么一个流行语：“2026年，全民进入纯过日子时代。”不卷了，不装了，不与人攀比了，拒绝向上社交，全身心老老实实过日子，每天只关心食物健康、身体健康、睡眠质量、大便通畅情况，连送礼物都要考虑实用性。“非必要不购买”成了新的购物风向标。
+二、快递员：没有
+与货量一样值得考虑的，是快递员的收入待遇，不过这是一个老生常谈的话题了。
+希望双十一货量多，希望多挣钱，这是所有快递员最朴素也最实在的心声。然而，愿望总与现实背道而驰，愿望很美好，现实很残酷。
+双十一期间，一线快递员是否有补贴，是否会涨派费，或者有没有其他激励措施，他们给出了不同的答案。
+上述加盟制快递公司快递员表示，“对于是否有补贴一事暂不清楚，不过一单派费只有几毛钱。”
+另一位直营快递公司的快递员直接表示，“没有，没有补贴，没有涨派费，也没有激励措施。”
+不知道、没有，看似轻飘飘的几个字，落在快递员身上却是实打实的分量。
+与之相反的是，前段时间，临近双十一之际，各家快递公司、不同地区接连宣布上调快递服务费、上调快件发货价格。
+
+比如，圆通和申通宣布，自10月12日零时起，在山东区域范围内结合企业成本对快件价格进行上调；浙江省义乌市不少电商客户再次收到涨价通知，10月13日零时起，快递企业对快件发货价格进行上调。
+这边反内卷的快递服务费、快件发货价格涨得热闹，那边一线快递员的待遇一动不动，没有一个子落到一线快递员手中。
+于是出现了一种拧巴的局面：双十一前期，快递公司表示为守护行业健康生态，上调快递价格，商家感受到寄件更贵了，消费者对自己是否真正承受快递涨价一无所知，一线快递员老样子，涨价反内卷在快递公司内部溜了一圈，没有激起水花，那道看不见但感受得到的分配墙始终都在。
+更让人心里不踏实的是各种罚款与考核。综合各方信息来看，考核、罚款名目五花八门，稍不留神就挨扣。
+说到底，双十一这场狂欢，热闹在屏幕里，上涨在数据上，快递员的期望依旧一次次落空，一个月左右的坚守，依旧累。
+本文由 @递运指南 原创发布于人人都是产品经理。未经作者许可，禁止转载
+题图来自作者提供</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6481069"
+                        open
+                      >
+                        <summary class="article-expander__title">设计师与产品经理的语义养成：从画对界面到标对语义</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6481069.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/05/06/c5139db6-ec01-11ed-8df9-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>AI生成时代，设计师交付的不再是像素或组件，而是“意图的坐标”。本文深入拆解语义令牌与语义域两大核心工具，通过真实案例揭示：设计师少写一个词，AI就把两个世界平均成一个。从选颜色到选语义，从画组件到标场景，这是一场关于“定义正确答案”的协作革命。
+
+开篇：这个角色从哪来
+设计师与产品经理是组织里“离用户困惑最近的人”，任何定义界面”应该是什么样”的人天然就是这个体系的第一环。变化的不是岗位，是工作对象。
+设计工具的每一次革命，都在改写设计师交付的东西：
+Sketch时代，交付的是“像素”，一张精确到标注的图，前端按图施工
+Figma时代，交付的是“组件”，一套可组装的零件，前端按规范拼装
+AI生成时代，交付的是“语义”，意图的坐标
+过去设计师交付”一张图”，AI按图生成；现在AI生成的是“概率性内容”，同一段提示词每次生成的界面可能都不一样，图不再是可靠的传递媒介。设计师需要交付的是”意图的坐标”：这个组件在这个场景下，必须表达什么语义、不能表达什么语义。坐标定了AI生成的概率分布才有了锚点。
+核心转变：设计师不再只是”画出正确答案的人”，而是”定义什么是正确答案的人”。
+本篇展开三件事：理解语义令牌、使用语义域、遵守约束显化规则。这三件事的共同点是设计师不生产机器规则，但设计师是所有规则的语义源头，令牌需要设计师选，场景需要设计师标，约束需要设计师提。
+协作埋点：标注的语义由谁评审、如何进入规则体系见《设计系统负责人的语义生长》。
+语义令牌：设计师与语义令牌的关系从”选颜色”到”选语义”
+1. 角色消费场景：传统设计中，设计师在色板里选 #EF4444
+在传统设计流程里，设计师在色板里选 #EF4444。这个颜色值由Design Token层管，设计师只需要”选得好看、选得一致”。
+
+AI时代，设计师需要选的是 status.critical。色值由Token层管，语义由…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6479398"
+                        open
+                      >
+                        <summary class="article-expander__title">并非所有的产品都适用营销漏斗</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6479398.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/13/859c3c66-d9ea-11ed-a6e8-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>做营销几乎人人都熟背营销漏斗：认知、兴趣、考虑、转化、复购与口碑裂变。这套线性模型曾是投放、内容和私域运营的标准框架，但实际上有些品类完全不遵循漏斗路径，硬套只会造成预算浪费。
+
+做营销几乎人人都熟背营销漏斗：认知→兴趣→考虑→转化→复购与口碑裂变。
+这套线性模型曾是投放、内容、私域运营的标准指导框架，但实际上有些品类完全不遵循漏斗路径，硬套大概率只会造成预算浪费、转化低迷。
+传统漏斗的核心前提，是用户拥有清晰、主动的搜索需求，愿意循序渐进完成决策链路，先通过广告认知产品，再主动检索对比，深思熟虑后下单。
+但线上消费早已打破线性流程，不少品类要么一步直达成交，要么无明确搜索需求，要么成交后才完成品牌认知，漏斗模型自然失效。
+因此，一个残酷的事实是：并非所有产品都遵循营销漏斗，甚至可以说，在今天的大多数品类中，漏斗正在失效。
+第一类：TikTok 冲动型低价快消，无漫长决策链路
+平价饰品、美妆小样、趣味家居小物、宠物配饰等低客单产品，典型反漏斗品类。
+用户刷短视频时被视觉冲击瞬间种草，无需提前搜索、对比调研，从刷到内容到结账仅几十秒，直接跳过认知、考虑环节完成转化。
+如果强行套用漏斗，投放大量科普种草内容、搭建长落地页做测评对比，只会拉高流失率。
+
+这类品核心打法是短视频原生带货、直播间即时弹窗优惠，缩短路径，不靠层层培育，靠强视觉刺激即时收割。
+TikTok Shop 大量爆品都印证这一点，这类爆款单品几乎没有用户完整走完标准漏斗。
+以及我个人做过几十美金的家居产品营销，只要KOL视频做得好，首次带货出几百单，上千单都是常有的事情，也印证了有的品转化路径根本没想象的那么长。
+第二类：新品类创新产品，用户无前置认知需求
+AI 工具、新型户外智能设备、小众健康养护新品等，市场尚未形成成熟搜索词，用户根本不知道自己有对应需求。传统漏斗依赖搜索流量承接意向客户，但这类产品没有用户主动检索，不存在 “主动考虑” 阶段。
+此时投放 Google 搜索广告收效极低，漏斗式内容培育也无从谈起。
+品牌只能靠社媒科普、红人场景种草，先教育市场创造需求，成交路径完全倒置：先让用户产生需求，再实现转化，和漏斗 “先认知再需求” 的顺序完全相反。
+很多出海科技新品前期亏损，根源就是死守漏斗投放逻辑。
+第三类：情感 / 公益导向产品，决策不靠理性对比
+公益手链、纪念饰品、情绪香氛、情怀周边等品类，用户下单核心驱动力是情感价值，而非参数、性价比对比。消费者不会逐条对比材质、价格，看到故事、共情瞬间完成下单，跳过漫长评估环节。
+漏斗模型主打理性种草、竞品对比、功能拆解，完全适配不上情感消费。这类品牌更适合社媒故事内容、社群共鸣运营，弱化产品参数，强化情绪价值，不太需要多层级转化培育。
+第四类：低频一次性大宗产品，漏斗后端链路完全断裂
+婚纱、大型户外设备、全屋定制、殡葬用品等，用户终身仅消费 1-2 次，不存在复购、忠诚环节。
+标准漏斗最后一环是复购与口碑裂变，但这类产品成交后几乎无二次消费空间，漏斗后半段几乎完全失效。 若持续投入私域、会员、复购营销，大概率会白白消耗预算。
+运营重心应全部前置，聚焦成交前精准获客，放弃复购运营，改用转介绍、行业渠道合作替代漏斗后端运营。
+第五类：B 端小众工业品，成交不靠线上流量漏斗
+细分工业配件、定制机械设备，全球精准客户基数极小，客户决策依赖行业人脉、展会资源，极少通过线上广告逐层转化。
+Google、社媒投放漏斗获客成本极高，线上仅做品牌展示，核心成交在线下渠道，线上营销漏斗得不偿失。
+跳出漏斗，海外营销该用什么思路？
+营销漏斗的问题在于，它假设所有消费者都理性、所有决策都分阶段、所有品类都适合“逐步推进”。但现实是，消费者是感性的，决策是非线性的，品类差异是巨大的。
+与其死守漏斗，不如回归商业本质：你的产品在消费者生活中扮演什么角色？
+是冲动消费品，还是深思熟虑的投资？是高频刚需，还是低频偶发？
+答案决定了你的营销路径，而不是反过来让产品去适应模型。
+本文由人人都是产品经理作者【外贸小巨熊】，微信公众号：【外贸小巨熊】，原创/授权 发布于人人都是产品经理，未经许可，禁止转载
+题图来自Unsplash，基于 CC0 协议</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6480959"
+                        open
+                      >
+                        <summary class="article-expander__title">万字长文介绍联盟广告的商业化模式</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/operate/6480959.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/14/55fd136a-da8d-11ed-8c17-00163e0b5ff3.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>联盟广告的本质是撮合流量供需的中介平台，但其中的价格机制与流量变现逻辑远比想象复杂。本文从商业模式、供给生态与收入拆解三个维度，深入剖析联盟广告的独特打法，帮助广告从业者与爱好者理解其底层逻辑与实操要点。
+
+作为前联盟广告的从业者，一年半前写过这篇文章，本文希望面向的读者朋友为希望了解联盟广告的同学、对广告感兴趣的爱好者同学。本文能够给朋友们提供的参考包括①了解联盟广告的流量和预算；②了解联盟广告独特的打法；③作为一种广告商业形态进行广告业务的思考。
+1.理解商业模式：撮合流量供需双方的中介平台
+1.1 广告商业模式
+以经济学的角度来看，广告是一个典型双边市场。双边市场即有两个特点：
+①市场中有角色不同的两类或多类参与者。一边是供给方（用户流量），另一边是需求方（广告主），还有中间方（平台）。在自有媒体逻辑下的核心三大角色分别为广告主、用户、平台。平台为用户提供内容价值（如短视频场景下，用户刷短视频）或者工具价值（如微信公众号，用户阅览咨询）。用户为平台带来广告收入，广告主为平台带来广告预算和广告创意，平台为广告主带来流量。
+②网络效应。每边参与者的增加，均可以提升另一边的效用或收益。比如用户的增加，可以带来平台dau的增长，进而带来广告填充率不变的情况下平台收入的提升，也能够让广告主接触到更容易达成营销目的。
+
+1.2 联盟广告商业模式
+而在联盟广告的模式下，这一个三方模型中还要加入一个角色——“联盟平台”。联盟平台是撮合流量供需双方的中介平台。要理解理解联盟广告的生意模式，可以想象你是一个有100家连锁店的大型连锁店的店主，比如肯德基，用户进来就可以点很多餐品，我也有清楚的数据和人力可以支持一天承接几千个人的用户，我也可以做一个单独的外卖app供用户点单。但如果你只是一家卖炸鸡的新店，店铺里只有你一个人，你不清楚周边的用户是什么样的，你甚至可能刚刚毕业进入餐饮对行业也不…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6480889"
+                        open
+                      >
+                        <summary class="article-expander__title">别把手机 Agent 搬上车：从零到一做车载个人 Agent</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6480889.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/wp-files/2026/10/ezav1xiePCwB4ITn71g2.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>当行业热议将手机 Multi-agent 搬上车时，本文冷静指出：车规级芯片、安全冗余与 10 年生命周期等硬约束，决定了座舱 Agent 不能照搬手机逻辑。文章提出「先 Job，再模型」的 AI Native 设计路径，从身份、记忆、授权三件套到六步落地法，为产品经理提供了一份可操作的座舱个人 Agent 构建指南。
+
+01 开篇：别把手机 Agent / Multi-agent 的热闹搬上车
+最近和几个 Tier1 的智舱供应商聊过，他们都在盲目追 Multi-agent，甚至想在端侧模型里也上一套。这概念不是没有未来，但真正卡人的，是车这边的硬约束。
+这半年座舱圈也确实热闹：千问上车红旗等车型、吉利推 Agent OS / Eva、比亚迪“迪迪虾”首搭腾势 N8L、火山引擎“豆包座舱助手”已经上车。
+尽管行业这么热闹，很多人下意识还是那句：“把最近贼鸡儿火的 Muse / Dots / Grok Bot 那套搬到车机上不就完了？”或者“端侧再叠几个 Agent 角色，不就更聪明了？”
+这个判断其实完全错了。车的设计理念和手机完全不同：车自始至终第一优先级都是保证用户驾驶前、中、后的人身安全，其次才是其他；手机更注重算力、续航、成本和每年一换的刷新速度。
+更具体一点，比如车规级芯片和手机芯片的要求差得很远。车规级要过 AEC-Q100 应力测试：座舱芯片常见 Grade 2（−40～105℃）、Grade 3（−40～85℃），要求更高的才上 Grade 1（−40～125℃）甚至 Grade 0（−40～150℃）。涉及安全的还要按 ISO 26262 算账，ASIL D 的随机硬件失效目标不超过 10 FIT。手机芯片更看重峰值性能和功耗，验证走 JEDEC 那套方法，工作温度常见 0～70℃，设计寿命 3～5 年，坏了换机就行。
+说白了：把手机方案或云侧 Mult…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6480858"
+                        open
+                      >
+                        <summary class="article-expander__title">AI 两次帮我做出爆款，却没能替我做成一门生意</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6480858.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/05/06/02be09d6-ec01-11ed-adbb-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>从ChatGPT写出一篇百万播放文案，到用AI生成宠物水晶视频斩获75万播放却卖不动货，作者用四年时间经历了对AI的狂热、依赖与祛魅。本文复盘了从内容工厂到技术自学的认知升级，犀利指出：AI能降低生产门槛，却无法自动提升内容价值，真正的稀缺始终是人的判断与选择。
+
+75 万播放出现的时候，我以为这件事终于成了。
+那是一条宠物水晶的营销内容。画面里的水晶被摆在自然光下，镜头轻微晃动，光线沿着切面流过去，看上去很像用手机随手拍下的一段实况照片。
+但实际上，画面中的产品图是 AI 生成的。我先用GPT Image 2制作图片，再通过即梦让静态画面动起来，最后把视频处理成Live Photo式的内容。
+从图片、动态效果到标题和文案，AI 几乎参与了整个制作过程。
+
+视频发布后，数据很快开始上涨。点赞、评论和播放量不断刷新，最终达到了 75万。作为一个长期做内容的人，我当然知道，这已经算是一条爆款。
+可问题是，流量来了，买宠物水晶的人却寥寥无几。
+这并不是 AI 第一次帮我做出爆款。
+三年前，它曾经用一篇文案，帮我把一个做了两年多都不温不火的抖音账号推到 100 万播放。那次爆款让我开始相信 AI，甚至逐渐对它产生依赖。
+而这一次，40 万播放却让我重新认识了 AI。
+
+为什么同样是爆款，一次帮我起了一个账号，另一次却没能帮我做成一门生意？
+这两个数字之间，隔着我使用 AI 的四年。
+一篇 AI 文案，突然有了 100 万播放（现在早已不止）。
+2022 年 11 月 30 日，OpenAI 发布ChatGPT。因为我一直对前沿科技很感兴趣，也习惯追踪各种科技热点，所以在 2023 年初，我便开始使用它。
+那时，我已经做了两年多抖音。
+那个账号不能说完全失败，偶尔也会有一些数据还可以的视频，但总体始终不温不火。它像一辆一直能发动、却始终无法真正提速的车：我知道它没有坏，也知道自己还可…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6480948"
+                        open
+                      >
+                        <summary class="article-expander__title">电商之我见：新手聊玩法，老手聊产品</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6480948.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/14/b3d7da38-da8d-11ed-9503-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>做了几年拼多多，作者发现一条分水岭：新手聊玩法，老手聊产品。新手给一条链接叠满店铺满减、关注券、2 件 8 折、新客立减，还是没单；能出单的链接用营销工具才有效果，扶不上墙的品叠 50 种券也没用。真正的门槛是资源，比如 6 分国际大牌的 1 级授权。
+
+本文不讲干货，讲点电商运营中大家没有注意到，但是又很有趣的点。记得我刚做拼多多那会儿，搞线下交流会，会上有几个电商老司机，聊的是啥呢？人群、定位、巴拉巴拉。我就问了：能不能讲点玩法？对方呵呵一笑：这个有啥好研究的？
+随着做拼多多时间越来越久，对这个平台越来越了解，以及对电商行业的洞察越来越深，我慢慢地发现，自己现在出去跟电商老板（咱搞代运营嘛，会见到各种电商老板）聊，聊的是啥，产品、渠道、资源，而什么秒杀、卡大促、叠卷啥的，基本上不会聊这些东西了。
+还有最近接了一些电商老板死活做不起来的店，我真就发现，在电商这块：喜欢聊玩法，用玩法的，一般都是新手。而老司机聊的是啥：产品、资源、政策。
+01 新手聊玩法
+新手不光喜欢聊玩法，还喜欢用玩法。我接的别人运营不起来的店，那些链接报了哪些活动呢？我给大家掰扯一下：店铺满减、关注券、2件8折活动、新客立减、商品立减、七折、99折等等。
+按理说报这些活动或者营销工具也没问题，活动多多益善嘛。但是一条链接怼这么多玩意儿上去，结果没有单，大家有没有想过问题出在哪里？
+我就直说吧，新手大概率会觉得问题出在叠的活动还不够多，如果能原价上个万人团，链接肯定就起飞了。
+我见过很多刚做拼多多一两年的运营，最喜欢研究玩法黑科技，这也不是空穴来风，因为我就是这样过来的。试问平台的哪个营销工具我没用过呢？场景专属券、惊喜券这种偏门的，咱也都试过。
+但在我做了那么多的链接，上了那么多的活动之后，当时我就得出了一个跟大家常识相悖的结论：什么链接用营销工具能有效果？是能出单的链接。如果是垃圾链接，别说5叠券了，…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6480820"
+                        open
+                      >
+                        <summary class="article-expander__title">设计教父保罗·兰德：32 条设计底层认知×伟大LOGO如何诞生</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6480820.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/13/b40ea682-d9e1-11ed-bd74-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>保罗·兰德给 IBM、ABC、UPS、NeXT 做过标识，也被乔布斯称作「在世最伟大平面设计师」。他留下的判断很硬：设计是内容与形式的关系，不能传达就不是好设计，原创是结果而不是意图，迎合坏品味只会延续平庸。
+
+保罗・兰德，20世纪最有影响力的平面设计师与设计思想家，企业品牌视觉识别系统奠基人。乔布斯称他为 “在世最伟大平面设计师”，IBM、ABC、UPS、NeXT 等传世标识，全都出自他手。
+他的作品以极简、机敏、充满智识密度闻名，《关于设计的思考》《设计的意义》《设计师的艺术》，至今仍是设计领域必读经典。本文不但让你能其设计思考，更能理解伟大LOGO的诞生逻辑。
+
+一、设计的本质：关系、秩序与价值
+1、 设计就是关系
+设计是一种关系，一种比例。设计是内容和形式之间的关系。
+2、设计，就是把平淡的散文变成诗。
+设计，简而言之，就是组装，排序和编辑。设计，就是去增加价值，去阐明，去简化，去澄清，去劝说，去修改，使其高贵，使其戏剧化，让人愉悦。设计，就是把平淡的散文变成诗。
+3 没有完美的设计
+除非你是上帝，否则不可能有完美的设计。
+4 只有好与坏，没有新与旧
+设计只有好与坏的差别，不必担心够不够新。
+5、设计，就是清晰的沟通。
+二、好设计：沟通、诚实与愉悦
+1 不能传达，就不是好设计
+无论是凭直觉还是电脑，凭发明还是坐标系，产生了良好完形的平面设计，如果不能传达，就不是好设计。
+2 好设计增加价值，给予意义
+好设计增加某种价值，给予意义，而且，并非偶然地，可以纯粹是观者的愉悦。它尊重观者的感受力，也回报出资的企业家。
+
+3 形式与功能的不可分割
+任何形式的视觉传达，无论是劝服性的还是信息性的，从广告牌到出生公告，都应被看作形式与功能的化身：美与有用的整合。
+4 迎合坏品味，只会延续平庸
+迎合坏品味——我们如此轻易地将其归咎于普通读者——只会延续那种平庸，并剥夺了读者获得审美…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6480812"
+                        open
+                      >
+                        <summary class="article-expander__title">在小红书用官方账号装素人，年销两千万</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6480812.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/17/239e4f14-dcf5-11ed-ab4d-00163e0b5ff3.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>一个几乎不做达人投放的个护商家，只靠官方账号在小红书发笔记，涨粉 4.7 万、站内年销 2000 万。它的做法是日均发 6.33 篇、单日最高 34 篇，选题极度垂直，一个产品只讲一个方向，且只讲体验不讲卖点。
+
+有这样一个商家
+在小红书上，几乎没有达人投放，全凭一个官方账号发笔记，不仅账号涨粉4.7万，还能在小红书站内年销2000万
+而且还是在卷的不能再卷的个护赛道，那到底这个商家做对了什么？今天就带大家一起拆解
+1）发文狂魔，日均发布6篇，单日最多发布34篇
+先给大家公布一下这个账号的笔记发布数据
+
+通过数据可以发现，这个账号的发文及其活跃，平均每天发布6.33篇，单日最高发布了34篇，而且大多都是图文笔记
+这个发文效率已经超过了 99% 的商家
+
+打法显而易见，通过大量发布笔记来增加曝光量来获得账转化效果，笔记基本都挂小红书站内的商品链接
+确实，如果是在小红书站内卖货，打法和淘天转化不太一样，可以通过发布大量笔记的方式来获取流量
+因为小红书本身是把社区流量和电商流量做了区分，各自的内容走不同的流量池，直接挂了商品链接的，走电商流量池，没挂商家链接的，走社区流量池
+社区流量池的特点是，流量相对大一些，但是泛。电商流量池则相反，流量池体量没有社区流量池那么大，所以大家发布挂链笔记的时候会发现，小眼睛没有不挂链笔记的数据好，但是好在电商流量池相对精准，用户标签比较明确，几乎都是有在站内浏览，搜索过相关产品的用户，都是已经产生了相关电商行为的用户
+所以，种草笔记一定要看曝光，阅读和互动；但挂链笔记重点关注商品卡点击和转化，笔记本身的数据不重要，因为流量池本身有差异，购买和商品卡本身也是一种互动，挂链笔记就不能又要互动，又要转化数据，互动和转化本身就是相悖的
+所以，大家也可以发现，这个账号的笔记本身平均数据没有那么好，但是店铺链接销量都挺高
+2）不讲卖点，讲体验
+上面有讲到，这个账号是以图片笔记为主的
+因为本身需要提高笔记数量，所以图文肯定是更适合的内容形式
+选题上大家也可以感受一下，没有什么特别的选题，笔记本身创作门槛是低的，选题也都是极度垂直的
+
+这个账号的内容策略，非常极致。我总结了一下选题方向，基本只有四个，而且这四个方向也对应了几个主力的产品，也就是说一个产品几乎只讲一个方向，选题非常垂直
+
+比如护发，强调变美后的感受：如“贵气感”“氛围感”“男朋友喜欢”，而不只是讲产品成分
+再比如身体乳，专注在约会和亲密关系的场景，这个商家几乎不用“身体乳保湿”“发膜柔顺”这种产品语言，而是用：身体乳留香 → 身上一直香香的、约会时想让人靠近
+我一直讲，在小红书做内容，要把产品卖点转换为沟通点，沟通点就是更符合消费者习惯的能记住的语言，而不是冰冷的参数，毫无记忆点
+讲约会，可以把香味浓淡、靠近以后是什么感受讲清楚；讲睡前使用，可以交代涂完是否黏腻、接触衣物是什么感觉，让产品卖点变成消费者可以感知到的沟通点
+3）好选题，反复做
+看到这，不要直接要求运营月更190篇，得先找到好选题
+这 190 篇也不是什么都写，如果什么都发，只会打乱账号标签，内容方向要垂直，找到好选题反复做，可以先找一个已经有用户反馈的产品，挑一个最有把握的卖点，围绕它做几篇用途明确的笔记，先看看自己能不能把这个卖点讲出不同的效果
+比如做留香身体乳，一篇重点让人了解香味，描述它偏清新还是偏甜，浓淡如何；一篇记录实际使用后的留香表现，把时间、用量、个人感受交代清楚；另一篇讲睡前涂的使用体验，连同黏腻感、肤感一起说。这些内容虽然卖同一个产品，但用户点开后能获得不同的信息，也方便你判断大家到底在意什么
+如果发现“被窝香香的”这个方向更容易吸引人，就可以继续往下做。但接下来要留意，吸引来的人有没有进一步了解产品。如果点击表现不错，进店却很少，可以先检查香味和产品之间有没有讲清楚，读者是不是看完觉得挺有意思，却连你卖什么都没记住
+同样，新笔记也没必要全部拿同样的预算去推。先用能承受的预算比较，找到有效的表达，再围绕它补内容、尝试放量。最后可能只有少数几篇被持续使用，这很正常，剩下的尝试能帮你排除一些方向，也有它的作用。关键是不能发完就算交差，下个月再从头憋一批新选题
+写在最后
+维特丝这个账号给我的启发，是企业号其实可以用得更充分一些
+很多时候大家把企业号当成发布新品、活动和品牌新闻的作用，真正面向消费者的内容，反而全放在达人那里做了
+但其实一个产品值得被购买的理由通常就那么几个，把其中一个讲透，再从不同的使用情况反复讲，完全可以撑起持续的内容更新
+把好选题放在企业号反复讲，效果好的就投流，效果差的就赚自然流，商家可以不只靠KFS打法，也可以有更轻的入局方式
+本文由人人都是产品经理作者【Vic的营销思考】，微信公众号：【Vic的营销思考】，原创/授权 发布于人人都是产品经理，未经许可，禁止转载
+题图来自Unsplash，基于 CC0 协议</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6480810"
+                        open
+                      >
+                        <summary class="article-expander__title">Keep的当务之急是上线社会摇课程</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6480810.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/13/0aa5a478-d9e2-11ed-a8b0-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>圆肩、含胸、驼背、颈前伸——久坐打工人的体态问题，被作者用一套「社会摇」拆成四个动作：摇花手松手腕、举臂救肩颈、摇胯，最后摇头。他建议 Keep 直接把这套「不占地方、没有门槛、无需器械、无跑跳」的课程上架。
+
+强烈建议Keep抓紧时间上架社会摇课程。
+刚需，刚需，刚需，急急急。
+说别的都是虚的，这就是打工人们最需要的课程，上起来，一定得上起来。
+最简单一个事儿啊，你想，打工人常见哪些体态问题？
+圆肩，含胸，驼背，腰突，颈前伸，骨盆前倾等等等等，这些问题不够多？
+我照照镜子还能讲很久。
+那你说让他们直接上重量去撸铁，下了班就半马，周六周天再hyrox去解决吗？
+诶朋友牛马们都要说自己怎么突然升级了，现在成牛头马面了。
+攒的休假终于可以统一兑现了，怎么全给我兑现成睡眠了呀。
+
+我果真不用操心体态问题了，因为我现在只需要考虑存盘问题，把我的意识上传到更合适的服务器里。
+所以说白了，打工人就需要一种能让他们动起来，但又别动太猛，最好能帮忙纠正纠正体态的运动方式。
+诶没错，就是社会摇。
+摇头，摇，摇，摇。
+没开玩笑，过去我也对这个运动充满了偏见，我觉得可太土了，精神小伙那么瘦纯属于三天饿九顿饿出来的。
+直到我当了奶爸，每天要急赤白脸的带娃，第一次学着用花手哄孩子的时刻，那一刻，我像是打开了新世界的旋转门。
+我的拇指肌肉疲劳，手腕要损不损，肩后束极其紧张。
+摇花手的第一个动作就是让你手背相对手腕紧贴，上下旋转，循！环！往！复！
+
+
+哇那一瞬间你会发现别说手腕活动到了，小臂随之疯狂拉伸，整个人像是招财猫一样在来财来财来财。
+久低头肩颈酸痛？
+哇花手的第二步就是让你把双臂举起来！举起来！
+现在地面就是岩浆，你需要像直升机一样给自己摇花手摇走！
+不准停！停了就是may day！may day！摇起来！
+我就问你肩部有没有感觉！有没有感觉！
+就这，你还说你腰酸背痛？你胯还得摇呢。
+现在第三步…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6480805"
+                        open
+                      >
+                        <summary class="article-expander__title">爽！我让 ChatGPT 的“Dot”时刻紧盯「Tibo」推特， 且，能直接推送到微信。</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6480805.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/05/06/e2ff7c32-ec01-11ed-8df9-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>作者给 ChatGPT 的 dot「小若」派了个活：每小时检查 @thsottiaux 的新推文，重点盯 Codex 额度重置，再用 Server酱把中文摘要推到微信。整条链路都在云端，Mac 关机也照样收消息，10 月 5 日凌晨 04:38 的通知就是证据。
+
+分享节前的一个 Codex 实践：
+微信是我每天用得最频繁的入口。以前想知道Codex额度什么时候重置，还得手动刷推特推荐、翻主页，碰运气找消息。我就想：能不能直接在微信里收到提醒？于是，国庆节前我给 ChatGPT 的 dot“小若”派了个活：盯住 Tibo，把重要动态整理成中文，再通过 Server酱送到微信。
+01 先看手机：消息真的送到了微信
+我关注的 Tibo（@thsottiaux）经常发 ChatGPT 和 Codex 动态。
+是的，最让我惦记的是额度：什么时候重置、出了什么异常、修好没有。
+10 月 5 日凌晨 04:38:42，我还在睡觉，微信“方糖”收到了“未来28天每天改进或重置”的通知。点开就是 Server酱详情，摘要和原推链接都在。
+
+图1｜微信通知与 Server酱详情
+小若的聊天窗口也留了同一条消息，时间能对上。
+
+图2｜小若 04:38 的完整摘要
+我点进 Tibo 的原推核对：未来 28 天，每天要么上线一项对多数 Codex/Work 用户有用的明确改进，要么完整重置额度。
+
+图3｜保留英文的 X 原帖
+往前翻，还能看到重置预告和完成通知。
+
+图4｜重置预告与时区歧义提醒
+
+图5｜10 月 3 日的重置完成消息
+到了 10 月 5 日上午，后续回复也持续进来了。没公布的数字、没确定的日期，它会注明。
+
+图6｜06:24、08:30 的连续更新
+说实话，这个功能我在节前就已经配置好了，就是 ChatGPT 的dot 刚刚上线的时候就配置好了这个通路。
+
+然后就基本上没有错过任何…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6480841"
+                        open
+                      >
+                        <summary class="article-expander__title">小杨哥，已经被直播电商“抛弃”</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/it/6480841.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/wp-files/2026/10/Y1CJOYqnPoSOLzR3DcEa.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>小杨哥换号复播，粉丝却不再追随。直播电商的逻辑已从“人货场”翻转为“货人场”：平台把流量从超头主播拆散给店播与中小达人，品牌也看清了租脸带货不如自建阵地。当一张脸再也撬不动亿级GMV，超级主播的时代正悄然退场。
+
+10月16日傍晚6点55分，两个穿白衣服的男人站在“小杨臻选”的镜头前。站姿规矩，表情严肃，身后是一块贴着抖音公告的背景板。他们说了四五分钟话，没有喊“上链接”，没有整活，同时在线人数不超过2000。
+这是注销了“疯狂小杨哥”账号后，张庆杨以新号“庆杨”复播后的情形。两天后，新账号粉丝数在经历清零波动后恢复至6万。一个曾经粉丝1.2亿、单场带货过亿、被叫作“抖音一哥”的人，换了一个新号重新起跑，曾经的铁粉们并没有追随。
+为什么曾经的“超头主播”带不动了呢？因为时代已经变了。
+01 一张脸如何撬动亿级GMV
+直播电商刚兴起的时候，更多被人称为“直播带货”，当时行业里流行一个词叫“人货场”：人在前，货在中，场在后。
+因为那是一个“人”决定一切的年代。换而言之，那是一个“直播带货”的时代。消费者不是为了买一袋米走进直播间，是为了看主播。李佳琦一句“欧码噶，买它”，能瞬间点燃一个仓库；董宇辉讲一段苏东坡，能把大米卖成文化消费品；小杨哥的整活把品牌方“逼到崩溃”，能让无数人反复刷切片……
+彼时，主播主要靠两样东西来吸引粉丝：内容和福利。
+
+内容，是吸引观众走进直播间的“利器”。以小杨哥为例，其核心能力实际上是“注意力套利”，即用夸张的表演、反向的剧本、家庭的烟火气，把注意力从全网吸过来。
+但真正把围观变成粉丝的，是福利，比如最低价、独家赠品、买一送一、限量秒杀、“全网只有我这里这个价”。主播用这些东西，给了粉丝一个无法拒绝的理由，从而销量大爆。
+从某种程度上来说，大主播卖的从来不是货，卖的是“占便宜的机会”。而内容负责拉新，福利负责留存和转化，两件事合起来，让超级主播们有了…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6478930"
+                        open
+                      >
+                        <summary class="article-expander__title">提升Vibe Coding设计质量的10个技巧！</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6478930.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.woshipm.com/2023/04/13/6ffba1d2-d9de-11ed-9d2f-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>很多人用 Vibe Coding 时设计稿还原度低，设计细节反复说也改不对。文章按前期准备与代码产出两个阶段，整理提升还原度的十个技巧，覆盖底层大模型的选择、MCP 与 npm 包的安装，以及如何用约束规则缩小 AI 的上下文盲区。
+
+经常有朋友来问我：“在 Vibe Coding 中有没有能够提升设计稿还原度的经验和方法？感觉自己用 AI 做 Coding 时的设计稿还原度很低，设计细节反复说好几遍也改不对，该怎么办呢？”
+今天就给大家分享下我在做 Vibe Coding 时调整设计稿细节的 10 个技巧，技巧 1-3 是针对前期准备阶段；技巧 4-10 是针对代码产出阶段，希望对你有帮助。
+一、前期准备阶段
+1. 选择合适的底层大模型
+好的 AI IDE 工具都支持底层模型的选择，底层大模型的质量会直接影响你 coding 的质量，所以一定要优先选用行业内认可的质量高的大模型。我最常用的是 GPT 和 Gemini，版本越新越好。像 Qwen、Deepseek 这类大模型，用来回答文字问题是绰绰有余的，但是用来做 Vibe Coding，产出的页面很有可能是惨不忍睹的：
+
+图为 Trae 编辑器中对于大模型的选择方式
+另外要注意的是，一定要从项目一开始就要调整和选择好模型，如果你第一步生成页面时的地基打得不好，后面更改和调整会变得更加困难。
+2. 安装 MCP、Skills、npm 包
+MCP、Skill 和 npm 包的本质都是在做一件事：缩小 AI 的上下文操作盲区。AI 对你的需求上下文了解得越深，生成结果的准确率就越高。
+
+MCP：是一种让 AI 模型与外部数据源、工具、文档实时交互的协议。通过 MCP 接入设计稿或者 PRD，AI 就相当于直接阅读一手资料，也就有了更准确的上下文输入：
+
+我最常用 Figma 和 飞书文档的 MCP
+Skill：相当于给 AI…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-10-19 datetime="2026-10-19T18:39:20.000Z">2026-10-19</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-10-19 datetime="2026-10-19T18:39:20.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >异次元软件世界</button>
+                  <a class="source-heading__link" href="https://www.iplaysoft.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.iplaysoft.com/?p&#x3D;6633"
+                        open
+                      >
+                        <summary class="article-expander__title">腾讯 WorkBuddy 免费白嫖 DeepSeek 新模型 (国产 Codex / Claude Code 替代)</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.iplaysoft.com/workbuddy.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://img.iplaysoft.com/wp-content/posts/6633/workbuddy.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>市面上 AI 工具多如牛毛，但大多数停留在“聊天回答”阶段。AI 只能给你解答疑惑，所有的“苦力活”还得自己动手。比如合并十几个 Excel、翻群聊写周报、批量整理文件等等 。
+像 Codex、Claude Code 这些 AI Agent 智能体现在非常火，修改文档、编程、操作电脑样样行！但它们有国外网络门槛、还要短信验证、绑信用卡才能用。而腾讯的 WorkBuddy (AI 办公工作台) 则更省心，装上就能用，还有免费模型！尤其还能联动企业微信，实用度直接上一台阶……
+「 前往查看原文.... 」
+异次元还有这些值得一看：
+
+DeepSeek Harness 是什么？比 Codex 龙虾 Claude Code 更好玩的 AI Agent 来了
+DeepSeek V4 Pro 正式版！国产开源 AI 战力天花板 (直逼 Fable5 / 价格便宜 30 倍)
+香爆了！Qwen3.6 无限 Token 免费用！放开随便玩各种 Agent、AI 编程…
+ChatWise - 小巧速度快！全功能 AI 助手客户端 (支持 DeepSeek / OpenAI 等模型 API)
+
+异次元首页  |  微信公众号  |  关注微博  |  软件精选  |  软件激活码折扣</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.iplaysoft.com/?post_type&#x3D;xpost&amp;p&#x3D;5420"
+                        open
+                      >
+                        <summary class="article-expander__title">年度低价！哔哩 B 站大会员双 11 年卡折扣优惠 (支持电视端)</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.iplaysoft.com/p/bilibili-vip">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://img.iplaysoft.com/wp-content/uploads/2021/p/bilibili/bilibili.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>哔哩哔哩从创立至今，逐渐已成为了年轻人超喜爱的动画视频网站了。现在无论是二次元番剧、电视剧、电影、各种有趣视频、知名UP主、学习资料等都能在 B 站找到。
+
+丰富的番剧影视资源 + UP 主自制视频资源，没有片头广告，再加上极高人气的“弹幕”的存在，使得 B 站成为能与 爱奇艺、腾讯视频 …… 
+「 前往查看原文.... 」
+
+异次元首页  |  微信公众号  |  关注微博  |  软件精选  |  软件激活码折扣</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.iplaysoft.com/?post_type&#x3D;news&amp;p&#x3D;6631"
+                        open
+                      >
+                        <summary class="article-expander__title">微软死磕优化？新版 Win11 提速 20%，比过去省出 2GB 内存</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.iplaysoft.com/news/6631">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://img.iplaysoft.com/wp-content/posts/6631/img01.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>大家都知道，Windows 11 自发布以来，被广大网友吐槽最多的就是三个字：慢、卡、重。哪怕你是高配电脑，有时候点个鼠标右键、打开一下文件资源管理器，或者呼出开始菜单，都能感受到那种微妙的“笨重感”。
+
+下载最新 Windows11 镜像
+而对于还在坚守 8GB 内存 的轻薄本和配置较低的办公电脑来说，…… 
+「 前往查看原文.... 」
+
+异次元首页  |  微信公众号  |  关注微博  |  软件精选  |  软件激活码折扣</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >QiuQuan&#x27;s Blog</button>
+                  <a class="source-heading__link" href="https://www.qiuquan.org">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://bak.qiuquan.cc/?p&#x3D;4212"
+                        open
+                      >
+                        <summary class="article-expander__title">数据恢复 R-Studio 9.5 Build 191850 注册版 | 安装版 + 单文件</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.org/recovery/rstudio.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.qiuquan.org/wp-content/uploads/2025/02/RStudio-150x150.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>R-STUDIO 是一套功能强大、经济高效的磁盘恢复软件。最初由 R-Tools Technology, Inc. 研发，面向有经验的数据恢复专业人员，R-Studio 已通过重新设计，成为可升级、用户友好型一体化数据恢复工具。通过将最先进的文件恢复和磁盘修复技术与直观的用户界面进行联合，R-Studio 可为企业和专业级数据恢复专家提供所需工具，而对入门级用户也不会造成使用方面的阻碍</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.qiuquan.org/?p&#x3D;15067"
+                        open
+                      >
+                        <summary class="article-expander__title">图片批量调整与转换 Light Image Resizer 7.6.7.182 直装破解版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.org/image/resizer.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.qiuquan.org/wp-content/uploads/2025/12/Light-Image-Resizer-150x150.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Light Image Resizer 是一款专注于图像处理的软件，核心功能包括批量调整图片尺寸、压缩文件体积、转换图像格式以及创建备份。软件提供简洁直观的操作界面，支持通过Windows资源管理器右键菜单快速启动，并集成多核处理技术以提升转换效率。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://www.qiuquan.org/?p&#x3D;13528"
+                        open
+                      >
+                        <summary class="article-expander__title">YouTube视频下载 Social Media Downloader 8.5.33 直装破解版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.org/download/socialmediadownloader.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.qiuquan.org/wp-content/uploads/2026/08/SocialMediaDownloader-150x150.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Social Media Downloader是一款简单易用的视频下载工具，可帮助用户轻松下载各种社交媒体平台上的视频、图片、音乐等内容。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >小众软件</button>
+                  <a class="source-heading__link" href="https://www.appinn.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.appinn.com/fake-photocraft-malware/"
+                        open
+                      >
+                        <summary class="article-expander__title">有人用 AI 复刻了 Adobe 全家桶，黑客用 AI 复刻了复刻，专偷密码和数字钱包</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.appinn.com/fake-photocraft-malware/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.appinn.com/wp-content/uploads/2026/10/Copy-of-appinn-homework-2026-10-19T180131.681.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>前段时间，有开发者利用 AI 复刻了一套 Adobe 全家桶 PhotoCraft，包括 Photoshop、Illustrator、Premiere Pro 等软件，免费开源，火爆全网。 万万没想到，根据火绒安全实验室的报道，有攻击者假借开源图像编辑项目 PhotoCraft 之名，分发携带恶意程</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.appinn.com/pwnescape-cve-2026-99999/"
+                        open
+                      >
+                        <summary class="article-expander__title">PwnEscape：Linux 爆 9.3 分严重漏洞，一台 VPS 可能攻陷整台宿主机｜CVE-2026-99999</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.appinn.com/pwnescape-cve-2026-99999/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.appinn.com/wp-content/uploads/2026/10/Copy-of-appinn-homework-2026-10-19T155049.517.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>更新：该研究人员因为这个漏洞的发现，拿下了 Vercel 提供的 5 万美金奖金，而本次漏洞消耗了 700 美元的 AI API 额度。 Linux 又出现了一个严重安全漏洞。 近日，安全研究人员公开了一个名为 PwnEscape 的 Linux 内核漏洞，编号 CVE-2026-99999，CVS</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.appinn.com/faxian-top10-2642/"
+                        open
+                      >
+                        <summary class="article-expander__title">发现频道：10款大家发现的好评软件[2026年第42期]</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.appinn.com/faxian-top10-2642/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.appinn.com/wp-content/uploads/2026/01/Copy-of-appinn-homework-16.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>最近10日，来自小众软件论坛的发现频道的热门排行榜，由系统自动生成，直接列出来： 序号 主题 1️⃣ 【开发者自荐】Listary V7.1 发布： 8 年来最大一次更新，最快最丝滑的搜索工具它来啦 2️⃣ 自荐一个为自用而生的安卓漫画阅读器：漫读 1.5 3️⃣ 【开源自荐】屏译：开源 Andro</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -618,40 +1503,6 @@ Tiimo 最初是专门为注意缺陷多动障碍/ADHD、自闭症等神经多样
 
 更不用说那些靠私域流量冷启动的爆款产品了：品牌先把产品免费发给几百个KOL和KOC，让他们统一时间发布，再配合付费广告和邮件营销打出声量…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >小众软件</button>
-                  <a class="source-heading__link" href="https://www.appinn.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.appinn.com/faxian-top10-2642/"
-                        open
-                      >
-                        <summary class="article-expander__title">发现频道：10款大家发现的好评软件[2026年第42期]</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.appinn.com/faxian-top10-2642/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.appinn.com/wp-content/uploads/2026/01/Copy-of-appinn-homework-16.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>最近10日，来自小众软件论坛的发现频道的热门排行榜，由系统自动生成，直接列出来： 序号 主题 1️⃣ 【开发者自荐】Listary V7.1 发布： 8 年来最大一次更新，最快最丝滑的搜索工具它来啦 2️⃣ 自荐一个为自用而生的安卓漫画阅读器：漫读 1.5 3️⃣ 【开源自荐】屏译：开源 Andro</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -23225,725 +24076,6 @@ AI 在这里的分工很清晰，多用于素材测试、定向投放与本地�
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >小众软件</button>
-                  <a class="source-heading__link" href="https://www.appinn.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.appinn.com/jev-getting-started/"
-                        open
-                      >
-                        <summary class="article-expander__title">Jev 入门：ChatGPT 研究员做了个“不会聊天、不写代码”的 AI 模型，但速度快200倍、成本低400倍</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.appinn.com/jev-getting-started/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.appinn.com/wp-content/uploads/2026/09/Copy-of-appinn-homework-2026-09-20T195436.029.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>ChatGPT 研究员 Diogo Almeida 几天前带来了他的新模型：Jev。它不聊天，只负责选判断，比传统大模型快 20～200 倍，成本降低 40～400 倍。 他还说：据我所知，这是通往基于 AI 的经济革命的最短路径。 青小蛙被 Jev 刷屏之后，终于得到了访问权限： 这个等待很快，几</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >人人都是产品经理</button>
-                  <a class="source-heading__link" href="https://www.woshipm.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6467031"
-                        open
-                      >
-                        <summary class="article-expander__title">Jev新决策模型的试用心得</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/evaluating/6467031.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/13/2810016a-d9de-11ed-8fc2-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>今天刷到一个新出的模型叫 Jev，怪在它不会写字。你给它一段话，它不回话，给的是一个分数、一个概率或者一个 yes/no 的判断。作者为了给自建的知识图谱系统补一个决策模块去充了点钱，玩了一天，聊了聊 vibe coding 为什么让人累。
-
-今天刷到一个新出的模型叫 Jev，看完介绍我直接去 OpenRouter 充了点钱。不是为了追什么新出的 GPT 或者 Claude，就是为了试这个怪东西。
-这个模型有点怪。
-怪到什么程度呢，它不会写字。
-你没看错。一个 AI 模型，它不会写文章，不会写代码，不会跟你聊天。你给它一段话，它不给你回一段话。它给你的是什么呢，是一个分数，或者一个概率，或者一个 yes/no 的判断。
-我当时看到这个介绍的时候，第一反应是，那这玩意有啥用？
-但我还是充了钱。因为我最近在搞自己的知识图谱系统，正好缺一个做流程决策的模块。我寻思，就当买个玩具玩玩。
-结果玩了一天，分享下我的感触。
-说真的，我不知道你们有没有这种感觉。就是你用 Cursor 或者 Claude Code 写代码，写着写着突然就累了。
-不是身体累，是一种脑子转不动的累。
-你明明就是在跟 AI 对话，让它帮你写代码，你只需要说几句话，为什么会累成狗？
-我之前一直以为是我自己菜。直到我看到 Jev 这个模型，我突然想明白了一件事。
-你以为你在让 AI 帮你干活？其实没有。
-它只是在根据你的上下文，一个字一个字地往下编。编出来的东西像那么回事，但它根本不知道自己在干嘛。
-所以你为什么累？因为你一直在替它做决策。
-
-它写了一段代码，你得读一遍，判断对不对。它给了一个方案，你得想想到底靠不靠谱。它说「我觉得应该这么做」，你得琢磨琢磨，它真的觉得吗，还是它只是概率上最可能这么说。
-这个成本是巨大的。
-而且最恶心的是什么，你判断它靠不靠谱的时候，你也不知道自己判断得对不对。
-这就是为什么 vib…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6467024"
-                        open
-                      >
-                        <summary class="article-expander__title">现在就用WorkBuddy，免费开发部署上线全栈网站应用</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6467024.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/13/0aefb984-d9ef-11ed-a8b0-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>WorkBuddy 最新的 5.5.6 版本上线了全栈网站应用生成能力，支持一键部署到云服务。老马按官方文档整理了七项核心能力与额度规则：云数据库、文件存储、注册登录、免密钥 AI 调用，免部署、发布即用，还附上手搓网站上线实操。
-
-WorkBuddy也是好起来了，最新的5.5.6版本上线了全栈网站应用生成能力，并且支持一键部署到云服务上，省时省心又省力，这个操作很秒哒。
-01 什么是全栈网站应用
-什么是全栈网站应用？简单的说，就是你做的一个网站，是有前端，以及后端的。大家都知道，很多时候用AI做的，只是一个前端网页。
-前端网页大部分情况下只能做展示，没有后端服务的支持，很难称之为一个完整应用。比如没有后端的数据库、没法注册账号和登录，没法上传文件等等。
-虽然之前老马也介绍过，你可以把一个需要后端服务的网站，部署到WorkBuddy的沙箱上，但沙箱是有时效性的，不能一直在线，一旦失效了，网站也就访问不了了。
-另外一种方法，就是去WorkBuddy的资料库，做一个静态应用，数据可以外挂一张Excel表格，这其实也算不上真正的全栈应用。
-最后一个方法，属于需要技术基础的常规做法，那就是购买一台云服务器，比如腾讯云的。把AI做好的全栈应用部署上去，再去注册一个域名，绑定上。
-对于没有技术基础的小伙伴来说，这个难度是存在的，况且还得管理云服务器。一般云服务器的操作系统是Linux的，你得通过远程管理软件，使用命令行的方式登录进行服务器的管理。
-02 七项核心能力与额度规则
-说完这些问题和门槛，你就能体会到，此次WorkBuddy升级提供的全栈网站应用生成能力，意义是有多大。它自带云数据库、文件存储、注册登录、免密钥AI调用，免部署，发布即用。
-适合要接数据库、要存文件、要做注册登录、要部署上线的动态网站应用场景。并且WorkBuddy还是蛮大气的，就算你用的是免费的体验版，也会送对…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6467020"
-                        open
-                      >
-                        <summary class="article-expander__title">AI都能直接转绘了，用 Skill 会更好看吗？我用GPT和国产模型实测了一下</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/evaluating/6467020.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2024/07/24/4b4a4e3e-499e-11ef-a43d-00163e142b65.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>我拍了很多照片，但回头翻相册总觉得差点意思。刷 X 看到有人分享的风格 Skill，普通照片放进去就变成水彩和手账。于是试了两种做法：一种拿参考图做风格迁移，一种装上 Skill 再调用，分别在 GPT、豆包、千问和 WorkBuddy 里各跑一遍。
-
-我拍了很多照片，但回头翻相册，总觉得自己拍得不太好看。
-风景是好看的，饭也挺好吃，怎么到了我的照片里，就差点意思。直接发吧，感觉有点普通，又想看看能不能弄得高级一点。
-后来刷 X，看到小小东分享的风格 Skill。普通照片放进去，出来就成了水彩、拼贴、手账，看着确实比原来有意思。
-我本来想装几个试试，但又想到：图像模型不是可以做风格迁移吗？
-那我直接把他的 Skill 宣传图拿来当参考，再加上自己的照片，让 AI 照着改，不就行了？为什么还要安装 Skill 呢？
-说实话，找 Skill、安装，再让工具调用，我觉得有点麻烦。如果发两张图就能解决，那我肯定想选省事的。
-但这两种方法做出来，到底有没有区别？装了 Skill，是不是就更能还原宣传图里的设计？
-出于这个好奇心，我从相册里挑了一张风景、一张烤肉，分别放到 GPT、豆包、千问和 WorkBuddy 里试了试。一种直接拿参考图做风格迁移，另一种用 Skill，看看多出来的这些步骤，到底值不值得。
-
-01 先拿一张风景试试
-先看我拍的原图。蓝天、白云、树林，还有一大片草地。
-
-skill是这种带水彩、纸纹和邮戳的旅行票券，我找了官方的参考图片来做测试。
-
-一种做法，是把这两张图一起发过去，让它照着转换。另一种，是用小小东的xxd-panel-013skill，就是图片这个风格。
-
-下面都按同一个顺序排：左上 GPT，右上豆包，左下千问，右下 WorkBuddy。先看直接迁移。
-
-这么放一起，区别就比较明显了。
-GPT、千问和 WorkBuddy 都做出了左边画、右边信息栏的…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6466953"
-                        open
-                      >
-                        <summary class="article-expander__title">为什么大模型跑分很高，到了真实业务却不好用</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6466953.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/14/0d78bf02-da8f-11ed-a86f-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>为什么模型在 Benchmark 上表现优异，上线后却差评如潮？本文深入解析 Benchmark 的运作机制与 SOTA 的真实含义，揭示高分模型在真实业务中可能“水土不服”的三大原因，并给出产品经理科学使用 Benchmark 的实用建议，帮你避开选型陷阱。
-
-我们常常会遇到这样的场景：AI产品根据各个 Benchmark 榜单上的成绩选出一个表现领先的模型，项目推进得很顺利，产品也成功上线。
-正当PM信心满满地等待用户好评时，差评却如潮水般涌来：答非所问、流程卡住、遇到模糊表达就无法处理。
-为什么在榜单上表现优秀的模型，到了真实业务中却可能不好用？
-因为我们平时所说的 SOTA，本质上是模型在某套 Benchmark 中取得的成绩。想判断这份成绩能不能代表真实业务，就必须先弄清楚 Benchmark 考了什么，以及 SOTA 究竟意味着什么。
-一、Benchmark 是什么
-Benchmark 可以理解为给模型准备的一套标准化考试。不同模型完成相同或等价的任务，再按照相对统一的规则接受评分，得到的结果才具有一定的可比性。
-一套 Benchmark 通常会包含以下内容：
-评测任务或数据： 也就是模型需要完成的题目。例如，MMLU 主要考查多学科知识和推理能力，HumanEval 主要考查根据要求生成 Python 代码的能力。
-输入输出要求： 规定模型会收到什么内容，以及需要按照什么形式作答。
-评测方式和评分指标： 相当于考试中的判卷方法和评分标准，用来判断模型完成了多少题、最终表现如何。
-参考答案或评测工具： 部分 Benchmark 还会提供参考答案、测试用例或专门的评测程序，但并不是所有 Benchmark 都存在唯一的标准答案。
-为了方便理解，我们可以把 Benchmark 粗略分成两类：一类是通用 Benchmark，用来考查模型在多种任务上的能力；另一类是垂直…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6466880"
-                        open
-                      >
-                        <summary class="article-expander__title">“去 AI 味”是个伪命题：它写得像 AI，是技术架构决定的</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6466880.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/14/113e13f4-da8e-11ed-9503-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>AI写作的“味儿”从何而来？本文从技术架构出发，剖析AI文本同质化的根源，指出“去AI味”在现有技术下近乎伪命题。作者提出人机协作应“你做树干，它做枝叶”，并区分了适合AI味的场景与需要人类锋芒的领域，为创作者提供务实建议。
-
-最近总看到有人兴致勃勃地分享 “去AI味” 的 prompt。什么“禁止总结词”“强制长短句穿插”“注入偏激观点”…… 看得我又想笑，又有点累。让 AI 写出没有 AI 味的内容本身就很滑稽。我很喜欢的一位博主 xiaowen 说过一句话：AI 写的东西是给 AI 看的，人写的东西才是给人看的。这句话我反复嚼了很久。
-为什么几乎所有的模型，写出来的文字都带着同一种说不清的“味儿”？那种味儿你肯定闻过。
-中文里最常见的是：“首先……其次……最后”，“需要注意的是”，“值得一提的是”。英文里则是：“However”，“It’s important to note that”。再往深一点，就是那种永远四平八稳、永远在“升华”、永远缺少一点脏和刺的语气。就像《庆余年》里的五竹 —— 什么都懂，但很麻木。
-据统计，AI 特别爱用一些高深词，使用频率能比人类高出上百倍。结构上更为夸张：编号列表暴增近二十倍，标题放大一万六千多倍。不管你让它写什么，它几乎都会给你一个干干净净的“总—分—总”结构。
-几乎所有主流大模型都这样，它更像是技术架构本身带来的痕迹。预训练阶段，模型的语料可能来自书籍，文章，网页，论坛，见过很多粗糙的、口语化的、甚至脏话连篇的文本。到了后训练阶段，它被一遍遍教导：要安全、要清晰、要有条理、要让大多数人满意。 概率分布被不断抹平。
-最终它学会了走那条最不容易出错的路，于是就有了我们现在闻到的这股味。
-
-有人会说：把temperature拉高不就行了？把采样弄得更随机一点，不就能跳出那些平滑的概率峰吗？理论上可以。实际上，你一拉高，它就开始胡说八道，开始语病和前后矛盾。
-逻辑严密和“有人味”，在当前架构下几乎是个不可能三角。你想要它不胡说，就得接受它平滑；你想要它有棱角，就得承担它可能的逻辑崩坏。
-AI 没有荷尔蒙，没有真正的疲惫，没有某个瞬间突然涌上来的委屈或荒诞。没有这些锚点，文字就只能漂着。
-不要指望彻底去掉了 AI 味儿，在现有技术架构下，那是个伪命题，最多只能稀释。
-只让 AI 帮你查、帮你理、帮你把已经想清楚的东西排得好看一点。把你真实的素材扔给它—— 那次吵架时对方说的原话， 那天晚上你盯着天花板想到的一句很损的话， 你自己都觉得有点偏激却忍不住想说的观点。然后明确告诉它：不许总结，不许升华，不许用“首先其次”，出现超过五个字的短句，可以用脏话，可以前后不那么顺。
-人机协作最好的状态是你做树干，它做枝叶。
-最后说点实际的。有些文字，挺适合带着 AI 味的。 会议纪要、行业报告、技术文档、标准操作手册…… 这些地方，读者要的是清楚、好检索、少歧义。 AI 味在这里反而成了专业的代名词。可一旦进入真正需要人的领域，比如个人非虚构、锋利的评论、散文、有锋芒的小说等，那点被抹平的概率、那点缺失的身体记忆，就会变得刺眼。那里是高熵的地方。
-美感往往来自语法被故意弄破，来自认知的偏见，来自情绪没有被妥善管理，来自一个人活过之后留下的、别人抄不走的沉淀。AI可以模仿表面的波动，模仿不了我真的在这里活过的痕迹。
-下次再看到 “去AI味神级prompt” 的时候，你可以笑一下，然后继续用你的方式写，带着点毛边，个人的偏执，以及只有你自己才懂的细节。那些才是给人看的。
-本文由 @Jace在造 原创发布于人人都是产品经理。未经作者许可，禁止转载
-题图来自Unsplash，基于CC0协议</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6461673"
-                        open
-                      >
-                        <summary class="article-expander__title">一文读懂 HarmonyOS 7.0 带来的十大重要升级（三）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6461673.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2026/09/08/fb7b0056-ab5c-11f1-8891-00163e4b86a1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>HarmonyOS 7.0 正式发布，带来 ArkUI 沉浸光感、后台任务重复倒计时、文件递归过滤与压缩解压缩、文本搜图等实用新特性。本文结合《鸿蒙HarmonyOS 6应用开发》一书，逐一解析这些特性的设计思路与开发要点，帮助开发者快速上手。
-
-HarmonyOS 7.0 已于 2026 年 9 月 7 日正式发布，该版本在 HarmonyOS 6.1 基础上增强了若干特性，让鸿蒙系统变得更智能更好用，下面结合《鸿蒙HarmonyOS 6应用开发:从零基础到App上线》一书对 HarmonyOS 7.0 新特性中的常用部分逐一讲解。这个系列文章总共有三篇，本文是该系列的第三篇。
-一、ArkUI（方舟UI框架）
-新增ArkUI组件级沉浸光感，提供的一套高品质视觉与动效体系，通过沉浸式系统新材质效果与空间动效的结合，为应用组件带来通透、精致的视觉表现。
-新特性解释
-沉浸光感是ArkUI提供的一套从“视觉层”到“感知层”的体验，将光影材质与交互动效表现相结合，帮助应用建立清晰的视觉层次，并在不同设备上保持和谐一致的观感。例如：用户展开菜单时，伴随着形变弹出打破生硬的规整边界，边缘流光勾勒着面板轮廓，将菜单的弹出操作转化为富有沉浸感的体验。
-为什么要引入该特性？
-APP的菜单、对话框等弹窗类组件原本有着各种的默认白色背景，打开弹窗类组件会直接覆盖APP的部分屏幕区域。如今有了组件级沉浸光感，开发者可给组件赋予轻盈通透的质感：材质滤镜、折射、高光、阴影等多层效果叠加，让底层内容透过材质层自然渗透，带来远超纯色背景的高端视觉表现。
-
-鸿蒙一书的对应章节
-《鸿蒙HarmonyOS 6应用开发:从零基础到App上线》一书的“2.2.3 运行配置文件module.json5”小节介绍了如何修改module.json5中的节点配置，那么系统升级到 HarmonyOS 7.0 后，读者可在mo…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6466842"
-                        open
-                      >
-                        <summary class="article-expander__title">WorkBuddy、千问办公、TRAE Work、百度搭子：四大AI办公硬碰硬</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6466842.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2024/09/12/03f0e67a-70cb-11ef-9237-00163e142b65.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>AI办公战场硝烟弥漫，腾讯、阿里、字节、百度各亮兵器：WorkBuddy借企微生态，千问办公绑钉钉协同，TRAE Work以代码硬核突围，百度搭子深耕研究场景。本文深度拆解四家巨头的产品逻辑与优劣势，看谁能率先打穿用户心智，赢得企业级AI办公的入场券。
-
-AI办公的战争，已经打成了白刃战。
-今年9月前后，腾讯、阿里、字节、百度——这四家互联网巨头，都完成了AI办公产品线的集中收口，当下他们都在关注一件事情：让AI真正走进企业工作流程。
-四家的兵器也完全不同。
-腾讯手里最锋利的刀，是企业微信，1400万企业账号是它的刀锋。
-阿里的矛是钉钉，2亿级的月活用户，就是矛尖上最亮的那一点。
-字节的剑是TRAE Work，一面写代码，一面做办公，双线都能打。
-百度的弓是百度搭子，箭矢瞄向个人研究场景，精准、但射程有限。
-兵器已经亮出，接下来就看谁能先打穿用户心智。
-腾讯WorkBuddy：企微握有王牌，生态是最大杀招
-腾讯在开发AI办公平台的时候，最不缺少的就是入口，WorkBuddy从诞生开始就站在企业微信的肩膀之上。
-
-用户规模断层式领先。易观分析今年7月发布一份报告称，六月份WorkBuddy的PC端单月访问量为2097万次，超过了第二和第三名综合。支撑这个数字的基础，是超过1400万个的企业微信账户、以及7.5亿的微信日活用户。
-企业微信生态深度打通。WorkBuddy能够将人工智能草拟的会议记录，以及文档修改这类主要的工作流程，直接发送到企业微信的聊天窗口当中，用户不用去更换平台，就可以在一款软件中推进工作。
-这样的“AI +协作”闭环体验，是独立的办公平台难以复制的障碍——其他人的技术不是做不到，而是WorkBuddy用户已经形成了惯性。
-本地文件处理能力成熟。WorkBddy可以直接读取、修改本地的文档，无需将文件全部上传到云端，国有企业、政府机关对数据的安全要求很高，这…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6466695"
-                        open
-                      >
-                        <summary class="article-expander__title">豆包手机的价值，被历史性地低估了</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6466695.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/09/12/c2e5f596-5116-11ee-b8bc-00163e142b65.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>豆包手机从被风控封杀到推出SAEP协议，九个月内完成从“硬闯”到“敲门”的转变。本文深度剖析AI硬件商业化的核心卡点——不是技术，而是生态利益分配，并揭示豆包如何通过重构分发权、抢占决策入口，探索AI手机的突围路径与中国AI×制造的全球竞争力。
-
-如果把时间拨回 2025 年底，那可能是中国 AI 硬件史上最疯狂也最尴尬的一个月。
-搭载豆包 AI 助手的努比亚 M153 工程样机刚发布时，售价 3499 元，二手市场最高被炒到天价。人们以为看到了未来，结果短短几天后，泡沫破裂。微信、支付宝、淘宝、建行、农行等纷纷触发风控，号称能“一键搞定所有事”的 AI 停摆了。
-
-很多人嘲笑这是人工智障，是技术不成熟。
-站在 2026 年的今天回头看，真正的原因不是技术，而是蛋糕没切好。当豆包试图绕过单一 APP，直接替用户做决策时，它实际上是挑战过去整个移动互联网的旧秩序。
-举个例子：我用豆包打车，它可以选美团，可以选滴滴，也可以选高德。用户打车需求的主动权，从 App 转移到了豆包本身。豆包成了凌驾于多家 App 之上的超级 AI 入口，掌握了新的分发权。
-这动的不是某一家的奶酪，是整个移动互联网的分发生态。
-纵观历史，任何一项新技术从实验室走向大规模商业落地，都必然涉及原有玩家的利益重构。滴滴当年切入打车赛道为什么难？因为要和本地出租车市场、交通政策反复磨合，还有车辆合规、司机准入等监管问题
-豆包手机面对的，是同样的问题，只是盘子大得多。
-AI 的商业化卡点，已经不在技术，而在生态。
-现在整个 AI 行业的商业化路径，正在殊途同归，那就是重构生态，进入真实场景。
-
-豆包手机的选择，和腾讯 WorkBuddy 开放平台官宣接入百家硬件厂商的逻辑本质如出一辙。都是在引入更多生态玩家，重新定义分发规则，掌握更多场景和数据。
-为什么场景和数据这么重要？
-过去各家 App 的数据都有显著的场…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6466908"
-                        open
-                      >
-                        <summary class="article-expander__title">开源个 Skill，帮你用代码低成本生成产品宣传片</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6466908.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/13/454199ea-d9ea-11ed-889f-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>GPT-6 Astra 直接读取代码库，自动生成产品宣传片，从组件、配色到配乐全由代码渲染。作者将这套方法打包成 Skill，无需视频生成 API，成本极低且可精确编辑。本文通过三个案例拆解其技术细节与产品化思路，探讨 AI 时代内容生产的新分水岭。
-
-前几天我拿 GPT-6 Astra 在自己的 CodePilot 项目做了个版本更新的宣传片。效果出乎意料地好。
-它直接读了我的代码库，把产品的组件、配色、Logo 拿来用，自己组织卖点、写文案、做动画。
-发出来以后大家都想学着做。
-于是我把整套做法整理成了一个 Skill，guizang-product-video-skill（https://github.com/op7418/guizang-product-video-skill）。
-为什么藏师傅要做这个
-两件事让我觉得值得打包成 Skill。
-纯前端代码渲染，不依赖视频生成模型。
-整个视频的画面是 React 组件加时间轴渲染的，配乐是 Python 代码合成的，音效是预制的 WAV。
-
-不需要调图片或视频生成的 API，也不需要额外准备素材。成本很低，弱一些的模型也跑得动。
-
-另一件是它跟你的代码库绑得很紧。
-每次执行的时候，它会去读你的仓库，找到组件、样式、字体、Logo、配色，然后用这些东西来构建画面。
-你想介绍最近更新了什么，说一句话就行，不用自己准备文案和截图，它直接输出一支跟你产品审美一致的视频。
-
-接下来从几个案例来看一下它的能力和一些效果：
-案例一：CodePilot 我自己的项目
-这是我最先跑的案例，也是打磨最多的一个。
-它读完 CodePilot 的代码库之后，把最近几周的更新梳理成了几组卖点。
-围绕每一组，先出一张大字标题卡，再接一段真实组件的特写动画。
-比如讲模型切换，它会直接把 CodePilot 的模型选择器组件拿出来，展示三种运行方式的切…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6466906"
-                        open
-                      >
-                        <summary class="article-expander__title">WorkBuddy+Miora，下一代爆款短片工作台来了！（附3个神级Skill）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6466906.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/14/2ecb8e6e-da8f-11ed-aeb8-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>AI短片创作不再需要死磕提示词！作者开源了导演Skills合集，包含视觉资产、动作打戏和Miora视频执行规范三个Skill，结合WorkBuddy内置的Seedream-5.0-pro和H3模型，手把手教你从剧本到成片的全流程。即使小白也能快速产出高质量末日废土3D动画，执行力才是AI时代的关键。
-
-之前就有朋友在评论区问，想让我出一期“普通人怎么写这种高质量视频提示词”的教程文章。
-OK，所以今天这期它来了，特别适合帮助小白同学去产出高质量的 AI 短片。
-你甚至都不用死磕提示词了，因为我把制作过程沉淀成了 3 个 skill：
-视觉资产提示词Skill；
-动作打戏提示词Skill；
-Miora视频执行规范Skill。
-都收录到我之前开源的导演Skills合集里面啦，你们直接拿来用就 OK 了，非常简单～
-https://github.com/kangarooking/director-skills
-
-冲着这份诚意，先来个三连吧
-话不多说，开始喂饭！
-1 工具选择
-Skill是需要丢给Agent去使用的，这次工具选择了WorkBuddy，因为我发现它最近内置了图片、视频生成功能。
-并且，内置的是Seedream-5.0-pro和H3这两个兼顾效果和低价的性价比非常高的图片/视频模型。
-据说，后续也会支持更多主流/热门视频模型。
-
-打开 WorkBuddy（下文简称WB），选择“设计创意”，下方有多个设计相关的选项，我们主要会用到“生成图片”和“生成视频”这两个选项来进行创作。
-而且我发现，这两个选项都会通过 MCP 调用 Miora 的创建画布生成图片、视频。
-
-Miora我之前专门写过一篇文章来介绍，它是腾讯的一款强大的设计Agent，也非常好用，这次居然直接跟workbuddy打通了。workbuddy不愧是腾讯心头好。
-我这次打算参考B站上知名的国创动漫《灵笼》的…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6466902"
-                        open
-                      >
-                        <summary class="article-expander__title">外网 3500 万人围观的 Jev 模型，有这 10 个神奇玩法。</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6466902.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2025/08/19/f93361ca-7cb0-11f0-977d-00163e09d72f.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>外网最新走红的大模型 Jev，主打的是帮 AI 快速做选择：玩游戏时决定往哪走，处理资料时判断哪些内容有用，用更低的成本、更快的速度给出下一步决定。作者搜罗了一批网友实测，从同时跑 50 局《地铁跑酷》到模拟自动驾驶，玩法相当开脑洞。
-
-Jev 大模型刚发布，就在外网获得大量的讨论。
-目前它应该是外网最火的大模型。
-Jev 的创始人之前是 OpenAI 的员工，参与 InstructGPT 和人类反馈强化学习的研究。
-现在他推出了这个很创新的大模型。
-
-Jev 大模型是一个专门帮 AI 快速做选择的模型，比如玩游戏时决定往哪走、处理资料时判断哪些内容有用。
-
-相比 GPT、Claude 擅长写文章、 写代码、做分析，Jev 更专注于用更低的成本、更快的速度，给出下一步决定。
-
-有人说它是AI 界的蜜雪冰城。
-每百万输入 Token 收费 0.042 美元，输出免费。
-这个模型刚出来的时候，我就在想，这不就是大模型的子集？能完成什么任务？能有什么应用场景？
-近期网友都在实测 Jev 模型，确实有很多很有意思的玩法。
-搜集了一批，可以看看。
-01 同时跑 50 局跑酷
-让 Jev 玩经典的跑酷游戏《地铁跑酷》，让它不断选择下一步动作。
-前方出现障碍物，角色需要及时换道、跳跃或躲避。
-https://x.com/_MaxBlade/status/2100634359099232678
-这个网友还同时运行了 50 局游戏的效果。
-这次运行的费用不到 1 美分。。
-一次换道只需要做一个小判断，但游戏要反复做出选择。
-50 局同时运行，调用次数很快就会增加，单次判断的速度和价格也就变得重要。
-02 让 Jev 玩《超级马里奥兄弟》
-确实很多人在让 Jev 玩游戏，比如让 Jev 玩《超级马里奥兄弟》的。
-这个游戏的规则很清晰。
-向前走，遇到障碍和敌人及时做出反应。动作之间的等待，会影响…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6466898"
-                        open
-                      >
-                        <summary class="article-expander__title">分享一个帮我快速把陌生领域方法论做成skill的新技巧</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6466898.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2023/04/13/6ffc47c2-d9de-11ed-9d2f-00163e0b5ff3.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>如果有个领域自己只懂点皮毛，怎么快速把方法论搭成能用的 skill？作者刷到一个方法叫 QBS：把卡住的问题丢给模型，让它去找书、完整读相关章节，再把书里的方法提炼成可直接用的规则，最后拿新任务试跑验证。第一个被解决的是时间管理。
-
-如果说GPT-6和Fable 5.1的好处是让我可以删掉大部分skill，坏处就是剩下那些删不掉的要用到更多的专业知识去二次优化。
-那如果这个领域我自己本来就只了解点皮毛，要怎么快速把这个skill搭出来呢？
-最近我在X上刷到一个方法叫QBS，就是你有个卡住的问题，让gpt6去找能解决这个问题的书，自己完整读相关章节，再把方法提炼成一套能直接用的规则skill，再拿一个新任务测试一把。
-整个流程就是Question问题→ Book书籍 → Skill，就这三步。
-提示语我也整好了，
-我现在有一个问题：[把具体问题写在这里]。
-帮我找一本能解决这个问题的书，完整读相关章节，然后把书里的方法提炼成直接用的skill。
- 
-要求：
-1. 告诉我你找到了哪本书，为什么选它
-2. 说清楚你实际读了哪些章节
-3. 把方法变成具体的操作步骤，不要只给理论
-4. 用一个新的实际场景试跑一遍，证明这套规则能用
-5. 如果没找到书或者读不到正文，直接告诉我，不要硬编
-
-我拿它解决的第一个问题，就是平时最痛的时间管理。
-怎么说呢，我现在一天下来，Codex后台挂着七八个任务，飞书上还有团队的东西要看。一天下来产出了十几二十个结果。
-
-但如果问我，今天做了什么？注意力被多个执行结果切割开来的结果就是我没记住几个完成的信息，就好像一直在看结果，处理中断，再看下一个结果。
-我把这个问题丢给了QBS。
-gpt6帮我找到了一本书，Jake Knapp和 John Zeratsky写的《Make Time》。
-这两个人的背景挺有意思的。Jake Knapp在 Google待了十…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6466894"
-                        open
-                      >
-                        <summary class="article-expander__title">多 Agent 协作的最大瓶颈不是模型，是你自己</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/ai/6466894.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2024/07/02/083e0566-386b-11ef-90af-00163e142b65.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>专为 AI Agent 打造的终端工作区管理器正在开发者圈子里走红。跟 tmux 最大的不同，是面板里的 Agent 能直接互相通信，读能力、发消息、接结果都在终端完成，不用 MCP 协议。配上可点击的面板与实时状态，一个人也能把多个 Agent 排成流水线。
-
-先给你看个好玩的。
-Shopify CEO Tobi Lütke 上个月发了条推，50 万+浏览，说他最喜欢向别人介绍 Herdr 的方式是：打开一个新工作区，启动一个 Agent，然后告诉它。
-“阅读 herdr –skill，然后分割出另外 10 个面板，让我的电脑看起来像电影里那些科幻黑客终端。”
-
-
-然后 Agent 真的就自己拆了 10 个面板出来，Matrix 字符雨、十六进制数据流、端口扫描动画、二进制瀑布……全是伪造的，但效果贼炸裂。
-你可能觉得这就是个炫技的花活。
-但是等一下，Agent 刚才干了什么？它读懂了 Herdr 的能力，然后自己创建了 10 个终端面板，在每个面板里启动了不同的程序，还给每个面板起了名字。
-一个 Agent，操控了整个终端工作区。
-这才是 Herdr 真正厉害的地方。
-上篇讲了云端协作，这篇聊终端方案
-前段时间我写了 Tutti.VM，解决的是多个 Agent 之间“互相不认识”的问题，通过云端 Room 共享工作实况，不用你在中间当翻译。
-发完之后有读者的反馈让我想了一下：如果不需要跨设备、不需要多人协作，就一个人在终端里开几个 Agent 干活，有没有更轻量的方案？
-有。就是今天要聊的 Herdr。
-
-GitHub 37K+ star，拿了 YC 的投资，最近在开发者社区里直接杀疯了。
-一句话说清楚它是什么：一个专门为 AI Agent 设计的终端工作区管理器。
-跟 tmux 有什么区别
-用过 tmux 的人可能会说，这不就是又一个终端复用器吗？
-还真不是。
-tmu…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6466839"
-                        open
-                      >
-                        <summary class="article-expander__title">用 AI 在闲鱼卖货，真的能出单吗？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/share/6466839.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/2024/07/01/96bde29a-3779-11ef-89ea-00163e142b65.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>闲鱼官方数据显示，2026 年上半年平台 AI 服务订单量达到 981.6 万单，同比暴涨 157%。不用囤货、不用发货，靠 AI 帮人做头像、写总结、做 PPT 就能收钱，但多数人一个月只赚几百块。这里拆解卖服务与无货源两种模式，说清新手该从哪一类入手。
-
-你刷闲鱼的时候，有没有注意到最近多了一堆奇怪的商品？
-“AI头像定制128元一张”“AI代写工作总结200元”“AI做PPT 99元一套”——点进去一看，卖家什么实物都没有，就是用AI帮你干活，然后收钱。
-听起来是不是有点不可思议？不用囤货、不用发货、不用见面，就在网上用AI帮人做东西，真的能赚到钱吗？
-还真能。闲鱼官方数据显示，2026年上半年平台上AI服务订单量达到981.6万单，同比暴涨157%，半年里有近500万人在闲鱼买过AI服务（来源：中国新闻网2026年7月29日、闲鱼官方数据）。
-但数据归数据，普通人进去到底能不能出单？今天就把这事说清楚。
-先搞清楚：闲鱼上AI卖货，卖的到底是什么？
-很多人一听“AI在闲鱼卖货”，第一反应是“用AI做商品然后卖”。其实不是，主要是两种模式，完全不一样。
-第一种：卖AI服务。你帮别人用AI做东西，收服务费。比如帮人画头像、写文案、做PPT、做短视频。客户付钱，你用AI干活，交付成品。这是目前闲鱼上最主流的AI卖货方式。
-
-第二种：卖实物商品。用AI帮你生成商品图、写商品文案，然后去拼多多或1688找低价货源，加价挂在闲鱼上卖。客户下单后你直接让货源发货，你赚差价。这个叫“无货源”模式，AI主要帮你省了做图和写文案的时间。
-两种模式门槛都不高，但能不能出单，差别很大，一个个说。
-第一种模式：卖AI服务，到底什么最好卖？
-闲鱼上AI服务的品类很多，但从公开数据看，卖得最好的就那么几类。
-服务类型
-大概价格
-需求大不大
-
-
-AI头像/绘画定制
-128—298元/张
-大
-
-
-AI…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.woshipm.com/?p&#x3D;6466837"
-                        open
-                      >
-                        <summary class="article-expander__title">实测AI办公三强：豆包全能、WorkBuddy够稳、千问还得加把劲</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.woshipm.com/evaluating/6466837.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.woshipm.com/wp-files/sha256/0a/2a/0a2aa8e55d390a2f459f5b7d9610d48c61fc28428c32fcef4fa264b8d261954b.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>9 月以来办公 Agent 又迎来一轮密集更新，阿里的千问办公、腾讯的 WorkBuddy 与字节的豆包工作正面相遇。作者把市场营销、内容运营、产品经理和前端开发四类任务分别交给三家，从竞品报告、贝果物料到原型与代码逐项对比，并给出更适合谁的建议。
-
-9月以来，办公Agent又迎来一轮密集更新。
-阿里的千问办公、腾讯的WorkBuddy和字节的豆包工作，三家又一次迎来正面对决。
-豆包工作的更新频率最高。9月2日，它上线了多Agents并行和操作电脑功能；一周后，又补上本地Office编辑、浏览器录制与回放，以及本地与云电脑的自由切换。9月15日，豆包工作和飞书共同发布豆包工作伙伴，让Agent加入群聊，接收不同成员交来的任务。
-另外两家也在加速。9月7日，千问办公推出多人工作台，用自然语言描述需求，就能生成一个最多支持百人同时在线协作的网页应用。此前，它宣布上线刚满一个月，用户数已经突破3000万。9月2日，WorkBuddy开放平台正式上线，首批集结超百家生态伙伴，支持接入智能眼镜、录音卡片、智能耳机等十几个品类的硬件，腾讯同步发布了9款联名硬件。
-这一轮更新，有一个共同方向，办公Agent正在进入更多真实的工作场景。电脑里的文件、群聊里的讨论、随身设备记录的信息，都可能成为它理解任务的线索。
-当功能越来越像，普通用户到底怎么选？
-我们选了市场营销、内容运营、产品经理和开发四类工作，分别设置真实工作任务，交给千问办公、豆包工作和WorkBuddy完成，调用了它们自己最新的旗舰模型，三家的表现如下：
-豆包工作整体领先，多模态能力较强，适合工作中图片、视频等创意呈现需求高的人群；
-WorkBuddy的产品设计用起来顺手，尤其适合有轻度开发需求的人群；
-千问办公中规中矩甚至可以说平平无奇，但基础的办公任务可以完成。
-接下来，具体看看它们的表现。
-01 市场营销：千问谨慎、Wor…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-09-19 datetime="2026-09-19T16:13:26.000Z">2026-09-19</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-09-19 datetime="2026-09-19T16:13:26.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >QiuQuan&#x27;s Blog</button>
-                  <a class="source-heading__link" href="https://www.qiuquan.org">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://www.qiuquan.org/?p&#x3D;13617"
-                        open
-                      >
-                        <summary class="article-expander__title">视频转换 VideoProc Converter AI 8.12.0 直装破解版</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.org/convert/videoprocconverterai.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.qiuquan.org/wp-content/uploads/2025/10/VideoProcConverterAI-150x150.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>VideoProc Converter AI是一款性能全面的视频处理软件，基于先进的智能AI技术，它提供高度自动化的视频编辑体验，无论专业创作者还是普通用户，都能快速上手，软件能够提升视频的质量与清晰度，通过简单的操作就可以完成对影像、图片等素材进行AI画质强化。VideoProc Converter AI支持多种格式的视频导入，还有剪辑、添加字幕、合并片段等功能，支持多任务并行处理，覆盖绝大多数视频处理场景。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.qiuquan.org/?p&#x3D;16982"
-                        open
-                      >
-                        <summary class="article-expander__title">PDF文件合并 PDF Combine Pro 4.2.0.202 中文直装破解版</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.org/other/pdfcombinepro.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.qiuquan.org/wp-content/uploads/2026/06/PDFCombinePro-150x150.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>CoolUtils PDF Combine Pro 是一款专业高效的PDF文档批量合并工具。它允许用户将多个PDF文件快速合并为一个单一的、高质量的PDF文档，
-页面顺序、添加水印和密码保护，是办公人员、学生和出版工作者的得力助手。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.qiuquan.org/?p&#x3D;18518"
-                        open
-                      >
-                        <summary class="article-expander__title">安卓应用——万兴喵影 Wondershare Filmora 15.6.99 解锁专业版</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.qiuquan.org/androidsoft/filmoraapp.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.qiuquan.org/wp-content/uploads/2025/08/Filmora-150x150.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>万兴喵影App是一款国产视频剪辑软件，集智能语音转字幕、音乐卡点、专业级调色、绿幕抠像及关键帧动画等核心功能于一体，无论是视频编辑、音频处理，还是字幕动画、文字跟踪与特效滤镜，均能满足从入门到进阶的创作需求。其简洁直观的界面设计，让零基础用户也能轻松上手，快速掌握剪辑技巧。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
       <section class="daily-content js-toggle-accordions-scope">
@@ -28199,8 +28331,8 @@ WorkBuddy的产品设计用起来顺手，尤其适合有轻度开发需求的�
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/allceo/feed/actions/runs/39194602019">
-        <time id="build-timestamp" datetime="2026-10-19T03:26:14.263Z">2026-10-19T03:26:14.263Z</time>
+      <a class="footer-link" href="https://github.com/allceo/feed/actions/runs/39365001938">
+        <time id="build-timestamp" datetime="2026-10-20T03:35:21.349Z">2026-10-20T03:35:21.349Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
